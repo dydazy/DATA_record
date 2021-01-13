@@ -1,0 +1,2176 @@
+{
+"name":""
+,"children": [
+	{
+	"name":"Archaeplastida"
+	,"children": [
+		{
+		"name":"Rhodophyta"
+		,"children": [
+			{
+			"name":""
+			,"children": [
+				{
+				"name":"Cyanidiaphytina"
+				,"children": [
+					{
+					"name":""
+					,"children": [
+						{
+						"name":"Cyanidiophyceae"
+						,"children": [
+							{
+							"name":""
+							,"children": [
+								{
+								"name":"Cyanidiales"
+								,"children": [
+									{
+									"name":"Cyanidiaceae"
+									,"children": [
+										{
+										"GenomeSize":"17",
+										"name":"Cyanidioschyzon merolae",
+										"className":"rhodophyt",
+										"ScientificName":"Cyanidioschyzon merolae",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2004",
+											"PubDoi":"10.1038/nature02398",
+											"Authorship":"Matsuzaki M et al.",
+											"PubDate":"2004-04-09",
+											"Title":"Genome sequence of the ultrasmall unicellular red alga Cyanidioschyzon merolae 10D.",
+											"PubMed":"15071595",
+											"Source":"Nature. 2004 Apr 8 428(6983):653-7."
+											}
+											]
+										}
+										,{"name":"Cyanidiococcus yangmingshanensis","ScientificName":"Cyanidiococcus yangmingshanensis","CommonName":"","GenomeSize":"12","className":"rhodophyt","Refs":[{"Authorship":"Liu SL et al.","Title":"Comparative genome analysis reveals Cyanidiococcus gen. nov., a new extremophilic red algal genus sister to Cyanidioschyzon (Cyanidioschyzonaceae, Rhodophyta).","Source":"J Phycol. 2020 Jul 29. Online ahead of print.","PubDoi":"10.1111/jpy.13056","PubDate":"2020-07-29","PubYear":"2020"}]}
+										,{
+										"GenomeSize":"14",
+										"name":"Galdieria sulphuraria",
+										"className":"rhodophyt",
+										"ScientificName":"Galdieria sulphuraria",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2013",
+											"PubDoi":"10.1126/science.1231707",
+											"Authorship":"Schonknecht G et al.",
+											"PubDate":"2013-03-09",
+											"Title":"Gene transfer from bacteria and archaea facilitated evolution of an extremophilic eukaryote.",
+											"PubMed":"23471408",
+											"Source":"Science. 2013 Mar 8 339(6124):1207-10."
+											}
+											]
+										}
+										,{
+										"GenomeSize":"11.4",
+										"name":"Galdieria phlegrea",
+										"className":"rhodophyt",
+										"ScientificName":"Galdieria phlegrea",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2013",
+											"PubDoi":"10.1016/j.cub.2013.08.046",
+											"Authorship":"Qiu H et al.",
+											"PubDate":"2013-10-07",
+											"Title":"Adaptation through horizontal gene transfer in the cryptoendolithic red alga Galdieria phlegrea.",
+											"PubMed":"24112977",
+											"Source":"Curr Biol. 2013 Oct 7 23(19):R865-6."
+											}
+											]
+										}
+										]
+									}
+									]
+								}
+								]
+							}
+							]
+						}
+						]
+					}
+					]
+				}
+				,{
+				"name":"Rhodophytina"
+				,"children": [
+					{
+					"name":""
+					,"children": [
+						{
+						"name":"Florideophyceae"
+						,"children": [
+							{
+							"name":""
+							,"children": [
+								{
+								"name":"Gigartinales"
+								,"children": [
+									{
+									"name":"Gigartinaceae"
+									,"children": [
+										{
+										"GenomeSize":"105",
+										"name":"Chondrus crispus",
+										"className":"rhodophyt",
+										"ScientificName":"Chondrus crispus",
+										"CommonName":"Carrageen moss"
+										,"Refs": [
+											{
+											"PubYear":"2013",
+											"PubDoi":"10.1073/pnas.1221259110",
+											"Authorship":"Collen J et al.",
+											"PubDate":"2013-03-19",
+											"Title":"Genome structure and metabolic features in the red seaweed Chondrus crispus shed light on evolution of the Archaeplastida.",
+											"PubMed":"23503846",
+											"Source":"Proc Natl Acad Sci U S A. 2013 Mar 26 110(13):5247-52. Epub 2013 Mar 15."
+											}
+											]
+										}
+										]
+									}
+									]
+								}
+								,{
+								"name":"Gracilariales"
+								,"children": [
+									{
+									"name":"Gracilariaceae"
+									,"children": [
+										{
+										"GenomeSize":"97",
+										"name":"Gracilariopsis lemaneiformis",
+										"className":"rhodophyt",
+										"ScientificName":"Gracilariopsis lemaneiformis",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2013",
+											"PubDoi":"10.1371/journal.pone.0069909",
+											"Authorship":"Zhou W et al.",
+											"PubDate":"2013-07-16",
+											"Title":"Genome survey sequencing and genetic background characterization of Gracilariopsis lemaneiformis (Rhodophyta) based on next-generation sequencing.",
+											"PubMed":"23875008",
+											"Source":"PLoS One. 2013 Jul 16 8(7):e69909. Print 2013."
+											}
+											,{
+											"PubYear":"2018",
+											"PubDoi":"10.1186/s12870-018-1309-2",
+											"Authorship":"Sun X et al.",
+											"PubDate":"2018-05-25",
+											"Title":"Genomic analyses of unique carbohydrate and phytohormone metabolism in the macroalga Gracilariopsis lemaneiformis (Rhodophyta).",
+											"Source":"BMC Plant Biol. 2018 May 25, 18(1):94"
+											}
+											]
+										}
+										,{
+										"GenomeSize":"92",
+										"name":"Gracilariopsis chorda",
+										"className":"rhodophyt",
+										"ScientificName":"Gracilariopsis chorda",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2018",
+											"PubDoi":"10.1093/molbev/msy081",
+											"Authorship":"Lee J et al.",
+											"PubDate":"2018-04-23",
+											"Title":"Analysis of the draft genome of the red seaweed Gracilariopsis chorda provides insights into genome size evolution in Rhodophyta.",
+											"Source":"Mol Biol Evol. 2018 Apr 23, Epub ahead of print"
+											}
+											]
+										}
+										]
+									}
+									]
+								}
+								]
+							}
+							]
+						}
+						]
+					}
+					,{
+					"name":""
+					,"children": [
+						{
+						"name":"Bangiophyceae"
+						,"children": [
+							{
+							"name":""
+							,"children": [
+								{
+								"name":"Bangiales"
+								,"children": [
+									{
+									"name":"Bangiaceae"
+									,"children": [
+										{
+										"GenomeSize":"43",
+										"name":"Pyropia yezoensis",
+										"className":"rhodophyt",
+										"ScientificName":"Pyropia yezoensis",
+										"CommonName":"Susabi-nori"
+										,"Refs": [
+											{
+											"PubYear":"2013",
+											"PubDoi":"10.1371/journal.pone.0057122",
+											"Authorship":"Nakamura Y et al.",
+											"PubDate":"2013-03-29",
+											"Title":"The first symbiont-free genome sequence of marine red alga, Susabi-nori (Pyropia yezoensis).",
+											"PubMed":"23536760",
+											"Source":"PLoS One. 2013 8(3):e57122. Epub 2013 Mar 11."
+											}
+											]
+										}
+										,{
+										"GenomeSize":"88",
+										"name":"Porphyra umbilicalis",
+										"className":"rhodophyt",
+										"ScientificName":"Porphyra umbilicalis",
+										"CommonName":"Laver"
+										,"Refs": [
+											{
+											"PubYear":"2017",
+											"PubDoi":"10.1073/pnas.1703088114",
+											"Authorship":"Brawley SH et al.",
+											"PubDate":"2017-07-17",
+											"Title":"Insights into the red algae and eukaryotic evolution from the genome of Porphyra umbilicalis (Bangiophyceae, Rhodophyta).",
+											"PubMed":"28716924",
+											"Source":"Proc Natl Acad Sci U S A. 2017 Aug 1 114(31):E6361-E6370. Epub 2017 Jul 17."
+											}
+											]
+										}
+										]
+									}
+									]
+								}
+								,{
+								"name":"Porphyridiales"
+								,"children": [
+									{
+									"name":"Porphyridiaceae"
+									,"children": [
+										{
+										"GenomeSize":"20",
+										"name":"Porphyridium purpureum",
+										"className":"rhodophyt",
+										"ScientificName":"Porphyridium purpureum",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2013",
+											"PubDoi":"10.1038/ncomms2931",
+											"Authorship":"Bhattacharya D et al.",
+											"PubDate":"2013-06-19",
+											"Title":"Genome of the red alga Porphyridium purpureum.",
+											"PubMed":"23770768",
+											"Source":"Nat Commun. 2013 4:1941."
+											}
+											]
+										}
+										]
+									}
+									]
+								}
+								]
+							}
+							]
+						}
+						]
+					}
+					]
+				}
+				]
+			}
+			]
+		}
+		,{
+		"name":"Glaucophyta"
+		,"children": [
+			{
+			"name":""
+			,"children": [
+				{
+				"name":""
+				,"children": [
+					{
+					"name":""
+					,"children": [
+						{
+						"name":"Glaucocystophyceae"
+						,"children": [
+							{
+							"name":""
+							,"children": [
+								{
+								"name":"Glaucocystales"
+								,"children": [
+									{
+									"name":""
+									,"children": [
+										{
+										"GenomeSize":"70",
+										"name":"Cyanophora paradoxa",
+										"className":"glaucophyt",
+										"ScientificName":"Cyanophora paradoxa",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2012",
+											"PubDoi":"10.1126/science.1213561",
+											"Authorship":"Price DC et al.",
+											"PubDate":"2012-02-22",
+											"Title":"Cyanophora paradoxa genome elucidates origin of photosynthesis in algae and plants.",
+											"PubMed":"22344442",
+											"Source":"Science. 2012 Feb 17 335(6070):843-7."
+											}
+											]
+										}
+										]
+									}
+									]
+								}
+								]
+							}
+							]
+						}
+						]
+					}
+					]
+				}
+				]
+			}
+			]
+		}
+		,{
+		"name":"Viridiplantae"
+		,"children": [
+			{
+			"name":"Prasinodermophyta"
+			,"children": [
+				{
+				"name":""
+				,"children": [
+					{
+					"name":""
+					,"children": [
+						{
+						"name":"Prasinodermophyceae"
+						,"children": [
+							{
+							"name":""
+							,"children": [
+								{
+								"name":"Prasinococcales"
+								,"children": [
+									{
+									"name":""
+									,"children": [
+										{
+										"GenomeSize":"26",
+										"name":"Prasinoderma coloniale",
+										"className":"chlorophyt",
+										"ScientificName":"Prasinoderma coloniale",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2020",
+											"PubDoi":"10.1038/s41559-020-1221-7",
+											"Authorship":"Li L et al.",
+											"PubDate":"2020-06-22",
+											"Title":"The Genome of Prasinoderma Coloniale Unveils the Existence of a Third Phylum Within Green Plants.",
+											"Source":"Nat Ecol Evol. 2020 Jun 22, Online ahead of print."
+											}
+											]
+										}
+										]
+									}
+									]
+								}
+								]
+							}
+							]
+						}
+						]
+					}
+					]
+				}
+				]
+			}
+			,{
+			"name":"Chlorophyta"
+			,"children": [
+				{
+				"name":""
+				,"children": [
+					{
+					"name":""
+					,"children": [
+						{
+						"name":"Pyramimonadophyceae"
+						,"children": [
+							{
+							"name":""
+							,"children": [
+								{
+								"name":"Pyramimonadales"
+								,"children": [
+									{
+									"name":""
+									,"children": [
+										{
+										"GenomeSize":"850",
+										"name":"Cymbomonas tetramitiformis",
+										"className":"chlorophyt",
+										"ScientificName":"Cymbomonas tetramitiformis",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2015",
+											"PubDoi":"10.1093/gbe/evv144",
+											"Authorship":"Burns JA et al.",
+											"PubDate":"2015-07-29",
+											"Title":"Comparative Genomics of a Bacterivorous Green Alga Reveals Evolutionary Causalities and Consequences of Phago-Mixotrophic Mode of Nutrition.",
+											"PubMed":"26224703",
+											"Source":"Genome Biol Evol. 2015 Jul 29 7(11):3047-61."
+											}
+											]
+										}
+										]
+									}
+									]
+								}
+								]
+							}
+							]
+						},
+						{
+						"name":"Mamiellophyceae"
+						,"children": [
+							{
+							"name":""
+							,"children": [
+								{
+								"name":"Mamiellales"
+								,"children": [
+									{
+									"name":"Bathycoccaceae"
+									,"children": [
+										{
+										"GenomeSize":"12",
+										"name":"Ostreococcus tauri",
+										"className":"chlorophyt",
+										"ScientificName":"Ostreococcus tauri",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2006",
+											"PubDoi":"10.1073/pnas.0604795103",
+											"Authorship":"Derelle E et al.",
+											"PubDate":"2006-07-27",
+											"Title":"Genome analysis of the smallest free-living eukaryote Ostreococcus tauri unveils many unique features.",
+											"PubMed":"16868079",
+											"Source":"Proc Natl Acad Sci U S A. 2006 Aug 1 103(31):11647-52. Epub 2006 Jul 25."
+											}
+											]
+										}
+										,{
+										"GenomeSize":"13",
+										"name":"Ostreococcus lucimarinus",
+										"className":"chlorophyt",
+										"ScientificName":"Ostreococcus lucimarinus",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2007",
+											"PubDoi":"10.1073/pnas.0611046104",
+											"Authorship":"Palenik B et al.",
+											"PubDate":"2007-04-27",
+											"Title":"The tiny eukaryote Ostreococcus provides genomic insights into the paradox of plankton speciation.",
+											"PubMed":"17460045",
+											"Source":"Proc Natl Acad Sci U S A. 2007 May 1 104(18):7705-10. Epub 2007 Apr 25."
+											}
+											]
+										}
+										,{
+										"GenomeSize":"15",
+										"name":"Bathycoccus prasinos",
+										"className":"chlorophyt",
+										"ScientificName":"Bathycoccus prasinos",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2012",
+											"PubDoi":"10.1186/gb-2012-13-8-r74",
+											"Authorship":"Moreau H et al.",
+											"PubDate":"2012-08-29",
+											"Title":"Gene functionalities and genome structure in Bathycoccus prasinos reflect cellular specializations at the base of the green lineage.",
+											"PubMed":"22925495",
+											"Source":"Genome Biol. 2012 Aug 24 13(8):R74."
+											}
+											]
+										}
+										]
+									}
+									,{
+									"name":"Mamiellaceae"
+									,"children": [
+										{
+										"GenomeSize":"22",
+										"name":"Micromonas pusilla",
+										"className":"chlorophyt",
+										"ScientificName":"Micromonas pusilla",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2009",
+											"PubDoi":"10.1126/science.1167222",
+											"Authorship":"Worden AZ et al.",
+											"PubDate":"2009-04-11",
+											"Title":"Green evolution and dynamic adaptations revealed by genomes of the marine picoeukaryotes Micromonas.",
+											"PubMed":"19359590",
+											"Source":"Science. 2009 Apr 10 324(5924):268-72."
+											}
+											]
+										}
+										,{
+										"GenomeSize":"21",
+										"name":"Micromonas commoda",
+										"className":"chlorophyt",
+										"ScientificName":"Micromonas commoda",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2009",
+											"PubDoi":"10.1126/science.1167222",
+											"Authorship":"Worden AZ et al.",
+											"PubDate":"2009-04-10",
+											"Title":"Green evolution and dynamic adaptations revealed by genomes of the marine picoeukaryotes Micromonas.",
+											"PubMed":"19359590",
+											"Source":"Science. 2009 Apr 10 324(5924):268-72."
+											}
+											]
+										}
+										]
+									}
+									]
+								}
+								]
+							}
+							]
+						}
+						]
+					}
+					]
+				}
+				,{
+					"name":""
+					,"children": [
+					{
+					"name":""
+					,"children": [
+						{
+						"name":"Chloropicophyceae"
+						,"children": [
+							{
+							"name":""
+							,"children": [
+								{
+								"name":"Chloropicales"
+								,"children": [
+									{
+									"name":"Chloropicaceae"
+									,"children": [
+										{
+										"GenomeSize":"17",
+										"name":"Chloropicon primus",
+										"className":"chlorophyt",
+										"ScientificName":"Chloropicon primus",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2019",
+											"PubDoi":"10.1038/s41467-019-12014-x",
+											"Authorship":"Lemieux C et al.",
+											"PubDate":"2019-09-06",
+											"Title":"A streamlined and predominantly diploid genome in the tiny marine green alga Chloropicon primus.",
+											"Source":"Nat Commun. 2019 Sep 6, 10(1): 4061"
+											}
+											]
+										}
+										]
+									}
+									]
+								}
+								]
+							}
+							]
+						}
+						]
+					}
+					]
+				}
+				,{
+				"name":"Chlorophytina"
+				,"children": [
+					{
+					"name":""
+					,"children": [
+					{
+					"name":"Chlorodendrophyceae"
+					,"children": [
+						{
+						"name":""
+						,"children": [
+							{
+							"name":"Chlorodendrales"
+							,"children": [
+								{
+								"name":""
+								,"children": [
+										{"name":"Tetraselmis striata","ScientificName":"Tetraselmis striata","CommonName":"","GenomeSize":"230","className":"chlorophyt","Refs":[{"Authorship":"Steadman-Tyler CR et al.","Title":"High-Quality Draft Genome Sequence of the Green Alga Tetraselmis striata (Chlorophyta) Generated from PacBio Sequencing.","Source":"Microbiol Resour Announc. 2019 Oct 24, 8(43) ","PubDoi":"10.1128/MRA.00780-19","PubDate":"2019-10-24","PubYear":"2019"}]}
+										]
+									}
+									]
+								}
+								]
+							}
+							]
+						}
+						]
+					},
+					{
+					"name":""
+					,"children": [
+						{
+						"name":"Trebouxiophyceae"
+						,"children": [
+							{
+							"name":""
+							,"children": [
+								{
+								"name":"Trebouxiales"
+								,"children": [
+									{
+									"name":"Botryococcaceae"
+									,"children": [
+										{
+										"GenomeSize":"166",
+										"name":"Botryococcus braunii",
+										"className":"chlorophyt",
+										"ScientificName":"Botryococcus braunii",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2017",
+											"PubDoi":"10.1128/genomeA.00215-17",
+											"Authorship":"Browne DR et al.",
+											"PubDate":"2017-04-20",
+											"Title":"Draft Nuclear Genome Sequence of the Liquid Hydrocarbon–Accumulating Green Microalga Botryococcus braunii Race B (Showa)",
+											"PubMed":"28428306",
+											"Source":"Genome Announc. 2017 Apr 20 5(16)."
+											}
+											]
+										}
+										]
+									},
+									{
+									"name":"Trebouxiaceae"
+									,"children": [
+										{"name":"Asterochloris glomerata","ScientificName":"Asterochloris glomerata","CommonName":"","GenomeSize":"56","className":"chlorophyt","Refs":[{"Authorship":"Armaleo D et al.","Title":" The lichen symbiosis re-viewed through the genomes of Cladonia grayi and its algal partner Asterochloris glomerata.","Source":"BMC Genomics. 2019 Jul 23, 20(1): 605","PubDoi":"10.1186/s12864-019-5629-x","PubDate":"2019-07-23","PubYear":"2019"}]}
+										]
+									}
+									]
+								}
+								]
+							}
+							,{
+							"name":""
+							,"children": [
+								{
+								"name":"T.ordo incertae sedis"
+								,"children": [
+									{
+									"name":"T.incertae sedis"
+									,"children": [
+										{
+										"GenomeSize":"53",
+										"name":"Chloroidium sp.",
+										"className":"chlorophyt",
+										"ScientificName":"Chloroidium sp.",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2017",
+											"PubDoi":"10.7554/eLife.25783",
+											"Authorship":"Nelson DR et al.",
+											"PubDate":"2017-06-17",
+											"Title":"The genome and phenome of the green alga Chloroidium sp. UTEX 3007 reveal adaptive traits for desert acclimatization.",
+											"Source":"Elife. 2017 Jun 17"
+											}
+											]
+										}
+										]
+									}
+									,{
+									"name":"Coccomyxaceae"
+									,"children": [
+										{
+										"GenomeSize":"49",
+										"name":"Coccomyxa subellipsoidea",
+										"className":"chlorophyt",
+										"ScientificName":"Coccomyxa subellipsoidea",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2012",
+											"PubDoi":"10.1186/gb-2012-13-5-r39",
+											"Authorship":"Blanc G et al.",
+											"PubDate":"2012-05-29",
+											"Title":"The genome of the polar eukaryotic microalga Coccomyxa subellipsoidea reveals traits of cold adaptation.",
+											"PubMed":"22630137",
+											"Source":"Genome Biol. 2012 May 25 13(5):R39."
+											}
+											]
+										}
+										]
+									}
+									]
+								}
+								]
+							}
+							,{
+							"name":""
+							,"children": [
+								{
+								"name":"Chlorellales"
+								,"children": [
+									{
+									"name":"C.insertae sedis"
+									,"children": [
+										{
+										"GenomeSize":"14",
+										"name":"Picochlorum sp.",
+										"className":"chlorophyt",
+										"ScientificName":"Picochlorum sp.",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2014",
+											"PubDoi":"10.1111/1462-2920.12541",
+											"Authorship":"Foflonker F et al.",
+											"PubDate":"2014-06-27",
+											"Title":"Genome of the halotolerant green alga Picochlorum sp. reveals strategies for thriving under fluctuating environmental conditions.",
+											"Source":"Environ Microbiol. 2014 Jun 25. Epub ahead of print"
+											}
+											]
+										}
+										,{
+										"GenomeSize":"13.3",
+										"name":"Picochlorum costavermella",
+										"className":"chlorophyt",
+										"ScientificName":"Picochlorum costavermella",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2018",
+											"PubDoi":"10.1093/gbe/evy167",
+											"Authorship":"Krasovec M et al.",
+											"PubDate":"2018-09-01",
+											"Title":"Genome Analyses of the Microalga Picochlorum Provide Insights into the Evolution of Thermotolerance in the Green Lineage.",
+											"Source":"Genome Biol. Evol. 10(9): 2347-2365"
+											}
+											]
+										},
+										{"name":"Picochlorum soloecismus","ScientificName":"Picochlorum soloecismus","CommonName":"","GenomeSize":"15","className":"chlorophyt","Refs":[{"Authorship":"Gonzalez-Esquer CR et al.","Title":"Nuclear, Chloroplast, and Mitochondrial Genome Sequences of the Prospective Microalgal Biofuel Strain Picochlorum soloecismus.","Source":"Genome Announc. 2018 Jan 25, 6(4).","PubDoi":"10.1128/genomeA.01498-17","PubDate":"2018-01-25","PubYear":"2018"}]}
+										]
+									}
+									,{
+									"name":"Chlorellaceae"
+									,"children": [
+										{
+										"GenomeSize":"63",
+										"name":"Parachlorella kessleri",
+										"className":"chlorophyt",
+										"ScientificName":"Parachlorella kessleri",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2016",
+											"PubDoi":"10.1186/s13068-016-0424-2",
+											"Authorship":"Ota S et al.",
+											"PubDate":"2016-01-25",
+											"Title":"Highly efficient lipid production in the green alga Parachlorella kessleri: draft genome and transcriptome endorsed by whole - cell 3D ultrastructure",
+											"PubMed":"26811738",
+											"Source":"Biotechnol Biofuels. 2016 Jan 25 9:13. eCollection 2016."
+											}
+											]
+										}
+										,{
+										"GenomeSize":"46",
+										"name":"Chlorella variabilis",
+										"className":"chlorophyt",
+										"ScientificName":"Chlorella variabilis",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2010",
+											"PubDoi":"10.1105/tpc.110.076406",
+											"Authorship":"Blanc G et al.",
+											"PubDate":"2010-09-21",
+											"Title":"The Chlorella variabilis NC64A genome reveals adaptation to photosymbiosis, coevolution with viruses, and cryptic sex.",
+											"PubMed":"20852019",
+											"Source":"Plant Cell. 2010 Sep 22(9):2943-55. Epub 2010 Sep 17."
+											}
+											]
+										}
+										,{
+										"GenomeSize":"60",
+										"name":"Chlorella sorokiniana",
+										"className":"chlorophyt",
+										"ScientificName":"Chlorella sorokiniana",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2017",
+											"PubDoi":"10.1111/tpj.13789",
+											"Authorship":"Arriola MB et al.",
+											"PubDate":"2017-11-27",
+											"Title":"Genome Sequences of Chlorella sorokiniana UTEX 1602 and Micractinium conductrix SAG 241.80: Implications to Maltose Excretion by a Green Alga",
+											"Source":"Plant J. 2017 Nov 27, Epub ahead of print"
+											}
+											]
+										}
+										,{
+										"GenomeSize":"37",
+										"name":"Chlorella vulgaris",
+										"className":"chlorophyt",
+										"ScientificName":"Chlorella vulgaris"
+										,"Refs": [
+											{
+											"PubYear":"2018",
+											"PubDoi":"10.3389/fbioe.2018.00037",
+											"Authorship":"Guarnieri MT et al.",
+											"PubDate":"2018-04-05",
+											"Title":"Genome Sequence of the Oleaginous Green Alga, Chlorella vulgaris UTEX 395.",
+											"Source":"Front Bioeng Biotechnol. 2018 Apr 5, 6: 37"
+											}
+											,{
+											"PubYear":"2019",
+											"PubDoi":"10.1111/tpj.14508",
+											"Authorship":"Cecchin M et al.",
+											"PubDate":"2019-08-22",
+											"Title":"Chlorella vulgaris genome assembly and annotation reveals the molecular basis for metabolic acclimation to high light conditions.",
+											"Source":"Plant J. 2019 Aug 22, Epub ahead of print"
+											}
+											]
+										}
+										,{
+										"GenomeSize":"61",
+										"name":"Micractinium conductrix",
+										"className":"chlorophyt",
+										"ScientificName":"Micractinium conductrix",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2017",
+											"PubDoi":"10.1111/tpj.13789",
+											"Authorship":"Arriola MB et al.",
+											"PubDate":"2017-11-27",
+											"Title":"Genome Sequences of Chlorella sorokiniana UTEX 1602 and Micractinium conductrix SAG 241.80: Implications to Maltose Excretion by a Green Alga",
+											"Source":"Plant J. 2017 Nov 27, Epub ahead of print"
+											}
+											]
+										}
+										,{
+										"GenomeSize":"23",
+										"name":"Auxenochlorella protothecoides",
+										"className":"chlorophyt",
+										"ScientificName":"Auxenochlorella protothecoides",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2014",
+											"PubDoi":"10.1186/1471-2164-15-582",
+											"Authorship":"Gao C et al.",
+											"PubDate":"2014-07-10",
+											"Title":"Oil accumulation mechanisms of the oleaginous microalga Chlorella protothecoides revealed through its genome, transcriptomes, and proteomes.",
+											"Source":"BMC Genomics. 2014 Jul 10, 15:582"
+											}
+											]
+										}
+										,{
+										"GenomeSize":"57",
+										"name":"Auxenochlorella pyrenoidosa",
+										"className":"chlorophyt",
+										"ScientificName":"Auxenochlorella pyrenoidosa",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2015",
+											"PubDoi":"10.1104/pp.15.01174",
+											"Authorship":"Fan J et al.",
+											"PubDate":"2015-10-20",
+											"Title":"Genomic Foundation of Starch to Lipid Switch in Oleaginous Chlorella.",
+											"Source":"Plant Physiol. 2015 Dec, 169(4):2444-61."
+											}
+											]
+										}
+										,{
+										"GenomeSize":"13",
+										"name":"Helicosporidium sp.",
+										"className":"chlorophyt",
+										"ScientificName":"Helicosporidium sp.",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2014",
+											"PubDoi":"10.1371/journal.pgen.1004355",
+											"Authorship":"Pombert JF et al.",
+											"PubDate":"2014-05-08",
+											"Title":"A lack of parasitic reduction in the obligate parasitic green alga Helicosporidium.",
+											"PubMed":"24809511",
+											"Source":"PLoS Genet. 2014 May 8 10(5):e1004355. eCollection 2014 May."
+											}
+											]
+										}
+										,{
+										"GenomeSize":"26",
+										"name":"Prototheca zopfii",
+										"className":"chlorophyt",
+										"ScientificName":"Prototheca zopfii",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2018",
+											"PubDoi":"10.1038/s41598-018-32992-0",
+											"Authorship":"Severgnini M et al.",
+											"PubDate":"2018-10-02",
+											"Title":"Genome sequencing of Prototheca zopfii genotypes 1 and 2 provides evidence of a severe reduction in organellar genomes.",
+											"Source":"Sci Rep. 2018 Oct 02, 8: 14637"
+											}
+											]
+										}
+										]
+									}
+									]
+								}
+								]
+							}
+							]
+						}
+						]
+					},
+					{
+					"name":""
+					,"children": [
+						{
+						"name":"Ulvophyceae"
+						,"children": [
+							{
+							"name":""
+							,"children": [
+								{
+								"name":"Ulvales"
+								,"children": [
+									{
+									"name":"Ulvaceae"
+									,"children": [
+										{
+										"GenomeSize":"100",
+										"name":"Ulva mutabilis",
+										"className":"chlorophyt",
+										"ScientificName":"Ulva mutabilis",
+										"CommonName":"Sea lettuce"
+										,"Refs": [
+											{
+											"PubYear":"2018",
+											"PubDoi":"10.1016/j.cub.2018.08.015",
+											"Authorship":"De Clerck O et al.",
+											"PubDate":"2018-09-24",
+											"Title":"Insights into the Evolution of Multicellularity from the Sea Lettuce Genome.",
+											"Source":"Curr Biol. 2018 Sep 24, 28(18): 2921-2933"
+											}
+											]
+										}
+										]
+									}
+									]
+								}
+								]
+							}
+							,{
+							"name":""
+							,"children": [
+								{
+								"name":"Bryopsidales"
+								,"children": [
+									{
+									"name":"Caulerpaceae"
+									,"children": [
+										{
+										"GenomeSize":"26",
+										"name":"Caulerpa lentillifera",
+										"className":"chlorophyt",
+										"ScientificName":"Caulerpa lentillifera",
+										"CommonName":"Okinawan sea grape"
+										,"Refs": [
+											{
+											"PubYear":"2019",
+											"PubDoi":"10.1093/dnares/dsz002",
+											"Authorship":"Arimoto A et al.",
+											"PubDate":"2019-03-28",
+											"Title":"A siphonous macroalgal genome suggests convergent functions of homeobox genes in algae and land plants.",
+											"Source":"DNA Res. 2019 Mar 28, Epub ahead of print"
+											}
+											]
+										}
+										]
+									}
+									]
+								}
+								]
+							}
+							]
+						},
+						{
+						"name":"Chlorophyceae"
+						,"children": [
+							{
+							"name":""
+							,"children": [
+								{
+								"name":"Chlamydomonadales"
+								,"children": [
+									{
+									"name":"Chlamydomonadaceae"
+									,"children": [
+										{
+										"GenomeSize":"121",
+										"name":"Chlamydomonas reinhardtii",
+										"className":"chlorophyt",
+										"ScientificName":"Chlamydomonas reinhardtii",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2007",
+											"PubDoi":"10.1126/science.1143609",
+											"Authorship":"Merchant SS et al.",
+											"PubDate":"2007-10-13",
+											"Title":"The Chlamydomonas genome reveals the evolution of key animal and plant functions.",
+											"PubMed":"17932292",
+											"Source":"Science. 2007 Oct 12 318(5848):245-50."
+											}
+											]
+										}
+										,{
+										"GenomeSize":"130",
+										"name":"Chlamydomonas eustigma",
+										"className":"chlorophyt",
+										"ScientificName":"Chlamydomonas eustigma",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2017",
+											"PubDoi":"10.1073/pnas.1707072114",
+											"Authorship":"Hirooka S et al.",
+											"PubDate":"2017-09-11",
+											"Title":"Acidophilic green algal genome provides insights into adaptation to an acidic environment.",
+											"PubMed":"28893987",
+											"Source":"Proc Natl Acad Sci U S A. 2017 Sep 11. Epub ahead of print"
+											}
+											]
+										},
+										{"name":"Chlamydomonas sp. ICE-L","ScientificName":"Chlamydomonas sp. ICE-L","CommonName":"","GenomeSize":"542","className":"chlorophyt","Refs":[{"Authorship":"Zhang Z et al.","Title":"Adaptation to Extreme Antarctic Environments Revealed by the Genome of a Sea Ice Green Alga.","Source":"Curr Biol. 2020 Jul 02, online ahead of print","PubDoi":"10.1016/j.cub.2020.06.029","PubDate":"2020-07-02","PubYear":"2020"}]}
+										]
+									}
+									,{
+									"name":"Dunaliellaceae"
+									,"children": [
+											{"name":"Dunaliella salina","ScientificName":"Dunaliella salina","CommonName":"","GenomeSize":"343","className":"chlorophyt","Refs":[{"Authorship":"Polle JEW et al.","Title":"Draft Nuclear Genome Sequence of the Halophilic and Beta-Carotene-Accumulating Green Alga Dunaliella salina Strain CCAP19/18.","Source":"Genome Announc. 2017 Oct 26, 5(43): e01105-17","PubDoi":"10.1128/genomeA.01105-17","PubDate":"2017-10-26","PubYear":"2017"}]}
+										]
+									}
+									,{
+									"name":"Tetrabaenaceae"
+									,"children": [
+										{
+										"GenomeSize":"120",
+										"name":"Tetrabaena socialis",
+										"className":"chlorophyt",
+										"ScientificName":"Tetrabaena socialis",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2017",
+											"PubDoi":"10.1093/molbev/msx332",
+											"Authorship":"Featherston J et al.",
+											"PubDate":"2017-12-26",
+											"Title":"The 4-celled Tetrabaena socialis nuclear genome reveals the essential components for genetic control of cell number at the origin of multicellularity in the volvocine lineage.",
+											"Source":"Mol Biol Evol. 2017 Dec 26, Epub ahead of print"
+											}
+											]
+										}
+										]
+									}
+									,{
+									"name":"Volvovaceae"
+									,"children": [
+										{
+										"GenomeSize":"138",
+										"name":"Volvox carteri",
+										"className":"chlorophyt",
+										"ScientificName":"Volvox carteri",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2010",
+											"PubDoi":"10.1126/science.1188800",
+											"Authorship":"Prochnik SE et al.",
+											"PubDate":"2010-07-10",
+											"Title":"Genomic analysis of organismal complexity in the multicellular green alga Volvox carteri.",
+											"PubMed":"20616280",
+											"Source":"Science. 2010 Jul 9 329(5988):223-6."
+											}
+											]
+										}
+										,{
+										"GenomeSize":"149",
+										"name":"Gonium pectorale",
+										"className":"chlorophyt",
+										"ScientificName":"Gonium pectorale",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2016",
+											"PubDoi":"10.1038/ncomms11370",
+											"Authorship":"Hanschen ER et al.",
+											"PubDate":"2016-04-22",
+											"Title":"The Gonium pectorale genome demonstrates co-option of cell cycle regulation during the evolution of multicellularity.",
+											"PubMed":"27102219",
+											"Source":"Nat Commun. 2016 Apr 22 7:11370."
+											}
+											]
+										}
+										,{
+										"GenomeSize":"137",
+										"name":"Yamagishiella unicocca",
+										"className":"chlorophyt",
+										"ScientificName":"Yamagishiella unicocca",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2018",
+											"PubDoi":"10.1038/s42003-018-0019-5",
+											"Authorship":"Hamaji T et al.",
+											"PubDate":"2018-03-08",
+											"Title":"Anisogamy evolved with a reduced sex-determining region in volvocine green algae.",
+											"Source":"Commun Biol. 2018 Mar 8, 1: 17 eCollection 2018."
+											}
+											]
+										}
+										,{
+										"GenomeSize":"176",
+										"name":"Eudorina sp.",
+										"className":"chlorophyt",
+										"ScientificName":"Eudorina sp.",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2018",
+											"PubDoi":"10.1038/s42003-018-0019-5",
+											"Authorship":"Hamaji T et al.",
+											"PubDate":"2018-03-08",
+											"Title":"Anisogamy evolved with a reduced sex-determining region in volvocine green algae.",
+											"Source":"Commun Biol. 2018 Mar 8, 1: 17 eCollection 2018."
+											}
+											]
+										}
+										]
+									}
+									,{
+									"name":"Haematococcaceae"
+									,"children": [
+										{
+										"GenomeSize":"935",
+										"name":"Haematococcus pluvialis",
+										"className":"chlorophyt",
+										"ScientificName":"Haematococcus pluvialis",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2018",
+											"PubDoi":"10.1093/gbe/evy263",
+											"Authorship":"Luo Q et al.",
+											"PubDate":"2018-11-29",
+											"Title":"Genome and Transcriptome Sequencing of the Astaxanthin-Producing Green Microalga, Haematococcus pluvialis.",
+											"Source":"Genome Biol Evol. 2018 Nov 29, Epub ahead of print"
+											}
+											]
+										}
+										]
+									}
+									]
+								}
+								]
+							}
+							,{
+							"name":""
+							,"children": [
+								{
+								"name":"Sphaeropleales"
+								,"children": [
+									{
+									"name":"Chromochloridaceae"
+									,"children": [
+										{
+										"GenomeSize":"58",
+										"name":"Chromochloris zofingiensis",
+										"className":"chlorophyt",
+										"ScientificName":"Chromochloris zofingiensis",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2017",
+											"PubDoi":"10.1073/pnas.1619928114",
+											"Authorship":"Roth MS et al.",
+											"PubDate":"2017-05-08",
+											"Title":"Chromosome-level genome assembly and transcriptome of the green alga Chromochloris zofingiensis illuminates astaxanthin production.",
+											"PubMed":"28484037",
+											"Source":"Proc Natl Acad Sci U S A. 2017 May 23 114(21):E4296-E4305. Epub 2017 May 8."
+											}
+											]
+										}
+										]
+									}
+									,{
+									"name":"Mychonastaceae"
+									,"children": [
+											{"name":"Mychonastes homosphaera","ScientificName":"Mychonastes homosphaera","CommonName":"","GenomeSize":"24","className":"chlorophyt","Refs":[{"Authorship":"Liu C et al.","Title":"Genome analyses provide insights into the evolution and adaptation of the eukaryotic Picophytoplankton Mychonastes homosphaera.","Source":"BMC Genomics. 2020 Jul 11, 21(1): 477","PubDoi":"10.1186/s12864-020-06891-6","PubDate":"2020-07-11","PubYear":"2020"}]}
+										]
+									}
+									,{
+									"name":"Selenastraceae"
+									,"children": [
+										{
+										"GenomeSize":"68",
+										"name":"Monoraphidium neglectum",
+										"className":"chlorophyt",
+										"ScientificName":"Monoraphidium neglectum",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2013",
+											"PubDoi":"10.1186/1471-2164-14-926",
+											"Authorship":"Bogen C et al.",
+											"PubDate":"2013-12-28",
+											"Title":"Reconstruction of the lipid metabolism for the microalga Monoraphidium neglectum from its genome sequence reveals characteristics suitable for biofuel production.",
+											"PubMed":"24373495",
+											"Source":"BMC Genomics. 2013 Dec 28 14:926."
+											}
+											]
+										}
+										,{
+										"GenomeSize":"47",
+										"name":"Raphidocelis subcapitata",
+										"className":"chlorophyt",
+										"ScientificName":"Raphidocelis subcapitata",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2018",
+											"PubDoi":"10.1038/s41598-018-26331-6",
+											"Authorship":"Suzuki S et al.",
+											"PubDate":"2018-05-23",
+											"Title":"Raphidocelis subcapitata (=Pseudokirchneriella subcapitata) provides an insight into genome evolution and environmental adaptations in the Sphaeropleales.",
+											"Source":"Sci Rep. 2018 May 23, 8(1): 8058"
+											}
+											]
+										}
+										,
+										{"name":"Messastrum gracile","ScientificName":"Messastrum gracile","CommonName":"","GenomeSize":"61","className":"chlorophyt","Refs":[{"Authorship":"Teh KY et al.","Title":"De novo whole genome sequencing data of two mangrove-isolated microalgae from Terengganu coastal waters.","Source":"Data Brief. 2019 Dec, 27: 104680","PubDoi":"10.1016/j.dib.2019.104680","PubDate":"2019-10-18","PubYear":"2019"}]}
+										]
+									}
+									,{
+									"name":"Scenedesmaceae"
+									,"children": [
+										{"name":"Coelastrum proboscideum","ScientificName":"Coelastrum proboscideum","CommonName":"","GenomeSize":"~120","className":"chlorophyt","Refs":[{"Authorship":"Liang H et al.","Title":"The Draft Genome of Coelastrum proboscideum (Sphaeropleales, Chlorophyta). ","Source":"Protist. 2020 Aug 17, 171(5): 125758. Online ahead of print.","PubDoi":"10.1016/j.protis.2020.125758","PubDate":"2020-08-17","PubYear":"2020"}]},
+										{
+										"GenomeSize":"110",
+										"name":"Tetradesmus obliquus",
+										"className":"chlorophyt",
+										"ScientificName":"Tetradesmus obliquus",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2017",
+											"PubDoi":"10.1128/genomeA.01449-16",
+											"Authorship":"Carreres BM et al.",
+											"PubDate":"2017-01-19",
+											"Title":"Draft Genome Sequence of the Oleaginous Green Alga Tetradesmus obliquus UTEX 393",
+											"PubMed":"28104651",
+											"Source":"Genome Announc. 2017 Jan 19 5(3)."
+											}
+											]
+										}
+										,{
+										"GenomeSize":"65",
+										"name":"Scenedesmus quadricauda",
+										"className":"chlorophyt",
+										"ScientificName":"Scenedesmus quadricauda",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2018",
+											"PubDoi":"10.1186/s13068-018-1308-4",
+											"Authorship":"Dasgupta CN et al.",
+											"PubDate":"2018-11-09",
+											"Title":"Draft genome sequence and detailed characterization of biofuel production by oleaginous microalga Scenedesmus quadricauda LWG002611",
+											"Source":"Biotechnol Biofuels (2018) 11:308"
+											}
+											]
+										}
+										]
+									}
+									]
+								}
+								]
+							}
+							]
+						}
+						]
+					}
+					]
+				}
+				]
+			}
+			,{
+			"name":"Streptophyta"
+			,"children": [
+				{
+				"name":""
+				,"children": [
+					{
+					"name":""
+					,"children": [
+						{
+						"name":"Chlorokybophyceae"
+						,"children": [
+							{
+							"name":""
+							,"children": [
+								{
+								"name":"Chlorokybales"
+								,"children": [
+									{
+									"name":"Chlorokybaceae"
+									,"children": [
+										{
+										"GenomeSize":"86",
+										"name":"Chlorokybus atmophyticus",
+										"className":"charophyt",
+										"ScientificName":"Chlorokybus atmophyticus",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2019",
+											"PubDoi":"10.1038/s41477-019-0560-3",
+											"Authorship":"Wang S et al.",
+											"PubDate":"2019-12-16",
+											"Title":"Genomes of early-diverging streptophyte algae shed light on plant terrestrialization.",
+											"Source":"Nat Plants. 2019 Dec 16, Epub ahead of print"
+											}
+											]
+										}
+										]
+									}
+									]
+								}
+								]
+							}
+							]
+						}
+						,{
+						"name":"Mesostigmatophyceae"
+						,"children": [
+							{
+							"name":""
+							,"children": [
+								{
+								"name":"Mesostigmatales"
+								,"children": [
+									{
+									"name":""
+									,"children": [
+										{
+										"GenomeSize":"329",
+										"name":"Mesostigma viride",
+										"className":"charophyt",
+										"ScientificName":"Mesostigma viride",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2019",
+											"PubDoi":"10.1038/s41477-019-0560-3",
+											"Authorship":"Wang S et al.",
+											"PubDate":"2019-12-16",
+											"Title":"Genomes of early-diverging streptophyte algae shed light on plant terrestrialization.",
+											"Source":"Nat Plants. 2019 Dec 16, Epub ahead of print"
+											}
+											]
+										}
+										]
+									}
+									]
+								}
+								]
+							}
+							]
+						}
+						]
+					}
+					,{
+					"name":""
+					,"children": [
+						{
+						"name":"Klebsormidiophyceae"
+						,"children": [
+							{
+							"name":""
+							,"children": [
+								{
+								"name":"Klebsormidiales"
+								,"children": [
+									{
+									"name":""
+									,"children": [
+										{
+										"GenomeSize":"117",
+										"name":"Klebsormidium flaccidum",
+										"className":"charophyt",
+										"ScientificName":"Klebsormidium flaccidum",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2014",
+											"PubDoi":"10.1038/ncomms4978",
+											"Authorship":"Hori K et al.",
+											"PubDate":"2014-05-29",
+											"Title":"Klebsormidium flaccidum genome reveals primary factors for plant terrestrial adaptation.",
+											"PubMed":"24865297",
+											"Source":"Nat Commun. 2014 May 28 5:3978."
+											}
+											]
+										}
+										]
+									}
+									]
+								}
+								]
+							}
+							]
+						}
+						]
+					}
+					]
+				}
+				,{
+				"name":"Phragmoplastophyta"
+				,"children": [
+					{
+					"name":""
+					,"children": [
+						{
+						"name":"Charophyceae"
+						,"children": [
+							{
+							"name":""
+							,"children": [
+								{
+								"name":"Charales"
+								,"children": [
+									{
+									"name":"Characeae"
+									,"children": [
+										{
+										"GenomeSize":"~2100",
+										"name":"Chara braunii",
+										"className":"charophyt",
+										"ScientificName":"Chara braunii",
+										"CommonName":"Braun's stonewort"
+										,"Refs": [
+											{
+											"PubYear":"2018",
+											"PubDoi":"10.1016/j.cell.2018.06.033",
+											"Authorship":"Nishiyama T et al.",
+											"PubDate":"2018-07-12",
+											"Title":"The Chara Genome: Secondary Complexity and Implications for Plant Terrestrialization.",
+											"Source":"Cell. 2018 Jul 12, 174(2)"
+											}
+											]
+										}
+										]
+									}
+									]
+								}
+								]
+							}
+							]
+						}
+						]
+					}
+					,{
+					"name":""
+					,"children": [
+						{
+						"name":"Zygnematophyceae"
+						,"children": [
+							{
+							"name":""
+							,"children": [
+								{
+								"name":"Zygnematales"
+								,"children": [
+									{
+									"name":"Mesotaeniaceae"
+									,"children": [
+										{
+										"GenomeSize":"164",
+										"name":"Mesotaenium endlicherianum",
+										"className":"charophyt",
+										"ScientificName":"Mesotaenium endlicherianum",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2019",
+											"PubDoi":"10.1016/j.cell.2019.10.019",
+											"Authorship":"Cheng S et al.",
+											"PubDate":"2019-11-14",
+											"Title":"Genomes of Subaerial Zygnematophyceae Provide Insights into Land Plant Evolution.",
+											"Source":"Cell. 2019 Nov 14, 179(5): 1057-1067.e14"
+											}
+											]
+										}
+										]
+									}
+									]
+								}
+								,{
+								"name":"Desmidiales"
+								,"children": [
+									{
+									"name":"Peniaceae"
+									,"children": [
+										{
+										"GenomeSize":"4730",
+										"name":"Penium margaritaceum",
+										"className":"charophyt",
+										"ScientificName":"Penium margaritaceum",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2020",
+											"PubDoi":"10.1016/j.cell.2020.04.019",
+											"Authorship":"Jiao C et al.",
+											"PubDate":"2020-05-21",
+											"Title":"The Penium margaritaceum Genome: Hallmarks of the Origins of Land Plants.",
+											"Source":"Cell. 2020 May 21, Online ahead of print"
+											}
+											]
+										}
+										]
+									}
+									]
+								}
+								]
+							}
+							,{
+							"name":""
+							,"children": [
+								{
+								"name":"Spirogloeales"
+								,"children": [
+									{
+									"name":"Spirogloeaceae"
+									,"children": [
+										{
+										"GenomeSize":"174",
+										"name":"Spirogloea muscicola",
+										"className":"charophyt",
+										"ScientificName":"Spirogloea muscicola",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2019",
+											"PubDoi":"10.1016/j.cell.2019.10.019",
+											"Authorship":"Cheng S et al.",
+											"PubDate":"2019-11-14",
+											"Title":"Genomes of Subaerial Zygnematophyceae Provide Insights into Land Plant Evolution.",
+											"Source":"Cell. 2019 Nov 14, 179(5): 1057-1067.e14"
+											}
+											]
+										}
+										]
+									}
+									]
+								}
+								]
+							}
+							]
+						}
+						]
+					}
+					,{
+					"name":"Embryophyta"
+					,"children": [
+						{
+						"name":"Marchantiophyta"
+						,"children": [
+							{
+							"name":""
+							,"children": [
+								{
+								"name":"Marchantiales"
+								,"children": [
+									{
+									"name":"Marchantiaceae"
+									,"children": [
+										{
+										"GenomeSize":"280",
+										"name":"Marchantia polymorpha",
+										"className":"charophyt",
+										"ScientificName":"Marchantia polymorpha",
+										"CommonName":"Umbrella liverwort"
+										,"Refs": [
+											{
+											"PubYear":"2017",
+											"PubDoi":"10.1016/j.cell.2017.09.030",
+											"Authorship":"Bowman JL et al.",
+											"PubDate":"2017-10-05",
+											"Title":"Insights into Land Plant Evolution Garnered from the Marchantia polymorpha Genome.",
+											"Source":"Cell. 2017 Oct 5, 171(2): 287-304"
+											}
+											]
+										}
+										,{
+										"GenomeSize":"300",
+										"name":"Marchantia inflexa",
+										"className":"charophyt",
+										"ScientificName":"Marchantia inflexa",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2019",
+											"PubDoi":"10.1038/s41598-019-45039-9",
+											"Authorship":"Marks RA et al.",
+											"PubDate":"2019-06-19",
+											"Title":"Genome of the tropical plant Marchantia inflexa: implications for sex chromosome evolution and dehydration tolerance.",
+											"Source":"Sci Rep. 2019 Jun 19, 9(1): 8722"
+											}
+											]
+										}
+										]
+									}
+									]
+								}
+								]
+							}
+							]
+						}
+						,{
+						"name":"Bryophyta"
+						,"children": [
+							{
+							"name":""
+							,"children": [
+								{
+								"name":"Funariales"
+								,"children": [
+									{
+									"name":"Funariaceae"
+									,"children": [
+										{
+										"GenomeSize":"510",
+										"name":"Physcomitrella patens",
+										"className":"charophyt",
+										"ScientificName":"Physcomitrella patens",
+										"CommonName":"Spreading-leaved earth moss"
+										,"Refs": [
+											{
+											"PubYear":"2007",
+											"PubDoi":"10.1126/science.1150646",
+											"Authorship":"Rensing SA et al.",
+											"PubDate":"2007-12-15",
+											"Title":"The Physcomitrella genome reveals evolutionary insights into the conquest of land by plants.",
+											"PubMed":"18079367",
+											"Source":"Science. 2008 Jan 4 319(5859):64-9. Epub 2007 Dec 13."
+											}
+											]
+										}
+										]
+									}
+									]
+								}
+								,{
+								"name":"Hypnales"
+								,"children": [
+									{
+									"name":"Fontinalaceae"
+									,"children": [
+										{"name":"Fontinalis antipyretica","ScientificName":"Fontinalis antipyretica","CommonName":"Common water moss","GenomeSize":"385","className":"charophyt","Refs":[{"Authorship":"Yu J et al.","Title":"Draft genome of the aquatic moss Fontinalis antipyretica (Fontinalaceae, Bryophyta).","Source":"Gigabyte, 1, 2020","PubDoi":"10.46471/gigabyte.8","PubDate":"2020-11-16","PubYear":"2020"}]}
+										]
+									},
+									{
+									"name":"Hylocomiaceae"
+									,"children": [
+										{
+										"GenomeSize":"320",
+										"name":"Pleurozium schreberi",
+										"className":"charophyt",
+										"ScientificName":"Pleurozium schreberi",
+										"CommonName":"Schreber's big red stem moss"
+										,"Refs": [
+											{
+											"PubYear":"2019",
+											"PubDoi":"10.1534/g3.119.400279",
+											"Authorship":"Pederson ERA et al.",
+											"PubDate":"2019-07-08",
+											"Title":"Genome Sequencing of Pleurozium schreberi: The Assembled and Annotated Draft Genome of a Pleurocarpous Feather Moss.",
+											"Source":"G3 (Bethesda). 2019 Sep 4, 9(9): 2791-2797"
+											}
+											]
+										}
+										]
+									}
+									,{
+									"name":"Hypnaceae"
+									,"children": [
+										{
+										"GenomeSize":"434",
+										"name":"Calohypnum plumiforme",
+										"className":"charophyt",
+										"ScientificName":"Calohypnum plumiforme",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2020",
+											"PubDoi":"10.1073/pnas.1914373117",
+											"Authorship":"Mao L et al.",
+											"PubDate":"2020-05-14",
+											"Title":"Genomic evidence for convergent evolution of gene clusters for momilactone biosynthesis in land plants.",
+											"Source":"Proc Natl Acad Sci U S A. 2020 May 14, Epub ahead of print"
+											}
+											]
+										}
+										]
+									}
+									]
+								}
+								]
+							}
+							]
+						}
+						,{
+						"name":"Anthocerotophyta"
+						,"children": [
+							{
+							"name":""
+							,"children": [
+								{
+								"name":"Anthocerotales"
+								,"children": [
+									{
+									"name":"Anthocerotaceae"
+									,"children": [
+										{
+										"GenomeSize":"107",
+										"name":"Anthoceros angustus",
+										"className":"charophyt",
+										"ScientificName":"Anthoceros angustus",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2020",
+											"PubDoi":"10.1038/s41477-019-0588-4",
+											"Authorship":"Zhang J et al.",
+											"PubDate":"2020-02-10",
+											"Title":"The hornwort genome and early land plant evolution.",
+											"Source":"Nat Plants. 2020 Feb 10, Epub ahead of print"
+											}
+											]
+										}
+										,{
+										"GenomeSize":"130",
+										"name":"Anthoceros agrestis",
+										"className":"charophyt",
+										"ScientificName":"Anthoceros agrestis",
+										"CommonName":"Field hornwort"
+										,"Refs": [
+											{
+											"PubYear":"2020",
+											"PubDoi":"10.1038/s41477-020-0618-2",
+											"Authorship":"Li FW et al.",
+											"PubDate":"2020-03-13",
+											"Title":"Anthoceros genomes illuminate the origin of land plants and the unique biology of hornworts.",
+											"Source":"Nat Plants. 2020 Mar, 6(3): 259-272"
+											}
+											]
+										}
+										,{
+										"GenomeSize":"140",
+										"name":"Anthoceros punctatus",
+										"className":"charophyt",
+										"ScientificName":"Anthoceros punctatus",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2020",
+											"PubDoi":"10.1038/s41477-020-0618-2",
+											"Authorship":"Li FW et al.",
+											"PubDate":"2020-03-13",
+											"Title":"Anthoceros genomes illuminate the origin of land plants and the unique biology of hornworts.",
+											"Source":"Nat Plants. 2020 Mar, 6(3): 259-272"
+											}
+											]
+										}
+										]
+									}
+									]
+								}
+								]
+							}
+							]
+						}
+						,{
+						"name":"Tracheophyta"
+						,"children": [
+							{
+							"name":"Lycopodiophyta"
+							,"children": [
+								{
+								"name":"Selaginellales"
+								,"children": [
+									{
+									"name":"Selaginellaceae"
+									,"children": [
+										{
+										"GenomeSize":"213",
+										"name":"Selaginella moellendorffii",
+										"className":"charophyt",
+										"ScientificName":"Selaginella moellendorffii",
+										"CommonName":"Gemmiferous spikemoss"
+										,"Refs": [
+											{
+											"PubYear":"2011",
+											"PubDoi":"10.1126/science.1203810",
+											"Authorship":"Banks JA et al.",
+											"PubDate":"2011-05-10",
+											"Title":"The Selaginella genome identifies genetic changes associated with the evolution of vascular plants.",
+											"PubMed":"21551031",
+											"Source":"Science. 2011 May 20 332(6032):960-3. Epub 2011 May 5."
+											}
+											]
+										}
+										,{
+										"GenomeSize":"109",
+										"name":"Selaginella lepidophylla",
+										"className":"charophyt",
+										"ScientificName":"Selaginella lepidophylla",
+										"CommonName":"False rose of Jericho"
+										,"Refs": [
+											{
+											"PubYear":"2018",
+											"PubDoi":"10.1038/s41467-017-02546-5",
+											"Authorship":"VanBuren R et al.",
+											"PubDate":"2018-01-02",
+											"Title":"Extreme haplotype variation in the desiccation-tolerant clubmoss Selaginella lepidophylla.",
+											"Source":"Nat Commun. 2018 Jan 2, 9(1):13"
+											}
+											]
+										}
+										,{
+										"GenomeSize":"~100",
+										"name":"Selaginella tamariscina",
+										"className":"charophyt",
+										"ScientificName":"Selaginella tamariscina",
+										"CommonName":"Little club moss"
+										,"Refs": [
+											{
+											"PubYear":"2018",
+											"PubDoi":"10.1016/j.molp.2018.05.003",
+											"Authorship":"Xu Z et al.",
+											"PubDate":"2018-05-16",
+											"Title":"Genome analysis of the ancient tracheophyte Selaginella tamariscina reveals evolutionary features relevant to the acquisition of desiccation tolerance.",
+											"Source":"Mol Plant. 2018 May 16, Epub ahead of print"
+											}
+											]
+										}
+										]
+									}
+									]
+								}
+								]
+							}
+							,{
+							"name":"Polypodiophyta"
+							,"children": [
+								{
+								"name":"Polypodiales"
+								,"children": [
+									{
+									"name":"Pteridaceae"
+									,"children": [
+										{
+										"GenomeSize":"11250",
+										"name":"Ceratopteris richardii",
+										"className":"charophyt",
+										"ScientificName":"Ceratopteris richardii",
+										"CommonName":"Triangle waterfern"
+										,"Refs": [
+											{
+											"PubYear":"2019",
+											"PubDoi":"10.1038/s41598-019-53968-8",
+											"Authorship":"Marchant DB et al.",
+											"PubDate":"2019-12-03",
+											"Title":"The C-Fern (Ceratopteris richardii) genome: insights into plant genome evolution with the first partial homosporous fern genome assembly.",
+											"Source":"Sci Rep. 2019 Dec 3, 9(1): 18181"
+											}
+											]
+										}
+										]
+									}
+									]
+								}
+								,{
+								"name":"Salviniales"
+								,"children": [
+									{
+									"name":"Salviniaceae"
+									,"children": [
+										{
+										"GenomeSize":"750",
+										"name":"Azolla filiculoides",
+										"className":"charophyt",
+										"ScientificName":"Azolla filiculoides",
+										"CommonName":"Pacific mosquito fern"
+										,"Refs": [
+											{
+											"PubYear":"2018",
+											"PubDoi":"10.1038/s41477-018-0188-8",
+											"Authorship":"Li FW et al.",
+											"PubDate":"2018-07-02",
+											"Title":"Fern genomes elucidate land plant evolution and cyanobacterial symbioses.",
+											"Source":"Nat. Plants 2018, July 02, Epub ahead of print"
+											}
+											]
+										}
+										,{
+										"GenomeSize":"260",
+										"name":"Salvinia cucullata",
+										"className":"charophyt",
+										"ScientificName":"Salvinia cucullata",
+										"CommonName":"Asian watermoss"
+										,"Refs": [
+											{
+											"PubYear":"2018",
+											"PubDoi":"10.1038/s41477-018-0188-8",
+											"Authorship":"Li FW et al.",
+											"PubDate":"2018-07-02",
+											"Title":"Fern genomes elucidate land plant evolution and cyanobacterial symbioses.",
+											"Source":"Nat. Plants 2018, July 02, Epub ahead of print"
+											}
+											]
+										}
+										]
+									}
+									]
+								}
+								]
+							}
+							,{
+							"name":"Gymnospermae"
+							,"children": [
+								{
+								"name":"Cupressales"
+								,"children": [
+									{
+									"name":"Cupressaceae"
+									,"children": [
+									{"name":"Sequoiadendron giganteum","ScientificName":"Sequoiadendron giganteum","CommonName":"Giant sequoia","GenomeSize":"8114","className":"coniferophyt","Refs":[{"Authorship":"Scott AD et al.","Title":"A Reference Genome Sequence for Giant Sequoia.","Source":"G3 (Bethesda). 2020 Sep 18: Online ahead of print.","PubDoi":"10.1534/g3.120.401612","PubDate":"2020-09-18","PubYear":"2020"}]}
+									]
+									}
+									]
+								},	
+								{
+								"name":"Pinales"
+								,"children": [
+									{
+									"name":"Pinaceae"
+									,"children": [
+										{
+										"GenomeSize":"19700",
+										"name":"Picea abies",
+										"className":"coniferophyt",
+										"ScientificName":"Picea abies",
+										"CommonName":"Norway spruce"
+										,"Refs": [
+											{
+											"PubYear":"2013",
+											"PubDoi":"10.1038/nature12211",
+											"Authorship":"Nystedt B et al.",
+											"PubDate":"2013-05-24",
+											"Title":"The Norway spruce genome sequence and conifer genome evolution.",
+											"PubMed":"23698360",
+											"Source":"Nature. 2013 May 30 497(7451):579-84. Epub 2013 May 22."
+											}
+											]
+										}
+										,{
+										"GenomeSize":"21600",
+										"name":"Pinus taeda",
+										"className":"coniferophyt",
+										"ScientificName":"Pinus taeda",
+										"CommonName":"Loblolly pine"
+										,"Refs": [
+											{
+											"PubYear":"2014",
+											"PubDoi":"10.1186/gb-2014-15-3-r59",
+											"Authorship":"Neale DB et al.",
+											"PubDate":"2014-03-22",
+											"Title":"Decoding the massive genome of loblolly pine using haploid DNA and novel assembly strategies.",
+											"PubMed":"24647006",
+											"Source":"Genome Biol. 2014 Mar 4 15(3):R59."
+											}
+											]
+										}
+										,{
+										"GenomeSize":"31000",
+										"name":"Pinus lambertiana",
+										"className":"coniferophyt",
+										"ScientificName":"Pinus lambertiana",
+										"CommonName":"Sugar pine"
+										,"Refs": [
+											{
+											"PubYear":"2016",
+											"PubDoi":"10.1534/genetics.116.193227",
+											"Authorship":"Stevens KA et al.",
+											"PubDate":"2016-12-01",
+											"Title":"Sequence of the Sugar Pine Megagenome",
+											"PubMed":"27794028",
+											"Source":"Genetics. 2016 Dec 204(4):1613-1626. Epub 2016 Oct 28."
+											}
+											]
+										}
+										,{
+										"GenomeSize":"16100",
+										"name":"Pseudotsuga menziesii",
+										"className":"coniferophyt",
+										"ScientificName":"Pseudotsuga menziesii",
+										"CommonName":"Douglas-fir"
+										,"Refs": [
+											{
+											"PubYear":"2017",
+											"PubDoi":"10.1534/g3.117.300078",
+											"Authorship":"Neale DB et al.",
+											"PubDate":"2017-09-07",
+											"Title":"The Douglas-Fir Genome Sequence Reveals Specialization of the Photosynthetic Apparatus in Pinaceae.",
+											"Source":"G3 (Bethesda). 2017 Sep 7, 7(9): 3157-3167"
+											}
+											]
+										}
+										,{
+										"GenomeSize":"17360",
+										"name":"Abies alba",
+										"className":"coniferophyt",
+										"ScientificName":"Abies alba",
+										"CommonName":"European silver fir"
+										,"Refs": [
+											{
+											"PubYear":"2019",
+											"PubDoi":"10.1534/g3.119.400083",
+											"Authorship":"Mosca E et al.",
+											"PubDate":"2019-06-20",
+											"Title":"A Reference Genome Sequence for the European Silver Fir (Abies alba Mill.): A Community-Generated Genomic Resource.",
+											"Source":"G3 (Bethesda). 2019 Jun 20, Epub ahead of print"
+											}
+											]
+										}
+										]
+									}
+									]
+								}
+								,{
+								"name":"Ginkgoales"
+								,"children": [
+									{
+									"name":"Ginkgoaceae"
+									,"children": [
+										{
+										"GenomeSize":"11750",
+										"name":"Ginkgo biloba",
+										"className":"coniferophyt",
+										"ScientificName":"Ginkgo biloba",
+										"CommonName":"Ginkgo tree"
+										,"Refs": [
+											{
+											"PubYear":"2016",
+											"PubDoi":"10.1186/s13742-016-0154-1",
+											"Authorship":"Guan R et al.",
+											"PubDate":"2016-11-21",
+											"Title":"Draft genome of the living fossil Ginkgo biloba.",
+											"PubMed":"27871309",
+											"Source":"Gigascience. 2016 Nov 21 5(1):49."
+											}
+											]
+										}
+										]
+									}
+									]
+								}
+								,{
+								"name":"Gnetales"
+								,"children": [
+									{
+									"name":"Gnetaceae"
+									,"children": [
+										{
+										"GenomeSize":"4200",
+										"name":"Gnetum montanum",
+										"className":"coniferophyt",
+										"ScientificName":"Gnetum montanum",
+										"CommonName":""
+										,"Refs": [
+											{
+											"PubYear":"2018",
+											"PubDoi":"10.1038/s41477-017-0097-2",
+											"Authorship":"Wan T et al.",
+											"PubDate":"2018-01-29",
+											"Title":"A genome for gnetophytes and early evolution of seed plants",
+											"Source":"Nat. Plants 2018, Jan 29, epub ahead of print"
+											}
+											]
+										}
+										]
+									}
+									]
+								}
+								]
+							}
+							]
+						}
+						]
+					}
+					]
+				}
+				]
+			}
+			]
+		}
+		]
+	}
+	]
+}
