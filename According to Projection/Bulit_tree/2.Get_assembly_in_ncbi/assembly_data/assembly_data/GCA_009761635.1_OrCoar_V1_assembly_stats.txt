@@ -1,0 +1,95 @@
+# Assembly Statistics Report
+# Assembly name:  OrCoar_V1
+# Organism name:  Oryza coarctata (monocots)
+# Isolate:  TKM-2016
+# Taxid:          77588
+# BioSample:      SAMN13182982
+# BioProject:     PRJNA396417
+# Submitter:      National Bureau of Plant Genetic Resources, Pusa, IARI Campus, New Delhi-110012, India.
+# Date:           2019-12-17
+# Assembly type:  haploid
+# Release type:   major
+# Assembly level: Scaffold
+# Genome representation: full
+# WGS project:    WLYV01
+# Assembly method: PLATANUS v. 1.2.4; SSPACE v. 3.0
+# Expected final version: yes
+# Genome coverage: 250.66x
+# Sequencing technology: Illumina HiSeq; Oxford Nanopore
+# RefSeq category: Representative Genome
+# GenBank assembly accession: GCA_009761635.1
+#
+## Assembly-Units:
+## GenBank Unit Accession	RefSeq Unit Accession	Assembly-Unit name
+## GCA_009761645.1		Primary Assembly
+## GCA_009761655.1		non-nuclear
+#
+# Statistic Types
+# Statistic	Description
+# component-count	Number of unique components
+# contig-L50	Number of contigs that are longer than, or equal to, the N50 length
+# contig-N50	Contig length at which 50% of total bases in assembly are in contigs of that length or greater
+# contig-count	Number of contigs
+# molecule-count	Number of chromosomes and plasmids in full assembly
+# region-count	Number of genomic regions defined in full assembly
+# spanned-gaps	Number of spanned gaps. Spanned gaps are gaps within a scaffold
+# top-level-count	Number of chromosomes or plasmids, unplaced/unlocalized scaffolds, alt-loci scaffolds, and patch scaffolds
+# total-gap-length	Total length of gaps
+# total-length	Total sequence length including bases and gaps
+# ungapped-length	Total length excluding gaps
+# unspanned-gaps	Number of unspanned gaps. Unspanned gaps are gaps between scaffolds
+#
+# Sequence-type Description
+# all	statistic covers all the sequences in the unit-assembly and molecule(s) specified.
+# molecule	statistic covers the specified molecule. molecule-name and molecule-type/loc will be given.
+# unlocalized	statistic covers the sequences assigned to a molecule but with no position. molecule-name and molecule-type/loc will be given.
+# unplaced	statistic covers the sequences not assigned to any molecule in the assembly.
+#
+# unit-name	molecule-name	molecule-type/loc	sequence-type	statistic	value
+all	all	all	all	total-length	569985523
+all	all	all	all	spanned-gaps	3094
+all	all	all	all	unspanned-gaps	0
+all	all	all	all	region-count	0
+all	all	all	all	contig-count	61444
+all	all	all	all	contig-N50	234279
+all	all	all	all	contig-L50	725
+all	all	all	all	total-gap-length	3574640
+all	all	all	all	molecule-count	1
+all	all	all	all	top-level-count	58350
+all	all	all	all	component-count	58350
+Primary Assembly	all	all	all	total-length	569597242
+Primary Assembly	all	all	all	ungapped-length	566022602
+Primary Assembly	all	all	all	spanned-gaps	3094
+Primary Assembly	all	all	all	unspanned-gaps	0
+Primary Assembly	all	all	assembled-molecule	total-length	0
+Primary Assembly	all	all	assembled-molecule	ungapped-length	0
+Primary Assembly	all	all	assembled-molecule	spanned-gaps	0
+Primary Assembly	all	all	assembled-molecule	unspanned-gaps	0
+Primary Assembly	all	all	unlocalized-scaffold	total-length	0
+Primary Assembly	all	all	unlocalized-scaffold	ungapped-length	0
+Primary Assembly	all	all	unlocalized-scaffold	spanned-gaps	0
+Primary Assembly	all	all	unlocalized-scaffold	unspanned-gaps	0
+non-nuclear	all	all	all	total-length	388281
+non-nuclear	all	all	all	ungapped-length	388281
+non-nuclear	all	all	all	spanned-gaps	0
+non-nuclear	all	all	all	unspanned-gaps	0
+non-nuclear	all	all	assembled-molecule	total-length	0
+non-nuclear	all	all	assembled-molecule	ungapped-length	0
+non-nuclear	all	all	assembled-molecule	spanned-gaps	0
+non-nuclear	all	all	assembled-molecule	unspanned-gaps	0
+non-nuclear	all	all	unlocalized-scaffold	total-length	388281
+non-nuclear	all	all	unlocalized-scaffold	ungapped-length	388281
+non-nuclear	all	all	unlocalized-scaffold	spanned-gaps	0
+non-nuclear	all	all	unlocalized-scaffold	unspanned-gaps	0
+non-nuclear	MT	Mitochondrion	all	total-length	388281
+non-nuclear	MT	Mitochondrion	all	ungapped-length	388281
+non-nuclear	MT	Mitochondrion	all	spanned-gaps	0
+non-nuclear	MT	Mitochondrion	all	unspanned-gaps	0
+non-nuclear	MT	Mitochondrion	assembled-molecule	total-length	0
+non-nuclear	MT	Mitochondrion	assembled-molecule	ungapped-length	0
+non-nuclear	MT	Mitochondrion	assembled-molecule	spanned-gaps	0
+non-nuclear	MT	Mitochondrion	assembled-molecule	unspanned-gaps	0
+non-nuclear	MT	Mitochondrion	unlocalized-scaffold	total-length	388281
+non-nuclear	MT	Mitochondrion	unlocalized-scaffold	ungapped-length	388281
+non-nuclear	MT	Mitochondrion	unlocalized-scaffold	spanned-gaps	0
+non-nuclear	MT	Mitochondrion	unlocalized-scaffold	unspanned-gaps	0

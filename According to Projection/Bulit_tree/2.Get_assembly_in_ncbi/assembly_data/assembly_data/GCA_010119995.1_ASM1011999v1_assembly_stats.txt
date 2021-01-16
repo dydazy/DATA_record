@@ -1,0 +1,201 @@
+# Assembly Statistics Report
+# Assembly name:  ASM1011999v1
+# Organism name:  Papaver somniferum (opium poppy)
+# Infraspecific name:  cultivar=Roxanne
+# Taxid:          3469
+# BioSample:      SAMN10524692
+# BioProject:     PRJNA508405
+# Submitter:      University of Calgary
+# Date:           2020-02-04
+# Assembly type:  haploid
+# Release type:   major
+# Assembly level: Chromosome
+# Genome representation: full
+# Assembly method: Phase Genomics' Proximo Hi-C genome scaffolding platform v. 2019; Juicebox v. 1.9.1
+# Expected final version: no
+# Reference guided assembly: ASM357369v1
+# Genome coverage: 13.0x
+# Sequencing technology: Illumina
+# GenBank assembly accession: GCA_010119995.1
+#
+## Assembly-Units:
+## GenBank Unit Accession	RefSeq Unit Accession	Assembly-Unit name
+## GCA_010120005.1		Primary Assembly
+#
+# Statistic Types
+# Statistic	Description
+# component-count	Number of unique components
+# contig-L50	Number of contigs that are longer than, or equal to, the N50 length
+# contig-N50	Contig length at which 50% of total bases in assembly are in contigs of that length or greater
+# contig-count	Number of contigs
+# molecule-count	Number of chromosomes and plasmids in full assembly
+# region-count	Number of genomic regions defined in full assembly
+# spanned-gaps	Number of spanned gaps. Spanned gaps are gaps within a scaffold
+# top-level-count	Number of chromosomes or plasmids, unplaced/unlocalized scaffolds, alt-loci scaffolds, and patch scaffolds
+# total-gap-length	Total length of gaps
+# total-length	Total sequence length including bases and gaps
+# ungapped-length	Total length excluding gaps
+# unspanned-gaps	Number of unspanned gaps. Unspanned gaps are gaps between scaffolds
+#
+# Sequence-type Description
+# all	statistic covers all the sequences in the unit-assembly and molecule(s) specified.
+# molecule	statistic covers the specified molecule. molecule-name and molecule-type/loc will be given.
+# unlocalized	statistic covers the sequences assigned to a molecule but with no position. molecule-name and molecule-type/loc will be given.
+# unplaced	statistic covers the sequences not assigned to any molecule in the assembly.
+#
+# unit-name	molecule-name	molecule-type/loc	sequence-type	statistic	value
+all	all	all	all	total-length	2637752765
+all	all	all	all	spanned-gaps	9635
+all	all	all	all	unspanned-gaps	0
+all	all	all	all	region-count	0
+all	all	all	all	contig-count	9646
+all	all	all	all	contig-N50	1838815
+all	all	all	all	contig-L50	415
+all	all	all	all	total-gap-length	1425238
+all	all	all	all	molecule-count	11
+all	all	all	all	top-level-count	11
+all	all	all	all	component-count	11
+Primary Assembly	all	all	all	total-length	2637752765
+Primary Assembly	all	all	all	ungapped-length	2636327527
+Primary Assembly	all	all	all	spanned-gaps	9635
+Primary Assembly	all	all	all	unspanned-gaps	0
+Primary Assembly	all	all	assembled-molecule	total-length	2637752765
+Primary Assembly	all	all	assembled-molecule	ungapped-length	2636327527
+Primary Assembly	all	all	assembled-molecule	spanned-gaps	9635
+Primary Assembly	all	all	assembled-molecule	unspanned-gaps	0
+Primary Assembly	all	all	unlocalized-scaffold	total-length	0
+Primary Assembly	all	all	unlocalized-scaffold	ungapped-length	0
+Primary Assembly	all	all	unlocalized-scaffold	spanned-gaps	0
+Primary Assembly	all	all	unlocalized-scaffold	unspanned-gaps	0
+Primary Assembly	1	Chromosome	all	total-length	333667882
+Primary Assembly	1	Chromosome	all	ungapped-length	333539006
+Primary Assembly	1	Chromosome	all	spanned-gaps	1019
+Primary Assembly	1	Chromosome	all	unspanned-gaps	0
+Primary Assembly	1	Chromosome	assembled-molecule	total-length	333667882
+Primary Assembly	1	Chromosome	assembled-molecule	ungapped-length	333539006
+Primary Assembly	1	Chromosome	assembled-molecule	spanned-gaps	1019
+Primary Assembly	1	Chromosome	assembled-molecule	unspanned-gaps	0
+Primary Assembly	1	Chromosome	unlocalized-scaffold	total-length	0
+Primary Assembly	1	Chromosome	unlocalized-scaffold	ungapped-length	0
+Primary Assembly	1	Chromosome	unlocalized-scaffold	spanned-gaps	0
+Primary Assembly	1	Chromosome	unlocalized-scaffold	unspanned-gaps	0
+Primary Assembly	2	Chromosome	all	total-length	302574826
+Primary Assembly	2	Chromosome	all	ungapped-length	302441648
+Primary Assembly	2	Chromosome	all	spanned-gaps	1024
+Primary Assembly	2	Chromosome	all	unspanned-gaps	0
+Primary Assembly	2	Chromosome	assembled-molecule	total-length	302574826
+Primary Assembly	2	Chromosome	assembled-molecule	ungapped-length	302441648
+Primary Assembly	2	Chromosome	assembled-molecule	spanned-gaps	1024
+Primary Assembly	2	Chromosome	assembled-molecule	unspanned-gaps	0
+Primary Assembly	2	Chromosome	unlocalized-scaffold	total-length	0
+Primary Assembly	2	Chromosome	unlocalized-scaffold	ungapped-length	0
+Primary Assembly	2	Chromosome	unlocalized-scaffold	spanned-gaps	0
+Primary Assembly	2	Chromosome	unlocalized-scaffold	unspanned-gaps	0
+Primary Assembly	3	Chromosome	all	total-length	296818136
+Primary Assembly	3	Chromosome	all	ungapped-length	296664123
+Primary Assembly	3	Chromosome	all	spanned-gaps	1079
+Primary Assembly	3	Chromosome	all	unspanned-gaps	0
+Primary Assembly	3	Chromosome	assembled-molecule	total-length	296818136
+Primary Assembly	3	Chromosome	assembled-molecule	ungapped-length	296664123
+Primary Assembly	3	Chromosome	assembled-molecule	spanned-gaps	1079
+Primary Assembly	3	Chromosome	assembled-molecule	unspanned-gaps	0
+Primary Assembly	3	Chromosome	unlocalized-scaffold	total-length	0
+Primary Assembly	3	Chromosome	unlocalized-scaffold	ungapped-length	0
+Primary Assembly	3	Chromosome	unlocalized-scaffold	spanned-gaps	0
+Primary Assembly	3	Chromosome	unlocalized-scaffold	unspanned-gaps	0
+Primary Assembly	4	Chromosome	all	total-length	257455782
+Primary Assembly	4	Chromosome	all	ungapped-length	257317053
+Primary Assembly	4	Chromosome	all	spanned-gaps	1100
+Primary Assembly	4	Chromosome	all	unspanned-gaps	0
+Primary Assembly	4	Chromosome	assembled-molecule	total-length	257455782
+Primary Assembly	4	Chromosome	assembled-molecule	ungapped-length	257317053
+Primary Assembly	4	Chromosome	assembled-molecule	spanned-gaps	1100
+Primary Assembly	4	Chromosome	assembled-molecule	unspanned-gaps	0
+Primary Assembly	4	Chromosome	unlocalized-scaffold	total-length	0
+Primary Assembly	4	Chromosome	unlocalized-scaffold	ungapped-length	0
+Primary Assembly	4	Chromosome	unlocalized-scaffold	spanned-gaps	0
+Primary Assembly	4	Chromosome	unlocalized-scaffold	unspanned-gaps	0
+Primary Assembly	5	Chromosome	all	total-length	252943167
+Primary Assembly	5	Chromosome	all	ungapped-length	252800688
+Primary Assembly	5	Chromosome	all	spanned-gaps	939
+Primary Assembly	5	Chromosome	all	unspanned-gaps	0
+Primary Assembly	5	Chromosome	assembled-molecule	total-length	252943167
+Primary Assembly	5	Chromosome	assembled-molecule	ungapped-length	252800688
+Primary Assembly	5	Chromosome	assembled-molecule	spanned-gaps	939
+Primary Assembly	5	Chromosome	assembled-molecule	unspanned-gaps	0
+Primary Assembly	5	Chromosome	unlocalized-scaffold	total-length	0
+Primary Assembly	5	Chromosome	unlocalized-scaffold	ungapped-length	0
+Primary Assembly	5	Chromosome	unlocalized-scaffold	spanned-gaps	0
+Primary Assembly	5	Chromosome	unlocalized-scaffold	unspanned-gaps	0
+Primary Assembly	6	Chromosome	all	total-length	225803546
+Primary Assembly	6	Chromosome	all	ungapped-length	225691523
+Primary Assembly	6	Chromosome	all	spanned-gaps	967
+Primary Assembly	6	Chromosome	all	unspanned-gaps	0
+Primary Assembly	6	Chromosome	assembled-molecule	total-length	225803546
+Primary Assembly	6	Chromosome	assembled-molecule	ungapped-length	225691523
+Primary Assembly	6	Chromosome	assembled-molecule	spanned-gaps	967
+Primary Assembly	6	Chromosome	assembled-molecule	unspanned-gaps	0
+Primary Assembly	6	Chromosome	unlocalized-scaffold	total-length	0
+Primary Assembly	6	Chromosome	unlocalized-scaffold	ungapped-length	0
+Primary Assembly	6	Chromosome	unlocalized-scaffold	spanned-gaps	0
+Primary Assembly	6	Chromosome	unlocalized-scaffold	unspanned-gaps	0
+Primary Assembly	7	Chromosome	all	total-length	219123305
+Primary Assembly	7	Chromosome	all	ungapped-length	219012619
+Primary Assembly	7	Chromosome	all	spanned-gaps	850
+Primary Assembly	7	Chromosome	all	unspanned-gaps	0
+Primary Assembly	7	Chromosome	assembled-molecule	total-length	219123305
+Primary Assembly	7	Chromosome	assembled-molecule	ungapped-length	219012619
+Primary Assembly	7	Chromosome	assembled-molecule	spanned-gaps	850
+Primary Assembly	7	Chromosome	assembled-molecule	unspanned-gaps	0
+Primary Assembly	7	Chromosome	unlocalized-scaffold	total-length	0
+Primary Assembly	7	Chromosome	unlocalized-scaffold	ungapped-length	0
+Primary Assembly	7	Chromosome	unlocalized-scaffold	spanned-gaps	0
+Primary Assembly	7	Chromosome	unlocalized-scaffold	unspanned-gaps	0
+Primary Assembly	8	Chromosome	all	total-length	204232660
+Primary Assembly	8	Chromosome	all	ungapped-length	204117655
+Primary Assembly	8	Chromosome	all	spanned-gaps	858
+Primary Assembly	8	Chromosome	all	unspanned-gaps	0
+Primary Assembly	8	Chromosome	assembled-molecule	total-length	204232660
+Primary Assembly	8	Chromosome	assembled-molecule	ungapped-length	204117655
+Primary Assembly	8	Chromosome	assembled-molecule	spanned-gaps	858
+Primary Assembly	8	Chromosome	assembled-molecule	unspanned-gaps	0
+Primary Assembly	8	Chromosome	unlocalized-scaffold	total-length	0
+Primary Assembly	8	Chromosome	unlocalized-scaffold	ungapped-length	0
+Primary Assembly	8	Chromosome	unlocalized-scaffold	spanned-gaps	0
+Primary Assembly	8	Chromosome	unlocalized-scaffold	unspanned-gaps	0
+Primary Assembly	9	Chromosome	all	total-length	190070007
+Primary Assembly	9	Chromosome	all	ungapped-length	189986521
+Primary Assembly	9	Chromosome	all	spanned-gaps	645
+Primary Assembly	9	Chromosome	all	unspanned-gaps	0
+Primary Assembly	9	Chromosome	assembled-molecule	total-length	190070007
+Primary Assembly	9	Chromosome	assembled-molecule	ungapped-length	189986521
+Primary Assembly	9	Chromosome	assembled-molecule	spanned-gaps	645
+Primary Assembly	9	Chromosome	assembled-molecule	unspanned-gaps	0
+Primary Assembly	9	Chromosome	unlocalized-scaffold	total-length	0
+Primary Assembly	9	Chromosome	unlocalized-scaffold	ungapped-length	0
+Primary Assembly	9	Chromosome	unlocalized-scaffold	spanned-gaps	0
+Primary Assembly	9	Chromosome	unlocalized-scaffold	unspanned-gaps	0
+Primary Assembly	10	Chromosome	all	total-length	179301006
+Primary Assembly	10	Chromosome	all	ungapped-length	179210557
+Primary Assembly	10	Chromosome	all	spanned-gaps	679
+Primary Assembly	10	Chromosome	all	unspanned-gaps	0
+Primary Assembly	10	Chromosome	assembled-molecule	total-length	179301006
+Primary Assembly	10	Chromosome	assembled-molecule	ungapped-length	179210557
+Primary Assembly	10	Chromosome	assembled-molecule	spanned-gaps	679
+Primary Assembly	10	Chromosome	assembled-molecule	unspanned-gaps	0
+Primary Assembly	10	Chromosome	unlocalized-scaffold	total-length	0
+Primary Assembly	10	Chromosome	unlocalized-scaffold	ungapped-length	0
+Primary Assembly	10	Chromosome	unlocalized-scaffold	spanned-gaps	0
+Primary Assembly	10	Chromosome	unlocalized-scaffold	unspanned-gaps	0
+Primary Assembly	11	Chromosome	all	total-length	175762448
+Primary Assembly	11	Chromosome	all	ungapped-length	175546134
+Primary Assembly	11	Chromosome	all	spanned-gaps	475
+Primary Assembly	11	Chromosome	all	unspanned-gaps	0
+Primary Assembly	11	Chromosome	assembled-molecule	total-length	175762448
+Primary Assembly	11	Chromosome	assembled-molecule	ungapped-length	175546134
+Primary Assembly	11	Chromosome	assembled-molecule	spanned-gaps	475
+Primary Assembly	11	Chromosome	assembled-molecule	unspanned-gaps	0
+Primary Assembly	11	Chromosome	unlocalized-scaffold	total-length	0
+Primary Assembly	11	Chromosome	unlocalized-scaffold	ungapped-length	0
+Primary Assembly	11	Chromosome	unlocalized-scaffold	spanned-gaps	0
+Primary Assembly	11	Chromosome	unlocalized-scaffold	unspanned-gaps	0

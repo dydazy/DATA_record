@@ -1,0 +1,456 @@
+# Assembly Statistics Report
+# Assembly name:  arahy.Tifrunner.gnm1.KYV3
+# Organism name:  Arachis hypogaea (peanut)
+# Infraspecific name:  cultivar=Tifrunner
+# Taxid:          3818
+# BioSample:      SAMN08051159
+# BioProject:     PRJNA419393
+# Submitter:      International Peanut Genome Initiative
+# Date:           2018-05-30
+# Assembly type:  haploid
+# Release type:   major
+# Assembly level: Chromosome
+# Genome representation: full
+# WGS project:    PIVG01
+# Assembly method: MECAT v. 2017-07; Arrow v. 2017-07
+# Expected final version: yes
+# Genome coverage: 48.0x
+# Sequencing technology: PacBio
+# RefSeq category: Representative Genome
+# GenBank assembly accession: GCA_003086295.2
+# RefSeq assembly accession: GCF_003086295.2
+# RefSeq assembly and GenBank assemblies identical: no
+# Reporting on RefSeq assembly.
+#
+## Assembly-Units:
+## GenBank Unit Accession	RefSeq Unit Accession	Assembly-Unit name
+## GCA_003086305.2	GCF_003086305.2	Primary Assembly
+## 	GCF_003258585.1	non-nuclear
+#
+# Statistic Types
+# Statistic	Description
+# component-count	Number of unique components
+# contig-L50	Number of contigs that are longer than, or equal to, the N50 length
+# contig-N50	Contig length at which 50% of total bases in assembly are in contigs of that length or greater
+# contig-count	Number of contigs
+# molecule-count	Number of chromosomes and plasmids in full assembly
+# region-count	Number of genomic regions defined in full assembly
+# scaffold-L50	Number of scaffolds that are longer than, or equal to, the N50 length
+# scaffold-N50	Scaffold length at which 50% of total bases in assembly are in scaffolds of that length or greater
+# scaffold-N75	Scaffold length at which 75% of total bases in assembly are in contigs of that length or greater
+# scaffold-N90	scaffold length at which 90% of total bases in assembly are in contigs of that length or greater
+# scaffold-count	Number of scaffolds
+# spanned-gaps	Number of spanned gaps. Spanned gaps are gaps within a scaffold
+# top-level-count	Number of chromosomes or plasmids, unplaced/unlocalized scaffolds, alt-loci scaffolds, and patch scaffolds
+# total-gap-length	Total length of gaps
+# total-length	Total sequence length including bases and gaps
+# ungapped-length	Total length excluding gaps
+# unspanned-gaps	Number of unspanned gaps. Unspanned gaps are gaps between scaffolds
+#
+# Sequence-type Description
+# all	statistic covers all the sequences in the unit-assembly and molecule(s) specified.
+# molecule	statistic covers the specified molecule. molecule-name and molecule-type/loc will be given.
+# unlocalized	statistic covers the sequences assigned to a molecule but with no position. molecule-name and molecule-type/loc will be given.
+# unplaced	statistic covers the sequences not assigned to any molecule in the assembly.
+#
+# unit-name	molecule-name	molecule-type/loc	sequence-type	statistic	value
+all	all	all	all	total-length	2556916893
+all	all	all	all	spanned-gaps	3655
+all	all	all	all	unspanned-gaps	0
+all	all	all	all	region-count	0
+all	all	all	all	scaffold-count	384
+all	all	all	all	scaffold-N50	135150084
+all	all	all	all	scaffold-L50	9
+all	all	all	all	scaffold-N75	117088237
+all	all	all	all	scaffold-N90	112420854
+all	all	all	all	contig-count	4039
+all	all	all	all	contig-N50	1498096
+all	all	all	all	contig-L50	461
+all	all	all	all	total-gap-length	3895359
+all	all	all	all	molecule-count	20
+all	all	all	all	top-level-count	384
+all	all	all	all	component-count	384
+Primary Assembly	all	all	all	total-length	2556916893
+Primary Assembly	all	all	all	ungapped-length	2553021534
+Primary Assembly	all	all	all	scaffold-count	384
+Primary Assembly	all	all	all	scaffold-N50	135150084
+Primary Assembly	all	all	all	spanned-gaps	3655
+Primary Assembly	all	all	all	unspanned-gaps	0
+Primary Assembly	all	all	assembled-molecule	total-length	2538283725
+Primary Assembly	all	all	assembled-molecule	ungapped-length	2534607674
+Primary Assembly	all	all	assembled-molecule	scaffold-count	20
+Primary Assembly	all	all	assembled-molecule	scaffold-N50	135150084
+Primary Assembly	all	all	assembled-molecule	spanned-gaps	3444
+Primary Assembly	all	all	assembled-molecule	unspanned-gaps	0
+Primary Assembly	all	all	unlocalized-scaffold	total-length	0
+Primary Assembly	all	all	unlocalized-scaffold	ungapped-length	0
+Primary Assembly	all	all	unlocalized-scaffold	scaffold-count	0
+Primary Assembly	all	all	unlocalized-scaffold	scaffold-N50	0
+Primary Assembly	all	all	unlocalized-scaffold	spanned-gaps	0
+Primary Assembly	all	all	unlocalized-scaffold	unspanned-gaps	0
+Primary Assembly	na	na	unplaced-scaffold	total-length	18633168
+Primary Assembly	na	na	unplaced-scaffold	ungapped-length	18413860
+Primary Assembly	na	na	unplaced-scaffold	scaffold-count	364
+Primary Assembly	na	na	unplaced-scaffold	scaffold-N50	322620
+Primary Assembly	na	na	unplaced-scaffold	spanned-gaps	211
+Primary Assembly	na	na	unplaced-scaffold	unspanned-gaps	0
+Primary Assembly	Arahy.01	Chromosome	all	total-length	112420854
+Primary Assembly	Arahy.01	Chromosome	all	ungapped-length	112264854
+Primary Assembly	Arahy.01	Chromosome	all	scaffold-count	1
+Primary Assembly	Arahy.01	Chromosome	all	scaffold-N50	112420854
+Primary Assembly	Arahy.01	Chromosome	all	spanned-gaps	156
+Primary Assembly	Arahy.01	Chromosome	all	unspanned-gaps	0
+Primary Assembly	Arahy.01	Chromosome	assembled-molecule	total-length	112420854
+Primary Assembly	Arahy.01	Chromosome	assembled-molecule	ungapped-length	112264854
+Primary Assembly	Arahy.01	Chromosome	assembled-molecule	scaffold-count	1
+Primary Assembly	Arahy.01	Chromosome	assembled-molecule	scaffold-N50	112420854
+Primary Assembly	Arahy.01	Chromosome	assembled-molecule	spanned-gaps	156
+Primary Assembly	Arahy.01	Chromosome	assembled-molecule	unspanned-gaps	0
+Primary Assembly	Arahy.01	Chromosome	unlocalized-scaffold	total-length	0
+Primary Assembly	Arahy.01	Chromosome	unlocalized-scaffold	ungapped-length	0
+Primary Assembly	Arahy.01	Chromosome	unlocalized-scaffold	scaffold-count	0
+Primary Assembly	Arahy.01	Chromosome	unlocalized-scaffold	scaffold-N50	0
+Primary Assembly	Arahy.01	Chromosome	unlocalized-scaffold	spanned-gaps	0
+Primary Assembly	Arahy.01	Chromosome	unlocalized-scaffold	unspanned-gaps	0
+Primary Assembly	Arahy.02	Chromosome	all	total-length	102981163
+Primary Assembly	Arahy.02	Chromosome	all	ungapped-length	102751163
+Primary Assembly	Arahy.02	Chromosome	all	scaffold-count	1
+Primary Assembly	Arahy.02	Chromosome	all	scaffold-N50	102981163
+Primary Assembly	Arahy.02	Chromosome	all	spanned-gaps	194
+Primary Assembly	Arahy.02	Chromosome	all	unspanned-gaps	0
+Primary Assembly	Arahy.02	Chromosome	assembled-molecule	total-length	102981163
+Primary Assembly	Arahy.02	Chromosome	assembled-molecule	ungapped-length	102751163
+Primary Assembly	Arahy.02	Chromosome	assembled-molecule	scaffold-count	1
+Primary Assembly	Arahy.02	Chromosome	assembled-molecule	scaffold-N50	102981163
+Primary Assembly	Arahy.02	Chromosome	assembled-molecule	spanned-gaps	194
+Primary Assembly	Arahy.02	Chromosome	assembled-molecule	unspanned-gaps	0
+Primary Assembly	Arahy.02	Chromosome	unlocalized-scaffold	total-length	0
+Primary Assembly	Arahy.02	Chromosome	unlocalized-scaffold	ungapped-length	0
+Primary Assembly	Arahy.02	Chromosome	unlocalized-scaffold	scaffold-count	0
+Primary Assembly	Arahy.02	Chromosome	unlocalized-scaffold	scaffold-N50	0
+Primary Assembly	Arahy.02	Chromosome	unlocalized-scaffold	spanned-gaps	0
+Primary Assembly	Arahy.02	Chromosome	unlocalized-scaffold	unspanned-gaps	0
+Primary Assembly	Arahy.03	Chromosome	all	total-length	143813506
+Primary Assembly	Arahy.03	Chromosome	all	ungapped-length	143589506
+Primary Assembly	Arahy.03	Chromosome	all	scaffold-count	1
+Primary Assembly	Arahy.03	Chromosome	all	scaffold-N50	143813506
+Primary Assembly	Arahy.03	Chromosome	all	spanned-gaps	179
+Primary Assembly	Arahy.03	Chromosome	all	unspanned-gaps	0
+Primary Assembly	Arahy.03	Chromosome	assembled-molecule	total-length	143813506
+Primary Assembly	Arahy.03	Chromosome	assembled-molecule	ungapped-length	143589506
+Primary Assembly	Arahy.03	Chromosome	assembled-molecule	scaffold-count	1
+Primary Assembly	Arahy.03	Chromosome	assembled-molecule	scaffold-N50	143813506
+Primary Assembly	Arahy.03	Chromosome	assembled-molecule	spanned-gaps	179
+Primary Assembly	Arahy.03	Chromosome	assembled-molecule	unspanned-gaps	0
+Primary Assembly	Arahy.03	Chromosome	unlocalized-scaffold	total-length	0
+Primary Assembly	Arahy.03	Chromosome	unlocalized-scaffold	ungapped-length	0
+Primary Assembly	Arahy.03	Chromosome	unlocalized-scaffold	scaffold-count	0
+Primary Assembly	Arahy.03	Chromosome	unlocalized-scaffold	scaffold-N50	0
+Primary Assembly	Arahy.03	Chromosome	unlocalized-scaffold	spanned-gaps	0
+Primary Assembly	Arahy.03	Chromosome	unlocalized-scaffold	unspanned-gaps	0
+Primary Assembly	Arahy.04	Chromosome	all	total-length	128801742
+Primary Assembly	Arahy.04	Chromosome	all	ungapped-length	128555721
+Primary Assembly	Arahy.04	Chromosome	all	scaffold-count	1
+Primary Assembly	Arahy.04	Chromosome	all	scaffold-N50	128801742
+Primary Assembly	Arahy.04	Chromosome	all	spanned-gaps	238
+Primary Assembly	Arahy.04	Chromosome	all	unspanned-gaps	0
+Primary Assembly	Arahy.04	Chromosome	assembled-molecule	total-length	128801742
+Primary Assembly	Arahy.04	Chromosome	assembled-molecule	ungapped-length	128555721
+Primary Assembly	Arahy.04	Chromosome	assembled-molecule	scaffold-count	1
+Primary Assembly	Arahy.04	Chromosome	assembled-molecule	scaffold-N50	128801742
+Primary Assembly	Arahy.04	Chromosome	assembled-molecule	spanned-gaps	238
+Primary Assembly	Arahy.04	Chromosome	assembled-molecule	unspanned-gaps	0
+Primary Assembly	Arahy.04	Chromosome	unlocalized-scaffold	total-length	0
+Primary Assembly	Arahy.04	Chromosome	unlocalized-scaffold	ungapped-length	0
+Primary Assembly	Arahy.04	Chromosome	unlocalized-scaffold	scaffold-count	0
+Primary Assembly	Arahy.04	Chromosome	unlocalized-scaffold	scaffold-N50	0
+Primary Assembly	Arahy.04	Chromosome	unlocalized-scaffold	spanned-gaps	0
+Primary Assembly	Arahy.04	Chromosome	unlocalized-scaffold	unspanned-gaps	0
+Primary Assembly	Arahy.05	Chromosome	all	total-length	115930344
+Primary Assembly	Arahy.05	Chromosome	all	ungapped-length	115758344
+Primary Assembly	Arahy.05	Chromosome	all	scaffold-count	1
+Primary Assembly	Arahy.05	Chromosome	all	scaffold-N50	115930344
+Primary Assembly	Arahy.05	Chromosome	all	spanned-gaps	172
+Primary Assembly	Arahy.05	Chromosome	all	unspanned-gaps	0
+Primary Assembly	Arahy.05	Chromosome	assembled-molecule	total-length	115930344
+Primary Assembly	Arahy.05	Chromosome	assembled-molecule	ungapped-length	115758344
+Primary Assembly	Arahy.05	Chromosome	assembled-molecule	scaffold-count	1
+Primary Assembly	Arahy.05	Chromosome	assembled-molecule	scaffold-N50	115930344
+Primary Assembly	Arahy.05	Chromosome	assembled-molecule	spanned-gaps	172
+Primary Assembly	Arahy.05	Chromosome	assembled-molecule	unspanned-gaps	0
+Primary Assembly	Arahy.05	Chromosome	unlocalized-scaffold	total-length	0
+Primary Assembly	Arahy.05	Chromosome	unlocalized-scaffold	ungapped-length	0
+Primary Assembly	Arahy.05	Chromosome	unlocalized-scaffold	scaffold-count	0
+Primary Assembly	Arahy.05	Chromosome	unlocalized-scaffold	scaffold-N50	0
+Primary Assembly	Arahy.05	Chromosome	unlocalized-scaffold	spanned-gaps	0
+Primary Assembly	Arahy.05	Chromosome	unlocalized-scaffold	unspanned-gaps	0
+Primary Assembly	Arahy.06	Chromosome	all	total-length	115504342
+Primary Assembly	Arahy.06	Chromosome	all	ungapped-length	115283342
+Primary Assembly	Arahy.06	Chromosome	all	scaffold-count	1
+Primary Assembly	Arahy.06	Chromosome	all	scaffold-N50	115504342
+Primary Assembly	Arahy.06	Chromosome	all	spanned-gaps	212
+Primary Assembly	Arahy.06	Chromosome	all	unspanned-gaps	0
+Primary Assembly	Arahy.06	Chromosome	assembled-molecule	total-length	115504342
+Primary Assembly	Arahy.06	Chromosome	assembled-molecule	ungapped-length	115283342
+Primary Assembly	Arahy.06	Chromosome	assembled-molecule	scaffold-count	1
+Primary Assembly	Arahy.06	Chromosome	assembled-molecule	scaffold-N50	115504342
+Primary Assembly	Arahy.06	Chromosome	assembled-molecule	spanned-gaps	212
+Primary Assembly	Arahy.06	Chromosome	assembled-molecule	unspanned-gaps	0
+Primary Assembly	Arahy.06	Chromosome	unlocalized-scaffold	total-length	0
+Primary Assembly	Arahy.06	Chromosome	unlocalized-scaffold	ungapped-length	0
+Primary Assembly	Arahy.06	Chromosome	unlocalized-scaffold	scaffold-count	0
+Primary Assembly	Arahy.06	Chromosome	unlocalized-scaffold	scaffold-N50	0
+Primary Assembly	Arahy.06	Chromosome	unlocalized-scaffold	spanned-gaps	0
+Primary Assembly	Arahy.06	Chromosome	unlocalized-scaffold	unspanned-gaps	0
+Primary Assembly	Arahy.07	Chromosome	all	total-length	81119488
+Primary Assembly	Arahy.07	Chromosome	all	ungapped-length	81007488
+Primary Assembly	Arahy.07	Chromosome	all	scaffold-count	1
+Primary Assembly	Arahy.07	Chromosome	all	scaffold-N50	81119488
+Primary Assembly	Arahy.07	Chromosome	all	spanned-gaps	112
+Primary Assembly	Arahy.07	Chromosome	all	unspanned-gaps	0
+Primary Assembly	Arahy.07	Chromosome	assembled-molecule	total-length	81119488
+Primary Assembly	Arahy.07	Chromosome	assembled-molecule	ungapped-length	81007488
+Primary Assembly	Arahy.07	Chromosome	assembled-molecule	scaffold-count	1
+Primary Assembly	Arahy.07	Chromosome	assembled-molecule	scaffold-N50	81119488
+Primary Assembly	Arahy.07	Chromosome	assembled-molecule	spanned-gaps	112
+Primary Assembly	Arahy.07	Chromosome	assembled-molecule	unspanned-gaps	0
+Primary Assembly	Arahy.07	Chromosome	unlocalized-scaffold	total-length	0
+Primary Assembly	Arahy.07	Chromosome	unlocalized-scaffold	ungapped-length	0
+Primary Assembly	Arahy.07	Chromosome	unlocalized-scaffold	scaffold-count	0
+Primary Assembly	Arahy.07	Chromosome	unlocalized-scaffold	scaffold-N50	0
+Primary Assembly	Arahy.07	Chromosome	unlocalized-scaffold	spanned-gaps	0
+Primary Assembly	Arahy.07	Chromosome	unlocalized-scaffold	unspanned-gaps	0
+Primary Assembly	Arahy.08	Chromosome	all	total-length	51897010
+Primary Assembly	Arahy.08	Chromosome	all	ungapped-length	51844010
+Primary Assembly	Arahy.08	Chromosome	all	scaffold-count	1
+Primary Assembly	Arahy.08	Chromosome	all	scaffold-N50	51897010
+Primary Assembly	Arahy.08	Chromosome	all	spanned-gaps	44
+Primary Assembly	Arahy.08	Chromosome	all	unspanned-gaps	0
+Primary Assembly	Arahy.08	Chromosome	assembled-molecule	total-length	51897010
+Primary Assembly	Arahy.08	Chromosome	assembled-molecule	ungapped-length	51844010
+Primary Assembly	Arahy.08	Chromosome	assembled-molecule	scaffold-count	1
+Primary Assembly	Arahy.08	Chromosome	assembled-molecule	scaffold-N50	51897010
+Primary Assembly	Arahy.08	Chromosome	assembled-molecule	spanned-gaps	44
+Primary Assembly	Arahy.08	Chromosome	assembled-molecule	unspanned-gaps	0
+Primary Assembly	Arahy.08	Chromosome	unlocalized-scaffold	total-length	0
+Primary Assembly	Arahy.08	Chromosome	unlocalized-scaffold	ungapped-length	0
+Primary Assembly	Arahy.08	Chromosome	unlocalized-scaffold	scaffold-count	0
+Primary Assembly	Arahy.08	Chromosome	unlocalized-scaffold	scaffold-N50	0
+Primary Assembly	Arahy.08	Chromosome	unlocalized-scaffold	spanned-gaps	0
+Primary Assembly	Arahy.08	Chromosome	unlocalized-scaffold	unspanned-gaps	0
+Primary Assembly	Arahy.09	Chromosome	all	total-length	120519698
+Primary Assembly	Arahy.09	Chromosome	all	ungapped-length	120390698
+Primary Assembly	Arahy.09	Chromosome	all	scaffold-count	1
+Primary Assembly	Arahy.09	Chromosome	all	scaffold-N50	120519698
+Primary Assembly	Arahy.09	Chromosome	all	spanned-gaps	129
+Primary Assembly	Arahy.09	Chromosome	all	unspanned-gaps	0
+Primary Assembly	Arahy.09	Chromosome	assembled-molecule	total-length	120519698
+Primary Assembly	Arahy.09	Chromosome	assembled-molecule	ungapped-length	120390698
+Primary Assembly	Arahy.09	Chromosome	assembled-molecule	scaffold-count	1
+Primary Assembly	Arahy.09	Chromosome	assembled-molecule	scaffold-N50	120519698
+Primary Assembly	Arahy.09	Chromosome	assembled-molecule	spanned-gaps	129
+Primary Assembly	Arahy.09	Chromosome	assembled-molecule	unspanned-gaps	0
+Primary Assembly	Arahy.09	Chromosome	unlocalized-scaffold	total-length	0
+Primary Assembly	Arahy.09	Chromosome	unlocalized-scaffold	ungapped-length	0
+Primary Assembly	Arahy.09	Chromosome	unlocalized-scaffold	scaffold-count	0
+Primary Assembly	Arahy.09	Chromosome	unlocalized-scaffold	scaffold-N50	0
+Primary Assembly	Arahy.09	Chromosome	unlocalized-scaffold	spanned-gaps	0
+Primary Assembly	Arahy.09	Chromosome	unlocalized-scaffold	unspanned-gaps	0
+Primary Assembly	Arahy.10	Chromosome	all	total-length	117088237
+Primary Assembly	Arahy.10	Chromosome	all	ungapped-length	116853237
+Primary Assembly	Arahy.10	Chromosome	all	scaffold-count	1
+Primary Assembly	Arahy.10	Chromosome	all	scaffold-N50	117088237
+Primary Assembly	Arahy.10	Chromosome	all	spanned-gaps	235
+Primary Assembly	Arahy.10	Chromosome	all	unspanned-gaps	0
+Primary Assembly	Arahy.10	Chromosome	assembled-molecule	total-length	117088237
+Primary Assembly	Arahy.10	Chromosome	assembled-molecule	ungapped-length	116853237
+Primary Assembly	Arahy.10	Chromosome	assembled-molecule	scaffold-count	1
+Primary Assembly	Arahy.10	Chromosome	assembled-molecule	scaffold-N50	117088237
+Primary Assembly	Arahy.10	Chromosome	assembled-molecule	spanned-gaps	235
+Primary Assembly	Arahy.10	Chromosome	assembled-molecule	unspanned-gaps	0
+Primary Assembly	Arahy.10	Chromosome	unlocalized-scaffold	total-length	0
+Primary Assembly	Arahy.10	Chromosome	unlocalized-scaffold	ungapped-length	0
+Primary Assembly	Arahy.10	Chromosome	unlocalized-scaffold	scaffold-count	0
+Primary Assembly	Arahy.10	Chromosome	unlocalized-scaffold	scaffold-N50	0
+Primary Assembly	Arahy.10	Chromosome	unlocalized-scaffold	spanned-gaps	0
+Primary Assembly	Arahy.10	Chromosome	unlocalized-scaffold	unspanned-gaps	0
+Primary Assembly	Arahy.11	Chromosome	all	total-length	149299306
+Primary Assembly	Arahy.11	Chromosome	all	ungapped-length	149137306
+Primary Assembly	Arahy.11	Chromosome	all	scaffold-count	1
+Primary Assembly	Arahy.11	Chromosome	all	scaffold-N50	149299306
+Primary Assembly	Arahy.11	Chromosome	all	spanned-gaps	162
+Primary Assembly	Arahy.11	Chromosome	all	unspanned-gaps	0
+Primary Assembly	Arahy.11	Chromosome	assembled-molecule	total-length	149299306
+Primary Assembly	Arahy.11	Chromosome	assembled-molecule	ungapped-length	149137306
+Primary Assembly	Arahy.11	Chromosome	assembled-molecule	scaffold-count	1
+Primary Assembly	Arahy.11	Chromosome	assembled-molecule	scaffold-N50	149299306
+Primary Assembly	Arahy.11	Chromosome	assembled-molecule	spanned-gaps	162
+Primary Assembly	Arahy.11	Chromosome	assembled-molecule	unspanned-gaps	0
+Primary Assembly	Arahy.11	Chromosome	unlocalized-scaffold	total-length	0
+Primary Assembly	Arahy.11	Chromosome	unlocalized-scaffold	ungapped-length	0
+Primary Assembly	Arahy.11	Chromosome	unlocalized-scaffold	scaffold-count	0
+Primary Assembly	Arahy.11	Chromosome	unlocalized-scaffold	scaffold-N50	0
+Primary Assembly	Arahy.11	Chromosome	unlocalized-scaffold	spanned-gaps	0
+Primary Assembly	Arahy.11	Chromosome	unlocalized-scaffold	unspanned-gaps	0
+Primary Assembly	Arahy.12	Chromosome	all	total-length	120579088
+Primary Assembly	Arahy.12	Chromosome	all	ungapped-length	120444088
+Primary Assembly	Arahy.12	Chromosome	all	scaffold-count	1
+Primary Assembly	Arahy.12	Chromosome	all	scaffold-N50	120579088
+Primary Assembly	Arahy.12	Chromosome	all	spanned-gaps	135
+Primary Assembly	Arahy.12	Chromosome	all	unspanned-gaps	0
+Primary Assembly	Arahy.12	Chromosome	assembled-molecule	total-length	120579088
+Primary Assembly	Arahy.12	Chromosome	assembled-molecule	ungapped-length	120444088
+Primary Assembly	Arahy.12	Chromosome	assembled-molecule	scaffold-count	1
+Primary Assembly	Arahy.12	Chromosome	assembled-molecule	scaffold-N50	120579088
+Primary Assembly	Arahy.12	Chromosome	assembled-molecule	spanned-gaps	135
+Primary Assembly	Arahy.12	Chromosome	assembled-molecule	unspanned-gaps	0
+Primary Assembly	Arahy.12	Chromosome	unlocalized-scaffold	total-length	0
+Primary Assembly	Arahy.12	Chromosome	unlocalized-scaffold	ungapped-length	0
+Primary Assembly	Arahy.12	Chromosome	unlocalized-scaffold	scaffold-count	0
+Primary Assembly	Arahy.12	Chromosome	unlocalized-scaffold	scaffold-N50	0
+Primary Assembly	Arahy.12	Chromosome	unlocalized-scaffold	spanned-gaps	0
+Primary Assembly	Arahy.12	Chromosome	unlocalized-scaffold	unspanned-gaps	0
+Primary Assembly	Arahy.13	Chromosome	all	total-length	146725006
+Primary Assembly	Arahy.13	Chromosome	all	ungapped-length	146525006
+Primary Assembly	Arahy.13	Chromosome	all	scaffold-count	1
+Primary Assembly	Arahy.13	Chromosome	all	scaffold-N50	146725006
+Primary Assembly	Arahy.13	Chromosome	all	spanned-gaps	173
+Primary Assembly	Arahy.13	Chromosome	all	unspanned-gaps	0
+Primary Assembly	Arahy.13	Chromosome	assembled-molecule	total-length	146725006
+Primary Assembly	Arahy.13	Chromosome	assembled-molecule	ungapped-length	146525006
+Primary Assembly	Arahy.13	Chromosome	assembled-molecule	scaffold-count	1
+Primary Assembly	Arahy.13	Chromosome	assembled-molecule	scaffold-N50	146725006
+Primary Assembly	Arahy.13	Chromosome	assembled-molecule	spanned-gaps	173
+Primary Assembly	Arahy.13	Chromosome	assembled-molecule	unspanned-gaps	0
+Primary Assembly	Arahy.13	Chromosome	unlocalized-scaffold	total-length	0
+Primary Assembly	Arahy.13	Chromosome	unlocalized-scaffold	ungapped-length	0
+Primary Assembly	Arahy.13	Chromosome	unlocalized-scaffold	scaffold-count	0
+Primary Assembly	Arahy.13	Chromosome	unlocalized-scaffold	scaffold-N50	0
+Primary Assembly	Arahy.13	Chromosome	unlocalized-scaffold	spanned-gaps	0
+Primary Assembly	Arahy.13	Chromosome	unlocalized-scaffold	unspanned-gaps	0
+Primary Assembly	Arahy.14	Chromosome	all	total-length	143237272
+Primary Assembly	Arahy.14	Chromosome	all	ungapped-length	143086272
+Primary Assembly	Arahy.14	Chromosome	all	scaffold-count	1
+Primary Assembly	Arahy.14	Chromosome	all	scaffold-N50	143237272
+Primary Assembly	Arahy.14	Chromosome	all	spanned-gaps	151
+Primary Assembly	Arahy.14	Chromosome	all	unspanned-gaps	0
+Primary Assembly	Arahy.14	Chromosome	assembled-molecule	total-length	143237272
+Primary Assembly	Arahy.14	Chromosome	assembled-molecule	ungapped-length	143086272
+Primary Assembly	Arahy.14	Chromosome	assembled-molecule	scaffold-count	1
+Primary Assembly	Arahy.14	Chromosome	assembled-molecule	scaffold-N50	143237272
+Primary Assembly	Arahy.14	Chromosome	assembled-molecule	spanned-gaps	151
+Primary Assembly	Arahy.14	Chromosome	assembled-molecule	unspanned-gaps	0
+Primary Assembly	Arahy.14	Chromosome	unlocalized-scaffold	total-length	0
+Primary Assembly	Arahy.14	Chromosome	unlocalized-scaffold	ungapped-length	0
+Primary Assembly	Arahy.14	Chromosome	unlocalized-scaffold	scaffold-count	0
+Primary Assembly	Arahy.14	Chromosome	unlocalized-scaffold	scaffold-N50	0
+Primary Assembly	Arahy.14	Chromosome	unlocalized-scaffold	spanned-gaps	0
+Primary Assembly	Arahy.14	Chromosome	unlocalized-scaffold	unspanned-gaps	0
+Primary Assembly	Arahy.15	Chromosome	all	total-length	160879708
+Primary Assembly	Arahy.15	Chromosome	all	ungapped-length	160694708
+Primary Assembly	Arahy.15	Chromosome	all	scaffold-count	1
+Primary Assembly	Arahy.15	Chromosome	all	scaffold-N50	160879708
+Primary Assembly	Arahy.15	Chromosome	all	spanned-gaps	149
+Primary Assembly	Arahy.15	Chromosome	all	unspanned-gaps	0
+Primary Assembly	Arahy.15	Chromosome	assembled-molecule	total-length	160879708
+Primary Assembly	Arahy.15	Chromosome	assembled-molecule	ungapped-length	160694708
+Primary Assembly	Arahy.15	Chromosome	assembled-molecule	scaffold-count	1
+Primary Assembly	Arahy.15	Chromosome	assembled-molecule	scaffold-N50	160879708
+Primary Assembly	Arahy.15	Chromosome	assembled-molecule	spanned-gaps	149
+Primary Assembly	Arahy.15	Chromosome	assembled-molecule	unspanned-gaps	0
+Primary Assembly	Arahy.15	Chromosome	unlocalized-scaffold	total-length	0
+Primary Assembly	Arahy.15	Chromosome	unlocalized-scaffold	ungapped-length	0
+Primary Assembly	Arahy.15	Chromosome	unlocalized-scaffold	scaffold-count	0
+Primary Assembly	Arahy.15	Chromosome	unlocalized-scaffold	scaffold-N50	0
+Primary Assembly	Arahy.15	Chromosome	unlocalized-scaffold	spanned-gaps	0
+Primary Assembly	Arahy.15	Chromosome	unlocalized-scaffold	unspanned-gaps	0
+Primary Assembly	Arahy.16	Chromosome	all	total-length	154808347
+Primary Assembly	Arahy.16	Chromosome	all	ungapped-length	154560317
+Primary Assembly	Arahy.16	Chromosome	all	scaffold-count	1
+Primary Assembly	Arahy.16	Chromosome	all	scaffold-N50	154808347
+Primary Assembly	Arahy.16	Chromosome	all	spanned-gaps	222
+Primary Assembly	Arahy.16	Chromosome	all	unspanned-gaps	0
+Primary Assembly	Arahy.16	Chromosome	assembled-molecule	total-length	154808347
+Primary Assembly	Arahy.16	Chromosome	assembled-molecule	ungapped-length	154560317
+Primary Assembly	Arahy.16	Chromosome	assembled-molecule	scaffold-count	1
+Primary Assembly	Arahy.16	Chromosome	assembled-molecule	scaffold-N50	154808347
+Primary Assembly	Arahy.16	Chromosome	assembled-molecule	spanned-gaps	222
+Primary Assembly	Arahy.16	Chromosome	assembled-molecule	unspanned-gaps	0
+Primary Assembly	Arahy.16	Chromosome	unlocalized-scaffold	total-length	0
+Primary Assembly	Arahy.16	Chromosome	unlocalized-scaffold	ungapped-length	0
+Primary Assembly	Arahy.16	Chromosome	unlocalized-scaffold	scaffold-count	0
+Primary Assembly	Arahy.16	Chromosome	unlocalized-scaffold	scaffold-N50	0
+Primary Assembly	Arahy.16	Chromosome	unlocalized-scaffold	spanned-gaps	0
+Primary Assembly	Arahy.16	Chromosome	unlocalized-scaffold	unspanned-gaps	0
+Primary Assembly	Arahy.17	Chromosome	all	total-length	134922436
+Primary Assembly	Arahy.17	Chromosome	all	ungapped-length	134751436
+Primary Assembly	Arahy.17	Chromosome	all	scaffold-count	1
+Primary Assembly	Arahy.17	Chromosome	all	scaffold-N50	134922436
+Primary Assembly	Arahy.17	Chromosome	all	spanned-gaps	162
+Primary Assembly	Arahy.17	Chromosome	all	unspanned-gaps	0
+Primary Assembly	Arahy.17	Chromosome	assembled-molecule	total-length	134922436
+Primary Assembly	Arahy.17	Chromosome	assembled-molecule	ungapped-length	134751436
+Primary Assembly	Arahy.17	Chromosome	assembled-molecule	scaffold-count	1
+Primary Assembly	Arahy.17	Chromosome	assembled-molecule	scaffold-N50	134922436
+Primary Assembly	Arahy.17	Chromosome	assembled-molecule	spanned-gaps	162
+Primary Assembly	Arahy.17	Chromosome	assembled-molecule	unspanned-gaps	0
+Primary Assembly	Arahy.17	Chromosome	unlocalized-scaffold	total-length	0
+Primary Assembly	Arahy.17	Chromosome	unlocalized-scaffold	ungapped-length	0
+Primary Assembly	Arahy.17	Chromosome	unlocalized-scaffold	scaffold-count	0
+Primary Assembly	Arahy.17	Chromosome	unlocalized-scaffold	scaffold-N50	0
+Primary Assembly	Arahy.17	Chromosome	unlocalized-scaffold	spanned-gaps	0
+Primary Assembly	Arahy.17	Chromosome	unlocalized-scaffold	unspanned-gaps	0
+Primary Assembly	Arahy.18	Chromosome	all	total-length	135150084
+Primary Assembly	Arahy.18	Chromosome	all	ungapped-length	134927084
+Primary Assembly	Arahy.18	Chromosome	all	scaffold-count	1
+Primary Assembly	Arahy.18	Chromosome	all	scaffold-N50	135150084
+Primary Assembly	Arahy.18	Chromosome	all	spanned-gaps	205
+Primary Assembly	Arahy.18	Chromosome	all	unspanned-gaps	0
+Primary Assembly	Arahy.18	Chromosome	assembled-molecule	total-length	135150084
+Primary Assembly	Arahy.18	Chromosome	assembled-molecule	ungapped-length	134927084
+Primary Assembly	Arahy.18	Chromosome	assembled-molecule	scaffold-count	1
+Primary Assembly	Arahy.18	Chromosome	assembled-molecule	scaffold-N50	135150084
+Primary Assembly	Arahy.18	Chromosome	assembled-molecule	spanned-gaps	205
+Primary Assembly	Arahy.18	Chromosome	assembled-molecule	unspanned-gaps	0
+Primary Assembly	Arahy.18	Chromosome	unlocalized-scaffold	total-length	0
+Primary Assembly	Arahy.18	Chromosome	unlocalized-scaffold	ungapped-length	0
+Primary Assembly	Arahy.18	Chromosome	unlocalized-scaffold	scaffold-count	0
+Primary Assembly	Arahy.18	Chromosome	unlocalized-scaffold	scaffold-N50	0
+Primary Assembly	Arahy.18	Chromosome	unlocalized-scaffold	spanned-gaps	0
+Primary Assembly	Arahy.18	Chromosome	unlocalized-scaffold	unspanned-gaps	0
+Primary Assembly	Arahy.19	Chromosome	all	total-length	158625764
+Primary Assembly	Arahy.19	Chromosome	all	ungapped-length	158384764
+Primary Assembly	Arahy.19	Chromosome	all	scaffold-count	1
+Primary Assembly	Arahy.19	Chromosome	all	scaffold-N50	158625764
+Primary Assembly	Arahy.19	Chromosome	all	spanned-gaps	232
+Primary Assembly	Arahy.19	Chromosome	all	unspanned-gaps	0
+Primary Assembly	Arahy.19	Chromosome	assembled-molecule	total-length	158625764
+Primary Assembly	Arahy.19	Chromosome	assembled-molecule	ungapped-length	158384764
+Primary Assembly	Arahy.19	Chromosome	assembled-molecule	scaffold-count	1
+Primary Assembly	Arahy.19	Chromosome	assembled-molecule	scaffold-N50	158625764
+Primary Assembly	Arahy.19	Chromosome	assembled-molecule	spanned-gaps	232
+Primary Assembly	Arahy.19	Chromosome	assembled-molecule	unspanned-gaps	0
+Primary Assembly	Arahy.19	Chromosome	unlocalized-scaffold	total-length	0
+Primary Assembly	Arahy.19	Chromosome	unlocalized-scaffold	ungapped-length	0
+Primary Assembly	Arahy.19	Chromosome	unlocalized-scaffold	scaffold-count	0
+Primary Assembly	Arahy.19	Chromosome	unlocalized-scaffold	scaffold-N50	0
+Primary Assembly	Arahy.19	Chromosome	unlocalized-scaffold	spanned-gaps	0
+Primary Assembly	Arahy.19	Chromosome	unlocalized-scaffold	unspanned-gaps	0
+Primary Assembly	Arahy.20	Chromosome	all	total-length	143980330
+Primary Assembly	Arahy.20	Chromosome	all	ungapped-length	143798330
+Primary Assembly	Arahy.20	Chromosome	all	scaffold-count	1
+Primary Assembly	Arahy.20	Chromosome	all	scaffold-N50	143980330
+Primary Assembly	Arahy.20	Chromosome	all	spanned-gaps	182
+Primary Assembly	Arahy.20	Chromosome	all	unspanned-gaps	0
+Primary Assembly	Arahy.20	Chromosome	assembled-molecule	total-length	143980330
+Primary Assembly	Arahy.20	Chromosome	assembled-molecule	ungapped-length	143798330
+Primary Assembly	Arahy.20	Chromosome	assembled-molecule	scaffold-count	1
+Primary Assembly	Arahy.20	Chromosome	assembled-molecule	scaffold-N50	143980330
+Primary Assembly	Arahy.20	Chromosome	assembled-molecule	spanned-gaps	182
+Primary Assembly	Arahy.20	Chromosome	assembled-molecule	unspanned-gaps	0
+Primary Assembly	Arahy.20	Chromosome	unlocalized-scaffold	total-length	0
+Primary Assembly	Arahy.20	Chromosome	unlocalized-scaffold	ungapped-length	0
+Primary Assembly	Arahy.20	Chromosome	unlocalized-scaffold	scaffold-count	0
+Primary Assembly	Arahy.20	Chromosome	unlocalized-scaffold	scaffold-N50	0
+Primary Assembly	Arahy.20	Chromosome	unlocalized-scaffold	spanned-gaps	0
+Primary Assembly	Arahy.20	Chromosome	unlocalized-scaffold	unspanned-gaps	0
