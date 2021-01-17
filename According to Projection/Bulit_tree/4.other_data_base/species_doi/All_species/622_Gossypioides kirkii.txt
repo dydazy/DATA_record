@@ -1,0 +1,1056 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+            var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl + '&gtm_auth=fCzlsmYQFAUQ_UXneGJNag&gtm_preview=env-2&gtm_cookies_win=x';
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TZGWTGG');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title>Frontiers | The Genome Sequence of Gossypioides kirkii Illustrates a Descending Dysploidy in Plants | Plant Science</title>
+
+    <link rel="shortcut icon" href="https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/favicon_16x16.ico" type="image/x-icon" />
+
+    <meta property="og:type" content="article" />
+    <meta property="frontiers:type" content="Article" />
+    <meta property="og:site_name" name="site_name" content="Frontiers" />
+    <meta property="og:title" name="Title" content="The Genome Sequence of Gossypioides kirkii Illustrates a Descending Dysploidy in Plants" />
+    <meta property="og:description" name="Description" content="One of the extraordinary aspects of plant genome evolution is variation in chromosome number, particularly that among closely related species. This is exemplified by the cotton genus (Gossypium) and its relatives, where most species and genera have a base chromosome number of 13. The two exceptions are sister genera that have n = 12 (the Hawaiian Kokia and the East African and Madagascan Gossypioides). We generated a high-quality genome sequence of Gossypioides kirkii (n = 12) using PacBio, Bionano, and Hi-C technologies, and compared this assembly to genome sequences of Kokia (n = 12) and Gossypium diploids (n = 13). Previous analysis demonstrated that the directionality of their reduced chromosome number was through large structural rearrangements. A series of structural rearrangements were identified comparing the de novo G. kirkii genome sequence to genome sequences of Gossypium, including chromosome fusions and inversions. Genome comparison between G. kirkii and Gossypium suggests that multiple steps are required to generate the extant structural differences." />
+    <meta property="og:url" name="url" content="https://www.frontiersin.org/article/10.3389/fpls.2019.01541/full" />
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"
+            integrity="sha256-h0cGsrExGgcZtSZ/fRz4AwV+Nn6Urh/3v3jFRQ0w9dQ=" crossorigin="anonymous"></script>
+        <link href="https://static.frontiersin.org/navigation-plugins/footer/css" rel="stylesheet" />
+            <link href="https://static.frontiersin.org/navigation-plugins/header/css" rel="stylesheet" />
+
+        <meta property="og:image" content="https://www.frontiersin.org/files/MyHome%20Article%20Library/472622/472622_Thumb_400.jpg" />
+            <meta name="citation_volume" content="10" />
+        <meta name="citation_journal_title" content="Frontiers in Plant Science" />
+        <meta name="citation_publisher" content="Frontiers" />
+        <meta name="citation_journal_abbrev" content="Front. Plant Sci." />
+        <meta name="citation_issn" content="1664-462X" />
+        <meta name="citation_doi" content="10.3389/fpls.2019.01541" />
+        <meta name="citation_pages" content="1541" />
+        <meta name="citation_language" content="English" />
+        <meta name="citation_title" content="The Genome Sequence of Gossypioides kirkii Illustrates a Descending Dysploidy in Plants" />
+        <meta name="citation_keywords" content="speciation; chromosome evolution; Cotton; structural rearrangements; Gossypieae" />
+        <meta name="citation_abstract" content="One of the extraordinary aspects of plant genome evolution is variation in chromosome number, particularly that among closely related species. This is exemplified by the cotton genus (Gossypium) and its relatives, where most species and genera have a base chromosome number of 13. The two exceptions are sister genera that have n=12 (the Hawaiian Kokia and the East African and Madagascan Gossypioides). We generated a high-quality genome sequence of Gossypioides kirkii (n=12) using PacBio, Bionano, and Hi-C technologies, and compared this assembly to genome sequences of Kokia (n=12) and Gossypium diploids (n=13). Previous analysis demonstrated that the directionality of their reduced chromosome number was through large structural rearrangements. A series of structural rearrangements were identified comparing the de novo G. kirkii genome sequence to genome sequences of Gossypium, including chromosome fusions and inversions. Genome comparison between G. kirkii and Gossypium suggests that multiple steps are required to generate the extant structural differences." />
+        <meta name="description" content="One of the extraordinary aspects of plant genome evolution is variation in chromosome number, particularly that among closely related species. This is exemplified by the cotton genus (Gossypium) and its relatives, where most species and genera have a base chromosome number of 13. The two exceptions are sister genera that have n=12 (the Hawaiian Kokia and the East African and Madagascan Gossypioides). We generated a high-quality genome sequence of Gossypioides kirkii (n=12) using PacBio, Bionano, and Hi-C technologies, and compared this assembly to genome sequences of Kokia (n=12) and Gossypium diploids (n=13). Previous analysis demonstrated that the directionality of their reduced chromosome number was through large structural rearrangements. A series of structural rearrangements were identified comparing the de novo G. kirkii genome sequence to genome sequences of Gossypium, including chromosome fusions and inversions. Genome comparison between G. kirkii and Gossypium suggests that multiple steps are required to generate the extant structural differences." />
+        <meta name="citation_online_date" content="2019/11/05" />
+        <meta name="citation_date" content="2019" />
+        <meta name="citation_publication_date" content="2019/11/27" />
+        <meta name="citation_pdf_url" content="https://www.frontiersin.org/articles/10.3389/fpls.2019.01541/pdf" />
+        <meta name="citation_author" content="Udall, Joshua A." />
+        <meta name="citation_author_institution" content="Crop Germplasm Research, USDA, College Station, United States" />
+        <meta name="citation_author_email" content="Joshua.udall@usda.gov" />
+        <meta name="citation_author" content="Long, Evan" />
+        <meta name="citation_author_institution" content="Plant Breeding and Genetics, Cornell University, United States" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Ramaraj, Thiruvarangan" />
+        <meta name="citation_author_institution" content="National Center of Genome Resources, United States" />
+        <meta name="citation_author_institution" content="School of Computing, DePaul University, United States" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Conover, Justin L." />
+        <meta name="citation_author_institution" content="EEOB Department, Iowa State University, United States" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Yuan, Daojun" />
+        <meta name="citation_author_institution" content="EEOB Department, Iowa State University, United States" />
+        <meta name="citation_author_institution" content="College of Plant Science and Technology, Huazhong Agricultural University, China" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Grover, Corrinne E." />
+        <meta name="citation_author_institution" content="EEOB Department, Iowa State University, United States" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Gong, Lei" />
+        <meta name="citation_author_institution" content="Key Laboratory of Molecular Epigenetics of the Ministry of Education, Northeast Normal University, China" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Arick, Mark A.  II" />
+        <meta name="citation_author_institution" content="Institute for Genomics, Biocomputing &amp; Biotechnology, Mississippi State University, Mississippi State, United States" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Masonbrink, Rick E." />
+        <meta name="citation_author_institution" content="Genome Informatics Facility, Iowa State University, United States" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Peterson, Daniel G." />
+        <meta name="citation_author_institution" content="Institute for Genomics, Biocomputing &amp; Biotechnology, Mississippi State University, Mississippi State, United States" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Wendel, Jonathan F." />
+        <meta name="citation_author_institution" content="EEOB Department, Iowa State University, United States" />
+        <meta name="citation_author_email" content="Joshua.udall@usda.gov" />
+    <meta name="Keywords" content="speciation, chromosome evolution, Cotton, structural rearrangements, Gossypieae" />
+
+        <meta name="dc.identifier" content="doi:10.3389/fpls.2019.01541"> <!--CrossMark widget-->
+    
+    <script type="text/javascript">
+
+        var CurrentIBarMenu = 'bysubjects';
+        var CurrentPageCode = 'ARTICLE_PAGE_NEW';
+
+        var FRConfiguration = (function() {
+            return {
+                Environment: 'Live',
+                SANVirtualPath: 'https://www.frontiersin.org/files/',
+                SharepointWebsiteUrl: 'https://www.frontiersin.org',
+                FrontiersJournalUIUrl: 'https://www.frontiersin.org',
+                FrontiersJournalAPIUrl: 'https://api-journal.frontiersin.org',
+                FrontiersReviewUIUrl: '',
+                FrontiersReviewAPIUrl: '',
+                FrontiersCookie: 'frontiersN',
+                FrontiersCookieRememberMe: 'frontiersNt',
+                FrontiersLoginUrl: 'https://www.frontiersin.org/Login.aspx',
+                FrontiersRegistrationUrl: 'http://www.frontiersin.org/Registration/Register.aspx',
+                IsCommentVisible: 'True',
+                IsPreview:'False'
+            };
+        })();
+
+        var FRLanguage = (function() {
+            var languageSet = {"ART_FRONTIERS":"Frontiers ","Article_AcceptedDate":"Accepted: ","Article_AnalyticsToolTip":"The total view count is updated once a day, so not to worry if you don\u0027t see immediate results.","Article_AnalyticsTotalViews":"total views","Article_AnalyticsViewImpact":"View Article Impact","Article_ArchiveLinkText":"Articles","Article_BibTex":"BibTex","Article_Citation":"Citation: ","Article_Commentary":"COMMENTARY","Article_Copyright":"Copyright: ","Article_CopyrightText":"This is an open-access article distributed under the terms of the \u003ca href=\"http://creativecommons.org/licenses/by/4.0/\"\u003eCreative Commons Attribution License (CC BY)\u003c/a\u003e. The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.","Article_Correspondence":"* Correspondence: ","Article_DownloadArticle":"Download Article","Article_DownloadPDF":"Download PDF","Article_DownloadProvisionalArticle":"Download Provisional Article","Article_DownloadProvisionalPDF":"Download Provisional PDF","Article_EditedBy":"Edited by: ","Article_EndNote":"EndNote","Article_EPUB":"EPUB","Article_ExportCitation":"Export Citation","Article_JATS":"JATS","Article_Keywords":"Keywords: ","Article_NLM":"XML (NLM)","Article_OriginalArticle":"ORIGINAL ARTICLE","Article_PaperPendingPublishedDate":"Paper pending published: ","Article_PDF":"PDF","Article_ProvisionalPDF":"Provisional PDF","Article_PublishedDate":"Published online: ","Article_ReadFullText":"Read Full Text","Article_ReceivedDate":"Received: ","Article_ReferenceManager":"Reference Manager","Article_ReviewedBy":"Reviewed by: ","Article_RTInfoText":"This article is part of the Research Topic","Article_ShareOn":"SHARE ON","Article_SimpleTEXTfile":"Simple TEXT file","Article_SupplementalData":"SUPPLEMENTAL DATA","Article_TableOfContent":"TABLE OF CONTENTS","Article_ViewEnhancedPDF":"ReadCube","Article_XML":"XML","BrowserWarningText":"\u003ch2\u003eWarning!\u003c/h2\u003e\u003cp\u003eYou are using an \u003cstrong\u003eoutdated\u003c/strong\u003e browser. This page doesn\u0027t support Internet Explorer 6, 7 and 8.\u003cbr /\u003ePlease \u003ca class=\"blue\" href=\"http://browsehappy.com/\"\u003eupgrade your browser\u003c/a\u003e or \u003ca class=\"blue\" href=\"http://www.google.com/chromeframe/?redirect=true\"\u003eactivate Google Chrome Frame\u003c/a\u003e to improve your experience.\u003c/p\u003e","COMMENT_HEADERTEXT":"Comment text too long","COMMENT_WARNINGTEXT":"Comments must be less than 4,000 characters. You have entered ","Impact_BackToArticle":"Back to article","People_Also_LookedAt":"People also looked at"};
+
+            return {
+                value: function(key) {
+                    if (languageSet[key]) {
+                        return languageSet[key];
+                    } else {
+                        throw new Error('Unable to get the value status from the language set'); // Use Error, not FRError
+                    }
+                }
+            };
+
+        })();
+
+        var FRJournalDetails = (function() {
+            return {
+                JournalType: 'section',
+                JournalId: '373',
+                SectionId: '1428'
+            };
+        })();
+
+        var FRArticleDetails = (function() {
+            return {
+                ArticleId: '472622'
+            };
+        })();
+        var FRArticleRecaptchaSettings = (function() {
+            return {
+                RecaptchaSiteKey: '6LdG3i0UAAAAAOC4qUh35ubHgJotEHp_STXHgr_v'
+            };
+        })();
+
+    </script>
+
+    <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-535f7e222fc3ca72"></script>
+
+
+    <script language="javascript">
+        var addthis_config = addthis_config || {};
+        addthis_config.data_track_addressbar = false;
+        addthis_config.data_track_clickback = false;
+    </script>
+
+    
+    
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+
+    <![endif]-->
+
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+    <script src="/areas/research-topics/content/scripts/frontiers/frontiers.markerclusterer.js"></script>
+
+
+    <link href="https://209cd62b0febf2a55d40-715eb384bc6027b876e93ad33d5c5ec3.ssl.cf3.rackcdn.com/font-awesome-4.3.0/css/font-awesome.css" rel="stylesheet"/>
+
+    <link href="https://9d0dd7a648345f19af83-877d2ecaf11b88d5e17327c758e17ef6.ssl.cf2.rackcdn.com/museo-sans-1.0.1/css/museo-sans.css" rel="stylesheet"/>
+
+    <link href="https://9d0dd7a648345f19af83-877d2ecaf11b88d5e17327c758e17ef6.ssl.cf2.rackcdn.com/museo-slab-1.0.1/css/museo-slab.css" rel="stylesheet"/>
+
+    <link href="https://209cd62b0febf2a55d40-715eb384bc6027b876e93ad33d5c5ec3.ssl.cf3.rackcdn.com/open-sans-1.0.0/css/open-sans.css" rel="stylesheet"/>
+
+    <link href="https://static.frontiersin.org/areas/articles/css/app?v=d7xs6QXeE2UIxbm9TizlA3t08LzxgJlsJHBk24_OOR81" rel="stylesheet"/>
+
+    
+    <style type="text/css"> .journal-plant-science {
+ background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-plant-science.gif') no-repeat 110% 0px;
+}
+
+/* Medium Devices, Desktops ---------- */  @media only screen and (max-width : 992px) { {
+ .journal-plant-science {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-plant-science.gif') no-repeat -50px 0px;
+ }}
+
+/* Small Devices, Tablets ------------ */  @media only screen and (max-width : 768px) {
+.journal-plant-science {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-plant-science.gif') no-repeat -150px 0px;
+ }}
+
+/* Small Devices, Tablets  --------- */ @media only screen and (max-width : 640px) {
+.journal-plant-science {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-plant-science.gif') no-repeat -250px 0px;
+ }}
+/* Extra Small Devices, Phones-----------  */  @media only screen and (max-width : 480px) {
+.journal-plant-science {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-plant-science.gif') no-repeat -330px 0px;
+ }}
+ </style>
+    
+</head>
+<body class="journal-plant-science section-plant-systematics-and-evolution">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZGWTGG&gtm_auth=fCzlsmYQFAUQ_UXneGJNag&gtm_preview=env-2&gtm_cookies_win=x"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+        <div data-navigation-plugin="header"></div>
+        <script src="https://static.frontiersin.org/navigation-plugins/header/js"></script>
+
+
+
+    
+
+    <!--[if lte IE 8]>
+        <div class="row">
+            <div class="col-md-16">
+                <div style="margin-bottom: 15px;"><h2>Warning!</h2><p>You are using an <strong>outdated</strong> browser. This page doesn't support Internet Explorer 6, 7 and 8.<br />Please <a class="blue" href="http://browsehappy.com/">upgrade your browser</a> or <a class="blue" href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p></div>
+            </div>
+        </div>
+    <![endif]-->
+
+    <div class="page-container">
+        
+
+<header>
+
+            <a href="https://www.frontiersin.org/about/impact?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=impact-2020-jour-hp-top" target="_blank">
+            <div class="marketing journal-marketing-message no-impact">
+                <span class="message">
+                    <p><strong>Impact Factor 4.402</strong> |<strong> CiteScore 7.8<br /></strong>More on impact &rsaquo;</p>
+                </span>
+
+            </div>
+        </a>
+<div id="journal-header" class="journal-home" style="position: relative;">
+    <div class="container-fluid main-container-xxl">
+        <table id="logo-table" style="width:100%">
+            <tr>
+                    <td width="50%" valign="bottom" align="right" class="left-cell">
+                        <h1>
+                            <a href="https://www.frontiersin.org/journals/373" data-test-id="journal-link">
+                                <span>Frontiers </span>in Plant Science
+                            </a>
+                        </h1>
+                    </td>
+                        <td class="right-cell" width="50%" style="vertical-align: bottom">
+                            <h2>
+                                <a href="https://www.frontiersin.org/journals/373/sections/1428" data-test-id="section-link" class="btn btn-link">
+                                    Plant Systematics and Evolution
+
+
+                                </a>
+                            </h2>
+                        </td>
+            </tr>
+        </table>
+
+
+        
+     </div>
+</div>
+
+
+    <div id="journal-nav">
+    <div class="container-fluid main-container-xxl">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="nav-wrapper">
+                    <nav class="navbar navbar-default">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#journal-navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="pull-left">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </span>
+                            <span class="pull-right hidden-xs">Section</span>
+                        </button>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse no-transition journal-nav-bar" id="journal-navbar-collapse">
+                            <ul class="nav navbar-nav">
+                                <li class="tab-overview icon icon-left">
+                                    <a id="journal_nav_home" href="https://www.frontiersin.org/journals/plant-science/sections/plant-systematics-and-evolution#"><span class="sr-only">(current)</span><i class="fa fa-home"></i>Section</a>
+                                </li>
+                                <li class="tab-about">
+                                    <a id="journal_nav_about" href="https://www.frontiersin.org/journals/plant-science/sections/plant-systematics-and-evolution#about">About</a>
+                                </li>
+                                <li class="tab-archive active">
+                                    <a id="journal_nav_articles" href="https://www.frontiersin.org/journals/plant-science/sections/plant-systematics-and-evolution#articles">Articles</a>
+                                </li>
+                                <li class="tab-research-topics">
+                                    <a id="journal_nav_research_topics" href="https://www.frontiersin.org/journals/plant-science/sections/plant-systematics-and-evolution#research-topics">Research topics</a>
+                                </li>
+                                <li class="dropdown">
+                                    <a id="journal_nav_for_authors" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">For authors <span class="caret"></span></a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a id="for_authors_why_submit" href="https://www.frontiersin.org/journals/plant-science/sections/plant-systematics-and-evolution#why-submit">Why submit?</a></li>
+                                        <li><a id="for_authors_fees" href="https://www.frontiersin.org/about/publishing-fees" target="_blank">Fees</a></li>
+                                        <li><a id="for_authors_article_types" href="https://www.frontiersin.org/journals/plant-science/sections/plant-systematics-and-evolution#article-types">Article types</a></li>
+                                        <li><a id="for_authors_authors_guidelines" href="https://www.frontiersin.org/journals/plant-science/sections/plant-systematics-and-evolution#author-guidelines">Author guidelines</a></li>
+                                        <li><a id="for_authors_review_guidelines" href="https://www.frontiersin.org/journals/plant-science/sections/plant-systematics-and-evolution#review-guidelines">Review guidelines</a></li>
+                                        <li><a id="for_authors_submission_checklist" href="https://www.frontiersin.org/journals/plant-science/sections/plant-systematics-and-evolution#submission-checklist">Submission checklist</a></li>
+                                        <li><a id="for_authors_contact_editorial_office" href="https://www.frontiersin.org/journals/plant-science/sections/plant-systematics-and-evolution#contact-editorial-office">Contact editorial office</a></li>
+                                            <li><a id="for_authors_submit_manuscript" href="https://www.frontiersin.org/submission/submissioninfo.aspx" class="action-link">Submit your manuscript</a></li>
+                                    </ul>
+                                </li>
+                                <li class="tab-editorial-board">
+                                    <a id="journal_nav_Editorial_Board" href="https://www.frontiersin.org/journals/plant-science/sections/plant-systematics-and-evolution#editorial-board">Editorial board</a>
+                                </li>
+                            </ul>
+                        </div><!-- /.navbar-collapse -->
+                        <ul class="list-inline follow-us nav navbar-nav">
+                            <li class="twitter icon button">
+                                <a data-test-id="twitter-link" href="https://twitter.com/@FrontPlantSci">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="rss icon button">
+                                <a data-test-id="rss-link" href="https://www.frontiersin.org/journals/plant-science/sections/plant-systematics-and-evolution/rss">
+                                    <i class="fa fa-rss"></i>
+                                </a>
+                            </li>
+                            <li class="alerts icon button">
+                                <a data-test-id="alert-link" href="http://connect.frontiersin.org/subscriptions/subscribe?item=1&amp;field=66">
+                                    <i class="fa fa-bell" style="width: auto; padding-right: 7px; padding-left: 7px;"><span class="article-alert-text" style="font-family: MuseoSans, 'Helvetica Neue', Helvetica, Arial, sans-serif; margin-left: 6px; font-weight: 700; letter-spacing: 0px; font-size: 13px;">Article alerts</span></i>
+                                </a>
+                            </li>
+                                    
+                            
+                        </ul>
+
+                    </nav>
+                </div><!-- / .nav-wrapper -->
+            </div>
+        </div>
+    </div>
+</div>
+
+</header>
+
+<div class="journal-actions article-actions">
+    <div class="container-fluid main-container-xxl">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-lg-push-6 col-md-push-6 col-research-topic">
+                    <div class="research-topic-container">
+                        <a href="https://www.frontiersin.org/research-topics/10046#articles" data-test-id="relatedRT-link">
+                            <div class="research-topic-data">
+                                <h5 class="topic-title">
+                                    <span>This article is part of</span> the Research Topic
+                                </h5>
+                                <p style="margin-bottom:0;">
+                                   
+                                        Chromosomal Evolution in Plants
+                                        <span style="color:red;" class="topic-link-trim">
+                                            View all
+<span>
+                                                    17
+                                                </span>
+                                            Articles <span style="position: relative;top: 1px;" class="fa fa-angle-right"></span>
+                                        </span>
+
+                                   
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+            </div>
+            <section class="col-lg-4 col-lg-offset-2 col-md-6 col-md-offset-0 col-lg-pull-6 col-md-pull-6">
+                <a href="https://www.frontiersin.org/journals/373/sections/1428#articles" class="archive-link hidden-sm hidden-xs" data-test-id="archive-link">
+                    <i class="fa fa-angle-left"></i> Articles
+                </a>
+            </section>
+        </div>
+    </div>
+</div>
+
+
+<aside id="anchors" class="pull-left table-of-contents side-article">
+    <div class="side-people hidden-sm hidden-xs">
+                <section class="side-article-editors">
+                    <header><h5 class="like-h4">Edited by</h5></header>
+                    <a class="authors" href="https://loop.frontiersin.org/people/55206/overview">
+                        <img alt=" " class="pr5 pull-left" src="https://loop.frontiersin.org/images/profile/55206/24"></img>
+                        <h6 class="author-link-aside">Martin A. Lysak</h6>
+                    </a>
+                    <div class="clearfix"></div>
+                    <p><span class="notes">Masaryk University, Czechia</span></p>
+                </section>
+                <section class="side-article-editors">
+                    <header><h5 class="like-h4"> Reviewed by</h5></header>
+                            <a class="authors" href="https://loop.frontiersin.org/people/424113/overview">
+                                <img alt=" " class="pr5 pull-left" src="https://loop.frontiersin.org/images/profile/424113/24"></img>
+                                <h6 class="author-link-aside">Robin Van Velzen</h6>
+                            </a>
+                            <div class="clearfix"></div>
+                        <p><span class="notes">Wageningen University and Research, Netherlands</span></p>
+                            <a class="authors" href="https://loop.frontiersin.org/people/489571/overview">
+                                <img alt=" " class="pr5 pull-left" src="https://loop.frontiersin.org/images/profile/489571/24"></img>
+                                <h6 class="author-link-aside">Tae-Soo Jang</h6>
+                            </a>
+                            <div class="clearfix"></div>
+                        <p><span class="notes">Chungnam National University, South Korea</span></p>
+                            <a class="authors" href="https://loop.frontiersin.org/people/552239/overview">
+                                <img alt=" " class="pr5 pull-left" src="https://loop.frontiersin.org/images/profile/552239/24"></img>
+                                <h6 class="author-link-aside">Adam Lukaszewski</h6>
+                            </a>
+                            <div class="clearfix"></div>
+                        <p><span class="notes">University of California, Riverside, United States</span></p>
+                    <p class="disclaimer">The editor and reviewers' affiliations are the latest provided on their Loop research profiles and may not reflect their situation at the time of review.</p>
+                </section>
+    </div>
+    <nav>
+            <header><h5 class="like-h4" style="padding-top: 14px; padding-left: 6px; margin-bottom: 6px;">TABLE OF CONTENTS</h5></header>
+            <ul class="nav nav-list list-unstyled contents">
+                <li>
+<ul class="flyoutJournal"><li><a href="#h1">Abstract</a></li><li><a href="#h2">Introduction</a></li><li><a href="#h3">Materials and Methods</a></li><li><a href="#h4">Results</a></li><li><a href="#h5">Discussion</a></li><li><a href="#h6">Data Availability Statement</a></li><li><a href="#h7">Author Contributions</a></li><li><a href="#h8">Funding</a></li><li><a href="#h9">Conflict of Interest</a></li><li><a href="#h10">Acknowledgments</a></li><li><a href="#h11">Supplementary Material</a></li><li><a href="#h12">References</a></li></ul>                </li>
+            </ul>
+    </nav>
+</aside>
+
+
+<div id="article" class="boxed white no-padding">
+    <div class="container-fluid main-container-xxl">
+            <div class="side-article-mrk hidden-md hidden-lg top clearfix">
+                <p style="text-align: center;"><a href="https://spotlight.frontiersin.org/submit?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=rtlg_2020_gen"><img src="https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/article-marketing-message-79982763-254d-4bb6-96b8-126758de1166.png" alt="" /><br /></a></p>
+<p style="text-align: center;"><a href="https://spotlight.frontiersin.org/submit?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=rtlg_2020_gen"><strong>Suggest a Research Topic &gt;</strong></a></p>
+            </div>
+        <div class="row">
+
+            
+<aside class="a col-xs-12 col-sm-12 col-lg-2 col-md-3 pull-right side-article right-container">
+        <button type="button" class="navbar-toggle navbar-download collapsed" data-toggle="collapse" data-target=".show" aria-expanded="false">
+            <span class="icon"><i class="fa fa-download"></i></span>
+        </button>
+    <button type="button" class="navbar-toggle navbar-share collapsed" data-toggle="collapse" data-target=".show" aria-expanded="false">
+        <span class="icon"><i class="fa fa-share-alt"></i></span>
+    </button>
+        <div class="side-article-download show collapse clearfix">
+            <ul class="list-unstyled list-inline clearfix">
+                    <li class="dropdown text-center paper">
+                        <a data-target="#" class="dropdown-toggle" data-test-id="download-button" data-toggle="dropdown" role="button" aria-expanded="false">
+                            <span class="icon icon-article"><i class="fa fa-file-pdf-o"></i></span>
+                            <span class="icon-label">Download Article</span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                                <li>
+                                    <a class="download-files-pdf action-link" href="/articles/10.3389/fpls.2019.01541/pdf" data-test-id="article-downloadpdf">
+                                        Download PDF
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="download-files-readcube" href="http://www.readcube.com/articles/10.3389/fpls.2019.01541" data-test-id="article-viewenhancedpdf">
+                                        ReadCube
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="download-files-epub" href="/articles/10.3389/fpls.2019.01541/epub" data-test-id="article-epub">
+                                        EPUB
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="download-files-nlm" href="/articles/10.3389/fpls.2019.01541/xml/nlm" data-test-id="article-nlm">
+                                        XML (NLM)
+                                    </a>
+                                </li>
+                                                            <li class="">
+
+<a data-test-id="supplementary-button"
+                                        id="supplementary_view">
+
+                                            Supplementary
+                                            <br>
+                                            Material
+                                        </a>
+
+                                </li>
+                        </ul>
+                    </li>
+                <li class="dropdown text-center citation">
+                    <a data-target="#" class="dropdown-toggle" data-test-id="citation-button" data-toggle="dropdown" role="button" aria-expanded="false">
+                        <span class="icon icon-citation"><i class="fa fa-quote-left"></i></span>
+                        <span class="icon-label">Export citation</span>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                            <li>
+                                <a data-test-id="article-endnote" href="https://www.frontiersin.org/articles/10.3389/fpls.2019.01541/endNote">
+                                    EndNote
+                                </a>
+                            </li>
+                            <li>
+                                <a data-test-id="article-referencemanager" href="https://www.frontiersin.org/articles/10.3389/fpls.2019.01541/reference">
+                                    Reference Manager
+                                </a>
+                            </li>
+                            <li>
+                                <a data-test-id="article-simpletextfile" href="https://www.frontiersin.org/articles/10.3389/fpls.2019.01541/text">
+                                    Simple TEXT file
+                                </a>
+                            </li>
+                            <li>
+                                <a data-test-id="article-bibtex" href="https://www.frontiersin.org/articles/10.3389/fpls.2019.01541/bibTex">
+                                    BibTex
+                                </a>
+                            </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+            <div class="side-article-impact">
+            <ul class="nav">
+                <li class="impact-data" title="The total view count is updated once a day, so not to worry if you don&#39;t see immediate results.">
+                    <span class="title-number"></span>
+                    <span class="title-text">total views</span>
+                </li>
+                <li class="hidden-sm hidden-xs">
+                    <div class="altmetric-icon">
+                        <div class='altmetric-embed' data-badge-type='1' data-doi='10.3389/fpls.2019.01541' data-link-target="new"></div>
+                    </div>
+                </li>
+            </ul>
+                <a type="button" class="btn btn-default hidden-sm hidden-xs btn-impact " data-test-id="view-article-impact" href="http://loop-impact.frontiersin.org/impact/article/472622#views" target="_blank">
+                    <span class="icon-impact"><i class="fa fa-line-chart"></i></span> View Article Impact
+                </a>
+        </div>
+            <div class="side-article-mrk hidden-sm hidden-xs clearfix">
+            <p style="text-align: center;"><a href="https://spotlight.frontiersin.org/submit?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=rtlg_2020_gen"><img src="https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/article-marketing-message-79982763-254d-4bb6-96b8-126758de1166.png" alt="" /><br /></a></p>
+<p style="text-align: center;"><a href="https://spotlight.frontiersin.org/submit?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=rtlg_2020_gen"><strong>Suggest a Research Topic &gt;</strong></a></p>
+        </div>
+    <div class="side-article-share show collapse">
+        <h5 class="like-h4">SHARE ON</h5>
+        <ul class="share-media clearfix" style="padding: 0;">
+            <li class="social_block">
+                <div class="atButton">
+                    <a class="addthis_button_facebook at300b" addthis:title="The Genome Sequence of Gossypioides kirkii Illustrates a Descending Dysploidy in Plants" addthis:description="One of the extraordinary aspects of plant genome evolution is variation in chromosome number, particularly that among closely related species. This is exemplified by the cotton genus (Gossypium) and its relatives, where most species and genera have a base chromosome number of 13. The two exceptions are sister genera that have n = 12 (the Hawaiian Kokia and the East African and Madagascan Gossypioides). We generated a high-quality genome sequence of Gossypioides kirkii (n = 12) using PacBio, Bionano, and Hi-C technologies, and compared this assembly to genome sequences of Kokia (n = 12) and Gossypium diploids (n = 13). Previous analysis demonstrated that the directionality of their reduced chromosome number was through large structural rearrangements. A series of structural rearrangements were identified comparing the de novo G. kirkii genome sequence to genome sequences of Gossypium, including chromosome fusions and inversions. Genome comparison between G. kirkii and Gossypium suggests that multiple steps are required to generate the extant structural differences." addthis:url="https://www.frontiersin.org/article/10.3389/fpls.2019.01541" title="Facebook"></a>
+                </div>
+                <a><span class="facebook_count"></span></a>
+            </li>
+            <li class="social_block">
+                <div class="atButton">
+                    <a class="addthis_button_twitter at300b" addthis:title="The Genome Sequence of Gossypioides kirkii Illustrates a Descending Dysploidy in Plants" addthis:description="One of the extraordinary aspects of plant genome evolution is variation in chromosome number, particularly that among closely related species. This is exemplified by the cotton genus (Gossypium) and its relatives, where most species and genera have a base chromosome number of 13. The two exceptions are sister genera that have n = 12 (the Hawaiian Kokia and the East African and Madagascan Gossypioides). We generated a high-quality genome sequence of Gossypioides kirkii (n = 12) using PacBio, Bionano, and Hi-C technologies, and compared this assembly to genome sequences of Kokia (n = 12) and Gossypium diploids (n = 13). Previous analysis demonstrated that the directionality of their reduced chromosome number was through large structural rearrangements. A series of structural rearrangements were identified comparing the de novo G. kirkii genome sequence to genome sequences of Gossypium, including chromosome fusions and inversions. Genome comparison between G. kirkii and Gossypium suggests that multiple steps are required to generate the extant structural differences." addthis:url="https://www.frontiersin.org/article/10.3389/fpls.2019.01541" title="Tweet"></a>
+                </div>
+                <a><span class="twitter_count"></span></a>
+            </li>
+            <li class="social_block">
+                <div class="atButton">
+                    <a class="addthis_button_linkedin at300b" addthis:title="The Genome Sequence of Gossypioides kirkii Illustrates a Descending Dysploidy in Plants" addthis:description="One of the extraordinary aspects of plant genome evolution is variation in chromosome number, particularly that among closely related species. This is exemplified by the cotton genus (Gossypium) and its relatives, where most species and genera have a base chromosome number of 13. The two exceptions are sister genera that have n = 12 (the Hawaiian Kokia and the East African and Madagascan Gossypioides). We generated a high-quality genome sequence of Gossypioides kirkii (n = 12) using PacBio, Bionano, and Hi-C technologies, and compared this assembly to genome sequences of Kokia (n = 12) and Gossypium diploids (n = 13). Previous analysis demonstrated that the directionality of their reduced chromosome number was through large structural rearrangements. A series of structural rearrangements were identified comparing the de novo G. kirkii genome sequence to genome sequences of Gossypium, including chromosome fusions and inversions. Genome comparison between G. kirkii and Gossypium suggests that multiple steps are required to generate the extant structural differences." addthis:url="https://www.frontiersin.org/article/10.3389/fpls.2019.01541" title="LinkedIn"></a>
+                </div>
+                <a><span class="linkedin_count"></span></a>
+            </li>
+            <li class="social_block">
+                <div class="atButton">
+                    <a class="addthis_button_more at300b" addthis:title="The Genome Sequence of Gossypioides kirkii Illustrates a Descending Dysploidy in Plants" addthis:description="One of the extraordinary aspects of plant genome evolution is variation in chromosome number, particularly that among closely related species. This is exemplified by the cotton genus (Gossypium) and its relatives, where most species and genera have a base chromosome number of 13. The two exceptions are sister genera that have n = 12 (the Hawaiian Kokia and the East African and Madagascan Gossypioides). We generated a high-quality genome sequence of Gossypioides kirkii (n = 12) using PacBio, Bionano, and Hi-C technologies, and compared this assembly to genome sequences of Kokia (n = 12) and Gossypium diploids (n = 13). Previous analysis demonstrated that the directionality of their reduced chromosome number was through large structural rearrangements. A series of structural rearrangements were identified comparing the de novo G. kirkii genome sequence to genome sequences of Gossypium, including chromosome fusions and inversions. Genome comparison between G. kirkii and Gossypium suggests that multiple steps are required to generate the extant structural differences." addthis:url="https://www.frontiersin.org/article/10.3389/fpls.2019.01541" title="View more services"></a>
+                </div>
+                <a><span class="total_count"></span></a>
+            </li>
+        </ul>
+    </div>
+        <a type="button"
+           class="open-supplemental-data btn btn-default hidden-sm hidden-xs"
+           id="supplementary_view">
+            <span class="supplemental-label">
+                <i class="supplemental-icon"></i>
+                <label>Open Supplemental Data</label>
+            </span>
+        </a>
+</aside>
+
+
+            
+<main class="b col-xs-12 col-sm-12 col-lg-8 col-lg-push-2 col-md-7 col-md-push-2 pull-left">
+    <div class="article-section">
+        <div class="article-container" data-html="True">
+            <div class="abstract-container">
+                
+                <div class="article-header-container">
+                    <!-- Start CrossMark Snippet v2.0 -->
+                        <!-- the external CrossMark script to load the crossmark logo responsive  JPB-5562 -->
+                        <script src="https://crossmark-cdn.crossref.org/widget/v2.0/widget.js"></script>
+                        <a data-target="crossmark" class="crossmark pull-right" style="padding: 3px 0 13px 0;"><img id="crossmark-icon" style="border: 0; width:64px; height:64px;" src="https://crossmark-cdn.crossref.org/widget/v2.0/logos/CROSSMARK_Color_square.svg" /></a>
+                        <div id="crossmark-dialog" style="display: none;" title="">
+                            <!-- the external CrossMark data is loaded inside this iframe -->
+                            <iframe id="crossmark-dialog-frame" frameborder="0"></iframe>
+                        </div>
+                    <!-- End CrossMark Snippet -->                   
+
+                    <div class="header-bar-one">
+                        <h2>
+                            Original Research ARTICLE
+
+                    </h2>
+                </div>
+                <div class="header-bar-three">
+                    Front. Plant Sci., 27 November 2019
+                             | <a href="https://doi.org/10.3389/fpls.2019.01541">https://doi.org/10.3389/fpls.2019.01541</a>
+                </div>
+                </div>
+                
+<div class="JournalAbstract"><h1>The Genome Sequence of <i>Gossypioides kirkii</i> Illustrates a Descending Dysploidy in Plants</h1><a id="h1" name="h1"></a><div class="authors"><a href="https://www.frontiersin.org/people/u/779900" class="user-id-779900"><img class="pr5" src="https://loop.frontiersin.org/images/profile/779900/24" onerror="this.src='https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg'"></img>Joshua A. Udall</a><sup>1*</sup>, <img class="pr5" src="https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg"></img>Evan Long<sup>2</sup>, <a href="https://www.frontiersin.org/people/u/138248" class="user-id-138248"><img class="pr5" src="https://loop.frontiersin.org/images/profile/138248/24" onerror="this.src='https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg'"></img>Thiruvarangan Ramaraj</a><sup>3,4</sup>, <img class="pr5" src="https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg"></img>Justin L. Conover<sup>5</sup>, <a href="https://www.frontiersin.org/people/u/293682" class="user-id-293682"><img class="pr5" src="https://loop.frontiersin.org/images/profile/293682/24" onerror="this.src='https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg'"></img>Daojun Yuan</a><sup>5,6</sup>, <a href="https://www.frontiersin.org/people/u/739227" class="user-id-739227"><img class="pr5" src="https://loop.frontiersin.org/images/profile/739227/24" onerror="this.src='https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg'"></img>Corrinne E. Grover</a><sup>5</sup>, <a href="https://www.frontiersin.org/people/u/534145" class="user-id-534145"><img class="pr5" src="https://loop.frontiersin.org/images/profile/534145/24" onerror="this.src='https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg'"></img>Lei Gong</a><sup>7</sup>, <a href="https://www.frontiersin.org/people/u/811183" class="user-id-811183"><img class="pr5" src="https://loop.frontiersin.org/images/profile/811183/24" onerror="this.src='https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg'"></img>Mark A.  Arick II</a><sup>8</sup>, <a href="https://www.frontiersin.org/people/u/852526/overview" class="user-id-852526/overview"><img class="pr5" src="/files/Profile%20Library/852526/overview/Thumb_24.jpg" onerror="this.src='https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg'"></img>Rick E. Masonbrink</a><sup>9</sup>, <a href="https://www.frontiersin.org/people/u/811048" class="user-id-811048"><img class="pr5" src="https://loop.frontiersin.org/images/profile/811048/24" onerror="this.src='https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg'"></img>Daniel G. Peterson</a><sup>8</sup> and <a href="https://www.frontiersin.org/people/u/25722" class="user-id-25722"><img class="pr5" src="https://loop.frontiersin.org/images/profile/25722/24" onerror="this.src='https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg'"></img>Jonathan F. Wendel</a><sup>5*</sup></div><ul class="notes"><li><span><sup>1</sup></span>Crop Germplasm Research, USDA, College Station, TX, United States</li><li><span><sup>2</sup></span>Plant Breeding and Genetics, Cornell University, Ithaca, NY, United States</li><li><span><sup>3</sup></span>National Center of Genome Resources, Santa Fe, NM, United States</li><li><span><sup>4</sup></span>School of Computing, DePaul University, Chicago, IL, United States</li><li><span><sup>5</sup></span>EEOB Department, Iowa State University, Ames, IA, United States</li><li><span><sup>6</sup></span>College of Plant Science and Technology, Huazhong Agricultural University, Wuhan, China</li><li><span><sup>7</sup></span>Key Laboratory of Molecular Epigenetics of the Ministry of Education, Northeast Normal University, Changchun, China</li><li><span><sup>8</sup></span>Institute for Genomics, Biocomputing &amp; Biotechnology, Mississippi State University, Mississippi State, MS, United States</li><li><span><sup>9</sup></span>Genome Informatics Facility, Iowa State University, Ames, IA, United States</li></ul><p>One of the extraordinary aspects of plant genome evolution is variation in chromosome number, particularly that among closely related species. This is exemplified by the cotton genus (<i>Gossypium</i>) and its relatives, where most species and genera have a base chromosome number of 13. The two exceptions are sister genera that have n = 12 (the Hawaiian <i>Kokia</i> and the East African and Madagascan <i>Gossypioides</i>). We generated a high-quality genome sequence of <i>Gossypioides kirkii</i> (n = 12) using PacBio, Bionano, and Hi-C technologies, and compared this assembly to genome sequences of <i>Kokia</i> (n = 12) and <i>Gossypium</i> diploids (n = 13). Previous analysis demonstrated that the directionality of their reduced chromosome number was through large structural rearrangements. A series of structural rearrangements were identified comparing the <i>de novo G. kirkii</i> genome sequence to genome sequences of <i>Gossypium,</i> including chromosome fusions and inversions. Genome comparison between <i>G. kirkii</i> and <i>Gossypium</i> suggests that multiple steps are required to generate the extant structural differences.</p><div class="clear"></div></div><div class="JournalFullText"><a id="h2" name="h2"></a><h2>Introduction</h2><p class="mb15">One of the extraordinary aspects of plant genomes is how variable they are in terms of chromosome number. Haploid chromosome counts among angiosperms span more than two orders of magnitude, from a low of n = 2 in six different species spread among four angiosperm families (<a href="#B56">Vanzela et al., 1996</a>; <a href="#B44">Roberto, 2005</a>), to 320 in the genus <i>Sedum</i> (Crassulaceae) (<a href="#B55">Uhl, 1978</a>). Driving this diversity are mechanisms that both expand and shrink chromosome numbers, either saltationally <i>via</i> polyploidy, or in a more stepwise fashion <i>via</i> ascending or descending dysploidy. These processes have long been recognized as important in speciation (<a href="#B51">Stebbins, 1971</a>; <a href="#B14">Grant, 1981</a>) because of the impact of chromosome number divergence on reproductive isolation. Reflective of this, it is not uncommon for congeneric species to display either ascending or descending chromosome counts. From a mechanistic perspective, ascending or descending dysploidy can arise from several chromosome rearrangement processes (<a href="#B21">Jones, 1998</a>; <a href="#B16">Guerra, 2008</a>; <a href="#B17">Heslop-Harrison and Schwarzacher, 2011</a>; <a href="#B30">Lys&#xe1;k and Schubert, 2013</a>; <a href="#B64">Weiss-Schneeweiss and Schneeweiss, 2013</a>; <a href="#B18">Hoang and Schubert, 2017</a>), including ascending dysploidy <i>via</i> chromosome fission along with the evolution of neocentromeres (<a href="#B12">Giannuzzi et al., 2013</a>; <a href="#B30">Lys&#xe1;k and Schubert, 2013</a>), and descending dysploidy through various chromosome fusion processes, including the difficult to distinguish telomere-to-telomere fusions and Robertsonian translocations (<a href="#B45">Schubert, 1992</a>; <a href="#B30">Lys&#xe1;k and Schubert, 2013</a>; <a href="#B4">Chiatante et al., 2017</a>; <a href="#B20">Jarvis et al., 2017</a>), and the acquisition of chromosome segments into other chromosomes (<a href="#B28">Luo et al., 2009</a>; <a href="#B40">Murat et al., 2010</a>; <a href="#B57">Vogel et al., 2010</a>; <a href="#B58">Wang and Bennetzen, 2012</a>; <a href="#B10">Fons&#xea;ca et al., 2016</a>).</p><p class="mb0">A prerequisite for understanding the directionality of chromosome number change in any taxonomic group is the availability of a well-established phylogenetic framework, so that hypotheses regarding ancestral and derived conditions are phylogenetically justified. Illustrative of this is the small monophyletic tribe <i>Gossypieae</i>, which contains the economically important cotton genus (<i>Gossypium</i>) as well as eight other lesser known genera (including <i>Thepparatia</i>) (<a href="#B11">Fryxell, 1979</a>; <a href="#B46">Seelanan et al., 1997</a>; <a href="#B42">Phuphathanaphong, 2006</a>). More than 20 years ago, the Hawaiian <i>Kokia</i> and the East African/Madagascan <i>Gossypioides</i> were shown to belong to a single clade (<a href="#f1">Figure 1</a>). Because these two genera have one fewer chromosomes (n = 12) than their sister genus <i>Gossypium</i> (n = 13), and because this assemblage is nested within other genera (e.g., <i>Hampea</i>, <i>Thespesia</i>) with a chromosome number of 13, they proposed an explanation involving aneuploid reduction in the lineage leading to <i>Kokia</i> and <i>Gossypioides</i> after divergence of this branch from <i>Gossypium</i>. Temporal perspectives to this reduction are the recent divergence time estimates of 5 million years (MY) for <i>Kokia</i> and <i>Gossypioides</i> and about 10 MY for the divergence of this clade from <i>Gossypium</i> (<a href="#B66">Wendel and Cronn, 2003</a>).</p><div class="DottedLine"></div><div class="Imageheaders">FIGURE 1</div><div class="FigureDesc"><a href="https://www.frontiersin.org/files/Articles/472622/fpls-10-01541-HTML/image_m/fpls-10-01541-g001.jpg" name="" target="_blank"><img src="https://www.frontiersin.org/files/Articles/472622/fpls-10-01541-HTML/image_t/fpls-10-01541-g001.gif" id="f1" alt="www.frontiersin.org"></img></a><p><strong>Figure 1</strong> The clade containing species (<i>Gossypioides kirkii</i> and <i>Kokia drynarioides</i>) with n = 12 is nested among genera that have n = 13, suggesting that these two species have one fewer chromosome compared to their close relatives. Six different species are used as examples. The haploid chromosome number for each species and group is indicated in the yellow box. Aggregate geographic distribution (Mad. refers to Madagascar) and species richness (number of species in parentheses) are shown next to each genus. Phylogenetic tree is based off <a href="#B67">Wendel et al. (2002)</a>.</p></div><div class="DottedLine"></div><p class="mb0">Here we describe the genomic consequences of descending dysploidy in the <i>Kokia/Gossypioides</i> clade. We present a high quality <i>de novo</i> genome assembly for <i>Gossypioides kirkii</i> and compare this assembly to <i>Gossypium</i>, for which multiple assemblies have been generated. Comparison of our high quality genome assembly to other <i>Gossypium</i> genomes suggests that aneuploid reduction was accompanied by chromosome fusion and other structural rearrangements. Assuming the <i>Gossypium</i> genome was representative of the ancestral genome, we developed a model of aneuploid reduction that included several structural rearrangements reducing three chromosomes to two chromosomes during the evolution of the ancestor to the <i>Kokia</i> and <i>Gossypioides</i> genera.</p><a id="h3" name="h3"></a><h2>Materials and Methods</h2><h3>Plant Material, Sequencing, and Assembly</h3><p class="mb15"><i>G. kirkii</i> leaves were collected from the Pohl Conservatory at Iowa State University and shipped to Brigham Young University for DNA extraction. Seven PacBio cells were sequenced at BYU from two libraries created from the same DNA source. Sequence reads were assembled (<a href="#h11">Table S1</a>) using Canu V1.6 (<a href="#B24">Koren et al., 2017</a>).</p><p class="mb15">Leaf tissue of <i>G. kirkii</i> was also shipped to Phase Genomics (Seattle, WA) for DNA extraction and construction of HiC sequencing libraries. The sequenced HiC libraries generated 47&#xd7; coverage of 125 bp paired-end Illumina reads; these were used to establish connections between contigs (<a href="#h11">Table S2</a>). Illumina reads were mapped to the reference genome and a proximity guided assembly (PGA) was performed by Phase Genomics. High-molecular weight (HMW) DNA was extracted and labeled following the Bionano Plant protocol for the Irys system.</p><p class="mb0">The optical map was aligned to the PGA assembly using an <i>in silico</i> labeled reference sequence. Conflicts between the Bionano map and the PGA assembly were manually identified in the Bionano Access software by comparing the mapped Bionano contigs and reference sequence to a bed file containing sequence contigs. These inter-species alignments, along with the Bionano alignments, guided manual rearrangements of scaffolds. Corrections to the PGA assembly removed conflicts between datasets by repositioning and reorienting sequence contigs in PGA ordering files. Corrections to the HiC scaffolding were made if more than one other genome agreed with the rearrangement and if the rearrangements coincided with contig breakpoints (i.e. scaffolding rearrangements). The contig order was arranged to maximize the frequency of close linkages throughout the genome. The resulting fasta file of the scaffolded assembly was produced by concatenating PacBio contigs with 100 N bases between them. Several iterations of correction and realignment resolved nearly all of the conflicts between the sequence and Bionano assemblies. Similar iterations of HiC interaction maps were created using Juicer v1.5 and Juicebox v1.8.8, respectively, for the final manual adjustments to the genome sequence. Specifically, HiC reads were re-mapped to the modified sequence and the association frequency between each paired-end was used to adjust the genome sequence using JuiceBox (<a href="#B7">Durand et al., 2016</a>). A custom python script from Phase Genomics was used to adjust the initially assembled pseudomolecules with the changes made to the genome <i>via</i> JuiceBox. Based on the HiC data, the <i>G. kirkii</i> pseudomolecule corrections consisted of two inversions and three translocations (involving seven of 12 chromosomes). These corrections established near-complete congruence between mapped paired-ends along the entire genome. The <i>G. kirkii</i> genome sequence is available from GenBank (Accession numbers: CP032244&#x2013;CP032255).</p><h3>Genome Alignments</h3><p class="mb15">The <i>G. kirkii</i> assembly was separately aligned by Minimap2 (<a href="#B27">Li, 2018</a>) to other genomes in <i>Gossypium</i>, including <i>G. arboreum</i> (<a href="#B6">Du et al., 2018</a>), <i>G. raimondii</i> (<a href="#B41">Paterson et al., 2012</a>), and <i>G. hirsutum</i> (<a href="#B70">Zhang et al., 2015</a>), and visualized using dotPlotly (<a href="#B43">Poorten, 2018</a>). The alignments identified assembly errors in chromosomes Chr09 and Chr12 of <i>G. raimondii</i>. Telomere sequences were also used to confirm assembly completeness and structure by searching for the canonical telomere repeat (<a href="#B39">McKnight et al., 1997</a>; <a href="#B9">Fajkus et al., 2005</a>; <a href="#B63">Watson and Riha, 2010</a>) in the <i>G. kirkii</i> genome using Geneious (Biomatters, New Zealand). The telomere repeat were also visualized and manually annotated in Geneious to verify telomere location on each chromosome.</p><p class="mb0">Phase Genomics also constructed and sequenced a Hi-C library made from leaf tissue of <i>Kokia drynarioides</i>, a member of the genus sister to <i>Gossypioides</i> that also shares n = 12, to further verify the structure. The Hi-C reads were mapped to the final, corrected version of the <i>G. kirkii</i> genome assembly using BWA. Approximately 10.7 M contacts (11% of the total paired reads) passed mapping filters and were used as Hi-C interaction evidence. Contact maps were visualized using Juicer v1.5 and Juicebox v1.8.8.</p><h3>Transcriptomic Sequencing and Gene Annotation</h3><p class="mb0">Total RNA was extracted from 3-cm seedling leaves. Illumina TruSeq RNA-sequencing libraries were prepared for each replicate and were sequenced (Paired-end 150 bp) Berry Genomics Co. Ltd. (Beijing, China). Gene annotations were created using GenSAS 5.0 (<a href="#B25">Lee et al., 2011</a>), an online integrated genome sequence annotation pipeline. BUSCO analysis was conducted to test for annotation completeness. Repetitive elements were detected by RepeatModeler (<a href="#B48">Smit and Hubley, 2013</a>) and RepeatMasker (<a href="#B50">Smit et al., 2019</a>). AgriGO tested for enrichment of Gene Ontology categories of gene functions in the rearranged segments (<a href="#B53">Tian et al., 2017</a>). RNA-seq of <i>G. kirkii</i> is available from GenBank under SRX5894875. Gene and repetitive annotations are available from CottonGen under <a href="https://www.cottongen.org/analysis/213">https://www.cottongen.org/analysis/213</a>.</p><h3>Analysis of Paleo-Genome Duplications</h3><p class="mb0">Protein sequences of <i>G. kirkii</i> and the D<sub>T</sub> genome of <i>G. hirsutum</i> were clustered using OrthoFinder v.2.1 (<a href="#B8">Emms and Kelly, 2015</a>) with the Diamond alignment tool. Single copy orthologs from OrthoFinder were used as input to MCScanX_h (.homology file), with default settings (<a href="#B60">Wang et al., 2012</a>). The collinearity plots between chromosomes Chr02 (Chr15, if the tetraploid chromosomes were numbered sequentially), Chr04 (Chr17) and Chr06 (Chr19) in <i>G. hirsutum</i> and chromosomes KI_2_4 and KI_06 in <i>G. kirkii</i> were created using the circle_plotter downstream tool of the MCScanX package. From the OrthoFinder output, all of the intraspecific paralogs were extracted for <i>G. kirkii</i>. Within each group of putatively orthologous genes, Ks values for every possible pairwise combination of paralogs were calculated using the codeml package of PAML, using custom python scripts.</p><h3>ChIP-seq</h3><p class="mb0">Leaves and leaf buds were also collected from <i>G. kirkii</i> (specimen voucher ISC 418555, Ada Hayden Herbarium, Iowa State University). Rabbit polyclonal CenH3 antibody was made to the CenH3 amino acids 9&#x2013;20 and conjugated to KLH (Covance, Inc.), a conserved peptide in <i>Gossypium</i> species of CenH3. Immunostain on <i>G. raimondii</i> root tips ensured centromere specificity of the CenH3 antibody. Chromatin immunoprecipitation was performed using the Epigentek EpiQuik Plant ChIP Kit (P-2014) with modifications. DIECA (2%) and PVP-40 (4%) were added to the fixative and to final solutions of CP3C, CP3D, and CP3E. DNA samples were sonicated at 60% amplitude for three total minutes of sonication/rest (15 s/15 s). Divided samples were incubated with either rabbit pre-immune sera, anti-CenH3, or polyclonal H3K9ac (ABCam, ab10812, LOT GR171780). Four replications of each reaction was pooled for whole genome amplification using the SeqPlex Enhanced DNA Amplification Kit (SeqXE, Sigma) then sequenced (Illumina PE150 bp) at the Beijing Genomics Institute (BGI). ChIP-seq reads were mapped to the genome using BWA (<a href="#B26">Li and Durbin, 2009</a>). ChIP-seq data are available from NCBI under SRX5894872&#x2013;SRX5894874.</p><h3>FISH</h3><p class="mb0">Preparation of chromosomes and staining were performed as previously described for maize (<a href="#B35">Masonbrink and Birchler, 2010</a>). FISH was performed as specifically described for cotton (<a href="#B59">Wang et al., 2006</a>).</p><a id="h4" name="h4"></a><h2>Results</h2><h3>Sequencing and <i>De Novo</i> Assembly of the <i>G. kirkii</i> Genome</h3><p class="mb0">Two different genome technologies were used to assemble the <i>G. kirkii</i> genome sequence (<a href="#f1">Figure 1</a>). First, approximately 68&#xd7; coverage of raw SMRT data (40 Gb) was generated using the PacBio Sequel System (<a href="#h11">Table S1</a>). The contig-level assembly was 544 Mb composed of 389 contigs with a contig N50 of 9.92 Mb and a maximum contig size of 31.1 Mb (<a href="#T1">Table 1</a>). After scaffolding with HiC (<a href="#B3">Burton et al., 2013</a>), the 12 pseudomolecules assembly was 92.5% of the expected genome size of 588 Mb (<a href="#B67">Wendel et al., 2002</a>) with only 277 gaps (<a href="#T1">Table 1</a>, <a href="#h11">Table S2</a> and <a href="#h11">Figure S1</a>). Chromosomes were manually adjusted (<a href="#h11">Figures S2</a> and <a href="#h11">S3</a>) and named according to the convention used in <i>Gossypium hirsutum</i> (<a href="#B70">Zhang et al., 2015</a>). These pseudomolecules represented the 12 chromosomes of the <i>G. kirkii</i> genome (<a href="#f2">Figure 2</a>, <a href="#h11">Table S3</a>). Chromosome KI_2_4 contained the largest number of sequence contigs (65 contigs, 41.5 Mb) and Chromosome KI_08 contained the fewest (seven contigs, 39.6 Mb), even though these two chromosomes contained approximately the same total sequence length. Chromosome KI_06 was the largest chromosome (see below).</p><div class="DottedLine"></div><div class="Imageheaders">TABLE 1</div><div class="FigureDesc"><a href="https://www.frontiersin.org/files/Articles/472622/fpls-10-01541-HTML/image_m/fpls-10-01541-t001.jpg" name="table1" target="_blank"><img src="https://www.frontiersin.org/files/Articles/472622/fpls-10-01541-HTML/image_t/fpls-10-01541-t001.gif" id="T1" alt="www.frontiersin.org"></img></a><p><strong>Table 1</strong> Assembly metrics of the <i>Gossypioides kirkii</i> genome.</p></div><div class="DottedLine"></div><div class="Imageheaders">FIGURE 2</div><div class="FigureDesc"><a href="https://www.frontiersin.org/files/Articles/472622/fpls-10-01541-HTML/image_m/fpls-10-01541-g002.jpg" name="" target="_blank"><img src="https://www.frontiersin.org/files/Articles/472622/fpls-10-01541-HTML/image_t/fpls-10-01541-g002.gif" id="f2" alt="www.frontiersin.org"></img></a><p><strong>Figure 2</strong> Individual chromosomes (KI_ labels) of the <i>G. kirkii</i> genome are illustrated by 5 tracks in a Circos plot. Darker shades of colors represent a higher value or frequency of genomic features with the 100 kb window. From outside to inside: chromosome graph and scale; plot of gene density; TE content (light blue is total TE content, dark blue is Gypsy content), ChIP-seq of H3K9ac (Darker red lines of H3K9ac indicate a higher frequency of H3K9 acetylation); and ChIP-seq of CENH3 (Darker green lines of the CENH3 track indicate a higher frequency of CENH3 binding). Centromeres are inferred in the regions where H3K9ac is low (light red) and CENH3 is high (dark green).</p></div><div class="DottedLine"></div><p class="mb15 w100pc float_left mt15">An optical map (Bionano Genomics, Inc.) was used to validate the assembly of individual contigs and the HiC connections between contigs (<a href="#h11">Table S4</a>). Optical map data typically serves as an independent validation of the assembled sequence because the image data of Bionano labeled DNA molecules is assembled independently and aligned to DNA sequences using restriction patterns matching the labels in the Bionano contigs (<a href="#B54">Udall and Dawe, 2017</a>). While the percentage of alignments between optical maps and contigs was relatively low, we note that over half of the genome sequence was validated by optical map alignment. The Bionano alignments also spanned 62% of the 71 eligible sequence gaps (i.e. gaps flanked by contigs &gt;100 kb on each side, since Bionano contigs do not generally match smaller contigs due to limitations in nick-pattern matching) (<a href="#h11">Dataset S1</a>).</p><p class="mb0">A common measure of genome quality is the percentage of expected genes recovered in an annotated assembly. Here, the percentage of genes identified in the <i>G. kirkii</i> genome sequence provided confidence that nearly the entire genome was represented, with 95% (1,364/1,440) of conserved genes from BUSCO identified (<a href="#B47">Sim&#xe3;o et al., 2015</a>). The remaining genes were either fragmented (n = 18, 1%) or missing (n = 58, 4%). That a few of the BUSCO genes were missing is not surprising due to the previously reported genome downsizing and gene loss in this species (<a href="#B15">Grover et al., 2017</a>), and therefore may reflect a combination of genome completeness as well as historical evolution. Of the 36,669 gene annotations, 64% had RNA-seq reads (&gt; 20 reads) mapping to them, suggesting that we assembled much of the leaf transcriptome.</p><h3>Collinearity With Other <i>Gossypieae</i> Genomes</h3><p class="mb15">The integrity of the <i>G. kirkii</i> genome assembly was also assessed by comparing it to genome sequences recently published for <i>Gossypium</i> (<a href="#B41">Paterson et al., 2012</a>; <a href="#B6">Du et al., 2018</a>; <a href="#B62">Wang et al., 2019</a>) (<a href="#h11">Figures S4</a>&#x2013;<a href="#h11">S7</a>). Occasionally, we used these comparisons to correct scaffolding errors in the <i>G. kirkii</i> genome if the <i>G. kirkii</i> contigs and optical map contigs supported such corrections. These manual rearrangements (<a href="#h11">Dataset S2</a>) utilized evidence from both contig ends of each initial non-colinear placement of <i>G. kirkii</i> sequence.</p><p class="mb15">We further assessed the completeness of the assembly and the orientation of terminal scaffolds by searching for telomere sequences in the <i>G. kirkii</i> pseudomolecules. We identified 20 loci with characteristic sequence of telomere repeats at the ends of our pseudomolecules (<a href="#h11">Table S5</a>); eight pseudomolecules had telomere repeats on both chromosome arms, four had telomere repeats on a single arm, and two pseudomolecules had telomere repeats that were confidently embedded within a single scaffold. The longest telomeric repeat (&gt; 24 kb) was identified on KI_04. Since this length was longer than most of the length of our trimmed reads used for assembly (N50 = 16,192), it is likely that many reads containing a majority of telomeric sequence collapsed during sequence assembly. Indeed, these regions had a higher read coverage compared to the adjacent chromosome sequence (data not shown). Different telomere sequences were identified in different combinations on each of the chromosome ends, suggesting the existence of multiple telomerases or at a minimum multiple guide RNAs in <i>Gossypioides</i>.</p><p class="mb0">Because typical centromeres do not have conserved sequences (<a href="#B33">Ma et al., 2007</a>; <a href="#B32">Lysak, 2014</a>; <a href="#B2">Birchler and Han, 2018</a>), we leveraged additional data to identify centromeric regions. That is, we evaluated the density of both ChIP-seq reads and gene density to infer putative centromeric regions. Euchromatic and histone modifications of H3K9ac and CENH3, respectively were used to estimate centromeric regions (<a href="#B36">Masonbrink et al., 2014</a>). Typical distributions of epigenetic marks were identified (e.g. increasing frequency of CENH3 marks near the centromeric regions, <a href="#f2">Figure 2</a>). In some cases, chromosomes had a single contig assembled across the centromeric region (e.g. chromosomes KI_06, KI_10, KI_11) suggesting proper assembly and density of CENH3 marks in centromeric regions. The centromeric regions of other chromosomes contained multiple contigs. While their assembly depended on both correct sequence assembly and correct scaffolding, their density of CENH3 marks was similar to those regions composed of a single contig.</p><h3>Annotation of Genes and Repetitive Elements</h3><p class="mb15">Gene annotation recognized 36,669 genes, somewhat higher than previously reported (<a href="#B15">Grover et al., 2017</a>); these differences are likely due to both genome quality and annotation method. All <i>G. kirkii</i> genes were aligned to their closest intragenomic paralog to calculate synonymous substitutions (Ks); the plot of these pairwise Ks values exhibits a peak congruent with previous findings (<a href="#B5">Conover et al., 2019</a>) of an ancient polyploidization event shared with <i>K. drynarioides</i> and all members of <i>Gossypium</i> (<a href="#h11">Figure S8</a>). Because genes comprise useful genomic anchors, gene annotations were used to inform analyses of the chromosome rearrangements in <i>G. kirkii</i> (below).</p><p class="mb0">Repetitive elements were detected by RepeatModeler (<a href="#B49">Smit and Hubley, 2018</a>) and RepeatMasker (<a href="#B50">Smit et al., 2019</a>). As a whole, the genome contained &#x223c;30% interspersed repeats and 1.7% simple repeats. The interspersed repetitive elements corresponded to transposable elements, namely <i>Gypsy</i> and <i>Copia</i> retrotransposons (<a href="#h11">Table S3</a>). We detected the TEs on each chromosome to assess the class distribution of TE elements throughout the genome (<a href="#B1">Bailly-Bechet et al., 2014</a>). While TEs can be associated with chromosome rearrangements, we found no bias in terms of TE number, total length, or class between chromosomes. In general, the number and total length of <i>Gypsy</i> elements greatly outweighs <i>Copia</i> elements, as is common for many plant genomes (<a href="#h11">Table S3</a>).</p><h3>Comparative Genomics Between <i>G. Kirkii</i>and Related Genomes</h3><p class="mb0">The base chromosome number (x) of <i>G. kirkii</i> and <i>K. drynarioides</i> is x = 12, but the remainder of the cotton tribe (<i>Gossypieae</i>) in which this lineage is nested has a base chromosome number of x = 13 (<a href="#f1">Figure 1</a>). To explore which chromosomes may be involved in this derived state, we identified chromosome rearrangements that occurred after divergence between <i>G. kirkii</i> and <i>Gossypium</i> (represented by the ancestral &#x201c;G&#x201d; chromosomes). In this analysis, the genome of <i>Gossypium</i> was assumed to represent the ancestral genome to the <i>Gossypium</i>&#x2013;<i>Gossypioides</i>&#x2013;<i>Kokia clade</i>, and the <i>G. kirkii</i> genome was considered derived due to the presence of necessary changes during chromosome reduction, although we cannot discount the possibility of some structural changes in <i>Gossypium</i>. Whole genome comparisons suggested that an entire arm of chromosome G2 and an entire arm of chromosome G4 (intact within modern-day <i>G. raimondii</i> and <i>G. arboreum</i>) fused to form a single chromosome, while the other chromosome arms were fragmented and inserted into KI_06 (<a href="#f3">Figure 3A</a>). A comparison of annotated genes to <i>G. hirsutum</i> in these regions also supports our inferred genome alignments (<a href="#f3">Figure 3B</a>). The insertion of these G2 and G4 fragments into KI_06 explain the absence of a single chromosome that is twice the size of other metacentric chromosomes, as might be expected if a simple chromosome fusion had occurred (<a href="#B19">Hutchinson, 1943</a>). We confirmed the absence of an unusually long chromosome in <i>G. kirkii</i> by chromosome staining (<a href="#h11">Figure S9</a>). The inserted portion on KI_06 consists of alternating segments of ancient chromosomes G2 and G4 with six segments accounting for approximately 30 MB of the chromosome. Details of the rearranged segments are found in <a href="#h11">Table S6</a>. These segments each contained between 117 and 458 genes. A GO enrichment test of each segment found no enriched GO categories.</p><div class="DottedLine"></div><div class="Imageheaders">FIGURE 3</div><div class="FigureDesc"><a href="https://www.frontiersin.org/files/Articles/472622/fpls-10-01541-HTML/image_m/fpls-10-01541-g003.jpg" name="" target="_blank"><img src="https://www.frontiersin.org/files/Articles/472622/fpls-10-01541-HTML/image_t/fpls-10-01541-g003.gif" id="f3" alt="www.frontiersin.org"></img></a><p><strong>Figure 3</strong> <strong>(A)</strong> Whole-genome dot-plot alignment between the aneuploid-reduced chromosomes of <i>Gossypioides kirkii</i> (Chr2_4 and Chr06; x-axis) and the ancestral state, represented here by the D<sub>T</sub>-genome of <i>Gossypium hirsutum</i> (Chr02, Chr04, Chr06; y-axis) because of an assembly error in <i>Gossypium raimondii</i> affecting a key chromosome. Diagrams of the current chromosome configurations are represented next to each of their respective axis <strong>(B)</strong> Circos plot illustrating the rearrangement based on conserved single copy orthologs. Colors in each plot were produced to illustrate matching segments between the whole-genome and gene-based illustrations.</p></div><div class="DottedLine"></div><p class="mb0">These findings may be summarized as three salient facts regarding the genomic history of <i>G. kirkii</i>. First, one chromosome arm each of G2 and G4 were inserted into what became part of <i>Gossypioides kirkii</i> chromosome KI_06. Second, before or after the insertion, segments of these two chromosome arms were interleaved through unknown evolutionary processes. It is worth noting that all of the G2/G4 &#x2018;junctions&#x2019; in KI_06 have strong support of PacBio and Bionano coverage. Third, the remaining, entire chromosome arms of G2 and G4 fused to create KI_2_4. We further support these inferences by mapping a <i>K. drynarioides</i> HiC library to the <i>G. kirkii</i> assembly. The resulting HiC contact heatmap (<a href="#h11">Figure S10</a>) also shows a linear contact pattern along KI_06 and KI_2_4 suggesting that the chromosome rearrangements we describe are shared between these sister genera <i>Kokia</i> and <i>Gossypioides</i>.</p><a id="h5" name="h5"></a><h2>Discussion</h2><p class="mb15">Among the many opportunities afforded by genome sequencing is the possibility of gaining insight into long-standing cytogenetic phenomena that remain unexplained at the sequence level. A promising example is dysploid evolution, which is a well-known and common pattern of cytogenetic variation in both plants and animals (<a href="#B13">Grant, 1971</a>; <a href="#B51">Stebbins, 1971</a>; <a href="#B68">White, 1973</a>). From a mechanistic standpoint, it has long been thought that dysploidy arises primarily from chromosome translocations. This view was promulgated in George Ledyard Stebbins&#x2019; 1971 classic <i>Chromosomal Evolution in Higher Plants</i>, in which he stated that &#x201c;<i>aneuploid alterations of the basic chromosome number are usually the outcome of successive translocations</i>&#x201d; (5, pg. 86). Similarly, in Verne Grant&#x2019;s widely used 1971 textbook &#x201c;<i>Plant Speciation</i>&#x201d;, he stated &#x201c;<i>the mechanism of aneuploid reduction at the diploid level involves unequal reciprocal translocations</i>&#x201d; (4, pg. 359). More recently, telomeric (end-to-end) fusion and Robertsonian translocation have been recognized as processes leading to aneuploid reduction (<a href="#B45">Schubert, 1992</a>; <a href="#B30">Lys&#xe1;k and Schubert, 2013</a>; <a href="#B4">Chiatante et al., 2017</a>; <a href="#B20">Jarvis et al., 2017</a>), as has the insertion of one chromosome into another (<a href="#B28">Luo et al., 2009</a>; <a href="#B40">Murat et al., 2010</a>; <a href="#B57">Vogel et al., 2010</a>; <a href="#B58">Wang and Bennetzen, 2012</a>; <a href="#B10">Fons&#xea;ca et al., 2016</a>). Remarkably, while we were completing the present work, Birchler and Han (<a href="#B2">Birchler and Han, 2018</a>) published a thought-provoking explication of how the Breakage-Fusion-Bridge cycle, as illuminated by McClintock 80 years ago for understanding various chromosome anomalies in maize (<a href="#B37">McClintock, 1939</a>; <a href="#B38">McClintock, 1941</a>), likely has causal connections to common mechanisms of karyotypic evolution in plants, and by extension possibly all eukaryotes.</p><p class="mb15">Here we provide sequence-based evidence for chromosome number reduction where related members of the cotton tribe establish the polarity of the descending dysploidy (from x = 13 to x = 12). The foundation for our conclusions is the high-quality assembly of the <i>G. kirkii</i> genome sequence presented here. The accuracy of this assembly was determined by multiple congruent datasets (PacBio, HiC, and Bionano) and by comparative analyses that demonstrate consistency with previously published cotton genomes (<a href="#B41">Paterson et al., 2012</a>; <a href="#B70">Zhang et al., 2015</a>; <a href="#B6">Du et al., 2018</a>; <a href="#B62">Wang et al., 2019</a>). Analyses of colinearity revealed a complex pattern of inter-digitating chromosome segments. The identified rearrangements also are congruent with previous cytogenetic observations of <i>Gossypioides brevilanatum</i>, in the fact that <i>G. kirkii</i> does not display an &#x2018;extra-large&#x2019; chromosome (<a href="#B19">Hutchinson, 1943</a>) as might be expected from a simpler scenario of a 2 to 1 chromosome fusion event.</p><p class="mb15">Explanations for the inferences depicted in <a href="#f3">Figure 3</a> for the derivation of the reduced chromosome number in <i>G. kirkii</i> (&#x201c;KI&#x201d; chromosomes) relative to the G chromosomes of ancestral <i>Gossypieae</i> need to account for the following observations: (1) identification of end-to-end G2 and G4 (2d and 4e) segments (including internal telomeric sequences) in KI_06 that implicate a historical end-to-end fusion of ancestral chromosome arms G2 and G4 (2) chromosome KI_2_4 contains entire chromosome arms of G2 and G4, suggestive of chromosome fusion at, or close to, the centromeres for the intact G2 and G4 arms; and (3) because the terminal inversion on KI_06 included 2.0Mb of the G4 chromosome (in addition to 8.4 Mb of the original G6 chromosome arm), it must have occurred after the insertion event above.</p><p class="mb15">We recognize that by assuming the <i>Gossypium</i> genome represented the ancestral <i>Gossypieae</i> genome, unique <i>Gossypium</i> changes were confounded with the differences between <i>G. kirkii</i> and <i>Gossypieae</i>. We are comfortable with this assumption based on previous cytological work that prompted the previous generation of botanists to coin the phrase &#x2018;cryptic structural differentiation&#x2019; when working with the cotton tribe (<a href="#B11">Fryxell, 1979</a>). They understood the chromosomes were different based on pairing data, but observable structural differentiation was not sufficient to differentiate members of the cotton tribe, other than the descending dysploidy of <i>Gossypioides</i> and <i>Kokia</i>.</p><p class="mb0">While other interpretations could be made when additional genomes from tribe <i>Gossypieae</i> (e.g., <i>Thespesia</i>, <i>Hampea</i>, or <i>Lebronnecia</i>) are sequenced, we use the above three key observations (and one modest assumption) to create a hypothesis for the order of events following initial dicentric chromosome formation (<a href="#f4">Figure 4</a>). The end-to-end fusion of G2 and G4 strongly supports evolutionary models that begin with a dicentric chromosome, although we note that a multi-break-fusion event could bypass the need for a dicentric chromosome (as noted in <a href="#f4">Figure 4</a>). Myriad alternative models are also possible where end-to-end fusion are coincidental instead of contributional; however, they are not considered further because of the key evidence of the telomeric sequence and directionality of the end-to-end fusion fragments.</p><div class="DottedLine"></div><div class="Imageheaders">FIGURE 4</div><div class="FigureDesc"><a href="https://www.frontiersin.org/files/Articles/472622/fpls-10-01541-HTML/image_m/fpls-10-01541-g004.jpg" name="" target="_blank"><img src="https://www.frontiersin.org/files/Articles/472622/fpls-10-01541-HTML/image_t/fpls-10-01541-g004.gif" id="f4" alt="www.frontiersin.org"></img></a><p><strong>Figure 4</strong> Possible evolutionary model for the origin of descending dysploidy in the ancestor of <i>Gossypioides</i> and <i>Kokia</i> (x = 12) from a progenitor with n = 13. Ancestral chromosomes involved in the aneuploid reduction are pictured at the top. Two possible paths are shown, which include a multi-break event near the centromeres of each ancestral chromosome (left) or an end-to-end fusion of ancestral chromosomes G2 and G4 (right). After either a multi-break event (left) or the generation and subsequent breakage of a dicentric chromosome, chromosome segments 2a and 4a fused to generate one chromosome, while the remaining fragments of G2 and G4 were inserted between segments of G6 (here, 6a and 6c). Three inversions (grey triangles) are required to rearrange the order of the original chromosome blocks into the pattern seen in the extant <i>G. kirkii</i> genome.</p></div><div class="DottedLine"></div><p class="mb15 w100pc float_left mt15">Chromosome comparisons between <i>Gossypioides</i> and <i>Gossypium</i> suggest that the origin of <i>G. kirkii</i> KI_06 involved both fusion and a series of inversions to generate the observed interleaved pattern (<a href="#f4">Figure 4</a>). While this fusion could have been the result of breaks occurring on each of the involved chromosomes, the presence of internal telomeres supports an end-to-end fusion, generating a dicentric chromosome. Perhaps, the nascent dicentric chromosome somehow contributed to Subsequent breaks near each centromere (G2- and G4-derived). If an additional break was concurrent in G6, then translocations followed by subsequent paracentric inversions could create the extant chromosomes of <i>Gossypioides</i>. As depicted in <a href="#f4">Figure 4</a>, two-breaks of a dicentric chromosome created an acentric fragment containing most of the arms of G2 and G4, which inserted into G6, and centromeric fusion between the G2- and G4-chromosome arms containing centromeric sequence. Three inversions are then required to transform the initial fusion of <i>G. kirkii</i> Chr06 into the extant chromosome morphology. The two unshared inversions would only involve portions of the inserted segment. Notably, the two chromosome inversions of <i>G. kirkii</i> were approximately 9.6 Mb and 12.7 Mb, respectively (<a href="#h11">Table S6</a>), which is similar to the average inversion size for plants and animals (i.e., 8.4 Mb, (<a href="#B65">Wellenreuther and Bernatchez, 2018</a>)). While inversions often are associated with TEs (<a href="#B22">Kidwell and Lisch, 2000</a>), we do not find an increased density of TEs in KI_06 (<a href="#f2">Figure 2</a>) to support this for <i>G. kirkii</i>. Although the responsible inversion mechanism is not known, it is possible that recombination between a hemizygous insertion KI_06 and a normal KI_06 could have played a role.</p><p class="mb0">The foregoing hypothesis explains a novel &#x201c;3&#x201d; to &#x201c;2&#x201d; route for chromosome number reduction, as opposed to the more conventional &#x201c;2&#x201d; to &#x201c;1&#x201d;. It certainly invokes a series of seemingly unlikely events, including formation of multiple inversions requiring two simultaneous double-strand breaks and repair (<a href="#B23">Kirkpatrick, 2010</a>), either through a known mechanism such as breakage-fusion-bridge or unknown accidents of aberrant recombination (as described here). Because the likelihood of each rare event multiplies when each is considered as independent of the others, perhaps it is more parsimonious to postulate that chromosome number reduction occurred within a single generation, in a series of germ-line cell divisions with subsequent &#x2018;healing&#x2019; in the sporophyte. In contrast, it remains possible that this entire process unfolded in a stepwise fashion during long evolutionary timescales. Unfortunately, we lack surviving intermediates that might testify to this temporal possibility, and we are unaware of other methods that might be used to distinguish between the &#x201c;fast&#x201d; and &#x201c;slow&#x201d; scenarios. Several other studies have detected aneuploid reduction between related species in the Brassicaceae (<a href="#B31">Lysak et al., 2006</a>), or in the genomes of grasses (<a href="#B69">Zhang et al., 2008</a>; <a href="#B40">Murat et al., 2010</a>; <a href="#B61">Wang et al., 2015</a>; <a href="#B29">Luo et al., 2017</a>), based on patterns of FISH or using sequence comparisons, and others have noted instances of &#x201c;chromosome shattering&#x201d; with possible mechanisms (<a href="#B69">Zhang et al., 2008</a>; <a href="#B52">Tan et al., 2015</a>; <a href="#B34">Mand&#xe1;kov&#xe1; et al., 2019</a>). As more plant and animal genomes are sequenced and assembled by robust methods, the spectrum of causative mechanisms and their frequency in explaining patterns of karyotypic evolution are likely to become much clearer.</p><a id="h6" name="h6"></a><h2>Data Availability Statement</h2><p class="mb0">The <i>G. kirkii</i> genome sequence is available on GenBank (Accession numbers: CP032244-CP032255).</p><a id="h7" name="h7"></a><h2>Author Contributions</h2><p class="mb0">JU and JW developed the idea. JU, JW, JC, and CG designed the project. EL, DY, LG, MA, RM, and DP generated the data. JU, TR, JC, DY, CG, and MA analysed the data. JU, JC, CG, and JW wrote the manuscript. All authors read, edited, and approved the final manuscript.</p><a id="h8" name="h8"></a><h2>Funding</h2><p class="mb0">Primary funding was provided by the National Science Foundation Plant Genome Research Program (#1339412). Additional support was provided from Cotton Incorporated and USDA-ARS (58-6402-1-644 and 58-6066-6-59).</p><a id="h9" name="h9"></a><h2>Conflict of Interest</h2><p class="mb15">The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p><a id="h10" name="h10"></a><h2>Acknowledgments</h2><p class="mb0">We thank the BYU Fulton SuperComputer lab for use of their computation resources. We thank ResearchIT (<a href="https://researchit.las.iastate.edu/">https://researchit.las.iastate.edu/</a>) for computational support at Iowa State University. We thank Rise Services for office accommodations in Orem, UT.</p><a id="h11" name="h11"></a><h2>Supplementary Material</h2><p class="mb15">The Supplementary Material for this article can be found online at: <a href="https://www.frontiersin.org/articles/10.3389/fpls.2019.01541/full#23supplementary-material">https://www.frontiersin.org/articles/10.3389/fpls.2019.01541/full#supplementary-material</a></p><p class="mb15">Supplementary material for this article can be found in (Udall_Supplemental.docx).</p><a id="h12" name="h12"></a><h2>References</h2><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B1" id="B1"></a> Bailly-Bechet, M., Haudry, A., Lerat, E. (2014). &#x201c;One code to find them all&#x201d;: a perl tool to conveniently parse RepeatMasker output files. <i>Mob. DNA</i> 5, 13. doi: 10.1186/1759-8753-5-13</p><p class="ReferencesCopy2"><a href="https://doi.org/10.1186/1759-8753-5-13" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=M.+Bailly-Bechet&amp;author=A.+Haudry&amp;author=E.+Lerat&amp;publication_year=2014&amp;title=%E2%80%9COne%20code%20to%20find%20them%20all%E2%80%9D%3A%20a%20perl%20tool%20to%20conveniently%20parse%20RepeatMasker%20output%20files&amp;journal=Mob.+DNA&amp;volume=5&amp;pages=13" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B2" id="B2"></a> Birchler, J. A., Han, F. (2018). Barbara McClintock&#x2019;s unsolved chromosomal mysteries: parallels to common rearrangements and karyotype evolution. <i>Plant Cell</i> 30, 771&#x2013;779. doi: 10.1105/tpc.17.00989</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=29545470" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1105/tpc.17.00989" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=J.%20A.+Birchler&amp;author=F.+Han&amp;publication_year=2018&amp;title=Barbara%20McClintock%E2%80%99s%20unsolved%20chromosomal%20mysteries%3A%20parallels%20to%20common%20rearrangements%20and%20karyotype%20evolution&amp;journal=Plant+Cell&amp;volume=30&amp;pages=771" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B3" id="B3"></a> Burton, J. N., Adey, A., Patwardhan, R. P., Qiu, R., Kitzman, J. O., Shendure, J. (2013). Chromosome-scale scaffolding of de novo genome assemblies based on chromatin interactions. <i>Nat. Biotechnol.</i> 31, 1119&#x2013;1125. doi: 10.1038/nbt.2727</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=24185095" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1038/nbt.2727" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=J.%20N.+Burton&amp;author=A.+Adey&amp;author=R.%20P.+Patwardhan&amp;author=R.+Qiu&amp;author=J.%20O.+Kitzman&amp;author=J.+Shendure&amp;publication_year=2013&amp;title=Chromosome-scale%20scaffolding%20of%20de%20novo%20genome%20assemblies%20based%20on%20chromatin%20interactions&amp;journal=Nat.+Biotechnol.&amp;volume=31&amp;pages=1119" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B4" id="B4"></a> Chiatante, G., Giannuzzi, G., Calabrese, F. M., Eichler, E. E., Ventura, M. (2017). Centromere destiny in dicentric chromosomes: new insights from the evolution of human chromosome 2 ancestral centromeric region. <i>Mol. Biol. Evol.</i> 34, 1669&#x2013;1681. doi: 10.1093/molbev/msx108</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=28333343" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/molbev/msx108" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=G.+Chiatante&amp;author=G.+Giannuzzi&amp;author=F.%20M.+Calabrese&amp;author=E.%20E.+Eichler&amp;author=M.+Ventura&amp;publication_year=2017&amp;title=Centromere%20destiny%20in%20dicentric%20chromosomes%3A%20new%20insights%20from%20the%20evolution%20of%20human%20chromosome%202%20ancestral%20centromeric%20region&amp;journal=Mol.+Biol.+Evol.&amp;volume=34&amp;pages=1669" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B5" id="B5"></a> Conover, J. L., Grover, C. E., Wendel, J. F., Karimi, N., Stenz, N., An&#xe9;, C., et al. (2019). A Malvaceae mystery: a mallow maelstrom of genome multiplications and maybe misleading methods? <i>J. Integr. Plant Biol.</i> 61 (1), 12&#x2013;31. doi: 10.1111/jipb.12746</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=30474311" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1111/jipb.12746" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=J.%20L.+Conover&amp;author=C.%20E.+Grover&amp;author=J.%20F.+Wendel&amp;author=N.+Karimi&amp;author=N.+Stenz&amp;author=C.+An%C3%A9&amp;publication_year=2019&amp;title=A%20Malvaceae%20mystery%3A%20a%20mallow%20maelstrom%20of%20genome%20multiplications%20and%20maybe%20misleading%20methods&amp;journal=J.+Integr.+Plant+Biol.&amp;volume=61&amp;pages=12" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B6" id="B6"></a> Du, X., Huang, G., He, S., Yang, Z., Sun, G., Ma, X., et al. (2018). Resequencing of 243 diploid cotton accessions based on an updated A genome identifies the genetic basis of key agronomic traits. <i>Nat. Genet.</i> 50 (6), 796&#x2013;802. doi: 10.1038/s41588-018-0116-x</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=29736014" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1038/s41588-018-0116-x" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=X.+Du&amp;author=G.+Huang&amp;author=S.+He&amp;author=Z.+Yang&amp;author=G.+Sun&amp;author=X.+Ma&amp;publication_year=2018&amp;title=Resequencing%20of%20243%20diploid%20cotton%20accessions%20based%20on%20an%20updated%20A%20genome%20identifies%20the%20genetic%20basis%20of%20key%20agronomic%20traits&amp;journal=Nat.+Genet.&amp;volume=50&amp;pages=796" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B7" id="B7"></a> Durand, N. C., Robinson, J. T., Shamim, M. S., Machol, I., Mesirov, J. P., Lander, E. S., et al. (2016). Juicebox provides a visualization system for Hi-C contact maps with unlimited zoom. <i>Cell Syst.</i> 3 (1), 99&#x2013;101. doi: 10.1016/j.cels.2015.07.012</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=27467250" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/j.cels.2015.07.012" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=N.%20C.+Durand&amp;author=J.%20T.+Robinson&amp;author=M.%20S.+Shamim&amp;author=I.+Machol&amp;author=J.%20P.+Mesirov&amp;author=E.%20S.+Lander&amp;publication_year=2016&amp;title=Juicebox%20provides%20a%20visualization%20system%20for%20Hi-C%20contact%20maps%20with%20unlimited%20zoom&amp;journal=Cell+Syst.&amp;volume=3&amp;pages=99" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B8" id="B8"></a> Emms, D. M., Kelly, S. (2015). OrthoFinder: solving fundamental biases in whole genome comparisons dramatically improves orthogroup inference accuracy. <i>Genome Biol.</i> 16, 157. doi: 10.1186/s13059-015-0721-2</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=26243257" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1186/s13059-015-0721-2" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=D.%20M.+Emms&amp;author=S.+Kelly&amp;publication_year=2015&amp;title=OrthoFinder%3A%20solving%20fundamental%20biases%20in%20whole%20genome%20comparisons%20dramatically%20improves%20orthogroup%20inference%20accuracy&amp;journal=Genome+Biol.&amp;volume=16&amp;pages=157" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B9" id="B9"></a> Fajkus, J., S&#xfd;korov&#xe1;, E., Leitch, A. R. (2005). Telomeres in evolution and evolution of telomeres. <i>Chromosom. Res.</i> 13, 469&#x2013;479. doi: 10.1007/s10577-005-0997-2</p><p class="ReferencesCopy2"><a href="https://doi.org/10.1007/s10577-005-0997-2" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=J.+Fajkus&amp;author=E.+S%C3%BDkorov%C3%A1&amp;author=A.%20R.+Leitch&amp;publication_year=2005&amp;title=Telomeres%20in%20evolution%20and%20evolution%20of%20telomeres&amp;journal=Chromosom.+Res.&amp;volume=13&amp;pages=469" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B10" id="B10"></a> Fons&#xea;ca, A., Ferraz, M. E., Pedrosa-Harand, A. (2016). Speeding up chromosome evolution in Phaseolus: multiple rearrangements associated with a one-step descending dysploidy. <i>Chromosoma</i> 125, 413&#x2013;421. doi: 10.1007/s00412-015-0548-3</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=26490170" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1007/s00412-015-0548-3" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=A.+Fons%C3%AAca&amp;author=M.%20E.+Ferraz&amp;author=A.+Pedrosa-Harand&amp;publication_year=2016&amp;title=Speeding%20up%20chromosome%20evolution%20in%20Phaseolus%3A%20multiple%20rearrangements%20associated%20with%20a%20one-step%20descending%20dysploidy&amp;journal=Chromosoma&amp;volume=125&amp;pages=413" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B11" id="B11"></a> Fryxell, P. A. (1979). <i>The natural history of the cotton tribe (Malvaceae, tribe Gossypieae). 1st ed</i>. College Station: Texas A&amp;M University Press.</p><p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=P.%20A.+Fryxell&amp;publication_year=1979&amp;book=The+natural+history+of+the+cotton+tribe+(Malvaceae,+tribe+Gossypieae).+1st+ed&amp;" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B12" id="B12"></a> Giannuzzi, G., Pazienza, M., Huddleston, J., Antonacci, F., Malig, M., Vives, L., et al. (2013). Hominoid fission of chromosome 14/15 and the role of segmental duplications. <i>Genome Res.</i> 23, 1763&#x2013;1773. doi: 10.1101/gr.156240.113</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=24077392" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1101/gr.156240.113" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=G.+Giannuzzi&amp;author=M.+Pazienza&amp;author=J.+Huddleston&amp;author=F.+Antonacci&amp;author=M.+Malig&amp;author=L.+Vives&amp;publication_year=2013&amp;title=Hominoid%20fission%20of%20chromosome%2014%2F15%20and%20the%20role%20of%20segmental%20duplications&amp;journal=Genome+Res.&amp;volume=23&amp;pages=1763" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B13" id="B13"></a> Grant, V. (1971). <i>Plant speciation</i>. Columbia University Press.</p><p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=V.+Grant&amp;publication_year=1971&amp;book=Plant+speciation&amp;" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B14" id="B14"></a> Grant, V. (1981). <i>Plant speciation</i>. New York: Columbia University Press.</p><p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=V.+Grant&amp;publication_year=1981&amp;book=Plant+speciation&amp;" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B15" id="B15"></a> Grover, C. E., Arick, M. A., Conover, J. L., Thrash, A., Hu, G., Sanders, W. S., et al. (2017). Comparative genomics of an unusual biogeographic disjunction in the cotton tribe (Gossypieae) yields insights into genome downsizing. <i>Genome Biol. Evol.</i> 9, 3328&#x2013;3344. doi: 10.1093/gbe/evx248</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=29194487" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/gbe/evx248" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=C.%20E.+Grover&amp;author=M.%20A.+Arick&amp;author=J.%20L.+Conover&amp;author=A.+Thrash&amp;author=G.+Hu&amp;author=W.%20S.+Sanders&amp;publication_year=2017&amp;title=Comparative%20genomics%20of%20an%20unusual%20biogeographic%20disjunction%20in%20the%20cotton%20tribe%20%28Gossypieae%29%20yields%20insights%20into%20genome%20downsizing&amp;journal=Genome+Biol.+Evol.&amp;volume=9&amp;pages=3328" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B16" id="B16"></a> Guerra, M. (2008). Chromosome numbers in plant cytotaxonomy: concepts and implications. <i>Cytogenet. Genome Res.</i> 120, 339&#x2013;350. doi: 10.1159/000121083</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=18504363" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1159/000121083" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=M.+Guerra&amp;publication_year=2008&amp;title=Chromosome%20numbers%20in%20plant%20cytotaxonomy%3A%20concepts%20and%20implications&amp;journal=Cytogenet.+Genome+Res.&amp;volume=120&amp;pages=339" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B17" id="B17"></a> Heslop-Harrison, J. S. P. P., Schwarzacher, T. (2011). Organisation of the plant genome in chromosomes. <i>Plant J.</i> 66, 18&#x2013;33. doi: 10.1111/j.1365-313X.2011.04544.x</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=21443620" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1111/j.1365-313X.2011.04544.x" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=J.%20S.%20P.%20P.+Heslop-Harrison&amp;author=T.+Schwarzacher&amp;publication_year=2011&amp;title=Organisation%20of%20the%20plant%20genome%20in%20chromosomes&amp;journal=Plant+J.&amp;volume=66&amp;pages=18" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B18" id="B18"></a> Hoang, P. T. N., Schubert, I. (2017). Reconstruction of chromosome rearrangements between the two most ancestral duckweed species Spirodela polyrhiza and S. intermedia. <i>Chromosoma</i> 126, 729&#x2013;739. doi: 10.1007/s00412-017-0636-7</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=28756515" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1007/s00412-017-0636-7" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=P.%20T.%20N.+Hoang&amp;author=I.+Schubert&amp;publication_year=2017&amp;title=Reconstruction%20of%20chromosome%20rearrangements%20between%20the%20two%20most%20ancestral%20duckweed%20species%20Spirodela%20polyrhiza%20and%20S.%20intermedia&amp;journal=Chromosoma&amp;volume=126&amp;pages=729" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B19" id="B19"></a> Hutchinson, J. B. (1943). A note on Gossypium brevilanatum Hochr. <i>Trop. Agric. Agric.</i> 20, 4.</p><p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=J.%20B.+Hutchinson&amp;publication_year=1943&amp;title=A%20note%20on%20Gossypium%20brevilanatum%20Hochr&amp;journal=Trop.+Agric.+Agric.&amp;volume=20&amp;pages=4" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B20" id="B20"></a> Jarvis, D. E., Ho, Y. S., Lightfoot, D. J., Schm&#xf6;ckel, S. M., Li, B., Borm, T. J. A., et al. (2017). The genome of Chenopodium quinoa. <i>Nature</i> 542, 307&#x2013;312. doi: 10.1038/nature21370</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=28178233" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1038/nature21370" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=D.%20E.+Jarvis&amp;author=Y.%20S.+Ho&amp;author=D.%20J.+Lightfoot&amp;author=S.%20M.+Schm%C3%B6ckel&amp;author=B.+Li&amp;author=T.%20J.%20A.+Borm&amp;publication_year=2017&amp;title=The%20genome%20of%20Chenopodium%20quinoa&amp;journal=Nature&amp;volume=542&amp;pages=307" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B21" id="B21"></a> Jones, K. (1998). Robertsonian fusion and centric fission in karyotype evolution of higher plants. <i>Bot. Rev.</i> 64, 273&#x2013;289. doi: 10.1007/BF02856567</p><p class="ReferencesCopy2"><a href="https://doi.org/10.1007/BF02856567" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=K.+Jones&amp;publication_year=1998&amp;title=Robertsonian%20fusion%20and%20centric%20fission%20in%20karyotype%20evolution%20of%20higher%20plants&amp;journal=Bot.+Rev.&amp;volume=64&amp;pages=273" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B22" id="B22"></a> Kidwell, M. G., Lisch, D. R. (2000). Transposable elements and host genome evolution. <i>Trends Ecol. Evol.</i> 15 (3), 95&#x2013;99. doi: 10.1016/S0169-5347(99)01817-0</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=10675923" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/S0169-5347(99)01817-0" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=M.%20G.+Kidwell&amp;author=D.%20R.+Lisch&amp;publication_year=2000&amp;title=Transposable%20elements%20and%20host%20genome%20evolution&amp;journal=Trends+Ecol.+Evol.&amp;volume=15&amp;pages=95" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B23" id="B23"></a> Kirkpatrick, M. (2010). How and why chromosome inversions evolve. <i>PloS Biol.</i> 8 (9), e1000501. doi: 10.1371/journal.pbio.1000501 pii.</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=20927412" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1371/journal.pbio.1000501" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=M.+Kirkpatrick&amp;publication_year=2010&amp;title=How%20and%20why%20chromosome%20inversions%20evolve&amp;journal=PloS+Biol.&amp;volume=8&amp;" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B24" id="B24"></a> Koren, S., Walenz, B. P., Berlin, K., Miller, J. R., Bergman, N. H., Phillippy, A. M. (2017). Canu: scalable and accurate long-read assembly via adaptive &#x3ba;-mer weighting and repeat separation. <i>Genome Res.</i> 27, 722&#x2013;736. doi: 10.1101/gr.215087.116</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=28298431" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1101/gr.215087.116" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=S.+Koren&amp;author=B.%20P.+Walenz&amp;author=K.+Berlin&amp;author=J.%20R.+Miller&amp;author=N.%20H.+Bergman&amp;author=A.%20M.+Phillippy&amp;publication_year=2017&amp;title=Canu%3A%20scalable%20and%20accurate%20long-read%20assembly%20via%20adaptive%20%CE%BA-mer%20weighting%20and%20repeat%20separation&amp;journal=Genome+Res.&amp;volume=27&amp;pages=722" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B25" id="B25"></a> Lee, T., Peace, C., Jung, S., Zheng, P., Main, D., Cho, I. (2011). &#x201c;GenSAS - An online integrated genome sequence annotation pipeline,&#x201d; in <i>Proceedings - 2011 4th International Conference on Biomedical Engineering and Informatics, BMEI 2011</i>. doi: 10.1109/BMEI.2011.6098712</p><p class="ReferencesCopy2"><a href="https://doi.org/10.1109/BMEI.2011.6098712" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=T.+Lee&amp;author=C.+Peace&amp;author=S.+Jung&amp;author=P.+Zheng&amp;author=D.+Main&amp;author=I.+Cho&amp;publication_year=2011&amp;title=%20%E2%80%9CGenSAS%20-%20An%20online%20integrated%20genome%20sequence%20annotation%20pipeline%2C%E2%80%9D&amp;journal=Proceedings+-+2011+4th+International+Conference+on+Biomedical+Engineering+and+Informatics,+BMEI+2011&amp;" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B26" id="B26"></a> Li, H., Durbin, R. (2009). Fast and accurate short read alignment with Burrows-Wheeler transform. <i>Bioinformatics</i> 25, 1754&#x2013;1760. doi: 10.1093/bioinformatics/btp324</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=19451168" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/bioinformatics/btp324" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=H.+Li&amp;author=R.+Durbin&amp;publication_year=2009&amp;title=Fast%20and%20accurate%20short%20read%20alignment%20with%20Burrows-Wheeler%20transform&amp;journal=Bioinformatics&amp;volume=25&amp;pages=1754" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B27" id="B27"></a> Li, H. (2018). Minimap2: pairwise alignment for nucleotide sequences. <i>Bioinformatics</i> 34 (18), 3094&#x2013;3100. doi: 10.1093/bioinformatics/bty191</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=29750242" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/bioinformatics/bty191" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=H.+Li&amp;publication_year=2018&amp;title=Minimap2%3A%20pairwise%20alignment%20for%20nucleotide%20sequences&amp;journal=Bioinformatics&amp;volume=34&amp;pages=3094" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B28" id="B28"></a> Luo, M. C., Deal, K. R., Akhunov, E. D., Akhunova, a R., Anderson, O. D., Anderson, J. A., et al. (2009). Genome comparisons reveal a dominant mechanism of chromosome number reduction in grasses and accelerated genome evolution in Triticeae. <i>Proc. Natl. Acad. Sci. U. S. A.</i> 106, 15780&#x2013;15785. doi: 10.1073/pnas.0908195106</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=19717446" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1073/pnas.0908195106" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=M.%20C.+Luo&amp;author=K.%20R.+Deal&amp;author=E.%20D.+Akhunov&amp;author=a%20R.+Akhunova&amp;author=O.%20D.+Anderson&amp;author=J.%20A.+Anderson&amp;publication_year=2009&amp;title=Genome%20comparisons%20reveal%20a%20dominant%20mechanism%20of%20chromosome%20number%20reduction%20in%20grasses%20and%20accelerated%20genome%20evolution%20in%20Triticeae&amp;journal=Proc.+Natl.+Acad.+Sci.+U.+S.+A.&amp;volume=106&amp;pages=15780" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B29" id="B29"></a> Luo, M.-C., Gu, Y. Q., Puiu, D., Wang, H., Twardziok, S. O., Deal, K. R., et al. (2017). Genome sequence of the progenitor of the wheat D genome Aegilops tauschii. <i>Nature</i> 551, 498. doi: 10.1038/nature24486</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=29143815" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1038/nature24486" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=M.-C.+Luo&amp;author=Y.%20Q.+Gu&amp;author=D.+Puiu&amp;author=H.+Wang&amp;author=S.%20O.+Twardziok&amp;author=K.%20R.+Deal&amp;publication_year=2017&amp;title=Genome%20sequence%20of%20the%20progenitor%20of%20the%20wheat%20D%20genome%20Aegilops%20tauschii&amp;journal=Nature&amp;volume=551&amp;pages=498" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B30" id="B30"></a> Lys&#xe1;k, M. A., Schubert, I. (2013). &#x201c;Mechanisms of Chromosome Rearrangements,&#x201d; in <i>Plant Genome Diversity Volume 2</i> (Vienna: Springer Vienna), 137&#x2013;147. doi: 10.1007/978-3-7091-1160-4_9</p><p class="ReferencesCopy2"><a href="https://doi.org/10.1007/978-3-7091-1160-4_9" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=M.%20A.+Lys%C3%A1k&amp;author=I.+Schubert&amp;publication_year=2013&amp;title=%E2%80%9CMechanisms%20of%20Chromosome%20Rearrangements%2C%E2%80%9D&amp;book=Plant+Genome+Diversity+Volume+2&amp;pages=137" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B31" id="B31"></a> Lysak, M., Berr, A., Pecinka, A., Schmidt, R., McBreen, K., Schubert, I. (2006). Mechanisms of chromosome number reduction in <i>Arabidopsis thaliana</i> and related Brassicaceae species. <i>Proc. Natl. Acad. Sci. U. S. A.</i> 103, 5224&#x2013;5229. doi: 10.1073/pnas.0510791103</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=16549785" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1073/pnas.0510791103" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=M.+Lysak&amp;author=A.+Berr&amp;author=A.+Pecinka&amp;author=R.+Schmidt&amp;author=K.+McBreen&amp;author=I.+Schubert&amp;publication_year=2006&amp;title=Mechanisms%20of%20chromosome%20number%20reduction%20in%20Arabidopsis%20thaliana%20and%20related%20Brassicaceae%20species&amp;journal=Proc.+Natl.+Acad.+Sci.+U.+S.+A.&amp;volume=103&amp;pages=5224" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B32" id="B32"></a> Lysak, M. A. (2014). Live and let die: centromere loss during evolution of plant chromosomes. <i>New Phytol.</i> 203, 1082&#x2013;1089. doi: 10.1111/nph.12885</p><p class="ReferencesCopy2"><a href="https://doi.org/10.1111/nph.12885" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=M.%20A.+Lysak&amp;publication_year=2014&amp;title=Live%20and%20let%20die%3A%20centromere%20loss%20during%20evolution%20of%20plant%20chromosomes&amp;journal=New+Phytol.&amp;volume=203&amp;pages=1082" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B33" id="B33"></a> Ma, J., Wing, R., Bennetzen, J. L., Jackson, S. A. (2007). Plant centromere organization: a dynamic structure with conserved functions. <i>Trends Genet.</i> 23, 134&#x2013;139. doi: 10.1016/j.tig.2007.01.004</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=17275131" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/j.tig.2007.01.004" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=J.+Ma&amp;author=R.+Wing&amp;author=J.%20L.+Bennetzen&amp;author=S.%20A.+Jackson&amp;publication_year=2007&amp;title=Plant%20centromere%20organization%3A%20a%20dynamic%20structure%20with%20conserved%20functions&amp;journal=Trends+Genet.&amp;volume=23&amp;pages=134" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B34" id="B34"></a> Mand&#xe1;kov&#xe1;, T., Pouch, M., Brock, J. R., Al-Shehbaz, I. A., Lysak, M. A. (2019). Origin and evolution of Diploid and Allopolyploid Camelina genomes was accompanied by chromosome shattering. <i>Plant Cell</i> 31 (11), 2596&#x2013;2612. doi: 10.1105/tpc.19.00366</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=31451448" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1105/tpc.19.00366" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=T.+Mand%C3%A1kov%C3%A1&amp;author=M.+Pouch&amp;author=J.%20R.+Brock&amp;author=I.%20A.+Al-Shehbaz&amp;author=M.%20A.+Lysak&amp;publication_year=2019&amp;title=Origin%20and%20evolution%20of%20Diploid%20and%20Allopolyploid%20Camelina%20genomes%20was%20accompanied%20by%20chromosome%20shattering&amp;journal=Plant+Cell&amp;volume=31&amp;pages=2596" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B35" id="B35"></a> Masonbrink, R. E., Birchler, J. A. (2010). Sporophytic nondisjunction of the maize B chromosome at high copy numbers. <i>J. Genet. Genomics</i> 37, 79&#x2013;84. doi: 10.1016/S1673-8527(09)60027-8</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=20171580" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/S1673-8527(09)60027-8" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=R.%20E.+Masonbrink&amp;author=J.%20A.+Birchler&amp;publication_year=2010&amp;title=Sporophytic%20nondisjunction%20of%20the%20maize%20B%20chromosome%20at%20high%20copy%20numbers&amp;journal=J.+Genet.+Genomics&amp;volume=37&amp;pages=79" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B36" id="B36"></a> Masonbrink, R. E., Gallagher, J. P., Jareczek, J. J., Renny-Byfield, S., Grover, C. E., Gong, L., et al. (2014). CenH3 evolution in diploids and polyploids of three angiosperm genera. <i>BMC Plant Biol.</i> 14, 383. doi: 10.1186/s12870-014-0383-3</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=25547313" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1186/s12870-014-0383-3" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=R.%20E.+Masonbrink&amp;author=J.%20P.+Gallagher&amp;author=J.%20J.+Jareczek&amp;author=S.+Renny-Byfield&amp;author=C.%20E.+Grover&amp;author=L.+Gong&amp;publication_year=2014&amp;title=CenH3%20evolution%20in%20diploids%20and%20polyploids%20of%20three%20angiosperm%20genera&amp;journal=BMC+Plant+Biol.&amp;volume=14&amp;pages=383" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B37" id="B37"></a> McClintock, B. (1939). The behavior in successive nuclear divisions of a chromosome broken at Meiosis. <i>Proc. Natl. Acad. Sci. U. S. A.</i> 25 (8), 405&#x2013;416. doi: 10.1073/pnas.25.8.405</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=16577924" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1073/pnas.25.8.405" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=B.+McClintock&amp;publication_year=1939&amp;title=The%20behavior%20in%20successive%20nuclear%20divisions%20of%20a%20chromosome%20broken%20at%20Meiosis&amp;journal=Proc.+Natl.+Acad.+Sci.+U.+S.+A.&amp;volume=25&amp;pages=405" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B38" id="B38"></a> McClintock, B. (1941). The stability of broken ends of chromosomes in Zea mays. <i>Genetics</i> 26 (2), 234&#x2013;282.</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=17247004" target="_blank">PubMed Abstract</a> | <a href="http://scholar.google.com/scholar_lookup?author=B.+McClintock&amp;publication_year=1941&amp;title=The%20stability%20of%20broken%20ends%20of%20chromosomes%20in%20Zea%20mays&amp;journal=Genetics&amp;volume=26&amp;pages=234" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B39" id="B39"></a> McKnight, T. D., Fitzgerald, M. S., Shippen, D. E. (1997). Plant telomeres and telomerases. A review. <i>Biochem. (Mosc).</i> 62, 1224&#x2013;1231. <a href="http://www.ncbi.nlm.nih.gov/pubmed/9467846">http://www.ncbi.nlm.nih.gov/pubmed/9467846</a>.</p><p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=T.%20D.+McKnight&amp;author=M.%20S.+Fitzgerald&amp;author=D.%20E.+Shippen&amp;publication_year=1997&amp;title=Plant%20telomeres%20and%20telomerases.%20A%20review&amp;journal=Biochem.+(Mosc).&amp;volume=62&amp;pages=1224" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B40" id="B40"></a> Murat, F., Xu, J. H., Tannier, E., Abrouk, M., Guilhot, N., Pont, C., et al. (2010). Ancestral grass karyotype reconstruction unravels new mechanisms of genome shuffling as a source of plant evolution. <i>Genome Res.</i> 20, 1545&#x2013;1557. doi: 10.1101/gr.109744.110</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=20876790" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1101/gr.109744.110" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=F.+Murat&amp;author=J.%20H.+Xu&amp;author=E.+Tannier&amp;author=M.+Abrouk&amp;author=N.+Guilhot&amp;author=C.+Pont&amp;publication_year=2010&amp;title=Ancestral%20grass%20karyotype%20reconstruction%20unravels%20new%20mechanisms%20of%20genome%20shuffling%20as%20a%20source%20of%20plant%20evolution&amp;journal=Genome+Res.&amp;volume=20&amp;pages=1545" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B41" id="B41"></a> Paterson, A. H., Wendel, J. F., Gundlach, H., Guo, H., Jenkins, J., Jin, D., et al. (2012). Repeated polyploidization of Gossypium genomes and the evolution of spinnable cotton fibres. <i>Nature</i> 492, 423&#x2013;427. doi: 10.1038/nature11798</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=23257886" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1038/nature11798" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=A.%20H.+Paterson&amp;author=J.%20F.+Wendel&amp;author=H.+Gundlach&amp;author=H.+Guo&amp;author=J.+Jenkins&amp;author=D.+Jin&amp;publication_year=2012&amp;title=Repeated%20polyploidization%20of%20Gossypium%20genomes%20and%20the%20evolution%20of%20spinnable%20cotton%20fibres&amp;journal=Nature&amp;volume=492&amp;pages=423" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B42" id="B42"></a> Phuphathanaphong, L. (2006). Thepparatia (Malvaceae), a new genus from Thailand. <i>Thai. For. Bull.</i> 34, 195&#x2013;200.</p><p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=L.+Phuphathanaphong&amp;publication_year=2006&amp;title=Thepparatia%20%28Malvaceae%29%2C%20a%20new%20genus%20from%20Thailand&amp;journal=Thai.+For.+Bull.&amp;volume=34&amp;pages=195" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B43" id="B43"></a> Poorten, T. (2018). <a href="https://github.com/tpoorten/dotPlotly.dotPlotly">https://github.com/tpoorten/dotPlotly.dotPlotly</a>. Available at: .</p><p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=T.+Poorten&amp;publication_year=2018&amp;" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B44" id="B44"></a> Roberto, C. (2005). Low chromosome number angiosperms. <i>Caryologia</i> 58 (4), 403&#x2013;409. doi: 10.1080/00087114.2005.10589480</p><p class="ReferencesCopy2"><a href="https://doi.org/10.1080/00087114.2005.10589480" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=C.+Roberto&amp;publication_year=2005&amp;title=Low%20chromosome%20number%20angiosperms&amp;journal=Caryologia&amp;volume=58&amp;pages=403" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B45" id="B45"></a> Schubert, I. (1992). Telomeric polymorphism in Vicia faba. <i>Biol. Zentralblatt</i> 111, 164&#x2013;168.</p><p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=I.+Schubert&amp;publication_year=1992&amp;title=Telomeric%20polymorphism%20in%20Vicia%20faba&amp;journal=Biol.+Zentralblatt&amp;volume=111&amp;pages=164" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B46" id="B46"></a> Seelanan, T., Schnabel, A., Wendel, J. F. (1997). Congruence and consensus in the cotton tribe (Malvaceae). <i>Syst. Bot.</i> 22, 259. doi: 10.2307/2419457</p><p class="ReferencesCopy2"><a href="https://doi.org/10.2307/2419457" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=T.+Seelanan&amp;author=A.+Schnabel&amp;author=J.%20F.+Wendel&amp;publication_year=1997&amp;title=Congruence%20and%20consensus%20in%20the%20cotton%20tribe%20%28Malvaceae%29&amp;journal=Syst.+Bot.&amp;volume=22&amp;pages=259" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B47" id="B47"></a> Sim&#xe3;o, F. A., Waterhouse, R. M., Ioannidis, P., Kriventseva, E. V., Zdobnov, E. M. (2015). BUSCO: assessing genome assembly and annotation completeness with single-copy orthologs. <i>Bioinformatics</i> 31, 3210&#x2013;3212. doi: 10.1093/bioinformatics/btv351</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=26059717" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/bioinformatics/btv351" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=F.%20A.+Sim%C3%A3o&amp;author=R.%20M.+Waterhouse&amp;author=P.+Ioannidis&amp;author=E.%20V.+Kriventseva&amp;author=E.%20M.+Zdobnov&amp;publication_year=2015&amp;title=BUSCO%3A%20assessing%20genome%20assembly%20and%20annotation%20completeness%20with%20single-copy%20orthologs&amp;journal=Bioinformatics&amp;volume=31&amp;pages=3210" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B48" id="B48"></a> Smit, A., Hubley, R. (2013). doi: 10.1007/s00572-016-0720-5 RepeatModeler. RepeatModeler.</p><p class="ReferencesCopy2"><a href="https://doi.org/10.1007/s00572-016-0720-5" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=A.+Smit&amp;author=R.+Hubley&amp;publication_year=2013&amp;" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B49" id="B49"></a> Smit, A., Hubley, R. (2018). RepeatModeler Open-1.0. GitHub.</p><p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=A.+Smit&amp;author=R.+Hubley&amp;publication_year=2018&amp;" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B50" id="B50"></a> Smit, A. F. A., Hubley, R., Green, P. (2019). <a href="http://www.repeatmasker.org">http://www.repeatmasker.org</a>. RepeatMasker Open-4.0. Available at: .</p><p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=A.%20F.%20A.+Smit&amp;author=R.+Hubley&amp;author=P.+Green&amp;publication_year=2019&amp;pages=4pages=0" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B51" id="B51"></a> Stebbins, G. L. (1971). <i>Chromosomal evolution in higher plants</i>. London: Edward Arnold LTD. 87&#x2013;89.</p><p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=G.%20L.+Stebbins&amp;publication_year=1971&amp;book=Chromosomal+evolution+in+higher+plants&amp;pages=87" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B52" id="B52"></a> Tan, E. H., Henry, I. M., Ravi, M., Bradnam, K. R., Mandakova, T., Marimuthu, M. P., et al. (2015). Catastrophic chromosomal restructuring during genome elimination in plants. <i>Elife</i> 4, e06516. doi: 10.7554/eLife.06516</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=25977984" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.7554/eLife.06516" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=E.%20H.+Tan&amp;author=I.%20M.+Henry&amp;author=M.+Ravi&amp;author=K.%20R.+Bradnam&amp;author=T.+Mandakova&amp;author=M.%20P.+Marimuthu&amp;publication_year=2015&amp;title=Catastrophic%20chromosomal%20restructuring%20during%20genome%20elimination%20in%20plants&amp;journal=Elife&amp;volume=4&amp;" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B53" id="B53"></a> Tian, T., Liu, Y., Yan, H., You, Q., Yi, X., Du, Z., et al. (2017). AgriGO v2.0: A GO analysis toolkit for the agricultural community, 2017 update. <i>Nucleic Acids Res.</i> 45 (W1), W122&#x2013;W129. doi: 10.1093/nar/gkx382</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=28472432" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/nar/gkx382" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=T.+Tian&amp;author=Y.+Liu&amp;author=H.+Yan&amp;author=Q.+You&amp;author=X.+Yi&amp;author=Z.+Du&amp;publication_year=2017&amp;title=AgriGO%20v2.0%3A%20A%20GO%20analysis%20toolkit%20for%20the%20agricultural%20community%2C%202017%20update&amp;journal=Nucleic+Acids+Res.&amp;volume=45&amp;pages=W122" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B54" id="B54"></a> Udall, J. A., Dawe, R. K. (2017). Is it ordered correctly? Validating genome assemblies by optical mapping. <i>Plant Cell</i> 30, 7&#x2013;14. doi: 10.1105/tpc.17.00514</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=29263086" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1105/tpc.17.00514" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=J.%20A.+Udall&amp;author=R.%20K.+Dawe&amp;publication_year=2017&amp;title=Is%20it%20ordered%20correctly%3F%20Validating%20genome%20assemblies%20by%20optical%20mapping&amp;journal=Plant+Cell&amp;volume=30&amp;pages=7" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B55" id="B55"></a> Uhl, C. H. (1978). Chromosomes of Mexican Sedum II. Section Pachysedum. <i>Rhodora</i> 80, 491&#x2013;512. <a href="http://www.jstor.org/stable/2331126">http://www.jstor.org/stable/2331126</a>. Available at: .</p><p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=C.%20H.+Uhl&amp;publication_year=1978&amp;title=Chromosomes%20of%20Mexican%20Sedum%20II.%20Section%20Pachysedum&amp;journal=Rhodora&amp;volume=80&amp;pages=491" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B56" id="B56"></a> Vanzela, A. L. L., Guerra, M., Luceno, M. (1996). Rhynchospora Tenuis Link (Cyperaceae), a species with the lowest number of holocentric chromosomes. <i>Cytobios</i> 88, 219&#x2013;228. Available at: isi:A1996XT51300004.</p><p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=A.%20L.%20L.+Vanzela&amp;author=M.+Guerra&amp;author=M.+Luceno&amp;publication_year=1996&amp;title=Rhynchospora%20Tenuis%20Link%20%28Cyperaceae%29%2C%20a%20species%20with%20the%20lowest%20number%20of%20holocentric%20chromosomes&amp;journal=Cytobios&amp;volume=88&amp;pages=219" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B57" id="B57"></a> Vogel, J. P., Garvin, D. F., Mockler, T. C., Schmutz, J., Rokhsar, D., Bevan, M. W., et al. (2010). Genome sequencing and analysis of the model grass Brachypodium distachyon. <i>Nature</i> 463 (7282), 763&#x2013;768. doi: 10.1038/nature08747</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=20148030" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1038/nature08747" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=J.%20P.+Vogel&amp;author=D.%20F.+Garvin&amp;author=T.%20C.+Mockler&amp;author=J.+Schmutz&amp;author=D.+Rokhsar&amp;author=M.%20W.+Bevan&amp;publication_year=2010&amp;title=Genome%20sequencing%20and%20analysis%20of%20the%20model%20grass%20Brachypodium%20distachyon&amp;journal=Nature&amp;volume=463&amp;pages=763" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B58" id="B58"></a> Wang, H., Bennetzen, J. L. (2012). Centromere retention and loss during the descent of maize from a tetraploid ancestor. <i>Proc. Natl. Acad. Sci. U. S. A.</i> 109 (51), 21004&#x2013;21009. doi: 10.1073/pnas.1218668109</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=23197827" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1073/pnas.1218668109" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=H.+Wang&amp;author=J.%20L.+Bennetzen&amp;publication_year=2012&amp;title=Centromere%20retention%20and%20loss%20during%20the%20descent%20of%20maize%20from%20a%20tetraploid%20ancestor&amp;journal=Proc.+Natl.+Acad.+Sci.+U.+S.+A.&amp;volume=109&amp;pages=21004" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B59" id="B59"></a> Wang, K., Song, X., Han, Z., Guo, W., Yu, J. Z., Sun, J., et al. (2006). Complete assignment of the chromosomes of Gossypium hirsutum L. by translocation and fluorescence in situ hybridization mapping. <i>Theor. Appl. Genet.</i> 113, 73&#x2013;80. doi: 10.1007/s00122-006-0273-7</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=16609860" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1007/s00122-006-0273-7" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=K.+Wang&amp;author=X.+Song&amp;author=Z.+Han&amp;author=W.+Guo&amp;author=J.%20Z.+Yu&amp;author=J.+Sun&amp;publication_year=2006&amp;title=Complete%20assignment%20of%20the%20chromosomes%20of%20Gossypium%20hirsutum%20L.%20by%20translocation%20and%20fluorescence%20in%20situ%20hybridization%20mapping&amp;journal=Theor.+Appl.+Genet.&amp;volume=113&amp;pages=73" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B60" id="B60"></a> Wang, Y., Tang, H., Debarry, J. D., Tan, X., Li, J., Wang, X., et al. (2012). MCScanX: A toolkit for detection and evolutionary analysis of gene synteny and collinearity. <i>Nucleic Acids Res.</i> 40 (7), e49. doi: 10.1093/nar/gkr1293</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=22217600" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/nar/gkr1293" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=Y.+Wang&amp;author=H.+Tang&amp;author=J.%20D.+Debarry&amp;author=X.+Tan&amp;author=J.+Li&amp;author=X.+Wang&amp;publication_year=2012&amp;title=MCScanX%3A%20A%20toolkit%20for%20detection%20and%20evolutionary%20analysis%20of%20gene%20synteny%20and%20collinearity&amp;journal=Nucleic+Acids+Res.&amp;volume=40&amp;pages=e49" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B61" id="B61"></a> Wang, X., Jin, D., Wang, Z., Guo, H., Zhang, L., Wang, L., et al. (2015). Telomere-centric genome repatterning determines recurring chromosome number reductions during the evolution of eukaryotes. <i>New Phytol.</i> 205 (1), 378&#x2013;389. doi: 10.1111/nph.12985</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=25138576" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1111/nph.12985" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=X.+Wang&amp;author=D.+Jin&amp;author=Z.+Wang&amp;author=H.+Guo&amp;author=L.+Zhang&amp;author=L.+Wang&amp;publication_year=2015&amp;title=Telomere-centric%20genome%20repatterning%20determines%20recurring%20chromosome%20number%20reductions%20during%20the%20evolution%20of%20eukaryotes&amp;journal=New+Phytol.&amp;volume=205&amp;pages=378" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B62" id="B62"></a> Wang, M., Tu, L., Yuan, D., Zhu, D., Shen, C., Li, J., et al. (2019). Reference genome sequences of two cultivated allotetraploid cottons, Gossypium hirsutum and Gossypium barbadense. <i>Nat. Genet.</i> 51, 224&#x2013;229. doi: 10.1038/s41588-018-0282-x</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=30510239" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1038/s41588-018-0282-x" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=M.+Wang&amp;author=L.+Tu&amp;author=D.+Yuan&amp;author=D.+Zhu&amp;author=C.+Shen&amp;author=J.+Li&amp;publication_year=2019&amp;title=Reference%20genome%20sequences%20of%20two%20cultivated%20allotetraploid%20cottons%2C%20Gossypium%20hirsutum%20and%20Gossypium%20barbadense&amp;journal=Nat.+Genet.&amp;volume=51&amp;pages=224" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B63" id="B63"></a> Watson, J. M., Riha, K. (2010). Comparative biology of telomeres: where plants stand. <i>FEBS Lett.</i> 584, 3752&#x2013;3759. doi: 10.1016/J.FEBSLET.2010.06.017</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=20580356" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/J.FEBSLET.2010.06.017" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=J.%20M.+Watson&amp;author=K.+Riha&amp;publication_year=2010&amp;title=Comparative%20biology%20of%20telomeres%3A%20where%20plants%20stand&amp;journal=FEBS+Lett.&amp;volume=584&amp;pages=3752" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B64" id="B64"></a> Weiss-Schneeweiss, H., Schneeweiss, G. M. (2013). &#x201c;Karyotype diversity and evolutionary trends in angiosperms,&#x201d; in <i>Plant Genome Diversity</i>, Springer-Verlag Wien. 209&#x2013;230. doi: 10.1007/978-3-7091-1160-4_13</p><p class="ReferencesCopy2"><a href="https://doi.org/10.1007/978-3-7091-1160-4_13" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=H.+Weiss-Schneeweiss&amp;author=G.%20M.+Schneeweiss&amp;publication_year=2013&amp;book=Plant+Genome+Diversity&amp;pages=209" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B65" id="B65"></a> Wellenreuther, M., Bernatchez, L. (2018). Eco-evolutionary genomics of chromosomal inversions. <i>Trends Ecol. Evol.</i> 33 (6), 427&#x2013;440. doi: 10.1016/j.tree.2018.04.002</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=29731154" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/j.tree.2018.04.002" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=M.+Wellenreuther&amp;author=L.+Bernatchez&amp;publication_year=2018&amp;title=Eco-evolutionary%20genomics%20of%20chromosomal%20inversions&amp;journal=Trends+Ecol.+Evol.&amp;volume=33&amp;pages=427" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B66" id="B66"></a> Wendel, J. F., Cronn, R. C. (2003). Polyploidy and the evolutionary history of cotton. <i>Adv. Agron.</i> 78, 139&#x2013;186. doi: 10.1016/S0065-2113(02)78004-8</p><p class="ReferencesCopy2"><a href="https://doi.org/10.1016/S0065-2113(02)78004-8" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=J.%20F.+Wendel&amp;author=R.%20C.+Cronn&amp;publication_year=2003&amp;title=Polyploidy%20and%20the%20evolutionary%20history%20of%20cotton&amp;journal=Adv.+Agron.&amp;volume=78&amp;pages=139" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B67" id="B67"></a> Wendel, J. F., Cronn, R. C., Spencer Johnston, J., James Price, H. (2002). Feast and famine in plant genomes. <i>Genetica</i> 115, 37&#x2013;47. doi: 10.1023/a:1016020030189</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=12188047" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1023/a:1016020030189" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=J.%20F.+Wendel&amp;author=R.%20C.+Cronn&amp;author=J.+Spencer%20Johnston&amp;author=H.+James%20Price&amp;publication_year=2002&amp;title=Feast%20and%20famine%20in%20plant%20genomes&amp;journal=Genetica&amp;volume=115&amp;pages=37" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B68" id="B68"></a> White, M. (1973). <i>Animal cytology and evolution</i>. London: Cambridge University Press.</p><p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=M.+White&amp;publication_year=1973&amp;book=Animal+cytology+and+evolution&amp;" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B69" id="B69"></a> Zhang, P., Li, W., Friebe, B., Gill, B. S. (2008). The origin of a &#x201c;Zebra&#x201d; chromosome in wheat suggests nonhomologous recombination as a novel mechanism for new chromosome evolution and step changes in chromosome number. <i>Genetics</i> 179 (3), 1169&#x2013;1177. doi: 10.1534/genetics.108.089599</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=18562667" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1534/genetics.108.089599" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=P.+Zhang&amp;author=W.+Li&amp;author=B.+Friebe&amp;author=B.%20S.+Gill&amp;publication_year=2008&amp;title=The%20origin%20of%20a%20%E2%80%9CZebra%E2%80%9D%20chromosome%20in%20wheat%20suggests%20nonhomologous%20recombination%20as%20a%20novel%20mechanism%20for%20new%20chromosome%20evolution%20and%20step%20changes%20in%20chromosome%20number&amp;journal=Genetics&amp;volume=179&amp;pages=1169" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B70" id="B70"></a> Zhang, T., Hu, Y., Jiang, W., Fang, L., Guan, X., Chen, J., et al. (2015). Sequencing of allotetraploid cotton (Gossypium hirsutum L. acc. TM-1) provides a resource for fiber improvement. <i>Nat. Biotechnol.</i> 33, 531&#x2013;537. doi: 10.1038/nbt.3207</p><p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&amp;Cmd=ShowDetailView&amp;TermToSearch=25893781" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1038/nbt.3207" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=T.+Zhang&amp;author=Y.+Hu&amp;author=W.+Jiang&amp;author=L.+Fang&amp;author=X.+Guan&amp;author=J.+Chen&amp;publication_year=2015&amp;title=Sequencing%20of%20allotetraploid%20cotton%20%28Gossypium%20hirsutum%20L.%20acc.%20TM-1%29%20provides%20a%20resource%20for%20fiber%20improvement&amp;journal=Nat.+Biotechnol.&amp;volume=33&amp;pages=531" target="_blank">Google Scholar</a></p></div></div><div class="thinLineM20"></div><div class="AbstractSummary"><p><span>Keywords:</span> speciation, chromosome evolution, cotton, structural rearrangements, <i>Gossypieae</i></p><p><span>Citation:</span> Udall JA, Long E, Ramaraj T, Conover JL, Yuan D, Grover CE, Gong L, Arick MA II, Masonbrink RE, Peterson DG and Wendel JF (2019) The Genome Sequence of <i>Gossypioides kirkii</i> Illustrates a Descending Dysploidy in Plants. <i>Front. Plant Sci.</i> 10:1541. doi: 10.3389/fpls.2019.01541</p><p id="timestamps"><span>Received:</span> 16 May 2019; <span>Accepted:</span> 05 November 2019;<br/><span>Published:</span> 27 November 2019.</p><div><p>Edited by:</p><a href="https://loop.frontiersin.org/people/55206">Martin A. Lysak</a>, Masaryk University, Czechia</div><div><p>Reviewed by:</p><a href="https://loop.frontiersin.org/people/424113">Robin Van Velzen</a>, Wageningen University &amp; Research, Netherlands<br/><a href="https://loop.frontiersin.org/people/489571">Tae-Soo Jang</a>, Chungnam National University, South Korea<br/><a href="https://loop.frontiersin.org/people/552239">Adam Lukaszewski</a>,University of California, Riverside,United States</div><p><span>Copyright</span> &#xa9; 2019 Udall, Long, Ramaraj, Conover, Yuan, Grover, Gong, Arick, Masonbrink, Peterson and Wendel. This is an open-access article distributed under the terms of the <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution License (CC BY)</a>. The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.</p><p><span>*Correspondence:</span> Joshua A. Udall, <a href="mailto:Joshua.udall@usda.gov">Joshua.udall@usda.gov</a>; Jonathan F. Wendel, <a href="mailto:jfw@iastate.edu">jfw@iastate.edu</a></p><div class="clear"></div></div>                
+                <div class="thin-line-dark"></div>
+                    <div class="social-feed"></div>
+                    <div class="container-bordered comment-list social-feed">
+                        <div class="container-comments">                           
+                        </div>
+
+                        <div class="loading-wrapper" style="padding-left: 49%">
+                            <img style="padding-top: 5%; padding-bottom: 5%;" src="/areas/research-topics/Content/Images/frontiers/common/icon/loading.gif" alt="Loading.." />
+                        </div>                       
+                    </div>
+
+            </div>
+        </div>
+    </div>
+</main>
+
+            <div class="clearfix visible-sm"></div>
+
+            
+    <div class="c col-xs-12 col-sm-12 col-lg-2 col-md-3 pull-right side-article related right-container-articles" style="clear: right !important">
+        
+        <article class="widget-listing commentary-article hidden">
+            <h5 class="like-h4">COMMENTARY</h5>
+        </article>
+
+        <article class="widget-listing original-article hidden">
+            <h5 class="like-h4">ORIGINAL ARTICLE</h5>
+        </article>
+
+        <article class="widget-listing people-also-looked-at side-article-related hidden">
+            <h5 class="like-h4">People also looked at</h5>
+        </article>
+            <div class="side-article-mrk clearfix hidden-md hidden-lg">
+                <p style="text-align: center;"><a href="https://spotlight.frontiersin.org/submit?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=rtlg_2020_gen"><img src="https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/article-marketing-message-79982763-254d-4bb6-96b8-126758de1166.png" alt="" /><br /></a></p>
+<p style="text-align: center;"><a href="https://spotlight.frontiersin.org/submit?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=rtlg_2020_gen"><strong>Suggest a Research Topic &gt;</strong></a></p>
+            </div>
+
+
+    </div>
+
+
+        </div>
+    </div>
+</div>
+<div id="divTemplates">
+    <div class="modal fade modal-container impact-modal-container" data-backdrop="static" id="impactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+</div>
+
+
+
+
+
+    <div class="modal fade modal-container supplementary-modal-container"
+     data-backdrop="static"
+     data-keyboard="false"
+     id="supplementaryFilesModal"
+     tabindex="-1" role="dialog"
+     aria-labelledby="mySupplementaryModalLabel"
+     aria-hidden="true">
+</div>
+
+
+
+
+<script type="text/template" id="template-supplementary-files-modal">
+    <div class="supplementary-material-wrapper modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <a class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a>
+                <h4>Supplementary Material</h4><br>
+                <p class="supplementary-empty-message">There is no supplementary material currently available for this article</p>
+                <div class="loading-wrapper"
+                     id="loader"
+                     style="display:none">
+                    Loading supplemental data...
+                    <img style="" src="/Areas/Articles/Images/Icon/loading.gif" alt="Loading.." />
+                </div>
+                <br />
+                <div class="table-responsive" id="localFiles">
+                </div>
+                <div id="figshare-widget-container">
+
+                </div>
+            </div>
+            <br />
+            <div class="modal-footer bottom-links">
+                <a class="btn btn-default" data-dismiss="modal">Close</a>
+            </div>
+        </div>
+
+    </div>
+</script>
+
+
+
+
+
+<script type="text/template" id="template-local-files-modal">
+    <table class="table table-striped supplementary-content" id="localFilesTable">
+        <thead>
+            <tr>
+                <th>&nbsp;</th>
+                <th>File Name</th>
+                <th>&nbsp;</th>
+            </tr>
+        </thead>
+        <tbody class="file-content">
+            <% _.each(supplimentalFileDetails.FileDetails, function(fileViewModel){   %>
+            <tr>
+                <th scope="row"><a data-test-id="<%= fileViewModel.TestId %>" href="<%= fileViewModel.FileDownloadUrl %>"><img class="img-figure" src="<%= fileViewModel.ImageUrl %>"></a></th>
+                <td>
+                    <a  href="<%= fileViewModel.FileDownloadUrl %>">
+                        <%= fileViewModel.FileName %>
+                    </a>
+                </td>
+                <td><a  href="<%= fileViewModel.FileDownloadUrl %>" class="btn-link"><i class="fa fa-download" aria-hidden="true"></i></a></td>
+            </tr>
+            <% }); %>
+        </tbody>
+    </table>
+</script>
+
+
+
+
+
+
+
+    <div class="modal fade modal-container notifyme-modal-container" data-backdrop="static" id="notifyModal" tabindex="-1" role="dialog" aria-labelledby="Notify on publication" aria-hidden="true">
+</div>
+
+
+
+<script type="text/template" id="template-notify-me-modal">
+    <div class="modal-f page-container simple-modal" role="dialog" aria-labelledby="NotfifyMeModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <form onsubmit="return false" id="modalnotifyme">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                            <h3>Notify me on publication</h3>
+                        </div>
+                        <div class="modal-body">
+
+                            <div class="form-group">
+                                <label>Please enter your email address:</label>
+                            <input type="email" required class="form-control" id="txt_notification_email_id" placeholder="Email">
+                            </div>
+
+                        <div class="g-recaptcha" id="recaptcha"></div><br />
+
+                        <p class="small" style="color: #555;">If you already have an account, please <a href="<%=login.FrontiersLoginUrl%>?returnUrl=<%=currentPage%>" class="text-blue">login</a>.</p>
+                        <p class="small" style="color: #555;">You don't have a Frontiers account ? You can <a href="<%=login.FrontiersRegistrationUrl%>" class="text-blue">register here</a>.</p>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" id="article_notify_non_registered_user" class="btn btn-default btn-progress" style="width: 118px; visibility:hidden;">Notify me</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+</script>
+
+<script type="text/template" id="template-notifyme-mailselection-modal">
+    <div class="modal-f page-container simple-modal" tabindex="-1" role="dialog" aria-labelledby="NotfifyMeModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h3>Select one of your emails</h3>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label>You have multiple emails registered with Frontiers:</label>
+                        </div>
+                                           
+                        <% _.each(userEmailList, function(user){   %>
+                        <input type="radio" value="<%=user%>" name="notify_Emailcollection"> <%=user%><br>
+                        <% }); %>
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="article_notify_loggedin_user" class="btn btn-default btn-progress" style="width: 118px;">Notify me</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</script>
+
+<script type="text/template" id="template_notifyme_error_modal">
+    <div class="modal-f page-container simple-modal" tabindex="-1" role="dialog" aria-labelledby="NotfifyMeModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h3>Notify me on publication</h3>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <p class="text-red"><strong><%=message%></strong></p>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" data-dismiss="modal" class="btn btn-default btn-progress" style="width: 118px;">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+
+
+
+
+
+
+
+    
+
+<script type="text/template" id="template-article-comments">
+
+    <div class="w100pc float_left CommentsHolder" id="div_article_comment_holder">
+        <% if(journalComments.Count !=0) { %>
+        <div id="divActivityBox" class="commentBox bubbleInfo " style="z-index: 300;">
+            <div class="float_left w100pc divActivityBox">
+                <p id="pAllUsers" class="pb0 float_left w581 pAllUsers">
+                    <a id="aAllUsers" href="javascript:void(0);" class="fontnormal trigger">
+                        <%- journalComments.Count %> Comments
+                    </a> <%= journalComments.CommentedUsers %>
+                </p>
+            </div>
+        </div>
+        <% } %>
+
+        <% _.each( journalComments.Comments, function( comment ){ %>
+
+        <div class="commentBox">
+
+            <% if (comment.IsDeleted) {%>
+
+            <div class="wrapper pt4 pb4">
+                <div class="imgHolder mr10"> <!--<a  class="fontnormal">--><img width="32" src="/Areas/Articles/Design/Images/default_profile_32.jpg" onerror="if (!this.src.endsWith('/Areas/Articles/Design/Images/default_profile_32.jpg')) this.src='/Areas/Articles/Design/Images/default_profile_32.jpg';" alt=""><!--</a>--></div>
+                <div class="content w555">
+                    <!-- <p class="mtm3" style='word-wrap:break-word'><a  class="fontnormal">User</a> </p>-->
+                    <p class="mtm3">User</p><ul class="toolbar mt4 disblk w100pc">
+                        <li class="pl0">
+                            <p class="date">Comment deleted on <%- GetFormattedCommentDeletedDate(comment.CommentedDate) %></p>
+                        </li>
+                        <li class="float_right pr0"></li>
+                    </ul>
+                </div>
+            </div>
+
+            <% } else {%>
+
+            <div class="wrapper pt4 pb4">
+                <div class="imgHolder mr10"> <a class="fontnormal" data-test-id="article_commenteduser_profileimage_link" href="<%- comment.CommentedUser.ProfileUrl %>"><img src="<%- comment.CommentedUser.ThumbnailUrl %>" onerror="if (!this.src.endsWith('/Areas/Articles/Images/Frontiers/Common/Profile/default_profile_32.jpg')) this.src='/Areas/Articles/Images/Frontiers/Common/Profile/default_profile_32.jpg';" alt=""></a></div>
+                <div class="content w555 comment-body">
+                    <p class="mtm3" style="word-wrap:break-word">
+                        <a class="fontnormal" data-test-id="article_commenteduser_profile_link" href="<%- comment.CommentedUser.ProfileUrl %>">
+                            <%- comment.CommentedUser.FullName %>
+                        </a>
+                        <span class="comment-text"><%= comment.Comment %></span>
+                    </p>
+                    <ul class="toolbar mt4 disblk w100pc">
+                        <li class="pl0"><p class="date"><%- GetFormattedCommentDate(comment.CommentedDate) %></p></li>
+                        <% if (comment.IsEditVisible)
+                        { %>
+                        <li>|</li>
+                        <li><a href="javascript:void(0);" data-test-id="article_comment_edit_link" class="fontnormal btn-edit-comment" id="btnEditcom" data-comment-id="<%- comment.CommentId %>">Edit</a></li>
+                        <% } %>
+                        <% if (comment.IsDeleteVisible)
+                        { %>
+                        <li>|</li>
+                        <li><a href="javascript:void(0);" data-test-id="article_comment_delete_link" class="fontnormal btn-delete-comment" id="btnDeletecom" data-comment-id="<%- comment.CommentId %>">Delete</a></li>
+                        <% }%>
+                        <li class="float_right pr0"></li>
+                    </ul>
+                </div>
+            </div>
+            <% }%>
+        </div>
+
+        <%  }); %>
+    </div>
+
+    <div id="div_add_comment" class="commentBox">
+        <div class="imgTn32"
+             style="display: none;">
+            <% if(journalComments.LoginUserId !=0) { %>
+            <img src="<%- journalComments.LoggedInUserInfo.ThumbnailUrl %>" alt=""
+                 onerror="if (!this.src.endsWith('/Areas/Articles/Images/Frontiers/Common/Profile/default_profile_32.jpg')) this.src='/Areas/Articles/Images/Frontiers/Common/Profile/default_profile_32.jpg';">
+            <% } else {%>
+            <img src="/Areas/Articles/Design/Images/default_profile_32.jpg" alt=""
+                 onerror="if (!this.src.endsWith('/Areas/Articles/Images/Frontiers/Common/Profile/default_profile_32.jpg')) this.src='/Areas/Articles/Images/Frontiers/Common/Profile/default_profile_32.jpg';">
+            <% }%>
+
+        </div>
+        <div class="wrapper pt4 pb4 wAuto">
+            <textarea onfocus="showUserImageOnAdd(this)"
+                      onblur="hideUserImage(this)"
+                      id="txt_comment"
+                      cols=""
+                      rows="1"
+                      style="overflow: hidden; word-wrap: break-word; resize: horizontal;"
+                      data-test-id="article_comment_add_textarea"
+                      class="write setfocus autoext w535 frUIResizeTextArea comment-textarea is-ui animated-resize grey_90">Write a comment...</textarea>
+        </div>
+        <div class="commentAddWrap">
+            <div>
+                <a class="addBtnComment" data-test-id="article_comment_add_button"  onclick="javascript:AddComments(this);" href="javascript:void(0);" id="btnAddcom"><span>Add</span></a>
+            </div>
+        </div>
+    </div>
+
+
+</script>
+
+<script type="text/template" id="template-article-comments-warning">
+    <div class="commentBox">
+        <div class="wrapper">
+            <p class="comment-warning">The comment section has been closed.</p>
+        </div>
+    </div>
+</script>
+
+<script type="text/template" id="template-article-edit-comments">
+
+
+    <div id="edit-comment-form" class="wrapper pt4 pb4 wAuto edit-comments">
+        <textarea class="txt-comment"
+                  onfocus="showUserImageOnEdit(this)"
+                  onblur="hideUserImage(this)"
+                  data-test-id="article_comment_edit_textarea"
+                  rows="3"><%= commentText %> </textarea>
+        <div>
+            <a class="btn btn-add-comment addBtnComment" data-test-id="article_comment_edit_button" data-comment-id="<%- commentId %>">Add</a>
+        </div>
+    </div>
+
+</script>
+
+
+
+</div>
+
+    </div>
+
+        <div data-navigation-plugin="footer"></div>
+        <script src="https://static.frontiersin.org/navigation-plugins/footer/js"></script>
+
+    <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+
+    <script src="/areas/articles/scripts/frontiers/common/frontiers.banners-1.0.js"></script>
+
+<script src="https://code.jquery.com/ui/1.10.2/jquery-ui.min.js"></script>
+<script src="https://crossmark.crossref.org/javascripts/v1.5/crossmark.min.js"></script>
+        <script type="text/javascript">
+
+            var $ = jQuery.noConflict(); //==>>ToDo: Avoid this..!!
+        </script>
+
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+    <script src="https://static.frontiersin.org/areas/articles/js/vendors?v=ygjL-ZM7HLAoWWjVcHqPBLlSjGooDB3IHD1kVXFmvmI1"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+ 
+<script src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
+    <script src="https://static.frontiersin.org/areas/articles/js/frontiers?v=4c3spupE-VFg577OoPHsSr4WEf6T5hs_2nCv5fPKVdA1"></script>
+
+
+    <script type="text/javascript">
+
+        var FRArticle = (function() {
+            return {
+                ArticleId: '472622',
+                DOI:'10.3389/fpls.2019.01541',
+                LoginUserId: '0',
+                DomainId: '1',
+                FieldId: '66',
+                SpecialityId: '1881',
+                IsPreview: FRSafe.boolean('False'),
+                IsViewImpactFromLoop: FRSafe.boolean('False'),
+                IsPublished: 'True',
+                FigShareApiUrl: 'https://api.figshare.com/v2/collections/search',
+                FigShareTimeOut: '3000'
+            };
+        })();
+
+        var FRSocial = (function() {
+            return {
+                itemId: 14,
+                itemTypeId: 1,
+                entityId: '472622',
+                ownerId: '739227',
+                sanPath: 'https://www.frontiersin.org/files/',
+                subItemId: '8',
+                loginUserId: '0',
+                ownerNWDBId: '28',
+                pageType: 1,
+                loopUrl:'https://loop.frontiersin.org'
+            };
+        })();
+    </script>
+
+    <script>
+        var FRAjaxSettings = (function () {
+
+            function urlLowercase() {
+                $.ajaxSetup({
+                    beforeSend: function (jqXHR, settings) {
+                        settings.url = settings.url.toLowerCase();
+                    }
+                });
+            }
+
+            return { urlLowercase: urlLowercase };
+        })();
+
+        FRAjaxSettings.urlLowercase();
+    </script>
+
+    <script src="https://static.frontiersin.org/areas/articles/js/schema?v=13am1aL5JpCh_IIFOIFRdlFySxVv16JLaVykDEyHCu81"></script>
+
+
+
+    
+    <script src="/areas/articles/js/app?v=UqywkE0AkDO6E3V0irIiBz8giFUKKVUi57o1J1h1S2g1"></script>
+
+    <script src="https://widgets.figshare.com/static/figshare.js"></script>
+
+
+    <script>
+        (function () {
+            console.log("Script executed after FigShareWidget");
+        })();
+    </script>
+
+</body>
+</html>

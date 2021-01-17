@@ -1,0 +1,1044 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="access" content="Yes">
+
+    
+
+    <meta name="twitter:site" content="@SpringerLink"/>
+
+    <meta name="twitter:card" content="summary"/>
+
+    <meta name="twitter:image:alt" content="Content cover image"/>
+
+    <meta name="journal_id" content="425"/>
+
+    <meta name="dc.title" content="De novo sequencing of the Lavandula angustifolia genome reveals highly duplicated and optimized features for essential oil production"/>
+
+    <meta name="dc.source" content="Planta 2018 249:1"/>
+
+    <meta name="dc.format" content="text/html"/>
+
+    <meta name="dc.publisher" content="Springer"/>
+
+    <meta name="dc.date" content="2018-09-29"/>
+
+    <meta name="dc.type" content="OriginalPaper"/>
+
+    <meta name="dc.language" content="En"/>
+
+    <meta name="dc.copyright" content="2018 The Author(s)"/>
+
+    <meta name="dc.rightsAgent" content="journalpermissions@springernature.com"/>
+
+    <meta name="dc.description" content="
+                  The first draft genome for a member of the genus
+                  Lavandula
+                  is described. This 870 Mbp genome&#160;assembly is composed of over 688 Mbp of non-gap sequences comprising 62,141 protein-coding genes.
+                 Lavenders (Lavandula: Lamiaceae) are economically important plants widely grown around the world for their essential oils (EOs), which contribute to the cosmetic, personal hygiene, and pharmaceutical industries. To better understand the genetic mechanisms involved in EO production, identify genes involved in important biological processes, and find genetic markers for plant breeding, we generated the first de novo draft genome assembly for L. angustifolia (Maillette). This high-quality draft reveals a moderately repeated (&gt;&#8201;48% repeated elements) 870 Mbp genome, composed of over 688 Mbp of non-gap sequences in 84,291 scaffolds with an N50 value of 96,735&#160;bp. The genome contains 62,141 protein-coding genes and 2003 RNA-coding genes, with a large proportion of genes showing duplications, possibly reflecting past genome polyploidization. The draft genome contains full-length coding sequences for all genes involved in both cytosolic and plastidial pathways of isoprenoid metabolism, and all terpene synthase genes previously described from lavenders. Of particular interest is the observation that the genome contains a high copy number (14 and 7, respectively) of DXS (1-deoxyxylulose-5-phosphate synthase) and HDR (4-hydroxy-3-methylbut-2-enyl diphosphate reductase) genes, encoding the two known regulatory steps in the plastidial isoprenoid biosynthetic pathway. The latter generates precursors for the production of monoterpenes, the most abundant essential oil constituents in lavender. Furthermore, the draft genome contains a variety of monoterpene synthase genes, underlining the production of several monoterpene essential oil constituents in lavender. Taken together, these findings indicate that the genome of L. angustifolia is highly duplicated and optimized for essential oil production."/>
+
+    <meta name="prism.issn" content="1432-2048"/>
+
+    <meta name="prism.publicationName" content="Planta"/>
+
+    <meta name="prism.publicationDate" content="2018-09-29"/>
+
+    <meta name="prism.volume" content="249"/>
+
+    <meta name="prism.number" content="1"/>
+
+    <meta name="prism.section" content="OriginalPaper"/>
+
+    <meta name="prism.startingPage" content="251"/>
+
+    <meta name="prism.endingPage" content="256"/>
+
+    <meta name="prism.copyright" content="2018 The Author(s)"/>
+
+    <meta name="prism.rightsAgent" content="journalpermissions@springernature.com"/>
+
+    <meta name="prism.url" content="https://link.springer.com/article/10.1007/s00425-018-3012-9"/>
+
+    <meta name="prism.doi" content="doi:10.1007/s00425-018-3012-9"/>
+
+    <meta name="citation_pdf_url" content="https://link.springer.com/content/pdf/10.1007/s00425-018-3012-9.pdf"/>
+
+    <meta name="citation_fulltext_html_url" content="https://link.springer.com/article/10.1007/s00425-018-3012-9"/>
+
+    <meta name="citation_journal_title" content="Planta"/>
+
+    <meta name="citation_journal_abbrev" content="Planta"/>
+
+    <meta name="citation_publisher" content="Springer Berlin Heidelberg"/>
+
+    <meta name="citation_issn" content="1432-2048"/>
+
+    <meta name="citation_title" content="De novo sequencing of the Lavandula angustifolia genome reveals highly duplicated and optimized features for essential oil production"/>
+
+    <meta name="citation_volume" content="249"/>
+
+    <meta name="citation_issue" content="1"/>
+
+    <meta name="citation_publication_date" content="2019/01"/>
+
+    <meta name="citation_online_date" content="2018/09/29"/>
+
+    <meta name="citation_firstpage" content="251"/>
+
+    <meta name="citation_lastpage" content="256"/>
+
+    <meta name="citation_article_type" content="Original Article"/>
+
+    <meta name="citation_fulltext_world_readable" content=""/>
+
+    <meta name="citation_language" content="en"/>
+
+    <meta name="dc.identifier" content="doi:10.1007/s00425-018-3012-9"/>
+
+    <meta name="DOI" content="10.1007/s00425-018-3012-9"/>
+
+    <meta name="citation_doi" content="10.1007/s00425-018-3012-9"/>
+
+    <meta name="description" content="
+                  The first draft genome for a member of the genus
+                  Lavandula
+                  is described. This 870 Mbp genome&#160;as"/>
+
+    <meta name="dc.creator" content="Radesh P. N. Malli"/>
+
+    <meta name="dc.creator" content="Ayelign M. Adal"/>
+
+    <meta name="dc.creator" content="Lukman S. Sarker"/>
+
+    <meta name="dc.creator" content="Ping Liang"/>
+
+    <meta name="dc.creator" content="Soheil S. Mahmoud"/>
+
+    <meta name="dc.subject" content="Plant Sciences"/>
+
+    <meta name="dc.subject" content="Agriculture"/>
+
+    <meta name="dc.subject" content="Ecology"/>
+
+    <meta name="dc.subject" content="Forestry"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Planta; citation_title=RNA-Seq in the discovery of a sparsely expressed scent-determining monoterpene synthase in lavender (Lavandula); citation_author=AM Adal, LS Sarker, RPN Malli; citation_publication_date=2018; citation_doi=10.1007/s00425-018-2935-5; citation_id=CR1"/>
+
+    <meta name="citation_reference" content="citation_journal_title=J Mol Biol; citation_title=Basic local alignment search tool; citation_author=SF Altschul, W Gish, W Miller; citation_volume=215; citation_publication_date=1990; citation_pages=403-410; citation_doi=10.1016/S0022-2836(05)80360-2; citation_id=CR2"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Plant Physiol; citation_title=MAKER-P: a Tool Kit for the rapid creation, management, and quality control of plant genome annotations; citation_author=MS Campbell, M Law, C Holt; citation_volume=164; citation_publication_date=2014; citation_pages=513-524; citation_doi=10.1104/pp.113.230144; citation_id=CR3"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Bioinformatics; citation_title=Informed and automated k-mer size selection for genome assembly; citation_author=R Chikhi, P Medvedev; citation_volume=30; citation_publication_date=2014; citation_pages=31-37; citation_doi=10.1093/bioinformatics/btt310; citation_id=CR4"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Plant Mol Biol; citation_title=Cloning, functional characterization and genomic organization of 1,8-cineole synthases from Lavandula; citation_author=ZA Demissie, MA Cella, LS Sarker; citation_volume=79; citation_publication_date=2012; citation_pages=393-411; citation_doi=10.1007/s11103-012-9920-3; citation_id=CR5"/>
+
+    <meta name="citation_reference" content="citation_journal_title=J Essent Oil Res; citation_title=An effcient method for the micropropagation of lavenders: regeneration of a unique mutant; citation_author=L Falk, K Biswas, A Boeckelmann; citation_volume=21; citation_publication_date=2009; citation_pages=225-228; citation_doi=10.1080/10412905.2009.9700154; citation_id=CR6"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Lect Notes Comput Sci; citation_title=Opera: reconstructing optimal genomic scaffolds with high-throughput paired-end sequences; citation_author=S Gao, N Nagarajan, WK Sung; citation_volume=6577 LNBI; citation_publication_date=2011; citation_pages=437-451; citation_doi=10.1007/978-3-642-20036-6_40; citation_id=CR7"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Genome Biol; citation_title=OPERA-LG: efficient and exact scaffolding of large, repeat-rich eukaryotic genomes with performance guarantees; citation_author=S Gao, D Bertrand, BKH Chia, N Nagarajan; citation_volume=17; citation_publication_date=2016; citation_pages=102; citation_doi=10.1186/s13059-016-0951-y; citation_id=CR8"/>
+
+    <meta name="citation_reference" content="citation_journal_title=BMC Bioinform; citation_title=MAKER2: an annotation pipeline and genome-database management tool for second-generation genome projects; citation_author=C Holt, M Yandell; citation_volume=12; citation_publication_date=2011; citation_pages=491; citation_doi=10.1186/1471-2105-12-491; citation_id=CR9"/>
+
+    <meta name="citation_reference" content="citation_journal_title=BMC Genom; citation_title=Comprehensive repeatome annotation reveals strong potential impact of repetitive elements on tomato ripening; citation_author=O Jouffroy, S Saha, L Mueller; citation_volume=17; citation_publication_date=2016; citation_pages=624; citation_doi=10.1186/s12864-016-2980-z; citation_id=CR10"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Tree Physiol; citation_title=Regulation of resin acid synthesis in Pinus densiflora by differential transcription of genes encoding multiple 1-deoxy-d-xylulose 5-phosphate synthase and 1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate reductase genes; citation_author=YB Kim, SM Kim, MK Kang; citation_volume=29; citation_publication_date=2009; citation_pages=737-749; citation_doi=10.1093/treephys/tpp002; citation_id=CR11"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Nucl Acids Res; citation_title=RNAmmer: consistent and rapid annotation of ribosomal RNA genes; citation_author=K Lagesen, P Hallin, EA R&#248;dland; citation_volume=35; citation_publication_date=2007; citation_pages=3100-3108; citation_doi=10.1093/nar/gkm160; citation_id=CR12"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Planta; citation_title=A genomics resource for investigating regulation of essential oil production in Lavandula angustifolia; citation_author=A Lane, A Boecklemann, GN Woronuk; citation_volume=231; citation_publication_date=2010; citation_pages=835-845; citation_doi=10.1007/s00425-009-1090-4; citation_id=CR13"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Bioinformatics; citation_title=Exploring single-sample snp and indel calling with whole-genome de novo assembly; citation_author=H Li; citation_volume=28; citation_publication_date=2012; citation_pages=1838-1844; citation_doi=10.1093/bioinformatics/bts280; citation_id=CR14"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Nucl Acids Res; citation_title=TRNAscan-SE: a program for improved detection of transfer RNA genes in genomic sequence; citation_author=TM Lowe, SR Eddy; citation_volume=25; citation_publication_date=1996; citation_pages=955-964; citation_doi=10.1093/nar/25.5.955; citation_id=CR15"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Gigascience; citation_title=Erratum to &#8220;SOAPdenovo2: an empirically improved memory-efficient short-read de novo assembler&#8221; [GigaScience, (2012), 1, 18]; citation_author=R Luo, B Liu, Y Xie; citation_volume=4; citation_publication_date=2015; citation_pages=1; citation_doi=10.1186/s13742-015-0069-2; citation_id=CR16"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Nature; citation_title=The tomato genome sequence provides insights into fleshy fruit evolution; citation_author=S Sato, S Tabata, H Hirakawa; citation_volume=485; citation_publication_date=2012; citation_pages=635-641; citation_doi=10.1038/nature11119; citation_id=CR17"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Science (80-); citation_title=The B73 maize genome: complexity, diversity, and dynamics; citation_author=PS Schnable, D Ware, RS Fulton; citation_volume=326; citation_publication_date=2009; citation_pages=1112-1115; citation_doi=10.1126/science.1178534; citation_id=CR18"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Bioinformatics; citation_title=BUSCO: assessing genome assembly and annotation completeness with single-copy orthologs; citation_author=FA Sim&#227;o, RM Waterhouse, P Ioannidis; citation_volume=31; citation_publication_date=2015; citation_pages=3210-3212; citation_doi=10.1093/bioinformatics/btv351; citation_id=CR19"/>
+
+    <meta name="citation_reference" content="Smit A, Hubley R, Green P (2013) RepeatMasker Open-4.0. 2013-2015. 
+                    http://www.repeatmasker.org
+                    
+                  
+                        "/>
+
+    <meta name="citation_reference" content="citation_journal_title=Nucl Acids Res; citation_title=AUGUSTUS: a b initio prediction of alternative transcripts; citation_author=M Stanke, O Keller, I Gunduz; citation_volume=34; citation_publication_date=2006; citation_pages=W435-W439; citation_doi=10.1093/nar/gkl200; citation_id=CR21"/>
+
+    <meta name="citation_reference" content="citation_title=The genus 
+                           ; citation_inbook_title=SciTech book news; citation_publication_date=2004; citation_pages=442; citation_id=CR22; citation_author=T Upson; citation_author=S Andrews; citation_publisher=Book News Inc."/>
+
+    <meta name="citation_reference" content="citation_journal_title=Euphytica; citation_title=Generation and characterisation of colchicine-induced autotetraploid Lavandula angustifolia; citation_author=NAR Urwin, J Horsnell, T Moon; citation_volume=156; citation_publication_date=2007; citation_pages=257-266; citation_doi=10.1007/s10681-007-9373-y; citation_id=CR23"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Mol Plant; citation_title=Draft genome sequence of Mentha longifolia and development of resources for mint cultivar improvement; citation_author=KJ Vining, SR Johnson, A Ahkami; citation_volume=10; citation_publication_date=2017; citation_pages=323-339; citation_doi=10.1016/j.molp.2016.10.018; citation_id=CR24"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Nucl Acids Res; citation_title=OrthoVenn: a web server for genome wide comparison and annotation of orthologous clusters across multiple species; citation_author=Y Wang, D Coleman-Derr, G Chen, YQ Gu; citation_volume=43; citation_publication_date=2015; citation_pages=W78-W84; citation_doi=10.1093/nar/gkv487; citation_id=CR25"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Genetics; citation_title=Novel loci control variation in reproductive timing in Arabidopsis thaliana in natural environments; citation_author=C Weinig, MC Ungerer, LA Dorn; citation_volume=162; citation_publication_date=2002; citation_pages=1875-1884; citation_doi=10.1038/35048692; citation_id=CR26"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Nucl Acids Res; citation_title=Real-time PCR-based method for the estimation of genome sizes; citation_author=J Wilhelm; citation_volume=31; citation_publication_date=2003; citation_pages=56; citation_doi=10.1093/nar/gng056; citation_id=CR27"/>
+
+    <meta name="citation_reference" content="citation_journal_title=Ann Bot; citation_title=First nuclear DNA amounts in more than 300 angiosperms; citation_author=BJM Zonneveld, IJ Leitch, MD Bennett; citation_volume=96; citation_publication_date=2005; citation_pages=229-244; citation_doi=10.1093/aob/mci170; citation_id=CR28"/>
+
+    <meta name="citation_author" content="Radesh P. N. Malli"/>
+
+    <meta name="citation_author_institution" content="Department of Biological Sciences, Brock University, St. Catharines, Canada"/>
+
+    <meta name="citation_author" content="Ayelign M. Adal"/>
+
+    <meta name="citation_author_institution" content="Department of Biology, University of British Columbia, Kelowna, Canada"/>
+
+    <meta name="citation_author" content="Lukman S. Sarker"/>
+
+    <meta name="citation_author_institution" content="Department of Biology, University of British Columbia, Kelowna, Canada"/>
+
+    <meta name="citation_author" content="Ping Liang"/>
+
+    <meta name="citation_author_email" content="pliang@brocku.ca"/>
+
+    <meta name="citation_author_institution" content="Department of Biological Sciences, Brock University, St. Catharines, Canada"/>
+
+    <meta name="citation_author" content="Soheil S. Mahmoud"/>
+
+    <meta name="citation_author_email" content="soheil.mahmoud@ubc.ca"/>
+
+    <meta name="citation_author_institution" content="Department of Biology, University of British Columbia, Kelowna, Canada"/>
+
+    <meta name="citation_springer_api_url" content="http://api.springer.com/metadata/pam?q=doi:10.1007/s00425-018-3012-9&amp;api_key="/>
+
+    <meta name="format-detection" content="telephone=no"/>
+
+    <meta name="citation_cover_date" content="2019/01/01"/>
+
+
+    
+        <meta property="og:url" content="https://link.springer.com/article/10.1007/s00425-018-3012-9"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:site_name" content="Planta"/>
+        <meta property="og:title" content="De novo sequencing of the Lavandula angustifolia genome reveals highly duplicated and optimized features for essential oil production"/>
+        <meta property="og:description" content="The first draft genome for a member of the genus Lavandula is described. This 870 Mbp genome&amp;nbsp;assembly is composed of over 688 Mbp of non-gap sequences comprising 62,141 protein-coding genes. Lavenders (Lavandula: Lamiaceae) are economically important plants widely grown around the world for their essential oils (EOs), which contribute to the cosmetic, personal hygiene, and pharmaceutical industries. To better understand the genetic mechanisms involved in EO production, identify genes involved in important biological processes, and find genetic markers for plant breeding, we generated the first de novo draft genome assembly for L. angustifolia (Maillette). This high-quality draft reveals a moderately repeated (&amp;gt; 48% repeated elements) 870 Mbp genome, composed of over 688 Mbp of non-gap sequences in 84,291 scaffolds with an N50 value of 96,735&amp;nbsp;bp. The genome contains 62,141 protein-coding genes and 2003 RNA-coding genes, with a large proportion of genes showing duplications, possibly reflecting past genome polyploidization. The draft genome contains full-length coding sequences for all genes involved in both cytosolic and plastidial pathways of isoprenoid metabolism, and all terpene synthase genes previously described from lavenders. Of particular interest is the observation that the genome contains a high copy number (14 and 7, respectively) of DXS (1-deoxyxylulose-5-phosphate synthase) and HDR (4-hydroxy-3-methylbut-2-enyl diphosphate reductase) genes, encoding the two known regulatory steps in the plastidial isoprenoid biosynthetic pathway. The latter generates precursors for the production of monoterpenes, the most abundant essential oil constituents in lavender. Furthermore, the draft genome contains a variety of monoterpene synthase genes, underlining the production of several monoterpene essential oil constituents in lavender. Taken together, these findings indicate that the genome of L. angustifolia is highly duplicated and optimized for essential oil production."/>
+        <meta property="og:image" content="https://media.springernature.com/w200/springer-static/cover/journal/425.jpg"/>
+    
+
+    <title>De novo sequencing of the Lavandula angustifolia genome reveals highly duplicated and optimized features for essential oil production | SpringerLink</title>
+
+    <link rel="shortcut icon" href=/oscar-static/images/favicons/springerlink/favicon-eb9f5576a3.ico />
+<link rel="icon" sizes="16x16 32x32 48x48" href=/oscar-static/images/favicons/springerlink/favicon-eb9f5576a3.ico />
+<link rel="icon" sizes="16x16" type="image/png" href=/oscar-static/images/favicons/springerlink/favicon-16x16-8bd8c1c945.png />
+<link rel="icon" sizes="32x32" type="image/png" href=/oscar-static/images/favicons/springerlink/favicon-32x32-61a52d80ab.png />
+<link rel="icon" sizes="48x48" type="image/png" href=/oscar-static/images/favicons/springerlink/favicon-48x48-0ec46b6b10.png />
+<link rel="apple-touch-icon" href=/oscar-static/images/favicons/springerlink/app-icon-iphone@3x-f259d46347.png />
+<link rel="apple-touch-icon" sizes="72x72" href=/oscar-static/images/favicons/springerlink/ic_launcher_hdpi-f77cda7f65.png />
+<link rel="apple-touch-icon" sizes="76x76" href=/oscar-static/images/favicons/springerlink/app-icon-ipad-c3fd26520d.png />
+<link rel="apple-touch-icon" sizes="114x114" href=/oscar-static/images/favicons/springerlink/app-icon-114x114-3d7d4cf9f3.png />
+<link rel="apple-touch-icon" sizes="120x120" href=/oscar-static/images/favicons/springerlink/app-icon-iphone@2x-67b35150b3.png />
+<link rel="apple-touch-icon" sizes="144x144" href=/oscar-static/images/favicons/springerlink/ic_launcher_xxhdpi-986442de7b.png />
+<link rel="apple-touch-icon" sizes="152x152" href=/oscar-static/images/favicons/springerlink/app-icon-ipad@2x-677ba24d04.png />
+<link rel="apple-touch-icon" sizes="180x180" href=/oscar-static/images/favicons/springerlink/app-icon-iphone@3x-f259d46347.png />
+
+
+    
+    <script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+    
+    <style>button{line-height:inherit}html,label{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif}html{height:100%;overflow-y:scroll;box-sizing:border-box;color:#333;line-height:1.61803;-webkit-font-smoothing:subpixel-antialiased;font-size:62.5%}*{box-sizing:inherit}body{max-width:100%;min-height:100%;background-color:#fcfcfc;background-position:initial initial;background-repeat:initial initial;margin:0}button,div,form,input{margin:0;padding:0}body,p{padding:0}a{color:#004b83;text-decoration:underline}h1,h2{margin-top:0}h1{font-size:3.2rem}h2{font-size:2.8rem}h1,h2{font-style:normal;margin-bottom:1em;line-height:1.4;font-family:Georgia,Palatino,serif;font-weight:400}p{margin:0}ul{margin-top:0}p{margin-bottom:1.5em}.c-ad{display:none;padding:8px;text-align:center}@media only screen and (min-width:768px){.js .c-ad{display:block}}.c-ad--728x90{background-color:#ccc}.c-ad--728x90 .c-ad__inner{min-height:calc(1.5em + 94px)}.c-ad--300x250{background-color:#f2f2f2}.c-ad--300x250 .c-ad__inner{min-height:calc(1.5em + 254px)}.c-ad__label,.c-header{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif}.c-ad__label{font-size:1.4rem;font-weight:400;margin-bottom:4px;color:#333;line-height:1.5}.c-header{font-size:1.6rem}.c-header{background-color:#fff;padding:16px 0;border-bottom:4px solid #00285a}.c-header__container{margin:0 auto;max-width:1280px;padding:0 16px;display:-webkit-flex;-webkit-box-align:center;-webkit-align-items:center;-webkit-box-pack:justify;-webkit-justify-content:space-between}.c-header__brand{margin-right:32px}.c-header__brand a{text-decoration:none}.c-header__menu,.c-header__navigation{display:-webkit-flex}.c-header__navigation{-webkit-box-align:center;-webkit-align-items:center}.c-header__menu{list-style:none;margin:0;padding:0}.c-header__item{color:inherit;margin-right:24px}.c-header__item:last-child{margin-right:0}.c-header__link{text-decoration:none;color:inherit}.js .c-popup{position:absolute;font-family:Georgia,Palatino,serif;z-index:100;padding:16px;border:1px solid rgba(151,191,216,.298039);-webkit-box-shadow:hsla(0,0%,50.2%,.0980392) 0 0 5px 0;box-shadow:0 0 5px 0 hsla(0,0%,50.2%,.0980392);width:auto;border-top-left-radius:2px;border-top-right-radius:2px;border-bottom-right-radius:2px;border-bottom-left-radius:2px;background-color:#fff}.js .c-popup__close{position:absolute;display:block;top:16px;right:16px;height:16px;background-image:url("data:image/svg+xml,%0A%3Csvg height='16' viewBox='0 0 16 16' width='16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='m2.29679575 12.2772478c-.39658757.3965876-.39438847 1.0328109-.00062148 1.4265779.39651227.3965123 1.03246768.3934888 1.42657791-.0006214l4.27724782-4.27724787 4.2772478 4.27724787c.3965876.3965875 1.0328109.3943884 1.4265779.0006214.3965123-.3965122.3934888-1.0324677-.0006214-1.4265779l-4.27724787-4.2772478 4.27724787-4.27724782c.3965875-.39658757.3943884-1.03281091.0006214-1.42657791-.3965122-.39651226-1.0324677-.39348875-1.4265779.00062148l-4.2772478 4.27724782-4.27724782-4.27724782c-.39658757-.39658757-1.03281091-.39438847-1.42657791-.00062148-.39651226.39651227-.39348875 1.03246768.00062148 1.42657791l4.27724782 4.27724782z' fill='%23666' fill-rule='evenodd'/%3E%3C/svg%3E");border:0;padding-right:16px;background-position:initial initial;background-repeat:no-repeat}.js .c-popup__close-text{border:0;clip:rect(0 0 0 0);height:1px;margin:-100%;overflow:hidden;padding:0;width:1px;position:absolute!important}.js .c-popup__arrow{content:"";position:absolute;width:20px;height:20px;background-color:#fff;border-top:1px solid rgba(151,191,216,.298039);border-left:1px solid rgba(151,191,216,.298039)}body{font-size:1.8em}.c-article-header{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;margin-bottom:40px}.c-article-identifiers{list-style:none;font-size:1.6rem;line-height:1.3;display:-webkit-flex;-webkit-flex-wrap:wrap;color:#6f6f6f;padding:0;margin:0 0 8px}.c-article-identifiers__item{border-right:1px solid #6f6f6f;margin-right:8px;padding-right:8px;list-style:none}.c-article-identifiers__item a{color:#069;text-decoration:none}.c-article-identifiers__item:last-child{margin-right:0;padding-right:0;border-right-width:0}@media only screen and (min-width:768px){.c-author-popup .c-article-identifiers{-webkit-box-pack:end;-webkit-justify-content:flex-end}}.c-article-title{font-size:2.4rem;line-height:1.25;margin-bottom:16px}@media only screen and (min-width:768px){.c-article-title{font-size:3rem;line-height:1.2}}.c-author-list{font-size:1.6rem;list-style:none;margin-bottom:0;padding:0;width:100%}.c-author-list__item{margin-left:0}.c-author-list__item,.c-author-list li{display:inline;padding-right:0}.c-author-list__item svg{margin-left:4px}.c-article-info-details{font-size:1.6rem;margin-bottom:8px;margin-top:16px}.c-article-info-details__cite-as{border-left:1px solid #6f6f6f;margin-left:8px;padding-left:8px}.c-article-metrics-bar{display:-webkit-flex;-webkit-flex-wrap:wrap;line-height:1.3;font-size:1.6rem}.c-article-metrics-bar__wrapper{margin:0 0 16px}.c-article-metrics-bar__item{-webkit-box-align:baseline;-webkit-align-items:baseline;border-right:1px solid #6f6f6f;margin-right:8px}.c-article-metrics-bar__item:last-child{border-right-width:0}.c-article-metrics-bar__count{font-weight:700;margin:0}.c-article-metrics-bar__label{color:#626262;font-weight:400;font-style:normal;margin:0 10px 0 5px}.c-article-metrics-bar__details{margin:0}.c-article-main-column{margin-right:8.6%;width:60.2%}@media only screen and (max-width:1023px){.c-article-main-column{margin-right:0;width:100%}}.c-author-popup__subheading{font-weight:700;float:left;padding-right:8px;margin-bottom:8px;margin-top:4px}.c-author-popup .c-article-button{font-size:1.6rem;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif}.c-author-popup__author-list{list-style:none;font-size:1.6rem;padding:0;margin-top:0;clear:both;margin-bottom:16px}.c-author-popup__author-list>li{margin-bottom:8px}.c-author-popup__link{font-weight:700;vertical-align:baseline;color:#069;text-decoration:none}.c-author-popup .c-article-button{color:#fff;background-image:linear-gradient(#4d78af,#3365a0);border:1px solid transparent;border-top-left-radius:2px;border-top-right-radius:2px;border-bottom-right-radius:2px;border-bottom-left-radius:2px;text-decoration:none;display:block;width:100%;padding-top:8px;padding-bottom:8px;text-align:center;background-position:initial initial;background-repeat:initial initial}.c-article-section{clear:both}.c-article-section__title{border-bottom:2px solid #d5d5d5;font-size:2rem;line-height:1.3;padding-bottom:8px}@media only screen and (min-width:768px){.c-article-section__title{font-size:2.4rem;line-height:1.24}}.c-article-section__content{margin-bottom:40px}@media only screen and (max-width:1023px){.c-article-section__content{padding-left:0}}.c-article-authors-search{margin-top:0;margin-bottom:24px}.c-article-authors-search__item,.c-article-authors-search__title{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif}.c-article-authors-search__title{color:#626262;font-weight:700;margin:0;padding:0;font-size:1.7rem}.c-article-authors-search__item{font-size:1.6rem}.c-article-authors-search__text{margin:0}@media only screen and (min-width:768px){.c-author-popup .c-article-authors-search__list{display:-webkit-flex;-webkit-flex-wrap:wrap;-webkit-box-pack:justify;-webkit-justify-content:space-between;-webkit-box-align:center;-webkit-align-items:center}.c-author-popup .c-article-authors-search__list-item--left{-webkit-flex-basis:40%}}.c-author-popup .c-article-authors-search__list-item--right{margin-top:16px}@media only screen and (min-width:768px){.c-author-popup .c-article-authors-search__list-item--right{text-align:right;-webkit-box-flex:1;-webkit-flex:1 1 0px;margin-top:0}}.c-article-share-box__no-sharelink-info{font-size:1.3rem;font-weight:700;padding-top:4px;margin-bottom:24px}.c-article-share-box__only-read-input{border:1px solid #d5d5d5;display:inline-block;margin-bottom:8px;font-size:1.4rem;font-weight:700;padding:8px 10px}.c-article-share-box__button--link-like{background-color:transparent;border:0;color:#069;cursor:pointer;font-size:1.4rem;margin-bottom:8px;margin-left:10px}.c-article-body{clear:both}.c-article-body p{word-wrap:break-word}.c-pdf-download{display:-webkit-flex;margin-bottom:24px;max-height:48px}@media only screen and (min-width:540px){.c-pdf-download{max-height:none}}@media only screen and (min-width:1024px){.c-pdf-download{max-height:48px}}@media only screen and (min-width:1024px){.c-pdf-button__container{display:none}}.c-context-bar{position:relative;width:100%;-webkit-box-shadow:rgba(51,51,51,.2) 0 0 10px 0;box-shadow:0 0 10px 0 rgba(51,51,51,.2)}.c-context-bar__title{display:none}.c-article-extras{float:left;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;width:31.2%}@media only screen and (max-width:1023px){.c-article-extras{display:none}}.c-pdf-download__link{display:-webkit-flex;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;-webkit-box-pack:justify;-webkit-justify-content:space-between;color:#fff;background-image:linear-gradient(#4d78af,#3365a0);border:1px solid transparent;border-top-left-radius:2px;border-top-right-radius:2px;border-bottom-right-radius:2px;border-bottom-left-radius:2px;text-decoration:none;font-size:1.6rem;line-height:1.3;-webkit-box-flex:1;-webkit-flex:1 1 0px;padding:13px 24px;background-position:initial initial;background-repeat:initial initial}.c-reading-companion{clear:both}.c-reading-companion__sticky{max-width:582px}.c-reading-companion__scroll-pane{overflow-x:hidden;overflow-y:auto;margin:0 0 16px}.c-reading-companion__tabs{font-size:1.6rem;list-style:none;display:-webkit-flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-flow:row nowrap;margin:0 0 8px;padding:0}.c-reading-companion__tabs>li{-webkit-box-flex:1;-webkit-flex-grow:1}.c-reading-companion__tab{color:#069;border:1px solid #d5d5d5;border-left-width:0;background-color:#eee;padding:8px 8px 8px 15px;text-align:left;font-size:1.6rem;width:100%}.c-reading-companion__tabs li:first-child .c-reading-companion__tab{border-left-width:1px}.c-reading-companion__tab--active{color:#222;background-color:#fcfcfc;border-bottom:1px solid #fcfcfc;font-weight:700}.c-reading-companion__references-list,.c-reading-companion__sections-list{list-style:none;padding:0}.c-reading-companion__references-list--numeric{list-style:decimal inside}.c-reading-companion__sections-list{margin:0 0 8px;min-height:50px}.c-reading-companion__section-item{font-size:1.6rem;padding:0}.c-reading-companion__section-item a{display:block;padding:8px 0 8px 16px;line-height:1em;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.c-reading-companion__reference-item{padding:8px 8px 8px 0;border-top:1px solid #d5d5d5;font-size:1.6rem}.c-reading-companion__reference-item:first-child{border-top-style:none}.c-reading-companion__reference-citation{display:inline}.c-reading-companion__reference-links{list-style:none;text-align:right;margin:8px 0 0;padding:0;font-weight:700;font-size:1.3rem}.c-reading-companion__reference-links>a{display:inline-block;padding-left:8px}.c-reading-companion__reference-links>a:first-child{display:inline-block;padding-left:0}.c-reading-companion__panel{display:none;border-top:1px solid #d5d5d5;margin-top:-9px;padding-top:9px}.c-reading-companion__panel--active{display:block}.c-popup-search{position:relative;z-index:10;background-color:#eee;padding:16px 0;-webkit-box-shadow:rgba(0,0,0,.207843) 0 3px 3px -3px;box-shadow:0 3px 3px -3px rgba(0,0,0,.207843)}@media only screen and (min-width:1024px){.js .c-popup-search{position:absolute;width:100%;top:100%}.c-popup-search__container{margin:auto;max-width:70%}}.app-search__content{display:-webkit-flex}.app-search__label{font-size:1.4rem;display:inline-block;color:#666;margin-bottom:8px}.app-search__input{font-size:1.4rem;border:1px solid #b3b3b3;border-top-left-radius:3px;border-bottom-left-radius:3px;vertical-align:middle;line-height:1.2;-webkit-box-shadow:rgba(0,0,0,.207843) 0 1px 3px 0 inset;box-shadow:inset 0 1px 3px 0 rgba(0,0,0,.207843);padding:.75em 1em;width:100%;-webkit-box-flex:0;-webkit-flex:0 1 auto}.app-search__button{-webkit-box-align:center;-webkit-align-items:center;cursor:pointer;display:-webkit-inline-flex;margin:0;position:relative;text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;font-size:16px;line-height:1.3;-webkit-box-pack:center;-webkit-justify-content:center;padding:8px;transition:.25s ease,color .25s ease,border-color .25s ease;-webkit-transition:.25s ease,color .25s ease,border-color .25s ease;color:#fff;background-color:#33629d;background-image:linear-gradient(#4d76a9,#33629d);border:1px solid rgba(0,59,132,.498039);width:50px;text-align:center;border-top-left-radius:0;border-bottom-left-radius:0}.u-clearfix:after,.u-clearfix:before{content:"";display:table}.u-clearfix:after{clear:both}.u-display-block{display:block}.u-display-flex{display:-webkit-flex;width:100%}.u-align-items-center{-webkit-box-align:center;-webkit-align-items:center}.u-flex-static{-webkit-box-flex:0;-webkit-flex:0 1 auto;-webkit-flex:0 0 auto}.u-display-none{display:none}.js .u-js-hide{display:none;visibility:hidden}@media print{.u-hide-print{display:none}}.u-icon{fill:currentColor;-webkit-transform:translate(0);display:inline-block;vertical-align:text-top}.u-list-reset{list-style:none;margin:0;padding:0}.u-button-reset{background-color:transparent;border:0;padding:0}.u-h3{font-size:1.8rem}.u-container{margin:0 auto;max-width:1280px;padding:0 16px}.u-position-relative{position:relative}.u-mt-32{margin-top:32px}.u-mr-24{margin-right:24px}.u-mb-16{margin-bottom:16px}.u-mb-24{margin-bottom:24px}.u-mb-32{margin-bottom:32px}.u-ml-8{margin-left:8px}.u-hide{display:none;visibility:hidden}.u-visually-hidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-100%;overflow:hidden;padding:0;width:1px;position:absolute!important}.hide,.js .js-hide{display:none;visibility:hidden}.c-article-section__content p{line-height:1.8}.c-reading-companion__section-item a{text-decoration:none}.c-reading-companion__sections-list{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif}.c-article-main-column .c-pdf-button__container .c-pdf-download{display:none}@media only screen and (max-width:1023px){.c-article-main-column .c-pdf-button__container .c-pdf-download{display:block}}</style>
+
+
+
+    <link rel="stylesheet" href=/oscar-static/app-springerlink/css/core-article-f182b8db52.css media="screen">
+    <link rel="stylesheet" data-inline-css-source="critical-css" id="js-mustard" href="/oscar-static/app-springerlink/css/enhanced-article-ccb94c9114.css" media="print" onload="this.media='only screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0), (-ms-high-contrast: none), only all and (min--moz-device-pixel-ratio:0) and (min-resolution: 3e1dpcm)';this.onload=null">
+    
+
+    
+    <script type="text/javascript">
+        window.dataLayer = [{"Country":"CN","doi":"10.1007-s00425-018-3012-9","Journal Title":"Planta","Journal Id":425,"Keywords":"\n                Lavandula angustifolia\n              , Genome, Transcriptome, Illumina sequencing, Isoprenoid, Essential oil","kwrd":["\n________________Lavandula_angustifolia\n______________","Genome","Transcriptome","Illumina_sequencing","Isoprenoid","Essential_oil"],"Labs":"Y","ksg":"Krux.segments","kuid":"Krux.uid","Has Body":"Y","Features":["doNotAutoAssociate","doNotAutoAssociate","doNotAutoAssociate","doNotAutoAssociate","doNotAutoAssociate","doNotAutoAssociate","doNotAutoAssociate","doNotAutoAssociate","doNotAutoAssociate"],"Open Access":"Y","hasAccess":"Y","bypassPaywall":"N","user":{"license":{"businessPartnerID":["3000202650","3001279426","3000563902","3000942087","3002235069","3002917720","3000092839","3001132979","3991446084","3000520700","3000591267","1600131676","3000940553","3000137164","3000163406"],"businessPartnerIDString":"3000202650|3001279426|3000563902|3000942087|3002235069|3002917720|3000092839|3001132979|3991446084|3000520700|3000591267|1600131676|3000940553|3000137164|3000163406"}},"Access Type":"open","Bpids":"3000202650, 3001279426, 3000563902, 3000942087, 3002235069, 3002917720, 3000092839, 3001132979, 3991446084, 3000520700, 3000591267, 1600131676, 3000940553, 3000137164, 3000163406","Bpnames":"China Institute of Science \u0026 Technology acting through National Science and, SpringerProtocols CAS Consortium, 4563 SpringerLink China CAS eBook Consortium - 2006-9 copyright, 11724 SpringerLink China CAS eBook Consortium 2013-2015 copyright year, SpringerLink China CAS eBook Consortium - STM Collection, Springer CAS ejournal  Consortium, Institute of Genetics and Developmental Biology, CAS, 13677 SpringerProtocols CAS Consortium, China CAS eJournal Consortium 2014-2016 14742, 2011 China CAS Trial Consortium, 9040 SpringerLink CAS eJournal Consortium, Genetics and Developmental Biology, 11704 SpringerMaterials China CAS Consortium, 6588 SpringerLink China CAS eBook Consortium 2010-2012 copyrig, 5857 SpringerLink CAS  eJournal Consortium","BPID":["3000202650","3001279426","3000563902","3000942087","3002235069","3002917720","3000092839","3001132979","3991446084","3000520700","3000591267","1600131676","3000940553","3000137164","3000163406"],"VG Wort Identifier":"vgzm.415900-10.1007-s00425-018-3012-9","Full HTML":"Y","Subject Codes":["SCL","SCL24000","SCL11006","SCL19007","SCL22008"],"pmc":["L","L24000","L11006","L19007","L22008"],"session":{"authentication":{"loginStatus":"N"},"attributes":{"edition":"academic"}},"content":{"serial":{"eissn":"1432-2048","pissn":"0032-0935"},"type":"Article","category":{"pmc":{"primarySubject":"Life Sciences","primarySubjectCode":"L","secondarySubjects":{"1":"Plant Sciences","2":"Agriculture","3":"Ecology","4":"Forestry"},"secondarySubjectCodes":{"1":"L24000","2":"L11006","3":"L19007","4":"L22008"}},"sucode":"SC3"},"attributes":{"deliveryPlatform":"oscar"}},"Event Category":"Article","GA Key":"UA-26408784-1","DOI":"10.1007/s00425-018-3012-9","Page":"article","page":{"attributes":{"environment":"live"}}}];
+    </script>
+
+
+    
+    
+        
+            <script src=/oscar-static/js/jquery-220afd743d.js></script>
+        
+    
+
+    <script data-test="onetrust-control">
+        
+            (function(w,d,t) {
+                var assetPath = '/oscar-static/js/cookie-consent-es5-bundle-0ea0aa3601.js';
+                function cc() {
+                    var h = w.location.hostname,
+                        e = d.createElement(t),
+                        s = d.getElementsByTagName(t)[0];
+
+                    if (h === "link.springer.com") {
+                        e.src = "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js";
+                        e.setAttribute("data-domain-script", "4f53bc14-4ee3-45bd-9935-e3d2b6b2a543");
+                    } else {
+                        e.src = assetPath;
+                        e.setAttribute("data-consent", h);
+                    }
+                    s.parentNode.insertBefore(e, s);
+                }
+                w.google_tag_manager ? cc() : window.addEventListener("gtm_loaded", cc);
+            })(window,document,"script");
+        
+    </script>
+    <script>
+        function OptanonWrapper() {
+            var elementInside = function(candidate, element) {
+                if (candidate === element) {
+                    return true;
+                } else if (candidate.nodeName.toLowerCase() === 'body') {
+                    return false;
+                } else {
+                    return elementInside(candidate.parentNode, element);
+                }
+            };
+
+            var disclaimer = document.querySelector('.c-disclaimer[aria-hidden="false"]');
+            window.dataLayer.push({event:'OneTrustGroupsUpdated'});
+            if (disclaimer) {
+                if (!elementInside(document.activeElement, disclaimer)) {
+                    disclaimer.querySelector('button').focus();
+                }
+            } else {
+                document.activeElement.blur();
+            }
+        }
+    </script>
+
+    <script>
+    window.config = window.config || {};
+    window.config.mustardcut = false;
+
+    
+    if (window.matchMedia && window.matchMedia('only screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0), (-ms-high-contrast: none), only all and (min--moz-device-pixel-ratio:0) and (min-resolution: 3e1dpcm)').matches) {
+        window.config.mustardcut = true;
+    }
+</script>
+
+    <!--Polyfills CustomEvent constructor in IE. Allows us to use events to manage race conditions in client side js-->
+<script>
+    (function () {
+        if ( typeof window.CustomEvent === "function" ) return false;
+        function CustomEvent ( event, params ) {
+            params = params || { bubbles: false, cancelable: false, detail: null };
+            var evt = document.createEvent( 'CustomEvent' );
+            evt.initCustomEvent( event, params.bubbles, params.cancelable, params.detail );
+            return evt;
+        }
+
+        CustomEvent.prototype = window.Event.prototype;
+
+        window.CustomEvent = CustomEvent;
+    })();
+</script>
+
+    
+    
+        
+            <!-- Google Tag Manager -->
+            <script data-test="gtm-head">
+                if (window.config.mustardcut) {
+                    (function (w, d, s, l, i) {
+                        w[l] = w[l] || [];
+                        w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+                        var f = d.getElementsByTagName(s)[0],
+                                j = d.createElement(s),
+                                dl = l != 'dataLayer' ? '&l=' + l : '';
+                        j.async = true;
+                        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                        
+                        j.addEventListener('load', function() {
+                            var _ge = new CustomEvent('gtm_loaded', { bubbles: true });
+                            d.dispatchEvent(_ge);
+                        });
+                        f.parentNode.insertBefore(j, f);
+                    })(window, document, 'script', 'dataLayer', 'GTM-WCF9Z9');
+                }
+            </script>
+            <!-- End Google Tag Manager -->
+        
+    
+
+
+    <script class="js-entry">
+    if (window.config.mustardcut) {
+        (function(w, d) {
+            
+            
+            
+                window.Component = {};
+            
+
+            var currentScript = d.currentScript || d.head.querySelector('script.js-entry');
+
+            
+            function catchNoModuleSupport() {
+                var scriptEl = d.createElement('script');
+                return (!('noModule' in scriptEl) && 'onbeforeload' in scriptEl)
+            }
+
+            var headScripts = [
+                {'src': '/oscar-static/js/polyfill-es5-bundle-974eb189f7.js', 'async': false},
+                {'src': '/oscar-static/js/airbrake-es5-bundle-90aefb6023.js', 'async': false},
+            ];
+
+            var bodyScripts = [
+                {'src': '/oscar-static/js/app-es5-bundle-05e3d0b21b.js', 'async': false, 'module': false},
+                {'src': '/oscar-static/js/app-es6-bundle-8d5be091e0.js', 'async': false, 'module': true}
+                
+                
+                    , {'src': '/oscar-static/js/global-article-es5-bundle-20559bc353.js', 'async': false, 'module': false},
+                    {'src': '/oscar-static/js/global-article-es6-bundle-644b2aa152.js', 'async': false, 'module': true}
+                
+            ];
+
+            function createScript(script) {
+                var scriptEl = d.createElement('script');
+                scriptEl.src = script.src;
+                scriptEl.async = script.async;
+                if (script.module === true) {
+                    scriptEl.type = "module";
+                    if (catchNoModuleSupport()) {
+                        scriptEl.src = '';
+                    }
+                } else if (script.module === false) {
+                    scriptEl.setAttribute('nomodule', true)
+                }
+                if (script.charset) {
+                    scriptEl.setAttribute('charset', script.charset);
+                }
+
+                return scriptEl;
+            }
+
+            for (var i = 0; i < headScripts.length; ++i) {
+                var scriptEl = createScript(headScripts[i]);
+                currentScript.parentNode.insertBefore(scriptEl, currentScript.nextSibling);
+            }
+
+            d.addEventListener('DOMContentLoaded', function() {
+                for (var i = 0; i < bodyScripts.length; ++i) {
+                    var scriptEl = createScript(bodyScripts[i]);
+                    d.body.appendChild(scriptEl);
+                }
+            });
+
+            // Webfont repeat view
+            var config = w.config;
+            if (config && config.publisherBrand && sessionStorage.fontsLoaded === 'true') {
+                d.documentElement.className += ' webfonts-loaded';
+            }
+        })(window, document);
+    }
+</script>
+
+    
+    
+    <link rel="canonical" href="https://link.springer.com/article/10.1007/s00425-018-3012-9"/>
+    
+
+</head>
+<body class="shared-article-renderer">
+    
+    
+    
+        
+            <!-- Google Tag Manager (noscript) -->
+            <noscript data-test="gtm-body">
+                <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WCF9Z9"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+            </noscript>
+            <!-- End Google Tag Manager (noscript) -->
+        
+    
+
+
+    <div class="u-vh-full">
+        
+    <div class="u-hide u-show-following-ad"></div>
+    <aside class="c-ad c-ad--728x90" data-test="springer-doubleclick-ad">
+        <div class="c-ad__inner">
+            <p class="c-ad__label">Advertisement</p>
+                <div id="div-gpt-ad-LB1" data-gpt-unitpath="/270604982/springerlink/425/article" data-gpt-sizes="728x90" data-gpt-targeting="pos=LB1;articleid=3012;"></div>
+        </div>
+    </aside>
+
+<div class="u-position-relative">
+    <header class="c-header u-mb-24" data-test="publisher-header">
+        <div class="c-header__container">
+            <div class="c-header__brand">
+                
+    <a id="logo" class="u-display-block" href="/" title="Go to homepage" data-test="springerlink-logo">
+        <picture>
+            <source type="image/svg+xml" srcset=/oscar-static/images/springerlink/svg/springerlink-253e23a83d.svg>
+            <img src=/oscar-static/images/springerlink/png/springerlink-1db8a5b8b1.png alt="SpringerLink" width="148" height="30" data-test="header-academic">
+        </picture>
+        
+        
+    </a>
+
+
+            </div>
+            <div class="c-header__navigation">
+                
+    
+        <button type="button"
+                class="c-header__link u-button-reset u-mr-24"
+                data-expander
+                data-expander-target="#popup-search"
+                data-expander-autofocus="firstTabbable"
+                data-test="header-search-button">
+            <span class="u-display-flex u-align-items-center">
+                Search
+                <svg class="u-icon u-flex-static u-ml-8" width="22" height="22" aria-hidden="true" focusable="false">
+                    <use xlink:href="#global-icon-search"></use>
+                </svg>
+            </span>
+        </button>
+        <nav>
+            <ul class="c-header__menu">
+                
+                <li class="c-header__item">
+                    <a
+                        data-test="login-link"
+                        class="c-header__link"
+                        href="//link.springer.com/signup-login?previousUrl=https%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2Fs00425-018-3012-9"
+                        data-track="click"
+                        data-track-category="header"
+                        data-track-action="login header"
+                        data-track-label="link">Log in</a>
+                </li>
+                
+
+                
+            </ul>
+        </nav>
+    
+
+    
+
+
+
+            </div>
+        </div>
+    </header>
+
+    
+        <div id="popup-search" class="c-popup-search u-mb-16 js-header-search u-js-hide">
+            <div class="c-popup-search__content">
+                <div class="u-container">
+                    <div class="c-popup-search__container" data-test="springerlink-popup-search">
+                        <div class="app-search">
+    <form role="search" method="GET" action="/search" >
+        <label for="search" class="app-search__label">Search SpringerLink</label>
+        <div class="app-search__content">
+            <input id="search" class="app-search__input" data-search-input autocomplete="off" role="textbox" name="query" type="text" value="">
+            <button class="app-search__button" type="submit">
+                <span class="u-visually-hidden">Search</span>
+                <svg class="u-icon" width="14" height="14" aria-hidden="true" focusable="false">
+                    <use xlink:href="#global-icon-search"></use>
+                </svg>
+            </button>
+            
+                <input type="hidden" name="searchType" value="publisherSearch">
+            
+            
+        </div>
+    </form>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+</div>
+
+        
+
+    <div class="u-container u-mt-32 u-mb-32 u-clearfix" id="main-content" data-component="article-container">
+        <main class="c-article-main-column u-float-left js-main-column" data-track-component="article body">
+            
+                
+                <div class="c-context-bar u-hide" data-component="context-bar" aria-hidden="true">
+                    <div class="c-context-bar__container u-container">
+                        <div class="c-context-bar__title">
+                            De novo sequencing of the <i>Lavandula angustifolia</i> genome reveals highly duplicated and optimized features for essential oil production
+                        </div>
+                        
+    <div class="c-pdf-download u-clear-both">
+        <a href="https://link.springer.com/content/pdf/10.1007/s00425-018-3012-9.pdf" class="c-pdf-download__link" data-article-pdf="true" data-readcube-pdf-url="true" data-test="pdf-link" data-draft-ignore="true" data-track="click" data-track-action="download pdf" data-track-label="button" data-track-external  download>
+            
+                <span>Download PDF</span>
+                <svg aria-hidden="true" focusable="false" width="16" height="16" class="u-icon"><use xlink:href="#global-icon-download"/></svg>
+            
+        </a>
+    </div>
+
+                    </div>
+                </div>
+            
+
+            <div class="c-pdf-button__container">
+                
+    <div class="c-pdf-download u-clear-both">
+        <a href="https://link.springer.com/content/pdf/10.1007/s00425-018-3012-9.pdf" class="c-pdf-download__link" data-article-pdf="true" data-readcube-pdf-url="true" data-test="pdf-link" data-draft-ignore="true" data-track="click" data-track-action="download pdf" data-track-label="button" data-track-external  download>
+            
+                <span>Download PDF</span>
+                <svg aria-hidden="true" focusable="false" width="16" height="16" class="u-icon"><use xlink:href="#global-icon-download"/></svg>
+            
+        </a>
+    </div>
+
+            </div>
+
+            <article itemscope itemtype="http://schema.org/ScholarlyArticle" lang="en">
+                <div class="c-article-header">
+                    <header>
+                        <ul class="c-article-identifiers" data-test="article-identifier">
+                            
+    
+        <li class="c-article-identifiers__item" data-test="article-category">Original Article</li>
+    
+    
+        <li class="c-article-identifiers__item">
+            <span class="c-article-identifiers__open" data-test="open-access">Open Access</span>
+        </li>
+    
+    
+
+                            <li class="c-article-identifiers__item"><a href="#article-info" data-track="click" data-track-action="publication date" data-track-label="link">Published: <time datetime="2018-09-29" itemprop="datePublished">29 September 2018</time></a></li>
+                        </ul>
+
+                        
+                        <h1 class="c-article-title" data-test="article-title" data-article-title="" itemprop="name headline">De novo sequencing of the <i>Lavandula angustifolia</i> genome reveals highly duplicated and optimized features for essential oil production</h1>
+                        <ul class="c-author-list js-etal-collapsed" data-etal="25" data-etal-small="3" data-test="authors-list" data-component-authors-activator="authors-list"><li class="c-author-list__item" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span itemprop="name"><a data-test="author-name" data-track="click" data-track-action="open author" data-track-label="link" href="#auth-Radesh_P__N_-Malli" data-author-popup="auth-Radesh_P__N_-Malli">Radesh P. N. Malli</a></span><sup class="u-js-hide"><a href="#Aff1">1</a><span itemprop="affiliation" itemscope="itemscope" itemtype="http://schema.org/Organization" class="u-visually-hidden"><meta itemprop="name" content="Department of Biological Sciences, Brock University" /><meta itemprop="address" content="0000 0004 1936 9318, grid.411793.9, Department of Biological Sciences, Brock University, St. Catharines, ON, Canada" /></span></sup>, </li><li class="c-author-list__item" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span itemprop="name"><a data-test="author-name" data-track="click" data-track-action="open author" data-track-label="link" href="#auth-Ayelign_M_-Adal" data-author-popup="auth-Ayelign_M_-Adal">Ayelign M. Adal</a></span><sup class="u-js-hide"><a href="#Aff2">2</a><span itemprop="affiliation" itemscope="itemscope" itemtype="http://schema.org/Organization" class="u-visually-hidden"><meta itemprop="name" content="University of British Columbia" /><meta itemprop="address" content="0000 0001 2288 9830, grid.17091.3e, Department of Biology, University of British Columbia, Kelowna, BC, Canada" /></span></sup>, </li><li class="c-author-list__item" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span itemprop="name"><a data-test="author-name" data-track="click" data-track-action="open author" data-track-label="link" href="#auth-Lukman_S_-Sarker" data-author-popup="auth-Lukman_S_-Sarker">Lukman S. Sarker</a></span><sup class="u-js-hide"><a href="#Aff2">2</a><span itemprop="affiliation" itemscope="itemscope" itemtype="http://schema.org/Organization" class="u-visually-hidden"><meta itemprop="name" content="University of British Columbia" /><meta itemprop="address" content="0000 0001 2288 9830, grid.17091.3e, Department of Biology, University of British Columbia, Kelowna, BC, Canada" /></span></sup>, </li><li class="c-author-list__item" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span itemprop="name"><a data-test="author-name" data-track="click" data-track-action="open author" data-track-label="link" href="#auth-Ping-Liang" data-author-popup="auth-Ping-Liang" data-corresp-id="c1">Ping Liang<svg width="16" height="16" class="u-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#global-icon-email"></use></svg></a></span><sup class="u-js-hide"><a href="#Aff1">1</a><span itemprop="affiliation" itemscope="itemscope" itemtype="http://schema.org/Organization" class="u-visually-hidden"><meta itemprop="name" content="Department of Biological Sciences, Brock University" /><meta itemprop="address" content="0000 0004 1936 9318, grid.411793.9, Department of Biological Sciences, Brock University, St. Catharines, ON, Canada" /></span></sup> &amp; </li><li class="c-author-list__item" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span itemprop="name"><a data-test="author-name" data-track="click" data-track-action="open author" data-track-label="link" href="#auth-Soheil_S_-Mahmoud" data-author-popup="auth-Soheil_S_-Mahmoud" data-corresp-id="c2">Soheil S. Mahmoud<svg width="16" height="16" class="u-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#global-icon-email"></use></svg></a></span><sup class="u-js-hide"><a href="#Aff2">2</a><span itemprop="affiliation" itemscope="itemscope" itemtype="http://schema.org/Organization" class="u-visually-hidden"><meta itemprop="name" content="University of British Columbia" /><meta itemprop="address" content="0000 0001 2288 9830, grid.17091.3e, Department of Biology, University of British Columbia, Kelowna, BC, Canada" /></span></sup> </li></ul>
+                        <p class="c-article-info-details" data-container-section="info">
+                            
+    <a data-test="journal-link" href="/journal/425"><i data-test="journal-title">Planta</i></a>
+
+                            <b data-test="journal-volume"><span class="u-visually-hidden">volume</span> 249</b>, <span class="u-visually-hidden">pages</span><span itemprop="pageStart">251</span>–<span itemprop="pageEnd">256</span>(<span data-test="article-publication-year">2019</span>)<a href="#citeas" class="c-article-info-details__cite-as u-hide-print" data-track="click" data-track-action="cite this article" data-track-label="link">Cite this article</a>
+                        </p>
+                        
+    
+
+                        <div data-test="article-metrics">
+                            <div id="altmetric-container">
+    <div class="c-article-metrics-bar__wrapper u-clear-both">
+        <ul class="c-article-metrics-bar u-list-reset">
+            
+                <li class=" c-article-metrics-bar__item">
+                    <p class="c-article-metrics-bar__count">3601 <span class="c-article-metrics-bar__label">Accesses</span></p>
+                </li>
+            
+            
+            
+                
+                    <li class="c-article-metrics-bar__item">
+                        <p class="c-article-metrics-bar__count">56 <span class="c-article-metrics-bar__label">Altmetric</span></p>
+                    </li>
+                
+            
+            <li class="c-article-metrics-bar__item">
+                <p class="c-article-metrics-bar__details"><a href="/article/10.1007%2Fs00425-018-3012-9/metrics" data-track="click" data-track-action="view metrics" data-track-label="link" rel="nofollow">Metrics <span class="u-visually-hidden">details</span></a></p>
+            </li>
+        </ul>
+    </div>
+</div>
+
+                        </div>
+                            
+    
+
+    
+
+                    </header>
+                </div>
+
+                <div data-article-body="true" data-track-component="article body" class="c-article-body">
+                    <section aria-labelledby="Abs1" data-title="Abstract" lang="en"><div class="c-article-section" id="Abs1-section"><h2 class="c-article-section__title js-section-title js-c-reading-companion-sections-item" id="Abs1">Abstract</h2><div class="c-article-section__content" id="Abs1-content"><h3 class="c-article__sub-heading" data-test="abstract-sub-heading">Main conclusion</h3><p>
+                  <b>The first draft genome for a member of the genus</b>
+                  <b><i>Lavandula</i></b>
+                  <b>is described. This 870 Mbp genome assembly is composed of over 688 Mbp of non-gap sequences comprising 62,141 protein-coding genes.</b>
+                </p><p>Lavenders (<i>Lavandula</i>: <i>Lamiaceae</i>) are economically important plants widely grown around the world for their essential oils (EOs), which contribute to the cosmetic, personal hygiene, and pharmaceutical industries. To better understand the genetic mechanisms involved in EO production, identify genes involved in important biological processes, and find genetic markers for plant breeding, we generated the first de novo draft genome assembly for <i>L. angustifolia</i> (Maillette). This high-quality draft reveals a moderately repeated (&gt; 48% repeated elements) 870 Mbp genome, composed of over 688 Mbp of non-gap sequences in 84,291 scaffolds with an N50 value of 96,735 bp. The genome contains 62,141 protein-coding genes and 2003 RNA-coding genes, with a large proportion of genes showing duplications, possibly reflecting past genome polyploidization. The draft genome contains full-length coding sequences for all genes involved in both cytosolic and plastidial pathways of isoprenoid metabolism, and all terpene synthase genes previously described from lavenders. Of particular interest is the observation that the genome contains a high copy number (14 and 7, respectively) of DXS (1-deoxyxylulose-5-phosphate synthase) and HDR (4-hydroxy-3-methylbut-2-enyl diphosphate reductase) genes, encoding the two known regulatory steps in the plastidial isoprenoid biosynthetic pathway. The latter generates precursors for the production of monoterpenes, the most abundant essential oil constituents in lavender. Furthermore, the draft genome contains a variety of monoterpene synthase genes, underlining the production of several monoterpene essential oil constituents in lavender. Taken together, these findings indicate that the genome of <i>L. angustifolia</i> is highly duplicated and optimized for essential oil production.</p></div></div></section>
+                    
+    
+
+
+                    
+
+                    
+
+                    
+                        
+                            <section aria-labelledby="Sec1" data-title="Introduction"><div class="c-article-section" id="Sec1-section"><h2 class="c-article-section__title js-section-title js-c-reading-companion-sections-item" id="Sec1">Introduction</h2><div class="c-article-section__content" id="Sec1-content"><p>The genus <i>Lavandula</i> (lavenders) is composed of over 32 morphologically distinct species. Among these, a few species including <i>L. angustifolia</i> (English Lavender, or Lavender), <i>L. latifolia</i> (spike lavender), and their hybrid <i>L. x intermedia</i> (Lavandin) are widely grown around the globe for their essential oils (EOs) (Upson et al. <a data-track="click" data-track-action="reference anchor" data-track-label="link" data-test="citation-ref" aria-label="Reference 2004" title="Upson T, Andrews S, Royal Botanic Gardens K (2004) The genus Lavandula. SciTech book news, vol 28. Book News Inc., Portland, p 442" href="/article/10.1007/s00425-018-3012-9#ref-CR22" id="ref-link-section-d59655e609">2004</a>), which are frequently used in perfumes, pharmaceutical preparations, cosmetic products, and antiseptics, among others. With an estimated production rate of over 1500 metric tons/annum (mostly extracted from <i>L. angustifolia</i> and <i>L. x intermedia</i>), these oils significantly contribute to the multibillion-dollar flavor and fragrance industry worldwide.</p><p>Although lavender has been developed as a model system for studying EO production (Lane et al. <a data-track="click" data-track-action="reference anchor" data-track-label="link" data-test="citation-ref" aria-label="Reference 2010" title="Lane A, Boecklemann A, Woronuk GN et al (2010) A genomics resource for investigating regulation of essential oil production in Lavandula angustifolia. Planta 231:835–845. &#xA;                    https://doi.org/10.1007/s00425-009-1090-4&#xA;                    &#xA;                  &#xA;                        " href="/article/10.1007/s00425-018-3012-9#ref-CR13" id="ref-link-section-d59655e622">2010</a>) and numerous genes that contribute to EO production in this plant have been reported (Falk et al. <a data-track="click" data-track-action="reference anchor" data-track-label="link" data-test="citation-ref" aria-label="Reference 2009" title="Falk L, Biswas K, Boeckelmann A et al (2009) An effcient method for the micropropagation of lavenders: regeneration of a unique mutant. J Essent Oil Res 21:225–228. &#xA;                    https://doi.org/10.1080/10412905.2009.9700154&#xA;                    &#xA;                  &#xA;                        " href="/article/10.1007/s00425-018-3012-9#ref-CR6" id="ref-link-section-d59655e625">2009</a>; Lane et al. <a data-track="click" data-track-action="reference anchor" data-track-label="link" data-test="citation-ref" aria-label="Reference 2010" title="Lane A, Boecklemann A, Woronuk GN et al (2010) A genomics resource for investigating regulation of essential oil production in Lavandula angustifolia. Planta 231:835–845. &#xA;                    https://doi.org/10.1007/s00425-009-1090-4&#xA;                    &#xA;                  &#xA;                        " href="/article/10.1007/s00425-018-3012-9#ref-CR13" id="ref-link-section-d59655e628">2010</a>; Demissie et al. <a data-track="click" data-track-action="reference anchor" data-track-label="link" data-test="citation-ref" aria-label="Reference 2012" title="Demissie ZA, Cella MA, Sarker LS et al (2012) Cloning, functional characterization and genomic organization of 1,8-cineole synthases from Lavandula. Plant Mol Biol 79:393–411. &#xA;                    https://doi.org/10.1007/s11103-012-9920-3&#xA;                    &#xA;                  &#xA;                        " href="/article/10.1007/s00425-018-3012-9#ref-CR5" id="ref-link-section-d59655e631">2012</a>), many questions regarding the regulation of EO metabolism and storage in these plants remain unanswered.</p><p>The quality of lavender EOs greatly depends on the characteristic scent of the oil, which is determined by certain monoterpenes. For example, the monoterpene camphor contributes an off-odor, and its presence in the oil lowers quality and, hence, market value. Conversely, high levels of linalool and linalyl acetate are desired in lavender oils. Because many high-yield lavender species/cultivars (e.g., <i>L. x intermedia</i>) produce high quantities of undesired constituents (such as camphor), there is great interest in enhancing oil yield and composition in lavenders. These objectives are readily achievable through targeted breeding and/or plant biotechnology. However, an adequate understanding of molecular elements that control the production of EO constituents in lavenders must first be developed.</p><p>To better understand the genetic makeup and key pathways that control EO production, secretion, and storage, a first reconstruction of a full-length draft genome assembly has been generated using short-reads from the Illumina platform. This resource can lead to better understanding of the genome architecture, gene clusters, and repeat content and ideally also in the generation of genetic markers for plant breeding programs.</p><h3 class="c-article__sub-heading" id="Sec2">De novo genome assembly of lavender</h3><p>The genome of <i>L. angustifolia</i> (Maillette) was sequenced to a total of ~ 100 × coverage using the Illumina HiSeq 2000 platform combining the use of pair-end and mate pair libraries, all sequenced at 100 bp × 2 setting. The best de novo genome assembly was obtained using FERMI (Li <a data-track="click" data-track-action="reference anchor" data-track-label="link" data-test="citation-ref" aria-label="Reference 2012" title="Li H (2012) Exploring single-sample snp and indel calling with whole-genome de novo assembly. Bioinformatics 28:1838–1844. &#xA;                    https://doi.org/10.1093/bioinformatics/bts280&#xA;                    &#xA;                  &#xA;                        " href="/article/10.1007/s00425-018-3012-9#ref-CR14" id="ref-link-section-d59655e654">2012</a>) for contig assembly and OPERA (Gao et al. <a data-track="click" data-track-action="reference anchor" data-track-label="link" data-test="citation-ref" aria-label="Reference 2011" title="Gao S, Nagarajan N, Sung WK (2011) Opera: reconstructing optimal genomic scaffolds with high-throughput paired-end sequences. Lect Notes Comput Sci 6577 LNBI:437–451. &#xA;                    https://doi.org/10.1007/978-3-642-20036-6_40&#xA;                    &#xA;                  &#xA;                           (including Subser Lect Notes Artif Intell Lect Notes Bioinformatics)&#xA;                        " href="/article/10.1007/s00425-018-3012-9#ref-CR7" id="ref-link-section-d59655e657">2011</a>, <a data-track="click" data-track-action="reference anchor" data-track-label="link" data-test="citation-ref" aria-label="Reference 2016" title="Gao S, Bertrand D, Chia BKH, Nagarajan N (2016) OPERA-LG: efficient and exact scaffolding of large, repeat-rich eukaryotic genomes with performance guarantees. Genome Biol 17:102. &#xA;                    https://doi.org/10.1186/s13059-016-0951-y&#xA;                    &#xA;                  &#xA;                        " href="/article/10.1007/s00425-018-3012-9#ref-CR8" id="ref-link-section-d59655e660">2016</a>) for scaffolding. The initial genome assembly was further improved using in-house transcriptome-based program and GapCloser (Luo et al. <a data-track="click" data-track-action="reference anchor" data-track-label="link" data-test="citation-ref" aria-label="Reference 2015" title="Luo R, Liu B, Xie Y et al (2015) Erratum to “SOAPdenovo2: an empirically improved memory-efficient short-read de novo assembler” [GigaScience, (2012), 1, 18]. Gigascience 4:1. &#xA;                    https://doi.org/10.1186/s13742-015-0069-2&#xA;                    &#xA;                  &#xA;                        " href="/article/10.1007/s00425-018-3012-9#ref-CR16" id="ref-link-section-d59655e663">2015</a>). The final draft assembly contains 869,786 077 bp in 84,291 scaffolds with N50 being 96, 735 bp, and the total non-gap sequences (sequences with no gaps) being 688,040,719 bp or 79.1% of the final draft genome. The repeat sequences annotated by RepeatMasker (Smit et al. <a data-track="click" data-track-action="reference anchor" data-track-label="link" data-test="citation-ref" aria-label="Reference 2013" title="Smit A, Hubley R, Green P (2013) RepeatMasker Open-4.0. 2013-2015. &#xA;                    http://www.repeatmasker.org&#xA;                    &#xA;                  &#xA;                        " href="/article/10.1007/s00425-018-3012-9#ref-CR20" id="ref-link-section-d59655e667">2013</a>), RepeatModeler (<a href="http://www.repeatmasker.org/RepeatModeler/">http://www.repeatmasker.org/RepeatModeler/</a>), and RepeatProteinMasker (<a href="http://repeatmasker.org">http://repeatmasker.org</a>) constitute 42.8% of the lavender draft genome. The genome has a 38.1% GC content. (Table <a data-track="click" data-track-label="link" data-track-action="table anchor" href="/article/10.1007/s00425-018-3012-9#Tab1">1</a> and Fig. <a data-track="click" data-track-label="link" data-track-action="figure anchor" href="/article/10.1007/s00425-018-3012-9#Fig1">1</a>a).</p><div class="c-article-table" data-test="inline-table" data-container-section="table" id="table-1"><figure><figcaption class="c-article-table__figcaption"><b id="Tab1" data-test="table-caption">Table 1 Summary statistics for the lavender draft genome assembly</b></figcaption><div class="u-text-right u-hide-print"><a class="c-article__pill-button" data-test="table-link" data-track="click" data-track-action="view table" data-track-label="button" rel="nofollow" href="/article/10.1007/s00425-018-3012-9/tables/1"><span>Full size table</span><svg width="16" height="16" class="u-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#global-icon-chevron-right"></use></svg></a></div></figure></div><div class="c-article-section__figure js-c-reading-companion-figures-item" data-test="figure" data-container-section="figure" id="figure-1" data-title="Fig. 1"><figure><figcaption><b id="Fig1" class="c-article-section__figure-caption" data-test="figure-caption-text">Fig. 1</b></figcaption><div class="c-article-section__figure-content"><div class="c-article-section__figure-item"><a class="c-article-section__figure-link" data-test="img-link" data-track="click" data-track-label="image" data-track-action="view figure" href="/article/10.1007/s00425-018-3012-9/figures/1" rel="nofollow"><picture><source type="image/webp" srcset="//media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs00425-018-3012-9/MediaObjects/425_2018_3012_Fig1_HTML.png?as=webp"></source><img aria-describedby="figure-1-desc" src="//media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs00425-018-3012-9/MediaObjects/425_2018_3012_Fig1_HTML.png" alt="figure1" loading="lazy" width="685" height="895" /></picture></a></div><div class="c-article-section__figure-description" data-test="bottom-caption" id="figure-1-desc"><p>Summary features of the <i>Lavandula angustifolia</i> (Lavender) draft genome. <b>a</b> Pie chart showing the genome composition. Categories denoted by “*” exclude overlapping repeats and gaps. <b>b</b> Estimation of genome completeness of the lavender draft genome and comparison with other four published plant genomes using Benchmark Universal Single-Copy Orthologues (BUSCO)</p></div></div><div class="u-text-right u-hide-print"><a class="c-article__pill-button" data-test="article-link" data-track="click" data-track-label="button" data-track-action="view figure" href="/article/10.1007/s00425-018-3012-9/figures/1" data-track-dest="link:Figure1 Full size image" rel="nofollow"><span>Full size image</span><svg width="16" height="16" class="u-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#global-icon-chevron-right"></use></svg></a></div></figure></div><p>Regarding the genome size of lavender, there have been two controversial reports, one suggesting a very large size of 5574 (Zonneveld et al. <a data-track="click" data-track-action="reference anchor" data-track-label="link" data-test="citation-ref" aria-label="Reference 2005" title="Zonneveld BJM, Leitch IJ, Bennett MD (2005) First nuclear DNA amounts in more than 300 angiosperms. Ann Bot 96:229–244. &#xA;                    https://doi.org/10.1093/aob/mci170&#xA;                    &#xA;                  &#xA;                        " href="/article/10.1007/s00425-018-3012-9#ref-CR28" id="ref-link-section-d59655e952">2005</a>) and another reporting genome size ranging from 772 Mbp to 880 Mbp (Urwin et al. <a data-track="click" data-track-action="reference anchor" data-track-label="link" data-test="citation-ref" aria-label="Reference 2007" title="Urwin NAR, Horsnell J, Moon T (2007) Generation and characterisation of colchicine-induced autotetraploid Lavandula angustifolia. Euphytica 156:257–266. &#xA;                    https://doi.org/10.1007/s10681-007-9373-y&#xA;                    &#xA;                  &#xA;                        " href="/article/10.1007/s00425-018-3012-9#ref-CR23" id="ref-link-section-d59655e955">2007</a>). The genome size of our draft genome assembly of ~ 870 Mbp is sufficiently close to our own experimentally determined genome size of approximately 850 Mbp using a qPCR-based method (Wilhelm <a data-track="click" data-track-action="reference anchor" data-track-label="link" data-test="citation-ref" aria-label="Reference 2003" title="Wilhelm J (2003) Real-time PCR-based method for the estimation of genome sizes. Nucl Acids Res 31:56. &#xA;                    https://doi.org/10.1093/nar/gng056&#xA;                    &#xA;                  &#xA;                        " href="/article/10.1007/s00425-018-3012-9#ref-CR27" id="ref-link-section-d59655e958">2003</a>) (data not shown). A similar size prediction was also obtained based on the raw Illumina reads using Kmergenie (Chikhi and Medvedev <a data-track="click" data-track-action="reference anchor" data-track-label="link" data-test="citation-ref" aria-label="Reference 2014" title="Chikhi R, Medvedev P (2014) Informed and automated k-mer size selection for genome assembly. Bioinformatics 30:31–37. &#xA;                    https://doi.org/10.1093/bioinformatics/btt310&#xA;                    &#xA;                  &#xA;                        " href="/article/10.1007/s00425-018-3012-9#ref-CR4" id="ref-link-section-d59655e961">2014</a>) (data not shown). Therefore, our data resolve the dispute on lavender genome size by supporting an estimated genome size around 850 Mbp.</p><p>The genome completeness determined by Benchmarking Universal Single-Copy Orthologues (BUSCO) (Simão et al. <a data-track="click" data-track-action="reference anchor" data-track-label="link" data-test="citation-ref" aria-label="Reference 2015" title="Simão FA, Waterhouse RM, Ioannidis P et al (2015) BUSCO: assessing genome assembly and annotation completeness with single-copy orthologs. Bioinformatics 31:3210–3212. &#xA;                    https://doi.org/10.1093/bioinformatics/btv351&#xA;                    &#xA;                  &#xA;                        " href="/article/10.1007/s00425-018-3012-9#ref-CR19" id="ref-link-section-d59655e967">2015</a>) shows a high-quality draft genome, covering 1292 (89.7%) complete single-copy orthologues (SCO) of the 1440 plant-specific sequences (Embryophyta data set from BUSCO data sets) (Fig. <a data-track="click" data-track-label="link" data-track-action="figure anchor" href="/article/10.1007/s00425-018-3012-9#Fig1">1</a>b). The presence of 30 fragmented SCOs brings the total SCOs to 1322 and genome completeness to 91.8%. In comparison with the published genomes for several other plants including model plants, the completeness of lavender draft genome was comparable to that of the maize genome (1294 complete SCOs and 31 partial SCOs with completeness at 92%), which was obtained using more resources (Schnable et al. <a data-track="click" data-track-action="reference anchor" data-track-label="link" data-test="citation-ref" aria-label="Reference 2009" title="Schnable PS, Ware D, Fulton RS et al (2009) The B73 maize genome: complexity, diversity, and dynamics. Science (80-) 326:1112–1115. &#xA;                    https://doi.org/10.1126/science.1178534&#xA;                    &#xA;                  &#xA;                        " href="/article/10.1007/s00425-018-3012-9#ref-CR18" id="ref-link-section-d59655e973">2009</a>), and is significantly better than the mint genome (848 complete SCOs and 183 partial SCOs; completeness at 71%) (Vining et al. <a data-track="click" data-track-action="reference anchor" data-track-label="link" data-test="citation-ref" aria-label="Reference 2017" title="Vining KJ, Johnson SR, Ahkami A et al (2017) Draft genome sequence of Mentha longifolia and development of resources for mint cultivar improvement. Mol Plant 10:323–339. &#xA;                    https://doi.org/10.1016/j.molp.2016.10.018&#xA;                    &#xA;                  &#xA;                        " href="/article/10.1007/s00425-018-3012-9#ref-CR24" id="ref-link-section-d59655e976">2017</a>) (Fig. <a data-track="click" data-track-label="link" data-track-action="figure anchor" href="/article/10.1007/s00425-018-3012-9#Fig1">1</a>b).</p><p>An interesting observation among the complete SCOs is the presence of 696 complete duplicated copies. Sequence analysis using BLASTn (Altschul et al. <a data-track="click" data-track-action="reference anchor" data-track-label="link" data-test="citation-ref" aria-label="Reference 1990" title="Altschul SF, Gish W, Miller W et al (1990) Basic local alignment search tool. J Mol Biol 215:403–410. &#xA;                    https://doi.org/10.1016/S0022-2836(05)80360-2&#xA;                    &#xA;                  &#xA;                        " href="/article/10.1007/s00425-018-3012-9#ref-CR2" id="ref-link-section-d59655e985">1990</a>) combined with the BUSCO score analysis revealed that at least 547 (78%) of the 696 complete and duplicated SCOs represent real duplication events in the genome, distinguishing them from possible assembly errors due to genetic heterogeneity between homologous chromosomes. Indeed, possible duplication events resulting in polyploidy ranging from 2<i>n</i> = 36 to 2<i>n</i> = 54 have been reported for <i>L. angustifolia</i> (Upson et al. <a data-track="click" data-track-action="reference anchor" data-track-label="link" data-test="citation-ref" aria-label="Reference 2004" title="Upson T, Andrews S, Royal Botanic Gardens K (2004) The genus Lavandula. SciTech book news, vol 28. Book News Inc., Portland, p 442" href="/article/10.1007/s00425-018-3012-9#ref-CR22" id="ref-link-section-d59655e997">2004</a>). In this context, our data indicate that the variety used in this study (Maillette) is most likely a polyploid line.</p><h3 class="c-article__sub-heading" id="Sec3">De novo genome annotation</h3><p>Using an automated and highly configurable de novo annotation pipeline (MAKER) with transcriptome data (Adal et al. <a data-track="click" data-track-action="reference anchor" data-track-label="link" data-test="citation-ref" aria-label="Reference 2018" title="Adal AM, Sarker LS, Malli RPN et al (2018) RNA-Seq in the discovery of a sparsely expressed scent-determining monoterpene synthase in lavender (Lavandula). Planta. &#xA;                    https://doi.org/10.1007/s00425-018-2935-5&#xA;                    &#xA;                  &#xA;                        " href="/article/10.1007/s00425-018-3012-9#ref-CR1" id="ref-link-section-d59655e1008">2018</a>) and NCBI plant reference protein sequences to guide gene prediction for Augustus (Stanke et al. <a data-track="click" data-track-action="reference anchor" data-track-label="link" data-test="citation-ref" aria-label="Reference 2006" title="Stanke M, Keller O, Gunduz I et al (2006) AUGUSTUS: a b initio prediction of alternative transcripts. Nucl Acids Res 34:W435–W439. &#xA;                    https://doi.org/10.1093/nar/gkl200&#xA;                    &#xA;                  &#xA;                        " href="/article/10.1007/s00425-018-3012-9#ref-CR21" id="ref-link-section-d59655e1011">2006</a>; Campbell et al. <a data-track="click" data-track-action="reference anchor" data-track-label="link" data-test="citation-ref" aria-label="Reference 2014" title="Campbell MS, Law M, Holt C et al (2014) MAKER-P: a Tool Kit for the rapid creation, management, and quality control of plant genome annotations. Plant Physiol 164:513–524. &#xA;                    https://doi.org/10.1104/pp.113.230144&#xA;                    &#xA;                  &#xA;                        " href="/article/10.1007/s00425-018-3012-9#ref-CR3" id="ref-link-section-d59655e1014">2014</a>; Holt and Yandell <a data-track="click" data-track-action="reference anchor" data-track-label="link" data-test="citation-ref" aria-label="Reference 2011" title="Holt C, Yandell M (2011) MAKER2: an annotation pipeline and genome-database management tool for second-generation genome projects. BMC Bioinform 12:491. &#xA;                    https://doi.org/10.1186/1471-2105-12-491&#xA;                    &#xA;                  &#xA;                        " href="/article/10.1007/s00425-018-3012-9#ref-CR9" id="ref-link-section-d59655e1017">2011</a>), we identified 218,000 initial gene models. This list was subjected to filtering based on minimal gene length and/or homology to known protein sequences to generate the final total 62,141 protein-coding genes. In addition, we have also identified 2003 tRNA and rRNA genes using tRNAScan (Lowe and Eddy <a data-track="click" data-track-action="reference anchor" data-track-label="link" data-test="citation-ref" aria-label="Reference 1996" title="Lowe TM, Eddy SR (1996) TRNAscan-SE: a program for improved detection of transfer RNA genes in genomic sequence. Nucl Acids Res 25:955–964. &#xA;                    https://doi.org/10.1093/nar/25.5.0955&#xA;                    &#xA;                  &#xA;                        " href="/article/10.1007/s00425-018-3012-9#ref-CR15" id="ref-link-section-d59655e1020">1996</a>) and RNAmmer (Lagesen et al. <a data-track="click" data-track-action="reference anchor" data-track-label="link" data-test="citation-ref" aria-label="Reference 2007" title="Lagesen K, Hallin P, Rødland EA et al (2007) RNAmmer: consistent and rapid annotation of ribosomal RNA genes. Nucl Acids Res 35:3100–3108. &#xA;                    https://doi.org/10.1093/nar/gkm160&#xA;                    &#xA;                  &#xA;                        " href="/article/10.1007/s00425-018-3012-9#ref-CR12" id="ref-link-section-d59655e1024">2007</a>), respectively, which brings the total number of identified genes to 64,144. The total regions of genes, CDS, and introns cover 26.8, 9.2, and 5.1% of the lavender draft genome, respectively (Fig. <a data-track="click" data-track-label="link" data-track-action="figure anchor" href="/article/10.1007/s00425-018-3012-9#Fig1">1</a>a and supplementary Table S1). In comparison, lavender genome has a higher (~ 3 times) density of protein-coding sequences (CDS) than the maize genome, but it is more than four times lower than that of Arabidopsis (supplementary Table S1).</p><p>We also performed annotation of repetitive elements for the draft genome using RepeatMasker (Smit et al. <a data-track="click" data-track-action="reference anchor" data-track-label="link" data-test="citation-ref" aria-label="Reference 2013" title="Smit A, Hubley R, Green P (2013) RepeatMasker Open-4.0. 2013-2015. &#xA;                    http://www.repeatmasker.org&#xA;                    &#xA;                  &#xA;                        " href="/article/10.1007/s00425-018-3012-9#ref-CR20" id="ref-link-section-d59655e1033">2013</a>), which revealed a total of repetitive content ~ 43%, a level which is lower than the most published plant genomes at similar sizes. For examples, the tomato genome (Sato et al. <a data-track="click" data-track-action="reference anchor" data-track-label="link" data-test="citation-ref" aria-label="Reference 2012" title="Sato S, Tabata S, Hirakawa H et al (2012) The tomato genome sequence provides insights into fleshy fruit evolution. Nature 485:635–641. &#xA;                    https://doi.org/10.1038/nature11119&#xA;                    &#xA;                  &#xA;                        " href="/article/10.1007/s00425-018-3012-9#ref-CR17" id="ref-link-section-d59655e1036">2012</a>) size ~ 900 Mbp has 68% as repeats (Jouffroy et al. <a data-track="click" data-track-action="reference anchor" data-track-label="link" data-test="citation-ref" aria-label="Reference 2016" title="Jouffroy O, Saha S, Mueller L et al (2016) Comprehensive repeatome annotation reveals strong potential impact of repetitive elements on tomato ripening. BMC Genom 17:624. &#xA;                    https://doi.org/10.1186/s12864-016-2980-z&#xA;                    &#xA;                  &#xA;                        " href="/article/10.1007/s00425-018-3012-9#ref-CR10" id="ref-link-section-d59655e1039">2016</a>), and the 2104 Mbp maize genome (Schnable et al. <a data-track="click" data-track-action="reference anchor" data-track-label="link" data-test="citation-ref" aria-label="Reference 2009" title="Schnable PS, Ware D, Fulton RS et al (2009) The B73 maize genome: complexity, diversity, and dynamics. Science (80-) 326:1112–1115. &#xA;                    https://doi.org/10.1126/science.1178534&#xA;                    &#xA;                  &#xA;                        " href="/article/10.1007/s00425-018-3012-9#ref-CR18" id="ref-link-section-d59655e1042">2009</a>) has 82.2% for repeat elements (supplementary Table S1). In comparison, the 119 Mbp model plant <i>Arabidopsis thaliana</i> (Weinig et al. <a data-track="click" data-track-action="reference anchor" data-track-label="link" data-test="citation-ref" aria-label="Reference 2002" title="Weinig C, Ungerer MC, Dorn LA et al (2002) Novel loci control variation in reproductive timing in Arabidopsis thaliana in natural environments. Genetics 162:1875–1884. &#xA;                    https://doi.org/10.1038/35048692&#xA;                    &#xA;                  &#xA;                        " href="/article/10.1007/s00425-018-3012-9#ref-CR26" id="ref-link-section-d59655e1049">2002</a>) genome has only 21% for repeat elements (supplementary Table S1). Among the repeats, as expected for most plant genomes, the LTR retrotransposon as the dominant type is contributing to 18% of the genome or 44% of the repeats as expected for most plant genomes. The lower than expected, overall repeat content for lavender could be partly due to selective loss post-genome polyploidization and partly due to biased distribution of gaps in repeat regions. The former is in agreement with the higher density of CDS exons. The latter can be resolved by additional sequencing and using them in closing the gaps.</p><h3 class="c-article__sub-heading" id="Sec4">Genes for EO pathways</h3><p>Considering that EO production is the main characteristics of the lavender plants, we performed detailed analysis for the genes associated with EO pathways. The draft lavender genome covered all of the known genes encoding the four classes of enzymes required for all the stages of EO biosynthesis (Tables <a data-track="click" data-track-label="link" data-track-action="table anchor" href="/article/10.1007/s00425-018-3012-9#Tab2">2</a>, <a data-track="click" data-track-label="link" data-track-action="table anchor" href="/article/10.1007/s00425-018-3012-9#Tab3">3</a> &amp; supplementary Fig. S1). In comparison with the four other published plant genomes, including mint, the only published genome in the mint family as lavender (Vining et al. <a data-track="click" data-track-action="reference anchor" data-track-label="link" data-test="citation-ref" aria-label="Reference 2017" title="Vining KJ, Johnson SR, Ahkami A et al (2017) Draft genome sequence of Mentha longifolia and development of resources for mint cultivar improvement. Mol Plant 10:323–339. &#xA;                    https://doi.org/10.1016/j.molp.2016.10.018&#xA;                    &#xA;                  &#xA;                        " href="/article/10.1007/s00425-018-3012-9#ref-CR24" id="ref-link-section-d59655e1066">2017</a>), we observed that lavender has the largest gene copy numbers for 15 out of the 35 genes involved in EO biosynthesis (Table <a data-track="click" data-track-label="link" data-track-action="table anchor" href="/article/10.1007/s00425-018-3012-9#Tab2">2</a>). For methylerythritol pathway (MEP), lavender genome has 13 copies of DXS being one copy higher than that of the mint, while all three other genomes have only a single copy. Interestingly, lavender genome has seven copies of the last gene, HDR, in the MEP pathway, while all other genomes including mint have only a single copy. It is likely that having a larger copy number of the first and last genes for the MEP permits the plant to be more efficient in the production of terpene compounds (essential oils, resins, etc.) as evidenced in other plant like pine (Kim et al. <a data-track="click" data-track-action="reference anchor" data-track-label="link" data-test="citation-ref" aria-label="Reference 2009" title="Kim YB, Kim SM, Kang MK et al (2009) Regulation of resin acid synthesis in Pinus densiflora by differential transcription of genes encoding multiple 1-deoxy-d-xylulose 5-phosphate synthase and 1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate reductase genes. Tree Physiol 29:737–749. &#xA;                    https://doi.org/10.1093/treephys/tpp002&#xA;                    &#xA;                  &#xA;                        " href="/article/10.1007/s00425-018-3012-9#ref-CR11" id="ref-link-section-d59655e1072">2009</a>).</p><div class="c-article-table" data-test="inline-table" data-container-section="table" id="table-2"><figure><figcaption class="c-article-table__figcaption"><b id="Tab2" data-test="table-caption">Table 2 Comparison of gene copy numbers for the DXP, MVA pathways, and prenyltransferases that produce linear precursors for isoprenoid production in various plant genomes</b></figcaption><div class="u-text-right u-hide-print"><a class="c-article__pill-button" data-test="table-link" data-track="click" data-track-action="view table" data-track-label="button" rel="nofollow" href="/article/10.1007/s00425-018-3012-9/tables/2"><span>Full size table</span><svg width="16" height="16" class="u-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#global-icon-chevron-right"></use></svg></a></div></figure></div><div class="c-article-table" data-test="inline-table" data-container-section="table" id="table-3"><figure><figcaption class="c-article-table__figcaption"><b id="Tab3" data-test="table-caption">Table 3 Previously cloned monoterpene synthase, sesquiterpenes synthase, and acetyltransferase genes responsible for producing mono- and sesquiterpene essential oil constituents in lavenders</b></figcaption><div class="u-text-right u-hide-print"><a class="c-article__pill-button" data-test="table-link" data-track="click" data-track-action="view table" data-track-label="button" rel="nofollow" href="/article/10.1007/s00425-018-3012-9/tables/3"><span>Full size table</span><svg width="16" height="16" class="u-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#global-icon-chevron-right"></use></svg></a></div></figure></div><p>In addition, lavender genome has a high copy number for the two precursor enzymes, geranylgeranyl pyrophosphate synthase (GGPPS) and farnesyl pyrophosphate synthase (FPPS). The lavender genome is much more similar to the mint genome by having many EO genes, including 13 of the 15 terpene synthases (TPS) genes critical for EO synthesis, which are absent in the non-mint plants (Table <a data-track="click" data-track-label="link" data-track-action="table anchor" href="/article/10.1007/s00425-018-3012-9#Tab2">2</a>), and these genes contribute to the special EO-producing characteristics of the mint family plants.</p><p>A surprising finding was that the lavender genome contains only two copies of the <i>R</i>-linalool synthase gene (which contributes most to EO production), while it contains more than two copies of some other terpene synthase genes that contribute minimally to the EO (e.g., limonene synthase and 3-carene synthase) in lavenders (Table <a data-track="click" data-track-label="link" data-track-action="table anchor" href="/article/10.1007/s00425-018-3012-9#Tab3">3</a>). Given that linalool synthase is responsible for the production of two of the most abundant EO constitutes (linalool and its acetylated form linalyl acetate, which make up &gt; 80% of the EO in most <i>L. angustifolia</i> and <i>L. intermedia</i> species), and that transcripts for the gene are among the most abundant mRNA species in floral oil glands (Lane et al. <a data-track="click" data-track-action="reference anchor" data-track-label="link" data-test="citation-ref" aria-label="Reference 2010" title="Lane A, Boecklemann A, Woronuk GN et al (2010) A genomics resource for investigating regulation of essential oil production in Lavandula angustifolia. Planta 231:835–845. &#xA;                    https://doi.org/10.1007/s00425-009-1090-4&#xA;                    &#xA;                  &#xA;                        " href="/article/10.1007/s00425-018-3012-9#ref-CR13" id="ref-link-section-d59655e2604">2010</a>), we anticipated a higher copy number in the genome. Taken together, our results indicate that the <i>R</i>-linalool synthase gene is very strongly expressed in floral oil glands.</p><p>We also performed orthologous sequences/clusters’ search as a way of validating the genome annotation process using the Orthovenn tool (Wang et al. <a data-track="click" data-track-action="reference anchor" data-track-label="link" data-test="citation-ref" aria-label="Reference 2015" title="Wang Y, Coleman-Derr D, Chen G, Gu YQ (2015) OrthoVenn: a web server for genome wide comparison and annotation of orthologous clusters across multiple species. Nucl Acids Res 43:W78–W84. &#xA;                    https://doi.org/10.1093/nar/gkv487&#xA;                    &#xA;                  &#xA;                        " href="/article/10.1007/s00425-018-3012-9#ref-CR25" id="ref-link-section-d59655e2614">2015</a>). There are a total of 8413 clusters which have 76,424 (data not shown) gene sequences shared among all five plant genomes compared, and we were able to find orthologous sequences in <i>Arabidopsis</i> (64), Rice (58), Maize (87), and tomato (776) genomes. We were unable to include mint genome for this analysis due to lack of protein sequences. Tomato shares the largest number of genes with lavender among the plants compared. A search for orthologous sequences containing terpene synthase genes resulted in 20 orthologous clusters divided into characterized and uncharacterized TPS genes. Orthologous sequences for <i>S</i>-linalool synthase gene are presented in all plants and have three copies in tomato genome, one more than lavender. Interestingly, <i>R</i>-linalool synthase is absent in rice and maize, and has a single copy in the tomato genome, one less than lavender (supplementary Table S2). Among the uncharacterized TPS genes, the genes for ent-copalyl diphosphate synthase and solanesyl diphosphate synthase are shared among all plants. The other three genes [cis-abienol synthase, gamma-cadinene synthase, and (+)-epi-alpha-bisabolol synthase] is presented only in lavender (supplementary Table S2).</p></div></div></section><section aria-labelledby="Sec5" data-title="Conclusion"><div class="c-article-section" id="Sec5-section"><h2 class="c-article-section__title js-section-title js-c-reading-companion-sections-item" id="Sec5">Conclusion</h2><div class="c-article-section__content" id="Sec5-content"><p>In conclusion, the lavender genome assembly reported here represents the first relatively complete high-quality draft genome. The initial analysis of the genome sequences reveals a genome optimized for EO production by having large copy numbers of many EO pathway genes and genes unique to EO-producing plants. Future work may involve the estimation of the level of genome heterozygosity, identification of any genome duplication events during the course of the plant’s evolution, closing of the gaps in the draft assembly using long sequencing platforms, and optical mapping technologies to map the genome sequences to their chromosomal locations. Given the economic status of lavender and its applications of EOs in many industries, the lavender draft genome sequences can serve as a significant genomics resource for the lavender research communities.</p>
+                <h3 class="c-article__sub-heading" id="FPar1">
+                  <i>Author contribution statement</i>
+                </h3>
+                <p>SSM and PL designed and funded the research. SSM, AMA and LSS prepared gDNA for sequencing and provided ESTs and transcriptome sequences used in annotating the draft assembly. RPNM and PL conducted bioinformatics work to generate the draft genome assembly and annotate it. RPNM, PL and SSM prepared the manuscript. All authors read and approved the manuscript.</p>
+              </div></div></section>
+                        
+                    
+
+                    <section aria-labelledby="abbreviations" data-title="Abbreviations"><div class="c-article-section" id="abbreviations-section"><h2 class="c-article-section__title js-section-title js-c-reading-companion-sections-item" id="abbreviations">Abbreviations</h2><div class="c-article-section__content" id="abbreviations-content"><dl class="c-abbreviation_list"><dt class="c-abbreviation_list__term"><dfn>EO:</dfn></dt><dd class="c-abbreviation_list__description">
+                    <p>Essential oils</p>
+                  </dd><dt class="c-abbreviation_list__term"><dfn>qPCR:</dfn></dt><dd class="c-abbreviation_list__description">
+                    <p>Quantitative real-time PCR</p>
+                  </dd><dt class="c-abbreviation_list__term"><dfn>BUSCO:</dfn></dt><dd class="c-abbreviation_list__description">
+                    <p>Benchmarking universal single-copy orthologues</p>
+                  </dd><dt class="c-abbreviation_list__term"><dfn>MEP:</dfn></dt><dd class="c-abbreviation_list__description">
+                    <p>Methylerythritol pathway</p>
+                  </dd><dt class="c-abbreviation_list__term"><dfn>MVA:</dfn></dt><dd class="c-abbreviation_list__description">
+                    <p>Mevalonate pathway</p>
+                  </dd><dt class="c-abbreviation_list__term"><dfn>GGPPS:</dfn></dt><dd class="c-abbreviation_list__description">
+                    <p>Geranylgeranyl pyrophosphate synthase</p>
+                  </dd><dt class="c-abbreviation_list__term"><dfn>FPPS:</dfn></dt><dd class="c-abbreviation_list__description">
+                    <p>Farnesyl pyrophosphate synthase</p>
+                  </dd><dt class="c-abbreviation_list__term"><dfn>DXS:</dfn></dt><dd class="c-abbreviation_list__description">
+                    <p>1-Deoxyxylulose-5-phosphate synthase</p>
+                  </dd><dt class="c-abbreviation_list__term"><dfn>HDR:</dfn></dt><dd class="c-abbreviation_list__description">
+                    <p>4-Hydroxy-3-methylbut-2-enyl diphosphate reductase</p>
+                  </dd><dt class="c-abbreviation_list__term"><dfn>TPS:</dfn></dt><dd class="c-abbreviation_list__description">
+                    <p>Terpene synthases</p>
+                  </dd></dl></div></div></section><section aria-labelledby="Bib1" data-title="References"><div class="c-article-section" id="Bib1-section"><h2 class="c-article-section__title js-section-title js-c-reading-companion-sections-item" id="Bib1">References</h2><div class="c-article-section__content" id="Bib1-content"><div data-container-section="references"><ol class="c-article-references"><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="AM. Adal, LS. Sarker, RPN. Malli, " /><meta itemprop="datePublished" content="2018" /><meta itemprop="headline" content="Adal AM, Sarker LS, Malli RPN et al (2018) RNA-Seq in the discovery of a sparsely expressed scent-determining " /><p class="c-article-references__text" id="ref-CR1">Adal AM, Sarker LS, Malli RPN et al (2018) RNA-Seq in the discovery of a sparsely expressed scent-determining monoterpene synthase in lavender (Lavandula). Planta. <a href="https://doi.org/10.1007/s00425-018-2935-5">https://doi.org/10.1007/s00425-018-2935-5</a>
+                        </p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1007%2Fs00425-018-2935-5" aria-label="View reference 1">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;dopt=Abstract&amp;list_uids=30269192" aria-label="View reference 1 on PubMed" rel="nofollow">PubMed</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 1 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=RNA-Seq%20in%20the%20discovery%20of%20a%20sparsely%20expressed%20scent-determining%20monoterpene%20synthase%20in%20lavender%20%28Lavandula%29&amp;journal=Planta&amp;doi=10.1007%2Fs00425-018-2935-5&amp;publication_year=2018&amp;author=Adal%2CAM&amp;author=Sarker%2CLS&amp;author=Malli%2CRPN">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="SF. Altschul, W. Gish, W. Miller, " /><meta itemprop="datePublished" content="1990" /><meta itemprop="headline" content="Altschul SF, Gish W, Miller W et al (1990) Basic local alignment search tool. J Mol Biol 215:403–410. https://" /><p class="c-article-references__text" id="ref-CR2">Altschul SF, Gish W, Miller W et al (1990) Basic local alignment search tool. J Mol Biol 215:403–410. <a href="https://doi.org/10.1016/S0022-2836(05)80360-2">https://doi.org/10.1016/S0022-2836(05)80360-2</a>
+                        </p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1016%2FS0022-2836%2805%2980360-2" aria-label="View reference 2">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="/articles/cas-redirect/1%3ACAS%3A528%3ADyaK3MXitVGmsA%253D%253D" aria-label="View reference 2 on CAS">CAS</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 2 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Basic%20local%20alignment%20search%20tool&amp;journal=J%20Mol%20Biol&amp;doi=10.1016%2FS0022-2836%2805%2980360-2&amp;volume=215&amp;pages=403-410&amp;publication_year=1990&amp;author=Altschul%2CSF&amp;author=Gish%2CW&amp;author=Miller%2CW">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="MS. Campbell, M. Law, C. Holt, " /><meta itemprop="datePublished" content="2014" /><meta itemprop="headline" content="Campbell MS, Law M, Holt C et al (2014) MAKER-P: a Tool Kit for the rapid creation, management, and quality co" /><p class="c-article-references__text" id="ref-CR3">Campbell MS, Law M, Holt C et al (2014) MAKER-P: a Tool Kit for the rapid creation, management, and quality control of plant genome annotations. Plant Physiol 164:513–524. <a href="https://doi.org/10.1104/pp.113.230144">https://doi.org/10.1104/pp.113.230144</a>
+                        </p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1104%2Fpp.113.230144" aria-label="View reference 3">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="/articles/cas-redirect/1%3ACAS%3A528%3ADC%252BC2cXks1SmsL8%253D" aria-label="View reference 3 on CAS">CAS</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;dopt=Abstract&amp;list_uids=24306534" aria-label="View reference 3 on PubMed" rel="nofollow">PubMed</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 3 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=MAKER-P%3A%20a%20Tool%20Kit%20for%20the%20rapid%20creation%2C%20management%2C%20and%20quality%20control%20of%20plant%20genome%20annotations&amp;journal=Plant%20Physiol&amp;doi=10.1104%2Fpp.113.230144&amp;volume=164&amp;pages=513-524&amp;publication_year=2014&amp;author=Campbell%2CMS&amp;author=Law%2CM&amp;author=Holt%2CC">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="R. Chikhi, P. Medvedev, " /><meta itemprop="datePublished" content="2014" /><meta itemprop="headline" content="Chikhi R, Medvedev P (2014) Informed and automated k-mer size selection for genome assembly. Bioinformatics 30" /><p class="c-article-references__text" id="ref-CR4">Chikhi R, Medvedev P (2014) Informed and automated k-mer size selection for genome assembly. Bioinformatics 30:31–37. <a href="https://doi.org/10.1093/bioinformatics/btt310">https://doi.org/10.1093/bioinformatics/btt310</a>
+                        </p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1093%2Fbioinformatics%2Fbtt310" aria-label="View reference 4">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="/articles/cas-redirect/1%3ACAS%3A528%3ADC%252BC3sXhvF2kur%252FI" aria-label="View reference 4 on CAS">CAS</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 4 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Informed%20and%20automated%20k-mer%20size%20selection%20for%20genome%20assembly&amp;journal=Bioinformatics&amp;doi=10.1093%2Fbioinformatics%2Fbtt310&amp;volume=30&amp;pages=31-37&amp;publication_year=2014&amp;author=Chikhi%2CR&amp;author=Medvedev%2CP">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="ZA. Demissie, MA. Cella, LS. Sarker, " /><meta itemprop="datePublished" content="2012" /><meta itemprop="headline" content="Demissie ZA, Cella MA, Sarker LS et al (2012) Cloning, functional characterization and genomic organization of" /><p class="c-article-references__text" id="ref-CR5">Demissie ZA, Cella MA, Sarker LS et al (2012) Cloning, functional characterization and genomic organization of 1,8-cineole synthases from Lavandula. Plant Mol Biol 79:393–411. <a href="https://doi.org/10.1007/s11103-012-9920-3">https://doi.org/10.1007/s11103-012-9920-3</a>
+                        </p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1007%2Fs11103-012-9920-3" aria-label="View reference 5">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="/articles/cas-redirect/1%3ACAS%3A528%3ADC%252BC38XotVOnsLc%253D" aria-label="View reference 5 on CAS">CAS</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;dopt=Abstract&amp;list_uids=22592779" aria-label="View reference 5 on PubMed" rel="nofollow">PubMed</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 5 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Cloning%2C%20functional%20characterization%20and%20genomic%20organization%20of%201%2C8-cineole%20synthases%20from%20Lavandula&amp;journal=Plant%20Mol%20Biol&amp;doi=10.1007%2Fs11103-012-9920-3&amp;volume=79&amp;pages=393-411&amp;publication_year=2012&amp;author=Demissie%2CZA&amp;author=Cella%2CMA&amp;author=Sarker%2CLS">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="L. Falk, K. Biswas, A. Boeckelmann, " /><meta itemprop="datePublished" content="2009" /><meta itemprop="headline" content="Falk L, Biswas K, Boeckelmann A et al (2009) An effcient method for the micropropagation of lavenders: regener" /><p class="c-article-references__text" id="ref-CR6">Falk L, Biswas K, Boeckelmann A et al (2009) An effcient method for the micropropagation of lavenders: regeneration of a unique mutant. J Essent Oil Res 21:225–228. <a href="https://doi.org/10.1080/10412905.2009.9700154">https://doi.org/10.1080/10412905.2009.9700154</a>
+                        </p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1080%2F10412905.2009.9700154" aria-label="View reference 6">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="/articles/cas-redirect/1%3ACAS%3A528%3ADC%252BD1MXmtVWlsb0%253D" aria-label="View reference 6 on CAS">CAS</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 6 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=An%20effcient%20method%20for%20the%20micropropagation%20of%20lavenders%3A%20regeneration%20of%20a%20unique%20mutant&amp;journal=J%20Essent%20Oil%20Res&amp;doi=10.1080%2F10412905.2009.9700154&amp;volume=21&amp;pages=225-228&amp;publication_year=2009&amp;author=Falk%2CL&amp;author=Biswas%2CK&amp;author=Boeckelmann%2CA">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="S. Gao, N. Nagarajan, WK. Sung, " /><meta itemprop="datePublished" content="2011" /><meta itemprop="headline" content="Gao S, Nagarajan N, Sung WK (2011) Opera: reconstructing optimal genomic scaffolds with high-throughput paired" /><p class="c-article-references__text" id="ref-CR7">Gao S, Nagarajan N, Sung WK (2011) Opera: reconstructing optimal genomic scaffolds with high-throughput paired-end sequences. Lect Notes Comput Sci 6577 LNBI:437–451. <a href="https://doi.org/10.1007/978-3-642-20036-6_40">https://doi.org/10.1007/978-3-642-20036-6_40</a>
+                           <b>(including Subser Lect Notes Artif Intell Lect Notes Bioinformatics)</b>
+                        </p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1007%2F978-3-642-20036-6_40" aria-label="View reference 7">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="/articles/cas-redirect/1%3ACAS%3A528%3ADC%252BC2cXitFGjtrbM" aria-label="View reference 7 on CAS">CAS</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 7 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Opera%3A%20reconstructing%20optimal%20genomic%20scaffolds%20with%20high-throughput%20paired-end%20sequences&amp;journal=Lect%20Notes%20Comput%20Sci&amp;doi=10.1007%2F978-3-642-20036-6_40&amp;volume=6577%20LNBI&amp;pages=437-451&amp;publication_year=2011&amp;author=Gao%2CS&amp;author=Nagarajan%2CN&amp;author=Sung%2CWK">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="S. Gao, D. Bertrand, BKH. Chia, N. Nagarajan, " /><meta itemprop="datePublished" content="2016" /><meta itemprop="headline" content="Gao S, Bertrand D, Chia BKH, Nagarajan N (2016) OPERA-LG: efficient and exact scaffolding of large, repeat-ric" /><p class="c-article-references__text" id="ref-CR8">Gao S, Bertrand D, Chia BKH, Nagarajan N (2016) OPERA-LG: efficient and exact scaffolding of large, repeat-rich eukaryotic genomes with performance guarantees. Genome Biol 17:102. <a href="https://doi.org/10.1186/s13059-016-0951-y">https://doi.org/10.1186/s13059-016-0951-y</a>
+                        </p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1186%2Fs13059-016-0951-y" aria-label="View reference 8">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="/articles/cas-redirect/1%3ACAS%3A528%3ADC%252BC28XhsVektb%252FN" aria-label="View reference 8 on CAS">CAS</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;dopt=Abstract&amp;list_uids=27169502" aria-label="View reference 8 on PubMed" rel="nofollow">PubMed</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4864936" aria-label="View reference 8 on PubMed Central" rel="nofollow">PubMed Central</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 8 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=OPERA-LG%3A%20efficient%20and%20exact%20scaffolding%20of%20large%2C%20repeat-rich%20eukaryotic%20genomes%20with%20performance%20guarantees&amp;journal=Genome%20Biol&amp;doi=10.1186%2Fs13059-016-0951-y&amp;volume=17&amp;publication_year=2016&amp;author=Gao%2CS&amp;author=Bertrand%2CD&amp;author=Chia%2CBKH&amp;author=Nagarajan%2CN">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="C. Holt, M. Yandell, " /><meta itemprop="datePublished" content="2011" /><meta itemprop="headline" content="Holt C, Yandell M (2011) MAKER2: an annotation pipeline and genome-database management tool for second-generat" /><p class="c-article-references__text" id="ref-CR9">Holt C, Yandell M (2011) MAKER2: an annotation pipeline and genome-database management tool for second-generation genome projects. BMC Bioinform 12:491. <a href="https://doi.org/10.1186/1471-2105-12-491">https://doi.org/10.1186/1471-2105-12-491</a>
+                        </p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1186%2F1471-2105-12-491" aria-label="View reference 9">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 9 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=MAKER2%3A%20an%20annotation%20pipeline%20and%20genome-database%20management%20tool%20for%20second-generation%20genome%20projects&amp;journal=BMC%20Bioinform&amp;doi=10.1186%2F1471-2105-12-491&amp;volume=12&amp;publication_year=2011&amp;author=Holt%2CC&amp;author=Yandell%2CM">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="O. Jouffroy, S. Saha, L. Mueller, " /><meta itemprop="datePublished" content="2016" /><meta itemprop="headline" content="Jouffroy O, Saha S, Mueller L et al (2016) Comprehensive repeatome annotation reveals strong potential impact " /><p class="c-article-references__text" id="ref-CR10">Jouffroy O, Saha S, Mueller L et al (2016) Comprehensive repeatome annotation reveals strong potential impact of repetitive elements on tomato ripening. BMC Genom 17:624. <a href="https://doi.org/10.1186/s12864-016-2980-z">https://doi.org/10.1186/s12864-016-2980-z</a>
+                        </p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1186%2Fs12864-016-2980-z" aria-label="View reference 10">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="/articles/cas-redirect/1%3ACAS%3A528%3ADC%252BC2sXhvFSju7zP" aria-label="View reference 10 on CAS">CAS</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 10 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Comprehensive%20repeatome%20annotation%20reveals%20strong%20potential%20impact%20of%20repetitive%20elements%20on%20tomato%20ripening&amp;journal=BMC%20Genom&amp;doi=10.1186%2Fs12864-016-2980-z&amp;volume=17&amp;publication_year=2016&amp;author=Jouffroy%2CO&amp;author=Saha%2CS&amp;author=Mueller%2CL">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="YB. Kim, SM. Kim, MK. Kang, " /><meta itemprop="datePublished" content="2009" /><meta itemprop="headline" content="Kim YB, Kim SM, Kang MK et al (2009) Regulation of resin acid synthesis in Pinus densiflora by differential tr" /><p class="c-article-references__text" id="ref-CR11">Kim YB, Kim SM, Kang MK et al (2009) Regulation of resin acid synthesis in <i>Pinus densiflora</i> by differential transcription of genes encoding multiple 1-deoxy-d-xylulose 5-phosphate synthase and 1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate reductase genes. Tree Physiol 29:737–749. <a href="https://doi.org/10.1093/treephys/tpp002">https://doi.org/10.1093/treephys/tpp002</a>
+                        </p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1093%2Ftreephys%2Ftpp002" aria-label="View reference 11">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="/articles/cas-redirect/1%3ACAS%3A528%3ADC%252BD1MXmtVWisro%253D" aria-label="View reference 11 on CAS">CAS</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;dopt=Abstract&amp;list_uids=19203978" aria-label="View reference 11 on PubMed" rel="nofollow">PubMed</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 11 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Regulation%20of%20resin%20acid%20synthesis%20in%20Pinus%20densiflora%20by%20differential%20transcription%20of%20genes%20encoding%20multiple%201-deoxy-d-xylulose%205-phosphate%20synthase%20and%201-hydroxy-2-methyl-2-%28E%29-butenyl%204-diphosphate%20reductase%20genes&amp;journal=Tree%20Physiol&amp;doi=10.1093%2Ftreephys%2Ftpp002&amp;volume=29&amp;pages=737-749&amp;publication_year=2009&amp;author=Kim%2CYB&amp;author=Kim%2CSM&amp;author=Kang%2CMK">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="K. Lagesen, P. Hallin, EA. Rødland, " /><meta itemprop="datePublished" content="2007" /><meta itemprop="headline" content="Lagesen K, Hallin P, Rødland EA et al (2007) RNAmmer: consistent and rapid annotation of ribosomal RNA genes. " /><p class="c-article-references__text" id="ref-CR12">Lagesen K, Hallin P, Rødland EA et al (2007) RNAmmer: consistent and rapid annotation of ribosomal RNA genes. Nucl Acids Res 35:3100–3108. <a href="https://doi.org/10.1093/nar/gkm160">https://doi.org/10.1093/nar/gkm160</a>
+                        </p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1093%2Fnar%2Fgkm160" aria-label="View reference 12">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="/articles/cas-redirect/1%3ACAS%3A528%3ADC%252BD2sXmvF2ntLg%253D" aria-label="View reference 12 on CAS">CAS</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;dopt=Abstract&amp;list_uids=17452365" aria-label="View reference 12 on PubMed" rel="nofollow">PubMed</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 12 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=RNAmmer%3A%20consistent%20and%20rapid%20annotation%20of%20ribosomal%20RNA%20genes&amp;journal=Nucl%20Acids%20Res&amp;doi=10.1093%2Fnar%2Fgkm160&amp;volume=35&amp;pages=3100-3108&amp;publication_year=2007&amp;author=Lagesen%2CK&amp;author=Hallin%2CP&amp;author=R%C3%B8dland%2CEA">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="A. Lane, A. Boecklemann, GN. Woronuk, " /><meta itemprop="datePublished" content="2010" /><meta itemprop="headline" content="Lane A, Boecklemann A, Woronuk GN et al (2010) A genomics resource for investigating regulation of essential o" /><p class="c-article-references__text" id="ref-CR13">Lane A, Boecklemann A, Woronuk GN et al (2010) A genomics resource for investigating regulation of essential oil production in <i>Lavandula angustifolia</i>. Planta 231:835–845. <a href="https://doi.org/10.1007/s00425-009-1090-4">https://doi.org/10.1007/s00425-009-1090-4</a>
+                        </p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1007%2Fs00425-009-1090-4" aria-label="View reference 13">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="/articles/cas-redirect/1%3ACAS%3A528%3ADC%252BC3cXhvV2gs7k%253D" aria-label="View reference 13 on CAS">CAS</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;dopt=Abstract&amp;list_uids=20043174" aria-label="View reference 13 on PubMed" rel="nofollow">PubMed</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 13 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=A%20genomics%20resource%20for%20investigating%20regulation%20of%20essential%20oil%20production%20in%20Lavandula%20angustifolia&amp;journal=Planta&amp;doi=10.1007%2Fs00425-009-1090-4&amp;volume=231&amp;pages=835-845&amp;publication_year=2010&amp;author=Lane%2CA&amp;author=Boecklemann%2CA&amp;author=Woronuk%2CGN">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="H. Li, " /><meta itemprop="datePublished" content="2012" /><meta itemprop="headline" content="Li H (2012) Exploring single-sample snp and indel calling with whole-genome de novo assembly. Bioinformatics 2" /><p class="c-article-references__text" id="ref-CR14">Li H (2012) Exploring single-sample snp and indel calling with whole-genome de novo assembly. Bioinformatics 28:1838–1844. <a href="https://doi.org/10.1093/bioinformatics/bts280">https://doi.org/10.1093/bioinformatics/bts280</a>
+                        </p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1093%2Fbioinformatics%2Fbts280" aria-label="View reference 14">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="/articles/cas-redirect/1%3ACAS%3A528%3ADC%252BC38XhtVSgsbvJ" aria-label="View reference 14 on CAS">CAS</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;dopt=Abstract&amp;list_uids=22569178" aria-label="View reference 14 on PubMed" rel="nofollow">PubMed</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3389770" aria-label="View reference 14 on PubMed Central" rel="nofollow">PubMed Central</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 14 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Exploring%20single-sample%20snp%20and%20indel%20calling%20with%20whole-genome%20de%20novo%20assembly&amp;journal=Bioinformatics&amp;doi=10.1093%2Fbioinformatics%2Fbts280&amp;volume=28&amp;pages=1838-1844&amp;publication_year=2012&amp;author=Li%2CH">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="TM. Lowe, SR. Eddy, " /><meta itemprop="datePublished" content="1996" /><meta itemprop="headline" content="Lowe TM, Eddy SR (1996) TRNAscan-SE: a program for improved detection of transfer RNA genes in genomic sequenc" /><p class="c-article-references__text" id="ref-CR15">Lowe TM, Eddy SR (1996) TRNAscan-SE: a program for improved detection of transfer RNA genes in genomic sequence. Nucl Acids Res 25:955–964. <a href="https://doi.org/10.1093/nar/25.5.0955">https://doi.org/10.1093/nar/25.5.0955</a>
+                        </p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1093%2Fnar%2F25.5.955" aria-label="View reference 15">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 15 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=TRNAscan-SE%3A%20a%20program%20for%20improved%20detection%20of%20transfer%20RNA%20genes%20in%20genomic%20sequence&amp;journal=Nucl%20Acids%20Res&amp;doi=10.1093%2Fnar%2F25.5.0955&amp;volume=25&amp;pages=955-964&amp;publication_year=1996&amp;author=Lowe%2CTM&amp;author=Eddy%2CSR">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="R. Luo, B. Liu, Y. Xie, " /><meta itemprop="datePublished" content="2015" /><meta itemprop="headline" content="Luo R, Liu B, Xie Y et al (2015) Erratum to “SOAPdenovo2: an empirically improved memory-efficient short-read " /><p class="c-article-references__text" id="ref-CR16">Luo R, Liu B, Xie Y et al (2015) Erratum to “SOAPdenovo2: an empirically improved memory-efficient short-read de novo assembler” [GigaScience, (2012), 1, 18]. Gigascience 4:1. <a href="https://doi.org/10.1186/s13742-015-0069-2">https://doi.org/10.1186/s13742-015-0069-2</a>
+                        </p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1186%2Fs13742-015-0069-2" aria-label="View reference 16">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 16 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Erratum%20to%20%E2%80%9CSOAPdenovo2%3A%20an%20empirically%20improved%20memory-efficient%20short-read%20de%20novo%20assembler%E2%80%9D%20%5BGigaScience%2C%20%282012%29%2C%201%2C%2018%5D&amp;journal=Gigascience&amp;doi=10.1186%2Fs13742-015-0069-2&amp;volume=4&amp;publication_year=2015&amp;author=Luo%2CR&amp;author=Liu%2CB&amp;author=Xie%2CY">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="S. Sato, S. Tabata, H. Hirakawa, " /><meta itemprop="datePublished" content="2012" /><meta itemprop="headline" content="Sato S, Tabata S, Hirakawa H et al (2012) The tomato genome sequence provides insights into fleshy fruit evolu" /><p class="c-article-references__text" id="ref-CR17">Sato S, Tabata S, Hirakawa H et al (2012) The tomato genome sequence provides insights into fleshy fruit evolution. Nature 485:635–641. <a href="https://doi.org/10.1038/nature11119">https://doi.org/10.1038/nature11119</a>
+                        </p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1038%2Fnature11119" aria-label="View reference 17">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="/articles/cas-redirect/1%3ACAS%3A528%3ADC%252BC38XnvVymtrw%253D" aria-label="View reference 17 on CAS">CAS</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 17 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=The%20tomato%20genome%20sequence%20provides%20insights%20into%20fleshy%20fruit%20evolution&amp;journal=Nature&amp;doi=10.1038%2Fnature11119&amp;volume=485&amp;pages=635-641&amp;publication_year=2012&amp;author=Sato%2CS&amp;author=Tabata%2CS&amp;author=Hirakawa%2CH">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="PS. Schnable, D. Ware, RS. Fulton, " /><meta itemprop="datePublished" content="2009" /><meta itemprop="headline" content="Schnable PS, Ware D, Fulton RS et al (2009) The B73 maize genome: complexity, diversity, and dynamics. Science" /><p class="c-article-references__text" id="ref-CR18">Schnable PS, Ware D, Fulton RS et al (2009) The B73 maize genome: complexity, diversity, and dynamics. Science (80-) 326:1112–1115. <a href="https://doi.org/10.1126/science.1178534">https://doi.org/10.1126/science.1178534</a>
+                        </p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1126%2Fscience.1178534" aria-label="View reference 18">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="/articles/cas-redirect/1%3ACAS%3A528%3ADC%252BD1MXhsVentLvL" aria-label="View reference 18 on CAS">CAS</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 18 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=The%20B73%20maize%20genome%3A%20complexity%2C%20diversity%2C%20and%20dynamics&amp;journal=Science%20%2880-%29&amp;doi=10.1126%2Fscience.1178534&amp;volume=326&amp;pages=1112-1115&amp;publication_year=2009&amp;author=Schnable%2CPS&amp;author=Ware%2CD&amp;author=Fulton%2CRS">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="FA. Simão, RM. Waterhouse, P. Ioannidis, " /><meta itemprop="datePublished" content="2015" /><meta itemprop="headline" content="Simão FA, Waterhouse RM, Ioannidis P et al (2015) BUSCO: assessing genome assembly and annotation completeness" /><p class="c-article-references__text" id="ref-CR19">Simão FA, Waterhouse RM, Ioannidis P et al (2015) BUSCO: assessing genome assembly and annotation completeness with single-copy orthologs. Bioinformatics 31:3210–3212. <a href="https://doi.org/10.1093/bioinformatics/btv351">https://doi.org/10.1093/bioinformatics/btv351</a>
+                        </p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1093%2Fbioinformatics%2Fbtv351" aria-label="View reference 19">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="/articles/cas-redirect/1%3ACAS%3A528%3ADC%252BC28Xht1Cit7fN" aria-label="View reference 19 on CAS">CAS</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;dopt=Abstract&amp;list_uids=26059717" aria-label="View reference 19 on PubMed" rel="nofollow">PubMed</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 19 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=BUSCO%3A%20assessing%20genome%20assembly%20and%20annotation%20completeness%20with%20single-copy%20orthologs&amp;journal=Bioinformatics&amp;doi=10.1093%2Fbioinformatics%2Fbtv351&amp;volume=31&amp;pages=3210-3212&amp;publication_year=2015&amp;author=Sim%C3%A3o%2CFA&amp;author=Waterhouse%2CRM&amp;author=Ioannidis%2CP">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="headline" content="Smit A, Hubley R, Green P (2013) RepeatMasker Open-4.0. 2013-2015. http://www.repeatmasker.org&#xA;               " /><p class="c-article-references__text" id="ref-CR20">Smit A, Hubley R, Green P (2013) RepeatMasker Open-4.0. 2013-2015. <a href="http://www.repeatmasker.org">http://www.repeatmasker.org</a>
+                        </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="M. Stanke, O. Keller, I. Gunduz, " /><meta itemprop="datePublished" content="2006" /><meta itemprop="headline" content="Stanke M, Keller O, Gunduz I et al (2006) AUGUSTUS: a b initio prediction of alternative transcripts. Nucl Aci" /><p class="c-article-references__text" id="ref-CR21">Stanke M, Keller O, Gunduz I et al (2006) AUGUSTUS: a b initio prediction of alternative transcripts. Nucl Acids Res 34:W435–W439. <a href="https://doi.org/10.1093/nar/gkl200">https://doi.org/10.1093/nar/gkl200</a>
+                        </p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1093%2Fnar%2Fgkl200" aria-label="View reference 21">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="/articles/cas-redirect/1%3ACAS%3A528%3ADC%252BD28Xps1yiu78%253D" aria-label="View reference 21 on CAS">CAS</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;dopt=Abstract&amp;list_uids=16845043" aria-label="View reference 21 on PubMed" rel="nofollow">PubMed</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 21 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=AUGUSTUS%3A%20a%20b%20initio%20prediction%20of%20alternative%20transcripts&amp;journal=Nucl%20Acids%20Res&amp;doi=10.1093%2Fnar%2Fgkl200&amp;volume=34&amp;pages=W435-W439&amp;publication_year=2006&amp;author=Stanke%2CM&amp;author=Keller%2CO&amp;author=Gunduz%2CI">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/Book"><meta itemprop="author" content="T. Upson, S. Andrews, " /><meta itemprop="datePublished" content="2004" /><meta itemprop="headline" content="Upson T, Andrews S, Royal Botanic Gardens K (2004) The genus Lavandula. SciTech book news, vol 28. Book News I" /><p class="c-article-references__text" id="ref-CR22">Upson T, Andrews S, Royal Botanic Gardens K (2004) The genus <i>Lavandula</i>. SciTech book news, vol 28. Book News Inc., Portland, p 442</p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 22 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=SciTech%20book%20news&amp;publication_year=2004&amp;author=Upson%2CT&amp;author=Andrews%2CS">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="NAR. Urwin, J. Horsnell, T. Moon, " /><meta itemprop="datePublished" content="2007" /><meta itemprop="headline" content="Urwin NAR, Horsnell J, Moon T (2007) Generation and characterisation of colchicine-induced autotetraploid Lava" /><p class="c-article-references__text" id="ref-CR23">Urwin NAR, Horsnell J, Moon T (2007) Generation and characterisation of colchicine-induced autotetraploid <i>Lavandula angustifolia</i>. Euphytica 156:257–266. <a href="https://doi.org/10.1007/s10681-007-9373-y">https://doi.org/10.1007/s10681-007-9373-y</a>
+                        </p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1007%2Fs10681-007-9373-y" aria-label="View reference 23">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 23 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Generation%20and%20characterisation%20of%20colchicine-induced%20autotetraploid%20Lavandula%20angustifolia&amp;journal=Euphytica&amp;doi=10.1007%2Fs10681-007-9373-y&amp;volume=156&amp;pages=257-266&amp;publication_year=2007&amp;author=Urwin%2CNAR&amp;author=Horsnell%2CJ&amp;author=Moon%2CT">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="KJ. Vining, SR. Johnson, A. Ahkami, " /><meta itemprop="datePublished" content="2017" /><meta itemprop="headline" content="Vining KJ, Johnson SR, Ahkami A et al (2017) Draft genome sequence of Mentha longifolia and development of res" /><p class="c-article-references__text" id="ref-CR24">Vining KJ, Johnson SR, Ahkami A et al (2017) Draft genome sequence of <i>Mentha longifolia</i> and development of resources for mint cultivar improvement. Mol Plant 10:323–339. <a href="https://doi.org/10.1016/j.molp.2016.10.018">https://doi.org/10.1016/j.molp.2016.10.018</a>
+                        </p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1016%2Fj.molp.2016.10.018" aria-label="View reference 24">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="/articles/cas-redirect/1%3ACAS%3A528%3ADC%252BC28XitFWlsLjN" aria-label="View reference 24 on CAS">CAS</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;dopt=Abstract&amp;list_uids=27867107" aria-label="View reference 24 on PubMed" rel="nofollow">PubMed</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 24 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Draft%20genome%20sequence%20of%20Mentha%20longifolia%20and%20development%20of%20resources%20for%20mint%20cultivar%20improvement&amp;journal=Mol%20Plant&amp;doi=10.1016%2Fj.molp.2016.10.018&amp;volume=10&amp;pages=323-339&amp;publication_year=2017&amp;author=Vining%2CKJ&amp;author=Johnson%2CSR&amp;author=Ahkami%2CA">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="Y. Wang, D. Coleman-Derr, G. Chen, YQ. Gu, " /><meta itemprop="datePublished" content="2015" /><meta itemprop="headline" content="Wang Y, Coleman-Derr D, Chen G, Gu YQ (2015) OrthoVenn: a web server for genome wide comparison and annotation" /><p class="c-article-references__text" id="ref-CR25">Wang Y, Coleman-Derr D, Chen G, Gu YQ (2015) OrthoVenn: a web server for genome wide comparison and annotation of orthologous clusters across multiple species. Nucl Acids Res 43:W78–W84. <a href="https://doi.org/10.1093/nar/gkv487">https://doi.org/10.1093/nar/gkv487</a>
+                        </p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1093%2Fnar%2Fgkv487" aria-label="View reference 25">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="/articles/cas-redirect/1%3ACAS%3A528%3ADC%252BC2sXhtVymtb3L" aria-label="View reference 25 on CAS">CAS</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;dopt=Abstract&amp;list_uids=25964301" aria-label="View reference 25 on PubMed" rel="nofollow">PubMed</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 25 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=OrthoVenn%3A%20a%20web%20server%20for%20genome%20wide%20comparison%20and%20annotation%20of%20orthologous%20clusters%20across%20multiple%20species&amp;journal=Nucl%20Acids%20Res&amp;doi=10.1093%2Fnar%2Fgkv487&amp;volume=43&amp;pages=W78-W84&amp;publication_year=2015&amp;author=Wang%2CY&amp;author=Coleman-Derr%2CD&amp;author=Chen%2CG&amp;author=Gu%2CYQ">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="C. Weinig, MC. Ungerer, LA. Dorn, " /><meta itemprop="datePublished" content="2002" /><meta itemprop="headline" content="Weinig C, Ungerer MC, Dorn LA et al (2002) Novel loci control variation in reproductive timing in Arabidopsis " /><p class="c-article-references__text" id="ref-CR26">Weinig C, Ungerer MC, Dorn LA et al (2002) Novel loci control variation in reproductive timing in <i>Arabidopsis thaliana</i> in natural environments. Genetics 162:1875–1884. <a href="https://doi.org/10.1038/35048692">https://doi.org/10.1038/35048692</a>
+                        </p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="/articles/cas-redirect/1%3ACAS%3A528%3ADC%252BD3sXht1ajs7Y%253D" aria-label="View reference 26 on CAS">CAS</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1038%2F35048692" aria-label="View reference 26">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;dopt=Abstract&amp;list_uids=12524356" aria-label="View reference 26 on PubMed" rel="nofollow">PubMed</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1462365" aria-label="View reference 26 on PubMed Central" rel="nofollow">PubMed Central</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 26 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Novel%20loci%20control%20variation%20in%20reproductive%20timing%20in%20Arabidopsis%20thaliana%20in%20natural%20environments&amp;journal=Genetics&amp;doi=10.1038%2F35048692&amp;volume=162&amp;pages=1875-1884&amp;publication_year=2002&amp;author=Weinig%2CC&amp;author=Ungerer%2CMC&amp;author=Dorn%2CLA">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="J. Wilhelm, " /><meta itemprop="datePublished" content="2003" /><meta itemprop="headline" content="Wilhelm J (2003) Real-time PCR-based method for the estimation of genome sizes. Nucl Acids Res 31:56. https://" /><p class="c-article-references__text" id="ref-CR27">Wilhelm J (2003) Real-time PCR-based method for the estimation of genome sizes. Nucl Acids Res 31:56. <a href="https://doi.org/10.1093/nar/gng056">https://doi.org/10.1093/nar/gng056</a>
+                        </p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1093%2Fnar%2Fgng056" aria-label="View reference 27">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 27 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=Real-time%20PCR-based%20method%20for%20the%20estimation%20of%20genome%20sizes&amp;journal=Nucl%20Acids%20Res&amp;doi=10.1093%2Fnar%2Fgng056&amp;volume=31&amp;publication_year=2003&amp;author=Wilhelm%2CJ">
+                    Google Scholar</a> 
+                </p></li><li class="c-article-references__item js-c-reading-companion-references-item" itemprop="citation" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle"><meta itemprop="author" content="BJM. Zonneveld, IJ. Leitch, MD. Bennett, " /><meta itemprop="datePublished" content="2005" /><meta itemprop="headline" content="Zonneveld BJM, Leitch IJ, Bennett MD (2005) First nuclear DNA amounts in more than 300 angiosperms. Ann Bot 96" /><p class="c-article-references__text" id="ref-CR28">Zonneveld BJM, Leitch IJ, Bennett MD (2005) First nuclear DNA amounts in more than 300 angiosperms. Ann Bot 96:229–244. <a href="https://doi.org/10.1093/aob/mci170">https://doi.org/10.1093/aob/mci170</a>
+                        </p><p class="c-article-references__links u-hide-print"><a data-track="click" data-track-action="outbound reference" data-track-label="link" href="https://doi.org/10.1093%2Faob%2Fmci170" aria-label="View reference 28">Article</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="/articles/cas-redirect/1%3ACAS%3A528%3ADC%252BD2MXps1ymtrs%253D" aria-label="View reference 28 on CAS">CAS</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;dopt=Abstract&amp;list_uids=15905300" aria-label="View reference 28 on PubMed" rel="nofollow">PubMed</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4246870" aria-label="View reference 28 on PubMed Central" rel="nofollow">PubMed Central</a> 
+    <a data-track="click" data-track-action="outbound reference" data-track-label="link" aria-label="Search for reference 28 on Google Scholar" href="http://scholar.google.com/scholar_lookup?&amp;title=First%20nuclear%20DNA%20amounts%20in%20more%20than%20300%20angiosperms&amp;journal=Ann%20Bot&amp;doi=10.1093%2Faob%2Fmci170&amp;volume=96&amp;pages=229-244&amp;publication_year=2005&amp;author=Zonneveld%2CBJM&amp;author=Leitch%2CIJ&amp;author=Bennett%2CMD">
+                    Google Scholar</a> 
+                </p></li></ol><p class="c-article-references__download u-hide-print"><a data-track="click" data-track-action="download citation references" data-track-label="link" href="/article/10.1007/s00425-018-3012-9-references.ris">Download references<svg width="16" height="16" class="u-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#global-icon-download"></use></svg></a></p></div></div></div></section><section aria-labelledby="Ack1" data-title="Acknowledgements"><div class="c-article-section" id="Ack1-section"><h2 class="c-article-section__title js-section-title js-c-reading-companion-sections-item" id="Ack1">Acknowledgements</h2><div class="c-article-section__content" id="Ack1-content"><p>This work was supported through grants to SSM and PL from the Natural Sciences and Engineering Research Council of Canada (Discovery Grant), Canada Research Chair Program (PL), and the Investment Agriculture Foundation of B.C. through programs it delivers on behalf of Agriculture and Agri-Food Canada and the B.C. Ministry of Agriculture and was made possible by Compute Canada/SHARCNET high-performance computing facilities.</p></div></div></section><section aria-labelledby="author-information" data-title="Author information"><div class="c-article-section" id="author-information-section"><h2 class="c-article-section__title js-section-title js-c-reading-companion-sections-item" id="author-information">Author information</h2><div class="c-article-section__content" id="author-information-content"><h3 class="c-article__sub-heading" id="affiliations">Affiliations</h3><ol class="c-article-author-affiliation__list"><li id="Aff1"><p class="c-article-author-affiliation__address">Department of Biological Sciences, Brock University, St. Catharines, ON, Canada</p><p class="c-article-author-affiliation__authors-list">Radesh P. N. Malli &amp; Ping Liang</p></li><li id="Aff2"><p class="c-article-author-affiliation__address">Department of Biology, University of British Columbia, Kelowna, BC, Canada</p><p class="c-article-author-affiliation__authors-list">Ayelign M. Adal, Lukman S. Sarker &amp; Soheil S. Mahmoud</p></li></ol><div class="js-hide u-hide-print" data-test="author-info"><span class="c-article__sub-heading">Authors</span><ol class="c-article-authors-search u-list-reset"><li id="auth-Radesh_P__N_-Malli"><span class="c-article-authors-search__title u-h3 js-search-name">Radesh P. N. Malli</span><div class="c-article-authors-search__list"><div class="c-article-authors-search__item c-article-authors-search__list-item--left"><a href="/search?dc.creator=&#34;Radesh P. N.+Malli&#34;" class="c-article-button" data-track="click" data-track-action="author link - publication" data-track-label="link">View author publications</a></div><div class="c-article-authors-search__item c-article-authors-search__list-item--right"><p class="search-in-title-js c-article-authors-search__text">You can also search for this author in
+                        <span class="c-article-identifiers"><a class="c-article-identifiers__item" href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&amp;term=Radesh P. N.+Malli" data-track="click" data-track-action="author link - pubmed" data-track-label="link">PubMed</a><span class="u-hide"> </span><a class="c-article-identifiers__item" href="http://scholar.google.co.uk/scholar?as_q=&amp;num=10&amp;btnG=Search+Scholar&amp;as_epq=&amp;as_oq=&amp;as_eq=&amp;as_occt=any&amp;as_sauthors=%22Radesh P. N.+Malli%22&amp;as_publication=&amp;as_ylo=&amp;as_yhi=&amp;as_allsubj=all&amp;hl=en" data-track="click" data-track-action="author link - scholar" data-track-label="link">Google Scholar</a></span></p></div></div></li><li id="auth-Ayelign_M_-Adal"><span class="c-article-authors-search__title u-h3 js-search-name">Ayelign M. Adal</span><div class="c-article-authors-search__list"><div class="c-article-authors-search__item c-article-authors-search__list-item--left"><a href="/search?dc.creator=&#34;Ayelign M.+Adal&#34;" class="c-article-button" data-track="click" data-track-action="author link - publication" data-track-label="link">View author publications</a></div><div class="c-article-authors-search__item c-article-authors-search__list-item--right"><p class="search-in-title-js c-article-authors-search__text">You can also search for this author in
+                        <span class="c-article-identifiers"><a class="c-article-identifiers__item" href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&amp;term=Ayelign M.+Adal" data-track="click" data-track-action="author link - pubmed" data-track-label="link">PubMed</a><span class="u-hide"> </span><a class="c-article-identifiers__item" href="http://scholar.google.co.uk/scholar?as_q=&amp;num=10&amp;btnG=Search+Scholar&amp;as_epq=&amp;as_oq=&amp;as_eq=&amp;as_occt=any&amp;as_sauthors=%22Ayelign M.+Adal%22&amp;as_publication=&amp;as_ylo=&amp;as_yhi=&amp;as_allsubj=all&amp;hl=en" data-track="click" data-track-action="author link - scholar" data-track-label="link">Google Scholar</a></span></p></div></div></li><li id="auth-Lukman_S_-Sarker"><span class="c-article-authors-search__title u-h3 js-search-name">Lukman S. Sarker</span><div class="c-article-authors-search__list"><div class="c-article-authors-search__item c-article-authors-search__list-item--left"><a href="/search?dc.creator=&#34;Lukman S.+Sarker&#34;" class="c-article-button" data-track="click" data-track-action="author link - publication" data-track-label="link">View author publications</a></div><div class="c-article-authors-search__item c-article-authors-search__list-item--right"><p class="search-in-title-js c-article-authors-search__text">You can also search for this author in
+                        <span class="c-article-identifiers"><a class="c-article-identifiers__item" href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&amp;term=Lukman S.+Sarker" data-track="click" data-track-action="author link - pubmed" data-track-label="link">PubMed</a><span class="u-hide"> </span><a class="c-article-identifiers__item" href="http://scholar.google.co.uk/scholar?as_q=&amp;num=10&amp;btnG=Search+Scholar&amp;as_epq=&amp;as_oq=&amp;as_eq=&amp;as_occt=any&amp;as_sauthors=%22Lukman S.+Sarker%22&amp;as_publication=&amp;as_ylo=&amp;as_yhi=&amp;as_allsubj=all&amp;hl=en" data-track="click" data-track-action="author link - scholar" data-track-label="link">Google Scholar</a></span></p></div></div></li><li id="auth-Ping-Liang"><span class="c-article-authors-search__title u-h3 js-search-name">Ping Liang</span><div class="c-article-authors-search__list"><div class="c-article-authors-search__item c-article-authors-search__list-item--left"><a href="/search?dc.creator=&#34;Ping+Liang&#34;" class="c-article-button" data-track="click" data-track-action="author link - publication" data-track-label="link">View author publications</a></div><div class="c-article-authors-search__item c-article-authors-search__list-item--right"><p class="search-in-title-js c-article-authors-search__text">You can also search for this author in
+                        <span class="c-article-identifiers"><a class="c-article-identifiers__item" href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&amp;term=Ping+Liang" data-track="click" data-track-action="author link - pubmed" data-track-label="link">PubMed</a><span class="u-hide"> </span><a class="c-article-identifiers__item" href="http://scholar.google.co.uk/scholar?as_q=&amp;num=10&amp;btnG=Search+Scholar&amp;as_epq=&amp;as_oq=&amp;as_eq=&amp;as_occt=any&amp;as_sauthors=%22Ping+Liang%22&amp;as_publication=&amp;as_ylo=&amp;as_yhi=&amp;as_allsubj=all&amp;hl=en" data-track="click" data-track-action="author link - scholar" data-track-label="link">Google Scholar</a></span></p></div></div></li><li id="auth-Soheil_S_-Mahmoud"><span class="c-article-authors-search__title u-h3 js-search-name">Soheil S. Mahmoud</span><div class="c-article-authors-search__list"><div class="c-article-authors-search__item c-article-authors-search__list-item--left"><a href="/search?dc.creator=&#34;Soheil S.+Mahmoud&#34;" class="c-article-button" data-track="click" data-track-action="author link - publication" data-track-label="link">View author publications</a></div><div class="c-article-authors-search__item c-article-authors-search__list-item--right"><p class="search-in-title-js c-article-authors-search__text">You can also search for this author in
+                        <span class="c-article-identifiers"><a class="c-article-identifiers__item" href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&amp;term=Soheil S.+Mahmoud" data-track="click" data-track-action="author link - pubmed" data-track-label="link">PubMed</a><span class="u-hide"> </span><a class="c-article-identifiers__item" href="http://scholar.google.co.uk/scholar?as_q=&amp;num=10&amp;btnG=Search+Scholar&amp;as_epq=&amp;as_oq=&amp;as_eq=&amp;as_occt=any&amp;as_sauthors=%22Soheil S.+Mahmoud%22&amp;as_publication=&amp;as_ylo=&amp;as_yhi=&amp;as_allsubj=all&amp;hl=en" data-track="click" data-track-action="author link - scholar" data-track-label="link">Google Scholar</a></span></p></div></div></li></ol></div><h3 class="c-article__sub-heading" id="corresponding-author">Corresponding authors</h3><p id="corresponding-author-list">Correspondence to
+                <a id="corresp-c1" rel="nofollow" href="/article/10.1007/s00425-018-3012-9/email/correspondent/c1/new">Ping Liang</a> or <a id="corresp-c2" rel="nofollow" href="/article/10.1007/s00425-018-3012-9/email/correspondent/c2/new">Soheil S. Mahmoud</a>.</p></div></div></section><section aria-labelledby="additional-information" data-title="Additional information"><div class="c-article-section" id="additional-information-section"><h2 class="c-article-section__title js-section-title js-c-reading-companion-sections-item" id="additional-information">Additional information</h2><div class="c-article-section__content" id="additional-information-content"><h3 class="c-article__sub-heading">Accession numbers</h3><p>The raw sequencing data generated from this research have been deposited into NCBI sequence read archive (SRA) database under accession SRP161522 ( bioproject accession PRJN490378).</p></div></div></section><section aria-labelledby="Sec6" data-title="Electronic supplementary material"><div class="c-article-section" id="Sec6-section"><h2 class="c-article-section__title js-section-title js-c-reading-companion-sections-item" id="Sec6">Electronic supplementary material</h2><div class="c-article-section__content" id="Sec6-content"><div data-test="supplementary-info"><div id="figshareContainer" class="c-article-figshare-container" data-test="figshare-container"></div><p>Below is the link to the electronic supplementary material.
+
+</p><div class="c-article-supplementary__item" data-test="supp-item" id="MOESM1"><h3 class="c-article-supplementary__title u-h3"><a class="print-link" data-track="click" data-track-action="view supplementary info" data-track-label="link" data-test="supp-info-link" href="https://static-content.springer.com/esm/art%3A10.1007%2Fs00425-018-3012-9/MediaObjects/425_2018_3012_MOESM1_ESM.pdf" data-supp-info-image="">Supplementary material 1 (PDF 462 kb)</a></h3></div><div class="c-article-supplementary__item" data-test="supp-item" id="MOESM2"><h3 class="c-article-supplementary__title u-h3"><a class="print-link" data-track="click" data-track-action="view supplementary info" data-track-label="link" data-test="supp-info-link" href="https://static-content.springer.com/esm/art%3A10.1007%2Fs00425-018-3012-9/MediaObjects/425_2018_3012_MOESM2_ESM.pdf" data-supp-info-image="">Supplementary material 2 (PDF 37 kb)</a></h3></div><div class="c-article-supplementary__item" data-test="supp-item" id="MOESM3"><h3 class="c-article-supplementary__title u-h3"><a class="print-link" data-track="click" data-track-action="view supplementary info" data-track-label="link" data-test="supp-info-link" href="https://static-content.springer.com/esm/art%3A10.1007%2Fs00425-018-3012-9/MediaObjects/425_2018_3012_MOESM3_ESM.pdf" data-supp-info-image="">Supplementary material 3 (PDF 95 kb)</a></h3></div></div></div></div></section><section aria-labelledby="rightslink" data-title="Rights and permissions"><div class="c-article-section" id="rightslink-section"><h2 class="c-article-section__title js-section-title js-c-reading-companion-sections-item" id="rightslink">Rights and permissions</h2><div class="c-article-section__content" id="rightslink-content">
+                <p><b>Open Access</b> This article is distributed under the terms of the Creative Commons Attribution 4.0 International License (<a href="http://creativecommons.org/licenses/by/4.0/" rel="license" itemprop="license">http://creativecommons.org/licenses/by/4.0/</a>), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made.</p>
+              <p class="c-article-rights"><a data-track="click" data-track-action="view rights and permissions" data-track-label="link" href="https://s100.copyright.com/AppDispatchServlet?title=De%20novo%20sequencing%20of%20the%20Lavandula%20angustifolia%20genome%20reveals%20highly%20duplicated%20and%20optimized%20features%20for%20essential%20oil%20production&amp;author=Radesh%20P.%20N.%20Malli%20et%20al&amp;contentID=10.1007%2Fs00425-018-3012-9&amp;copyright=The%20Author%28s%29&amp;publication=0032-0935&amp;publicationDate=2018-09-29&amp;publisherName=SpringerNature&amp;orderBeanReset=true&amp;oa=CC%20BY">Reprints and Permissions</a></p></div></div></section><section aria-labelledby="article-info" data-title="About this article"><div class="c-article-section" id="article-info-section"><h2 class="c-article-section__title js-section-title js-c-reading-companion-sections-item" id="article-info">About this article</h2><div class="c-article-section__content" id="article-info-content"><div class="c-bibliographic-information"><div class="u-hide-print c-bibliographic-information__column c-bibliographic-information__column--border"><a data-crossmark="10.1007/s00425-018-3012-9" target="_blank" rel="noopener" href="https://crossmark.crossref.org/dialog/?doi=10.1007/s00425-018-3012-9" data-track="click" data-track-action="Click Crossmark" data-track-label="link" data-test="crossmark"><img width="57" height="81" alt="Verify currency and authenticity via CrossMark" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjgxIiB3aWR0aD0iNTciIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJtMTcuMzUgMzUuNDUgMjEuMy0xNC4ydi0xNy4wM2gtMjEuMyIgZmlsbD0iIzk4OTg5OCIvPjxwYXRoIGQ9Im0zOC42NSAzNS40NS0yMS4zLTE0LjJ2LTE3LjAzaDIxLjMiIGZpbGw9IiM3NDc0NzQiLz48cGF0aCBkPSJtMjggLjVjLTEyLjk4IDAtMjMuNSAxMC41Mi0yMy41IDIzLjVzMTAuNTIgMjMuNSAyMy41IDIzLjUgMjMuNS0xMC41MiAyMy41LTIzLjVjMC02LjIzLTIuNDgtMTIuMjEtNi44OC0xNi42Mi00LjQxLTQuNC0xMC4zOS02Ljg4LTE2LjYyLTYuODh6bTAgNDEuMjVjLTkuOCAwLTE3Ljc1LTcuOTUtMTcuNzUtMTcuNzVzNy45NS0xNy43NSAxNy43NS0xNy43NSAxNy43NSA3Ljk1IDE3Ljc1IDE3Ljc1YzAgNC43MS0xLjg3IDkuMjItNS4yIDEyLjU1cy03Ljg0IDUuMi0xMi41NSA1LjJ6IiBmaWxsPSIjNTM1MzUzIi8+PHBhdGggZD0ibTQxIDM2Yy01LjgxIDYuMjMtMTUuMjMgNy40NS0yMi40MyAyLjktNy4yMS00LjU1LTEwLjE2LTEzLjU3LTcuMDMtMjEuNWwtNC45Mi0zLjExYy00Ljk1IDEwLjctMS4xOSAyMy40MiA4Ljc4IDI5LjcxIDkuOTcgNi4zIDIzLjA3IDQuMjIgMzAuNi00Ljg2eiIgZmlsbD0iIzljOWM5YyIvPjxwYXRoIGQ9Im0uMiA1OC40NWMwLS43NS4xMS0xLjQyLjMzLTIuMDFzLjUyLTEuMDkuOTEtMS41Yy4zOC0uNDEuODMtLjczIDEuMzQtLjk0LjUxLS4yMiAxLjA2LS4zMiAxLjY1LS4zMi41NiAwIDEuMDYuMTEgMS41MS4zNS40NC4yMy44MS41IDEuMS44MWwtLjkxIDEuMDFjLS4yNC0uMjQtLjQ5LS40Mi0uNzUtLjU2LS4yNy0uMTMtLjU4LS4yLS45My0uMi0uMzkgMC0uNzMuMDgtMS4wNS4yMy0uMzEuMTYtLjU4LjM3LS44MS42Ni0uMjMuMjgtLjQxLjYzLS41MyAxLjA0LS4xMy40MS0uMTkuODgtLjE5IDEuMzkgMCAxLjA0LjIzIDEuODYuNjggMi40Ni40NS41OSAxLjA2Ljg4IDEuODQuODguNDEgMCAuNzctLjA3IDEuMDctLjIzcy41OS0uMzkuODUtLjY4bC45MSAxYy0uMzguNDMtLjguNzYtMS4yOC45OS0uNDcuMjItMSAuMzQtMS41OC4zNC0uNTkgMC0xLjEzLS4xLTEuNjQtLjMxLS41LS4yLS45NC0uNTEtMS4zMS0uOTEtLjM4LS40LS42Ny0uOS0uODgtMS40OC0uMjItLjU5LS4zMy0xLjI2LS4zMy0yLjAyem04LjQtNS4zM2gxLjYxdjIuNTRsLS4wNSAxLjMzYy4yOS0uMjcuNjEtLjUxLjk2LS43MnMuNzYtLjMxIDEuMjQtLjMxYy43MyAwIDEuMjcuMjMgMS42MS43MS4zMy40Ny41IDEuMTQuNSAyLjAydjQuMzFoLTEuNjF2LTQuMWMwLS41Ny0uMDgtLjk3LS4yNS0xLjIxLS4xNy0uMjMtLjQ1LS4zNS0uODMtLjM1LS4zIDAtLjU2LjA4LS43OS4yMi0uMjMuMTUtLjQ5LjM2LS43OC42NHY0LjhoLTEuNjF6bTcuMzcgNi40NWMwLS41Ni4wOS0xLjA2LjI2LTEuNTEuMTgtLjQ1LjQyLS44My43MS0xLjE0LjI5LS4zLjYzLS41NCAxLjAxLS43MS4zOS0uMTcuNzgtLjI1IDEuMTgtLjI1LjQ3IDAgLjg4LjA4IDEuMjMuMjQuMzYuMTYuNjUuMzguODkuNjdzLjQyLjYzLjU0IDEuMDNjLjEyLjQxLjE4Ljg0LjE4IDEuMzIgMCAuMzItLjAyLjU3LS4wNy43NmgtNC4zNmMuMDcuNjIuMjkgMS4xLjY1IDEuNDQuMzYuMzMuODIuNSAxLjM4LjUuMjkgMCAuNTctLjA0LjgzLS4xM3MuNTEtLjIxLjc2LS4zN2wuNTUgMS4wMWMtLjMzLjIxLS42OS4zOS0xLjA5LjUzLS40MS4xNC0uODMuMjEtMS4yNi4yMS0uNDggMC0uOTItLjA4LTEuMzQtLjI1LS40MS0uMTYtLjc2LS40LTEuMDctLjctLjMxLS4zMS0uNTUtLjY5LS43Mi0xLjEzLS4xOC0uNDQtLjI2LS45NS0uMjYtMS41MnptNC42LS42MmMwLS41NS0uMTEtLjk4LS4zNC0xLjI4LS4yMy0uMzEtLjU4LS40Ny0xLjA2LS40Ny0uNDEgMC0uNzcuMTUtMS4wNy40NS0uMzEuMjktLjUuNzMtLjU4IDEuM3ptMi41LjYyYzAtLjU3LjA5LTEuMDguMjgtMS41My4xOC0uNDQuNDMtLjgyLjc1LTEuMTNzLjY5LS41NCAxLjEtLjcxYy40Mi0uMTYuODUtLjI0IDEuMzEtLjI0LjQ1IDAgLjg0LjA4IDEuMTcuMjNzLjYxLjM0Ljg1LjU3bC0uNzcgMS4wMmMtLjE5LS4xNi0uMzgtLjI4LS41Ni0uMzctLjE5LS4wOS0uMzktLjE0LS42MS0uMTQtLjU2IDAtMS4wMS4yMS0xLjM1LjYzLS4zNS40MS0uNTIuOTctLjUyIDEuNjcgMCAuNjkuMTcgMS4yNC41MSAxLjY2LjM0LjQxLjc4LjYyIDEuMzIuNjIuMjggMCAuNTQtLjA2Ljc4LS4xNy4yNC0uMTIuNDUtLjI2LjY0LS40MmwuNjcgMS4wM2MtLjMzLjI5LS42OS41MS0xLjA4LjY1LS4zOS4xNS0uNzguMjMtMS4xOC4yMy0uNDYgMC0uOS0uMDgtMS4zMS0uMjQtLjQtLjE2LS43NS0uMzktMS4wNS0uN3MtLjUzLS42OS0uNy0xLjEzYy0uMTctLjQ1LS4yNS0uOTYtLjI1LTEuNTN6bTYuOTEtNi40NWgxLjU4djYuMTdoLjA1bDIuNTQtMy4xNmgxLjc3bC0yLjM1IDIuOCAyLjU5IDQuMDdoLTEuNzVsLTEuNzctMi45OC0xLjA4IDEuMjN2MS43NWgtMS41OHptMTMuNjkgMS4yN2MtLjI1LS4xMS0uNS0uMTctLjc1LS4xNy0uNTggMC0uODcuMzktLjg3IDEuMTZ2Ljc1aDEuMzR2MS4yN2gtMS4zNHY1LjZoLTEuNjF2LTUuNmgtLjkydi0xLjJsLjkyLS4wN3YtLjcyYzAtLjM1LjA0LS42OC4xMy0uOTguMDgtLjMxLjIxLS41Ny40LS43OXMuNDItLjM5LjcxLS41MWMuMjgtLjEyLjYzLS4xOCAxLjA0LS4xOC4yNCAwIC40OC4wMi42OS4wNy4yMi4wNS40MS4xLjU3LjE3em0uNDggNS4xOGMwLS41Ny4wOS0xLjA4LjI3LTEuNTMuMTctLjQ0LjQxLS44Mi43Mi0xLjEzLjMtLjMxLjY1LS41NCAxLjA0LS43MS4zOS0uMTYuOC0uMjQgMS4yMy0uMjRzLjg0LjA4IDEuMjQuMjRjLjQuMTcuNzQuNCAxLjA0Ljcxcy41NC42OS43MiAxLjEzYy4xOS40NS4yOC45Ni4yOCAxLjUzcy0uMDkgMS4wOC0uMjggMS41M2MtLjE4LjQ0LS40Mi44Mi0uNzIgMS4xM3MtLjY0LjU0LTEuMDQuNy0uODEuMjQtMS4yNC4yNC0uODQtLjA4LTEuMjMtLjI0LS43NC0uMzktMS4wNC0uN2MtLjMxLS4zMS0uNTUtLjY5LS43Mi0xLjEzLS4xOC0uNDUtLjI3LS45Ni0uMjctMS41M3ptMS42NSAwYzAgLjY5LjE0IDEuMjQuNDMgMS42Ni4yOC40MS42OC42MiAxLjE4LjYyLjUxIDAgLjktLjIxIDEuMTktLjYyLjI5LS40Mi40NC0uOTcuNDQtMS42NiAwLS43LS4xNS0xLjI2LS40NC0xLjY3LS4yOS0uNDItLjY4LS42My0xLjE5LS42My0uNSAwLS45LjIxLTEuMTguNjMtLjI5LjQxLS40My45Ny0uNDMgMS42N3ptNi40OC0zLjQ0aDEuMzNsLjEyIDEuMjFoLjA1Yy4yNC0uNDQuNTQtLjc5Ljg4LTEuMDIuMzUtLjI0LjctLjM2IDEuMDctLjM2LjMyIDAgLjU5LjA1Ljc4LjE0bC0uMjggMS40LS4zMy0uMDljLS4xMS0uMDEtLjIzLS4wMi0uMzgtLjAyLS4yNyAwLS41Ni4xLS44Ni4zMXMtLjU1LjU4LS43NyAxLjF2NC4yaC0xLjYxem0tNDcuODcgMTVoMS42MXY0LjFjMCAuNTcuMDguOTcuMjUgMS4yLjE3LjI0LjQ0LjM1LjgxLjM1LjMgMCAuNTctLjA3LjgtLjIyLjIyLS4xNS40Ny0uMzkuNzMtLjczdi00LjdoMS42MXY2Ljg3aC0xLjMybC0uMTItMS4wMWgtLjA0Yy0uMy4zNi0uNjMuNjQtLjk4Ljg2LS4zNS4yMS0uNzYuMzItMS4yNC4zMi0uNzMgMC0xLjI3LS4yNC0xLjYxLS43MS0uMzMtLjQ3LS41LTEuMTQtLjUtMi4wMnptOS40NiA3LjQzdjIuMTZoLTEuNjF2LTkuNTloMS4zM2wuMTIuNzJoLjA1Yy4yOS0uMjQuNjEtLjQ1Ljk3LS42My4zNS0uMTcuNzItLjI2IDEuMS0uMjYuNDMgMCAuODEuMDggMS4xNS4yNC4zMy4xNy42MS40Ljg0LjcxLjI0LjMxLjQxLjY4LjUzIDEuMTEuMTMuNDIuMTkuOTEuMTkgMS40NCAwIC41OS0uMDkgMS4xMS0uMjUgMS41Ny0uMTYuNDctLjM4Ljg1LS42NSAxLjE2LS4yNy4zMi0uNTguNTYtLjk0LjczLS4zNS4xNi0uNzIuMjUtMS4xLjI1LS4zIDAtLjYtLjA3LS45LS4ycy0uNTktLjMxLS44Ny0uNTZ6bTAtMi4zYy4yNi4yMi41LjM3LjczLjQ1LjI0LjA5LjQ2LjEzLjY2LjEzLjQ2IDAgLjg0LS4yIDEuMTUtLjYuMzEtLjM5LjQ2LS45OC40Ni0xLjc3IDAtLjY5LS4xMi0xLjIyLS4zNS0xLjYxLS4yMy0uMzgtLjYxLS41Ny0xLjEzLS41Ny0uNDkgMC0uOTkuMjYtMS41Mi43N3ptNS44Ny0xLjY5YzAtLjU2LjA4LTEuMDYuMjUtMS41MS4xNi0uNDUuMzctLjgzLjY1LTEuMTQuMjctLjMuNTgtLjU0LjkzLS43MXMuNzEtLjI1IDEuMDgtLjI1Yy4zOSAwIC43My4wNyAxIC4yLjI3LjE0LjU0LjMyLjgxLjU1bC0uMDYtMS4xdi0yLjQ5aDEuNjF2OS44OGgtMS4zM2wtLjExLS43NGgtLjA2Yy0uMjUuMjUtLjU0LjQ2LS44OC42NC0uMzMuMTgtLjY5LjI3LTEuMDYuMjctLjg3IDAtMS41Ni0uMzItMi4wNy0uOTVzLS43Ni0xLjUxLS43Ni0yLjY1em0xLjY3LS4wMWMwIC43NC4xMyAxLjMxLjQgMS43LjI2LjM4LjY1LjU4IDEuMTUuNTguNTEgMCAuOTktLjI2IDEuNDQtLjc3di0zLjIxYy0uMjQtLjIxLS40OC0uMzYtLjctLjQ1LS4yMy0uMDgtLjQ2LS4xMi0uNy0uMTItLjQ1IDAtLjgyLjE5LTEuMTMuNTktLjMxLjM5LS40Ni45NS0uNDYgMS42OHptNi4zNSAxLjU5YzAtLjczLjMyLTEuMy45Ny0xLjcxLjY0LS40IDEuNjctLjY4IDMuMDgtLjg0IDAtLjE3LS4wMi0uMzQtLjA3LS41MS0uMDUtLjE2LS4xMi0uMy0uMjItLjQzcy0uMjItLjIyLS4zOC0uM2MtLjE1LS4wNi0uMzQtLjEtLjU4LS4xLS4zNCAwLS42OC4wNy0xIC4ycy0uNjMuMjktLjkzLjQ3bC0uNTktMS4wOGMuMzktLjI0LjgxLS40NSAxLjI4LS42My40Ny0uMTcuOTktLjI2IDEuNTQtLjI2Ljg2IDAgMS41MS4yNSAxLjkzLjc2cy42MyAxLjI1LjYzIDIuMjF2NC4wN2gtMS4zMmwtLjEyLS43NmgtLjA1Yy0uMy4yNy0uNjMuNDgtLjk4LjY2cy0uNzMuMjctMS4xNC4yN2MtLjYxIDAtMS4xLS4xOS0xLjQ4LS41Ni0uMzgtLjM2LS41Ny0uODUtLjU3LTEuNDZ6bTEuNTctLjEyYzAgLjMuMDkuNTMuMjcuNjcuMTkuMTQuNDIuMjEuNzEuMjEuMjggMCAuNTQtLjA3Ljc3LS4ycy40OC0uMzEuNzMtLjU2di0xLjU0Yy0uNDcuMDYtLjg2LjEzLTEuMTguMjMtLjMxLjA5LS41Ny4xOS0uNzYuMzFzLS4zMy4yNS0uNDEuNGMtLjA5LjE1LS4xMy4zMS0uMTMuNDh6bTYuMjktMy42M2gtLjk4di0xLjJsMS4wNi0uMDcuMi0xLjg4aDEuMzR2MS44OGgxLjc1djEuMjdoLTEuNzV2My4yOGMwIC44LjMyIDEuMi45NyAxLjIuMTIgMCAuMjQtLjAxLjM3LS4wNC4xMi0uMDMuMjQtLjA3LjM0LS4xMWwuMjggMS4xOWMtLjE5LjA2LS40LjEyLS42NC4xNy0uMjMuMDUtLjQ5LjA4LS43Ni4wOC0uNCAwLS43NC0uMDYtMS4wMi0uMTgtLjI3LS4xMy0uNDktLjMtLjY3LS41Mi0uMTctLjIxLS4zLS40OC0uMzctLjc4LS4wOC0uMy0uMTItLjY0LS4xMi0xLjAxem00LjM2IDIuMTdjMC0uNTYuMDktMS4wNi4yNy0xLjUxcy40MS0uODMuNzEtMS4xNGMuMjktLjMuNjMtLjU0IDEuMDEtLjcxLjM5LS4xNy43OC0uMjUgMS4xOC0uMjUuNDcgMCAuODguMDggMS4yMy4yNC4zNi4xNi42NS4zOC44OS42N3MuNDIuNjMuNTQgMS4wM2MuMTIuNDEuMTguODQuMTggMS4zMiAwIC4zMi0uMDIuNTctLjA3Ljc2aC00LjM3Yy4wOC42Mi4yOSAxLjEuNjUgMS40NC4zNi4zMy44Mi41IDEuMzguNS4zIDAgLjU4LS4wNC44NC0uMTMuMjUtLjA5LjUxLS4yMS43Ni0uMzdsLjU0IDEuMDFjLS4zMi4yMS0uNjkuMzktMS4wOS41M3MtLjgyLjIxLTEuMjYuMjFjLS40NyAwLS45Mi0uMDgtMS4zMy0uMjUtLjQxLS4xNi0uNzctLjQtMS4wOC0uNy0uMy0uMzEtLjU0LS42OS0uNzItMS4xMy0uMTctLjQ0LS4yNi0uOTUtLjI2LTEuNTJ6bTQuNjEtLjYyYzAtLjU1LS4xMS0uOTgtLjM0LTEuMjgtLjIzLS4zMS0uNTgtLjQ3LTEuMDYtLjQ3LS40MSAwLS43Ny4xNS0xLjA4LjQ1LS4zMS4yOS0uNS43My0uNTcgMS4zem0zLjAxIDIuMjNjLjMxLjI0LjYxLjQzLjkyLjU3LjMuMTMuNjMuMi45OC4yLjM4IDAgLjY1LS4wOC44My0uMjNzLjI3LS4zNS4yNy0uNmMwLS4xNC0uMDUtLjI2LS4xMy0uMzctLjA4LS4xLS4yLS4yLS4zNC0uMjgtLjE0LS4wOS0uMjktLjE2LS40Ny0uMjNsLS41My0uMjJjLS4yMy0uMDktLjQ2LS4xOC0uNjktLjMtLjIzLS4xMS0uNDQtLjI0LS42Mi0uNHMtLjMzLS4zNS0uNDUtLjU1Yy0uMTItLjIxLS4xOC0uNDYtLjE4LS43NSAwLS42MS4yMy0xLjEuNjgtMS40OS40NC0uMzggMS4wNi0uNTcgMS44My0uNTcuNDggMCAuOTEuMDggMS4yOS4yNXMuNzEuMzYuOTkuNTdsLS43NC45OGMtLjI0LS4xNy0uNDktLjMyLS43My0uNDItLjI1LS4xMS0uNTEtLjE2LS43OC0uMTYtLjM1IDAtLjYuMDctLjc2LjIxLS4xNy4xNS0uMjUuMzMtLjI1LjU0IDAgLjE0LjA0LjI2LjEyLjM2cy4xOC4xOC4zMS4yNmMuMTQuMDcuMjkuMTQuNDYuMjFsLjU0LjE5Yy4yMy4wOS40Ny4xOC43LjI5cy40NC4yNC42NC40Yy4xOS4xNi4zNC4zNS40Ni41OC4xMS4yMy4xNy41LjE3LjgyIDAgLjMtLjA2LjU4LS4xNy44My0uMTIuMjYtLjI5LjQ4LS41MS42OC0uMjMuMTktLjUxLjM0LS44NC40NS0uMzQuMTEtLjcyLjE3LTEuMTUuMTctLjQ4IDAtLjk1LS4wOS0xLjQxLS4yNy0uNDYtLjE5LS44Ni0uNDEtMS4yLS42OHoiIGZpbGw9IiM1MzUzNTMiLz48L2c+PC9zdmc+" /></a></div><div class="c-bibliographic-information__column"><h3 class="c-article__sub-heading" id="citeas">Cite this article</h3><p class="c-bibliographic-information__citation">Malli, R.P.N., Adal, A.M., Sarker, L.S. <i>et al.</i> De novo sequencing of the <i>Lavandula angustifolia</i> genome reveals highly duplicated and optimized features for essential oil production.
+                    <i>Planta</i> <b>249, </b>251–256 (2019). https://doi.org/10.1007/s00425-018-3012-9</p><p class="c-bibliographic-information__download-citation u-hide-print"><a data-test="citation-link" data-track="click" data-track-action="download article citation" data-track-label="link" data-track-external="" href="/article/10.1007/s00425-018-3012-9.ris">Download citation<svg width="16" height="16" class="u-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#global-icon-download"></use></svg></a></p><ul class="c-bibliographic-information__list" data-test="publication-history"><li class="c-bibliographic-information__list-item"><p>Received<span class="u-hide">: </span><span class="c-bibliographic-information__value"><time datetime="2018-08-22">22 August 2018</time></span></p></li><li class="c-bibliographic-information__list-item"><p>Accepted<span class="u-hide">: </span><span class="c-bibliographic-information__value"><time datetime="2018-09-15">15 September 2018</time></span></p></li><li class="c-bibliographic-information__list-item"><p>Published<span class="u-hide">: </span><span class="c-bibliographic-information__value"><time datetime="2018-09-29">29 September 2018</time></span></p></li><li class="c-bibliographic-information__list-item"><p>Issue Date<span class="u-hide">: </span><span class="c-bibliographic-information__value"><time datetime="2019-01-31">31 January 2019</time></span></p></li><li class="c-bibliographic-information__list-item c-bibliographic-information__list-item--doi"><p><abbr title="Digital Object Identifier">DOI</abbr><span class="u-hide">: </span><span class="c-bibliographic-information__value"><a href="https://doi.org/10.1007/s00425-018-3012-9" data-track="click" data-track-action="view doi" data-track-label="link" itemprop="sameAs">https://doi.org/10.1007/s00425-018-3012-9</a></span></p></li></ul><div data-component="share-box"></div><h3 class="c-article__sub-heading">Keywords</h3><ul class="c-article-subject-list"><li class="c-article-subject-list__subject"><span itemprop="about">
+                <i>Lavandula angustifolia</i>
+              </span></li><li class="c-article-subject-list__subject"><span itemprop="about">Genome</span></li><li class="c-article-subject-list__subject"><span itemprop="about">Transcriptome</span></li><li class="c-article-subject-list__subject"><span itemprop="about">Illumina sequencing</span></li><li class="c-article-subject-list__subject"><span itemprop="about">Isoprenoid</span></li><li class="c-article-subject-list__subject"><span itemprop="about">Essential oil</span></li></ul><div data-component="article-info-list"></div></div></div></div></div></section>
+                </div>
+            </article>
+        </main>
+
+        <div class="c-article-extras u-text-sm u-hide-print" id="sidebar" data-container-type="reading-companion" data-track-component="reading companion">
+            <aside>
+                <div data-test="download-article-link-wrapper">
+                    
+    <div class="c-pdf-download u-clear-both">
+        <a href="https://link.springer.com/content/pdf/10.1007/s00425-018-3012-9.pdf" class="c-pdf-download__link" data-article-pdf="true" data-readcube-pdf-url="true" data-test="pdf-link" data-draft-ignore="true" data-track="click" data-track-action="download pdf" data-track-label="button" data-track-external  download>
+            
+                <span>Download PDF</span>
+                <svg aria-hidden="true" focusable="false" width="16" height="16" class="u-icon"><use xlink:href="#global-icon-download"/></svg>
+            
+        </a>
+    </div>
+
+                </div>
+
+                <div data-test="collections">
+                    <div id="SpringerLinkArticleCollections">
+    
+        <aside>
+            <div class="c-article-associated-content__container">
+                <h2 class="c-article-associated-content__title u-h3">Associated Content</h2>
+                
+                    <div class="c-article-associated-content__collection collection">
+                        <section>
+                            <p class="c-article-associated-content__collection-label">Part of a collection:</p>
+                            <h3 class="c-article-associated-content__collection-title u-h3" itemprop="name headline">
+                                <a
+                                    
+                                    href="/journal/425/topicalCollection/AC_117a06e20e1a5fcd3144171e3e5936ed"
+                                    
+                                    data-track="click" data-track-action="view collection" data-track-label="link">Terpenes and Isoprenoids</a>
+                            </h3>
+                        </section>
+                    </div>
+                
+            </div>
+        </aside>
+    
+</div>
+
+                </div>
+
+                <div data-test="editorial-summary">
+                    
+                </div>
+
+                <div class="c-reading-companion">
+                    <div class="c-reading-companion__sticky" data-component="reading-companion-sticky" data-test="reading-companion-sticky">
+                        
+
+                        <div class="c-reading-companion__panel c-reading-companion__sections c-reading-companion__panel--active" id="tabpanel-sections">
+                            <div class="js-ad">
+    <aside class="c-ad c-ad--300x250">
+        <div class="c-ad__inner">
+            <p class="c-ad__label">Advertisement</p>
+            <div id="div-gpt-ad-MPU1" data-gpt-unitpath="/270604982/springerlink/425/article" data-gpt-sizes="300x250" data-gpt-targeting="pos=MPU1;articleid=3012;"></div>
+        </div>
+    </aside>
+</div>
+
+                        </div>
+                        <div class="c-reading-companion__panel c-reading-companion__figures c-reading-companion__panel--full-width" id="tabpanel-figures"></div>
+                        <div class="c-reading-companion__panel c-reading-companion__references c-reading-companion__panel--full-width" id="tabpanel-references"></div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+
+        
+    <footer class="app-footer" role="contentinfo">
+        <div class="app-footer__aside-wrapper u-hide-print">
+            <div class="app-footer__container">
+                <p class="app-footer__strapline">Over 10 million scientific documents at your fingertips</p>
+                
+                    <div class="app-footer__edition" data-component="SV.EditionSwitcher">
+                        <span class="u-visually-hidden" data-role="button-dropdown__title" data-btn-text="Switch between Academic & Corporate Edition">Switch Edition</span>
+                        <ul class="app-footer-edition-list" data-role="button-dropdown__content" data-test="footer-edition-switcher-list">
+                            <li class="selected">
+                                <a data-test="footer-academic-link"
+                                   href="/siteEdition/link"
+                                   id="siteedition-academic-link">Academic Edition</a>
+                            </li>
+                            <li>
+                                <a data-test="footer-corporate-link"
+                                   href="/siteEdition/rd"
+                                   id="siteedition-corporate-link">Corporate Edition</a>
+                            </li>
+                        </ul>
+                    </div>
+                
+            </div>
+        </div>
+        <div class="app-footer__container">
+            <ul class="app-footer__nav u-hide-print">
+                <li><a href="/">Home</a></li>
+                <li><a href="/impressum">Impressum</a></li>
+                <li><a href="/termsandconditions">Legal information</a></li>
+                <li><a href="/privacystatement">Privacy statement</a></li>
+                <li><a href="https://www.springernature.com/ccpa">California Privacy Statement</a></li>
+                <li><a href="/cookiepolicy">How we use cookies</a></li>
+                
+                <li><a class="optanon-toggle-display" href="javascript:void(0);">Manage cookies/Do not sell my data</a></li>
+                
+                <li><a href="/accessibility">Accessibility</a></li>
+                <li><a id="contactus-footer-link" href="/contactus">Contact us</a></li>
+            </ul>
+            <div class="c-user-metadata">
+    
+        <p class="c-user-metadata__item">
+            <span data-test="footer-user-login-status">Not logged in</span>
+            <span data-test="footer-user-ip"> - 210.73.40.86</span>
+        </p>
+        <p class="c-user-metadata__item" data-test="footer-business-partners">
+            China Institute of Science &amp; Technology acting through National Science and (3000202650)  - SpringerProtocols CAS Consortium (3001279426)  - 4563 SpringerLink China CAS eBook Consortium - 2006-9 copyright (3000563902)  - 11724 SpringerLink China CAS eBook Consortium 2013-2015 copyright year (3000942087)  - SpringerLink China CAS eBook Consortium - STM Collection (3002235069)  - Springer CAS ejournal  Consortium (3002917720)  - Institute of Genetics and Developmental Biology, CAS (3000092839)  - 13677 SpringerProtocols CAS Consortium (3001132979)  - China CAS eJournal Consortium 2014-2016 14742 (3991446084)  - 2011 China CAS Trial Consortium (3000520700)  - 9040 SpringerLink CAS eJournal Consortium (3000591267)  - Genetics and Developmental Biology (1600131676)  - 11704 SpringerMaterials China CAS Consortium (3000940553)  - 6588 SpringerLink China CAS eBook Consortium 2010-2012 copyrig (3000137164)  - 5857 SpringerLink CAS  eJournal Consortium (3000163406) 
+        </p>
+
+    
+</div>
+
+            <a class="app-footer__parent-logo" target="_blank" rel="noopener" href="//www.springernature.com"  title="Go to Springer Nature">
+                <span class="u-visually-hidden">Springer Nature</span>
+                <svg width="125" height="12" focusable="false" aria-hidden="true">
+                    <image width="125" height="12" alt="Springer Nature logo"
+                           src=/oscar-static/images/springerlink/png/springernature-60a72a849b.png
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
+                           xlink:href=/oscar-static/images/springerlink/svg/springernature-ecf01c77dd.svg>
+                    </image>
+                </svg>
+            </a>
+            <p class="app-footer__copyright">&copy; 2021 Springer Nature Switzerland AG. Part of <a target="_blank" rel="noopener" href="//www.springernature.com">Springer Nature</a>.</p>
+            
+        </div>
+        
+    <svg class="u-hide hide">
+        <symbol id="global-icon-chevron-right" viewBox="0 0 16 16">
+            <path d="M7.782 7L5.3 4.518c-.393-.392-.4-1.022-.02-1.403a1.001 1.001 0 011.417 0l4.176 4.177a1.001 1.001 0 010 1.416l-4.176 4.177a.991.991 0 01-1.4.016 1 1 0 01.003-1.42L7.782 9l1.013-.998z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-download" viewBox="0 0 16 16">
+            <path d="M2 14c0-.556.449-1 1.002-1h9.996a.999.999 0 110 2H3.002A1.006 1.006 0 012 14zM9 2v6.8l2.482-2.482c.392-.392 1.022-.4 1.403-.02a1.001 1.001 0 010 1.417l-4.177 4.177a1.001 1.001 0 01-1.416 0L3.115 7.715a.991.991 0 01-.016-1.4 1 1 0 011.42.003L7 8.8V2c0-.55.444-.996 1-.996.552 0 1 .445 1 .996z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-email" viewBox="0 0 18 18">
+            <path d="M1.995 2h14.01A2 2 0 0118 4.006v9.988A2 2 0 0116.005 16H1.995A2 2 0 010 13.994V4.006A2 2 0 011.995 2zM1 13.994A1 1 0 001.995 15h14.01A1 1 0 0017 13.994V4.006A1 1 0 0016.005 3H1.995A1 1 0 001 4.006zM9 11L2 7V5.557l7 4 7-4V7z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-institution" viewBox="0 0 18 18">
+            <path d="M14 8a1 1 0 011 1v6h1.5a.5.5 0 01.5.5v.5h.5a.5.5 0 01.5.5V18H0v-1.5a.5.5 0 01.5-.5H1v-.5a.5.5 0 01.5-.5H3V9a1 1 0 112 0v6h8V9a1 1 0 011-1zM6 8l2 1v4l-2 1zm6 0v6l-2-1V9zM9.573.401l7.036 4.925A.92.92 0 0116.081 7H1.92a.92.92 0 01-.528-1.674L8.427.401a1 1 0 011.146 0zM9 2.441L5.345 5h7.31z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="global-icon-search" viewBox="0 0 22 22">
+            <path fill-rule="evenodd" d="M21.697 20.261a1.028 1.028 0 01.01 1.448 1.034 1.034 0 01-1.448-.01l-4.267-4.267A9.812 9.811 0 010 9.812a9.812 9.811 0 1117.43 6.182zM9.812 18.222A8.41 8.41 0 109.81 1.403a8.41 8.41 0 000 16.82z"/>
+        </symbol>
+        <symbol id="icon-info" viewBox="0 0 18 18">
+            <path d="m9 0c4.9705627 0 9 4.02943725 9 9 0 4.9705627-4.0294373 9-9 9-4.97056275 0-9-4.0294373-9-9 0-4.97056275 4.02943725-9 9-9zm0 7h-1.5l-.11662113.00672773c-.49733868.05776511-.88337887.48043643-.88337887.99327227 0 .47338693.32893365.86994729.77070917.97358929l.1126697.01968298.11662113.00672773h.5v3h-.5l-.11662113.0067277c-.42082504.0488782-.76196299.3590206-.85696816.7639815l-.01968298.1126697-.00672773.1166211.00672773.1166211c.04887817.4208251.35902055.761963.76398144.8569682l.1126697.019683.11662113.0067277h3l.1166211-.0067277c.4973387-.0577651.8833789-.4804365.8833789-.9932723 0-.4733869-.3289337-.8699473-.7707092-.9735893l-.1126697-.019683-.1166211-.0067277h-.5v-4l-.00672773-.11662113c-.04887817-.42082504-.35902055-.76196299-.76398144-.85696816l-.1126697-.01968298zm0-3.25c-.69035594 0-1.25.55964406-1.25 1.25s.55964406 1.25 1.25 1.25 1.25-.55964406 1.25-1.25-.55964406-1.25-1.25-1.25z" fill-rule="evenodd"/>
+        </symbol>
+        <symbol id="icon-chevron-down" viewBox="0 0 16 16">
+            <path d="m5.58578644 3-3.29289322-3.29289322c-.39052429-.39052429-.39052429-1.02368927 0-1.41421356s1.02368927-.39052429 1.41421356 0l4 4c.39052429.39052429.39052429 1.02368927 0 1.41421356l-4 4c-.39052429.39052429-1.02368927.39052429-1.41421356 0s-.39052429-1.02368927 0-1.41421356z" fill-rule="evenodd" transform="matrix(0 1 -1 0 11 1)"/>
+        </symbol>
+    </svg>
+
+    </footer>
+
+
+
+    </div>
+    
+    
+</body>
+</html>

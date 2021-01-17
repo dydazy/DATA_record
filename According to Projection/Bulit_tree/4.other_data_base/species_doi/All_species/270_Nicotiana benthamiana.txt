@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html lang="en"     class="pb-page"  data-request-id="6b4fcbb7-9d77-4973-82ee-de529a4993b7"  
+><head data-pb-dropzone="head"><meta name="pbContext" content=";journal:journal:mpmi;page:string:Article/Chapter View;ctype:string:Journal Content;subPage:string:Abstract;website:website:apsjournals.apsnet.org;issue:issue:10.1094/mpmi.2012.25.issue-12;article:article:10.1094/MPMI-06-12-0148-TA;requestedJournal:journal:mpmi;wgroup:string:Publication Websites;pageGroup:string:Publication Pages"/>
+
+
+
+
+        <link rel="schema.DC" href="http://purl.org/DC/elements/1.0/" /><meta name="dc.Title" content="A Draft Genome Sequence of Nicotiana benthamiana to Enhance Molecular Plant-Microbe Biology Research" /><meta name="dc.Creator" content="Aureliano  Bombarely" /><meta name="dc.Creator" content="Hernan G.  Rosli" /><meta name="dc.Creator" content="Julia  Vrebalov" /><meta name="dc.Creator" content="Peter  Moffett" /><meta name="dc.Creator" content="Lukas A.  Mueller" /><meta name="dc.Creator" content="Gregory B.  Martin" /><meta name="dc.Description" content="Nicotiana benthamiana is a widely used model plant species for the study of fundamental questions in molecular plant-microbe interactions and other areas of plant biology. This popularity derives f..." /><meta name="Description" content="Nicotiana benthamiana is a widely used model plant species for the study of fundamental questions in molecular plant-microbe interactions and other areas of plant biology. This popularity derives f..." /><meta name="dc.Publisher" content=" The American Phytopathological Society " /><meta name="dc.Date" scheme="WTN8601" content="2012-11-07" /><meta name="dc.Type" content="research-article" /><meta name="dc.Format" content="text/HTML" /><meta name="dc.Identifier" scheme="publisher-id" content="MPMI.25.12.1523" /><meta name="dc.Identifier" scheme="doi" content="10.1094/MPMI-06-12-0148-TA" /><meta name="dc.Source" content="http://dx.doi.org/10.1094/MPMI-06-12-0148-TA" /><meta name="dc.Language" content="en" /><meta name="dc.Coverage" content="world" /><meta name="citation_fulltext_world_readable" content=""/>
+        
+        
+
+        
+            <link rel="meta" type="application/atom+xml" href="https://doi.org/10.1094%2FMPMI-06-12-0148-TA" />
+            <link rel="meta" type="application/rdf+json" href="https://doi.org/10.1094%2FMPMI-06-12-0148-TA" />
+            <link rel="meta" type="application/unixref+xml" href="https://doi.org/10.1094%2FMPMI-06-12-0148-TA" />
+        
+    
+    
+
+
+<title>A Draft Genome Sequence of Nicotiana benthamiana to Enhance Molecular Plant-Microbe Biology Research | Molecular Plant-Microbe Interactions®</title>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta charset="UTF-8">
+
+
+
+
+
+
+
+
+
+<meta name="robots" content="noarchive"/>
+<meta name="pb-robots-disabled">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    <meta property="og:title" content="A Draft Genome Sequence of Nicotiana benthamiana to Enhance Molecular Plant-Microbe Biology Research" />
+
+
+
+        <meta property="og:url" content="https://apsjournals.apsnet.org/doi/abs/10.1094/MPMI-06-12-0148-TA"/>
+    
+
+
+
+
+
+
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1, user-scalable=0"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/wro/jt7t~product.css">
+
+
+    <link rel="stylesheet" href="/products/aps/releasedAssets/css/build-19493a0bc7dff835a4d7.css"/><link rel="stylesheet" href="/products/aps/releasedAssets/css/print-19493a0bc7dff835a4d7.css" media="print"/>
+
+
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="stylesheet" type="text/css" href="/pb-assets/head-metadata/temp-1557953042773.css">
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+    
+        
+            <script type="text/javascript">
+                (function (i, s, o, g, r, a, m) {
+                    i['GoogleAnalyticsObject'] = r;
+                    i[r] = i[r] || function () {
+                        (i[r].q = i[r].q || []).push(arguments)
+                    }, i[r].l = 1 * new Date();
+                    a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+                    a.async = 1;
+                    a.src = g;
+                    m.parentNode.insertBefore(a, m)
+                })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+                ga('create', 'UA-3514209-11'
+                    
+                    
+                    , 'auto'
+                    
+                    );
+                
+                
+                ga('send', 'pageview');
+            </script>
+            
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</head>
+<body class="pb-ui">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+    if(false) {
+        document.getElementById("skipNavigationLink").onclick =function skipElement () {
+            var element = document.getElementById('');
+            if(element == null || element == undefined) {
+                element = document.getElementsByClassName('').item(0);
+            }
+            element.setAttribute('tabindex','0');
+            element.focus();
+
+        }
+
+    }
+
+</script>
+
+
+
+
+
+    <div id="pb-page-content" data-ng-non-bindable>
+        <div data-pb-dropzone="main" data-pb-dropzone-name="Main">
+
+
+
+
+        
+        <div class="header base" data-db-parent-of="sb1">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-layout-widget" data-widget-id="8ac27710-e906-42fb-92e0-ecd760b031f6" class="series-mpmi">
+        
+
+
+
+        
+        <header>
+
+
+
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="popup login-popup hidden">
+    <div class="content">
+        <a href="#" class="close"><i class="icon-close_thin"></i></a>
+        <h2>LOGIN TO YOUR ACCOUNT</h2>
+        <div class="login-container">
+            
+
+
+
+
+
+<a href="/action/ssostart?idp=https%3A%2F%2Fsaml2accesspoint.apsnet.org%2Fsso&amp;redirectUri=%2Fdoi%2F10.1094%2FMPMI-06-12-0148-TA" class="button">
+    
+    
+    <div class="center">
+        Sign in
+    </div>
+</a>
+            <a href="https://saml2accesspoint.apsnet.org/CreateAccount?ReturnUrl=https%3A%2F%2Fapsjournals.apsnet.org%2Faction%2Fssostart%3Fidp%3Dhttps%253A%252F%252Fsaml2accesspoint.apsnet.org%252Fsso%26redirectUri%3D%252Fdoi%252F10.1094%252FMPMI-06-12-0148-TA&amp;local=true" class="button">
+                
+                
+                <div class="center">
+                    New User
+                </div>
+            </a>
+            
+                <a href="/action/ssostart?redirectUri=%2Fdoi%2F10.1094%2FMPMI-06-12-0148-TA" class="button">
+                    
+                    <div class="institution-login">
+                        Institutional Login
+                    </div>
+                </a>
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+        
+        <div class="container"><div class="row"><div class="visible-lg">
+
+
+
+        
+        
+
+
+
+        <div class="pb-ad">
+            <a target="_blank" alt="New journal from APS" title="New journal from APS" href="/action/clickThrough?id=501264&url=https%3A%2F%2Fapsjournals.apsnet.org%2Fpage%2FPhytofrontiers&loc=%2Fdoi%2F10.1094%2FMPMI-06-12-0148-TA&pubId=40022444&placeholderId=501053&productId=501149">
+<img src="/sda/501264/TopBanner_6284_APS_728x90.png"></a>
+        </div>
+    
+
+</div></div></div>
+
+
+
+
+        
+        <div class="scrollThenFix">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-layout-widget" data-widget-id="1514c91d-f2dc-4626-adbd-e6e7690d4cef" class="header--first-row">
+        
+
+
+
+        
+        <div class="container"><div class="row"><div class="pull-left">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3HTMLWidget" data-widget-id="75b208d9-ea97-4757-b3b6-6332a627be5e" class="header__logo">
+        
+
+
+
+        
+        <a href="/">
+    <picture class="mpmi">
+        <source srcset="/products/aps/releasedAssets/images/aps-green-header-logo.png" media="(min-width: 533px)">
+        <source srcset="/products/aps/releasedAssets/images/aps-green-logo-mobile.png" media="(max-width: 532px)">
+        <img srcset="/products/aps/releasedAssets/images/aps-green-header-logo.png" alt="">
+    </picture>
+</a>
+<a href="https://www.ismpmi.org/" rel="external">
+    <picture>
+        <source srcset="/products/aps/releasedAssets/images/is-mpmi-logo.png" media="(min-width: 533px)">
+        <source srcset="/products/aps/releasedAssets/images/is-mpmi-mobile-header.png" media="(max-width: 532px)">
+        <img srcset="/products/aps/releasedAssets/images/is-mpmi-logo.png" alt="">
+    </picture>
+</a>
+
+        </div>
+    
+</div><div class="pull-right">
+
+
+
+        
+        <div class="institution-wrapper"></div><div class="header__quick-menu">
+
+
+
+        
+        <ul class="rlist--inline"><li>
+
+
+
+        
+        <a href="#" title="search" data-db-target-for="sb1" class="quick-menu__item"><i aria-hidden="true" class="block-icon icon-search"></i><span>Search</span></a><div data-db-target-of="sb1" class="dropBlock__holder quick-search__dropBlock quickSearchFormContainer"><div class="container"><div class="quick-search"><div class="tab row clearfix"><div class="col-md-2 gutterless"><ul role="tablist" class="rlist tab__nav dropblock--tab"><li><a href="#pane-a4c6c333-bf58-4f9d-a9fe-54d935149a9d0" aria-controls="pane-0" role="tab" data-toggle="tab" title="Journals &amp; Books" id="pane-a4c6c333-bf58-4f9d-a9fe-54d935149a9d0-con" aria-expanded="false">Journals & Books</a></li><li><a href="#pane-a4c6c333-bf58-4f9d-a9fe-54d935149a9d1" aria-controls="pane-1" role="tab" data-toggle="tab" title="This Journal" id="pane-a4c6c333-bf58-4f9d-a9fe-54d935149a9d1-con" aria-expanded="false">This Journal</a></li><li><a href="#pane-a4c6c333-bf58-4f9d-a9fe-54d935149a9d2" aria-controls="pane-2" role="tab" data-toggle="tab" title="Citation" id="pane-a4c6c333-bf58-4f9d-a9fe-54d935149a9d2-con" aria-expanded="false">Citation</a></li></ul></div><div class="col-md-7"><ul class="rlist tab__content"><li id="pane-a4c6c333-bf58-4f9d-a9fe-54d935149a9d0" aria-labelledby="pane-a4c6c333-bf58-4f9d-a9fe-54d935149a9d0-con" role="tabpanel" class="tab__pane quick-search-pane__anywhere"><form action="/action/doSearch" name="defaultQuickSearch" method="get"><fieldset><legend class="sr-only">Quick Search anywhere</legend><div class="input-group option-0 "><label for="AllFielda4c6c333-bf58-4f9d-a9fe-54d935149a9d0" class="sr-only">Enter words / phrases / DOI / ISBN / keywords / authors / etc</label><input type="search" id="AllFielda4c6c333-bf58-4f9d-a9fe-54d935149a9d0" name="AllField" placeholder="Enter words / phrases / DOI / ISBN / keywords / authors / etc" data-auto-complete-max-words="7" data-auto-complete-max-chars="32" data-contributors-conf="3" data-topics-conf="3" data-publication-titles-conf="3" data-history-items-conf="3" value="" class="autocomplete"/></div><button type="submit" title="Search" class="btn quick-search__button icon-search"><span class="sr-only">Search</span><span>Search</span></button></fieldset></form></li><li id="pane-a4c6c333-bf58-4f9d-a9fe-54d935149a9d1" aria-labelledby="pane-a4c6c333-bf58-4f9d-a9fe-54d935149a9d1-con" role="tabpanel" class="tab__pane quick-search-pane__anywhere"><form action="/action/doSearch" name="thisJournalQuickSearch" method="get"><fieldset><legend class="sr-only">Quick Search in Journals</legend><div class="input-group option-1 option-journal"><label for="AllFielda4c6c333-bf58-4f9d-a9fe-54d935149a9d1" class="sr-only">Enter words / phrases / DOI / ISBN / keywords / authors / etc</label><input type="search" id="AllFielda4c6c333-bf58-4f9d-a9fe-54d935149a9d1" name="AllField" placeholder="Enter words / phrases / DOI / ISBN / keywords / authors / etc" data-auto-complete-max-words="7" data-auto-complete-max-chars="32" data-contributors-conf="3" data-topics-conf="3" data-publication-titles-conf="3" data-history-items-conf="3" value="" class="autocomplete"/><input type="hidden" name="SeriesKey" value="mpmi"/></div><button type="submit" title="Search" class="btn quick-search__button icon-search"><span class="sr-only">Search</span><span>Search</span></button></fieldset></form></li><li id="pane-a4c6c333-bf58-4f9d-a9fe-54d935149a9d2" aria-labelledby="pane-a4c6c333-bf58-4f9d-a9fe-54d935149a9d2-con" role="tabpanel" class="tab__pane quick-search-pane__citation"><form action="/action/quickLink" name="citationQuickSearch" method="get"><fieldset><legend class="sr-only">Quick search in Citations</legend><div class="input-group option-citation option-2"><label for="quickLinkJournala4c6c333-bf58-4f9d-a9fe-54d935149a9d2" class="sr-only">Journal</label><input type="search" id="quickLinkJournala4c6c333-bf58-4f9d-a9fe-54d935149a9d2" name="quickLinkJournal" placeholder="Journal" data-auto-complete-max-words="7" data-auto-complete-max-chars="32" data-publication-titles-conf="3" value="" class="autocomplete"/><label for="quickLinkYeara4c6c333-bf58-4f9d-a9fe-54d935149a9d2" class="sr-only">Year</label><input type="search" id="quickLinkYeara4c6c333-bf58-4f9d-a9fe-54d935149a9d2" name="quickLinkYear" autoComplete="false" placeholder="Year"/><label for="quickLinkVolumea4c6c333-bf58-4f9d-a9fe-54d935149a9d2" class="sr-only">Volume</label><input type="search" id="quickLinkVolumea4c6c333-bf58-4f9d-a9fe-54d935149a9d2" name="quickLinkVolume" autoComplete="false" placeholder="Volume"/><label for="quickLinkIssuea4c6c333-bf58-4f9d-a9fe-54d935149a9d2" class="sr-only">Issue</label><input type="search" id="quickLinkIssuea4c6c333-bf58-4f9d-a9fe-54d935149a9d2" name="quickLinkIssue" autoComplete="false" placeholder="Issue"/><label for="quickLinkPagea4c6c333-bf58-4f9d-a9fe-54d935149a9d2" class="sr-only">Page</label><input type="search" id="quickLinkPagea4c6c333-bf58-4f9d-a9fe-54d935149a9d2" name="quickLinkPage" autoComplete="false" placeholder="Page"/><input type="hidden" name="quickLink" value="true"/></div><button type="submit" title="Search" class="btn quick-search__button icon-search"><span class="sr-only">Search</span><span>Search</span></button></fieldset></form></li></ul></div><div class="col-md-2">
+
+
+
+        
+        <a href="/search/advanced" class="quick-search-advanced-link">Advanced Search</a>
+</div><div class="col-md-1"><a href="#" title="Exit" class="icon-close_thin"></a></div></div></div></div></div>
+</li><li>
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="eCommerceCartIndicatorWidget" data-widget-id="f8f6ec15-8058-46fe-887e-921958c0ed00" class="eCommerceCartIndicatorWidget">
+        
+
+
+
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <a href="/action/showCart?FlowID=1" id="cartLabel" title="Show shopping cart">
+        <div class="cartLabel">
+            <span class="icon-shoppingcart"></span>
+            <span class="filter-count filter-count-bubble shopping-cart hidden" data-id="cart-size">0</span>
+                
+            <span class="cartText">My Cart</span>
+        </div>
+    </a>
+    
+
+
+        </div>
+    
+</li><li>
+
+
+
+        
+        
+
+
+
+
+    
+
+
+
+
+
+
+
+
+        
+
+
+
+
+    
+
+
+
+
+
+
+
+<div class="loginBar login-open">
+    <a href="/action/ssostart?idp=https%3A%2F%2Fsaml2accesspoint.apsnet.org%2Fsso&amp;redirectUri=&amp;uri=%2Fdoi%2F10.1094%2FMPMI-06-12-0148-TA" class="show-login">
+        <span class="icon-profile_empty" title='Register/Sign In'></span>
+        <span class="sign-in-label">Login</span>
+    </a>
+</div>
+
+
+
+    
+
+</li></ul>
+</div>
+</div></div></div>
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="menuWidget" data-widget-id="5602aab0-4a88-4d9e-882e-f47283e9e883" class="primary-bg-color text-onDark drawer__nav">
+        
+
+
+
+        
+        <a href="#afterNav-lyg" class="sr-only-focusable">Skip main navigation</a><div class="main-nav"><a href="#mainmenu" data-target="mainmenu" data-toggle="nav" class="main-nav__toggle__controller"><i class="icon-menu2"><span class="sr-only">Close Drawer Menu</span></i><i class="icon-close_thin"><span class="sr-only">Open Drawer Menu</span></i></a><nav role="navigation" id="mainmenu" data-ctrl-res="screen-md" class="drawer__nav container gutterless hidden-md hidden-sm hidden-xs"><a href="#" data-redirect-to="/" class="menu-header hidden-lg">Home</a><ul id="menubar" role="menubar" class="menubar rlist--inline"><li role="menuitem" aria-label="MPMI Home" id="menu-item-mainmenu-0" class="menu-item"><a href="/journal/mpmi"><span>MPMI Home</span></a></li><li role="menuitem" aria-label="About" id="menu-item-mainmenu-1" class="menu-item"><a href="/page/mpmi/about"><span>About</span></a></li><li role="menuitem" aria-label="Submit" id="menu-item-mainmenu-2" class="menu-item"><a href="/page/authorinformation"><span>Submit</span></a></li><li role="menuitem" aria-haspopup="true" aria-label="Journals" id="menu-item-mainmenu-3" class="dropdown menu-parent"><a href="#" id="mainmenu-1" data-toggle="dropdown" class="dropdown__toggle"><span>Journals</span><i aria-hidden="true" class="icon-arrow_r pull-right hidden-lg"></i><i aria-hidden="true" class="icon-section_arrow_d pull-right hidden-md hidden-sm hidden-xs"></i></a><ul aria-labelledby="mainmenu-1" role="menu" class="rlist dropdown__menu"><li role="menuitem" tabindex="-1" aria-label="Phytopathology®" class="menu-item"><a href="/journal/phyto"><span>Phytopathology®</span></a></li><li role="menuitem" tabindex="-1" aria-label="Plant Disease" class="menu-item"><a href="/journal/pdis"><span>Plant Disease</span></a></li><li role="menuitem" tabindex="-1" aria-label="Molecular Plant-Microbe Interactions®" class="menu-item"><a href="/journal/mpmi"><span>Molecular Plant-Microbe Interactions®</span></a></li><li role="menuitem" tabindex="-1" aria-label="Plant Health Progress" class="menu-item"><a href="/journal/php"><span>Plant Health Progress</span></a></li><li role="menuitem" tabindex="-1" aria-label="Phytobiomes Journal" class="menu-item"><a href="/journal/pbiomes"><span>Phytobiomes Journal</span></a></li><li role="menuitem" tabindex="-1" aria-label="PhytoFrontiers™" class="menu-item"><a href="/page/phytofr/about"><span>PhytoFrontiers™</span></a></li></ul></li><li role="menuitem" aria-label="Books" id="menu-item-mainmenu-4" class="menu-item"><a href="/action/showPublications?pubType=book"><span>Books</span></a></li><li role="menuitem" aria-label="Publisher’s Home" id="menu-item-mainmenu-5" class="menu-item"><a href="/"><span>Publisher’s Home</span></a></li></ul></nav><span id="afterNav-lyg" tabindex="-1"></span></div><div class="header__dropzone"><div class="pb-dropzone" data-pb-dropzone="menuDropzone" title="menuDropzone"></div></div>
+
+        </div>
+    
+</div>
+</header>
+
+        </div>
+    
+</div>
+
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3PublicationContentWidget" data-widget-id="243b0eb9-d0ef-40ad-a40f-6525f100a00e" class="series-mpmi">
+        
+
+
+
+        
+        <main class="content"><article data-figures="https://apsjournals.apsnet.org/action/ajaxShowFigures?doi=10.1094%2FMPMI-06-12-0148-TA&amp;ajax=true" data-references="https://apsjournals.apsnet.org/action/ajaxShowEnhancedAbstract?doi=10.1094%2FMPMI-06-12-0148-TA&amp;ajax=true" data-enable-mathjax="true" class="container"><div class="row"><div class="col-sm-8 col-md-8 article__content">
+
+
+
+        
+        <div class="container"><div class="row"><div>
+
+
+
+        
+        <nav class="article__breadcrumbs separator"><a href="/" class="article__tocHeading">Home</a><a href="/journal/mpmi" class="article__tocHeading">Molecular Plant-Microbe Interactions</a><a href="/toc/mpmi/25/12" class="article__tocHeading">Vol. 25, No. 12</a><a href="/doi/10.1094/MPMI-06-12-0148-TA" class="article__tocHeading">A Draft Genome Sequence of <italic>Nicotiana benthamiana</italic> to Enhance Molecular Plant-Microbe Biology Research</a></nav>
+</div></div></div>
+
+
+
+
+        
+        <div class="content-navigation clearfix"><div class="content-navigation__extra"><div class="pb-dropzone" data-pb-dropzone="navigation-dropzone" title="navigation-dropzone"></div></div><a href="/doi/10.1094/MPMI-02-12-0042-TA" title="Next" class="content-navigation__btn--next"><span>Next</span><i class="icon-arrow_r"></i></a></div>
+<div class="citation"><div class="citation__top"><span class="article__breadcrumbs"></span><span class="citation__top__item article__tocHeading"><i>TECHNICAL ADVANCE</i></span><span class="citation__top__item article__access"><span title="This content is available through an open access license" class="article__access__type"><img src="/products/aps/releasedAssets/images/open-access-icon.png" alt="Open Access icon"/><span class="open-access citation__access__type"> OPEN</span></span><span class="sr-only">Open Access license</span></span></div><h1 class="citation__title">A Draft Genome Sequence of <i>Nicotiana benthamiana</i> to Enhance Molecular Plant-Microbe Biology Research</h1><ul class="rlist--inline article__corrections corrections-articles"></ul><ul title="list of authors" class="rlist--inline loa mobile-authors visible-xs"><li><a href="#" title="" data-slide-target="#sb-1" class="w-slide__btn"><span>Aureliano Bombarely</span><span class="spacer">, </span></a></li><li><a href="#" title="" data-slide-target="#sb-1" class="w-slide__btn"><span>Hernan G. Rosli</span><span class="spacer">, </span></a></li><li><a href="#" title="" data-slide-target="#sb-1" class="w-slide__btn"><span>Julia Vrebalov</span><span class="spacer">, </span></a></li><li><a href="#" title="" data-slide-target="#sb-1" class="w-slide__btn"><span>Peter Moffett</span><span class="spacer">, </span></a></li><li><a href="#" title="" data-slide-target="#sb-1" class="w-slide__btn"><span>Lukas A. Mueller</span><span class="spacer">, and </span></a></li><li><a href="#" title="" data-slide-target="#sb-1" class="w-slide__btn"><span>Gregory B. Martin</span><i aria-hidden="true" class="icon-Email"></i></a></li></ul><div class="loa-wrapper hidden-xs"><div id="sb-1" class="accordion"><div class="accordion-tabbed loa-accordion"><div class="accordion-tabbed__tab-mobile accordion__closed "><span></span><a href="#" data-id="a1" data-db-target-for="a1" title="Aureliano Bombarely" class="author-name accordion-tabbed__control visible-x"><span>Aureliano Bombarely</span><i aria-hidden="true" class="icon-arrow_d_n"></i></a><div data-db-target-of="a1" class="author-info accordion-tabbed__content"><p class="author-type"></p><p></p><p></p><div class="bottom-info"><p><a href="/author/Bombarely%2C+Aureliano">Search for more papers by this author</a></p></div></div></div><span class="spacer">, </span><div class="accordion-tabbed__tab-mobile "><span></span><a href="#" data-id="a2" data-db-target-for="a2" title="Hernan G. Rosli" class="author-name accordion-tabbed__control visible-x"><span>Hernan G. Rosli</span><i aria-hidden="true" class="icon-arrow_d_n"></i></a><div data-db-target-of="a2" class="author-info accordion-tabbed__content"><p class="author-type"></p><p></p><p></p><div class="bottom-info"><p><a href="/author/Rosli%2C+Hernan+G">Search for more papers by this author</a></p></div></div></div><span class="spacer">, </span><div class="accordion-tabbed__tab-mobile "><span></span><a href="#" data-id="a3" data-db-target-for="a3" title="Julia Vrebalov" class="author-name accordion-tabbed__control visible-x"><span>Julia Vrebalov</span><i aria-hidden="true" class="icon-arrow_d_n"></i></a><div data-db-target-of="a3" class="author-info accordion-tabbed__content"><p class="author-type"></p><p></p><p></p><div class="bottom-info"><p><a href="/author/Vrebalov%2C+Julia">Search for more papers by this author</a></p></div></div></div><span class="spacer">, </span><div class="accordion-tabbed__tab-mobile "><span></span><a href="#" data-id="a4" data-db-target-for="a4" title="Peter Moffett" class="author-name accordion-tabbed__control visible-x"><span>Peter Moffett</span><i aria-hidden="true" class="icon-arrow_d_n"></i></a><div data-db-target-of="a4" class="author-info accordion-tabbed__content"><p class="author-type"></p><p></p><p></p><p></p><div class="bottom-info"><p><a href="/author/Moffett%2C+Peter">Search for more papers by this author</a></p></div></div></div><span class="spacer">, </span><div class="accordion-tabbed__tab-mobile "><span></span><a href="#" data-id="a5" data-db-target-for="a5" title="Lukas A. Mueller" class="author-name accordion-tabbed__control visible-x"><span>Lukas A. Mueller</span><i aria-hidden="true" class="icon-arrow_d_n"></i></a><div data-db-target-of="a5" class="author-info accordion-tabbed__content"><p class="author-type"></p><p></p><p></p><div class="bottom-info"><p><a href="/author/Mueller%2C+Lukas+A">Search for more papers by this author</a></p></div></div></div><span class="spacer">, and </span><div class="accordion-tabbed__tab-mobile "><span></span><a href="#" data-id="a6" data-db-target-for="a6" title="Gregory B. Martin" class="author-name accordion-tabbed__control visible-x"><span>Gregory B. Martin</span><i aria-hidden="true" class="icon-Email"></i><i aria-hidden="true" class="icon-arrow_d_n"></i></a><div data-db-target-of="a6" class="author-info accordion-tabbed__content"><p class="author-type"></p><p>Corresponding author: G. B. Martin; Boyce Thompson Institute for Plant Research; Telephone: +1.607.254.1208; E-mail: <p><a href="mailto:gbm7@cornell.edu">
+                    E-mail Address:
+                     gbm7@cornell.edu</a></p></p><p></p><p></p><p></p><div class="bottom-info"><p><a href="/author/Martin%2C+Gregory+B">Search for more papers by this author</a></p></div></div></div></div></div></div><div class="article__affiliations"><div class="affiliations accordion"><a href="#" title="Open affiliations" aria-controls="articleAffiliations" data-slide-target="#articleAffiliations" class="affiliations__ctrl accordion__control w-slide__btn"><span class="affiliations__label"> Affiliations</span><i aria-hidden="true" class="icon-section_arrow_d"></i></a><div id="articleAffiliations" class="div affiliations__content accordion__content"><section class="section"><strong>Authors and Affiliations</strong><div class="section__body"> <ul class="rlist inline-list comma"> <li>Aureliano Bombarely<sup>1 </sup></li> <li>Hernan G. Rosli<sup>1 </sup></li> <li>Julia Vrebalov<sup>1 </sup></li> <li>Peter Moffett<sup>1 </sup><sup>2 </sup></li> <li>Lukas A. Mueller<sup>1 </sup></li> <li>Gregory B. Martin<sup>1 </sup><sup>3 </sup><sup>4 </sup><sup> </sup></li> </ul> <ol class="rlist spaced"></ol> </div> </section><hr class="section__separator"></div></div></div></div><div class="epub-section"><span class="epub-section__item"><span class="epub-section__state">Published Online:</span><span class="epub-section__date">7 Nov 2012</span></span><span class="epub-section__item"><a href="https://doi.org/10.1094/MPMI-06-12-0148-TA" class="epub-section__doi__text">https://doi.org/10.1094/MPMI-06-12-0148-TA</a></span></div><div class="scroll-to-target fixed-element"><nav class="trans coolBar stickybar"><div class="stickybar__wrapper coolBar__wrapper clearfix"><div class="rlist coolBar__zone"><a href="#" data-db-target-for="article" data-db-switch="icon-close_thin" data-slide-target="#articleMenu" class="coolBar__ctrl hidden-md hidden-lg w-slide__btn"><i aria-hidden="true" class="icon-Icon_About-Article"></i><span>About</span></a><div data-db-target-of="article" id="articleMenu" class="coolBar__drop fixed rlist"><div data-target="article .tab .tab__nav, .coolBar__single" data-remove="false" data-target-class="hidden-xs hidden-sm" data-toggle="transplant" data-direction="from" data-transplant="self" class="transplant showit"></div></div></div><ul data-cb-group="Article" data-cb-group-icon="icon-toc" class="rlist coolBar__first"><li class="coolBar__section coolBar--sections hidden"><a href="#" data-db-target-for="sections" data-db-switch="icon-close_thin" title="Sections" data-slide-target="#sectionMenu" class="coolBar__ctrl w-slide__btn"><i aria-hidden="true" class="icon-Icon_Section-menu"></i><span>Sections</span></a><div data-db-target-of="sections" id="sectionMenu" class="coolBar__drop rlist"></div></li><li class="coolBar__section coolBar--download hidden-xs hidden-sm"><a href="#" data-db-target-for="downloads" data-db-switch="icon-close_thin" class="coolBar__ctrl"><i aria-hidden="true" class="icon-Icon_Download"></i><span>View article</span></a><ul data-db-target-of="downloads" class="coolBar__drop rlist w-slide--list"><li><a href="/doi/pdf/10.1094/MPMI-06-12-0148-TA"><i aria-hidden="true" class="icon-file-pdf"></i><span>PDF</span></a></li><li><a href="/doi/pdfplus/10.1094/MPMI-06-12-0148-TA"><i aria-hidden="true" class="icon-file-pdf"></i><span>PDF Plus</span></a></li><li><a href="/doi/suppl/10.1094/MPMI-06-12-0148-TA"><i aria-hidden="true" class="icon-extra"></i><span>Supplemental</span></a></li></ul></li></ul><ul class="coolBar__second rlist">
+
+
+
+        
+        <li class="coolBar__section coolBar-tools">
+
+
+
+        
+        <a href="#" data-db-target-for="676864d1-b63a-402a-9e81-59e22bd63a9e" data-db-switch="icon-close_thin" aria-haspopup="true" aria-controls="676864d1-b63a-402a-9e81-59e22bd63a9e_Pop" role="button" id="676864d1-b63a-402a-9e81-59e22bd63a9e_Ctrl" data-slide-target="#676864d1-b63a-402a-9e81-59e22bd63a9e_Pop" class="article-tools__ctrl w-slide__btn"><i aria-hidden="true" class="icon-Icon_Tools"></i><span>Tools</span></a><div data-db-target-of="676864d1-b63a-402a-9e81-59e22bd63a9e" aria-labelledby="676864d1-b63a-402a-9e81-59e22bd63a9e_Ctrl" role="menu" id="676864d1-b63a-402a-9e81-59e22bd63a9e_Pop" class="article-tools__block fixed dropBlock__holder"><ul class="rlist w-slide--list"><li role="presentation" class="article-tool"><a href="/personalize/addFavoritePublication?doi=10.1094%2FMPMI-06-12-0148-TA" role="menuitem"><i aria-hidden="true" class="icon-Icon_Star-26"></i><span>Add to favorites</span></a></li><li role="presentation" class="article-tool"><a href="/action/showCitFormats?doi=10.1094%2FMPMI-06-12-0148-TA" role="menuitem"><i aria-hidden="true" class="icon-Icon_Download"></i><span>Download Citations</span></a></li><li role="presentation" class="article-tool"><a href="/action/addCitationAlert?doi=10.1094%2FMPMI-06-12-0148-TA" role="menuitem"><i aria-hidden="true" class="icon-Icon_Track-citations"></i><span>Track Citations</span></a></li></ul></div>
+</li><li class="coolBar__section coolBar-share">
+
+
+
+        
+        <!-- Go to www.addthis.com/dashboard to customize your tools --><script type="text/javascript" async="async" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-4faab26f2cff13a7"></script><a href="#" data-db-target-for="e32e5bfb-8a2d-440d-b07d-b2030f1a1ca6" data-db-switch="icon-close_thin" data-slide-target="#e32e5bfb-8a2d-440d-b07d-b2030f1a1ca6_Pop" class="share__ctrl w-slide__btn"><i aria-hidden="true" class="icon-Icon_Share"></i><span>Share</span></a><div data-db-target-of="e32e5bfb-8a2d-440d-b07d-b2030f1a1ca6" id="e32e5bfb-8a2d-440d-b07d-b2030f1a1ca6_Pop" class="share__block dropBlock__holder fixed"><div class="pb-dropzone" data-pb-dropzone="shareBlock" title="shareBlock"></div><span class="sr-only">Share on</span><ul class="rlist w-slide--list addthis addthis_toolbox addthis_default_style addthis_32x32_style"><li><a role="link" class="addthis_button_facebook">Facebook</a></li><li><a role="link" class="addthis_button_twitter">Twitter</a></li><li><a role="link" class="addthis_button_linkedin">Linked In</a></li><li><a role="link" class="addthis_button_reddit">Reddit</a></li><li><a role="link" class="addthis_button_email">Email</a></li><li><a role="link" class="addthis_button_wechat">Wechat</a></li></ul></div>
+</li>
+</ul></div></nav><div class="coolBar__section coolBar--download hidden-md hidden-lg mobile-view"><a href="#" data-db-target-for="downloads" data-db-switch="icon-close_thin" data-slide-target="#downloadMenu" class="coolBar__ctrl w-slide__btn"><i aria-hidden="true" class="icon-Icon_Download"></i><span>View article</span></a><div data-db-target-of="article" id="downloadMenu" class="coolBar__drop fixed rlist"><div data-target=".coolBar--download .coolBar__drop" data-remove="false" data-target-class="hidden-xs hidden-sm" data-toggle="transplant" data-direction="from" data-transplant="self" class="transplant showit"></div></div></div></div><div class="article__body "><!-- abstract content --><div class="hlFld-Abstract"><a name="abstract" class="scroll-offset"></a><div class="sectionInfo abstractSectionHeading"><h2 class="&#xA;                article-section__title section__title&#xA;            " id="d1115313e1">Abstract</h2></div><div class="abstractSection abstractInFull"><p><i>Nicotiana benthamiana</i> is a widely used model plant species for the study of fundamental questions in molecular plant-microbe interactions and other areas of plant biology. This popularity derives from its well-characterized susceptibility to diverse pathogens and, especially, its amenability to virus-induced gene silencing and transient protein expression methods. Here, we report the generation of a 63-fold coverage draft genome sequence of <i>N. benthamiana</i> and its availability on the Sol Genomics Network for both BLAST searches and for downloading to local servers. The estimated genome size of <i>N. benthamiana</i> is 3 Gb (gigabases). The current assembly consists of approximately 141,000 scaffolds, spanning 2.6 Gb with 50% of the genome sequence contained within scaffolds &gt;89 kilobases. Of the approximately 16,000 <i>N. benthamiana</i> unigenes available in GenBank, &gt;90% are represented in the assembly. The usefulness of the sequence was demonstrated by the retrieval of <i>N. benthamiana</i> orthologs for 24 immunity-associated genes from other species including <i>Ago2, Ago7, Bak1, Bik1, Crt1, Fls2, Pto, Prf, Rar1</i>, and mitogen-activated protein kinases. The sequence will also be useful for comparative genomics in the Solanaceae family as shown here by the discovery of microsynteny between <i>N. benthamiana</i> and tomato in the region encompassing the <i>Pto</i> and <i>Prf</i> genes.</p></div></div><!-- /abstract content --><div class="response"><div class="sub-article-title"></div></div></div></div><div class="col-sm-4 hidden-xs hidden-sm sticko__parent fixed-element"><div class="tab tab--slide tab--flex sticko__md dynamic-sticko article__tab  tab--flex tabs--xs"><ul data-mobile-toggle="slide" role="tablist" class="rlist tab__nav w-slide--list"><li role="presentation" class=" active"><a href="#pane-pcw-details" aria-controls="pane-pcw-details" role="tab" data-toggle="tab" id="pane-pcw-detailscon" data-slide-target="#pane-pcw-details" class="details-tab"><i aria-hidden="true" class="icon-Icon_Information"></i><span>Details</span></a></li><li role="presentation"><a href="#pane-pcw-figures" aria-controls="pane-pcw-figures" role="tab" data-toggle="tab" id="pane-pcw-figurescon" data-slide-target="#pane-pcw-figures" class="figures-tab"><i aria-hidden="true" class="icon-Icon_Images"></i><span>Figures</span></a></li><li role="presentation"><a href="#pane-pcw-references" aria-controls="pane-pcw-references" role="tab" data-toggle="tab" id="pane-pcw-referencescon" data-slide-target="#pane-pcw-references" class="references-tab"><i aria-hidden="true" class="icon-Icon_Links-References"></i><span>Literature&nbsp;Cited</span></a></li><li role="presentation"><a href="#pane-pcw-related" aria-controls="pane-pcw-related" role="tab" data-toggle="tab" id="pane-pcw-relatedcon" data-slide-target="#pane-pcw-related" class="related-tab"><i aria-hidden="true" class="icon-related2"></i><span>Related</span></a></li></ul><ul class="rlist tab__content sticko__child"><li id="pane-pcw-details" aria-labelledby="pane-pcw-detailscon" role="tabpanel" class="tab__pane active">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="graphQueryWidget" data-widget-id="db2c92f3-ba59-4413-b0b2-a1e5d57602fb" class="clearfix ruledSection">
+        
+
+
+
+        
+        <div class="article-page-details-tab"><a href="/toc/mpmi/25/12" class="cover"><img src="/na101/home/literatum/publisher/aps/journals/content/mpmi/2012/mpmi.2012.25.issue-12/mpmi.2012.25.issue-12/20121107/mpmi.2012.25.issue-12.cover.jpg" alt="journal cover"/></a><p class="title"><a href=/toc/mpmi/25/12>Vol. 25, No. 12
+            </a><br/><span class="pubDate">December 2012</span></p><a href="https://www.apsnet.org/apsstore/subscribe/" class="subscribe button extra-border">Subscribe</a><p class="issn"><span>ISSN:</span>0894-0282<br/><span>e-ISSN:</span>1943-7706</p><div class="pb-dropzone" data-pb-dropzone="extraInfo" title="extraInfo"></div></div>
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="literatumContentItemDownloadCount" data-widget-id="cf0017ab-e2b1-457f-aaf6-e16386aeaf91" class="section">
+        
+
+
+
+        
+            <h6 class="section__title">
+                Metrics
+            </h6>
+        
+        
+
+
+
+
+
+
+    Downloaded 6,682 times
+    
+
+
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3HTMLWidget" data-widget-id="1c328256-2b71-4bf1-b2ff-05462e8ceaeb">
+        
+
+
+
+        
+        <div data-badge-details="right" data-badge-type="donut" data-doi="10.1094/MPMI-06-12-0148-TA" data-hide-no-mentions="true" class="altmetric-embed"></div>
+<script async type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3HTMLWidget" data-widget-id="8186c518-f919-492f-babc-c42249885bf1" class="ruledSection">
+        
+
+
+
+        
+        <span class="__dimensions_badge_embed__" data-doi="10.1094/MPMI-06-12-0148-TA" data-hide-zero-citations="true" data-legend="always" data-style="small_circle"></span>
+<script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="graphQueryWidget" data-widget-id="efdf5402-af16-4d6d-8651-6b7f29440041" class="ruledSection">
+        
+
+
+
+        
+            <h6 class="">
+                Article History
+            </h6>
+        
+        <ul class="rlist article-chapter-history-list"><li><span class="item_label">Issue Date: </span>7 Nov 2012</li><li><span class="item_label">Published: </span>7 Nov 2012</li><li><span class="item_label">First Look: </span>9 Aug 2012</li><li><span class="item_label">Accepted: </span>28 Jul 2012</li></ul>
+
+        </div>
+    
+
+
+
+
+        
+        <p>Pages:
+1523-1530</p>
+<section class="ruledSection"><strong class="section__title">Information</strong><div class="section__body"><p><p>© 2012 The American Phytopathological Society</p></p></div></section></li><li id="pane-pcw-figures" aria-labelledby="pane-pcw-figurescon" role="tabpanel" class="tab__pane"></li><li id="pane-pcw-references" aria-labelledby="pane-pcw-referencescon" role="tabpanel" class="tab__pane"></li><li id="pane-pcw-related" aria-labelledby="pane-pcw-relatedcon" role="tabpanel" class="accordion-with-arrow tab__pane tab__pane--clear"><div class="accordion"><ul class="accordion-tabbed rlist"><li class="accordion-tabbed__tab"><a href="#" title="Cited By" aria-expanded="false" aria-controls="relatedTab1" class="accordion-tabbed__control">Cited By</a><div id="relatedTab1" class="accordion-tabbed__content"><ul class="rlist temis-related__list"><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1186/s12870-020-02816-3">Characterization and functional analysis of phytoene synthase gene family in tobacco</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">7 January 2021 | BMC Plant Biology, Vol. 21, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1038/s41467-020-20508-2">Chromosome-level genome assembly of Ophiorrhiza pumila reveals the evolution of camptothecin biosynthesis</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">15 January 2021 | Nature Communications, Vol. 12, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1007/s11103-020-01069-w">WRKY22 and WRKY25 transcription factors are positive regulators of defense responses in Nicotiana benthamiana</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">9 September 2020 | Plant Molecular Biology, Vol. 105, No. 1-2</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.3390/plants10010012">Genetic and Pharmacological Inhibition of Autophagy Increases the Monoubiquitination of Non-Photosynthetic Phosphoenolpyruvate Carboxylase</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">23 December 2020 | Plants, Vol. 10, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.3390/ijms22010447">Evolution of A bHLH Interaction Motif</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">5 January 2021 | International Journal of Molecular Sciences, Vol. 22, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1186/s12870-020-2250-8">Differential expression of IDA (INFLORESCENCE DEFICIENT IN ABSCISSION)-like genes in Nicotiana benthamiana during corolla abscission, stem growth and water stress</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">20 January 2020 | BMC Plant Biology, Vol. 20, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1038/s41598-020-66670-x">Expression patterns of NbrgsCaM family genes in Nicotiana benthamiana and their potential roles in development and stress responses</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">15 June 2020 | Scientific Reports, Vol. 10, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1186/s12870-020-02501-5">Fasciclin-like arabinogalactan gene family in Nicotiana benthamiana: genome-wide identification, classification and expression in response to pathogens</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">1 July 2020 | BMC Plant Biology, Vol. 20, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1038/s41467-020-18069-5">Evolution of a guarded decoy protease and its receptor in solanaceous plants</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">2 September 2020 | Nature Communications, Vol. 11, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1038/s41598-020-64972-8">Comparison of two different host plant genera responding to grapevine leafroll-associated virus 3 infection</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">22 May 2020 | Scientific Reports, Vol. 10, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.3390/genes11121406">Comparative Genomics and Functional Studies of Wheat BED-NLR Loci</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">26 November 2020 | Genes, Vol. 11, No. 12</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1111/nph.16628">Evolution of NLR resistance genes with noncanonical N‐terminal domains in wild tomato species</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">23 May 2020 | New Phytologist, Vol. 227, No. 5</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1016/j.plantsci.2020.110563">MYB5-like and bHLH influence flavonoid composition in pomegranate</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">Plant Science, Vol. 298</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1111/mpp.12967">Functional analysis of RXLR effectors from the New Zealand kauri dieback pathogen
+              Phytophthora agathidicida</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">8 July 2020 | Molecular Plant Pathology, Vol. 21, No. 9</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1007/s10327-020-00931-5">Expression profiles of genes for enzymes involved in capsidiol production in Nicotiana benthamiana</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">28 May 2020 | Journal of General Plant Pathology, Vol. 86, No. 5</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.3390/biology9090294">A Poplar Rust Effector Protein Associates with Protein Disulfide Isomerase and Enhances Plant Susceptibility</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">16 September 2020 | Biology, Vol. 9, No. 9</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1111/tpj.14810">Ptr1
+              evolved convergently with
+              RPS2
+              and
+              Mr5
+              to mediate recognition of AvrRpt2 in diverse solanaceous species</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">3 June 2020 | The Plant Journal, Vol. 103, No. 4</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.3389/fpls.2020.00879">From Survival to Productivity Mode: Cytokinins Allow Avoiding the Avoidance Strategy Under Stress Conditions</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">2 July 2020 | Frontiers in Plant Science, Vol. 11</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.3390/plants9070876">Long-Distance Movement of Mineral Deficiency-Responsive mRNAs in Nicotiana Benthamiana/Tomato Heterografts</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">10 July 2020 | Plants, Vol. 9, No. 7</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1016/j.xplc.2020.100020">The Ubiquitin E3 Ligase PUB17 Positively Regulates Immunity by Targeting a Negative Regulator, KH17, for Degradation</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">Plant Communications, Vol. 1, No. 4</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1111/tpj.14648">Parental origin of the allotetraploid tobacco
+              Nicotiana benthamiana</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">13 January 2020 | The Plant Journal, Vol. 102, No. 3</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1016/j.plantsci.2020.110525">Aldehyde dehydrogenase plays crucial roles in response to lower temperature stress in Solanum tuberosum and Nicotiana benthamiana</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">Plant Science</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1007/s00438-019-01641-0">Ancestral segmental duplication in Solanaceae is responsible for the origin of CRCa–CRCb paralogues in the family</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">7 January 2020 | Molecular Genetics and Genomics, Vol. 295, No. 3</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1093/dnares/dsaa006">Integrating Transcriptome and Metabolome Reveals Molecular Networks Involved in Genetic and Environmental Variation in Tobacco</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">23 April 2020 | DNA Research</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1007/s11032-020-01126-8">Fine mapping of QTLs for resistance to Phytophthora nicotianae in flue-cured tobacco using a high-density genetic map</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">25 April 2020 | Molecular Breeding, Vol. 40, No. 5</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1093/jxb/erz542">NbCycB2 represses Nbwo activity via a negative feedback loop in tobacco trichome development</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">28 January 2020 | Journal of Experimental Botany, Vol. 71, No. 6</div></div></li><li><div class="related"><div class="related__title"><a href="/doi/abs/10.1094/PHYTO-09-19-0336-R">An Expansin-Like Candidate Effector Protein from Pratylenchus penetrans Modulates Immune Responses in Nicotiana benthamiana</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"><li><span class="hlFld-ContribAuthor"><a href="/author/Vieira%2C+Paulo" title="Paulo Vieira">Paulo Vieira</a></span><span class="spacer"> and </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Nemchinov%2C+Lev+G" title="Lev G. Nemchinov">Lev G. Nemchinov</a></span></li></ul></div><div class="meta">14 January 2020 | Phytopathology™, Vol. 110, No. 3</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.3390/v12030310">Genome-Wide microRNA Profiling Using Oligonucleotide Microarray Reveals Regulatory Networks of microRNAs in Nicotiana benthamiana During Beet Necrotic Yellow Vein Virus Infection</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">12 March 2020 | Viruses, Vol. 12, No. 3</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1016/j.copbio.2019.10.006">Proteases of Nicotiana benthamiana: an emerging battle for molecular farming</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">Current Opinion in Biotechnology, Vol. 61</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1016/j.indcrop.2019.111926">Overexpression of geranyl diphosphate synthase small subunit 1 (LcGPPS.SSU1) enhances the monoterpene content and biomass</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">Industrial Crops and Products, Vol. 143</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1016/j.indcrop.2019.111933">Comprehensive approaches reveal key transcripts and metabolites highlighting metabolic diversity among three oriental tobacco varieties</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">Industrial Crops and Products, Vol. 143</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1007/978-3-030-29493-9_1">Background and History of Tobacco Genome Resources</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">17 March 2020</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1007/978-3-030-29493-9_7">Repetitive DNA Dynamics and Polyploidization in the Genus Nicotiana (Solanaceae)</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">17 March 2020</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1007/978-3-030-29493-9_5">Tobacco Resources in the Sol Genomics Network and Nicotiana Metabolic Databases</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">17 March 2020</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1007/978-3-030-29493-9_2">Biodiversity of Nicotiana (Solanaceae)</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">17 March 2020</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1007/978-3-030-29493-9_14">Nicotiana benthamiana, A Popular Model for Genome Evolution and Plant–Pathogen Interactions</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">17 March 2020</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1007/978-1-0716-0712-1_25">In Vivo Reporter System for miRNA-Mediated RNA Silencing</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">25 July 2020</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1038/s41587-019-0337-2">Plant gene editing through de novo induction of meristems</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">16 December 2019 | Nature Biotechnology, Vol. 38, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.7554/eLife.49750">Compensatory sequence variation between trans-species small RNAs and their target sites</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">4 December 2019 | eLife, Vol. 8</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1038/s41598-018-38247-2">Transcriptome-based identification and validation of reference genes for plant-bacteria interaction studies using Nicotiana benthamiana</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">7 February 2019 | Scientific Reports, Vol. 9, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1038/s41598-019-42400-w">Functional conservation of EXA1 among diverse plant species for the infection by a family of plant viruses</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">11 April 2019 | Scientific Reports, Vol. 9, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1186/s12896-019-0530-x">Improved CRISPR/Cas9 gene editing by fluorescence activated cell sorting of green fluorescence protein tagged protoplasts</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">17 June 2019 | BMC Biotechnology, Vol. 19, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1186/s12864-019-5842-7">Transcriptional reprogramming caused by the geminivirus Tomato yellow leaf curl virus in local or systemic infections in Nicotiana benthamiana</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">4 July 2019 | BMC Genomics, Vol. 20, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1186/s12864-019-5960-2">Genome and transcriptome characterization of the glycoengineered Nicotiana benthamiana line ΔXT/FT</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">19 July 2019 | BMC Genomics, Vol. 20, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1186/s13015-019-0153-8">A branching process for homology distribution-based inference of polyploidy, speciation and loss</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">1 August 2019 | Algorithms for Molecular Biology, Vol. 14, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1038/s41598-019-48601-7">Genome-wide analysis of the Dof gene family in durian reveals fruit ripening-associated and cultivar-dependent Dof transcription factors</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">20 August 2019 | Scientific Reports, Vol. 9, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1186/s12864-019-6058-6">A homology-guided, genome-based proteome for improved proteomics in the alloploid Nicotiana benthamiana</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">4 October 2019 | BMC Genomics, Vol. 20, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1080/07352689.2019.1682791">The Hot and the Colorful: Understanding the Metabolism, Genetics and Evolution of Consumer Preferred Metabolic Traits in Pepper and Related Species</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">18 November 2019 | Critical Reviews in Plant Sciences, Vol. 38, No. 5-6</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1007/s10327-019-00855-9">Nicotiana benthamiana exportin 1 is required for elicitor-induced phytoalexin production, cell death induction, and resistance against potato late blight pathogen Phytophthora infestans</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">26 April 2019 | Journal of General Plant Pathology, Vol. 85, No. 5</div></div></li><li><div class="related"><div class="related__title"><a href="/doi/abs/10.1094/MPMI-01-19-0018-R">The Ptr1 Locus of Solanum lycopersicoides Confers Resistance to Race 1 Strains of Pseudomonas syringae pv. tomato and to Ralstonia pseudosolanacearum by Recognizing the Type III Effectors AvrRpt2 and RipBN</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"><li><span class="hlFld-ContribAuthor"><a href="/author/Mazo-Molina%2C+Carolina" title="Carolina Mazo-Molina">Carolina Mazo-Molina</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Mainiero%2C+Samantha" title="Samantha Mainiero">Samantha Mainiero</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Hind%2C+Sarah+R" title="Sarah R. Hind">Sarah R. Hind</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Kraus%2C+Christine+M" title="Christine M. Kraus">Christine M. Kraus</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Vachev%2C+Mishi" title="Mishi Vachev">Mishi Vachev</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Maviane-Macia%2C+Felicia" title="Felicia Maviane-Macia">Felicia Maviane-Macia</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Lindeberg%2C+Magdalen" title="Magdalen Lindeberg">Magdalen Lindeberg</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Saha%2C+Surya" title="Surya Saha">Surya Saha</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Strickler%2C+Susan+R" title="Susan R. Strickler">Susan R. Strickler</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Feder%2C+Ari" title="Ari Feder">Ari Feder</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Giovannoni%2C+James+J" title="James J. Giovannoni">James J. Giovannoni</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Smart%2C+Christine+D" title="Christine D. Smart">Christine D. Smart</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Peeters%2C+Nemo" title="Nemo Peeters">Nemo Peeters</a></span><span class="spacer">, and </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Martin%2C+Gregory+B" title="Gregory B. Martin">Gregory B. Martin</a></span></li></ul></div><div class="meta">12 June 2019 | Molecular Plant-Microbe Interactions, Vol. 32, No. 8</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.3390/genes10080559">Assessing Anthocyanin Biosynthesis in Solanaceae as a Model Pathway for Secondary Metabolism</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">25 July 2019 | Genes, Vol. 10, No. 8</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1042/BCJ20190299">PP2C phosphatase Pic1 negatively regulates the phosphorylation status of Pti1b kinase, a regulator of flagellin-triggered immunity in tomato</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">11 June 2019 | Biochemical Journal, Vol. 476, No. 11</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1111/mpp.12792">Nicotiana
+              species as surrogate host for studying the pathogenicity of
+              Acidovorax citrulli
+              , the causal agent of bacterial fruit blotch of cucurbits</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">1 April 2019 | Molecular Plant Pathology, Vol. 20, No. 6</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1111/ppa.12995">The tomato
+              Pto
+              gene confers resistance to
+              Pseudomonas floridensis
+              , an emergent plant pathogen with just nine type
+              III
+              effectors</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">27 February 2019 | Plant Pathology, Vol. 68, No. 5</div></div></li><li><div class="related"><div class="related__title"><a href="/doi/abs/10.1094/MPMI-07-18-0202-FI">Convergent Evolution of Effector Protease Recognition by Arabidopsis and Barley</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"><li><span class="hlFld-ContribAuthor"><a href="/author/Carter%2C+Morgan+E" title="Morgan E. Carter">Morgan E. Carter</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Helm%2C+Matthew" title="Matthew Helm">Matthew Helm</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Chapman%2C+Antony+V+E" title="Antony V. E. Chapman">Antony V. E. Chapman</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Wan%2C+Emily" title="Emily Wan">Emily Wan</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Restrepo+Sierra%2C+Ana+Maria" title="Ana Maria Restrepo Sierra">Ana Maria Restrepo Sierra</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Innes%2C+Roger+W" title="Roger W. Innes">Roger W. Innes</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Bogdanove%2C+Adam+J" title="Adam J. Bogdanove">Adam J. Bogdanove</a></span><span class="spacer">, and </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Wise%2C+Roger+P" title="Roger P. Wise">Roger P. Wise</a></span></li></ul></div><div class="meta">1 April 2019 | Molecular Plant-Microbe Interactions, Vol. 32, No. 5</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1111/mpp.12784">An E3 ubiquitin ligase from
+              Nicotiana benthamiana
+              targets the replicase of
+              Bamboo mosaic virus
+              and restricts its replication</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">29 March 2019 | Molecular Plant Pathology, Vol. 20, No. 5</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.3390/ijms20102391">Integration of mRNA and miRNA Analysis Reveals the Molecular Mechanism Underlying Salt and Alkali Stress Tolerance in Tobacco</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">14 May 2019 | International Journal of Molecular Sciences, Vol. 20, No. 10</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1073/pnas.1901807116">Papain-like cysteine proteases prepare plant cyclic peptide precursors for cyclization</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">3 April 2019 | Proceedings of the National Academy of Sciences, Vol. 116, No. 16</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1111/mpp.12774">A systematic screen of conserved
+              Ralstonia solanacearum
+              effectors reveals the role of RipAB, a nuclear‐localized effector that suppresses immune responses in potato</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">9 January 2019 | Molecular Plant Pathology, Vol. 20, No. 4</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.3389/fpls.2019.00222">Nicotiana benthamiana RanBP1-1 Is Involved in the Induction of Disease Resistance via Regulation of Nuclear-Cytoplasmic Transport of Small GTPase Ran</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">8 March 2019 | Frontiers in Plant Science, Vol. 10</div></div></li><li><div class="related"><div class="related__title"><a href="/doi/abs/10.1094/PHYTO-09-17-0326-R">Phenotypic Characterization of Genetically Distinct Phytophthora cinnamomi Isolates from Avocado</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"><li><span class="hlFld-ContribAuthor"><a href="/author/Belisle%2C+Rodger+J" title="Rodger J. Belisle">Rodger J. Belisle</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/McKee%2C+Brandon" title="Brandon McKee">Brandon McKee</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Hao%2C+Wei" title="Wei Hao">Wei Hao</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Crowley%2C+Margaret" title="Margaret Crowley">Margaret Crowley</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Arpaia%2C+Mary+Lu" title="Mary Lu Arpaia">Mary Lu Arpaia</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Miles%2C+Timothy+D" title="Timothy D. Miles">Timothy D. Miles</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Adaskaveg%2C+James+E" title="James E. Adaskaveg">James E. Adaskaveg</a></span><span class="spacer">, and </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Manosalva%2C+Patricia" title="Patricia Manosalva">Patricia Manosalva</a></span></li></ul></div><div class="meta">7 February 2019 | Phytopathology™, Vol. 109, No. 3</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1111/mpp.12761">DCL-suppressed
+              Nicotiana benthamiana
+              plants: valuable tools in research and biotechnology</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">19 December 2018 | Molecular Plant Pathology, Vol. 20, No. 3</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1111/mpp.12764">Ribosome profiles and riboproteomes of healthy and Potato virus A- and
+              Agrobacterium
+              -infected
+              Nicotiana benthamiana
+              plants</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">6 December 2018 | Molecular Plant Pathology, Vol. 20, No. 3</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1111/pbi.12981">CRISPR/Cas9-mediated knockout of six glycosyltransferase genes in
+              Nicotiana benthamiana
+              for the production of recombinant proteins lacking β-1,2-xylose and core α-1,3-fucose</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">11 August 2018 | Plant Biotechnology Journal, Vol. 17, No. 2</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.3390/genes10020164">Insight into the B3Transcription Factor Superfamily and Expression Profiling of B3 Genes in Axillary Buds after Topping in Tobacco(Nicotiana tabacum L.)</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">20 February 2019 | Genes, Vol. 10, No. 2</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1155/2019/2756516">Circular RNA Profiling by Illumina Sequencing via Template-Dependent Multiple Displacement Amplification</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">BioMed Research International, Vol. 2019</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1007/978-3-319-97217-6_13">Impact of Genomics on Capsicum Breeding</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">19 February 2019</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1007/978-3-319-99208-2_6">The Draft Genome of Eggplant</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">31 May 2019</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1007/978-3-319-99208-2_8">Genome Annotation</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">31 May 2019</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1111/nph.15521">Dude, where is my mutant?
+              Nicotiana benthamiana
+              meets forward genetics</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">20 December 2018 | New Phytologist, Vol. 221, No. 2</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1038/s41467-018-03010-8">Leucine-rich repeat receptor-like gene screen reveals that Nicotiana RXEG1 regulates glycoside hydrolase 12 MAMP detection</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">9 February 2018 | Nature Communications, Vol. 9, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1038/s41598-018-32901-5">Analysis of the mechanisms regulating the expression of isoprenoid biosynthesis genes in hydroponically-grown Nicotiana benthamiana plants using virus-induced gene silencing</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">4 October 2018 | Scientific Reports, Vol. 8, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1093/dnares/dsy025">Genome-wide comparative analysis in Solanaceous species reveals evolution of microRNAs targeting defense genes in
+              Capsicum
+              spp.</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">27 July 2018 | DNA Research, Vol. 25, No. 6</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1186/s12864-018-4878-4">Comparative genome-wide characterization leading to simple sequence repeat marker development for Nicotiana</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">27 June 2018 | BMC Genomics, Vol. 19, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1186/s12864-018-5241-5">The impact of genome evolution on the allotetraploid Nicotiana rustica – an intriguing story of enhanced alkaloid production</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">29 November 2018 | BMC Genomics, Vol. 19, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1093/gbe/evy193">Factors Influencing Gene Family Size Variation Among Related Species in a Plant Family, Solanaceae</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">18 September 2018 | Genome Biology and Evolution, Vol. 10, No. 10</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1111/curt.12241">UNEXPECTED DIVERSITY OF AUSTRALIAN TOBACCO SPECIES (
+              NICOTIANA
+              SECTION
+              SUAVEOLENTES,
+              SOLANACEAE)</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">27 November 2018 | Curtis's Botanical Magazine, Vol. 35, No. 3</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1111/curt.12249">890. NICOTIANA BENTHAMIANA</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">27 November 2018 | Curtis's Botanical Magazine, Vol. 35, No. 3</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1111/pbi.12916">Three unrelated protease inhibitors enhance accumulation of pharmaceutical recombinant proteins in
+              Nicotiana benthamiana</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">24 May 2018 | Plant Biotechnology Journal, Vol. 16, No. 10</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1146/annurev-phyto-080417-050141">The Rise and Rise of
+              Nicotiana benthamiana
+              : A Plant for All Reasons</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">Annual Review of Phytopathology, Vol. 56, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1002/1873-3468.13194">Transcription factor
+              ABI
+              3 auto‐activates its own expression during dehydration stress response</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">31 July 2018 | FEBS Letters, Vol. 592, No. 15</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1128/JVI.01004-18">Potato Spindle Tuber Viroid Modulates Its Replication through a Direct Interaction with a Splicing Regulator</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">26 September 2018 | Journal of Virology, Vol. 92, No. 20</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1002/biot.201800050">Low Protease Content in
+              Medicago truncatula
+              Cell Cultures Facilitates Recombinant Protein Production</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">26 March 2018 | Biotechnology Journal, Vol. 13, No. 7</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1016/j.ympev.2018.02.002">Filtering of target sequence capture individuals facilitates species tree construction in the plant subtribe Iochrominae (Solanaceae)</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">Molecular Phylogenetics and Evolution, Vol. 123</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1111/pbi.12852">The transcriptome, extracellular proteome and active secretome of agroinfiltrated
+              Nicotiana benthamiana
+              uncover a large, diverse protease repertoire</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">17 December 2017 | Plant Biotechnology Journal, Vol. 16, No. 5</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1111/tpj.13857">Genome sequence of M6, a diploid inbred clone of the high‐glycoalkaloid‐producing tuber‐bearing potato species
+              Solanum chacoense
+              , reveals residual heterozygosity</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">22 March 2018 | The Plant Journal, Vol. 94, No. 3</div></div></li><li><div class="related"><div class="related__title"><a href="/doi/abs/10.1094/MPMI-11-17-0270-TA">Validation of RT-qPCR Approaches to Monitor Pseudomonas syringae Gene Expression During Infection and Exposure to Pattern-Triggered Immunity</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"><li><span class="hlFld-ContribAuthor"><a href="/author/Smith%2C+Amy" title="Amy Smith">Amy Smith</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Lovelace%2C+Amelia+H" title="Amelia H. Lovelace">Amelia H. Lovelace</a></span><span class="spacer">, and </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Kvitko%2C+Brian+H" title="Brian H. Kvitko">Brian H. Kvitko</a></span></li></ul></div><div class="meta">13 February 2018 | Molecular Plant-Microbe Interactions, Vol. 31, No. 4</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1002/pld3.55">Virus-induced gene silencing database for phenomics and functional genomics in
+              Nicotiana benthamiana</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">23 April 2018 | Plant Direct, Vol. 2, No. 4</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1016/j.plantsci.2018.01.007">Evolutionary diversification of type-2 HDAC structure, function and regulation in Nicotiana tabacum</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">Plant Science, Vol. 269</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1111/mpp.12579">Pseudomonas syringae
+              pv.
+              tomato
+              DC3000 polymutants deploying coronatine and two type III effectors produce quantifiable chlorotic spots from individual bacterial colonies in
+              Nicotiana benthamiana
+              leaves</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">25 September 2017 | Molecular Plant Pathology, Vol. 19, No. 4</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1111/pce.13140">Functional analysis of the seven in absentia ubiquitin ligase family in tomato</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">29 January 2018 | Plant, Cell &amp; Environment, Vol. 41, No. 3</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1007/s11103-018-0708-y">An intronless form of the tobacco extensin gene terminator strongly enhances transient gene expression in plant leaves</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">10 February 2018 | Plant Molecular Biology, Vol. 96, No. 4-5</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1016/j.compbiolchem.2017.11.004">Comparative genome based cis- elements analysis in the 5′ upstream and 3′ downstream region of cell wall invertase and Phenylalanine ammonia lyase in Nicotiana benthamiana</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">Computational Biology and Chemistry, Vol. 72</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1016/j.molp.2017.11.011">Rice Stripe Virus Interferes with S-acylation of Remorin and Induces Its Autophagic Degradation to Facilitate Virus Infection</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">Molecular Plant, Vol. 11, No. 2</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1007/978-3-030-00834-5_8">Speciation and Rate Variation in a Birth-and-Death Account of WGD and Fractionation; the Case of Solanaceae</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">8 September 2018</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1038/nature25027">MicroRNAs from the parasitic plant Cuscuta campestris target host messenger RNAs</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">4 January 2018 | Nature, Vol. 553, No. 7686</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1093/database/bay001">GAN: a platform of genomics and genetics analysis and application in
+              Nicotiana</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">21 February 2018 | Database, Vol. 2018</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1038/s41598-017-01100-z">A Puccinia striiformis f. sp. tritici secreted protein activates plant immunity at the cell surface</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">25 April 2017 | Scientific Reports, Vol. 7, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1111/tpj.13723">NbEXPA1, an α-expansin, is plasmodesmata-specific and a novel host factor for potyviral infection</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">17 November 2017 | The Plant Journal, Vol. 92, No. 5</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1186/s12864-016-3372-0">Integrated mRNA and microRNA analysis identifies genes and small miRNA molecules associated with transcriptional and post-transcriptional-level responses to both drought stress and re-watering treatment in tobacco</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">10 January 2017 | BMC Genomics, Vol. 18, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1186/s12864-017-3791-6">A reference genome for Nicotiana tabacum enables map-based cloning of homeologous loci implicated in nitrogen utilization efficiency</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">19 June 2017 | BMC Genomics, Vol. 18, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1186/s13007-017-0181-7">A novel hairpin library-based approach to identify NBS–LRR genes required for effector-triggered hypersensitive response in Nicotiana benthamiana</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">28 April 2017 | Plant Methods, Vol. 13, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1111/tpj.13702">Comparative proteomic profiling of the choline transporter-like1 (CHER1) mutant provides insights into plasmodesmata composition of fully developed
+              Arabidopsis thaliana
+              leaves</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">6 October 2017 | The Plant Journal, Vol. 92, No. 4</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.3389/fmicb.2017.02046">Nuclear-Encoded Plastidal Carbonic Anhydrase Is Involved in Replication of Bamboo mosaic virus RNA in Nicotiana benthamiana</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">18 October 2017 | Frontiers in Microbiology, Vol. 8</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1021/acs.chemrev.7b00001">Ecological Roles and Biological Activities of Specialized Metabolites from the Genus
+              Nicotiana</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">29 September 2017 | Chemical Reviews, Vol. 117, No. 19</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1016/j.virol.2017.07.003">Infection and Colonization of Nicotiana benthamiana by Grapevine leafroll-associated virus 3</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">Virology, Vol. 510</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1111/mpp.12460">Pathogen-induced ERF68 regulates hypersensitive cell death in tomato</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">1 September 2016 | Molecular Plant Pathology, Vol. 18, No. 8</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1016/j.virol.2017.07.002">Tobacco mosaic virus infection disproportionately impacts phloem associated translatomes in Arabidopsis thaliana and Nicotiana benthamiana</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">Virology, Vol. 510</div></div></li><li><div class="related"><div class="related__title"><a href="/doi/abs/10.1094/MPMI-03-17-0056-R">The Tomato Kinase Pti1 Contributes to Production of Reactive Oxygen Species in Response to Two Flagellin-Derived Peptides and Promotes Resistance to Pseudomonas syringae Infection</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"><li><span class="hlFld-ContribAuthor"><a href="/author/Schwizer%2C+Simon" title="Simon Schwizer">Simon Schwizer</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Kraus%2C+Christine+M" title="Christine M. Kraus">Christine M. Kraus</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Dunham%2C+Diane+M" title="Diane M. Dunham">Diane M. Dunham</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Zheng%2C+Yi" title="Yi Zheng">Yi Zheng</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Fernandez-Pozo%2C+No%C3%A9" title="Noé Fernandez-Pozo">Noé Fernandez-Pozo</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Pombo%2C+Marina+A" title="Marina A. Pombo">Marina A. Pombo</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Fei%2C+Zhangjun" title="Zhangjun Fei">Zhangjun Fei</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Chakravarthy%2C+Suma" title="Suma Chakravarthy">Suma Chakravarthy</a></span><span class="spacer">, and </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Martin%2C+Gregory+B" title="Gregory B. Martin">Gregory B. Martin</a></span></li></ul></div><div class="meta">6 July 2017 | Molecular Plant-Microbe Interactions, Vol. 30, No. 9</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1111/nph.14637">Expansion of sesquiterpene biosynthetic gene clusters in pepper confers nonhost resistance to the Irish potato famine pathogen</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">20 June 2017 | New Phytologist, Vol. 215, No. 3</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1007/s00425-017-2690-z">Morphological phenotyping and genetic analyses of a new chemical-mutagenized population of tobacco (Nicotiana tabacum L.)</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">11 April 2017 | Planta, Vol. 246, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1016/j.virusres.2017.06.001">Differential expression of novel microRNAs in response to the infection of a TMV mutant with an internal poly(A) tract in  N .  benthamiana</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">Virus Research, Vol. 239</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1093/pcp/pcx053">Using GCaMP3 to Study Ca2+ Signaling in Nicotiana Species</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">8 May 2017 | Plant and Cell Physiology, Vol. 58, No. 7</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1111/1755-0998.12605">Development of genomic tools in a widespread tropical tree,
+              Symphonia globulifera
+              L.f.: a new low-coverage draft genome, SNP and SSR markers</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">27 October 2016 | Molecular Ecology Resources, Vol. 17, No. 4</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.3389/fpls.2017.00814">The Role of SHI/STY/SRS Genes in Organ Growth and Carpel Development Is Conserved in the Distant Eudicot Species Arabidopsis thaliana and Nicotiana benthamiana</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">23 May 2017 | Frontiers in Plant Science, Vol. 8</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1016/j.bbapap.2017.02.007">The papain-like cysteine proteinases NbCysP6 and NbCysP7 are highly processive enzymes with substrate specificities complementary to Nicotiana benthamiana cathepsin B</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">Biochimica et Biophysica Acta (BBA) - Proteins and Proteomics, Vol. 1865, No. 4</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1007/s10327-017-0699-6">Proteomic analysis of differentially expressed proteins of Nicotiana benthamiana triggered by INF1 elicitin from Phytophthora infestans</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">25 February 2017 | Journal of General Plant Pathology, Vol. 83, No. 2</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1371/journal.pone.0171311">The widely used Nicotiana benthamiana 16c line has an unusual T-DNA integration pattern including a transposon sequence</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">23 February 2017 | PLOS ONE, Vol. 12, No. 2</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1201/9781315119878-18">Chapter 17 Plant-Based Production of Biosimilar Drug Products</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">2 March 2017</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.3389/fpls.2017.00205">Non-host Plant Resistance against Phytophthora capsici Is Mediated in Part by Members of the I2 R Gene Family in Nicotiana spp.</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">15 February 2017 | Frontiers in Plant Science, Vol. 8</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1007/s11248-016-9981-1">DNA labelling of varieties covered by patent protection: a new solution for managing intellectual property rights in the seed industry</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">27 August 2016 | Transgenic Research, Vol. 26, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1093/dnares/dsw054">The draft genome of
+              Ruellia speciosa
+              (Beautiful Wild Petunia: Acanthaceae)</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">27 January 2017 | DNA Research, Vol. 2</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1371/journal.pgen.1006540">BTB-BACK Domain Protein POB1 Suppresses Immune Cell Death by Targeting Ubiquitin E3 ligase PUB17 for Degradation</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">5 January 2017 | PLOS Genetics, Vol. 13, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1007/978-1-4939-7165-7_5">Establishment of an In Vivo ARGONAUTE Reporter System in Plants</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">13 June 2017</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1007/978-1-4939-7249-4_8">Protein–Protein Interaction Assays with Effector–GFP Fusions in Nicotiana benthamiana</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">31 August 2017</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1007/978-3-319-56645-0_11">The Pollen Membrane Proteome</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">15 June 2017</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1016/B978-0-444-63661-4.00001-3">World Agriculture and Impact of Biotechnology</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta"></div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1007/978-3-319-59090-5_4">The Potential of Plants and Seeds in DNA-Based Information Storage</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">27 July 2017</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1007/s00122-016-2804-1">The historical role of species from the Solanaceae plant family in genetic research</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">15 October 2016 | Theoretical and Applied Genetics, Vol. 129, No. 12</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1101/gr.207837.116">The evolution of inflorescence diversity in the nightshades and heterochrony during meristem maturation</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">7 November 2016 | Genome Research, Vol. 26, No. 12</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1186/s13059-016-0908-1">Evolution of plant genome architecture</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">1 March 2016 | Genome Biology, Vol. 17, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1186/s40709-016-0048-5">Sequencing and characterization of leaf transcriptomes of six diploid Nicotiana species</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">18 April 2016 | Journal of Biological Research-Thessaloniki, Vol. 23, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1186/s12870-016-0780-x">A DUF-246 family glycosyltransferase-like gene affects male fertility and the biosynthesis of pectic arabinogalactans</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">18 April 2016 | BMC Plant Biology, Vol. 16, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1186/s12870-016-0835-z">Conservation of the role of INNER NO OUTER in development of unitegmic ovules of the Solanaceae despite a divergence in protein function</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">27 June 2016 | BMC Plant Biology, Vol. 16, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1186/s13007-016-0138-2">Detecting N-myristoylation and S-acylation of host and pathogen proteins in plants using click chemistry</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">3 August 2016 | Plant Methods, Vol. 12, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1038/nplants.2016.185">The pattern-recognition receptor CORE of Solanaceae detects bacterial cold-shock protein</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">28 November 2016 | Nature Plants, Vol. 2, No. 12</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1007/s00299-016-2039-2">Virus-induced gene silencing (VIGS)-mediated functional characterization of two genes involved in lignocellulosic secondary cell wall formation</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">13 August 2016 | Plant Cell Reports, Vol. 35, No. 11</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1080/21655979.2016.1208868">Agroinfiltration contributes to VP1 recombinant protein degradation</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">26 July 2016 | Bioengineered, Vol. 7, No. 6</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1371/journal.ppat.1005935">Distinct Effects of p19 RNA Silencing Suppressor on Small RNA Mediated Pathways in Plants</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">6 October 2016 | PLOS Pathogens, Vol. 12, No. 10</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1073/pnas.1606004113">Clathrin-dependent endocytosis is required for immunity mediated by pattern recognition receptor kinases</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">20 September 2016 | Proceedings of the National Academy of Sciences, Vol. 113, No. 39</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1007/s10725-016-0163-1">Comparative RNA-Seq analysis of Nicotiana benthamiana in response to Phytophthora parasitica infection</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">8 March 2016 | Plant Growth Regulation, Vol. 80, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1016/j.mimet.2016.06.023">A cytometry microparticle platform approach for screening tobacco microRNA changes after agrobacterium delivery</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">Journal of Microbiological Methods, Vol. 127</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1007/s00239-016-9750-z">Diversification of R2R3-MYB Transcription Factors in the Tomato Family Solanaceae</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">30 June 2016 | Journal of Molecular Evolution, Vol. 83, No. 1-2</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1007/s11032-016-0514-7">Construction of a high-density SNP genetic map in flue-cured tobacco based on SLAF-seq</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">12 July 2016 | Molecular Breeding, Vol. 36, No. 7</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1007/s12041-016-0634-1">Three duplication events and variable molecular evolution characteristics involved in multiple GGPS genes of six Solanaceae species</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">8 June 2016 | Journal of Genetics, Vol. 95, No. 2</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1111/ppl.12413">Spatial and temporal regulation of sterol biosynthesis in
+              Nicotiana benthamiana</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">7 March 2016 | Physiologia Plantarum, Vol. 157, No. 2</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1093/nar/gkw092">Using intron position conservation for homology-based gene prediction</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">17 February 2016 | Nucleic Acids Research, Vol. 44, No. 9</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1016/j.molp.2016.03.001">Natural Variation in Tomato Reveals Differences in the Recognition of AvrPto and AvrPtoB Effectors from Pseudomonas syringae</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">Molecular Plant, Vol. 9, No. 5</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1093/jxb/erw024">Fertilization Independent Endosperm
+              genes repress
+              NbGH3.6
+              and regulate the auxin level during shoot development in
+              Nicotiana benthamiana</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">11 February 2016 | Journal of Experimental Botany, Vol. 67, No. 8</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1111/cmi.12530">Rust fungal effectors mimic host transit peptides to translocate into chloroplasts</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">10 November 2015 | Cellular Microbiology, Vol. 18, No. 4</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1016/j.biochi.2015.06.017">Nicotiana benthamiana cathepsin B displays distinct enzymatic features which differ from its human relative and aleurain-like protease</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">Biochimie, Vol. 122</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1093/gbe/evw036">Comprehensive Phylogenetic Analysis Sheds Light on the Diversity and Origin of the MLO Family of Integral Membrane Proteins</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">17 February 2016 | Genome Biology and Evolution, Vol. 8, No. 3</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1111/nph.13764">Helper NLR proteins NRC2a/b and NRC3 but not NRC1 are required for Pto-mediated cell death and resistance in
+              Nicotiana benthamiana</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">23 November 2015 | New Phytologist, Vol. 209, No. 4</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1093/nar/gkv1371">Functional dissection of a plant Argonaute</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">15 December 2015 | Nucleic Acids Research, Vol. 44, No. 3</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1128/JVI.01706-15">Visualization of Host-Polerovirus Interaction Topologies Using Protein Interaction Reporter Technology</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">9 December 2015 | Journal of Virology, Vol. 90, No. 4</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1371/journal.pone.0149035">Heterologous Expression Screens in Nicotiana benthamiana Identify a Candidate Effector of the Wheat Yellow Rust Pathogen that Associates with Processing Bodies</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">10 February 2016 | PLOS ONE, Vol. 11, No. 2</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1111/pbi.12403">Multiplexed, targeted gene editing in
+              Nicotiana benthamiana
+              for glyco-engineering and monoclonal antibody production</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">25 May 2015 | Plant Biotechnology Journal, Vol. 14, No. 2</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1007/978-3-662-48535-4_1">Tomato Genome Sequence</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">5 January 2016</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1007/978-3-662-53389-5_12">Synteny Among Solanaceae Genomes</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">24 November 2016</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1016/j.virol.2015.09.008">Transgenic down-regulation of ARGONAUTE2 expression in Nicotiana benthamiana interferes with several layers of antiviral defenses</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">Virology, Vol. 486</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1038/srep17375">Isolation and Identification of Post-Transcriptional Gene Silencing-Related Micro-RNAs by Functionalized Silicon Nanowire Field-effect Transistor</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">30 November 2015 | Scientific Reports, Vol. 5, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1093/gbe/evv225">Evolutionarily Dynamic, but Robust, Targeting of Resistance Genes by the miR482/2118 Gene Family in the Solanaceae</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">19 November 2015 | Genome Biology and Evolution, Vol. 7, No. 12</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1186/s12859-015-0806-7">Cnidaria: fast, reference-free clustering of raw and assembled genome and transcriptome NGS data</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">2 November 2015 | BMC Bioinformatics, Vol. 16, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.3390/ijms16035714">Genome-Wide Identification and Analysis of Drought-Responsive Genes and MicroRNAs in Tobacco</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">12 March 2015 | International Journal of Molecular Sciences, Vol. 16, No. 12</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1007/s00438-015-1068-9">Evolutionary analysis of RB/Rpi-blb1 locus in the Solanaceae family</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">26 May 2015 | Molecular Genetics and Genomics, Vol. 290, No. 6</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1186/s12864-015-2209-6">Identification of Nicotiana benthamiana microRNAs and their targets using high throughput sequencing and degradome analysis</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">1 December 2015 | BMC Genomics, Vol. 16, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1093/pcp/pcv131">Engineering a Platform for Photosynthetic Pigment, Hormone and Cembrane-Related Diterpenoid Production in Nicotiana tabacum</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">11 September 2015 | Plant and Cell Physiology, Vol. 56, No. 11</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1073/pnas.1509090112">Glycan modulation and sulfoengineering of anti–HIV-1 monoclonal antibody PG9 in plants</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">28 September 2015 | Proceedings of the National Academy of Sciences, Vol. 112, No. 41</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1007/s11105-015-0856-z">Genomic Survey, Gene Expression, and Interaction Analysis Suggest Diverse Roles of ARF and Aux/IAA Proteins in Solanaceae</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">14 February 2015 | Plant Molecular Biology Reporter, Vol. 33, No. 5</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1371/journal.pone.0137526">Xenopus tropicalis Genome Re-Scaffolding and Re-Annotation Reach the Resolution Required for In Vivo ChIA-PET Analysis</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">8 September 2015 | PLOS ONE, Vol. 10, No. 9</div></div></li><li><div class="related"><div class="related__title"><a href="/doi/abs/10.1094/MPMI-12-14-0401-R">The GHKL ATPase MORC1 Modulates Species-Specific Plant Immunity in Solanaceae</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"><li><span class="hlFld-ContribAuthor"><a href="/author/Manosalva%2C+Patricia" title="Patricia Manosalva">Patricia Manosalva</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Manohar%2C+Murli" title="Murli Manohar">Murli Manohar</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Kogel%2C+Karl-Heinz" title="Karl-Heinz Kogel">Karl-Heinz Kogel</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Kang%2C+Hong-Gu" title="Hong-Gu Kang">Hong-Gu Kang</a></span><span class="spacer">, and </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Klessig%2C+Daniel+F" title="Daniel F. Klessig">Daniel F. Klessig</a></span></li></ul></div><div class="meta">20 July 2015 | Molecular Plant-Microbe Interactions, Vol. 28, No. 8</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1093/jxb/erv237">Phosphorylation of TGB1 by protein kinase CK2 promotes barley stripe mosaic virus movement in monocots and dicots</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">21 May 2015 | Journal of Experimental Botany, Vol. 66, No. 15</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1093/bfgp/elv007">Functional genomics of tomato for the study of plant immunity: Table 1</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">21 March 2015 | Briefings in Functional Genomics, Vol. 14, No. 4</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1371/journal.pone.0128808">Large-Scale Evolutionary Analysis of Genes and Supergene Clusters from Terpenoid Modular Pathways Provides Insights into Metabolic Diversification in Flowering Plants</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">5 June 2015 | PLOS ONE, Vol. 10, No. 6</div></div></li><li><div class="related"><div class="related__title"><a href="/doi/abs/10.1094/MPMI-01-15-0003-R">Candidate Effector Proteins of the Rust Pathogen Melampsora larici-populina Target Diverse Plant Cell Compartments</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"><li><span class="hlFld-ContribAuthor"><a href="/author/Petre%2C+Benjamin" title="Benjamin Petre">Benjamin Petre</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Saunders%2C+Diane+G+O" title="Diane G. O. Saunders">Diane G. O. Saunders</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Sklenar%2C+Jan" title="Jan Sklenar">Jan Sklenar</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Lorrain%2C+C%C3%A9cile" title="Cécile Lorrain">Cécile Lorrain</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Win%2C+Joe" title="Joe Win">Joe Win</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Duplessis%2C+S%C3%A9bastien" title="Sébastien Duplessis">Sébastien Duplessis</a></span><span class="spacer">, and </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Kamoun%2C+Sophien" title="Sophien Kamoun">Sophien Kamoun</a></span></li></ul></div><div class="meta">26 June 2015 | Molecular Plant-Microbe Interactions, Vol. 28, No. 6</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1016/j.coviro.2015.04.005">Viral elements and host cellular proteins in intercellular movement of Bamboo mosaic virus</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">Current Opinion in Virology, Vol. 12</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1093/pcp/pcv036">Developmental- and Tissue-Specific Expression of NbCMT3-2 Encoding a Chromomethylase in Nicotiana benthamiana</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">5 March 2015 | Plant and Cell Physiology, Vol. 56, No. 6</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1016/j.virol.2015.02.034">50-plus years of fungal viruses</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">Virology, Vol. 479-480</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1111/plb.12275">Identification and characterisation of tobacco microRNA transcriptome using high-throughput sequencing</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">21 January 2015 | Plant Biology, Vol. 17, No. 3</div></div></li><li><div class="related"><div class="related__title"><a href="/doi/abs/10.1094/MPMI-11-14-0363-R">Insights Into the Polerovirus–Plant Interactome Revealed by Coimmunoprecipitation and Mass Spectrometry</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"><li><span class="hlFld-ContribAuthor"><a href="/author/DeBlasio%2C+Stacy+L" title="Stacy L. DeBlasio">Stacy L. DeBlasio</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Johnson%2C+Richard" title="Richard Johnson">Richard Johnson</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Mahoney%2C+Jaclyn" title="Jaclyn Mahoney">Jaclyn Mahoney</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Karasev%2C+Alexander" title="Alexander Karasev">Alexander Karasev</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Gray%2C+Stewart+M" title="Stewart M. Gray">Stewart M. Gray</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/MacCoss%2C+Michael+J" title="Michael J. MacCoss">Michael J. MacCoss</a></span><span class="spacer">, and </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Cilia%2C+Michelle" title="Michelle Cilia">Michelle Cilia</a></span></li></ul></div><div class="meta">26 March 2015 | Molecular Plant-Microbe Interactions, Vol. 28, No. 4</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1371/journal.pone.0121787">Differential Responses to Virus Challenge of Laboratory and Wild Accessions of Australian Species of Nicotiana, and Comparative Analysis of RDR1 Gene Sequences</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">30 March 2015 | PLOS ONE, Vol. 10, No. 3</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1016/j.molp.2014.11.024">The SGN VIGS Tool: User-Friendly Software to Design Virus-Induced Gene Silencing (VIGS) Constructs for Functional Genomics</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">Molecular Plant, Vol. 8, No. 3</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1016/j.molp.2015.01.006">SNARE-RNAi Results in Higher Terpene Emission from Ectopically Expressed Caryophyllene Synthase in Nicotiana benthamiana</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">Molecular Plant, Vol. 8, No. 3</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1016/j.virol.2014.09.024">The chestnut blight fungus for studies on virus/host and virus/virus interactions: From a natural to a model host</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">Virology, Vol. 477</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1007/s00438-015-0989-7">Current status and prospects for the study of Nicotiana genomics, genetics, and nicotine biosynthesis genes</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">13 January 2015 | Molecular Genetics and Genomics, Vol. 290, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1093/nar/gku1195">The Sol Genomics Network (SGN)—from genotype to phenotype to breeding</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">26 November 2014 | Nucleic Acids Research, Vol. 43, No. D1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1002/biot.201400288">(+)-Valencene production in
+              Nicotiana benthamiana
+              is increased by down-regulation of competing pathways</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">18 September 2014 | Biotechnology Journal, Vol. 10, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1007/978-1-4939-1523-1_13">Investigating Plasmodesmata Genetics with Virus-Induced Gene Silencing and an Agrobacterium-Mediated GFP Movement Assay</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">11 September 2014</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1007/978-1-4939-2453-0_2">Strategies for Altering Plant Traits Using Virus-Induced Gene Silencing Technologies</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">16 February 2015</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.12677/BR.2015.42004">Establishment and Optimization of Agrobacterium-Mediated Transient Gene Expression System in Tabacco</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">Botanical Research, Vol. 04, No. 02</div></div></li><li><div class="related"><div class="related__title"><a href="/doi/abs/10.1094/MPMI-06-14-0181-R">Nucleoporin 75 Is Involved in the Ethylene-Mediated Production of Phytoalexin for the Resistance of Nicotiana benthamiana to Phytophthora infestans</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"><li><span class="hlFld-ContribAuthor"><a href="/author/Ohtsu%2C+Mina" title="Mina Ohtsu">Mina Ohtsu</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Shibata%2C+Yusuke" title="Yusuke Shibata">Yusuke Shibata</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Ojika%2C+Makoto" title="Makoto Ojika">Makoto Ojika</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Tamura%2C+Kentaro" title="Kentaro Tamura">Kentaro Tamura</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Hara-Nishimura%2C+Ikuko" title="Ikuko Hara-Nishimura">Ikuko Hara-Nishimura</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Mori%2C+Hitoshi" title="Hitoshi Mori">Hitoshi Mori</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Kawakita%2C+Kazuhito" title="Kazuhito Kawakita">Kazuhito Kawakita</a></span><span class="spacer">, and </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Takemoto%2C+Daigo" title="Daigo Takemoto">Daigo Takemoto</a></span></li></ul></div><div class="meta">11 November 2014 | Molecular Plant-Microbe Interactions, Vol. 27, No. 12</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1093/dnares/dsu027">Draft Genome Sequence of Eggplant (Solanum melongena L.): the Representative Solanum Species Indigenous to the Old World</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">18 September 2014 | DNA Research, Vol. 21, No. 6</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1186/s12870-014-0287-2">Analysis of wild-species introgressions in tomato inbreds uncovers ancestral origins</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">28 October 2014 | BMC Plant Biology, Vol. 14, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1007/s11262-014-1093-5">Differential RNAi responses of Nicotiana benthamiana individuals transformed with a hairpin-inducing construct during Plum pox virus challenge</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">26 June 2014 | Virus Genes, Vol. 49, No. 2</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1371/journal.pone.0108159">Determining the GmRIN4 Requirements of the Soybean Disease Resistance Proteins Rpg1b and Rpg1r Using a Nicotiana glutinosa-Based Agroinfiltration System</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">22 September 2014 | PLoS ONE, Vol. 9, No. 9</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1038/ncomms4833">The tobacco genome sequence and its comparison with those of tomato and potato</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">8 May 2014 | Nature Communications, Vol. 5, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1126/science.1253435">Early allopolyploid evolution in the post-Neolithic Brassica napus oilseed genome</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">21 August 2014 | Science, Vol. 345, No. 6199</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1371/journal.ppat.1004227">Pto Kinase Binds Two Domains of AvrPtoB and Its Proximity to the Effector E3 Ligase Determines if It Evades Degradation and Activates Plant Immunity</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">24 July 2014 | PLoS Pathogens, Vol. 10, No. 7</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1038/nprot.2014.092">Tobacco rattle virus–based virus-induced gene silencing in Nicotiana benthamiana</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">5 June 2014 | Nature Protocols, Vol. 9, No. 7</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1111/tpj.12539">Sugarcane genome sequencing by methylation filtration provides tools for genomic research in the genus
+              Saccharum</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">17 June 2014 | The Plant Journal, Vol. 79, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.3389/fpls.2014.00204">Transcriptional and biochemical responses of monoacylglycerol acyltransferase-mediated oil synthesis and associated senescence-like responses in Nicotiana benthamiana</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">26 May 2014 | Frontiers in Plant Science, Vol. 5</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1111/nph.12703">The essential role of NGATHA genes in style and stigma specification is widely conserved across eudicots</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">31 January 2014 | New Phytologist, Vol. 202, No. 3</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1371/journal.ppat.1004057">Functionally Redundant RXLR Effectors from Phytophthora infestans Act at Different Steps to Suppress Early flg22-Triggered Immunity</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">24 April 2014 | PLoS Pathogens, Vol. 10, No. 4</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1016/j.pbi.2013.12.004">From genome to phenome and back in tomato</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">Current Opinion in Plant Biology, Vol. 18</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1371/journal.ppat.1003985">The Hypervariable Amino-Terminus of P1 Protease Modulates Potyviral Replication and Host Defense Responses</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">6 March 2014 | PLoS Pathogens, Vol. 10, No. 3</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.3835/plantgenome2013.12.0042">Spud DB: A Resource for Mining Sequences, Genotypes, and Phenotypes to Accelerate Potato Breeding</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">1 March 2014 | The Plant Genome, Vol. 7, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1111/tpj.12417">The NIa-Pro protein of
+              Turnip mosaic virus
+              improves growth and reproduction of the aphid vector,
+              Myzus persicae
+              (green peach aphid)</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">24 January 2014 | The Plant Journal, Vol. 77, No. 4</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1007/978-1-4939-0922-3_14">In Vivo Phosphorylation of WRKY Transcription Factor by MAPK</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">20 May 2014</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1111/ppl.12071">Functional characterization of
+              Nicotiana benthamiana
+              chromomethylase 3 in developmental programs by virus-induced gene silencing</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">7 June 2013 | Physiologia Plantarum, Vol. 150, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1186/1471-2164-15-870">Diversification of the C-TERMINALLY ENCODED PEPTIDE (CEP) gene family in angiosperms, and evolution of plant-family specific CEP genes</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">BMC Genomics, Vol. 15, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1186/1471-2164-15-966">A novel approach for multi-domain and multi-gene family identification provides insights into evolutionary dynamics of disease resistance genes in core eudicot plants</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">BMC Genomics, Vol. 15, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1186/1471-2229-14-60">A diverse set of miRNAs responsive to begomovirus-associated betasatellite in Nicotiana benthamiana</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">BMC Plant Biology, Vol. 14, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.4161/nucl.28315">Coilin, the signature protein of Cajal bodies, differentially modulates the interactions of plants with viruses in widely different taxa</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">24 February 2014 | Nucleus, Vol. 5, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1007/s10658-013-0286-4">Transcriptional alterations in model host, Nicotiana benthamiana, in response to infection by South African cassava mosaic virus</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">8 September 2013 | European Journal of Plant Pathology, Vol. 137, No. 4</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1016/j.virol.2013.09.021">A putative Rab-GTPase activation protein from Nicotiana benthamiana is important for Bamboo mosaic virus intercellular movement</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">Virology, Vol. 447, No. 1-2</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1016/j.crvi.2013.10.007">Thymoquinone causes multiple effects, including cell death, on dividing plant cells</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">Comptes Rendus Biologies, Vol. 336, No. 11-12</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1111/tpj.12302">Pescadillo plays an essential role in plant cell growth and survival by modulating ribosome biogenesis</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">30 August 2013 | The Plant Journal, Vol. 76, No. 3</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1371/journal.pone.0076276">Differential Expression of Tomato Spotted Wilt Virus-Derived Viral Small RNAs in Infected Commercial and Experimental Host Plants</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">15 October 2013 | PLoS ONE, Vol. 8, No. 10</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1371/journal.pone.0077140">In Vitro Grown Pollen Tubes of Nicotiana alata Actively Synthesise a Fucosylated Xyloglucan</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">8 October 2013 | PLoS ONE, Vol. 8, No. 10</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1111/1462-2920.12113">Salmonella
+              colonization activates the plant immune system and benefits from association with plant pathogenic bacteria</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">21 March 2013 | Environmental Microbiology, Vol. 15, No. 9</div></div></li><li><div class="related"><div class="related__title"><a href="/doi/abs/10.1094/MPMI-12-12-0301-R">Nicotiana benthamiana Calreticulin 3a Is Required for the Ethylene-Mediated Production of Phytoalexins and Disease Resistance Against Oomycete Pathogen Phytophthora infestans</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"><li><span class="hlFld-ContribAuthor"><a href="/author/Matsukawa%2C+Mizuki" title="Mizuki Matsukawa">Mizuki Matsukawa</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Shibata%2C+Yusuke" title="Yusuke Shibata">Yusuke Shibata</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Ohtsu%2C+Mina" title="Mina Ohtsu">Mina Ohtsu</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Mizutani%2C+Aki" title="Aki Mizutani">Aki Mizutani</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Mori%2C+Hitoshi" title="Hitoshi Mori">Hitoshi Mori</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Wang%2C+Ping" title="Ping Wang">Ping Wang</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Ojika%2C+Makoto" title="Makoto Ojika">Makoto Ojika</a></span><span class="spacer">, </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Kawakita%2C+Kazuhito" title="Kazuhito Kawakita">Kazuhito Kawakita</a></span><span class="spacer">, and </span></li><li><span class="hlFld-ContribAuthor"><a href="/author/Takemoto%2C+Daigo" title="Daigo Takemoto">Daigo Takemoto</a></span></li></ul></div><div class="meta">1 July 2013 | Molecular Plant-Microbe Interactions, Vol. 26, No. 8</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1371/journal.pone.0069909">Genome Survey Sequencing and Genetic Background Characterization of Gracilariopsis lemaneiformis (Rhodophyta) Based on Next-Generation Sequencing</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">16 July 2013 | PLoS ONE, Vol. 8, No. 7</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1186/gb-2013-14-6-207">The promise of genomics in the study of plant-pollinator interactions</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">24 June 2013 | Genome Biology, Vol. 14, No. 6</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1186/gb-2013-14-6-r60">Reference genomes and transcriptomes of Nicotiana sylvestris and Nicotiana tomentosiformis</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">17 June 2013 | Genome Biology, Vol. 14, No. 6</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1371/journal.pone.0063533">Multiple Classes of Immune-Related Proteases Associated with the Cell Death Response in Pepper Plants</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">16 May 2013 | PLoS ONE, Vol. 8, No. 5</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1016/j.plantsci.2013.01.001">Systems biology and “omics” tools: A cooperation for next-generation mycorrhizal studies</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">Plant Science, Vol. 203-204</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1371/journal.pone.0059534">De Novo Transcriptome Sequence Assembly and Analysis of RNA Silencing Genes of Nicotiana benthamiana</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">28 March 2013 | PLoS ONE, Vol. 8, No. 3</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1111/nph.12093">GmRIN4 protein family members function nonredundantly in soybean race-specific resistance against
+              Pseudomonas syringae</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">21 December 2012 | New Phytologist, Vol. 197, No. 4</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.3390/v5030998">Discovering Host Genes Involved in the Infection by the Tomato Yellow Leaf Curl Virus Complex and in the Establishment of Resistance to the Virus Using Tobacco Rattle Virus-based Post Transcriptional Gene Silencing</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">22 March 2013 | Viruses, Vol. 5, No. 3</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1186/1471-2148-13-214">A phylogenetic framework for evolutionary study of the nightshades (Solanaceae): a dated 1000-tip tree</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">BMC Evolutionary Biology, Vol. 13, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1186/1471-2164-14-806">TTG2-regulated development is related to expression of putative AUXIN RESPONSE FACTOR genes in tobacco</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">BMC Genomics, Vol. 14, No. 1</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1186/gb-2013-14-12-r139">Transcriptomics-based screen for genes induced by flagellin and repressed by pathogen effectors identifies a cell wall-associated kinase involved in plant immunity</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">Genome Biology, Vol. 14, No. 12</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.5511/plantbiotechnology.13.0904a">Advances in tomato research in the post-genome era</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">Plant Biotechnology, Vol. 30, No. 3</div></div></li><li><div class="related"><div class="related__title"><a href="https://doi.org/10.1371/journal.pone.0052717">Advanced Engineering of Lipid Metabolism in Nicotiana benthamiana Using a Draft Genome and the V2 Viral Silencing-Suppressor Protein</a></div><div class="related__authors"><ul class="rlist--inline loa mobile-authors loa-height"></ul></div><div class="meta">26 December 2012 | PLoS ONE, Vol. 7, No. 12</div></div></li></ul></div></li><li class="accordion-tabbed__tab"></li></ul></div></li><li role="alert" aria-busy="true" class="tab__spinner spinner-container"><img src="/specs/ux3/releasedAssets/images/spinner.gif" id="spinner" alt="Loading"/></li></ul></div></div></div></article></main><script>var articleRef = document.querySelector('.article__body:not(.show-references) .article__references');
+if (articleRef) { articleRef.style.display = "none"; }
+
+</script><div id="figure-viewer" data-ux3-wrapper="figure-viewer" data-ux3-transformed-by="figureInit" data-ux3-role="parent" role="dialog" class="figure-viewer"><div class="figure-viewer__reg__top clearfix"><div class="figure-viewer__top__right"><a href="#" data-ux3-role="controller" role="button" class="figure-viewer__ctrl__close"><span class="icon-close_thin"><span class="sr-only">Close Figure Viewer</span></span></a></div><div class="figure-viewer__top__left"><a href="#" role="button" class="figure-viewer__ctrl__browse"><span class="icon-allfigures"><span class="sr-only">Browse All Figures</span></span></a><a href="#" role="button" class="figure-viewer__ctrl__return is-hidden"><span class="icon-arrow-left"><span class="sr-only">Return to Figure</span></span></a><span class="zoomSlider js__zoom-slider ui-slider"><label for="figure-viewer__zoom-range" class="sr-only">Change zoom level</label><input type="range" id="figure-viewer__zoom-range" class="zoom-range"/></span><button class="figure-viewer__label__zoom icon-zoom zoom-in"><span class="sr-only">Zoom in</span></button><button class="figure-viewer__label__zoom icon-zoom-out zoom-out hidden"><span class="sr-only">Zoom out</span></button></div></div><div class="figure-viewer__reg__center"><div class="figure-viewer__cent__left"><a href="#" role="button" class="figure-viewer__ctrl__prev"><span class="icon-arrow_l"><span class="sr-only">Previous Figure</span></span></a><a href="#" role="button" class="figure-viewer__ctrl__next"><span class="icon-arrow_r"><span class="sr-only">Next Figure</span></span></a><div class="figure-viewer__hold__fig"><figure class="holder"></figure></div><div class="figure-viewer__hold__list clearfix container"></div></div><div class="figure-viewer__cent__right"><div class="figure-viewer__title"><a title="Open/Close Caption" href="#" class="figure-viewer__ctrl__caption"><span class="icon-doublearrow"></span><span class="figure-viewer__caption__label">Caption</span></a><span class="figure-viewer__title__text"></span></div><div class="figure-viewer__hold__figcap"></div></div></div></div>
+
+        </div>
+    
+
+
+
+
+        
+        <div class="container"><div class="row"><div class="col-sm-8 col-md-8"><div class="pb-dropzone" data-pb-dropzone="col-0" title="col-0"></div></div><div class="col-sm-4 hidden-xs hidden-sm"><div class="pb-dropzone" data-pb-dropzone="col-1" title="col-1"></div></div></div></div>
+
+
+
+
+        
+        <footer class="series-mpmi">
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-layout-widget" data-widget-id="1e81294a-eb87-4209-ab05-18c41a9ce991" class="footer-top">
+        
+
+
+
+        
+        <div class="container"><div class="row"><div class="col-md-5 left-footer col-xs-5">
+
+
+
+        
+        <a href="/">
+    <picture class="mpmi">
+        <source srcset="/products/aps/releasedAssets/images/aps-green-header-logo.png" media="(min-width: 533px)">
+        <source srcset="/products/aps/releasedAssets/images/aps-green-logo-mobile.png" media="(max-width: 532px)">
+        <img srcset="/products/aps/releasedAssets/images/aps-green-header-logo.png" alt="">
+    </picture>
+</a>
+<a href="https://www.ismpmi.org/" rel="external">
+    <picture>
+        <source srcset="/products/aps/releasedAssets/images/is-mpmi-logo.png" media="(min-width: 533px)">
+        <source srcset="/products/aps/releasedAssets/images/is-mpmi-mobile-header.png" media="(max-width: 532px)">
+        <img srcset="/products/aps/releasedAssets/images/is-mpmi-logo.png" alt="">
+    </picture>
+</a>
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="UX3HTMLWidget" data-widget-id="fc511c92-b99e-41a3-ad4d-08741e5ef8f1" class="contact">
+        
+
+
+
+        
+        <div class="contact__address">
+    <strong>The American Phytopathological Society (<abbr>APS</abbr>)</strong><br>
+    <div class="contact_streetaddress" title="Postal Address">3340 Pilot Knob Road, St. Paul, MN 55121 <abbr>USA</abbr></div>
+    <div class="contact_phone" title="Telephone">+1.651.454.7250</div>
+    <div class="contact_fax" title="Fax">+1.651.454.0766</div>
+    <div class="contact_twitter" title="Twitter"><a href="https://twitter.com/plantdisease" title="icon-twitter"><i class="icon-twitter" aria-hidden="true"></i> APS</a></div>
+    <span class="contact_twitter" title="Twitter"><a href="https://twitter.com/ismpmi" title="icon-twitter"><i class="icon-twitter" aria-hidden="true"></i> IS-MPMI</a></span>
+</div>
+
+        </div>
+    
+</div><div class="col-lg-7 sitemap hidden-xs hidden-sm hidden-md col-sm-7 equalHeightContainer col-xs-7">
+
+
+
+        
+        <div class="equalHeightItem col-sm-4">
+
+
+
+        
+        <h5>Information</h5>
+<ul class="rlist">
+    <li><a href="/page/authorinformation">For Authors</a></li>
+    <li><a href="https://www.apsnet.org/apsstore/subscribe/Pages/default.aspx">For Subscribers</a></li>
+</ul>
+</div><div class="equalHeightItem col-sm-4">
+
+
+
+        
+        <h5>Help &amp; About Us</h5>
+<ul class="rlist">
+    <li><a href="/feedback/show">Contact Us</a></li>
+    <li><a href="https://www.apsnet.org/"><abbr>APS Home</abbr></a></li>
+    <li><a href="https://www.ismpmi.org/Pages/default.aspx"><abbr>IS-MPMI Home</abbr></a></li>
+</ul>
+</div><div class="equalHeightItem col-sm-4">
+
+
+
+        
+        <h5>Links &amp; Resources</h5>
+<ul class="rlist">
+    <li><a href="/page/mpmi/about">Scope</a></li>
+    <li><a href="/page/impact">Impact</a></li>
+    <li><a href="/page/copyright_permissions">Permissions</a></li>
+    <li><a href="/page/terms">Terms &amp; Conditions</a></li>
+    <li><a href="/page/privacy-policy">Privacy Policy</a></li>
+</ul>
+</div>
+</div></div></div>
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+        <div data-widget-def="ux3-layout-widget" data-widget-id="37902be2-b35b-4073-a411-f6109b41f569" class="footer-bottom text-onDark">
+        
+
+
+
+        
+        <div class="container"><div class="row"><div>
+
+
+
+        
+        <div class="copyright">© 2021 The American Phytopathological Society. Powered by Atypon® Literatum.</div>
+</div></div></div>
+
+        </div>
+    
+</footer>
+        </div>
+    </div>
+
+
+
+
+    <script src="/products/aps/releasedAssets/js/build.lazyload.bundle-65c1c20e6b363b7640c9.js"></script><script src="/products/aps/releasedAssets/js/main.bundle-8b150b92878c22f0ca3c.js"></script>
+
+<script type="text/javascript" src="/wro/jt7t~product.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

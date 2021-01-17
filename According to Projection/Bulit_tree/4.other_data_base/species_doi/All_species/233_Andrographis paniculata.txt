@@ -1,0 +1,1596 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+            var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl + '&gtm_auth=fCzlsmYQFAUQ_UXneGJNag&gtm_preview=env-2&gtm_cookies_win=x';
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TZGWTGG');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title>Frontiers | Chromosome Level Genome Assembly of Andrographis paniculata | Genetics</title>
+
+    <link rel="shortcut icon" href="https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/favicon_16x16.ico" type="image/x-icon" />
+
+    <meta property="og:type" content="article" />
+    <meta property="frontiers:type" content="Article" />
+    <meta property="og:site_name" name="site_name" content="Frontiers" />
+    <meta property="og:title" name="Title" content="Chromosome Level Genome Assembly of Andrographis paniculata" />
+    <meta property="og:description" name="Description" content="Andrographis paniculata (Chinese name: Chuanxinlian) is an annual dicotyledonous medicinal plant widely grown in China and Southeast Asia. The dried plant has a highly acclaimed usage in the traditional Chinese medicine for its antipyretic, anti-inflammatory, and analgesic effects. In order to help delineate the biosynthetic pathways of various secondary metabolites, we report in this study a high-quality reference genome for A. paniculata. With the help of both PacBio single molecule real time sequencing and Illumina sequencing reads for error correction, the A. paniculata genome was assembled into a total size of 284 Mb with a contig N50 size of 5.14 Mb. The contigs were further assembled into 24 pseudo-chromosomes by the Hi-C technique. We also analyzed the gene families (e.g., KSL, and CYP450) whose protein products are essential for synthesizing bioactive compounds in A. paniculata. In conclusion, the high-quality A. paniculata genome assembly builds the foundation for decoding the biosynthetic pathways of various medicinal compounds." />
+    <meta property="og:url" name="url" content="https://www.frontiersin.org/article/10.3389/fgene.2020.00701/full" />
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"
+            integrity="sha256-h0cGsrExGgcZtSZ/fRz4AwV+Nn6Urh/3v3jFRQ0w9dQ=" crossorigin="anonymous"></script>
+        <link href="https://static.frontiersin.org/navigation-plugins/footer/css" rel="stylesheet" />
+            <link href="https://static.frontiersin.org/navigation-plugins/header/css" rel="stylesheet" />
+
+        <meta property="og:image" content="https://www.frontiersin.org/files/MyHome%20Article%20Library/536541/536541_Thumb_400.jpg" />
+            <meta name="citation_volume" content="11" />
+        <meta name="citation_journal_title" content="Frontiers in Genetics" />
+        <meta name="citation_publisher" content="Frontiers" />
+        <meta name="citation_journal_abbrev" content="Front. Genet." />
+        <meta name="citation_issn" content="1664-8021" />
+        <meta name="citation_doi" content="10.3389/fgene.2020.00701" />
+        <meta name="citation_pages" content="701" />
+        <meta name="citation_language" content="English" />
+        <meta name="citation_title" content="Chromosome Level Genome Assembly of Andrographis paniculata" />
+        <meta name="citation_keywords" content="PacBio Sequencing; Hi-C; genome assembly; medicinal plant; Andrographis paniculata" />
+        <meta name="citation_abstract" content="Andrographis paniculata (Chinese name: Chuanxinlian) is an annual dicotyledonous medicinal plant widely grown in China and Southeast Asia. The dried plant has a highly acclaimed usage in the traditional Chinese medicine for its antipyretic, anti-inflammatory, and analgesic effects. In order to help delineate the biosynthetic pathways of various secondary metabolites, we report in this study a high-quality reference genome for A. paniculata. With the help of both PacBio single molecule real time sequencing and Illumina sequencing reads for error correction, the A. paniculata genome was assembled into a total size of 284 Mb with a contig N50 size of 5.14 Mb. The contigs were further assembled into 24 pseudo-chromosomes by the Hi-C technique. We also analyzed the gene families (e.g. CPS, KSL, and CYP450) whose protein products are essential for synthesizing bioactive compounds in A. paniculata. In conclusion, the high-quality A. paniculata genome assembly builds the foundation for decoding the biosynthetic pathways of various medicinal compounds." />
+        <meta name="description" content="Andrographis paniculata (Chinese name: Chuanxinlian) is an annual dicotyledonous medicinal plant widely grown in China and Southeast Asia. The dried plant has a highly acclaimed usage in the traditional Chinese medicine for its antipyretic, anti-inflammatory, and analgesic effects. In order to help delineate the biosynthetic pathways of various secondary metabolites, we report in this study a high-quality reference genome for A. paniculata. With the help of both PacBio single molecule real time sequencing and Illumina sequencing reads for error correction, the A. paniculata genome was assembled into a total size of 284 Mb with a contig N50 size of 5.14 Mb. The contigs were further assembled into 24 pseudo-chromosomes by the Hi-C technique. We also analyzed the gene families (e.g. CPS, KSL, and CYP450) whose protein products are essential for synthesizing bioactive compounds in A. paniculata. In conclusion, the high-quality A. paniculata genome assembly builds the foundation for decoding the biosynthetic pathways of various medicinal compounds." />
+        <meta name="citation_online_date" content="2020/06/09" />
+        <meta name="citation_date" content="2020" />
+        <meta name="citation_publication_date" content="2020/06/30" />
+        <meta name="citation_pdf_url" content="https://www.frontiersin.org/articles/10.3389/fgene.2020.00701/pdf" />
+        <meta name="citation_author" content="Liang, Ying" />
+        <meta name="citation_author_institution" content="Guangxi Key Laboratory of Medicinal Resources Protection and Genetic Improvement, Guangxi Botanical Garden of Medicinal Plants, China" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Chen, Shanshan" />
+        <meta name="citation_author_institution" content="BGI College, Zhengzhou University, China" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Wei, Kunhua" />
+        <meta name="citation_author_institution" content="Guangxi Key Laboratory of Medicinal Resources Protection and Genetic Improvement, Guangxi Botanical Garden of Medicinal Plants, China" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Yang, Zijiang" />
+        <meta name="citation_author_institution" content="National and Local Joint Engineering Research Center on Germplasm Innovation and Utilization of Chinese Medicinal Materials in Southwest China, Yunnan Agricultural University, China" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Duan, Shengchang" />
+        <meta name="citation_author_institution" content="NowBio Biotechnology Company, China" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Du, Yuan" />
+        <meta name="citation_author_institution" content="NowBio Biotechnology Company, China" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Qu, Peng" />
+        <meta name="citation_author_institution" content="Guangxi Key Laboratory of Medicinal Resources Protection and Genetic Improvement, Guangxi Botanical Garden of Medicinal Plants, China" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Miao, Jianhua" />
+        <meta name="citation_author_institution" content="Guangxi Key Laboratory of Medicinal Resources Protection and Genetic Improvement, Guangxi Botanical Garden of Medicinal Plants, China" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Chen, Wei" />
+        <meta name="citation_author_institution" content="State Key Laboratory for Conservation and Utilization of Bio-Resources in Yunnan, Yunnan Agricultural University, China" />
+        <meta name="citation_author_institution" content="College of Agronomy and Biotechnology, Yunnan Agricultural University, China" />
+        <meta name="citation_author_institution" content="Yunnan Research Institute for Local Plateau Agriculture and Industry, China" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Dong, Yang" />
+        <meta name="citation_author_institution" content="Guangxi Key Laboratory of Medicinal Resources Protection and Genetic Improvement, Guangxi Botanical Garden of Medicinal Plants, China" />
+        <meta name="citation_author_institution" content="National and Local Joint Engineering Research Center on Germplasm Innovation and Utilization of Chinese Medicinal Materials in Southwest China, Yunnan Agricultural University, China" />
+        <meta name="citation_author_institution" content="State Key Laboratory for Conservation and Utilization of Bio-Resources in Yunnan, Yunnan Agricultural University, China" />
+        <meta name="citation_author_institution" content="Yunnan Research Institute for Local Plateau Agriculture and Industry, China" />
+        <meta name="citation_author_email" content="" />
+    <meta name="Keywords" content="PacBio Sequencing, Hi-C, genome assembly, medicinal plant, Andrographis paniculata" />
+
+        <meta name="dc.identifier" content="doi:10.3389/fgene.2020.00701"> <!--CrossMark widget-->
+    
+    <script type="text/javascript">
+
+        var CurrentIBarMenu = 'bysubjects';
+        var CurrentPageCode = 'ARTICLE_PAGE_NEW';
+
+        var FRConfiguration = (function() {
+            return {
+                Environment: 'Live',
+                SANVirtualPath: 'https://www.frontiersin.org/files/',
+                SharepointWebsiteUrl: 'https://www.frontiersin.org',
+                FrontiersJournalUIUrl: 'https://www.frontiersin.org',
+                FrontiersJournalAPIUrl: 'https://api-journal.frontiersin.org',
+                FrontiersReviewUIUrl: '',
+                FrontiersReviewAPIUrl: '',
+                FrontiersCookie: 'frontiersN',
+                FrontiersCookieRememberMe: 'frontiersNt',
+                FrontiersLoginUrl: 'https://www.frontiersin.org/Login.aspx',
+                FrontiersRegistrationUrl: 'http://www.frontiersin.org/Registration/Register.aspx',
+                IsCommentVisible: 'True',
+                IsPreview:'False'
+            };
+        })();
+
+        var FRLanguage = (function() {
+            var languageSet = {"ART_FRONTIERS":"Frontiers ","Article_AcceptedDate":"Accepted: ","Article_AnalyticsToolTip":"The total view count is updated once a day, so not to worry if you don\u0027t see immediate results.","Article_AnalyticsTotalViews":"total views","Article_AnalyticsViewImpact":"View Article Impact","Article_ArchiveLinkText":"Articles","Article_BibTex":"BibTex","Article_Citation":"Citation: ","Article_Commentary":"COMMENTARY","Article_Copyright":"Copyright: ","Article_CopyrightText":"This is an open-access article distributed under the terms of the \u003ca href=\"http://creativecommons.org/licenses/by/4.0/\"\u003eCreative Commons Attribution License (CC BY)\u003c/a\u003e. The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.","Article_Correspondence":"* Correspondence: ","Article_DownloadArticle":"Download Article","Article_DownloadPDF":"Download PDF","Article_DownloadProvisionalArticle":"Download Provisional Article","Article_DownloadProvisionalPDF":"Download Provisional PDF","Article_EditedBy":"Edited by: ","Article_EndNote":"EndNote","Article_EPUB":"EPUB","Article_ExportCitation":"Export Citation","Article_JATS":"JATS","Article_Keywords":"Keywords: ","Article_NLM":"XML (NLM)","Article_OriginalArticle":"ORIGINAL ARTICLE","Article_PaperPendingPublishedDate":"Paper pending published: ","Article_PDF":"PDF","Article_ProvisionalPDF":"Provisional PDF","Article_PublishedDate":"Published online: ","Article_ReadFullText":"Read Full Text","Article_ReceivedDate":"Received: ","Article_ReferenceManager":"Reference Manager","Article_ReviewedBy":"Reviewed by: ","Article_RTInfoText":"This article is part of the Research Topic","Article_ShareOn":"SHARE ON","Article_SimpleTEXTfile":"Simple TEXT file","Article_SupplementalData":"SUPPLEMENTAL DATA","Article_TableOfContent":"TABLE OF CONTENTS","Article_ViewEnhancedPDF":"ReadCube","Article_XML":"XML","BrowserWarningText":"\u003ch2\u003eWarning!\u003c/h2\u003e\u003cp\u003eYou are using an \u003cstrong\u003eoutdated\u003c/strong\u003e browser. This page doesn\u0027t support Internet Explorer 6, 7 and 8.\u003cbr /\u003ePlease \u003ca class=\"blue\" href=\"http://browsehappy.com/\"\u003eupgrade your browser\u003c/a\u003e or \u003ca class=\"blue\" href=\"http://www.google.com/chromeframe/?redirect=true\"\u003eactivate Google Chrome Frame\u003c/a\u003e to improve your experience.\u003c/p\u003e","COMMENT_HEADERTEXT":"Comment text too long","COMMENT_WARNINGTEXT":"Comments must be less than 4,000 characters. You have entered ","Impact_BackToArticle":"Back to article","People_Also_LookedAt":"People also looked at"};
+
+            return {
+                value: function(key) {
+                    if (languageSet[key]) {
+                        return languageSet[key];
+                    } else {
+                        throw new Error('Unable to get the value status from the language set'); // Use Error, not FRError
+                    }
+                }
+            };
+
+        })();
+
+        var FRJournalDetails = (function() {
+            return {
+                JournalType: 'section',
+                JournalId: '240',
+                SectionId: '1520'
+            };
+        })();
+
+        var FRArticleDetails = (function() {
+            return {
+                ArticleId: '536541'
+            };
+        })();
+        var FRArticleRecaptchaSettings = (function() {
+            return {
+                RecaptchaSiteKey: '6LdG3i0UAAAAAOC4qUh35ubHgJotEHp_STXHgr_v'
+            };
+        })();
+
+    </script>
+
+    <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-535f7e222fc3ca72"></script>
+
+
+    <script language="javascript">
+        var addthis_config = addthis_config || {};
+        addthis_config.data_track_addressbar = false;
+        addthis_config.data_track_clickback = false;
+    </script>
+
+    
+    
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+
+    <![endif]-->
+
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+    <script src="/areas/research-topics/content/scripts/frontiers/frontiers.markerclusterer.js"></script>
+
+
+    <link href="https://209cd62b0febf2a55d40-715eb384bc6027b876e93ad33d5c5ec3.ssl.cf3.rackcdn.com/font-awesome-4.3.0/css/font-awesome.css" rel="stylesheet"/>
+
+    <link href="https://9d0dd7a648345f19af83-877d2ecaf11b88d5e17327c758e17ef6.ssl.cf2.rackcdn.com/museo-sans-1.0.1/css/museo-sans.css" rel="stylesheet"/>
+
+    <link href="https://9d0dd7a648345f19af83-877d2ecaf11b88d5e17327c758e17ef6.ssl.cf2.rackcdn.com/museo-slab-1.0.1/css/museo-slab.css" rel="stylesheet"/>
+
+    <link href="https://209cd62b0febf2a55d40-715eb384bc6027b876e93ad33d5c5ec3.ssl.cf3.rackcdn.com/open-sans-1.0.0/css/open-sans.css" rel="stylesheet"/>
+
+    <link href="https://static.frontiersin.org/areas/articles/css/app?v=d7xs6QXeE2UIxbm9TizlA3t08LzxgJlsJHBk24_OOR81" rel="stylesheet"/>
+
+    
+    <style type="text/css"> .journal-genetics {
+ background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-genetics.png') no-repeat 100% 10px;
+ background-size: 51%;
+}
+
+/* Displays/Screens (e.g. 19" WS @ 1440x900) --------------- */ @media only screen and (max-width: 1649px) {
+.journal-genetics {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-genetics.png') no-repeat 140% 70px;
+ background-size: 54%;
+ }}
+
+/* Displays/Screens (e.g. MacBook @ 1280x800) -------------- */
+@media only screen and (max-width: 1409px) {
+.journal-genetics {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-genetics.png') no-repeat 140% 70px;
+ background-size: 54%;
+ }}
+ 
+/* Large Devices, Wide Screens --------- */  @media only screen and (max-width : 1250px) {
+.journal-genetics {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-genetics.png') no-repeat 140% 70px;
+ background-size: 54%;
+ }}
+
+/* Medium Devices, Desktops ---------- */  @media only screen and (max-width : 992px) { 
+.journal-genetics {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-genetics.png') no-repeat 140% 70px;
+ background-size: 54%;
+ }}
+
+/* Small Devices, Tablets ------------ */  @media only screen and (max-width : 768px) {
+.journal-genetics {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-genetics.png') no-repeat 140% 70px;
+ background-size: 74%;
+ }}
+
+/* Small Devices, Tablets  --------- */ @media only screen and (max-width : 640px) {
+.journal-genetics {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-genetics.png') no-repeat 250px 0px;
+ }}
+
+/* Extra Small Devices, Phones-----------  */  @media only screen and (max-width : 480px) {
+.journal-genetics {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-genetics.png') no-repeat 225px 150px;
+  background-size: 51%; 
+ }}
+
+/* Custom, iPhone Retina  -------*/  @media only screen and (max-width : 320px) {
+.journal-genetics {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-genetics.png') no-repeat 165px 170px;
+  background-size: 51%; 
+ }} </style>
+    
+</head>
+<body class="journal-genetics section-plant-genomics">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZGWTGG&gtm_auth=fCzlsmYQFAUQ_UXneGJNag&gtm_preview=env-2&gtm_cookies_win=x"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+        <div data-navigation-plugin="header"></div>
+        <script src="https://static.frontiersin.org/navigation-plugins/header/js"></script>
+
+
+
+    
+
+    <!--[if lte IE 8]>
+        <div class="row">
+            <div class="col-md-16">
+                <div style="margin-bottom: 15px;"><h2>Warning!</h2><p>You are using an <strong>outdated</strong> browser. This page doesn't support Internet Explorer 6, 7 and 8.<br />Please <a class="blue" href="http://browsehappy.com/">upgrade your browser</a> or <a class="blue" href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p></div>
+            </div>
+        </div>
+    <![endif]-->
+
+    <div class="page-container">
+        
+
+<header>
+
+            <a href="https://www.frontiersin.org/about/impact?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=impact-2020-jour-hp-top" target="_blank">
+            <div class="marketing journal-marketing-message no-impact">
+                <span class="message">
+                    <p><strong>Impact Factor 3.258</strong>&nbsp;|<strong> CiteScore 2.7<br /></strong>More on impact &rsaquo;</p>
+                </span>
+
+            </div>
+        </a>
+<div id="journal-header" class="journal-home" style="position: relative;">
+    <div class="container-fluid main-container-xxl">
+        <table id="logo-table" style="width:100%">
+            <tr>
+                    <td width="50%" valign="bottom" align="right" class="left-cell">
+                        <h1>
+                            <a href="https://www.frontiersin.org/journals/240" data-test-id="journal-link">
+                                <span>Frontiers </span>in Genetics
+                            </a>
+                        </h1>
+                    </td>
+                        <td class="right-cell" width="50%" style="vertical-align: bottom">
+                            <h2>
+                                <a href="https://www.frontiersin.org/journals/240/sections/1520" data-test-id="section-link" class="btn btn-link">
+                                    Plant Genomics
+
+
+                                </a>
+                            </h2>
+                        </td>
+            </tr>
+        </table>
+
+
+        
+     </div>
+</div>
+
+
+    <div id="journal-nav">
+    <div class="container-fluid main-container-xxl">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="nav-wrapper">
+                    <nav class="navbar navbar-default">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#journal-navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="pull-left">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </span>
+                            <span class="pull-right hidden-xs">Section</span>
+                        </button>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse no-transition journal-nav-bar" id="journal-navbar-collapse">
+                            <ul class="nav navbar-nav">
+                                <li class="tab-overview icon icon-left">
+                                    <a id="journal_nav_home" href="https://www.frontiersin.org/journals/genetics/sections/plant-genomics#"><span class="sr-only">(current)</span><i class="fa fa-home"></i>Section</a>
+                                </li>
+                                <li class="tab-about">
+                                    <a id="journal_nav_about" href="https://www.frontiersin.org/journals/genetics/sections/plant-genomics#about">About</a>
+                                </li>
+                                <li class="tab-archive active">
+                                    <a id="journal_nav_articles" href="https://www.frontiersin.org/journals/genetics/sections/plant-genomics#articles">Articles</a>
+                                </li>
+                                <li class="tab-research-topics">
+                                    <a id="journal_nav_research_topics" href="https://www.frontiersin.org/journals/genetics/sections/plant-genomics#research-topics">Research topics</a>
+                                </li>
+                                <li class="dropdown">
+                                    <a id="journal_nav_for_authors" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">For authors <span class="caret"></span></a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a id="for_authors_why_submit" href="https://www.frontiersin.org/journals/genetics/sections/plant-genomics#why-submit">Why submit?</a></li>
+                                        <li><a id="for_authors_fees" href="https://www.frontiersin.org/about/publishing-fees" target="_blank">Fees</a></li>
+                                        <li><a id="for_authors_article_types" href="https://www.frontiersin.org/journals/genetics/sections/plant-genomics#article-types">Article types</a></li>
+                                        <li><a id="for_authors_authors_guidelines" href="https://www.frontiersin.org/journals/genetics/sections/plant-genomics#author-guidelines">Author guidelines</a></li>
+                                        <li><a id="for_authors_review_guidelines" href="https://www.frontiersin.org/journals/genetics/sections/plant-genomics#review-guidelines">Review guidelines</a></li>
+                                        <li><a id="for_authors_submission_checklist" href="https://www.frontiersin.org/journals/genetics/sections/plant-genomics#submission-checklist">Submission checklist</a></li>
+                                        <li><a id="for_authors_contact_editorial_office" href="https://www.frontiersin.org/journals/genetics/sections/plant-genomics#contact-editorial-office">Contact editorial office</a></li>
+                                            <li><a id="for_authors_submit_manuscript" href="https://www.frontiersin.org/submission/submissioninfo.aspx" class="action-link">Submit your manuscript</a></li>
+                                    </ul>
+                                </li>
+                                <li class="tab-editorial-board">
+                                    <a id="journal_nav_Editorial_Board" href="https://www.frontiersin.org/journals/genetics/sections/plant-genomics#editorial-board">Editorial board</a>
+                                </li>
+                            </ul>
+                        </div><!-- /.navbar-collapse -->
+                        <ul class="list-inline follow-us nav navbar-nav">
+                            <li class="twitter icon button">
+                                <a data-test-id="twitter-link" href="https://twitter.com/@FrontGenetics">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="rss icon button">
+                                <a data-test-id="rss-link" href="https://www.frontiersin.org/journals/genetics/sections/plant-genomics/rss">
+                                    <i class="fa fa-rss"></i>
+                                </a>
+                            </li>
+                            <li class="alerts icon button">
+                                <a data-test-id="alert-link" href="http://connect.frontiersin.org/subscriptions/subscribe?item=1&amp;field=30">
+                                    <i class="fa fa-bell" style="width: auto; padding-right: 7px; padding-left: 7px;"><span class="article-alert-text" style="font-family: MuseoSans, 'Helvetica Neue', Helvetica, Arial, sans-serif; margin-left: 6px; font-weight: 700; letter-spacing: 0px; font-size: 13px;">Article alerts</span></i>
+                                </a>
+                            </li>
+                                    
+                            
+                        </ul>
+
+                    </nav>
+                </div><!-- / .nav-wrapper -->
+            </div>
+        </div>
+    </div>
+</div>
+
+</header>
+
+<div class="journal-actions article-actions">
+    <div class="container-fluid main-container-xxl">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-lg-push-6 col-md-push-6 col-research-topic">
+                    <div class="research-topic-container">
+                        <a href="https://www.frontiersin.org/research-topics/13027#articles" data-test-id="relatedRT-link">
+                            <div class="research-topic-data">
+                                <h5 class="topic-title">
+                                    <span>This article is part of</span> the Research Topic
+                                </h5>
+                                <p style="margin-bottom:0;">
+                                   
+                                        Comparative Genomics and Functional Genomics Analyses in Plants
+                                        <span style="color:red;" class="topic-link-trim">
+                                            View all
+<span>
+                                                    34
+                                                </span>
+                                            Articles <span style="position: relative;top: 1px;" class="fa fa-angle-right"></span>
+                                        </span>
+
+                                   
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+            </div>
+            <section class="col-lg-4 col-lg-offset-2 col-md-6 col-md-offset-0 col-lg-pull-6 col-md-pull-6">
+                <a href="https://www.frontiersin.org/journals/240/sections/1520#articles" class="archive-link hidden-sm hidden-xs" data-test-id="archive-link">
+                    <i class="fa fa-angle-left"></i> Articles
+                </a>
+            </section>
+        </div>
+    </div>
+</div>
+
+
+<aside id="anchors" class="pull-left table-of-contents side-article">
+    <div class="side-people hidden-sm hidden-xs">
+                <section class="side-article-editors">
+                    <header><h5 class="like-h4">Edited by</h5></header>
+                    <a class="authors" href="https://loop.frontiersin.org/people/499024/overview">
+                        <img alt=" " class="pr5 pull-left" src="https://loop.frontiersin.org/images/profile/499024/24"></img>
+                        <h6 class="author-link-aside">Xiaoming Song</h6>
+                    </a>
+                    <div class="clearfix"></div>
+                    <p><span class="notes">North China University of Science and Technology, China</span></p>
+                </section>
+                <section class="side-article-editors">
+                    <header><h5 class="like-h4"> Reviewed by</h5></header>
+                            <a class="authors" href="https://loop.frontiersin.org/people/541243/overview">
+                                <img alt=" " class="pr5 pull-left" src="https://loop.frontiersin.org/images/profile/541243/24"></img>
+                                <h6 class="author-link-aside">Marcio Resende</h6>
+                            </a>
+                            <div class="clearfix"></div>
+                        <p><span class="notes">University of Florida, United States</span></p>
+                            <a class="authors" href="https://loop.frontiersin.org/people/970538/overview">
+                                <img alt=" " class="pr5 pull-left" src="https://loop.frontiersin.org/images/profile/970538/24"></img>
+                                <h6 class="author-link-aside">Ergude Bao</h6>
+                            </a>
+                            <div class="clearfix"></div>
+                        <p><span class="notes">Beijing Jiaotong University, China</span></p>
+                    <p class="disclaimer">The editor and reviewers' affiliations are the latest provided on their Loop research profiles and may not reflect their situation at the time of review.</p>
+                </section>
+    </div>
+    <nav>
+            <header><h5 class="like-h4" style="padding-top: 14px; padding-left: 6px; margin-bottom: 6px;">TABLE OF CONTENTS</h5></header>
+            <ul class="nav nav-list list-unstyled contents">
+                <li>
+<ul class="flyoutJournal">
+<li><a href="#h1">Abstract</a></li>
+<li><a href="#h2">Introduction</a></li>
+<li><a href="#h3">Materials and Methods</a></li>
+<li><a href="#h4">Results</a></li>
+<li><a href="#h5">Discussion</a></li>
+<li><a href="#h6">Conclusion</a></li>
+<li><a href="#h7">Data Availability Statement</a></li>
+<li><a href="#h8">Author Contributions</a></li>
+<li><a href="#fun1">Funding</a></li>
+<li><a href="#conf1">Conflict of Interest</a></li>
+<li><a href="#S9">Supplementary Material</a></li>
+<li><a href="#abbr1">Abbreviations</a></li>
+<li><a href="#FNT1">Footnotes</a></li>
+<li><a href="#refer1">References</a></li>
+</ul>
+                </li>
+            </ul>
+    </nav>
+</aside>
+
+
+<div id="article" class="boxed white no-padding">
+    <div class="container-fluid main-container-xxl">
+            <div class="side-article-mrk hidden-md hidden-lg top clearfix">
+                <p style="text-align: center;"><a href="https://spotlight.frontiersin.org/submit?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=rtlg_2020_gen"><img src="https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/article-marketing-message-79982763-254d-4bb6-96b8-126758de1166.png" alt="" /><br /></a></p>
+<p style="text-align: center;"><a href="https://spotlight.frontiersin.org/submit?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=rtlg_2020_gen"><strong>Suggest a Research Topic &gt;</strong></a></p>
+            </div>
+        <div class="row">
+
+            
+<aside class="a col-xs-12 col-sm-12 col-lg-2 col-md-3 pull-right side-article right-container">
+        <button type="button" class="navbar-toggle navbar-download collapsed" data-toggle="collapse" data-target=".show" aria-expanded="false">
+            <span class="icon"><i class="fa fa-download"></i></span>
+        </button>
+    <button type="button" class="navbar-toggle navbar-share collapsed" data-toggle="collapse" data-target=".show" aria-expanded="false">
+        <span class="icon"><i class="fa fa-share-alt"></i></span>
+    </button>
+        <div class="side-article-download show collapse clearfix">
+            <ul class="list-unstyled list-inline clearfix">
+                    <li class="dropdown text-center paper">
+                        <a data-target="#" class="dropdown-toggle" data-test-id="download-button" data-toggle="dropdown" role="button" aria-expanded="false">
+                            <span class="icon icon-article"><i class="fa fa-file-pdf-o"></i></span>
+                            <span class="icon-label">Download Article</span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                                <li>
+                                    <a class="download-files-pdf action-link" href="/articles/10.3389/fgene.2020.00701/pdf" data-test-id="article-downloadpdf">
+                                        Download PDF
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="download-files-readcube" href="http://www.readcube.com/articles/10.3389/fgene.2020.00701" data-test-id="article-viewenhancedpdf">
+                                        ReadCube
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="download-files-epub" href="/articles/10.3389/fgene.2020.00701/epub" data-test-id="article-epub">
+                                        EPUB
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="download-files-nlm" href="/articles/10.3389/fgene.2020.00701/xml/nlm" data-test-id="article-nlm">
+                                        XML (NLM)
+                                    </a>
+                                </li>
+                                                            <li class="">
+
+<a data-test-id="supplementary-button"
+                                        id="supplementary_view">
+
+                                            Supplementary
+                                            <br>
+                                            Material
+                                        </a>
+
+                                </li>
+                        </ul>
+                    </li>
+                <li class="dropdown text-center citation">
+                    <a data-target="#" class="dropdown-toggle" data-test-id="citation-button" data-toggle="dropdown" role="button" aria-expanded="false">
+                        <span class="icon icon-citation"><i class="fa fa-quote-left"></i></span>
+                        <span class="icon-label">Export citation</span>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                            <li>
+                                <a data-test-id="article-endnote" href="https://www.frontiersin.org/articles/10.3389/fgene.2020.00701/endNote">
+                                    EndNote
+                                </a>
+                            </li>
+                            <li>
+                                <a data-test-id="article-referencemanager" href="https://www.frontiersin.org/articles/10.3389/fgene.2020.00701/reference">
+                                    Reference Manager
+                                </a>
+                            </li>
+                            <li>
+                                <a data-test-id="article-simpletextfile" href="https://www.frontiersin.org/articles/10.3389/fgene.2020.00701/text">
+                                    Simple TEXT file
+                                </a>
+                            </li>
+                            <li>
+                                <a data-test-id="article-bibtex" href="https://www.frontiersin.org/articles/10.3389/fgene.2020.00701/bibTex">
+                                    BibTex
+                                </a>
+                            </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+            <div class="side-article-impact">
+            <ul class="nav">
+                <li class="impact-data" title="The total view count is updated once a day, so not to worry if you don&#39;t see immediate results.">
+                    <span class="title-number"></span>
+                    <span class="title-text">total views</span>
+                </li>
+                <li class="hidden-sm hidden-xs">
+                    <div class="altmetric-icon">
+                        <div class='altmetric-embed' data-badge-type='1' data-doi='10.3389/fgene.2020.00701' data-link-target="new"></div>
+                    </div>
+                </li>
+            </ul>
+                <a type="button" class="btn btn-default hidden-sm hidden-xs btn-impact " data-test-id="view-article-impact" href="http://loop-impact.frontiersin.org/impact/article/536541#views" target="_blank">
+                    <span class="icon-impact"><i class="fa fa-line-chart"></i></span> View Article Impact
+                </a>
+        </div>
+            <div class="side-article-mrk hidden-sm hidden-xs clearfix">
+            <p style="text-align: center;"><a href="https://spotlight.frontiersin.org/submit?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=rtlg_2020_gen"><img src="https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/article-marketing-message-79982763-254d-4bb6-96b8-126758de1166.png" alt="" /><br /></a></p>
+<p style="text-align: center;"><a href="https://spotlight.frontiersin.org/submit?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=rtlg_2020_gen"><strong>Suggest a Research Topic &gt;</strong></a></p>
+        </div>
+    <div class="side-article-share show collapse">
+        <h5 class="like-h4">SHARE ON</h5>
+        <ul class="share-media clearfix" style="padding: 0;">
+            <li class="social_block">
+                <div class="atButton">
+                    <a class="addthis_button_facebook at300b" addthis:title="Chromosome Level Genome Assembly of Andrographis paniculata" addthis:description="Andrographis paniculata (Chinese name: Chuanxinlian) is an annual dicotyledonous medicinal plant widely grown in China and Southeast Asia. The dried plant has a highly acclaimed usage in the traditional Chinese medicine for its antipyretic, anti-inflammatory, and analgesic effects. In order to help delineate the biosynthetic pathways of various secondary metabolites, we report in this study a high-quality reference genome for A. paniculata. With the help of both PacBio single molecule real time sequencing and Illumina sequencing reads for error correction, the A. paniculata genome was assembled into a total size of 284 Mb with a contig N50 size of 5.14 Mb. The contigs were further assembled into 24 pseudo-chromosomes by the Hi-C technique. We also analyzed the gene families (e.g., KSL, and CYP450) whose protein products are essential for synthesizing bioactive compounds in A. paniculata. In conclusion, the high-quality A. paniculata genome assembly builds the foundation for decoding the biosynthetic pathways of various medicinal compounds." addthis:url="https://www.frontiersin.org/article/10.3389/fgene.2020.00701" title="Facebook"></a>
+                </div>
+                <a><span class="facebook_count"></span></a>
+            </li>
+            <li class="social_block">
+                <div class="atButton">
+                    <a class="addthis_button_twitter at300b" addthis:title="Chromosome Level Genome Assembly of Andrographis paniculata" addthis:description="Andrographis paniculata (Chinese name: Chuanxinlian) is an annual dicotyledonous medicinal plant widely grown in China and Southeast Asia. The dried plant has a highly acclaimed usage in the traditional Chinese medicine for its antipyretic, anti-inflammatory, and analgesic effects. In order to help delineate the biosynthetic pathways of various secondary metabolites, we report in this study a high-quality reference genome for A. paniculata. With the help of both PacBio single molecule real time sequencing and Illumina sequencing reads for error correction, the A. paniculata genome was assembled into a total size of 284 Mb with a contig N50 size of 5.14 Mb. The contigs were further assembled into 24 pseudo-chromosomes by the Hi-C technique. We also analyzed the gene families (e.g., KSL, and CYP450) whose protein products are essential for synthesizing bioactive compounds in A. paniculata. In conclusion, the high-quality A. paniculata genome assembly builds the foundation for decoding the biosynthetic pathways of various medicinal compounds." addthis:url="https://www.frontiersin.org/article/10.3389/fgene.2020.00701" title="Tweet"></a>
+                </div>
+                <a><span class="twitter_count"></span></a>
+            </li>
+            <li class="social_block">
+                <div class="atButton">
+                    <a class="addthis_button_linkedin at300b" addthis:title="Chromosome Level Genome Assembly of Andrographis paniculata" addthis:description="Andrographis paniculata (Chinese name: Chuanxinlian) is an annual dicotyledonous medicinal plant widely grown in China and Southeast Asia. The dried plant has a highly acclaimed usage in the traditional Chinese medicine for its antipyretic, anti-inflammatory, and analgesic effects. In order to help delineate the biosynthetic pathways of various secondary metabolites, we report in this study a high-quality reference genome for A. paniculata. With the help of both PacBio single molecule real time sequencing and Illumina sequencing reads for error correction, the A. paniculata genome was assembled into a total size of 284 Mb with a contig N50 size of 5.14 Mb. The contigs were further assembled into 24 pseudo-chromosomes by the Hi-C technique. We also analyzed the gene families (e.g., KSL, and CYP450) whose protein products are essential for synthesizing bioactive compounds in A. paniculata. In conclusion, the high-quality A. paniculata genome assembly builds the foundation for decoding the biosynthetic pathways of various medicinal compounds." addthis:url="https://www.frontiersin.org/article/10.3389/fgene.2020.00701" title="LinkedIn"></a>
+                </div>
+                <a><span class="linkedin_count"></span></a>
+            </li>
+            <li class="social_block">
+                <div class="atButton">
+                    <a class="addthis_button_more at300b" addthis:title="Chromosome Level Genome Assembly of Andrographis paniculata" addthis:description="Andrographis paniculata (Chinese name: Chuanxinlian) is an annual dicotyledonous medicinal plant widely grown in China and Southeast Asia. The dried plant has a highly acclaimed usage in the traditional Chinese medicine for its antipyretic, anti-inflammatory, and analgesic effects. In order to help delineate the biosynthetic pathways of various secondary metabolites, we report in this study a high-quality reference genome for A. paniculata. With the help of both PacBio single molecule real time sequencing and Illumina sequencing reads for error correction, the A. paniculata genome was assembled into a total size of 284 Mb with a contig N50 size of 5.14 Mb. The contigs were further assembled into 24 pseudo-chromosomes by the Hi-C technique. We also analyzed the gene families (e.g., KSL, and CYP450) whose protein products are essential for synthesizing bioactive compounds in A. paniculata. In conclusion, the high-quality A. paniculata genome assembly builds the foundation for decoding the biosynthetic pathways of various medicinal compounds." addthis:url="https://www.frontiersin.org/article/10.3389/fgene.2020.00701" title="View more services"></a>
+                </div>
+                <a><span class="total_count"></span></a>
+            </li>
+        </ul>
+    </div>
+        <a type="button"
+           class="open-supplemental-data btn btn-default hidden-sm hidden-xs"
+           id="supplementary_view">
+            <span class="supplemental-label">
+                <i class="supplemental-icon"></i>
+                <label>Open Supplemental Data</label>
+            </span>
+        </a>
+</aside>
+
+
+            
+<main class="b col-xs-12 col-sm-12 col-lg-8 col-lg-push-2 col-md-7 col-md-push-2 pull-left">
+    <div class="article-section">
+        <div class="article-container" data-html="True">
+            <div class="abstract-container">
+                
+                <div class="article-header-container">
+                    <!-- Start CrossMark Snippet v2.0 -->
+                        <!-- the external CrossMark script to load the crossmark logo responsive  JPB-5562 -->
+                        <script src="https://crossmark-cdn.crossref.org/widget/v2.0/widget.js"></script>
+                        <a data-target="crossmark" class="crossmark pull-right" style="padding: 3px 0 13px 0;"><img id="crossmark-icon" style="border: 0; width:64px; height:64px;" src="https://crossmark-cdn.crossref.org/widget/v2.0/logos/CROSSMARK_Color_square.svg" /></a>
+                        <div id="crossmark-dialog" style="display: none;" title="">
+                            <!-- the external CrossMark data is loaded inside this iframe -->
+                            <iframe id="crossmark-dialog-frame" frameborder="0"></iframe>
+                        </div>
+                    <!-- End CrossMark Snippet -->                   
+
+                    <div class="header-bar-one">
+                        <h2>
+                            Original Research ARTICLE
+
+                    </h2>
+                </div>
+                <div class="header-bar-three">
+                    Front. Genet., 30 June 2020
+                             | <a href="https://doi.org/10.3389/fgene.2020.00701">https://doi.org/10.3389/fgene.2020.00701</a>
+                </div>
+                </div>
+                
+<div class="JournalAbstract">
+<a id="h1" name="h1"></a><h1>Chromosome Level Genome Assembly of <i>Andrographis paniculata</i></h1>
+<div class="authors">
+<a href="https://www.frontiersin.org/people/u/989444" class="user-id-989444"><img class="pr5" src="https://loop.frontiersin.org/images/profile/989444/24" onerror="this.src='https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg'" alt=""/>Ying Liang</a><sup>1&#x2020;</sup>, <a href="https://www.frontiersin.org/people/u/696229" class="user-id-696229"><img class="pr5" src="https://loop.frontiersin.org/images/profile/696229/24" onerror="this.src='https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg'" alt=""/>Shanshan Chen</a><sup>2&#x2020;</sup>, <a href="https://www.frontiersin.org/people/u/849114" class="user-id-849114"><img class="pr5" src="https://loop.frontiersin.org/images/profile/849114/24" onerror="this.src='https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg'" alt=""/>Kunhua Wei</a><sup>1&#x2020;</sup>, <a href="https://www.frontiersin.org/people/u/930787" class="user-id-930787"><img class="pr5" src="https://loop.frontiersin.org/images/profile/930787/24" onerror="this.src='https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg'" alt=""/>Zijiang Yang</a><sup>3</sup>, <img class="pr5" src="https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg" alt=""/>Shengchang Duan<sup>4</sup>, <img class="pr5" src="https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg" alt=""/>Yuan Du<sup>4</sup>, <img class="pr5" src="https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg" alt=""/>Peng Qu<sup>1</sup>, <img class="pr5" src="https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg" alt=""/>Jianhua Miao<sup>1*</sup>, <img class="pr5" src="https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg" alt=""/>Wei Chen<sup>5,6,7*</sup> and <a href="https://www.frontiersin.org/people/u/694956" class="user-id-694956"><img class="pr5" src="https://loop.frontiersin.org/images/profile/694956/24" onerror="this.src='https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg'" alt=""/>Yang Dong</a><sup>1,3,5,7*</sup></div>
+<ul class="notes">
+<li><span><sup>1</sup></span>Guangxi Key Laboratory of Medicinal Resources Protection and Genetic Improvement, Guangxi Botanical Garden of Medicinal Plants, Nanning, China</li>
+<li><span><sup>2</sup></span>BGI College, Zhengzhou University, Zhengzhou, China</li>
+<li><span><sup>3</sup></span>National and Local Joint Engineering Research Center on Germplasm Innovation and Utilization of Chinese Medicinal Materials in Southwest China, Yunnan Agricultural University, Kunming, China</li>
+<li><span><sup>4</sup></span>NowBio Biotechnology Company, Kunming, China</li>
+<li><span><sup>5</sup></span>State Key Laboratory for Conservation and Utilization of Bio-Resources in Yunnan, Yunnan Agricultural University, Kunming, China</li>
+<li><span><sup>6</sup></span>College of Agronomy and Biotechnology, Yunnan Agricultural University, Kunming, China</li>
+<li><span><sup>7</sup></span>Yunnan Research Institute for Local Plateau Agriculture and Industry, Kunming, China</li>
+</ul>
+<p class="mb0"><i>Andrographis paniculata</i> (Chinese name: Chuanxinlian) is an annual dicotyledonous medicinal plant widely grown in China and Southeast Asia. The dried plant has a highly acclaimed usage in the traditional Chinese medicine for its antipyretic, anti-inflammatory, and analgesic effects. In order to help delineate the biosynthetic pathways of various secondary metabolites, we report in this study a high-quality reference genome for <i>A. paniculata</i>. With the help of both PacBio single molecule real time sequencing and Illumina sequencing reads for error correction, the <i>A. paniculata</i> genome was assembled into a total size of 284 Mb with a contig N50 size of 5.14 Mb. The contigs were further assembled into 24 pseudo-chromosomes by the Hi-C technique. We also analyzed the gene families (e.g., <i>KSL</i>, and <i>CYP450</i>) whose protein products are essential for synthesizing bioactive compounds in <i>A. paniculata.</i> In conclusion, the high-quality <i>A. paniculata</i> genome assembly builds the foundation for decoding the biosynthetic pathways of various medicinal compounds.</p>
+<div class="clear"></div>
+</div>
+<div class="JournalFullText">
+<a id="h2" name="h2"></a><h2>Introduction</h2>
+<p class="mb15">During the course of human history, all civilizations have tried to explore various plants for medicinal purposes and they formed unique empirical knowledge about how these herbal plants could be used to treat various diseases. Even though much of this knowledge has gradually given way to modern medicine, WHO found that the popularity of herbal medicines increased in almost all parts of the world in recent years (<a href="#B21">Fitzsimons, 2013</a>). For this reason, herbal plants not only raise the enthusiasm from the general public, but also remain a rich source for discovering novel drug candidates among the researchers.</p>
+<p class="mb15">With the emergence and development in high-throughput sequencing technology, the genome sequences of more than 200 plants have been reported (<a href="#B35">Lin et al., 2011</a>). Particularly, genome sequencing is a powerful tool for studying various aspects of physiology and genetics in non-model plants, many of which are traditional herbal plants (<a href="#B71">Zerikly and Challis, 2009</a>; <a href="#B13">De Luca et al., 2012</a>; <a href="#B4">Chae et al., 2014</a>). For example, the reference genome of <i>Scutellaria baicalensis</i> (<a href="#B71">Zerikly and Challis, 2009</a>; <a href="#B13">De Luca et al., 2012</a>; <a href="#B4">Chae et al., 2014</a>; <a href="#B75">Zhao et al., 2019</a>), <i>Panax ginseng</i> (<a href="#B65">Xu et al., 2017</a>), mint (<a href="#B58">Vining et al., 2017</a>), and opium poppy (<a href="#B24">Guo et al., 2018</a>) provided insights into the genes involved in the biosynthesis of unique flavonoids, terpenes, alkaloids and many other secondary metabolites. Additionally, the reference genome of <i>Salvia splendens</i> was very valuable for helping marker-assisted breeding, genome editing, and molecular genetics (<a href="#B14">Dong et al., 2018</a>). As one of the participants of the Herbal Plant Genomics Initiative, our team has reported the genomes of many Chinese herbal plants in past years, including <i>Salvia miltiorrhiza Bunge</i> (<a href="#B72">Zhang et al., 2015</a>), <i>Dendrobium officinale</i> (<a href="#B67">Yan et al., 2015</a>), maca (<a href="#B73">Zhang et al., 2016</a>), <i>Panax notoginseng</i> (<a href="#B9">Chen et al., 2017</a>), and fleabane (<a href="#B68">Yang et al., 2017</a>). The high-quality genome assembly of <i>Andrographis paniculata</i> is presented in this manuscript as a continuum of the bigger research project.</p>
+<p class="mb0"><i>Andrographis paniculata</i> (<a href="#F1">Figure 1A</a>) is a dicotyledonous medicinal plant widely distributed and used in tropical and subtropical regions of Asia, including India, China, Thailand, and Malaysia (<a href="#B34">Lim et al., 2012</a>). This annual plant belongs to the family of Acanthaceae in the order of Lamiales. The dried plant has a highly acclaimed usage in the traditional Chinese medicine for its antipyretic, anti-inflammatory, and analgesic effects (<a href="#B55">Sun et al., 2019</a>). Previous pharmacological research identified andrographolide and neoandrographolide as the main therapeutic constituents in <i>A. paniculata</i> (<a href="#B53">Srivastava and Akhila, 2010</a>). Andrographolide is a labdane-related diterpenoid and it exhibits anti-cancer (<a href="#B36">Luo et al., 2014</a>), anti-virus (<a href="#B7">Chen et al., 2009</a>), antimicrobial and anti-inflammatory activities (<a href="#B10">Chua, 2014</a>), suggesting potential pharmaceutical values. The leaves of <i>A. paniculata</i> contain major amounts of diterpene lactone compounds, including about 0.1% of deoxyandrographolide, and about 0.2% of neoandrographolide (<a href="#B53">Srivastava and Akhila, 2010</a>). Even though the biosynthesis of andrographolide and neoandrographolide is achieved by the combination of various isopentenyl diphosphate (IPP) and dimethylallyl diphosphate (DMAPP) (<a href="#B6">Chen et al., 2011</a>), the complete profile of <i>CYTOCHROME P450</i> genes (<i>CYPs</i>), <i>COPALYL DIPHOSPHATE SYNTHASE</i> genes (<i>CPSs</i>), and <i>KAURENE SYNTHASE-LIKE PROTEIN</i> genes (<i>KSLs</i>) has not been fully investigated in the <i>A. paniculata</i> genome.</p>
+<div class="DottedLine"></div>
+<div class="Imageheaders">FIGURE 1</div>
+<div class="FigureDesc">
+<a href="https://www.frontiersin.org/files/Articles/536541/fgene-11-00701-HTML/image_m/fgene-11-00701-g001.jpg" name="figure1" target="_blank">
+<img src="https://www.frontiersin.org/files/Articles/536541/fgene-11-00701-HTML/image_t/fgene-11-00701-g001.gif" id="F1" alt="www.frontiersin.org" /></a>
+<p><strong>Figure 1.</strong> Evaluation of the genome size of <i>A. paniculata</i>. <b>(A)</b> Photo of a single <i>A. paniculata</i> plant with close-up image of the flower. <b>(B)</b> The 21<i>-mer</i> analysis of the <i>A. paniculata</i> genome using GenomeScope. <b>(C)</b> Flow cytometry analysis of <i>A. paniculata</i> genome size comparing with <i>Zea mays</i>.</p>
+</div>
+<div class="clear"></div>
+<div class="DottedLine"></div>
+<p class="mb15 w100pc float_left mt15">The genome of <i>A. paniculata</i> is highly heterozygous and contains many repetitive sequences. These characteristics pose a big challenge in terms of acquiring a high-quality whole-genome reference assembly. A previous research effort reported an <i>A. paniculata</i> genome assembly of &#x223C;269 Mb in total size with a contig N50 of 388 Kb (<a href="#B55">Sun et al., 2019</a>). These benchmarks suggest the existence of relatively large un-assembled genome and gaps among contigs. Therefore, it is valuable to improve the genome assembly of <i>A. paniculata</i> using better raw data and assembly pipeline. Herein, we reported a reference genome of <i>A. paniculata</i> obtained from the PacBio single-molecule real time sequencing data in the size of 284 Mb. The contig N50 size was improved to 5.14 Mb, which is more than 12-fold longer than before. The resultant contigs were further assembled into 24 pseudo-chromosomes by the Hi-C technology, thereby yielding a high-quality <i>A. paniculata</i> genome assembly.</p>
+<a id="h3" name="h3"></a><h2>Materials and Methods</h2>
+<h3 class="pt0">DNA Extraction, Library Construction, and Sequencing</h3>
+<p class="mb15">A single <i>A. paniculata</i> individual was obtained from Guangxi Medicinal Botanical Garden. Plant DNA was extracted from young leaves with the Novel Plant Genomic DNA Rapid Extraction Kit (Genenode Biotech, Beijing, China) according to the product manual.</p>
+<p class="mb15">A total of 15 &#x03BC;g <i>A. paniculata</i> genomic DNA was used to construct eleven PacBio libraries (mean size of 20 kb) with the SMRT Template Prep Kit (Pacific Biosciences, United States). These libraries were sequenced on a PacBio Sequel platform with recommended protocols from the manufacturer (<a href="#S9">Supplementary Table 1</a>). Sequence reads with a quality score lower than 0.8 were removed.</p>
+<p class="mb0">In order to perform genome survey and genomic base correction, we also obtained Illumina reads for <i>A. paniculata.</i> In brief, 2 &#x03BC;g of genomic DNA was used to construct each library. The genomic DNA was sheared and insert sizes of 241, 313, 424, and 533 bp were selected for the four libraries. All libraries were sequenced on an Illumina HiSeq X Ten platform. The Illumina raw data were processed by fq_filter_V1.5 to remove the low-quality reads, and the parameters were set as follows: -q 33 -t 20 -ta 5 -tb 10 -tc 5 -td 10. We filtered out low-quality reads as specified by the following criteria: (1) filter a read if more than 5% of bases were N or poly-A, (2) filter a read if more than 30 bases were low quality, (3) if the read was contaminated with adaptor sequence, (4) if the size of a read was too small, and (5) if two copies of the paired-end reads had identical sequence (remove both copies). The resultant reads were then corrected by the SOAPec_v2.0.1 package with default settings.</p>
+<h3>Genome Size Estimation</h3>
+<p class="mb15">The genome size of <i>A. paniculata</i> was assessed by both flow cytometry and <i>k</i>-mer analysis. For the flow cytometry approach, 20 mg of plant tissue was placed in 1.0 ml ice-cold nuclei isolation buffer in a Petri dish. The plant tissue was minced in the buffer with a new razor blade. The homogenate was filtered through a 42-mm nylon mesh into a labeled sample tube. Propidium iodide was added to a final concentration of 50 mg/ml simultaneously with RNase (50 mg/ml) and the sample was incubated on ice for 20 min before measurement. <i>Zea mays</i> (B73) was used as internal standard, the internal reference maize genome size is 2.3 Gb (<a href="#B47">Schnable et al., 2009</a>).</p>
+<p class="mb0">For the <i>k-mer</i> analysis, Jellyfish v.2.2.5 (<a href="#B37">Marcais and Kingsford, 2011</a>) was used to perform <i>k-mer</i> analysis on the Illumina sequencing error-corrected data. First, FastQC software was used to identify the quality of the input sequencing data for the Illumina sequencing data. The first 500,000,000 lines of the lane2 fastq file were extracted, and the extracted reads were used to identify heterozygosity with the &#x2018;&#x2013;m 21&#x2019; option. The graph was generated by GenomeScope (<a href="#B59">Vurture et al., 2017</a>).</p>
+<h3>Genome Assembly</h3>
+<p class="mb0">A total of 53.98 Gb of PacBio data were used in the <i>de novo</i> assembly of the <i>A. paniculata</i> genome according to an assembly pipeline named HERA (<a href="#B15">Du and Liang, 2019</a>). In brief, CANU v1.8 (<a href="#B27">Koren et al., 2017</a>) was used to correct the raw PacBio data and assemble contigs. The resultant contigs were further improved with HERA. Next, the pipeline used the assembled genome to create an index file using bwa-mem (<a href="#B31">Li and Durbin, 2010</a>). The processed next-generation sequencing data were aligned to the reference genome. Samtools (<a href="#B32">Li et al., 2009</a>) was used to sort the resulting bam files. Finally, the bam files were used to polish the contig twice with Pilon (<a href="#B60">Walker et al., 2014</a>). In this study, a commercial service provider from the Institute of Genetics and Developmental Biology in Beijing was recruited to assemble the <i>A. paniculata</i> genome using a professional version of HERA (<a href="#B15">Du and Liang, 2019</a>), which is said to run faster and have better performance resolving repetitive sequences.</p>
+<h3>Hi-C Library Construction and Pseudomolecule Clustering</h3>
+<p class="mb15">Three gram of <i>A. paniculata</i> leaves were harvested and crosslinked in a 2% formaldehyde solution for 15min at room temperature. Crosslinking was quenched by adding glycine to a final concentration of 250 mM. The fixed plant tissue was then ground in liquid nitrogen and suspended in extraction buffer for nuclei isolation. After the nuclei were separated, chromatin was solubilized in 0.1% (m/v) SDS at 65&#x00B0;C for 10 min. After SDS was quenched by Triton X-100 (final concentration of 1%), solubilized chromatin was digested by 400 units of <i>Dpn</i>II (New England Biolabs, MA, United States) at 37&#x00B0;C overnight. The following steps included biotin labeling of the DNA and blunt-end ligation of DNA fragments. After cross-linking was reversed by the treatment with proteinase K, DNA was purified so that biotin labels could be removed from non-ligated fragment ends. DNA fragments were sonicated into sizes of 400 bp so that paired-end libraries could be obtained. These libraries were sequenced on a NovaSeq 6000 platform (Illumina, United States) to acquire the Hi-C data.</p>
+<p class="mb0">Low-quality Hi-C reads were removed according to the following two criteria: (1) filter a read if more than 10% of bases were N, (2) filter a read if more than 50% bases were low quality (<i>Q</i> &#x2264; 5). Clean Hi-C reads were mapped to the draft assembly with Juicer (Juicer, juicer_tools.1.7.6_jcuda.0.8.jar) (<a href="#B17">Durand et al., 2016a</a>). A candidate chromosome-length assembly was generated automatically using the 3d-DNA pipeline to correct misjoins, order, orientation, and then anchor contigs from the draft assembly (<a href="#B16">Dudchenko et al., 2017</a>). Manual review and refinement of the candidate assembly was performed in Juicebox Assembly Tools (Version 1.9.1) (<a href="#B18">Durand et al., 2016b</a>) for quality control and interactive correction. And then the genome was finalized using the &#x201C;run-asm-pipeline-post-review.sh -s finalize &#x2013;sort-output &#x2013;bulid-gapped-map&#x201D; in 3d-DNA with manually adjusted assembly as input (<a href="#B16">Dudchenko et al., 2017</a>).</p>
+<h3>Genome Annotation</h3>
+<p class="mb15">The repetitive sequences were identified via sequence alignment and <i>de novo</i> prediction. RepeatMasker (<a href="#B8">Chen, 2004</a>) was used to compare the assembled genome with the RepBase database (Release16.10)<sup id="footnotesuper1"><a id="footnote1a"></a><a class="footnoteanchor" href="#footnote1">1</a></sup> using default settings (<a href="#B3">Bao et al., 2015</a>). Repeatproteinmask searches<sup id="footnotesuper2"><a id="footnote2a"></a><a class="footnoteanchor" href="#footnote2">2</a></sup> were used for prediction of homologs using default settings. For <i>de novo</i> annotation of repetitive elements, LTR_finder (<a href="#B66">Xu and Wang, 2007</a>)<sup id="footnotesuper3"><a id="footnote3a"></a><a class="footnoteanchor" href="#footnote3">3</a></sup>, Piler (<a href="#B20">Edgar and Myers, 2005</a>)<sup id="footnotesuper4"><a id="footnote4a"></a><a class="footnoteanchor" href="#footnote4">4</a></sup>, RepeatScout (<a href="#B45">Price et al., 2005</a>)<sup id="footnotesuper5"><a id="footnote5a"></a><a class="footnoteanchor" href="#footnote5">5</a></sup>, and RepeatModeler<sup id="footnotesuper6"><a id="footnote6a"></a><a class="footnoteanchor" href="#footnote6">6</a></sup> were used to construct the <i>de novo</i> library, and annotation was carried out with Repeatmasker (cutf 100, cpu 100, run qsub, -nolow,-no, -norna,-parallel 1). Tandem repeats were identified across the genome with Tandem Repeats Finder (cutf 100, cpu 100, period_size 2000, run qsub Match 2 Mismatch 7 Delta 7 PM 80 PI 10 Minscore 50 MaxPeriod 2000).</p>
+<p class="mb15">According to their characteristics and redundancy, the repeat consensus sequences were first classified using TEsort (<a href="#B74">Zhang et al., 2019</a>) with REXdb database<sup id="footnotesuper7"><a id="footnote7a"></a><a class="footnoteanchor" href="#footnote7">7</a></sup>. For <i>Copia</i> and <i>Gyspy</i> superfamilies, complete elements were identified based on the presence and order of conserved domains including capsid protein, aspartic proteinase, integrase, reverse transcriptase and RNase H as described in Wicker (<a href="#B64">Wicker and Keller, 2007</a>). We extracted all reverse transcriptase and multiple sequence alignment of the extracted RT were then conducted by MAFFT (<a href="#B41">Nakamura et al., 2018</a>) and the phylogenetic tree was constructed with IQTREE (<a href="#B26">Jana et al., 2016</a>). Itol<sup id="footnotesuper8"><a id="footnote8a"></a><a class="footnoteanchor" href="#footnote8">8</a></sup> was used for the visualization and edit of the tree. Finally, density of the TE consensus copies according to their lineages were computed along pseudomolecules and visualized using R.</p>
+<p class="mb15">GlimmerHMM (<a href="#B1">Aggarwal and Ramaswamy, 2002</a>), SNAP (<a href="#B28">Korf, 2004</a>), GenScan (<a href="#B1">Aggarwal and Ramaswamy, 2002</a>), and Augustus (<a href="#B54">Stanke et al., 2006</a>) were used for <i>ab initio</i> prediction of protein-coding genes with default settings. The homology-based prediction utilized reference protein sequence from <i>Arabidopsis thaliana</i> (<a href="#B38">Michael et al., 2018</a>), <i>Sesamum indicum</i> (<a href="#B62">Wang et al., 2014</a>), <i>Solanum lycopersicum</i> (<a href="#B11">Consortium, 2012</a>), and <i>Vitis vinifera</i> (<a href="#B23">Girollet et al., 2019</a>) according to an established protocol. RNA-seq data sets for <i>A. paniculata</i> leaf and root tissues were obtained from the National Center for Biotechnology Information (NCBI) database (SRX652837, SRX655521), and subsequently used for <i>de novo</i> assembly of the transcriptome. We aligned all RNA reads to the <i>A. paniculata</i> genome using TopHat (<a href="#B57">Trapnell et al., 2009</a>), assembled the transcripts with Cufflinks (<a href="#B56">Trapnell et al., 2013</a>) using default parameters, and predicted the open reading frames to obtain reliable transcripts with hidden Markov model (HMM)-based training parameters. Finally, the above 3 gene structure models were compiled by Evidence Modeler tool (<a href="#B25">Haas et al., 2008</a>) with the following weights: transcripts-set &#x003E; homology-set &#x003E; <i>ab initio</i>-set and redundant genes were removed.</p>
+<p class="mb15">The t-RNAscan-SE tool (<a href="#B5">Chan and Lowe, 2019</a>) was used to predict tRNA in the genome sequence with <i>E</i>-value set to 1e-5. Plant RNA sequences from Rfam database were selected as reference to predict the rRNA by BLASTN with E-value set to 1e-5. The miRNA and snRNA genes were also predicted by BLASTN against the Rfam database with <i>E</i>-value set to e-1.</p>
+<p class="mb0">Gene function was annotated by performing BLASTP (<i>E</i>-value &#x2264; 1e-5) against the protein databases. SwissProt<sup id="footnotesuper9"><a id="footnote9a"></a><a class="footnoteanchor" href="#footnote9">9</a></sup>, TrEMBL (see footnote 9), KEGG<sup id="footnotesuper10"><a id="footnote10a"></a><a class="footnoteanchor" href="#footnote10">10</a></sup>, and InterPro<sup id="footnotesuper11"><a id="footnote11a"></a><a class="footnoteanchor" href="#footnote11">11</a></sup> were used for screening the functional domains of the proteins. Gene Ontology (GO) terms for each gene were extracted from the corresponding InterPro entries.</p>
+<h3>Evolutionary and Phylogenetic Analyses</h3>
+<p class="mb15">Protein sequences of <i>A. paniculata</i>, <i>Sesamum indicum</i>, <i>Salvia miltiorrhiza</i>, <i>Oryza sativa</i>, <i>Catharanthus roseus, Arabidopsis thaliana, Solanum lycopersicum</i>, and <i>Helianthus annuus</i> were downloaded from JGI. A full alignment protein search using BLASTP with the parameter <i>E</i>-value = 1e-5 was performed to verify the gene family clusters in these species and <i>A. paniculata</i>. Ortholog clustering and gene family clustering analyses were performed using OrthoMCL (<a href="#B33">Li et al., 2003</a>). Venn diagram format was drawn using a web tool<sup id="footnotesuper12"><a id="footnote12a"></a><a class="footnoteanchor" href="#footnote12">12</a></sup> (<a href="#B73">Zhang et al., 2016</a>).</p>
+<p class="mb15">An all-against-all BLASTP comparison with a cutoff <i>E</i>-value of 1e-5 was preformed, and the results were clustered into groups of homologous proteins using Markov chain clustering with the default inflation parameter. All 1212 single-copy orthologous genes identified in the gene family cluster analysis from the aforementioned species were used to construct a phylogenetic tree. Multiple sequence alignments were performed for each gene using MUSCLE v.3.7<sup id="footnotesuper13"><a id="footnote13a"></a><a class="footnoteanchor" href="#footnote13">13</a></sup> with default settings (<a href="#B19">Edgar, 2004</a>).</p>
+<p class="mb15">The MCMCTREE program within the PAML package (<a href="#B69">Yang, 2007</a>) was used to estimate divergence time of <i>A. paniculata</i>, <i>S. indicum</i>, <i>S. miltiorrhiza</i>, <i>O. sativa</i>, <i>C. s roseus, A. thaliana, S. lycopersicum</i>, and <i>H. annuus</i>. The HKY85 model (model = 4) and independent rates molecular clock (clock = 2) were used for calculation.</p>
+<p class="mb0">CAFE v1.7 (<a href="#B12">De Bie et al., 2006</a>) is a tool for analyzing the evolution of gene family size based on the stochastic birth and death model. With the calculated phylogeny and the divergence time, this software was applied to identify gene families that had undergone expansion and/or contraction in the aforementioned species with the parameters: -filter -cpu 10 -lrt -simunum 1000.</p>
+<h3>Synteny Analysis of Two Genome Assemblies</h3>
+<p class="mb0">The fasta and hic.gff files of the published genome assembly (<a href="#B55">Sun et al., 2019</a>) were downloaded from NCBI. They were combined with the fasta and contig.gff files of our genome assembly by makeblastdb. BLASTP was used to align these sequence, and MCScanX (<a href="#B63">Wang et al., 2012</a>) was used to perform synteny analysis between two genome assemblies.</p>
+<h3>Analysis of Key Gene Families in the <i>A. paniculata</i> Genome</h3>
+<p class="mb15">We used hmmsearch to perform a preliminary screening of the gene family (<i>CYP450</i> and <i>terpene sythases, TPSs</i>) in <i>A. paniculata</i> and the gene ID was intercepted with an <i>E</i>-value &#x2264; 1e-59. The corresponding protein sequence was used as a query for TBLASTN (<i>E</i> = 1e-5) with both versions of the assembled <i>A. paniculata</i> genome sequence. The <i>CYP450</i> genes from other species were downloaded from the Cytochrome <i>CYP450</i> homepage<sup id="footnotesuper14"><a id="footnote14a"></a><a class="footnoteanchor" href="#footnote14">14</a></sup> (<a href="#B42">Nelson, 2009</a>) and the <i>TPS</i> genes from other species were acquired from a previous publication (<a href="#B6">Chen et al., 2011</a>). Multiple sequence alignment was carried out with MUSCLE v3.7 (<a href="#B19">Edgar, 2004</a>) using default parameters. The maximum likelihood (ML) phylogenetic tree was constructed using MEGA7 (<a href="#B42">Nelson, 2009</a>) with 1,000 bootstraps.</p>
+<p class="mb0">The RNA-Seq data of the roots and leaves of <i>A. paniculata</i> were downloaded from the NCBI database (SRX652837, SRX655521). FPKM value was calculated for each protein-coding gene by Cufflinks (v. 2.1.1) (<a href="#B56">Trapnell et al., 2013</a>). The heatmap was made with the pheatmap package.</p>
+<a id="h4" name="h4"></a><h2>Results</h2>
+<h3 class="pt0">Genomic Sequencing and High-Quality Genome Assembly</h3>
+<p class="mb15">Genome survey with Illumina reads showed that the estimated genome size of <i>A. paniculata</i> with <i>21-mer</i> analysis was about 295 Mb (<a href="#F1">Figure 1B</a>). This number was slightly smaller than the estimated genome size of 310 Mb from flow cytometry analysis (<a href="#F1">Figure 1C</a>), but larger than the previous estimate of 280 Mb (<a href="#B55">Sun et al., 2019</a>). The difference probably reflects the between-individual variation of the <i>A. paniculata</i> plant. Moreover, the heterozygosity of this sequenced genome was estimated to be 0.175% (<a href="#F1">Figure 1B</a>).</p>
+<p class="mb0">In order to obtain a high-quality <i>A. paniculata</i> genome assembly, we constructed 11 PacBio SMRT sequencing libraries, which produced 53.96 Gb clean data (<a href="#S9">Supplementary Table 1</a>). They covered about 183-fold of the estimated genome. We also generated about 238.6 Gb of Illumina sequencing data to polish and correct the error reads that are associated with PacBio sequencing. A combination of these data through a assembly pipeline (see the section on genome assembly methods for details) yielded a draft genome assembly of &#x223C;284.3 Mb with 270 contigs (<a href="#T1">Table 1</a>). This assembly represented about 91.6 &#x2013; 96.3% of the estimated genome size. The longest contig was 9.30 Mb in size and the contig N50 was about 5.15 Mb. This benchmark is more than 12-fold longer than that of a previously reported assembly (<a href="#B55">Sun et al., 2019</a>).</p>
+<div class="DottedLine"></div>
+<div class="Imageheaders">TABLE 1</div>
+<div class="FigureDesc">
+<a href="https://www.frontiersin.org/files/Articles/536541/fgene-11-00701-HTML/image_m/fgene-11-00701-t001.jpg" name="table1" target="_blank">
+<img src="https://www.frontiersin.org/files/Articles/536541/fgene-11-00701-HTML/image_t/fgene-11-00701-t001.gif" id="T1" alt="www.frontiersin.org" /></a>
+<p><strong>Table 1.</strong> The library information and data statistics for the <i>A. paniculata</i> assembly.</p>
+</div>
+<div class="clear"></div>
+<div class="DottedLine"></div>
+<p class="mb15 w100pc float_left mt15">We assessed the completeness of the genome assembly of <i>A. paniculata</i> by using the Benchmarking Universal Single-Copy Orthologs (BUSCO) approach (<a href="#B52">Simao et al., 2015</a>). The result showed that 91.0% of the plant BUSCO genes could be recovered in the genome assembly and 3% of the plant BUSCO genes had partial matches (<a href="#S9">Supplementary Table 2</a>). We also mapped cleaned Illumina paired reads back to the genome assembly using BWA mem (<a href="#B31">Li and Durbin, 2010</a>). We found that 97% of the reads could be mapped to the genome assembly and 94% of the reads were found to be properly paired. The high mapping rate indicate high completeness of the assembly. These two benchmarks were also higher than those reported in the previously assembly (<a href="#B55">Sun et al., 2019</a>). In addition, our contig assembly shared high collinearity with its counterpart from a previous report (<a href="#F2">Figure 2</a>). These data collectively suggest that the genome assembly of <i>A. paniculata</i> in this study has high quality and could be used for subsequent analyses.</p>
+<div class="DottedLine"></div>
+<div class="Imageheaders">FIGURE 2</div>
+<div class="FigureDesc">
+<a href="https://www.frontiersin.org/files/Articles/536541/fgene-11-00701-HTML/image_m/fgene-11-00701-g002.jpg" name="figure2" target="_blank">
+<img src="https://www.frontiersin.org/files/Articles/536541/fgene-11-00701-HTML/image_t/fgene-11-00701-g002.gif" id="F2" alt="www.frontiersin.org" /></a>
+<p><strong>Figure 2.</strong> Collinear analysis of the assemblies of <i>A. paniculata</i> genome.</p>
+</div>
+<div class="clear"></div>
+<div class="DottedLine"></div>
+<p class="mb15 w100pc float_left mt15">Finally, we obtained about 43.33 Gb (&#x223C;152 &#x00D7; coverage) clean Hi-C sequencing data, with which 246,855,874 bp (86.8% of all bases) of the genome assembly were organized into 24 pseudo-chromosomes (<a href="#F3">Figure 3</a> and <a href="#S9">Supplementary Table 3</a>). As expected, the Hi-C interaction decreases as the physical distance between two sequences increases.</p>
+<div class="DottedLine"></div>
+<div class="Imageheaders">FIGURE 3</div>
+<div class="FigureDesc">
+<a href="https://www.frontiersin.org/files/Articles/536541/fgene-11-00701-HTML/image_m/fgene-11-00701-g003.jpg" name="figure3" target="_blank">
+<img src="https://www.frontiersin.org/files/Articles/536541/fgene-11-00701-HTML/image_t/fgene-11-00701-g003.gif" id="F3" alt="www.frontiersin.org" /></a>
+<p><strong>Figure 3.</strong> Hi-C clustering heatmap for pseudomolecule construction in <i>A. paniculata</i>. In all, 24 pseudomolecules are assembled and indicated by blue boxes.</p>
+</div>
+<div class="clear"></div>
+<div class="DottedLine"></div>
+<h3>Repeat Annotation</h3>
+<p class="mb0">Transposable elements (TEs) accounted for about 163.1 Mb or 57.35% of the <i>A. paniculata</i> genome (<a href="#S9">Supplementary Table 4</a>). Breakdown of the TE statistics showed that DNA retrotransposons and long terminal repeat (LTR) retrotransposons were major subtypes in the <i>A. paniculata</i> genome (<a href="#S9">Supplementary Table 5</a>). TEs constitute an import part in plant genomes. We analyzed the evolutionary history of various <i>Ty3-gypsies</i> and <i>Ty1-copia</i> retroposon elements in the <i>A. paniculata</i> genome and identified unique dynamics of invasion patterns for different TE lineages (<a href="#F4">Figures 4A,B</a>). For example, Ivana, Ogre, and Ale elements are all relatively young, suggesting an intense and recent burst of insertion or a strong selection against these TE elements. In contrast, Angela elements are the most ancient ones and the bimodal distribution suggests that the burst of insertion occurred twice in the evolutionary history of <i>A. paniculata</i> (<a href="#F4">Figure 4B</a>). In addition, TE family distribution varied across the genome (<a href="#F4">Figure 4C</a>). Ogre elements tend to cluster closely, thereby yielding prominent hotspot regions in the genome of <i>A. paniculata</i>.</p>
+<div class="DottedLine"></div>
+<div class="Imageheaders">FIGURE 4</div>
+<div class="FigureDesc">
+<a href="https://www.frontiersin.org/files/Articles/536541/fgene-11-00701-HTML/image_m/fgene-11-00701-g004.jpg" name="figure4" target="_blank">
+<img src="https://www.frontiersin.org/files/Articles/536541/fgene-11-00701-HTML/image_t/fgene-11-00701-g004.gif" id="F4" alt="www.frontiersin.org" /></a>
+<p><strong>Figure 4.</strong> Repeat analysis <b>(A)</b> Neighbor-joining (NJ) trees were built from RT domain sequence similarities among different lineage-specific copies identified in the <i>A. paniculata</i> genome. Deep branching revealed ancient expansion while flat branching is consistent with a recent burst of insertion activity. Red branches correspond to outgroup sequences. <b>(B)</b> The average age of TEs was revealed for the different lineages by the branching distribution in the NJ trees built from RT (light blue). <b>(C)</b> The density of different TE lineages inferred from the detection of their protein-coding domains along pseudomolecules.</p>
+</div>
+<div class="clear"></div>
+<div class="DottedLine"></div>
+<h3>Protein-Coding Gene Annotation</h3>
+<p class="mb0">A combination of <i>ab initio</i> based, homology based, and RNA-Seq based methods were used to predict 24,015 protein-coding genes in the <i>A. paniculata</i> genome (<a href="#S9">Supplementary Table 6</a>). The predicted mRNA was on average 3,175 bp in length, containing about 5.67 exons with an average CDS length of 1,287 bp. The number of predicted protein-coding genes was comparable to that of <i>S. indicum</i>, but much smaller than that of <i>O. sativa</i> and <i>H. annuus</i> (<a href="#F5">Figure 5A</a>). Orthologous clustering analysis showed that the <i>A. paniculata</i> genome contained 4,449 single-copy orthologs, 6,731 multiple-copy orthologs, 1,234 unique paralogs, 7,165 other orthologs, and 4,436 unclustered genes (<a href="#S9">Supplementary Table 7</a>). In addition, Venn diagram showed that 7,798 gene families were shared by <i>A. paniculata</i>, <i>S. indicum, S. miltiorrhiza</i>, and <i>O. sativa</i>. A total of 525 gene families were unique to <i>A. paniculata</i>. This number was lower than that of the other three plant species (<a href="#F5">Figure 5B</a>). Among the 24,015 protein-coding genes, a total of 19,824 predicted genes are supported by the RNA-seq expression data (FPKM &#x003E; 0.05). Functional annotation of predicted protein-coding genes showed that 91.5% could obtain TrEMBL annotation; 62.2% could obtain GO annotation; 77.2% could obtain KEGG annotation; and 81.0% could obtain InterPro annotation (<a href="#S9">Supplementary Table 8</a>).</p>
+<div class="DottedLine"></div>
+<div class="Imageheaders">FIGURE 5</div>
+<div class="FigureDesc">
+<a href="https://www.frontiersin.org/files/Articles/536541/fgene-11-00701-HTML/image_m/fgene-11-00701-g005.jpg" name="figure5" target="_blank">
+<img src="https://www.frontiersin.org/files/Articles/536541/fgene-11-00701-HTML/image_t/fgene-11-00701-g005.gif" id="F5" alt="www.frontiersin.org" /></a>
+<p><strong>Figure 5.</strong> Comparative analyses of the <i>A. paniculata</i> genome. <b>(A)</b> Major groups of orthologous genes in eight plant genomes. <b>(B)</b> Venn diagram of shared orthologous gene families among <i>A. paniculata</i>, <i>S. indicum</i>, <i>S. miltiorrhiza</i>, and <i>O. sativa</i> genomes. <b>(C)</b> Estimation of the time points of divergence (time range shown in parentheses) between <i>A. paniculata</i> and seven other plant species based on orthologous single-copy gene pairs. <b>(D)</b> Expansion and contraction of gene families in eight plant genomes. Pie diagram on each branch and node corresponds to combined change across lineages.</p>
+</div>
+<div class="clear"></div>
+<div class="DottedLine"></div>
+<h3>Non-protein-Coding Gene Annotation</h3>
+<p class="mb0">A combination of homolog and <i>ab initio</i> based methods identified a total of 6,591 non-protein-coding genes (<a href="#S9">Supplementary Table 9</a>). These predicted genes comprised of 93 microRNA genes, 524 transfer RNA (tRNA) genes, 5,785 ribosomal RNA (rRNA) genes, and 189 small nuclear RNA genes (<a href="#S9">Supplementary Table 9</a>).</p>
+<h3>Phylogenetic Analysis of <i>A. paniculata</i></h3>
+<p class="mb0">Phylogenetic analysis <i>A. paniculata</i> and seven other plant species showed that <i>A. paniculata</i> shared a common ancestor with <i>S. miltiorrhiza</i> approximately 57.0 Myr ago by calculated by r8s (<a href="#F5">Figure 5C</a>). This estimate corresponds to the report from a previous study (<a href="#B55">Sun et al., 2019</a>). During the course of evolution, a total of 1,064 and 1,396 gene families in <i>A. paniculata</i> were found to undergo expansion and contraction, respectively (<a href="#F5">Figure 5D</a>).</p>
+<h3>Genomic Analysis of Key Genes in the Terpenoid Biosynthetic Pathway</h3>
+<p class="mb0">Terpenoids are the largest group of plant secondary metabolites that are key targets for pharmaceutical screening and design (<a href="#B53">Srivastava and Akhila, 2010</a>). Despite the structural diversity, these compounds share a common biosynthetic pathway (<a href="#B70">Yazaki et al., 2017</a>). Terpenoids are derived from two five-carbon chemicals: IPP and dimethylallyl diphosphate (DMAPP) (<a href="#B30">Lange et al., 2001</a>). Their biosynthesis involve the classical acetate/mevalonate pathway in the cytosol and the pyruvate/glyceraldehyde-3-phosphate pathway in the plastids (<a href="#F6">Figure 6A</a>) (<a href="#B6">Chen et al., 2011</a>). Eventually, the condensation of IPP and DMAPP in various combinations will give rise to the countless terpenoids in plants (<a href="#B53">Srivastava and Akhila, 2010</a>). In the <i>A. paniculata</i> genome, according to the KEGG annotation results, we identified 41 putative genes that were involved in the terpenoid backbone biosynthesis (<a href="#S9">Supplementary Table 10</a>). This number is larger than that found in the <i>Panax notoginseng</i> genome (<a href="#B9">Chen et al., 2017</a>). Additionally, almost all these putative genes exhibited certain levels of expression in the leaf and root tissue of <i>A. paniculata</i>. A previous report showed that the <i>GERANYLGERANYL PYROPHOSPHATE SYNTHASE</i> (<i>GGPPS</i>) group of genes in <i>A. paniculata</i> might be involved in the biosynthesis of andrographolide (<a href="#B61">Wang et al., 2019</a>). In our genome assembly, a total number of 13 putative <i>GGPPS</i> genes were identified, and 11 out of 13 putative genes were expressed (<a href="#S9">Supplementary Table 10</a>).</p>
+<div class="DottedLine"></div>
+<div class="Imageheaders">FIGURE 6</div>
+<div class="FigureDesc">
+<a href="https://www.frontiersin.org/files/Articles/536541/fgene-11-00701-HTML/image_m/fgene-11-00701-g006.jpg" name="figure6" target="_blank">
+<img src="https://www.frontiersin.org/files/Articles/536541/fgene-11-00701-HTML/image_t/fgene-11-00701-g006.gif" id="F6" alt="www.frontiersin.org" /></a>
+<p><strong>Figure 6.</strong> Genomic analysis of putative <i>TPS</i> genes in the <i>A. paniculata</i> genome. <b>(A)</b> Schematic biosynthetic pathway of andrographolide and neoandrographolide. <b>(B)</b> Phylogenetic analysis of <i>TPS</i> genes in <i>A. paniculata</i> and other plants. Red branches indicate putative <i>TPS</i> genes in <i>A. paniculata</i>. <b>(C)</b> Expression levels of putative <i>KS/KSL</i> genes in the leaf and root tissue of <i>A. paniculata</i>. <b>(D)</b> Expression levels of putative <i>CPS</i> genes in the leaf and root tissue of <i>A. paniculata</i>.</p>
+</div>
+<div class="clear"></div>
+<div class="DottedLine"></div>
+<p class="mb15 w100pc float_left mt15">Besides <i>GGPPS</i> genes, previous studies suggest that <i>COPALYL DIPHOSPHATE SYNTHASE</i> (<i>CPS</i>) genes are implicated in the biosynthetic pathway of andrographolide and neoandrographolide (<a href="#B22">Garg et al., 2015</a>; <a href="#B49">Shen et al., 2016a</a>, <a href="#B50">b</a>). The CPS enzymes are very similar in protein sequence to kaurene synthase (KS) and kaurene synthase-like (KSL) proteins (<a href="#B76">Zi et al., 2014</a>). Despite their distinct catalytic activity, CPSs and KSLs belong to the c-type and e-type subfamilies of the terpene synthase (TPS) enzymes, respectively (<a href="#B6">Chen et al., 2011</a>). In the <i>A. paniculata</i> genome, we identified a total of 53 putative <i>TPS</i> genes (<a href="#S9">Supplementary Table 11</a>). Phylogenetic analysis of the TPS protein sequences from <i>A. paniculata</i> and eight other species showed that there were 24 putative <i>TPS-a1</i> genes, 10 putative <i>TPS-b</i> genes, 4 putative <i>TPS-c</i> genes, 8 putative <i>TPS-e</i> genes, 5 putative <i>TPS-f</i> genes, and 2 putative <i>TPS-g</i> genes (<a href="#F6">Figure 6B</a>). This suggest that the <i>A. paniculata</i> genome may have four <i>CPS</i> genes and eight <i>KS</i>/<i>KSL</i> genes, all of which show certain levels of expression in the leaf and root tissues of the plant (<a href="#F6">Figures 6C,D</a>).</p>
+<h3>Genomic Analysis of the Cytochrome P450 Gene Family in <i>A. paniculata</i></h3>
+<p class="mb0">Various biosynthetic pathways in plants rely on members of the <i>CYTOCHROME P450</i> (<i>CYP450</i>) gene family to accomplish chemical modification (<a href="#B48">Schuler, 1996</a>; <a href="#B39">Mizutani and Ohta, 1998</a>; <a href="#B40">Morant et al., 2003</a>). For this reason, we investigated the putative <i>CYP450</i> genes in <i>A. paniculata</i>, and found a total of 205 candidates (<a href="#S9">Supplementary Table 12</a>). The phylogenetic tree of the putative CYP450 protein sequences exhibited nine major clans (<a href="#F7">Figure 7A</a>). The majority of candidate genes belonged to the clan 71 (104 genes), clan 72 (33 genes), clan 85 (33 genes), and clan 86 (25 genes), respectively. We also found that some <i>CYP450</i> genes appeared in a cluster in the contigs of the assembly (<a href="#F7">Figure 7B</a>). This result agrees with the findings that it is fairly common to have gene clusters for specific biosynthetic pathways in plant genomes (<a href="#B43">Nutzmann and Osbourn, 2014</a>). Among the 205 candidate genes, we identified 111 putative <i>CYP450</i> genes that were differentially expressed in the root and leaf of <i>A. paniculata</i> (<a href="#F7">Figure 7C</a>). Additionally, the expression level of evm.49.509 in the <i>CYP450</i> family was the highest in the root of <i>A. paniculata</i>, followed by evm.model.49.208, evm.model.7.226, and evm.model.54.219. In comparison, evm.model.19.136 was the highest expressed gene in the leaves of <i>A. paniculata</i>, followed by evm.model.54.197 and evm.model.11.4.</p>
+<div class="DottedLine"></div>
+<div class="Imageheaders">FIGURE 7</div>
+<div class="FigureDesc">
+<a href="https://www.frontiersin.org/files/Articles/536541/fgene-11-00701-HTML/image_m/fgene-11-00701-g007.jpg" name="figure7" target="_blank">
+<img src="https://www.frontiersin.org/files/Articles/536541/fgene-11-00701-HTML/image_t/fgene-11-00701-g007.gif" id="F7" alt="www.frontiersin.org" /></a>
+<p><strong>Figure 7.</strong> Genomic analysis of putative <i>CYP450</i> genes in the <i>A. paniculata</i> genome. <b>(A)</b> Phylogenetic analysis of <i>CYP450</i> genes in <i>A. paniculata</i> and other plants. Red branches indicate putative <i>CYP450</i> genes in <i>A. paniculata</i>. <b>(B)</b> The <i>CYP450</i> gene clusters on the contigs. <b>(C)</b> Differentially expressed putative <i>CYP450</i> genes in <i>A. paniculata</i>.</p>
+</div>
+<div class="clear"></div>
+<div class="DottedLine"></div>
+<a id="h5" name="h5"></a><h2>Discussion</h2>
+<p class="mb15">With the advancement and cost reduction of genome sequencing technologies, more and more plant species have revealed their near-complete genetic composition at a single-base resolution. Because most medicinal plant have highly repetitive and/or heterozygous genomes, a high-quality draft assembly is usually difficult and costly to secure. Particularly, lower contiguity of the genome assembly at the contig level will impede genomic analysis of functional genes, delineation of biosynthetic pathways, and the development of novel pharmaceutical candidate.</p>
+<p class="mb15">We reported a chromosome-level reference genome for <i>A. paniculata</i> with improved benchmark values. Our updated <i>A. paniculata</i> genome was 284 Mb with a contig N50 size of 5.14 M. This number was more than 12-fold longer than that of the previous report (<a href="#B55">Sun et al., 2019</a>). The BUSCO value reached 91.7%, which demonstrated the high completeness of the genome assembly.</p>
+<p class="mb15">Repetitive elements account for a large percentage of plant genomes. For example, the genome of lettuce contains about 74.2% of the sequence as repeats and the genome of sunflower includes more than 75% LTRs (<a href="#B2">Badouin et al., 2017</a>; <a href="#B46">Reyes-Chin-Wo et al., 2017</a>). We analyzed the repetitive element sequences in the <i>A. paniculata</i> genome and found that the repeats of the <i>A. paniculata</i> genome is as high as 57%, among which long terminal repeat retrotransposons (LTR-RTs) are predominant. Phylogenetic analyses of various <i>copia</i> and <i>gypsies</i> RT subclasses showed that the burst of invasion of many RT were recent events except Angela elements. This is in contrast to the pea genome where Angela elements drives the invasion fairly recently (<a href="#B29">Kreplak et al., 2019</a>). Given these results, it is worth noting that TE annotation remains a challenging task for plant genomes. For instance, about 21.8% of <i>de novo</i> identified TEs in the <i>A. paniculata</i> genome could not be assigned to a particular category. Moreover, TEs tend to insert into the structures of existing TE elements, creating nested TEs in the genome. With our data, it would be interesting to use newly developed pipelines (e.g., Extensitve <i>de novo</i> TE Annotator) (<a href="#B44">Ou et al., 2019</a>) to deconvolute nested TEs in the genome of <i>A. paniculata.</i></p>
+<p class="mb0">In the present study, we analyzed the <i>Cyp450</i> gene family in <i>A. paniculata</i>, and identified 205 putative <i>CYP450</i> genes with conserved motifs. The results showed that all major classes of <i>Cyp450</i> reported by the <a href="#B43">Nutzmann and Osbourn (2014)</a> could be found in the <i>A. paniculata</i> genome. The number of <i>Cyp450</i> genes with high expressions is larger in roots than in leaf. Furthermore, terpene synthesis (TPSs) is one of the main drivers of terpene diversification. The terpene synthase (TPS) family genes are generally categorized into seven clades (<a href="#B51">Shen et al., 2018</a>). In the <i>A. paniculata</i> genome, we identified a total of 53 putative <i>TPS</i> genes, most of which belong to the <i>TPS-a</i> and <i>TPS-b</i> subfamilies. This is in line with the fact that <i>TPS-a</i> and <i>TPS-b</i> subfamilies represent the angiosperm-specific genes that have diverged from the other <i>TPS</i> genes (<a href="#B51">Shen et al., 2018</a>).</p>
+<a id="h6" name="h6"></a><h2>Conclusion</h2>
+<p class="mb0">The high-quality genome of <i>A. paniculata</i> will not only lay out the foundation for investigating the genetic basis for secondary metabolite biosynthesis, but also serve as an important resource for the study of other plant species in the <i>Andrographis</i> genus.</p>
+<a id="h7" name="h7"></a><h2>Data Availability Statement</h2>
+<p class="mb0">All raw sequence reads and the genome assembly have been deposited at NCBI under the BioProject accession number PRJNA549104.</p>
+<a id="h8" name="h8"></a><h2>Author Contributions</h2>
+<p class="mb0">YL, KW, and PQ collected the samples and performed the experiments. SC, ZY, YDu, and SD completed the data analysis. YDo, WC, and JM edited and modified the manuscript. All authors read and approved the manuscript.</p>
+<a id="fun1" name="fun1"></a><h2>Funding</h2>
+<p class="mb0">This study was supported by the National Key R&#x0026;D Program of China (2019YFC1711100), Yunnan Provincial Key Programs of Yunnan Eco-friendly Food International Cooperation Research Center Project (2019ZG00908), the Guangxi Innovation-Driven Development Project (GuiKe AA18242040), National Natural Science Foundation of China (81460582 and 81473309), China Agriculture Research System (CARS-21), and Guangxi Science and Technology Project (GuiKe AD17129044).</p>
+<a id="conf1" name="conf1"></a><h2>Conflict of Interest</h2>
+<p class="mb0">The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p>
+<a id="S9" name="S9"></a><h2>Supplementary Material</h2>
+<p class="mb0">The Supplementary Material for this article can be found online at: <a href="https://www.frontiersin.org/articles/10.3389/fgene.2020.00701/full#supplementary-material">https://www.frontiersin.org/articles/10.3389/fgene.2020.00701/full#supplementary-material</a></p>
+<a id="abbr1" name="abbr1"></a><h2>Abbreviations</h2>
+<p class="mb0"> BUSCO, Benchmarking Universal Single-Copy Orthologs; CPS, copalyl diphosphate synthase; CYP, cytochrome P450; DMAPP, dimethylallyl diphosphate; GGPPS, geranylgeranyl pyrophosphate synthase; GO, gene ontology; IPP, isopentenyl diphosphate; KSL, kaurene synthase-like protein; TE, transposable element.</p>
+<a id="FNT1" name="FNT1"></a><h2>Footnotes</h2>
+<ol>
+<li id="footnote1"><strong><a style="color:gray;" class="footnotetextanchor" href="#footnote1a" title="">^</a></strong> <a style="color:gray;" href="http://www.girinst.org/repbase/index.html">http://www.girinst.org/repbase/index.html</a></li>
+<li id="footnote2"><strong><a style="color:gray;" class="footnotetextanchor" href="#footnote2a" title="">^</a></strong> <a style="color:gray;" href="http://www.repeatmasker.org/">http://www.repeatmasker.org/</a></li>
+<li id="footnote3"><strong><a style="color:gray;" class="footnotetextanchor" href="#footnote3a" title="">^</a></strong> <a style="color:gray;" href="https://github.com/xzhub/LTR_Finder">https://github.com/xzhub/LTR_Finder</a></li>
+<li id="footnote4"><strong><a style="color:gray;" class="footnotetextanchor" href="#footnote4a" title="">^</a></strong> <a style="color:gray;" href="http://www.drive5.com/piler/">http://www.drive5.com/piler/</a></li>
+<li id="footnote5"><strong><a style="color:gray;" class="footnotetextanchor" href="#footnote5a" title="">^</a></strong> <a style="color:gray;" href="http://www.repeatmasker.org/">http://www.repeatmasker.org/</a></li>
+<li id="footnote6"><strong><a style="color:gray;" class="footnotetextanchor" href="#footnote6a" title="">^</a></strong> <a style="color:gray;" href="http://www.repeatmasker.org/RepeatModeler.html">http://www.repeatmasker.org/RepeatModeler.html</a></li>
+<li id="footnote7"><strong><a style="color:gray;" class="footnotetextanchor" href="#footnote7a" title="">^</a></strong> <a style="color:gray;" href="http://repeatexplorer.org/">http://repeatexplorer.org/</a></li>
+<li id="footnote8"><strong><a style="color:gray;" class="footnotetextanchor" href="#footnote8a" title="">^</a></strong> <a style="color:gray;" href="https://itol.embl.de/">https://itol.embl.de/</a></li>
+<li id="footnote9"><strong><a style="color:gray;" class="footnotetextanchor" href="#footnote9a" title="">^</a></strong> <a style="color:gray;" href="http://www.uniprot.org/">http://www.uniprot.org/</a></li>
+<li id="footnote10"><strong><a style="color:gray;" class="footnotetextanchor" href="#footnote10a" title="">^</a></strong> <a style="color:gray;" href="http://www.genome.jp/kegg/">http://www.genome.jp/kegg/</a></li>
+<li id="footnote11"><strong><a style="color:gray;" class="footnotetextanchor" href="#footnote11a" title="">^</a></strong> <a style="color:gray;" href="https://www.ebi.ac.uk/interpro/">https://www.ebi.ac.uk/interpro/</a></li>
+<li id="footnote12"><strong><a style="color:gray;" class="footnotetextanchor" href="#footnote12a" title="">^</a></strong> <a style="color:gray;" href="http://bioinfogp.cnb.csic.es/tools/venny/index.html">http://bioinfogp.cnb.csic.es/tools/venny/index.html</a></li>
+<li id="footnote13"><strong><a style="color:gray;" class="footnotetextanchor" href="#footnote13a" title="">^</a></strong> <a style="color:gray;" href="http://www.drive5.com/muscle">http://www.drive5.com/muscle</a></li>
+<li id="footnote14"><strong><a style="color:gray;" class="footnotetextanchor" href="#footnote14a" title="">^</a></strong> <a style="color:gray;" href="http://drnelson.uthsc.edu/CytochromeP450.html">http://drnelson.uthsc.edu/CytochromeP450.html</a></li>
+</ol>
+<a id="refer1" name="refer1"></a><h2>References</h2>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B1" id="B1"></a>Aggarwal, G., and Ramaswamy, R. (2002). <i>Ab initio</i> gene identification: prokaryote genome annotation with GeneScan and GLIMMER. <i>J. Biosci.</i> 27, 7&#x2013;14. doi: 10.1007/BF02703679</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/11927773" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1007/BF02703679" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Ab+initio+gene+identification%3A+prokaryote+genome+annotation+with+GeneScan+and+GLIMMER%2E&#x0026;journal=J%2E+Biosci%2E&#x0026;author=Aggarwal+G.&#x0026;author=Ramaswamy+R.&#x0026;publication_year=2002&#x0026;volume=27&#x0026;pages=7&#x2013;14" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B2" id="B2"></a>Badouin, H., Gouzy, J., Grassa, C. J., Murat, F., Staton, S. E., Cottret, L., et al. (2017). The sunflower genome provides insights into oil metabolism, flowering and asterid evolution. <i>Nature</i> 546, 148&#x2013;152. doi: 10.1038/nature22380</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/28538728" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1038/nature22380" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=The+sunflower+genome+provides+insights+into+oil+metabolism%2C+flowering+and+asterid+evolution%2E&#x0026;journal=Nature&#x0026;author=Badouin+H.&#x0026;author=Gouzy+J.&#x0026;author=Grassa+C.+J.&#x0026;author=Murat+F.&#x0026;author=Staton+S.+E.&#x0026;author=Cottret+L.&#x0026;publication_year=2017&#x0026;volume=546&#x0026;pages=148&#x2013;152" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B3" id="B3"></a>Bao, W., Kojima, K. K., and Kohany, O. (2015). Repbase update, a database of repetitive elements in eukaryotic genomes. <i>Mob. DNA</i> 6:11. doi: 10.1186/s13100-015-0041-9</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/26045719" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1186/s13100-015-0041-9" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Repbase+update%2C+a+database+of+repetitive+elements+in+eukaryotic+genomes%2E&#x0026;journal=Mob%2E+DNA&#x0026;author=Bao+W.&#x0026;author=Kojima+K.+K.&#x0026;author=Kohany+O.&#x0026;publication_year=2015&#x0026;volume=6&#x0026;issue=11" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B4" id="B4"></a>Chae, L., Kim, T., Nilo-Poyanco, R., and Rhee, S. Y. (2014). Genomic signatures of specialized metabolism in plants. <i>Science</i> 344, 510&#x2013;513. doi: 10.1126/science.1252076</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/24786077" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1126/science.1252076" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Genomic+signatures+of+specialized+metabolism+in+plants%2E&#x0026;journal=Science&#x0026;author=Chae+L.&#x0026;author=Kim+T.&#x0026;author=Nilo-Poyanco+R.&#x0026;author=Rhee+S.+Y.&#x0026;publication_year=2014&#x0026;volume=344&#x0026;pages=510&#x2013;513" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B5" id="B5"></a>Chan, P. P., and Lowe, T. M. (2019). TRNAscan-SE: searching for tRNA genes in genomic sequences. <i>Methods Mol. Biol.</i> 1962, 1&#x2013;14. doi: 10.1007/978-1-4939-9173-0_1</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1007/978-1-4939-9173-0_1" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=TRNAscan-SE%3A+searching+for+tRNA+genes+in+genomic+sequences%2E&#x0026;journal=Methods+Mol%2E+Biol%2E&#x0026;author=Chan+P.+P.&#x0026;author=Lowe+T.+M.&#x0026;publication_year=2019&#x0026;volume=1962&#x0026;pages=1&#x2013;14" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B6" id="B6"></a>Chen, F., Tholl, D., Bohlmann, J., and Pichersky, E. (2011). The family of terpene synthases in plants: a mid-size family of genes for specialized metabolism that is highly diversified throughout the kingdom. <i>Plant J.</i> 66, 212&#x2013;229. doi: 10.1111/j.1365-313X.2011.04520.x</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/21443633" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1111/j.1365-313X.2011.04520.x" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=The+family+of+terpene+synthases+in+plants%3A+a+mid-size+family+of+genes+for+specialized+metabolism+that+is+highly+diversified+throughout+the+kingdom%2E&#x0026;journal=Plant+J%2E&#x0026;author=Chen+F.&#x0026;author=Tholl+D.&#x0026;author=Bohlmann+J.&#x0026;author=Pichersky+E.&#x0026;publication_year=2011&#x0026;volume=66&#x0026;pages=212&#x2013;229" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B7" id="B7"></a>Chen, J. X., Xue, H. J., Ye, W. C., Fang, B. H., Liu, Y. H., Yuan, S.-H., et al. (2009). Activity of andrographolide and its derivatives against influenza virus in vivo and in vitro. <i>Biol. Pharm. Bull.</i> 32, 1385&#x2013;1391. doi: 10.1248/bpb.32.1385</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/19652378" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1248/bpb.32.1385" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Activity+of+andrographolide+and+its+derivatives+against+influenza+virus+in+vivo+and+in+vitro%2E&#x0026;journal=Biol%2E+Pharm%2E+Bull%2E&#x0026;author=Chen+J.+X.&#x0026;author=Xue+H.+J.&#x0026;author=Ye+W.+C.&#x0026;author=Fang+B.+H.&#x0026;author=Liu+Y.+H.&#x0026;author=Yuan+S.-H.&#x0026;publication_year=2009&#x0026;volume=32&#x0026;pages=1385&#x2013;1391" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B8" id="B8"></a>Chen, N. (2004). Using RepeatMasker to identify repetitive elements in genomic sequences. <i>Curr. Protoc. Bioinformatics</i> 25, 4.10.1&#x2013;4.10.14. doi: 10.1002/0471250953.bi0410s05</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/18428725" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1002/0471250953.bi0410s05" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Using+RepeatMasker+to+identify+repetitive+elements+in+genomic+sequences%2E&#x0026;journal=Curr%2E+Protoc%2E+Bioinformatics&#x0026;author=Chen+N.&#x0026;publication_year=2004&#x0026;volume=25&#x0026;pages=4.10.1&#x2013;4.10.14" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B9" id="B9"></a>Chen, W., Kui, L., Zhang, G., Zhu, S., Zhang, J., Wang, X., et al. (2017). Whole-genome sequencing and analysis of the Chinese herbal plant <i>Panax notoginseng</i>. <i>Mol. Plant</i> 10, 899&#x2013;902. doi: 10.1016/j.molp.2017.02.010</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/28315474" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/j.molp.2017.02.010" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Whole-genome+sequencing+and+analysis+of+the+Chinese+herbal+plant+Panax+notoginseng%2E&#x0026;journal=Mol%2E+Plant&#x0026;author=Chen+W.&#x0026;author=Kui+L.&#x0026;author=Zhang+G.&#x0026;author=Zhu+S.&#x0026;author=Zhang+J.&#x0026;author=Wang+X.&#x0026;publication_year=2017&#x0026;volume=10&#x0026;pages=899&#x2013;902" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B10" id="B10"></a>Chua, L. S. (2014). Review on liver inflammation and antiinflammatory activity of <i>Andrographis paniculata</i> for hepatoprotection. <i>Phytother. Res.</i> 28, 1589&#x2013;1598. doi: 10.1002/ptr.5193</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/25043965" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1002/ptr.5193" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Review+on+liver+inflammation+and+antiinflammatory+activity+of+Andrographis+paniculata+for+hepatoprotection%2E&#x0026;journal=Phytother%2E+Res%2E&#x0026;author=Chua+L.+S.&#x0026;publication_year=2014&#x0026;volume=28&#x0026;pages=1589&#x2013;1598" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B11" id="B11"></a>Consortium, T. G. (2012). The tomato genome sequence provides insights into fleshy fruit evolution. <i>Nature</i> 485, 635&#x2013;641. doi: 10.1038/nature11119</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/22660326" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1038/nature11119" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=The+tomato+genome+sequence+provides+insights+into+fleshy+fruit+evolution%2E&#x0026;journal=Nature&#x0026;author=Consortium+T.+G.&#x0026;publication_year=2012&#x0026;volume=485&#x0026;pages=635&#x2013;641" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B12" id="B12"></a>De Bie, T., Cristianini, N., Demuth, J. P., and Hahn, M. W. (2006). CAFE: a computational tool for the study of gene family evolution. <i>Bioinformatics</i> 22, 1269&#x2013;1271. doi: 10.1093/bioinformatics/btl097</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/16543274" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/bioinformatics/btl097" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=CAFE%3A+a+computational+tool+for+the+study+of+gene+family+evolution%2E&#x0026;journal=Bioinformatics&#x0026;author=De+Bie+T.&#x0026;author=Cristianini+N.&#x0026;author=Demuth+J.+P.&#x0026;author=Hahn+M.+W.&#x0026;publication_year=2006&#x0026;volume=22&#x0026;pages=1269&#x2013;1271" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B13" id="B13"></a>De Luca, V., Salim, V., Atsumi, S. M., and Yu, F. (2012). Mining the biodiversity of plants: a revolution in the making. <i>Science</i> 336, 1658&#x2013;1661. doi: 10.1126/science.1217410</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/22745417" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1126/science.1217410" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Mining+the+biodiversity+of+plants%3A+a+revolution+in+the+making%2E&#x0026;journal=Science&#x0026;author=De+Luca+V.&#x0026;author=Salim+V.&#x0026;author=Atsumi+S.+M.&#x0026;author=Yu+F.&#x0026;publication_year=2012&#x0026;volume=336&#x0026;pages=1658&#x2013;1661" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B14" id="B14"></a>Dong, A. X., Xin, H. B., Li, Z. J., Liu, H., Sun, Y. Q., Nie, S., et al. (2018). High-quality assembly of the reference genome for scarlet sage, <i>Salvia splendens</i>, an economically important ornamental plant. <i>Gigascience</i> 7:giy068. doi: 10.1093/gigascience/giy068</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/29931210" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/gigascience/giy068" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=High-quality+assembly+of+the+reference+genome+for+scarlet+sage%2C+Salvia+splendens%2C+an+economically+important+ornamental+plant%2E&#x0026;journal=Gigascience&#x0026;author=Dong+A.+X.&#x0026;author=Xin+H.+B.&#x0026;author=Li+Z.+J.&#x0026;author=Liu+H.&#x0026;author=Sun+Y.+Q.&#x0026;author=Nie+S.&#x0026;publication_year=2018&#x0026;volume=7&#x0026;issue=giy068" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B15" id="B15"></a>Du, H., and Liang, C. (2019). Assembly of chromosome-scale contigs by efficiently resolving repetitive sequences with long reads. <i>Nat. Commun.</i> 10:5360. doi: 10.1038/s41467-019-13355-3</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/31767853" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1038/s41467-019-13355-3" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Assembly+of+chromosome-scale+contigs+by+efficiently+resolving+repetitive+sequences+with+long+reads%2E&#x0026;journal=Nat%2E+Commun%2E&#x0026;author=Du+H.&#x0026;author=Liang+C.&#x0026;publication_year=2019&#x0026;volume=10&#x0026;issue=5360" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B16" id="B16"></a>Dudchenko, O., Batra, S. S., Omer, A. D., Nyquist, S. K., Hoeger, M., Durand, N. C., et al. (2017). De novo assembly of the <i>Aedes aegypti</i> genome using Hi-C yields chromosome-length scaffolds. <i>Science</i> 356, 92&#x2013;95. doi: 10.1126/science.aal3327</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/28336562" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1126/science.aal3327" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=De+novo+assembly+of+the+Aedes+aegypti+genome+using+Hi-C+yields+chromosome-length+scaffolds%2E&#x0026;journal=Science&#x0026;author=Dudchenko+O.&#x0026;author=Batra+S.+S.&#x0026;author=Omer+A.+D.&#x0026;author=Nyquist+S.+K.&#x0026;author=Hoeger+M.&#x0026;author=Durand+N.+C.&#x0026;publication_year=2017&#x0026;volume=356&#x0026;pages=92&#x2013;95" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B17" id="B17"></a>Durand, N. C., Robinson, J. T., Shamim, M. S., Machol, I., Mesirov, J. P., Lander, E. S., et al. (2016a). Juicebox provides a visualization system for Hi-C contact maps with unlimited zoom. <i>Cell Syst.</i> 3, 99&#x2013;101. doi: 10.1016/j.cels.2015.07.012</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/27467250" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/j.cels.2015.07.012" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Juicebox+provides+a+visualization+system+for+Hi-C+contact+maps+with+unlimited+zoom%2E&#x0026;journal=Cell+Syst%2E&#x0026;author=Durand+N.+C.&#x0026;author=Robinson+J.+T.&#x0026;author=Shamim+M.+S.&#x0026;author=Machol+I.&#x0026;author=Mesirov+J.+P.&#x0026;author=Lander+E.+S.&#x0026;publication_year=2016a&#x0026;volume=3&#x0026;pages=99&#x2013;101" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B18" id="B18"></a>Durand, N. C., Shamim, M. S., Machol, I., Rao, S. S., Huntley, M. H., Lander, E. S., et al. (2016b). Juicer provides a one-click system for analyzing loop-resolution hi-C experiments. <i>Cell Syst.</i> 3, 95&#x2013;98. doi: 10.1016/j.cels.2016.07.002</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/27467249" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/j.cels.2016.07.002" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Juicer+provides+a+one-click+system+for+analyzing+loop-resolution+hi-C+experiments%2E&#x0026;journal=Cell+Syst%2E&#x0026;author=Durand+N.+C.&#x0026;author=Shamim+M.+S.&#x0026;author=Machol+I.&#x0026;author=Rao+S.+S.&#x0026;author=Huntley+M.+H.&#x0026;author=Lander+E.+S.&#x0026;publication_year=2016b&#x0026;volume=3&#x0026;pages=95&#x2013;98" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B19" id="B19"></a>Edgar, R. C. (2004). MUSCLE: multiple sequence alignment with high accuracy and high throughput. <i>Nucleic Acids Res.</i> 32, 1792&#x2013;1797. doi: 10.1093/nar/gkh340</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/15034147" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/nar/gkh340" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=MUSCLE%3A+multiple+sequence+alignment+with+high+accuracy+and+high+throughput%2E&#x0026;journal=Nucleic+Acids+Res%2E&#x0026;author=Edgar+R.+C.&#x0026;publication_year=2004&#x0026;volume=32&#x0026;pages=1792&#x2013;1797" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B20" id="B20"></a>Edgar, R. C., and Myers, E. W. (2005). PILER: identification and classification of genomic repeats. <i>Bioinformatics</i> 21, (Suppl. 1), i152&#x2013;i158. doi: 10.1093/bioinformatics/bti1003</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/15961452" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/bioinformatics/bti1003" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=PILER%3A+identification+and+classification+of+genomic+repeats%2E&#x0026;journal=Bioinformatics&#x0026;author=Edgar+R.+C.&#x0026;author=Myers+E.+W.&#x0026;publication_year=2005&#x0026;volume=21&#x0026;issue=Suppl.1&#x0026;pages=i152&#x2013;i158" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B21" id="B21"></a>Fitzsimons, D. W. (2013). World health organization. <i>Acta Med. Port.</i> 26, 186&#x2013;187.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?&#x0026;title=World+health+organization%2E&#x0026;journal=Acta+Med%2E+Port%2E&#x0026;author=Fitzsimons+D.+W.&#x0026;publication_year=2013&#x0026;volume=26&#x0026;pages=186&#x2013;187" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B22" id="B22"></a>Garg, A., Agrawal, L., Misra, R. C., Sharma, S., and Ghosh, S. (2015). <i>Andrographis paniculata</i> transcriptome provides molecular insights into tissue-specific accumulation of medicinal diterpenes. <i>BMC Genomics</i> 16:659. doi: 10.1186/s12864-015-1864-y</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/26328761" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1186/s12864-015-1864-y" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Andrographis+paniculata+transcriptome+provides+molecular+insights+into+tissue-specific+accumulation+of+medicinal+diterpenes%2E&#x0026;journal=BMC+Genomics&#x0026;author=Garg+A.&#x0026;author=Agrawal+L.&#x0026;author=Misra+R.+C.&#x0026;author=Sharma+S.&#x0026;author=Ghosh+S.&#x0026;publication_year=2015&#x0026;volume=16&#x0026;issue=659" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B23" id="B23"></a>Girollet, N., Rubio, B., and Bert, P. F. (2019). De novo phased assembly of the <i>Vitis riparia</i> grape genome. <i>Sci. Data</i> 6:127. doi: 10.1038/s41597-019-0133-3</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/31324816" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1038/s41597-019-0133-3" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=De+novo+phased+assembly+of+the+Vitis+riparia+grape+genome%2E&#x0026;journal=Sci%2E+Data&#x0026;author=Girollet+N.&#x0026;author=Rubio+B.&#x0026;author=Bert+P.+F.&#x0026;publication_year=2019&#x0026;volume=6&#x0026;issue=127" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B24" id="B24"></a>Guo, L., Winzer, T., Yang, X., Li, Y., Ning, Z., He, Z., et al. (2018). The opium poppy genome and morphinan production. <i>Science</i> 362, 343&#x2013;347. doi: 10.1126/science.aat4096</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/30166436" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1126/science.aat4096" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=The+opium+poppy+genome+and+morphinan+production%2E&#x0026;journal=Science&#x0026;author=Guo+L.&#x0026;author=Winzer+T.&#x0026;author=Yang+X.&#x0026;author=Li+Y.&#x0026;author=Ning+Z.&#x0026;author=He+Z.&#x0026;publication_year=2018&#x0026;volume=362&#x0026;pages=343&#x2013;347" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B25" id="B25"></a>Haas, B. J., Salzberg, S. L., Zhu, W., Pertea, M., Allen, J. E., Orvis, J., et al. (2008). Automated eukaryotic gene structure annotation using EVidenceModeler and the program to assemble spliced alignments. <i>Genome Biol.</i> 9:R7. doi: 10.1186/gb-2008-9-1-r7</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/18190707" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1186/gb-2008-9-1-r7" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Automated+eukaryotic+gene+structure+annotation+using+EVidenceModeler+and+the+program+to+assemble+spliced+alignments%2E&#x0026;journal=Genome+Biol%2E&#x0026;author=Haas+B.+J.&#x0026;author=Salzberg+S.+L.&#x0026;author=Zhu+W.&#x0026;author=Pertea+M.&#x0026;author=Allen+J.+E.&#x0026;author=Orvis+J.&#x0026;publication_year=2008&#x0026;volume=9&#x0026;issue=R7" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B26" id="B26"></a>Jana, T., Lam-Tung, N., Arndt, V. H., and Quang, M. B. (2016). W-IQ-TREE: a fast online phylogenetic tool for maximum likelihood analysis. <i>Nucleic Acids Res.</i> 44, W232&#x2013;W235. doi: 10.1093/nar/gkw256</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/27084950" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/nar/gkw256" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=W-IQ-TREE%3A+a+fast+online+phylogenetic+tool+for+maximum+likelihood+analysis%2E&#x0026;journal=Nucleic+Acids+Res%2E&#x0026;author=Jana+T.&#x0026;author=Lam-Tung+N.&#x0026;author=Arndt+V.+H.&#x0026;author=Quang+M.+B.&#x0026;publication_year=2016&#x0026;volume=44&#x0026;pages=W232&#x2013;W235" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B27" id="B27"></a>Koren, S., Walenz, B. P., Berlin, K., Miller, J. R., Bergman, N. H., Phillippy, A. M., et al. (2017). Canu: scalable and accurate long-read assembly via adaptive <i>k</i>-mer weighting and repeat separation. <i>Genome Res.</i> 27, 722&#x2013;736. doi: 10.1101/gr.215087.116</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/28298431" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1101/gr.215087.116" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Canu%3A+scalable+and+accurate+long-read+assembly+via+adaptive+k-mer+weighting+and+repeat+separation%2E&#x0026;journal=Genome+Res%2E&#x0026;author=Koren+S.&#x0026;author=Walenz+B.+P.&#x0026;author=Berlin+K.&#x0026;author=Miller+J.+R.&#x0026;author=Bergman+N.+H.&#x0026;author=Phillippy+A.+M.&#x0026;publication_year=2017&#x0026;volume=27&#x0026;pages=722&#x2013;736" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B28" id="B28"></a>Korf, I. (2004). Gene finding in novel genomes. <i>BMC Bioinformatics</i> 5:59. doi: 10.1186/1471-2105-5-59</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/15144565" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1186/1471-2105-5-59" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Gene+finding+in+novel+genomes%2E&#x0026;journal=BMC+Bioinformatics&#x0026;author=Korf+I.&#x0026;publication_year=2004&#x0026;volume=5&#x0026;issue=59" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B29" id="B29"></a>Kreplak, J., Madoui, M., C&#x00E1;pal, P., Nov&#x00E1;k, P., and Burstin, J. (2019). A reference genome for pea provides insight into legume genome evolution. <i>Nat. Genet.</i> 51, 1411&#x2013;1422. doi: 10.1038/s41588-019-0480-1</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/31477930" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1038/s41588-019-0480-1" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=A+reference+genome+for+pea+provides+insight+into+legume+genome+evolution%2E&#x0026;journal=Nat%2E+Genet%2E&#x0026;author=Kreplak+J.&#x0026;author=Madoui+M.&#x0026;author=C&#x00E1;pal+P.&#x0026;author=Nov&#x00E1;k+P.&#x0026;author=Burstin+J.&#x0026;publication_year=2019&#x0026;volume=51&#x0026;pages=1411&#x2013;1422" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B30" id="B30"></a>Lange, B. M., Ketchum, R. E., and Croteau, R. B. (2001). Isoprenoid biosynthesis. Metabolite profiling of peppermint oil gland secretory cells and application to herbicide target analysis. <i>Plant Physiol.</i> 127, 305&#x2013;314. doi: 10.1104/pp.127.1.305</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/11553758" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1104/pp.127.1.305" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Isoprenoid+biosynthesis%2E+Metabolite+profiling+of+peppermint+oil+gland+secretory+cells+and+application+to+herbicide+target+analysis%2E&#x0026;journal=Plant+Physiol%2E&#x0026;author=Lange+B.+M.&#x0026;author=Ketchum+R.+E.&#x0026;author=Croteau+R.+B.&#x0026;publication_year=2001&#x0026;volume=127&#x0026;pages=305&#x2013;314" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B31" id="B31"></a>Li, H., and Durbin, R. (2010). Fast and accurate long-read alignment with burrows-wheeler transform. <i>Bioinformatics</i> 26, 589&#x2013;595. doi: 10.1093/bioinformatics/btp698</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/20080505" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/bioinformatics/btp698" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Fast+and+accurate+long-read+alignment+with+burrows-wheeler+transform%2E&#x0026;journal=Bioinformatics&#x0026;author=Li+H.&#x0026;author=Durbin+R.&#x0026;publication_year=2010&#x0026;volume=26&#x0026;pages=589&#x2013;595" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B32" id="B32"></a>Li, H., Handsaker, B., Wysoker, A., Fennell, T., Ruan, J., Homer, N., et al. (2009). The sequence alignment/map format and SAMtools. <i>Bioinformatics</i> 25, 2078&#x2013;2079. doi: 10.1093/bioinformatics/btp352</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/19505943" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/bioinformatics/btp352" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=The+sequence+alignment%2Fmap+format+and+SAMtools%2E&#x0026;journal=Bioinformatics&#x0026;author=Li+H.&#x0026;author=Handsaker+B.&#x0026;author=Wysoker+A.&#x0026;author=Fennell+T.&#x0026;author=Ruan+J.&#x0026;author=Homer+N.&#x0026;publication_year=2009&#x0026;volume=25&#x0026;pages=2078&#x2013;2079" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B33" id="B33"></a>Li, L., Stoeckert, C. J., and Roos, D. S. (2003). OrthoMCL: identification of ortholog groups for eukaryotic genomes. <i>Genome Res.</i> 13, 2178&#x2013;2189. doi: 10.1101/gr.1224503</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/12952885" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1101/gr.1224503" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=OrthoMCL%3A+identification+of+ortholog+groups+for+eukaryotic+genomes%2E&#x0026;journal=Genome+Res%2E&#x0026;author=Li+L.&#x0026;author=Stoeckert+C.+J.&#x0026;author=Roos+D.+S.&#x0026;publication_year=2003&#x0026;volume=13&#x0026;pages=2178&#x2013;2189" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B34" id="B34"></a>Lim, J. C., Chan, T. K., Ng, D. S., Sagineedu, S. R., Stanslas, J., Fred Wong, W. S., et al. (2012). Andrographolide and its analogues: versatile bioactive molecules for combating inflammation and cancer. <i>Clin. Exp. Pharmacol. Physiol.</i> 39, 300&#x2013;310. doi: 10.1111/j.1440-1681.2011.05633.x</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/22017767" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1111/j.1440-1681.2011.05633.x" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Andrographolide+and+its+analogues%3A+versatile+bioactive+molecules+for+combating+inflammation+and+cancer%2E&#x0026;journal=Clin%2E+Exp%2E+Pharmacol%2E+Physiol%2E&#x0026;author=Lim+J.+C.&#x0026;author=Chan+T.+K.&#x0026;author=Ng+D.+S.&#x0026;author=Sagineedu+S.+R.&#x0026;author=Stanslas+J.&#x0026;author=Fred+Wong+W.+S.&#x0026;publication_year=2012&#x0026;volume=39&#x0026;pages=300&#x2013;310" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B35" id="B35"></a>Lin, Y., Li, J., Shen, H., Zhang, L., Papasian, C. J., Deng, H. W., et al. (2011). Comparative studies of de novo assembly tools for next-generation sequencing technologies. <i>Bioinformatics</i> 27, 2031&#x2013;2037. doi: 10.1093/bioinformatics/btr319</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/21636596" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/bioinformatics/btr319" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Comparative+studies+of+de+novo+assembly+tools+for+next-generation+sequencing+technologies%2E&#x0026;journal=Bioinformatics&#x0026;author=Lin+Y.&#x0026;author=Li+J.&#x0026;author=Shen+H.&#x0026;author=Zhang+L.&#x0026;author=Papasian+C.+J.&#x0026;author=Deng+H.+W.&#x0026;publication_year=2011&#x0026;volume=27&#x0026;pages=2031&#x2013;2037" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B36" id="B36"></a>Luo, X., Luo, W., Lin, C., Zhang, L., and Li, Y. (2014). Andrographolide inhibits proliferation of human lung cancer cells and the related mechanisms. <i>Int. J. Clin. Exp. Med.</i> 7, 4220&#x2013;4225.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Andrographolide+inhibits+proliferation+of+human+lung+cancer+cells+and+the+related+mechanisms%2E&#x0026;journal=Int%2E+J%2E+Clin%2E+Exp%2E+Med%2E&#x0026;author=Luo+X.&#x0026;author=Luo+W.&#x0026;author=Lin+C.&#x0026;author=Zhang+L.&#x0026;author=Li+Y.&#x0026;publication_year=2014&#x0026;volume=7&#x0026;pages=4220&#x2013;4225" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B37" id="B37"></a>Marcais, G., and Kingsford, C. (2011). A fast, lock-free approach for efficient parallel counting of occurrences of <i>k</i>-mers. <i>Bioinformatics</i> 27, 764&#x2013;770. doi: 10.1093/bioinformatics/btr011</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/21217122" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/bioinformatics/btr011" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=A+fast%2C+lock-free+approach+for+efficient+parallel+counting+of+occurrences+of+k-mers%2E&#x0026;journal=Bioinformatics&#x0026;author=Marcais+G.&#x0026;author=Kingsford+C.&#x0026;publication_year=2011&#x0026;volume=27&#x0026;pages=764&#x2013;770" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B38" id="B38"></a>Michael, T. P., Jupe, F., Bemm, F., Motley, S. T., Sandoval, J. P., Lanz, C., et al. (2018). High contiguity <i>Arabidopsis thaliana</i> genome assembly with a single nanopore flow cell. <i>Nat. Commun.</i> 9:541. doi: 10.1038/s41467-018-03016-2</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/29416032" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1038/s41467-018-03016-2" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=High+contiguity+Arabidopsis+thaliana+genome+assembly+with+a+single+nanopore+flow+cell%2E&#x0026;journal=Nat%2E+Commun%2E&#x0026;author=Michael+T.+P.&#x0026;author=Jupe+F.&#x0026;author=Bemm+F.&#x0026;author=Motley+S.+T.&#x0026;author=Sandoval+J.+P.&#x0026;author=Lanz+C.&#x0026;publication_year=2018&#x0026;volume=9&#x0026;issue=541" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B39" id="B39"></a>Mizutani, M., and Ohta, D. (1998). Two isoforms of NADPH:cytochrome P450 reductase in <i>Arabidopsis thaliana</i>. Gene structure, heterologous expression in insect cells, and differential regulation. <i>Plant Physiol.</i> 116, 357&#x2013;367. doi: 10.1104/pp.116.1.357</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/9449848" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1104/pp.116.1.357" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Two+isoforms+of+NADPH%3Acytochrome+P450+reductase+in+Arabidopsis+thaliana%2E+Gene+structure%2C+heterologous+expression+in+insect+cells%2C+and+differential+regulation%2E&#x0026;journal=Plant+Physiol%2E&#x0026;author=Mizutani+M.&#x0026;author=Ohta+D.&#x0026;publication_year=1998&#x0026;volume=116&#x0026;pages=357&#x2013;367" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B40" id="B40"></a>Morant, M., Bak, S., Moller, B. L., and Werck-Reichhart, D. (2003). Plant cytochromes P450: tools for pharmacology, plant protection and phytoremediation. <i>Curr. Opin. Biotechnol.</i> 14, 151&#x2013;162. doi: 10.1016/s0958-1669(03)00024-7</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1016/s0958-1669(03)00024-7" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Plant+cytochromes+P450%3A+tools+for+pharmacology%2C+plant+protection+and+phytoremediation%2E&#x0026;journal=Curr%2E+Opin%2E+Biotechnol%2E&#x0026;author=Morant+M.&#x0026;author=Bak+S.&#x0026;author=Moller+B.+L.&#x0026;author=Werck-Reichhart+D.&#x0026;publication_year=2003&#x0026;volume=14&#x0026;pages=151&#x2013;162" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B41" id="B41"></a>Nakamura, T., Yamada, K. D., Tomii, K., Katoh, K., and Hancock, J. (2018). Parallelization of MAFFT for large-scale multiple sequence alignments. <i>Bioinformatics</i> 34, 2490&#x2013;2492. doi: 10.1093/bioinformatics/bty121</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/29506019" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/bioinformatics/bty121" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Parallelization+of+MAFFT+for+large-scale+multiple+sequence+alignments%2E&#x0026;journal=Bioinformatics&#x0026;author=Nakamura+T.&#x0026;author=Yamada+K.+D.&#x0026;author=Tomii+K.&#x0026;author=Katoh+K.&#x0026;author=Hancock+J.&#x0026;publication_year=2018&#x0026;volume=34&#x0026;pages=2490&#x2013;2492" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B42" id="B42"></a>Nelson, D. R. (2009). The cytochrome p450 homepage. <i>Hum. Genomics</i> 4, 59&#x2013;65.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?&#x0026;title=The+cytochrome+p450+homepage%2E&#x0026;journal=Hum%2E+Genomics&#x0026;author=Nelson+D.+R.&#x0026;publication_year=2009&#x0026;volume=4&#x0026;pages=59&#x2013;65" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B43" id="B43"></a>Nutzmann, H. W., and Osbourn, A. (2014). Gene clustering in plant specialized metabolism. <i>Curr. Opin. Biotechnol.</i> 26, 91&#x2013;99. doi: 10.1016/j.copbio.2013.10.009</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/24679264" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/j.copbio.2013.10.009" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Gene+clustering+in+plant+specialized+metabolism%2E&#x0026;journal=Curr%2E+Opin%2E+Biotechnol%2E&#x0026;author=Nutzmann+H.+W.&#x0026;author=Osbourn+A.&#x0026;publication_year=2014&#x0026;volume=26&#x0026;pages=91&#x2013;99" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B44" id="B44"></a>Ou, S., Su, W., Liao, Y., Chougule, K., Agda, J., Hellinga, A. J., et al. (2019). Benchmarking transposable element annotation methods for creation of a streamlined, comprehensive pipeline. <i>Genome Biol.</i> 20:275. doi: 10.1186/s13059-019-1905-y</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/31843001" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1186/s13059-019-1905-y" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Benchmarking+transposable+element+annotation+methods+for+creation+of+a+streamlined%2C+comprehensive+pipeline%2E&#x0026;journal=Genome+Biol%2E&#x0026;author=Ou+S.&#x0026;author=Su+W.&#x0026;author=Liao+Y.&#x0026;author=Chougule+K.&#x0026;author=Agda+J.&#x0026;author=Hellinga+A.+J.&#x0026;publication_year=2019&#x0026;volume=20&#x0026;issue=275" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B45" id="B45"></a>Price, A. L., Jones, N. C., and Pevzner, P. A. (2005). De novo identification of repeat families in large genomes. <i>Bioinformatics</i> 21, (Suppl. 1), i351&#x2013;i358. doi: 10.1093/bioinformatics/bti1018</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/15961478" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/bioinformatics/bti1018" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=De+novo+identification+of+repeat+families+in+large+genomes%2E&#x0026;journal=Bioinformatics&#x0026;author=Price+A.+L.&#x0026;author=Jones+N.+C.&#x0026;author=Pevzner+P.+A.&#x0026;publication_year=2005&#x0026;volume=21&#x0026;issue=Suppl.1&#x0026;pages=i351&#x2013;i358" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B46" id="B46"></a>Reyes-Chin-Wo, S., Wang, Z., Yang, X., Kozik, A., Arikit, S., Song, C., et al. (2017). Genome assembly with <i>in vitro</i> proximity ligation data and whole-genome triplication in lettuce. <i>Nat. Commun.</i> 8:14953. doi: 10.1038/ncomms14953</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/28401891" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1038/ncomms14953" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Genome+assembly+with+in+vitro+proximity+ligation+data+and+whole-genome+triplication+in+lettuce%2E&#x0026;journal=Nat%2E+Commun%2E&#x0026;author=Reyes-Chin-Wo+S.&#x0026;author=Wang+Z.&#x0026;author=Yang+X.&#x0026;author=Kozik+A.&#x0026;author=Arikit+S.&#x0026;author=Song+C.&#x0026;publication_year=2017&#x0026;volume=8&#x0026;issue=14953" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B47" id="B47"></a>Schnable, P. S., Ware, D., Fulton, R. S., Stein, J. C., Wei, F., Pasternak, S., et al. (2009). The B73 maize genome: complexity, diversity, and dynamics. <i>Science</i> 326, 1112&#x2013;1115. doi: 10.1126/science.1178534</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/19965430" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1126/science.1178534" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=The+B73+maize+genome%3A+complexity%2C+diversity%2C+and+dynamics%2E&#x0026;journal=Science&#x0026;author=Schnable+P.+S.&#x0026;author=Ware+D.&#x0026;author=Fulton+R.+S.&#x0026;author=Stein+J.+C.&#x0026;author=Wei+F.&#x0026;author=Pasternak+S.&#x0026;publication_year=2009&#x0026;volume=326&#x0026;pages=1112&#x2013;1115" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B48" id="B48"></a>Schuler, M. A. (1996). The role of cytochrome P450 monooxygenases in plant-insect interactions. <i>Plant Physiol.</i> 112, 1411&#x2013;1419. doi: 10.1104/pp.112.4.1411</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/8972591" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1104/pp.112.4.1411" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=The+role+of+cytochrome+P450+monooxygenases+in+plant-insect+interactions%2E&#x0026;journal=Plant+Physiol%2E&#x0026;author=Schuler+M.+A.&#x0026;publication_year=1996&#x0026;volume=112&#x0026;pages=1411&#x2013;1419" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B49" id="B49"></a>Shen, Q., Li, L., Jiang, Y., and Wang, Q. (2016a). Functional characterization of ent-copalyl diphosphate synthase from <i>Andrographis paniculata</i> with putative involvement in andrographolides biosynthesis. <i>Biotechnol. Lett.</i> 38, 131&#x2013;137. doi: 10.1007/s10529-015-1961-7</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/26373739" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1007/s10529-015-1961-7" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Functional+characterization+of+ent-copalyl+diphosphate+synthase+from+Andrographis+paniculata+with+putative+involvement+in+andrographolides+biosynthesis%2E&#x0026;journal=Biotechnol%2E+Lett%2E&#x0026;author=Shen+Q.&#x0026;author=Li+L.&#x0026;author=Jiang+Y.&#x0026;author=Wang+Q.&#x0026;publication_year=2016a&#x0026;volume=38&#x0026;pages=131&#x2013;137" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B50" id="B50"></a>Shen, Q., Liu, Q., Congcong, L. I., Yuping, F. U., and Wang, Q. (2016b). Functional characterization of ApCPS involved in andrographolides biosynthesis by virus-induced gene silencing. <i>Acta Bot. Boreali</i> 36, 17&#x2013;22.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Functional+characterization+of+ApCPS+involved+in+andrographolides+biosynthesis+by+virus-induced+gene+silencing%2E&#x0026;journal=Acta+Bot%2E+Boreali&#x0026;author=Shen+Q.&#x0026;author=Liu+Q.&#x0026;author=Congcong+L.+I.&#x0026;author=Yuping+F.+U.&#x0026;author=Wang+Q.&#x0026;publication_year=2016b&#x0026;volume=36&#x0026;pages=17&#x2013;22" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B51" id="B51"></a>Shen, Q., Zhang, L., Liao, Z., Wang, S., Yan, T., Shi, P., et al. (2018). The genome of <i>Artemisia annua</i> provides insight into the evolution of asteraceae family and artemisinin biosynthesis. <i>Mol. Plant</i> 11, 776&#x2013;788. doi: 10.1016/j.molp.2018.03.015</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/29703587" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/j.molp.2018.03.015" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=The+genome+of+Artemisia+annua+provides+insight+into+the+evolution+of+asteraceae+family+and+artemisinin+biosynthesis%2E&#x0026;journal=Mol%2E+Plant&#x0026;author=Shen+Q.&#x0026;author=Zhang+L.&#x0026;author=Liao+Z.&#x0026;author=Wang+S.&#x0026;author=Yan+T.&#x0026;author=Shi+P.&#x0026;publication_year=2018&#x0026;volume=11&#x0026;pages=776&#x2013;788" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B52" id="B52"></a>Simao, F. A., Waterhouse, R. M., Ioannidis, P., Kriventseva, E. V., and Zdobnov, E. M. (2015). BUSCO: assessing genome assembly and annotation completeness with single-copy orthologs. <i>Bioinformatics</i> 31, 3210&#x2013;3212. doi: 10.1093/bioinformatics/btv351</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/26059717" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/bioinformatics/btv351" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=BUSCO%3A+assessing+genome+assembly+and+annotation+completeness+with+single-copy+orthologs%2E&#x0026;journal=Bioinformatics&#x0026;author=Simao+F.+A.&#x0026;author=Waterhouse+R.+M.&#x0026;author=Ioannidis+P.&#x0026;author=Kriventseva+E.+V.&#x0026;author=Zdobnov+E.+M.&#x0026;publication_year=2015&#x0026;volume=31&#x0026;pages=3210&#x2013;3212" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B53" id="B53"></a>Srivastava, N., and Akhila, A. (2010). Biosynthesis of andrographolide in <i>Andrographis paniculata</i>. <i>Phytochemistry</i> 71, 1298&#x2013;1304. doi: 10.1016/j.phytochem.2010.05.022</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/20557910" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/j.phytochem.2010.05.022" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Biosynthesis+of+andrographolide+in+Andrographis+paniculata%2E&#x0026;journal=Phytochemistry&#x0026;author=Srivastava+N.&#x0026;author=Akhila+A.&#x0026;publication_year=2010&#x0026;volume=71&#x0026;pages=1298&#x2013;1304" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B54" id="B54"></a>Stanke, M., Keller, O., Gunduz, I., Hayes, A., Waack, S., Morgenstern, B., et al. (2006). AUGUSTUS: <i>Ab initio</i> prediction of alternative transcripts. <i>Nucleic Acids Res.</i> 34, W435&#x2013;W439. doi: 10.1093/nar/gkl200</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/16845043" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/nar/gkl200" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=AUGUSTUS%3A+Ab+initio+prediction+of+alternative+transcripts%2E&#x0026;journal=Nucleic+Acids+Res%2E&#x0026;author=Stanke+M.&#x0026;author=Keller+O.&#x0026;author=Gunduz+I.&#x0026;author=Hayes+A.&#x0026;author=Waack+S.&#x0026;author=Morgenstern+B.&#x0026;publication_year=2006&#x0026;volume=34&#x0026;pages=W435&#x2013;W439" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B55" id="B55"></a>Sun, W., Leng, L., Yin, Q., Xu, M., Huang, M., Xu, Z., et al. (2019). The genome of the medicinal plant <i>Andrographis paniculata</i> provides insight into the biosynthesis of the bioactive diterpenoid neoandrographolide. <i>Plant J.</i> 97, 841&#x2013;857. doi: 10.1111/tpj.14162</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/30444296" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1111/tpj.14162" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=The+genome+of+the+medicinal+plant+Andrographis+paniculata+provides+insight+into+the+biosynthesis+of+the+bioactive+diterpenoid+neoandrographolide%2E&#x0026;journal=Plant+J%2E&#x0026;author=Sun+W.&#x0026;author=Leng+L.&#x0026;author=Yin+Q.&#x0026;author=Xu+M.&#x0026;author=Huang+M.&#x0026;author=Xu+Z.&#x0026;publication_year=2019&#x0026;volume=97&#x0026;pages=841&#x2013;857" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B56" id="B56"></a>Trapnell, C., Hendrickson, D. G., Sauvageau, M., Goff, L., Rinn, J. L., Pachter, L., et al. (2013). Differential analysis of gene regulation at transcript resolution with RNA-seq. <i>Nat. Biotechnol.</i> 31, 46&#x2013;53. doi: 10.1038/nbt.2450</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/23222703" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1038/nbt.2450" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Differential+analysis+of+gene+regulation+at+transcript+resolution+with+RNA-seq%2E&#x0026;journal=Nat%2E+Biotechnol%2E&#x0026;author=Trapnell+C.&#x0026;author=Hendrickson+D.+G.&#x0026;author=Sauvageau+M.&#x0026;author=Goff+L.&#x0026;author=Rinn+J.+L.&#x0026;author=Pachter+L.&#x0026;publication_year=2013&#x0026;volume=31&#x0026;pages=46&#x2013;53" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B57" id="B57"></a>Trapnell, C., Pachter, L., and Salzberg, S. L. (2009). TopHat: discovering splice junctions with RNA-Seq. <i>Bioinformatics</i> 25, 1105&#x2013;1111. doi: 10.1093/bioinformatics/btp120</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/19289445" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/bioinformatics/btp120" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=TopHat%3A+discovering+splice+junctions+with+RNA-Seq%2E&#x0026;journal=Bioinformatics&#x0026;author=Trapnell+C.&#x0026;author=Pachter+L.&#x0026;author=Salzberg+S.+L.&#x0026;publication_year=2009&#x0026;volume=25&#x0026;pages=1105&#x2013;1111" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B58" id="B58"></a>Vining, K. J., Johnson, S. R., Ahkami, A., Lange, I., Parrish, A. N., Trapp, S. C., et al. (2017). Draft genome sequence of <i>Mentha longifolia</i> and development of resources for mint cultivar improvement. <i>Mol. Plant</i> 10, 323&#x2013;339. doi: 10.1016/j.molp.2016.10.018</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/27867107" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/j.molp.2016.10.018" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Draft+genome+sequence+of+Mentha+longifolia+and+development+of+resources+for+mint+cultivar+improvement%2E&#x0026;journal=Mol%2E+Plant&#x0026;author=Vining+K.+J.&#x0026;author=Johnson+S.+R.&#x0026;author=Ahkami+A.&#x0026;author=Lange+I.&#x0026;author=Parrish+A.+N.&#x0026;author=Trapp+S.+C.&#x0026;publication_year=2017&#x0026;volume=10&#x0026;pages=323&#x2013;339" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B59" id="B59"></a>Vurture, G. W., Sedlazeck, F. J., Nattestad, M., Underwood, C. J., Fang, H., Gurtowski, J., et al. (2017). GenomeScope: fast reference-free genome profiling from short reads. <i>Bioinformatics</i> 33, 2202&#x2013;2204. doi: 10.1093/bioinformatics/btx153</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/28369201" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/bioinformatics/btx153" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=GenomeScope%3A+fast+reference-free+genome+profiling+from+short+reads%2E&#x0026;journal=Bioinformatics&#x0026;author=Vurture+G.+W.&#x0026;author=Sedlazeck+F.+J.&#x0026;author=Nattestad+M.&#x0026;author=Underwood+C.+J.&#x0026;author=Fang+H.&#x0026;author=Gurtowski+J.&#x0026;publication_year=2017&#x0026;volume=33&#x0026;pages=2202&#x2013;2204" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B60" id="B60"></a>Walker, B. J., Abeel, T., Shea, T., Priest, M., Abouelliel, A., Sakthikumar, S., et al. (2014). Pilon: an integrated tool for comprehensive microbial variant detection and genome assembly improvement. <i>PLoS One</i> 9:e112963. doi: 10.1371/journal.pone.0112963</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/25409509" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1371/journal.pone.0112963" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Pilon%3A+an+integrated+tool+for+comprehensive+microbial+variant+detection+and+genome+assembly+improvement%2E&#x0026;journal=PLoS+One&#x0026;author=Walker+B.+J.&#x0026;author=Abeel+T.&#x0026;author=Shea+T.&#x0026;author=Priest+M.&#x0026;author=Abouelliel+A.&#x0026;author=Sakthikumar+S.&#x0026;publication_year=2014&#x0026;volume=9&#x0026;issue=e112963" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B61" id="B61"></a>Wang, J., Lin, H. X., Su, P., Chen, T., Guo, J., Gao, W., et al. (2019). Molecular cloning and functional characterization of multiple geranylgeranyl pyrophosphate synthases (ApGGPPS) from <i>Andrographis paniculata</i>. <i>Plant Cell Rep.</i> 38, 117&#x2013;128. doi: 10.1007/s00299-018-2353-y</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/30448883" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1007/s00299-018-2353-y" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Molecular+cloning+and+functional+characterization+of+multiple+geranylgeranyl+pyrophosphate+synthases+%28ApGGPPS%29+from+Andrographis+paniculata%2E&#x0026;journal=Plant+Cell+Rep%2E&#x0026;author=Wang+J.&#x0026;author=Lin+H.+X.&#x0026;author=Su+P.&#x0026;author=Chen+T.&#x0026;author=Guo+J.&#x0026;author=Gao+W.&#x0026;publication_year=2019&#x0026;volume=38&#x0026;pages=117&#x2013;128" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B62" id="B62"></a>Wang, L., Yu, S., Tong, C., Zhao, Y., Liu, Y., Song, C., et al. (2014). Genome sequencing of the high oil crop sesame provides insight into oil biosynthesis. <i>Genome Biol.</i> 15:R39. doi: 10.1186/gb-2014-15-2-r39</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/24576357" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1186/gb-2014-15-2-r39" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Genome+sequencing+of+the+high+oil+crop+sesame+provides+insight+into+oil+biosynthesis%2E&#x0026;journal=Genome+Biol%2E&#x0026;author=Wang+L.&#x0026;author=Yu+S.&#x0026;author=Tong+C.&#x0026;author=Zhao+Y.&#x0026;author=Liu+Y.&#x0026;author=Song+C.&#x0026;publication_year=2014&#x0026;volume=15&#x0026;issue=R39" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B63" id="B63"></a>Wang, Y., Tang, H., Debarry, J. D., Tan, X., Li, J., Wang, X., et al. (2012). <i>MCScanX</i>: a toolkit for detection and evolutionary analysis of gene synteny and collinearity. <i>Nucleic Acids Res.</i> 40:e49. doi: 10.1093/nar/gkr1293</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/22217600" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/nar/gkr1293" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=MCScanX%3A+a+toolkit+for+detection+and+evolutionary+analysis+of+gene+synteny+and+collinearity%2E&#x0026;journal=Nucleic+Acids+Res%2E&#x0026;author=Wang+Y.&#x0026;author=Tang+H.&#x0026;author=Debarry+J.+D.&#x0026;author=Tan+X.&#x0026;author=Li+J.&#x0026;author=Wang+X.&#x0026;publication_year=2012&#x0026;volume=40&#x0026;issue=e49" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B64" id="B64"></a>Wicker, T., and Keller, B. (2007). Genome-wide comparative analysis of Copia retrotransposons in Triticeae, rice, and <i>Arabidopsis</i> reveals conserved ancient evolutionary lineages and distinct dynamics of individual <i>copia</i> families. <i>Genome Res.</i> 17, 1072&#x2013;1081. doi: 10.1101/gr.6214107</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/17556529" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1101/gr.6214107" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Genome-wide+comparative+analysis+of+Copia+retrotransposons+in+Triticeae%2C+rice%2C+and+Arabidopsis+reveals+conserved+ancient+evolutionary+lineages+and+distinct+dynamics+of+individual+copia+families%2E&#x0026;journal=Genome+Res%2E&#x0026;author=Wicker+T.&#x0026;author=Keller+B.&#x0026;publication_year=2007&#x0026;volume=17&#x0026;pages=1072&#x2013;1081" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B65" id="B65"></a>Xu, J., Chu, Y., Liao, B., Xiao, S., Yin, Q., Bai, R., et al. (2017). Panax ginseng genome examination for ginsenoside biosynthesis. <i>Gigascience</i> 6, 1&#x2013;15. doi: 10.1093/gigascience/gix093</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/29048480" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/gigascience/gix093" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Panax+ginseng+genome+examination+for+ginsenoside+biosynthesis%2E&#x0026;journal=Gigascience&#x0026;author=Xu+J.&#x0026;author=Chu+Y.&#x0026;author=Liao+B.&#x0026;author=Xiao+S.&#x0026;author=Yin+Q.&#x0026;author=Bai+R.&#x0026;publication_year=2017&#x0026;volume=6&#x0026;pages=1&#x2013;15" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B66" id="B66"></a>Xu, Z., and Wang, H. (2007). LTR_FINDER: an efficient tool for the prediction of full-length LTR retrotransposons. <i>Nucleic Acids Res.</i> 35, W265&#x2013;W268. doi: 10.1093/nar/gkm286</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/17485477" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/nar/gkm286" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=LTR%5FFINDER%3A+an+efficient+tool+for+the+prediction+of+full-length+LTR+retrotransposons%2E&#x0026;journal=Nucleic+Acids+Res%2E&#x0026;author=Xu+Z.&#x0026;author=Wang+H.&#x0026;publication_year=2007&#x0026;volume=35&#x0026;pages=W265&#x2013;W268" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B67" id="B67"></a>Yan, L., Wang, X., Liu, H., Tian, Y., Lian, J., Yang, R., et al. (2015). The genome of <i>Dendrobium officinale</i> illuminates the biology of the important traditional Chinese orchid herb. <i>Mol. Plant</i> 8, 922&#x2013;934. doi: 10.1016/j.molp.2014.12.011</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/25825286" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/j.molp.2014.12.011" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=The+genome+of+Dendrobium+officinale+illuminates+the+biology+of+the+important+traditional+Chinese+orchid+herb%2E&#x0026;journal=Mol%2E+Plant&#x0026;author=Yan+L.&#x0026;author=Wang+X.&#x0026;author=Liu+H.&#x0026;author=Tian+Y.&#x0026;author=Lian+J.&#x0026;author=Yang+R.&#x0026;publication_year=2015&#x0026;volume=8&#x0026;pages=922&#x2013;934" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B68" id="B68"></a>Yang, J., Zhang, G., Zhang, J., Liu, H., Chen, W., Wang, X., et al. (2017). Hybrid de novo genome assembly of the Chinese herbal fleabane <i>Erigeron breviscapus</i>. <i>Gigascience</i> 6, 1&#x2013;7. doi: 10.1093/gigascience/gix028</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/28431028" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/gigascience/gix028" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Hybrid+de+novo+genome+assembly+of+the+Chinese+herbal+fleabane+Erigeron+breviscapus%2E&#x0026;journal=Gigascience&#x0026;author=Yang+J.&#x0026;author=Zhang+G.&#x0026;author=Zhang+J.&#x0026;author=Liu+H.&#x0026;author=Chen+W.&#x0026;author=Wang+X.&#x0026;publication_year=2017&#x0026;volume=6&#x0026;pages=1&#x2013;7" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B69" id="B69"></a>Yang, Z. (2007). PAML 4: phylogenetic analysis by maximum likelihood. <i>Mol. Biol. Evol.</i> 24, 1586&#x2013;1591. doi: 10.1093/molbev/msm088</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/17483113" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/molbev/msm088" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;author=Yang+Z.&#x0026;publication_year=2007" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B70" id="B70"></a>Yazaki, K., Arimura, G. I., and Ohnishi, T. (2017). &#x2018;Hidden&#x2019; terpenoids in plants: their biosynthesis, localization and ecological roles. <i>Plant Cell Physiol.</i> 58, 1615&#x2013;1621. doi: 10.1093/pcp/pcx123</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/29016891" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/pcp/pcx123" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=&#x2019;Hidden&#x2019;+terpenoids+in+plants%3A+their+biosynthesis%2C+localization+and+ecological+roles%2E&#x0026;journal=Plant+Cell+Physiol%2E&#x0026;author=Yazaki+K.&#x0026;author=Arimura+G.+I.&#x0026;author=Ohnishi+T.&#x0026;publication_year=2017&#x0026;volume=58&#x0026;pages=1615&#x2013;1621" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B71" id="B71"></a>Zerikly, M., and Challis, G. L. (2009). Strategies for the discovery of new natural products by genome mining. <i>Chembiochem</i> 10, 625&#x2013;633. doi: 10.1002/cbic.200800389</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/19165837" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1002/cbic.200800389" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Strategies+for+the+discovery+of+new+natural+products+by+genome+mining%2E&#x0026;journal=Chembiochem&#x0026;author=Zerikly+M.&#x0026;author=Challis+G.+L.&#x0026;publication_year=2009&#x0026;volume=10&#x0026;pages=625&#x2013;633" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B72" id="B72"></a>Zhang, G., Tian, Y., Zhang, J., Shu, L., Yang, S., Wang, W., et al. (2015). Hybrid de novo genome assembly of the Chinese herbal plant danshen (<i>Salvia miltiorrhiza</i> Bunge). <i>Gigascience</i> 4:62. doi: 10.1186/s13742-015-0104-3</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/26673920" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1186/s13742-015-0104-3" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Hybrid+de+novo+genome+assembly+of+the+Chinese+herbal+plant+danshen+%28Salvia+miltiorrhiza+Bunge%29%2E&#x0026;journal=Gigascience&#x0026;author=Zhang+G.&#x0026;author=Tian+Y.&#x0026;author=Zhang+J.&#x0026;author=Shu+L.&#x0026;author=Yang+S.&#x0026;author=Wang+W.&#x0026;publication_year=2015&#x0026;volume=4&#x0026;issue=62" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B73" id="B73"></a>Zhang, J., Tian, Y., Yan, L., Zhang, G., Wang, X., Zeng, Y., et al. (2016). Genome of plant maca (<i>Lepidium meyenii</i>) illuminates genomic basis for High-Altitude adaptation in the central andes. <i>Mol. Plant</i> 9, 1066&#x2013;1077. doi: 10.1016/j.molp.2016.04.016</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/27174404" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/j.molp.2016.04.016" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Genome+of+plant+maca+%28Lepidium+meyenii%29+illuminates+genomic+basis+for+High-Altitude+adaptation+in+the+central+andes%2E&#x0026;journal=Mol%2E+Plant&#x0026;author=Zhang+J.&#x0026;author=Tian+Y.&#x0026;author=Yan+L.&#x0026;author=Zhang+G.&#x0026;author=Wang+X.&#x0026;author=Zeng+Y.&#x0026;publication_year=2016&#x0026;volume=9&#x0026;pages=1066&#x2013;1077" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B74" id="B74"></a>Zhang, R., Wang, Z., Ou, S., and Li, G. (2019). TEsorter: lineage-level classification of transposable elements using conserved protein domains. <i>bioRxiv [Preprint]</i> doi: 10.1101/800177</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1101/800177" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=TEsorter%3A+lineage-level+classification+of+transposable+elements+using+conserved+protein+domains%2E&#x0026;journal=bioRxiv+%5BPreprint%5D&#x0026;author=Zhang+R.&#x0026;author=Wang+Z.&#x0026;author=Ou+S.&#x0026;author=Li+G.&#x0026;publication_year=2019" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B75" id="B75"></a>Zhao, Q., Yang, J., Cui, M. Y., Liu, J., Fang, Y., et al. (2019). The reference genome sequence of <i>Scutellaria baicalensis</i> provides insights into the evolution of wogonin biosynthesis. <i>Mol. Plant</i> 12, 935&#x2013;950. doi: 10.1016/j.molp.2019.04.002</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/30999079" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/j.molp.2019.04.002" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=The+reference+genome+sequence+of+Scutellaria+baicalensis+provides+insights+into+the+evolution+of+wogonin+biosynthesis%2E&#x0026;journal=Mol%2E+Plant&#x0026;author=Zhao+Q.&#x0026;author=Yang+J.&#x0026;author=Cui+M.+Y.&#x0026;author=Liu+J.&#x0026;author=Fang+Y.&#x0026;publication_year=2019&#x0026;volume=12&#x0026;pages=935&#x2013;950" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B76" id="B76"></a>Zi, J., Matsuba, Y., Hong, Y. J., Jackson, A. J., Tantillo, D. J., Pichersky, E., et al. (2014). Biosynthesis of lycosantalonol, a cis-prenyl derived diterpenoid. <i>J. Am. Chem. Soc.</i> 136, 16951&#x2013;16953. doi: 10.1021/ja508477e</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/25406026" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1021/ja508477e" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Biosynthesis+of+lycosantalonol%2C+a+cis-prenyl+derived+diterpenoid%2E&#x0026;journal=J%2E+Am%2E+Chem%2E+Soc%2E&#x0026;author=Zi+J.&#x0026;author=Matsuba+Y.&#x0026;author=Hong+Y.+J.&#x0026;author=Jackson+A.+J.&#x0026;author=Tantillo+D.+J.&#x0026;author=Pichersky+E.&#x0026;publication_year=2014&#x0026;volume=136&#x0026;pages=16951&#x2013;16953" target="_blank">Google Scholar</a></p>
+</div>
+</div>
+<div class="thinLineM20"></div>
+<div class="AbstractSummary">
+<p><span>Keywords</span>: PacBio sequencing, Hi-C, genome assembly, medicinal plant, <i>Andrographis paniculata</i></p>
+<p><span>Citation:</span> Liang Y, Chen S, Wei K, Yang Z, Duan S, Du Y, Qu P, Miao J, Chen W and Dong Y (2020) Chromosome Level Genome Assembly of <i>Andrographis paniculata</i>. <i>Front. Genet.</i> 11:701. doi: 10.3389/fgene.2020.00701</p>
+<p id="timestamps">
+<span>Received:</span> 20 February 2020; <span>Accepted:</span> 09 June 2020;<br/><span>Published:</span> 30 June 2020.</p>
+<div>
+<p>Edited by:</p>
+<a href="https://loop.frontiersin.org/people/499024/overview">Xiaoming Song</a>, North China University of Science and Technology, China</div>
+<div>
+<p>Reviewed by:</p>
+<a href="https://loop.frontiersin.org/people/541243/overview">Marcio Resende</a>, University of Florida, United States<br/>
+<a href="https://loop.frontiersin.org/people/970538/overview">Ergude Bao</a>, Beijing Jiaotong University, China</div>
+<p><span>Copyright</span> &#x00A9; 2020 Liang, Chen, Wei, Yang, Duan, Du, Qu, Miao, Chen and Dong. This is an open-access article distributed under the terms of the <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution License (CC BY)</a>. The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.</p>
+<p><span>*Correspondence:</span> Jianhua Miao, <a href="mailto:mjh1962@vip.163.com">mjh1962@vip.163.com</a>; Wei Chen, <a href="mailto:wchenntr@gmail.com">wchenntr@gmail.com</a>; Yang Dong, <a href="mailto:loyalyang@163.com">loyalyang@163.com</a></p>
+<p><sup>&#x2020;</sup>These authors have contributed equally to this work</p>
+<div class="clear"></div>
+</div>                
+                <div class="thin-line-dark"></div>
+                    <div class="social-feed"></div>
+                    <div class="container-bordered comment-list social-feed">
+                        <div class="container-comments">                           
+                        </div>
+
+                        <div class="loading-wrapper" style="padding-left: 49%">
+                            <img style="padding-top: 5%; padding-bottom: 5%;" src="/areas/research-topics/Content/Images/frontiers/common/icon/loading.gif" alt="Loading.." />
+                        </div>                       
+                    </div>
+
+            </div>
+        </div>
+    </div>
+</main>
+
+            <div class="clearfix visible-sm"></div>
+
+            
+    <div class="c col-xs-12 col-sm-12 col-lg-2 col-md-3 pull-right side-article related right-container-articles" style="clear: right !important">
+        
+        <article class="widget-listing commentary-article hidden">
+            <h5 class="like-h4">COMMENTARY</h5>
+        </article>
+
+        <article class="widget-listing original-article hidden">
+            <h5 class="like-h4">ORIGINAL ARTICLE</h5>
+        </article>
+
+        <article class="widget-listing people-also-looked-at side-article-related hidden">
+            <h5 class="like-h4">People also looked at</h5>
+        </article>
+            <div class="side-article-mrk clearfix hidden-md hidden-lg">
+                <p style="text-align: center;"><a href="https://spotlight.frontiersin.org/submit?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=rtlg_2020_gen"><img src="https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/article-marketing-message-79982763-254d-4bb6-96b8-126758de1166.png" alt="" /><br /></a></p>
+<p style="text-align: center;"><a href="https://spotlight.frontiersin.org/submit?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=rtlg_2020_gen"><strong>Suggest a Research Topic &gt;</strong></a></p>
+            </div>
+
+
+    </div>
+
+
+        </div>
+    </div>
+</div>
+<div id="divTemplates">
+    <div class="modal fade modal-container impact-modal-container" data-backdrop="static" id="impactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+</div>
+
+
+
+
+
+    <div class="modal fade modal-container supplementary-modal-container"
+     data-backdrop="static"
+     data-keyboard="false"
+     id="supplementaryFilesModal"
+     tabindex="-1" role="dialog"
+     aria-labelledby="mySupplementaryModalLabel"
+     aria-hidden="true">
+</div>
+
+
+
+
+<script type="text/template" id="template-supplementary-files-modal">
+    <div class="supplementary-material-wrapper modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <a class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a>
+                <h4>Supplementary Material</h4><br>
+                <p class="supplementary-empty-message">There is no supplementary material currently available for this article</p>
+                <div class="loading-wrapper"
+                     id="loader"
+                     style="display:none">
+                    Loading supplemental data...
+                    <img style="" src="/Areas/Articles/Images/Icon/loading.gif" alt="Loading.." />
+                </div>
+                <br />
+                <div class="table-responsive" id="localFiles">
+                </div>
+                <div id="figshare-widget-container">
+
+                </div>
+            </div>
+            <br />
+            <div class="modal-footer bottom-links">
+                <a class="btn btn-default" data-dismiss="modal">Close</a>
+            </div>
+        </div>
+
+    </div>
+</script>
+
+
+
+
+
+<script type="text/template" id="template-local-files-modal">
+    <table class="table table-striped supplementary-content" id="localFilesTable">
+        <thead>
+            <tr>
+                <th>&nbsp;</th>
+                <th>File Name</th>
+                <th>&nbsp;</th>
+            </tr>
+        </thead>
+        <tbody class="file-content">
+            <% _.each(supplimentalFileDetails.FileDetails, function(fileViewModel){   %>
+            <tr>
+                <th scope="row"><a data-test-id="<%= fileViewModel.TestId %>" href="<%= fileViewModel.FileDownloadUrl %>"><img class="img-figure" src="<%= fileViewModel.ImageUrl %>"></a></th>
+                <td>
+                    <a  href="<%= fileViewModel.FileDownloadUrl %>">
+                        <%= fileViewModel.FileName %>
+                    </a>
+                </td>
+                <td><a  href="<%= fileViewModel.FileDownloadUrl %>" class="btn-link"><i class="fa fa-download" aria-hidden="true"></i></a></td>
+            </tr>
+            <% }); %>
+        </tbody>
+    </table>
+</script>
+
+
+
+
+
+
+
+    <div class="modal fade modal-container notifyme-modal-container" data-backdrop="static" id="notifyModal" tabindex="-1" role="dialog" aria-labelledby="Notify on publication" aria-hidden="true">
+</div>
+
+
+
+<script type="text/template" id="template-notify-me-modal">
+    <div class="modal-f page-container simple-modal" role="dialog" aria-labelledby="NotfifyMeModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <form onsubmit="return false" id="modalnotifyme">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                            <h3>Notify me on publication</h3>
+                        </div>
+                        <div class="modal-body">
+
+                            <div class="form-group">
+                                <label>Please enter your email address:</label>
+                            <input type="email" required class="form-control" id="txt_notification_email_id" placeholder="Email">
+                            </div>
+
+                        <div class="g-recaptcha" id="recaptcha"></div><br />
+
+                        <p class="small" style="color: #555;">If you already have an account, please <a href="<%=login.FrontiersLoginUrl%>?returnUrl=<%=currentPage%>" class="text-blue">login</a>.</p>
+                        <p class="small" style="color: #555;">You don't have a Frontiers account ? You can <a href="<%=login.FrontiersRegistrationUrl%>" class="text-blue">register here</a>.</p>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" id="article_notify_non_registered_user" class="btn btn-default btn-progress" style="width: 118px; visibility:hidden;">Notify me</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+</script>
+
+<script type="text/template" id="template-notifyme-mailselection-modal">
+    <div class="modal-f page-container simple-modal" tabindex="-1" role="dialog" aria-labelledby="NotfifyMeModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h3>Select one of your emails</h3>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label>You have multiple emails registered with Frontiers:</label>
+                        </div>
+                                           
+                        <% _.each(userEmailList, function(user){   %>
+                        <input type="radio" value="<%=user%>" name="notify_Emailcollection"> <%=user%><br>
+                        <% }); %>
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="article_notify_loggedin_user" class="btn btn-default btn-progress" style="width: 118px;">Notify me</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</script>
+
+<script type="text/template" id="template_notifyme_error_modal">
+    <div class="modal-f page-container simple-modal" tabindex="-1" role="dialog" aria-labelledby="NotfifyMeModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h3>Notify me on publication</h3>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <p class="text-red"><strong><%=message%></strong></p>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" data-dismiss="modal" class="btn btn-default btn-progress" style="width: 118px;">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+
+
+
+
+
+
+
+    
+
+<script type="text/template" id="template-article-comments">
+
+    <div class="w100pc float_left CommentsHolder" id="div_article_comment_holder">
+        <% if(journalComments.Count !=0) { %>
+        <div id="divActivityBox" class="commentBox bubbleInfo " style="z-index: 300;">
+            <div class="float_left w100pc divActivityBox">
+                <p id="pAllUsers" class="pb0 float_left w581 pAllUsers">
+                    <a id="aAllUsers" href="javascript:void(0);" class="fontnormal trigger">
+                        <%- journalComments.Count %> Comments
+                    </a> <%= journalComments.CommentedUsers %>
+                </p>
+            </div>
+        </div>
+        <% } %>
+
+        <% _.each( journalComments.Comments, function( comment ){ %>
+
+        <div class="commentBox">
+
+            <% if (comment.IsDeleted) {%>
+
+            <div class="wrapper pt4 pb4">
+                <div class="imgHolder mr10"> <!--<a  class="fontnormal">--><img width="32" src="/Areas/Articles/Design/Images/default_profile_32.jpg" onerror="if (!this.src.endsWith('/Areas/Articles/Design/Images/default_profile_32.jpg')) this.src='/Areas/Articles/Design/Images/default_profile_32.jpg';" alt=""><!--</a>--></div>
+                <div class="content w555">
+                    <!-- <p class="mtm3" style='word-wrap:break-word'><a  class="fontnormal">User</a> </p>-->
+                    <p class="mtm3">User</p><ul class="toolbar mt4 disblk w100pc">
+                        <li class="pl0">
+                            <p class="date">Comment deleted on <%- GetFormattedCommentDeletedDate(comment.CommentedDate) %></p>
+                        </li>
+                        <li class="float_right pr0"></li>
+                    </ul>
+                </div>
+            </div>
+
+            <% } else {%>
+
+            <div class="wrapper pt4 pb4">
+                <div class="imgHolder mr10"> <a class="fontnormal" data-test-id="article_commenteduser_profileimage_link" href="<%- comment.CommentedUser.ProfileUrl %>"><img src="<%- comment.CommentedUser.ThumbnailUrl %>" onerror="if (!this.src.endsWith('/Areas/Articles/Images/Frontiers/Common/Profile/default_profile_32.jpg')) this.src='/Areas/Articles/Images/Frontiers/Common/Profile/default_profile_32.jpg';" alt=""></a></div>
+                <div class="content w555 comment-body">
+                    <p class="mtm3" style="word-wrap:break-word">
+                        <a class="fontnormal" data-test-id="article_commenteduser_profile_link" href="<%- comment.CommentedUser.ProfileUrl %>">
+                            <%- comment.CommentedUser.FullName %>
+                        </a>
+                        <span class="comment-text"><%= comment.Comment %></span>
+                    </p>
+                    <ul class="toolbar mt4 disblk w100pc">
+                        <li class="pl0"><p class="date"><%- GetFormattedCommentDate(comment.CommentedDate) %></p></li>
+                        <% if (comment.IsEditVisible)
+                        { %>
+                        <li>|</li>
+                        <li><a href="javascript:void(0);" data-test-id="article_comment_edit_link" class="fontnormal btn-edit-comment" id="btnEditcom" data-comment-id="<%- comment.CommentId %>">Edit</a></li>
+                        <% } %>
+                        <% if (comment.IsDeleteVisible)
+                        { %>
+                        <li>|</li>
+                        <li><a href="javascript:void(0);" data-test-id="article_comment_delete_link" class="fontnormal btn-delete-comment" id="btnDeletecom" data-comment-id="<%- comment.CommentId %>">Delete</a></li>
+                        <% }%>
+                        <li class="float_right pr0"></li>
+                    </ul>
+                </div>
+            </div>
+            <% }%>
+        </div>
+
+        <%  }); %>
+    </div>
+
+    <div id="div_add_comment" class="commentBox">
+        <div class="imgTn32"
+             style="display: none;">
+            <% if(journalComments.LoginUserId !=0) { %>
+            <img src="<%- journalComments.LoggedInUserInfo.ThumbnailUrl %>" alt=""
+                 onerror="if (!this.src.endsWith('/Areas/Articles/Images/Frontiers/Common/Profile/default_profile_32.jpg')) this.src='/Areas/Articles/Images/Frontiers/Common/Profile/default_profile_32.jpg';">
+            <% } else {%>
+            <img src="/Areas/Articles/Design/Images/default_profile_32.jpg" alt=""
+                 onerror="if (!this.src.endsWith('/Areas/Articles/Images/Frontiers/Common/Profile/default_profile_32.jpg')) this.src='/Areas/Articles/Images/Frontiers/Common/Profile/default_profile_32.jpg';">
+            <% }%>
+
+        </div>
+        <div class="wrapper pt4 pb4 wAuto">
+            <textarea onfocus="showUserImageOnAdd(this)"
+                      onblur="hideUserImage(this)"
+                      id="txt_comment"
+                      cols=""
+                      rows="1"
+                      style="overflow: hidden; word-wrap: break-word; resize: horizontal;"
+                      data-test-id="article_comment_add_textarea"
+                      class="write setfocus autoext w535 frUIResizeTextArea comment-textarea is-ui animated-resize grey_90">Write a comment...</textarea>
+        </div>
+        <div class="commentAddWrap">
+            <div>
+                <a class="addBtnComment" data-test-id="article_comment_add_button"  onclick="javascript:AddComments(this);" href="javascript:void(0);" id="btnAddcom"><span>Add</span></a>
+            </div>
+        </div>
+    </div>
+
+
+</script>
+
+<script type="text/template" id="template-article-comments-warning">
+    <div class="commentBox">
+        <div class="wrapper">
+            <p class="comment-warning">The comment section has been closed.</p>
+        </div>
+    </div>
+</script>
+
+<script type="text/template" id="template-article-edit-comments">
+
+
+    <div id="edit-comment-form" class="wrapper pt4 pb4 wAuto edit-comments">
+        <textarea class="txt-comment"
+                  onfocus="showUserImageOnEdit(this)"
+                  onblur="hideUserImage(this)"
+                  data-test-id="article_comment_edit_textarea"
+                  rows="3"><%= commentText %> </textarea>
+        <div>
+            <a class="btn btn-add-comment addBtnComment" data-test-id="article_comment_edit_button" data-comment-id="<%- commentId %>">Add</a>
+        </div>
+    </div>
+
+</script>
+
+
+
+</div>
+
+    </div>
+
+        <div data-navigation-plugin="footer"></div>
+        <script src="https://static.frontiersin.org/navigation-plugins/footer/js"></script>
+
+    <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+
+    <script src="/areas/articles/scripts/frontiers/common/frontiers.banners-1.0.js"></script>
+
+<script src="https://code.jquery.com/ui/1.10.2/jquery-ui.min.js"></script>
+<script src="https://crossmark.crossref.org/javascripts/v1.5/crossmark.min.js"></script>
+        <script type="text/javascript">
+
+            var $ = jQuery.noConflict(); //==>>ToDo: Avoid this..!!
+        </script>
+
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+    <script src="https://static.frontiersin.org/areas/articles/js/vendors?v=ygjL-ZM7HLAoWWjVcHqPBLlSjGooDB3IHD1kVXFmvmI1"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+ 
+<script src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
+    <script src="https://static.frontiersin.org/areas/articles/js/frontiers?v=4c3spupE-VFg577OoPHsSr4WEf6T5hs_2nCv5fPKVdA1"></script>
+
+
+    <script type="text/javascript">
+
+        var FRArticle = (function() {
+            return {
+                ArticleId: '536541',
+                DOI:'10.3389/fgene.2020.00701',
+                LoginUserId: '0',
+                DomainId: '1',
+                FieldId: '30',
+                SpecialityId: '1964',
+                IsPreview: FRSafe.boolean('False'),
+                IsViewImpactFromLoop: FRSafe.boolean('False'),
+                IsPublished: 'True',
+                FigShareApiUrl: 'https://api.figshare.com/v2/collections/search',
+                FigShareTimeOut: '3000'
+            };
+        })();
+
+        var FRSocial = (function() {
+            return {
+                itemId: 14,
+                itemTypeId: 1,
+                entityId: '536541',
+                ownerId: '696229',
+                sanPath: 'https://www.frontiersin.org/files/',
+                subItemId: '8',
+                loginUserId: '0',
+                ownerNWDBId: '30',
+                pageType: 1,
+                loopUrl:'https://loop.frontiersin.org'
+            };
+        })();
+    </script>
+
+    <script>
+        var FRAjaxSettings = (function () {
+
+            function urlLowercase() {
+                $.ajaxSetup({
+                    beforeSend: function (jqXHR, settings) {
+                        settings.url = settings.url.toLowerCase();
+                    }
+                });
+            }
+
+            return { urlLowercase: urlLowercase };
+        })();
+
+        FRAjaxSettings.urlLowercase();
+    </script>
+
+    <script src="https://static.frontiersin.org/areas/articles/js/schema?v=13am1aL5JpCh_IIFOIFRdlFySxVv16JLaVykDEyHCu81"></script>
+
+
+
+    
+    <script src="/areas/articles/js/app?v=UqywkE0AkDO6E3V0irIiBz8giFUKKVUi57o1J1h1S2g1"></script>
+
+    <script src="https://widgets.figshare.com/static/figshare.js"></script>
+
+
+    <script>
+        (function () {
+            console.log("Script executed after FigShareWidget");
+        })();
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,1427 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+            var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl + '&gtm_auth=fCzlsmYQFAUQ_UXneGJNag&gtm_preview=env-2&gtm_cookies_win=x';
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TZGWTGG');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title>Frontiers | The Reference Genome of the Halophytic Plant Eutrema salsugineum | Plant Science</title>
+
+    <link rel="shortcut icon" href="https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/favicon_16x16.ico" type="image/x-icon" />
+
+    <meta property="og:type" content="article" />
+    <meta property="frontiers:type" content="Article" />
+    <meta property="og:site_name" name="site_name" content="Frontiers" />
+    <meta property="og:title" name="Title" content="The Reference Genome of the Halophytic Plant Eutrema salsugineum" />
+    <meta property="og:description" name="Description" content="Halophytes are plants that can naturally tolerate high concentrations of salt in the soil, and their tolerance to salt stress may occur through various evolutionary and molecular mechanisms. Eutrema salsugineum is a halophytic species in the Brassicaceae that can naturally tolerate multiple types of abiotic stresses that typically limit crop productivity, including extreme salinity and cold. It has been widely used as a laboratorial model for stress biology research in plants. Here, we present the reference genome sequence (241 Mb) of E. salsugineum at 8× coverage sequenced using the traditional Sanger sequencing-based approach with comparison to its close relative Arabidopsis thaliana. The E. salsugineum genome contains 26,531 protein-coding genes and 51.4% of its genome is composed of repetitive sequences that mostly reside in pericentromeric regions. Comparative analyses of the genome structures, protein-coding genes, microRNAs, stress-related pathways, and estimated translation efficiency of proteins between E. salsugineum and A. thaliana suggest that halophyte adaptation to environmental stresses may occur via a global network adjustment of multiple regulatory mechanisms. The E. salsugineum genome provides a resource to identify naturally occurring genetic alterations contributing to the adaptation of halophytic plants to salinity and that might be bioengineered in related crop species." />
+    <meta property="og:url" name="url" content="https://www.frontiersin.org/article/10.3389/fpls.2013.00046/full" />
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"
+            integrity="sha256-h0cGsrExGgcZtSZ/fRz4AwV+Nn6Urh/3v3jFRQ0w9dQ=" crossorigin="anonymous"></script>
+        <link href="https://static.frontiersin.org/navigation-plugins/footer/css" rel="stylesheet" />
+            <link href="https://static.frontiersin.org/navigation-plugins/header/css" rel="stylesheet" />
+
+        <meta property="og:image" content="https://www.frontiersin.org/files/MyHome%20Article%20Library/45219/45219_Thumb_400.jpg" />
+            <meta name="citation_volume" content="4" />
+        <meta name="citation_journal_title" content="Frontiers in Plant Science" />
+        <meta name="citation_publisher" content="Frontiers" />
+        <meta name="citation_journal_abbrev" content="Front. Plant Sci." />
+        <meta name="citation_issn" content="1664-462X" />
+        <meta name="citation_doi" content="10.3389/fpls.2013.00046" />
+        <meta name="citation_pages" content="46" />
+        <meta name="citation_language" content="English" />
+        <meta name="citation_title" content="The Reference Genome of the Halophytic Plant Eutrema salsugineum" />
+        <meta name="citation_keywords" content="whole genome sequencing; Genome annotation; Brassicaceae; Eutrema salsugineum; Arabidopsis thaliana; halophyte; bioinformatics" />
+        <meta name="citation_abstract" content="A halophyte refers to a plant that can naturally tolerate high concentrations of salt in the soil, and its tolerance to salt stress may occur through various evolutionary and molecular mechanisms. Eutrema salsugineum is one of the halophytic species in the Brassicaceae family that can naturally tolerate multiple types of abiotic stresses that typically limit crop productivity, such as extreme salinity and cold. It has been widely used as a laboratorial model for stress biology research in plants. Here, we present the reference genome sequence (241 Mb) of E. salsugineum at 8x coverage sequenced by traditional Sanger sequencing-based approach with comparison to its close relative Arabidopsis thaliana. The E. salsugineum genome contains 26,531 protein-coding genes and 51.4% of its genome is composed of repetitive sequences that mostly reside in pericentromeric regions. Comparative analyses of the genome structures, protein-coding genes, microRNAs, stress-related pathways and estimated translation efficiency of proteins between E. salsugineum and A. thaliana suggest adaptation of halophyte to environmental stresses may occur via a global network adjustment of multiple regulatory mechanisms. The E. salsugineum genome provides a resource to identify naturally occurring genetic alterations contributing to the adaptation of the halophyte plants to salinity might be bioengineered in related crop species." />
+        <meta name="description" content="A halophyte refers to a plant that can naturally tolerate high concentrations of salt in the soil, and its tolerance to salt stress may occur through various evolutionary and molecular mechanisms. Eutrema salsugineum is one of the halophytic species in the Brassicaceae family that can naturally tolerate multiple types of abiotic stresses that typically limit crop productivity, such as extreme salinity and cold. It has been widely used as a laboratorial model for stress biology research in plants. Here, we present the reference genome sequence (241 Mb) of E. salsugineum at 8x coverage sequenced by traditional Sanger sequencing-based approach with comparison to its close relative Arabidopsis thaliana. The E. salsugineum genome contains 26,531 protein-coding genes and 51.4% of its genome is composed of repetitive sequences that mostly reside in pericentromeric regions. Comparative analyses of the genome structures, protein-coding genes, microRNAs, stress-related pathways and estimated translation efficiency of proteins between E. salsugineum and A. thaliana suggest adaptation of halophyte to environmental stresses may occur via a global network adjustment of multiple regulatory mechanisms. The E. salsugineum genome provides a resource to identify naturally occurring genetic alterations contributing to the adaptation of the halophyte plants to salinity might be bioengineered in related crop species." />
+        <meta name="citation_online_date" content="2013/02/24" />
+        <meta name="citation_date" content="2013" />
+        <meta name="citation_publication_date" content="2013/03/21" />
+        <meta name="citation_pdf_url" content="https://www.frontiersin.org/articles/10.3389/fpls.2013.00046/pdf" />
+        <meta name="citation_author" content="Yang, Ruolin" />
+        <meta name="citation_author_institution" content="University of Arizona, school of Plant Sciences, Tucson, 85745, AZ, United States" />
+        <meta name="citation_author_email" content="ruolin_yang@hotmail.com" />
+        <meta name="citation_author" content="Jarvis, David J" />
+        <meta name="citation_author_institution" content="University of Arizona, school of Plant Sciences, Tucson, 85745, AZ, United States" />
+        <meta name="citation_author_email" content="david.jarvis@kaust.edu.sa" />
+        <meta name="citation_author" content="Chen, Hao" />
+        <meta name="citation_author_institution" content="University of Arizona, school of Plant Sciences, Tucson, 85745, AZ, United States" />
+        <meta name="citation_author_email" content="chenhao.mymail@gmail.com" />
+        <meta name="citation_author" content="Beilstein, Mark" />
+        <meta name="citation_author_institution" content="University of Arizona, school of Plant Sciences, Tucson, 85745, AZ, United States" />
+        <meta name="citation_author_email" content="mbeilstein@email.arizona.edu" />
+        <meta name="citation_author" content="Grimwood, Jane" />
+        <meta name="citation_author_institution" content="HudsonAlpha Institute of Biotechnology, Huntsville, United States" />
+        <meta name="citation_author_institution" content="Department of Energy Joint Genome Institute, Walnut Creek, United States" />
+        <meta name="citation_author_email" content="jgrimwood@hudsonalpha.org" />
+        <meta name="citation_author" content="Jenkins, Jerry" />
+        <meta name="citation_author_institution" content="Department of Energy Joint Genome Institute, Walnut Creek, United States" />
+        <meta name="citation_author_email" content="jjenkins@hudsonalpha.org" />
+        <meta name="citation_author" content="Shu, ShengQiang" />
+        <meta name="citation_author_institution" content="Department of Energy Joint Genome Institute, Walnut Creek, United States" />
+        <meta name="citation_author_email" content="sqshu@lbl.gov" />
+        <meta name="citation_author" content="Prochnik, Simon" />
+        <meta name="citation_author_institution" content="Department of Energy Joint Genome Institute, Walnut Creek, United States" />
+        <meta name="citation_author_email" content="SEProchnik@lbl.gov" />
+        <meta name="citation_author" content="Xin, Mingming" />
+        <meta name="citation_author_institution" content="University of Arizona, school of Plant Sciences, Tucson, 85745, AZ, United States" />
+        <meta name="citation_author_email" content="mingmingxin@email.arizona.edu" />
+        <meta name="citation_author" content="Ma, Chuang" />
+        <meta name="citation_author_institution" content="University of Arizona, school of Plant Sciences, Tucson, 85745, AZ, United States" />
+        <meta name="citation_author_email" content="chuangma2006@gmail.com" />
+        <meta name="citation_author" content="Schmutz, Jeremy" />
+        <meta name="citation_author_institution" content="HudsonAlpha Institute of Biotechnology, Huntsville, United States" />
+        <meta name="citation_author_institution" content="Department of Energy Joint Genome Institute, Walnut Creek, United States" />
+        <meta name="citation_author_email" content="jschmutz@hudsonalpha.org" />
+        <meta name="citation_author" content="Wing, Rod A" />
+        <meta name="citation_author_institution" content="University of Arizona, school of Plant Sciences, Tucson, 85745, AZ, United States" />
+        <meta name="citation_author_email" content="rwing@ag.arizona.edu" />
+        <meta name="citation_author" content="Mitchell-Olds, Thomas" />
+        <meta name="citation_author_institution" content="Duke University, Durham, United States" />
+        <meta name="citation_author_email" content="tmo1@duke.edu" />
+        <meta name="citation_author" content="Schumaker, Karen" />
+        <meta name="citation_author_institution" content="University of Arizona, school of Plant Sciences, Tucson, 85745, AZ, United States" />
+        <meta name="citation_author_email" content="schumake@ag.arizona.edu" />
+        <meta name="citation_author" content="Wang, Xiangfeng" />
+        <meta name="citation_author_institution" content="University of Arizona, school of Plant Sciences, Tucson, 85745, AZ, United States" />
+        <meta name="citation_author_email" content="bryan4587@gmail.com" />
+    <meta name="Keywords" content="whole genome sequencing, Genome annotation, Brassicaceae, Eutrema salsugineum, Arabidopsis thaliana, halophyte, bioinformatics" />
+
+    
+    <script type="text/javascript">
+
+        var CurrentIBarMenu = 'bysubjects';
+        var CurrentPageCode = 'ARTICLE_PAGE_NEW';
+
+        var FRConfiguration = (function() {
+            return {
+                Environment: 'Live',
+                SANVirtualPath: 'https://www.frontiersin.org/files/',
+                SharepointWebsiteUrl: 'https://www.frontiersin.org',
+                FrontiersJournalUIUrl: 'https://www.frontiersin.org',
+                FrontiersJournalAPIUrl: 'https://api-journal.frontiersin.org',
+                FrontiersReviewUIUrl: '',
+                FrontiersReviewAPIUrl: '',
+                FrontiersCookie: 'frontiersN',
+                FrontiersCookieRememberMe: 'frontiersNt',
+                FrontiersLoginUrl: 'https://www.frontiersin.org/Login.aspx',
+                FrontiersRegistrationUrl: 'http://www.frontiersin.org/Registration/Register.aspx',
+                IsCommentVisible: 'True',
+                IsPreview:'False'
+            };
+        })();
+
+        var FRLanguage = (function() {
+            var languageSet = {"ART_FRONTIERS":"Frontiers ","Article_AcceptedDate":"Accepted: ","Article_AnalyticsToolTip":"The total view count is updated once a day, so not to worry if you don\u0027t see immediate results.","Article_AnalyticsTotalViews":"total views","Article_AnalyticsViewImpact":"View Article Impact","Article_ArchiveLinkText":"Articles","Article_BibTex":"BibTex","Article_Citation":"Citation: ","Article_Commentary":"COMMENTARY","Article_Copyright":"Copyright: ","Article_CopyrightText":"This is an open-access article distributed under the terms of the \u003ca href=\"http://creativecommons.org/licenses/by/4.0/\"\u003eCreative Commons Attribution License (CC BY)\u003c/a\u003e. The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.","Article_Correspondence":"* Correspondence: ","Article_DownloadArticle":"Download Article","Article_DownloadPDF":"Download PDF","Article_DownloadProvisionalArticle":"Download Provisional Article","Article_DownloadProvisionalPDF":"Download Provisional PDF","Article_EditedBy":"Edited by: ","Article_EndNote":"EndNote","Article_EPUB":"EPUB","Article_ExportCitation":"Export Citation","Article_JATS":"JATS","Article_Keywords":"Keywords: ","Article_NLM":"XML (NLM)","Article_OriginalArticle":"ORIGINAL ARTICLE","Article_PaperPendingPublishedDate":"Paper pending published: ","Article_PDF":"PDF","Article_ProvisionalPDF":"Provisional PDF","Article_PublishedDate":"Published online: ","Article_ReadFullText":"Read Full Text","Article_ReceivedDate":"Received: ","Article_ReferenceManager":"Reference Manager","Article_ReviewedBy":"Reviewed by: ","Article_RTInfoText":"This article is part of the Research Topic","Article_ShareOn":"SHARE ON","Article_SimpleTEXTfile":"Simple TEXT file","Article_SupplementalData":"SUPPLEMENTAL DATA","Article_TableOfContent":"TABLE OF CONTENTS","Article_ViewEnhancedPDF":"ReadCube","Article_XML":"XML","BrowserWarningText":"\u003ch2\u003eWarning!\u003c/h2\u003e\u003cp\u003eYou are using an \u003cstrong\u003eoutdated\u003c/strong\u003e browser. This page doesn\u0027t support Internet Explorer 6, 7 and 8.\u003cbr /\u003ePlease \u003ca class=\"blue\" href=\"http://browsehappy.com/\"\u003eupgrade your browser\u003c/a\u003e or \u003ca class=\"blue\" href=\"http://www.google.com/chromeframe/?redirect=true\"\u003eactivate Google Chrome Frame\u003c/a\u003e to improve your experience.\u003c/p\u003e","COMMENT_HEADERTEXT":"Comment text too long","COMMENT_WARNINGTEXT":"Comments must be less than 4,000 characters. You have entered ","Impact_BackToArticle":"Back to article","People_Also_LookedAt":"People also looked at"};
+
+            return {
+                value: function(key) {
+                    if (languageSet[key]) {
+                        return languageSet[key];
+                    } else {
+                        throw new Error('Unable to get the value status from the language set'); // Use Error, not FRError
+                    }
+                }
+            };
+
+        })();
+
+        var FRJournalDetails = (function() {
+            return {
+                JournalType: 'section',
+                JournalId: '373',
+                SectionId: '576'
+            };
+        })();
+
+        var FRArticleDetails = (function() {
+            return {
+                ArticleId: '45219'
+            };
+        })();
+        var FRArticleRecaptchaSettings = (function() {
+            return {
+                RecaptchaSiteKey: '6LdG3i0UAAAAAOC4qUh35ubHgJotEHp_STXHgr_v'
+            };
+        })();
+
+    </script>
+
+    <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-535f7e222fc3ca72"></script>
+
+
+    <script language="javascript">
+        var addthis_config = addthis_config || {};
+        addthis_config.data_track_addressbar = false;
+        addthis_config.data_track_clickback = false;
+    </script>
+
+    
+    
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+
+    <![endif]-->
+
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+    <script src="/areas/research-topics/content/scripts/frontiers/frontiers.markerclusterer.js"></script>
+
+
+    <link href="https://209cd62b0febf2a55d40-715eb384bc6027b876e93ad33d5c5ec3.ssl.cf3.rackcdn.com/font-awesome-4.3.0/css/font-awesome.css" rel="stylesheet"/>
+
+    <link href="https://9d0dd7a648345f19af83-877d2ecaf11b88d5e17327c758e17ef6.ssl.cf2.rackcdn.com/museo-sans-1.0.1/css/museo-sans.css" rel="stylesheet"/>
+
+    <link href="https://9d0dd7a648345f19af83-877d2ecaf11b88d5e17327c758e17ef6.ssl.cf2.rackcdn.com/museo-slab-1.0.1/css/museo-slab.css" rel="stylesheet"/>
+
+    <link href="https://209cd62b0febf2a55d40-715eb384bc6027b876e93ad33d5c5ec3.ssl.cf3.rackcdn.com/open-sans-1.0.0/css/open-sans.css" rel="stylesheet"/>
+
+    <link href="https://static.frontiersin.org/areas/articles/css/app?v=d7xs6QXeE2UIxbm9TizlA3t08LzxgJlsJHBk24_OOR81" rel="stylesheet"/>
+
+    
+    <style type="text/css"> .journal-plant-science {
+ background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-plant-science.gif') no-repeat 110% 0px;
+}
+
+/* Medium Devices, Desktops ---------- */  @media only screen and (max-width : 992px) { {
+ .journal-plant-science {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-plant-science.gif') no-repeat -50px 0px;
+ }}
+
+/* Small Devices, Tablets ------------ */  @media only screen and (max-width : 768px) {
+.journal-plant-science {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-plant-science.gif') no-repeat -150px 0px;
+ }}
+
+/* Small Devices, Tablets  --------- */ @media only screen and (max-width : 640px) {
+.journal-plant-science {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-plant-science.gif') no-repeat -250px 0px;
+ }}
+/* Extra Small Devices, Phones-----------  */  @media only screen and (max-width : 480px) {
+.journal-plant-science {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-plant-science.gif') no-repeat -330px 0px;
+ }}
+ </style>
+    
+</head>
+<body class="journal-plant-science section-plant-genetics-and-genomics">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZGWTGG&gtm_auth=fCzlsmYQFAUQ_UXneGJNag&gtm_preview=env-2&gtm_cookies_win=x"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+        <div data-navigation-plugin="header"></div>
+        <script src="https://static.frontiersin.org/navigation-plugins/header/js"></script>
+
+
+
+    
+
+    <!--[if lte IE 8]>
+        <div class="row">
+            <div class="col-md-16">
+                <div style="margin-bottom: 15px;"><h2>Warning!</h2><p>You are using an <strong>outdated</strong> browser. This page doesn't support Internet Explorer 6, 7 and 8.<br />Please <a class="blue" href="http://browsehappy.com/">upgrade your browser</a> or <a class="blue" href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p></div>
+            </div>
+        </div>
+    <![endif]-->
+
+    <div class="page-container">
+        
+
+<header>
+
+            <a href="https://www.frontiersin.org/about/impact?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=impact-2020-jour-hp-top" target="_blank">
+            <div class="marketing journal-marketing-message no-impact">
+                <span class="message">
+                    <p><strong>Impact Factor 4.402</strong> |<strong> CiteScore 7.8<br /></strong>More on impact &rsaquo;</p>
+                </span>
+
+            </div>
+        </a>
+<div id="journal-header" class="journal-home" style="position: relative;">
+    <div class="container-fluid main-container-xxl">
+        <table id="logo-table" style="width:100%">
+            <tr>
+                    <td width="50%" valign="bottom" align="right" class="left-cell">
+                        <h1>
+                            <a href="https://www.frontiersin.org/journals/373" data-test-id="journal-link">
+                                <span>Frontiers </span>in Plant Science
+                            </a>
+                        </h1>
+                    </td>
+                        <td class="right-cell" width="50%" style="vertical-align: bottom">
+                            <h2>
+
+                                <span>Plant Genetics and Genomics</span>
+
+                            </h2>
+                        </td>
+            </tr>
+        </table>
+
+
+        
+     </div>
+</div>
+
+
+    <div id="journal-nav">
+    <div class="container-fluid main-container-xxl">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="nav-wrapper">
+                    <nav class="navbar navbar-default">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#journal-navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="pull-left">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </span>
+                            <span class="pull-right hidden-xs">Section</span>
+                        </button>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse no-transition journal-nav-bar" id="journal-navbar-collapse">
+                            <ul class="nav navbar-nav">
+                                <li class="tab-overview icon icon-left">
+                                    <a id="journal_nav_home" href="https://www.frontiersin.org/journals/plant-science/sections/plant-genetics-and-genomics#"><span class="sr-only">(current)</span><i class="fa fa-home"></i>Section</a>
+                                </li>
+                                <li class="tab-about">
+                                    <a id="journal_nav_about" href="https://www.frontiersin.org/journals/plant-science/sections/plant-genetics-and-genomics#about">About</a>
+                                </li>
+                                <li class="tab-archive active">
+                                    <a id="journal_nav_articles" href="https://www.frontiersin.org/journals/plant-science/sections/plant-genetics-and-genomics#articles">Articles</a>
+                                </li>
+                                <li class="tab-research-topics">
+                                    <a id="journal_nav_research_topics" href="https://www.frontiersin.org/journals/plant-science/sections/plant-genetics-and-genomics#research-topics">Research topics</a>
+                                </li>
+                                <li class="dropdown">
+                                    <a id="journal_nav_for_authors" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">For authors <span class="caret"></span></a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a id="for_authors_why_submit" href="https://www.frontiersin.org/journals/plant-science/sections/plant-genetics-and-genomics#why-submit">Why submit?</a></li>
+                                        <li><a id="for_authors_fees" href="https://www.frontiersin.org/about/publishing-fees" target="_blank">Fees</a></li>
+                                        <li><a id="for_authors_article_types" href="https://www.frontiersin.org/journals/plant-science/sections/plant-genetics-and-genomics#article-types">Article types</a></li>
+                                        <li><a id="for_authors_authors_guidelines" href="https://www.frontiersin.org/journals/plant-science/sections/plant-genetics-and-genomics#author-guidelines">Author guidelines</a></li>
+                                        <li><a id="for_authors_review_guidelines" href="https://www.frontiersin.org/journals/plant-science/sections/plant-genetics-and-genomics#review-guidelines">Review guidelines</a></li>
+                                        <li><a id="for_authors_submission_checklist" href="https://www.frontiersin.org/journals/plant-science/sections/plant-genetics-and-genomics#submission-checklist">Submission checklist</a></li>
+                                        <li><a id="for_authors_contact_editorial_office" href="https://www.frontiersin.org/journals/plant-science/sections/plant-genetics-and-genomics#contact-editorial-office">Contact editorial office</a></li>
+                                    </ul>
+                                </li>
+                                <li class="tab-editorial-board">
+                                    <a id="journal_nav_Editorial_Board" href="https://www.frontiersin.org/journals/plant-science/sections/plant-genetics-and-genomics#editorial-board">Editorial board</a>
+                                </li>
+                            </ul>
+                        </div><!-- /.navbar-collapse -->
+                        <ul class="list-inline follow-us nav navbar-nav">
+                            <li class="twitter icon button">
+                                <a data-test-id="twitter-link" href="https://twitter.com/@FrontPlantSci">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="rss icon button">
+                                <a data-test-id="rss-link" href="https://www.frontiersin.org/journals/plant-science/sections/plant-genetics-and-genomics/rss">
+                                    <i class="fa fa-rss"></i>
+                                </a>
+                            </li>
+                            <li class="alerts icon button">
+                                <a data-test-id="alert-link" href="http://connect.frontiersin.org/subscriptions/subscribe?item=1&amp;field=66">
+                                    <i class="fa fa-bell" style="width: auto; padding-right: 7px; padding-left: 7px;"><span class="article-alert-text" style="font-family: MuseoSans, 'Helvetica Neue', Helvetica, Arial, sans-serif; margin-left: 6px; font-weight: 700; letter-spacing: 0px; font-size: 13px;">Article alerts</span></i>
+                                </a>
+                            </li>
+                                    
+                            
+                        </ul>
+
+                    </nav>
+                </div><!-- / .nav-wrapper -->
+            </div>
+        </div>
+    </div>
+</div>
+
+</header>
+
+<div class="journal-actions article-actions">
+    <div class="container-fluid main-container-xxl">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-lg-push-6 col-md-push-6 col-research-topic">
+            </div>
+            <section class="col-lg-4 col-lg-offset-2 col-md-6 col-md-offset-0 col-lg-pull-6 col-md-pull-6">
+                <a href="https://www.frontiersin.org/journals/373#articles" class="archive-link hidden-sm hidden-xs" data-test-id="archive-link">
+                    <i class="fa fa-angle-left"></i> Articles
+                </a>
+            </section>
+        </div>
+    </div>
+</div>
+
+
+<aside id="anchors" class="pull-left table-of-contents side-article">
+    <div class="side-people hidden-sm hidden-xs">
+    </div>
+    <nav>
+            <header><h5 class="like-h4" style="padding-top: 14px; padding-left: 6px; margin-bottom: 6px;">TABLE OF CONTENTS</h5></header>
+            <ul class="nav nav-list list-unstyled contents">
+                <li>
+<ul class="flyoutJournal">
+<li><a href="#h1">Abstract</a></li>
+<li><a href="#h2">Introduction</a></li>
+<li><a href="#h3">Materials and Methods</a></li>
+<li><a href="#h4">Results and Discussion</a></li>
+<li><a href="#h5">Conclusion</a></li>
+<li><a href="#h6">Accession</a></li>
+<li><a href="#h7">Authors Contribution</a></li>
+<li><a href="#h8">Conflict of Interest Statement</a></li>
+<li><a href="#h9">Acknowledgments</a></li>
+<li><a href="#h10">Supplementary Material</a></li>
+<li><a href="#h11">Footnotes</a></li>
+<li><a href="#h12">References</a></li>
+</ul>                </li>
+            </ul>
+    </nav>
+</aside>
+
+
+<div id="article" class="boxed white no-padding">
+    <div class="container-fluid main-container-xxl">
+            <div class="side-article-mrk hidden-md hidden-lg top clearfix">
+                <p style="text-align: center;"><a href="https://spotlight.frontiersin.org/submit?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=rtlg_2020_gen"><img src="https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/article-marketing-message-79982763-254d-4bb6-96b8-126758de1166.png" alt="" /><br /></a></p>
+<p style="text-align: center;"><a href="https://spotlight.frontiersin.org/submit?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=rtlg_2020_gen"><strong>Suggest a Research Topic &gt;</strong></a></p>
+            </div>
+        <div class="row">
+
+            
+<aside class="a col-xs-12 col-sm-12 col-lg-2 col-md-3 pull-right side-article right-container">
+        <button type="button" class="navbar-toggle navbar-download collapsed" data-toggle="collapse" data-target=".show" aria-expanded="false">
+            <span class="icon"><i class="fa fa-download"></i></span>
+        </button>
+    <button type="button" class="navbar-toggle navbar-share collapsed" data-toggle="collapse" data-target=".show" aria-expanded="false">
+        <span class="icon"><i class="fa fa-share-alt"></i></span>
+    </button>
+        <div class="side-article-download show collapse clearfix">
+            <ul class="list-unstyled list-inline clearfix">
+                    <li class="dropdown text-center paper">
+                        <a data-target="#" class="dropdown-toggle" data-test-id="download-button" data-toggle="dropdown" role="button" aria-expanded="false">
+                            <span class="icon icon-article"><i class="fa fa-file-pdf-o"></i></span>
+                            <span class="icon-label">Download Article</span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                                <li>
+                                    <a class="download-files-pdf action-link" href="/articles/10.3389/fpls.2013.00046/pdf" data-test-id="article-downloadpdf">
+                                        Download PDF
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="download-files-readcube" href="http://www.readcube.com/articles/10.3389/fpls.2013.00046" data-test-id="article-viewenhancedpdf">
+                                        ReadCube
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="download-files-epub" href="/articles/10.3389/fpls.2013.00046/epub" data-test-id="article-epub">
+                                        EPUB
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="download-files-nlm" href="/articles/10.3389/fpls.2013.00046/xml/nlm" data-test-id="article-nlm">
+                                        XML (NLM)
+                                    </a>
+                                </li>
+                                                            <li class="">
+
+<a data-test-id="supplementary-button"
+                                        id="supplementary_view">
+
+                                            Supplementary
+                                            <br>
+                                            Material
+                                        </a>
+
+                                </li>
+                        </ul>
+                    </li>
+                <li class="dropdown text-center citation">
+                    <a data-target="#" class="dropdown-toggle" data-test-id="citation-button" data-toggle="dropdown" role="button" aria-expanded="false">
+                        <span class="icon icon-citation"><i class="fa fa-quote-left"></i></span>
+                        <span class="icon-label">Export citation</span>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                            <li>
+                                <a data-test-id="article-endnote" href="https://www.frontiersin.org/articles/10.3389/fpls.2013.00046/endNote">
+                                    EndNote
+                                </a>
+                            </li>
+                            <li>
+                                <a data-test-id="article-referencemanager" href="https://www.frontiersin.org/articles/10.3389/fpls.2013.00046/reference">
+                                    Reference Manager
+                                </a>
+                            </li>
+                            <li>
+                                <a data-test-id="article-simpletextfile" href="https://www.frontiersin.org/articles/10.3389/fpls.2013.00046/text">
+                                    Simple TEXT file
+                                </a>
+                            </li>
+                            <li>
+                                <a data-test-id="article-bibtex" href="https://www.frontiersin.org/articles/10.3389/fpls.2013.00046/bibTex">
+                                    BibTex
+                                </a>
+                            </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+            <div class="side-article-impact">
+            <ul class="nav">
+                <li class="impact-data" title="The total view count is updated once a day, so not to worry if you don&#39;t see immediate results.">
+                    <span class="title-number"></span>
+                    <span class="title-text">total views</span>
+                </li>
+                <li class="hidden-sm hidden-xs">
+                    <div class="altmetric-icon">
+                        <div class='altmetric-embed' data-badge-type='1' data-doi='10.3389/fpls.2013.00046' data-link-target="new"></div>
+                    </div>
+                </li>
+            </ul>
+                <a type="button" class="btn btn-default hidden-sm hidden-xs btn-impact " data-test-id="view-article-impact" href="http://loop-impact.frontiersin.org/impact/article/45219#views" target="_blank">
+                    <span class="icon-impact"><i class="fa fa-line-chart"></i></span> View Article Impact
+                </a>
+        </div>
+            <div class="side-article-mrk hidden-sm hidden-xs clearfix">
+            <p style="text-align: center;"><a href="https://spotlight.frontiersin.org/submit?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=rtlg_2020_gen"><img src="https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/article-marketing-message-79982763-254d-4bb6-96b8-126758de1166.png" alt="" /><br /></a></p>
+<p style="text-align: center;"><a href="https://spotlight.frontiersin.org/submit?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=rtlg_2020_gen"><strong>Suggest a Research Topic &gt;</strong></a></p>
+        </div>
+    <div class="side-article-share show collapse">
+        <h5 class="like-h4">SHARE ON</h5>
+        <ul class="share-media clearfix" style="padding: 0;">
+            <li class="social_block">
+                <div class="atButton">
+                    <a class="addthis_button_facebook at300b" addthis:title="The Reference Genome of the Halophytic Plant Eutrema salsugineum" addthis:description="Halophytes are plants that can naturally tolerate high concentrations of salt in the soil, and their tolerance to salt stress may occur through various evolutionary and molecular mechanisms. Eutrema salsugineum is a halophytic species in the Brassicaceae that can naturally tolerate multiple types of abiotic stresses that typically limit crop productivity, including extreme salinity and cold. It has been widely used as a laboratorial model for stress biology research in plants. Here, we present the reference genome sequence (241 Mb) of E. salsugineum at 8× coverage sequenced using the traditional Sanger sequencing-based approach with comparison to its close relative Arabidopsis thaliana. The E. salsugineum genome contains 26,531 protein-coding genes and 51.4% of its genome is composed of repetitive sequences that mostly reside in pericentromeric regions. Comparative analyses of the genome structures, protein-coding genes, microRNAs, stress-related pathways, and estimated translation efficiency of proteins between E. salsugineum and A. thaliana suggest that halophyte adaptation to environmental stresses may occur via a global network adjustment of multiple regulatory mechanisms. The E. salsugineum genome provides a resource to identify naturally occurring genetic alterations contributing to the adaptation of halophytic plants to salinity and that might be bioengineered in related crop species." addthis:url="https://www.frontiersin.org/article/10.3389/fpls.2013.00046" title="Facebook"></a>
+                </div>
+                <a><span class="facebook_count"></span></a>
+            </li>
+            <li class="social_block">
+                <div class="atButton">
+                    <a class="addthis_button_twitter at300b" addthis:title="The Reference Genome of the Halophytic Plant Eutrema salsugineum" addthis:description="Halophytes are plants that can naturally tolerate high concentrations of salt in the soil, and their tolerance to salt stress may occur through various evolutionary and molecular mechanisms. Eutrema salsugineum is a halophytic species in the Brassicaceae that can naturally tolerate multiple types of abiotic stresses that typically limit crop productivity, including extreme salinity and cold. It has been widely used as a laboratorial model for stress biology research in plants. Here, we present the reference genome sequence (241 Mb) of E. salsugineum at 8× coverage sequenced using the traditional Sanger sequencing-based approach with comparison to its close relative Arabidopsis thaliana. The E. salsugineum genome contains 26,531 protein-coding genes and 51.4% of its genome is composed of repetitive sequences that mostly reside in pericentromeric regions. Comparative analyses of the genome structures, protein-coding genes, microRNAs, stress-related pathways, and estimated translation efficiency of proteins between E. salsugineum and A. thaliana suggest that halophyte adaptation to environmental stresses may occur via a global network adjustment of multiple regulatory mechanisms. The E. salsugineum genome provides a resource to identify naturally occurring genetic alterations contributing to the adaptation of halophytic plants to salinity and that might be bioengineered in related crop species." addthis:url="https://www.frontiersin.org/article/10.3389/fpls.2013.00046" title="Tweet"></a>
+                </div>
+                <a><span class="twitter_count"></span></a>
+            </li>
+            <li class="social_block">
+                <div class="atButton">
+                    <a class="addthis_button_linkedin at300b" addthis:title="The Reference Genome of the Halophytic Plant Eutrema salsugineum" addthis:description="Halophytes are plants that can naturally tolerate high concentrations of salt in the soil, and their tolerance to salt stress may occur through various evolutionary and molecular mechanisms. Eutrema salsugineum is a halophytic species in the Brassicaceae that can naturally tolerate multiple types of abiotic stresses that typically limit crop productivity, including extreme salinity and cold. It has been widely used as a laboratorial model for stress biology research in plants. Here, we present the reference genome sequence (241 Mb) of E. salsugineum at 8× coverage sequenced using the traditional Sanger sequencing-based approach with comparison to its close relative Arabidopsis thaliana. The E. salsugineum genome contains 26,531 protein-coding genes and 51.4% of its genome is composed of repetitive sequences that mostly reside in pericentromeric regions. Comparative analyses of the genome structures, protein-coding genes, microRNAs, stress-related pathways, and estimated translation efficiency of proteins between E. salsugineum and A. thaliana suggest that halophyte adaptation to environmental stresses may occur via a global network adjustment of multiple regulatory mechanisms. The E. salsugineum genome provides a resource to identify naturally occurring genetic alterations contributing to the adaptation of halophytic plants to salinity and that might be bioengineered in related crop species." addthis:url="https://www.frontiersin.org/article/10.3389/fpls.2013.00046" title="LinkedIn"></a>
+                </div>
+                <a><span class="linkedin_count"></span></a>
+            </li>
+            <li class="social_block">
+                <div class="atButton">
+                    <a class="addthis_button_more at300b" addthis:title="The Reference Genome of the Halophytic Plant Eutrema salsugineum" addthis:description="Halophytes are plants that can naturally tolerate high concentrations of salt in the soil, and their tolerance to salt stress may occur through various evolutionary and molecular mechanisms. Eutrema salsugineum is a halophytic species in the Brassicaceae that can naturally tolerate multiple types of abiotic stresses that typically limit crop productivity, including extreme salinity and cold. It has been widely used as a laboratorial model for stress biology research in plants. Here, we present the reference genome sequence (241 Mb) of E. salsugineum at 8× coverage sequenced using the traditional Sanger sequencing-based approach with comparison to its close relative Arabidopsis thaliana. The E. salsugineum genome contains 26,531 protein-coding genes and 51.4% of its genome is composed of repetitive sequences that mostly reside in pericentromeric regions. Comparative analyses of the genome structures, protein-coding genes, microRNAs, stress-related pathways, and estimated translation efficiency of proteins between E. salsugineum and A. thaliana suggest that halophyte adaptation to environmental stresses may occur via a global network adjustment of multiple regulatory mechanisms. The E. salsugineum genome provides a resource to identify naturally occurring genetic alterations contributing to the adaptation of halophytic plants to salinity and that might be bioengineered in related crop species." addthis:url="https://www.frontiersin.org/article/10.3389/fpls.2013.00046" title="View more services"></a>
+                </div>
+                <a><span class="total_count"></span></a>
+            </li>
+        </ul>
+    </div>
+        <a type="button"
+           class="open-supplemental-data btn btn-default hidden-sm hidden-xs"
+           id="supplementary_view">
+            <span class="supplemental-label">
+                <i class="supplemental-icon"></i>
+                <label>Open Supplemental Data</label>
+            </span>
+        </a>
+</aside>
+
+
+            
+<main class="b col-xs-12 col-sm-12 col-lg-8 col-lg-push-2 col-md-7 col-md-push-2 pull-left">
+    <div class="article-section">
+        <div class="article-container" data-html="True">
+            <div class="abstract-container">
+                
+                <div class="article-header-container">
+                    <!-- Start CrossMark Snippet v2.0 -->
+                    <!-- End CrossMark Snippet -->                   
+
+                    <div class="header-bar-one">
+                        <h2>
+                            Original Research ARTICLE
+
+                    </h2>
+                </div>
+                <div class="header-bar-three">
+                    Front. Plant Sci., 21 March 2013
+                             | <a href="https://doi.org/10.3389/fpls.2013.00046">https://doi.org/10.3389/fpls.2013.00046</a>
+                </div>
+                </div>
+                
+
+<div class="JournalAbstract">
+   <a id="h1" name="h1"></a><h1>The reference genome of the halophytic plant <i>Eutrema salsugineum</i></h1>
+   <div class="authors">
+      <a href="http://community.frontiersin.org/people/RuolinYang/84099">Ruolin Yang</a><sup>1</sup><sup>&#x02020;</sup>, 
+      <a href="http://www.frontiersin.org/Community/WhosWhoActivity.aspx?sname=DavidJarvis&#x00026;UID=81152">David E. Jarvis</a><sup>1</sup><sup>&#x02020;</sup>, 
+      <a href="http://www.frontiersin.org/Community/WhosWhoActivity.aspx?sname=HaoChen_2&#x00026;UID=78202">Hao Chen</a><sup>1</sup>, 
+      <a href="http://www.frontiersin.org/Community/WhosWhoActivity.aspx?sname=MarkBeilstein&#x00026;UID=54131">Mark A. Beilstein</a><sup>1</sup>, 
+      Jane Grimwood<sup>2,3</sup>, 
+      <a href="http://www.frontiersin.org/Community/WhosWhoActivity.aspx?sname=JerryJenkins&#x00026;UID=78203">Jerry Jenkins</a><sup>2,3</sup>, 
+      ShengQiang Shu<sup>2</sup>, 
+      Simon Prochnik<sup>2</sup>, 
+      <a href="http://community.frontiersin.org/people/MingmingXin/84102">Mingming Xin</a><sup>1</sup>, 
+      <a href="http://www.frontiersin.org/Community/WhosWhoActivity.aspx?sname=ChuangMa&#x00026;UID=78201">Chuang Ma</a><sup>1</sup>, 
+      Jeremy Schmutz<sup>2,3</sup>, 
+      <a href="http://www.frontiersin.org/Community/WhosWhoActivity.aspx?sname=RodWing&#x00026;UID=77519">Rod A. Wing</a><sup>1</sup>, 
+      Thomas Mitchell-Olds<sup>4</sup>, 
+      <a href="http://www.frontiersin.org/Community/WhosWhoActivity.aspx?sname=KarenSchumaker&#x00026;UID=81131">Karen S. Schumaker</a><sup>1</sup>* and <a href="http://www.frontiersin.org/Community/WhosWhoActivity.aspx?sname=XiangfengWang&#x00026;UID=26133">Xiangfeng Wang</a><sup>1</sup>*</div>
+   <ul class="notes">
+      <li><span><sup>1</sup></span>School of Plant Sciences, University of Arizona, Tucson, AZ, USA</li>
+      <li><span><sup>2</sup></span>Department of Energy Joint Genome Institute, Walnut Creek, CA, USA</li>
+      <li><span><sup>3</sup></span>HudsonAlpha Institute of Biotechnology, Huntsville, AL, USA</li>
+      <li><span><sup>4</sup></span>Department of Biology, Duke University, Durham, NC, USA</li>
+   </ul>
+   <p>Halophytes are plants that can naturally tolerate high concentrations of salt in the soil, and their tolerance to salt stress may occur through various evolutionary and molecular mechanisms. <i>Eutrema salsugineum</i> is a halophytic species in the <i>Brassicaceae</i> that can naturally tolerate multiple types of abiotic stresses that typically limit crop productivity, including extreme salinity and cold. It has been widely used as a laboratorial model for stress biology research in plants. Here, we present the reference genome sequence (241 Mb) of <i>E. salsugineum</i> at 8&#x000D7; coverage sequenced using the traditional Sanger sequencing-based approach with comparison to its close relative <i>Arabidopsis thaliana</i>. The <i>E. salsugineum</i> genome contains 26,531 protein-coding genes and 51.4% of its genome is composed of repetitive sequences that mostly reside in pericentromeric regions. Comparative analyses of the genome structures, protein-coding genes, microRNAs, stress-related pathways, and estimated translation efficiency of proteins between <i>E. salsugineum</i> and <i>A. thaliana</i> suggest that halophyte adaptation to environmental stresses may occur <i>via</i> a global network adjustment of multiple regulatory mechanisms. The <i>E. salsugineum</i> genome provides a resource to identify naturally occurring genetic alterations contributing to the adaptation of halophytic plants to salinity and that might be bioengineered in related crop species.</p>
+   <div class="clear"></div>
+</div>
+<div class="JournalFullText">
+   <a id="h2" name="h2"></a><h2>Introduction</h2>
+   <p class="mb15">One of the most urgent challenges is increasing agricultural productivity to feed the world&#x02019;s growing population (<a href="#B19">Godfray et al., 2010</a>). To meet the rising demand for plant-based agricultural commodities, enhanced productivity on land currently in cultivation and expansion into marginal land for agricultural use will be required (<a href="#B19">Godfray et al., 2010</a>). In either case, a major problem facing agriculture is increased salinity in the soil solution. Salinization affects land that receives little rain and is a growing problem for irrigation agriculture because long-term irrigation leads to the accumulation of salt, resulting in plant salt stress (<a href="#B27">Khan, 1982</a>). Elevated salt in the soil can cause ionic, osmotic, and oxidative stresses that reduce the yield of important crop plants. According to a recent report from the Food and Agriculture Organization, &#x0223C;20% of agricultural land worldwide is affected by soil salinization, causing the loss of arable land at a rate of 1% per year. Practical solutions for sustainable agricultural outcomes require a multifaceted approach that includes the identification of genetic determinants underlying adaptation to salinity in naturally salt-tolerant species (halophytes), and the application of this knowledge to enhance salt tolerance in agriculturally and economically important plants.</p>
+   <p class="mb15"><i>Eutrema salsugineum</i> (formerly <i>Thellungiella halophila</i>) is native to the seashore saline soils of eastern China and is widely used as a halophytic model for stress-tolerance research in plants (<a href="#B2">Amtmann et al., 2005</a>; <a href="#B20">Gong et al., 2005</a>; <a href="#B1">Amtmann, 2009</a>). <i>E. salsugineum</i> is closely related to the model species <i>A. thaliana</i> and the agronomically important <i>Brassica</i> species (e.g., Oilseed rape). The availability of whole-genome sequences of several species in <i>Brassicaceae</i> has opened a new era of comparative genomics in <i>Brassicaceae</i> for a better understanding of genome evolution of this plant family (<a href="#B9">Dassanayake et al., 2011</a>; <a href="#B23">Hu et al., 2011</a>; <a href="#B53">Wang et al., 2011</a>; <a href="#B8">Cheng et al., 2012</a>; <a href="#B14">Fang et al., 2012</a>; <a href="#B21">Hatje and Kollmar, 2012</a>; <a href="#B51">Tang and Lyons, 2012</a>; <a href="#B58">Wu et al., 2012</a>; <a href="#B60">Yang et al., 2012</a>). Because of these relationships, many of the genetic and genomic tools available for <i>A. thaliana</i> can be used to facilitate functional and comparative studies of the two species. Previous studies indicate that salt tolerance in <i>E. salsugineum</i> is not derived from complex morphological adaptations, but rather from the enhancement of mechanisms already present in salt-sensitive species (glycophytes) (<a href="#B7">Bressan et al., 2001</a>; <a href="#B1">Amtmann, 2009</a>). For instance, reduction in the expression of a single gene in <i>E. salsugineum</i> orthologous to <i>Salt-Overly Sensitive 1</i> (<i>SOS1</i>) in <i>A. thaliana</i> can dramatically reduce its tolerance to salt (<a href="#B44">Oh et al., 2009</a>). The similarity of underlying mechanisms increases the likelihood that naturally occurring genetic alterations contributing to the adaptation of <i>E. salsugineum</i> to salinity can be bioengineered in related crop species.</p>
+   <p class="mb0">Adaptation of plants to environmental stresses can occur through multiple evolutionary and molecular mechanisms. Many studies currently focus on the evolution of gene sequences by detecting amino-acid substitutions subject to positive selection (<a href="#B57">Wright and Gaut, 2005</a>). In addition, copy number variation arising <i>via</i> gene duplication events may also contribute to stress-tolerance, for example, by altering expression dosage of genes in response to stress or creating novel, beneficial functions and/or phenotypes under directional selection (<a href="#B24">Innan and Kondrashov, 2010</a>). Adaptation can also occur through changes in gene regulation. Transcriptomic comparisons of <i>A. thaliana</i> and <i>E. salsugineum</i> using microarrays and expressed sequence tags (ESTs) revealed that the expression levels of many stress-related genes in <i>E. salsugineum</i> are constitutively higher than their orthologs in <i>A. thaliana</i>, suggesting the transcriptional network is also modulated for a better fitness (<a href="#B50">Taji et al., 2004</a>, <a href="#B49">2010</a>; <a href="#B55">Wong et al., 2006</a>). Adaption of salt tolerance in plants may also involve the changes in epigenetic regulation systems, such as genes related to DNA methylation pathways have been shown to play important roles in stress responses (<a href="#B11">Dorantes-Acosta et al., 2012</a>). In addition, it has been reported that changes of translation efficiency of proteins may play important roles in the phenotypic divergence among species (<a href="#B40">Man and Pilpel, 2007</a>; <a href="#B25">Jiang et al., 2008</a>). In the current study, we generated the 241 Mb high-quality <i>E. salsugineum</i> genome sequence assembled at 8x coverage and compared it with <i>Arabidopsis thaliana</i> in terms of genome structures, protein-coding genes, microRNAs (miRNAs), stress-related pathways, and estimated translation efficiency of proteins.</p>
+   <a id="h3" name="h3"></a><h2>Materials and Methods</h2>
+   <h3 class="pt0">Estimation of the Divergence Time of <i>E. salsugineum</i> and <i>A. thaliana</i></h3>
+   <p class="mb0">To assess the relationships among published genomes in the <i>Brassicaceae</i> and the <i>E. salsugineum</i> genome, we inferred a phylogeny for 119 species in the family from chloroplastid (<i>ndhF</i>) and nuclear (<i>PHYA</i>) markers. Maximum likelihood phylogeny was inferred in RAxML using the GTRGAMMA algorithm. Subsequently, we combined the markers into a single data set, inferred the phylogeny, and assessed statistical support using the bootstrap method. Finally, we used the dating analysis of <a href="#B5">Beilstein et al. (2010)</a>, which was generated from the same two markers, to estimate the divergence times among the published genomes and <i>E. salsugineum</i>.</p>
+   <h3>Preparation of Plant Materials, DNA, and RNA Extraction</h3>
+   <p class="mb0">Seeds of <i>Eutrema salsugineum</i> (Pall.) Al-Shehbaz and Warwick, accession Shandong, were originally collected by Ziyi Cao in the Yellow River Delta area near Dongying City, Shandong province, China, at &#x0223C;37&#x000B0;19&#x02032;N and 118&#x000B0;28&#x02032;E, and were subsequently inbred for multiple generations. High molecular weight nuclei were isolated from aerial tissue of 4-week-old soil-grown plants using an established protocol (<a href="#B38">Luo and Wing, 2003</a>), and DNA was extracted using the Qiagen Genomic-tip System, modified for use with plant tissue<sup id="footnotesuper1"><a id="note1a"></a><a class="footnoteanchor" href="#note1">1</a></sup>. Five RNA libraries (CFGU, CFGW, CFHG, CFHH, CFHI) were generated from the following tissues for sequencing (all grown at 21&#x000B0;C under a light regime of 16 h light and 8 h dark): (1) 17-day-old whole seedlings grown on 0.1&#x000D7; Murashige and Skoog (MS) media (<a href="#B42">Murashige and Skoog, 1962</a>) and 1% sucrose; (2) combined roots and shoots of 5-week-old plants grown hydroponically in a nutrient solution (<a href="#B18">Gibeaut et al., 1997</a>) (modified by removing Na<sub>2</sub>O<sub>3</sub>Si); (3) combined roots and shoots of 5-week-old plants grown hydroponically in a nutrient solution (<a href="#B18">Gibeaut et al., 1997</a>) (modified by removing Na<sub>2</sub>O<sub>3</sub>Si), after 6 h of treatment with 225 mMNaCl; (4) aerial portions of 4-week-old plants grown in soil, after 6 h at 4&#x000B0;C; (5) flowers of 4-week-oldplants grown in soil. RNA was isolated using TRIzol<sup id="footnotesuper2"><a id="note2a"></a><a class="footnoteanchor" href="#note2">2</a></sup>.</p>
+   <h3>Identification of Orthologs between <i>A. thaliana</i> and <i>E. salsugineum</i></h3>
+   <p class="mb0">To identify orthologs between <i>A. thaliana</i> and <i>E. salsugineum</i>, protein sequences from the two species were compared using blastp, followed by calculating an overall identity between two aligned sequences using the BioPerl module (Bio::Search::Tiling::MapTiling) that merged the multiple aligned fragments from a pair of proteins to form a single alignment. The best-hits were determined with the highest overall identity. The homology distribution of the best-hits between <i>A. thaliana</i>, rice, and <i>E. salsugineum</i> showed that the majority of <i>A. thaliana</i> and <i>E. salsugineum</i> best-hit pairs peak at 85% while the majority of <i>A. thaliana</i> and rice pairs peak at 35%. The two distributions crossed at &#x0223C;60% identity. Thus, we used 30% identity as a low-homology cutoff and 60% identity as a high-homology cutoff.</p>
+   <h3>Genomic Synteny Analysis between <i>A. thaliana</i> and <i>E. salsugineum</i></h3>
+   <p class="mb0">We used i-ADHoRe to identify duplication events in each genome and genomic synteny between two genomes (<a href="#B48">Simillion et al., 2008</a>). Because a genomic segment containing the same group of genes might be duplicated multiple times, the multiply duplicated segments were merged as one multiplicon (<a href="#B48">Simillion et al., 2008</a>). Visualization of macro-synteny between the two species was performed using Circos plot (<a href="#B29">Krzywinski et al., 2009</a>).</p>
+   <h3>Assembly of the Seven Chromosomes Based on the Karyotype of <i>E. salsugineum</i></h3>
+   <p class="mb0">Based on the chromosomal comparative painting (CCP)-derived karyotype of <i>E. salsugineum</i>, we assembled the seven full chromosomes with consideration of the CentO repeats in the scaffolds to determine the scaffold orientations. We developed a program to automatically assign the scaffolds to the 24 ancestral genome blocks using <i>A. thaliana</i> orthologs mapped on the 25 scaffolds in <i>E. salsugineum</i>. Specifically, we first built a table of the 24 ancestral blocks, in which each block contains a group of <i>A. thaliana</i> genes assigned with a color-label and a letter-label (A to X) (<a href="#B47">Schranz et al., 2006</a>; <a href="#B41">Mandakova and Lysak, 2008</a>). Then, the protein sequences of <i>A. thaliana</i> genes were mapped to the 25 scaffolds in <i>E. salsugineum</i> using BLAT, followed by selection of the best aligned locations (<a href="#B26">Kent, 2002</a>). We developed a Java program to visualize <i>A. thaliana</i> genes mapped on the scaffolds displayed with the corresponding block-colors and block-labels. Third, the scaffolds with color-codes and letter-labels were automatically arranged according to the CCP-derived (<i>n</i> &#x0003D; 7) karyotype of <i>E. salsugineum</i> (<a href="#B41">Mandakova and Lysak, 2008</a>). Fourth, the scaffolds were connected as complete chromosomes. In case the observed discrepancies represent true lineage-specific genome rearrangement, we did not intentionally break any scaffold. Finally, we applied this workflow to the fully assembled genomes of <i>A. lyrata</i>, <i>A. thaliana</i>, <i>E. salsugineum</i>, and <i>S. parvula</i> to generate the digital karyotypes.</p>
+   <h3>F-Box Gene Superfamily Analysis</h3>
+   <p class="mb0">We identified F-box genes in the four genomes using HMMER (<a href="#B13">Eddy, 1998</a>). The total of 1,912 F-box genes in the four species were clustered using OrthoMCL (<a href="#B34">Li et al., 2003</a>). We identified 428 groups in which each group contains at least two F-box genes. To identify the lineage-specific F-box genes, we counted the numbers of F-box genes that originated from each species in each group. For instance in Figure <a href="#F6">6</a>B, the first group contains 11 F-box genes in <i>E. salsugineum</i> and zero homologous genes in the other three species, representing a family of highly lineage-specific F-box genes in <i>E. salsugineum</i>. To gain a global picture of the evolutionary pattern of F-box genes in the four species, the full-length F-box protein sequences and the &#x0223C;60 aa F-box domain sequences were separately aligned using ClustalX (<a href="#B52">Thompson et al., 1997</a>). Neighbor-joining tree plain files were fed to the APE package to draw the phylogenetic tree (<a href="#B46">Saitou and Nei, 1987</a>). We computed the proportion of tandemly duplicated F-box genes among the whole F-box superfamily in each species based on the criterion that tandemly duplicated pairs of two adjacent F-box genes were located less than 20 genes apart (<a href="#B59">Xu et al., 2009</a>).</p>
+   <a id="h4" name="h4"></a><h2>Results and Discussion</h2>
+   <h3 class="pt0">Phylogenetic Position of <i>E. salsugineum</i> in the <i>Brassicaceae</i></h3>
+   <p class="mb0">To infer the phylogenetic relationship of <i>E. salsugineum</i> with three other published genomes from the <i>Brassicaceae</i>, including <i>A. thaliana</i>, <i>A. lyrata</i>, and <i>Schrenkiella parvula</i>, we constructed a phylogenetic tree of 119 species in the family from chloroplastid (<i>ndhF</i>) and nuclear (<i>PHYA</i>) markers that have been previously used to provide resolution in the group (<a href="#B4">Beilstein et al., 2008</a>). The topologies resulting from the analysis of each marker were largely in agreement and, with respect to the placement of species with published genomes, the trees were fully congruent (Figure S1 in Supplementary Material). Thus, we combined the markers into a single data set, inferred phylogeny, and assessed statistical support using the bootstrap method. Finally, we used dating analyses to predict the ages of splits among the published genomes and <i>E. salsugineum</i> (<a href="#B5">Beilstein et al., 2010</a>). Our analyses indicate that <i>E. salsugineum</i> and <i>S. parvula</i> diverged from each other &#x0223C;38.4 million years ago (MYA), and that both genomes shared a common ancestor with <i>A. thaliana</i> and <i>A. lyrata</i> &#x0223C;43.2 MYA (Figure <a href="#F1">1</a>).</p>
+   <div class="DottedLine"></div>
+   <div class="Imageheaders">FIGURE 1</div>
+   <div class="FigureDesc">
+      <a href="https://www.frontiersin.org/files/Articles/45219/fpls-04-00046-HTML/image_m/fpls-04-00046-g001.jpg" name="figure1" target="_blank">
+         <img src="https://www.frontiersin.org/files/Articles/45219/fpls-04-00046-HTML/image_t/fpls-04-00046-g001.gif" id="F1" alt="www.frontiersin.org" /></a>
+      <p><strong>Figure 1. Abbreviated phylogeny of the <i>Brassicaceae</i> inferred from <i>ndhF</i> and <i>PHYA</i> sequence data shows the relationship and divergence times of the four species</strong>.</p>
+   </div>
+   <div class="clear"></div>
+   <div class="DottedLine"></div>
+   <p class="mb0 w100pc float_left mt15">The divergence time (43.2 MYA) between <i>E. salsugineum</i> and <i>A. thaliana</i> we estimated is much bigger than a previous estimate of 7&#x02013;12 MYA based on <a href="#B58">Wu et al. (2012)</a> analysis. Divergent dates between the two studies likely differ due to the use of alternative methodologies and density of taxon sampling. Results of phylogenetic analyses and molecular dating are known to be sensitive to both taxon sampling as well as the number and reliability of fossil calibration points used to date nodes in the inferred tree. Increased taxon sampling and the use of multiple fossil calibrations increase reliability in simulation studies of molecular dating. Wu et al. inferred dates using a tree with seven species spanning the monocot-dicot split and calibrated with only secondary calibration points (those inferred from other studies, not actual fossil dates). In contrast, our dates were inferred from a tree with a dense sampling of over 150 species in the order Brassicales (to which <i>Brassicaceae</i> belongs) using four distinct fossil calibrations. Moreover, our results showed that, despite the close relationship implied by historical nomenclature between <i>E. salsugineum</i> and <i>S. parvula</i> (formerly <i>Thellungiella parvula</i>), these two halophytes are much more distantly related than previously suggested. <i>E. salsugineum</i> is unequivocally a member of the genus <i>Eutrema</i>, while <i>S. parvula</i> represents the earliest diverging branch of Lineage II, and thus its genome serves as a reference point for the emerging <i>Brassica</i> genomes.</p>
+   <h3>Genome Sequencing and Assembly of <i>E. salsugineum</i></h3>
+   <p class="mb0">We provide a high-quality genome sequence of <i>E. salsugineum</i> at 8&#x000D7; coverage using a traditional Sanger sequencing-based whole-genome shotgun approach, which was based on a BAC library (average insertion size 130 kb) with read length ranging from 500 to 1000 bp. A total of 3,875,327 sequence reads (&#x0223C;8&#x000D7; coverage) were assembled using a modified version of <i>Arachne</i> (<a href="#B3">Batzoglou et al., 2002</a>) to form 1,107 scaffolds (4,292 contigs) with a scaffold L50 of 9.2 Mb, in total of 245.8 Mb of sequences (Table <a href="#T1">1</a>). The scaffolds were screened against bacterial proteins, organelle sequences, and GenBank non-redundant (NR) database to remove potential contamination. Additional scaffolds were removed if they consisted of &#x0003E;95% 24-mers that occurred four other times in scaffolds larger than 50 kb. To improve assembly contiguity, the 1,107 scaffolds were further joined using a combination of <i>A. thaliana</i> synteny and BAC and fosmid pair support. Specifically, <i>A. thaliana</i> cDNAs (33,413 total) obtained from Phytozome2 were aligned to the assembly of 1,107 scaffolds using BLAT (<a href="#B26">Kent, 2002</a>), and the best placement (based on cDNA identity) was selected to position the genes. Scaffolds were broken if they contained a linkage group change coincident with an area of low BAC/fosmid coverage. A total of seven breaks were made, resulting in 1,114 scaffolds in the broken assembly. <i>A. thaliana</i> cDNAs were placed on the broken scaffolds, and a total of 43 scaffolds (208.6 MB) contained significant cDNA alignments. Broken scaffolds were joined by leveraging <i>A. thaliana</i> synteny, combined with sufficient BAC/fosmid paired-end link support. Remaining scaffolds were classified into bins depending on sequence content, followed by classification as unanchored rDNA (101 scaffolds), mitochondrion (2 scaffolds), chloroplast (49 scaffolds), or repetitive (&#x0003E;95% masked with 24-mers that occur more than four times in the genome) (192 scaffolds). We also removed 105 scaffolds that were less than 1 kb in sequence length. The final release contains 639 scaffolds (243.1 Mb) of the <i>E. salsugineum</i> genome (Table <a href="#T2">2</a>). To assess the assembly accuracy, a set of 22 BAC clones were sequenced and aligned to the assembly using BLAT (<a href="#B26">Kent, 2002</a>). The alignments were of high-quality and the overall error rate in this group of clones is 0.17% (4,822 bp discrepant out of a possible 2,787,531 bp), which might be likely due to sequencing error. Therefore, the <i>E. salsugineum</i> genome presented in this study is of high-quality and approximately twice the size of the <i>A. thaliana</i> genome and &#x0223C;100 Mb bigger than the <i>S. parvula</i> genome, another published halophytic plant in <i>Brassicaceae</i> (<a href="#B9">Dassanayake et al., 2011</a>). Compared with another genome sequence of <i>E. salsugineum</i> [called as <i>Thellungiella salsuginea</i> by <a href="#B58">Wu et al. (2012)</a>] sequenced by Illumina sequencing technology with an average read size of 54 bp, the quality of our Sanger-based genome of <i>E. salsugineum</i> is substantially higher. In our <i>E. salsugineum</i> genome assembly, the N50 (L50) of contigs is 272 kb (256.1 kb) and the N50 (L50) of scaffolds is 8 Mb (13.4 Mb). The top 25 scaffolds (237 Mb) cover 97.4% of the <i>E. salsugineum</i> genome. The 35 scaffolds longer than 50 kb cover 98.3% of the genome. In contrast, the genome provided by <a href="#B58">Wu et al. (2012)</a> had a contig N50 &#x0003D; 3.2 kb and a scaffold N50 &#x0003D; 403 kb (<a href="#B58">Wu et al., 2012</a>).</p>
+   <div class="DottedLine"></div>
+   <div class="Imageheaders">TABLE 1</div>
+   <div class="FigureDesc">
+      <a href="https://www.frontiersin.org/files/Articles/45219/fpls-04-00046-HTML/image_m/fpls-04-00046-t001.jpg" name="Table1" target="_blank">
+         <img src="https://www.frontiersin.org/files/Articles/45219/fpls-04-00046-HTML/image_t/fpls-04-00046-t001.gif" id="T1" alt="www.frontiersin.org" /></a>
+      <p><strong>Table 1</strong>. <strong>Summary statistics of the output of the whole-genome assembly prior to screening, removal of organelles, and contaminating scaffolds and chromosome-scale pseudomolecule construction</strong>.</p>
+   </div>
+   <div class="clear"></div>
+   <div class="DottedLine mb15"></div>
+   <div class="Imageheaders">TABLE 2</div>
+   <div class="FigureDesc">
+      <a href="https://www.frontiersin.org/files/Articles/45219/fpls-04-00046-HTML/image_m/fpls-04-00046-t002.jpg" name="Table2" target="_blank">
+         <img src="https://www.frontiersin.org/files/Articles/45219/fpls-04-00046-HTML/image_t/fpls-04-00046-t002.gif" id="T2" alt="www.frontiersin.org" /></a>
+      <p><strong>Table 2</strong>. <strong>Final summary assembly statistics for chromosome-scale assembly</strong>.</p>
+   </div>
+   <div class="clear"></div>
+   <div class="DottedLine"></div>
+   <h3>EST Assembly and Gene Annotation</h3>
+   <p class="mb15">To facilitate gene prediction in <i>E. salsugineum</i>, we also constructed five RNA libraries generated from the tissues for sequencing (see Materials and Methods). Completeness of the resulting assembly was assessed using 1,138,639 454 ESTs. The aim of this analysis was to obtain a measure of completeness of the assembly, rather than a comprehensive examination of gene expression abundance. Briefly, ESTs &#x0003C; 200 bps were removed, along with all duplicate ESTs to avoid bias. The remaining ESTs were placed against the genome using BLAT and the resulting placements were screened for alignments that were &#x02265;90% identity and &#x02265;85% EST coverage. The screened alignments indicate that 98.76% of available expressed gene loci were included in the assembly.</p>
+   <p class="mb0">Gene annotation was accomplished using combinatory homology-based searches, <i>ab initio</i> Genome Scan and FgeneSH prediction, and 454-collected ESTs. Specifically, protein sequences from angiosperm plants and the 61,797 EST sequences in <i>E. salsugineum</i> were aligned to the scaffolds to determine the potential coding open reading frames (ORFs). Then, the candidate genomic regions extended by 2 kb in each direction from the center of aligned ORFs were submitted to Genome Scan and FgeneSH to predict full-length protein-coding genes. The initial 8&#x000D7; mapped <i>E. salsugineum</i> genome assembly, 454-collected ESTs and the gene annotation can be found at <a href="http://www.phytozome.net">http://www.phytozome.net</a> in the category of <i>Thellungiella halophila</i> (Salt cress). Gene annotation resulted in a total of 26,531 NR protein-coding genes (Table <a href="#T3">3</a>). Repeat-masking performed on the 639 gap-free scaffolds identified 51.4% of the genome as repetitive sequences. Orthologs between <i>E. salsugineum</i> and <i>A. thaliana</i> were identified by protein-level comparison, with rice genes as contrast to determine the homology cutoff (Figure <a href="#F2">2</a>A). Two distinct peaks at &#x0223C;85% and &#x0223C;35% identity were observed from the homology distributions of <i>E. salsugineum</i> and rice in comparison to <i>A. thaliana</i>, respectively (Figure <a href="#F2">2</a>A). Thus, 30 and 60% overall amino acid identity were used as low- and high-homology cutoffs, respectively. Over 80% of <i>E. salsugineum</i> genes have high-homology orthologs in <i>A. thaliana</i> (Figure <a href="#F2">2</a>B). We used i-ADHoRe (<a href="#B48">Simillion et al., 2008</a>) to infer genomic synteny between <i>E. salsugineum</i> and <i>A. thaliana</i> based on low-homology orthologs, and identified a similar amount of segmental duplications and syntenic regions, showing that nearly 77.2% of the <i>E. salsugineum</i> genome is in synteny with 80.2% of the <i>A. thaliana</i> genome, covering 87.7% of genes in the <i>E. salsugineum</i> genome and 82% of genes in <i>A. thaliana</i> (Table <a href="#T4">4</a>).</p>
+   <div class="DottedLine"></div>
+   <div class="Imageheaders">TABLE 3</div>
+   <div class="FigureDesc">
+      <a href="https://www.frontiersin.org/files/Articles/45219/fpls-04-00046-HTML/image_m/fpls-04-00046-t003.jpg" name="Table3" target="_blank">
+         <img src="https://www.frontiersin.org/files/Articles/45219/fpls-04-00046-HTML/image_t/fpls-04-00046-t003.gif" id="T3" alt="www.frontiersin.org" /></a>
+      <p><strong>Table 3</strong>. <strong>Statistics of predicted genes in <i>E. salsugineu</i> <i>m</i></strong>.</p>
+   </div>
+   <div class="clear"></div>
+   <div class="DottedLine mb15"></div>
+   <div class="Imageheaders">FIGURE 2</div>
+   <div class="FigureDesc">
+      <a href="https://www.frontiersin.org/files/Articles/45219/fpls-04-00046-HTML/image_m/fpls-04-00046-g002.jpg" name="figure2" target="_blank">
+         <img src="https://www.frontiersin.org/files/Articles/45219/fpls-04-00046-HTML/image_t/fpls-04-00046-g002.gif" id="F2" alt="www.frontiersin.org" /></a>
+      <p><strong>Figure 2. Determination of homology cutoff</strong>. <strong>(A)</strong> Protein-level homology distributions of <i>E. salsugineum</i> and rice genes against <i>A. thaliana</i> genes. <strong>(B)</strong> Cumulative percentage of orthologs in <i>E. salsugineum</i> and rice compared to <i>A. thaliana</i>.</p>
+   </div>
+   <div class="clear"></div>
+   <div class="DottedLine mb15"></div>
+   <div class="Imageheaders">TABLE 4</div>
+   <div class="FigureDesc">
+      <a href="https://www.frontiersin.org/files/Articles/45219/fpls-04-00046-HTML/image_m/fpls-04-00046-t004.jpg" name="Table4" target="_blank">
+         <img src="https://www.frontiersin.org/files/Articles/45219/fpls-04-00046-HTML/image_t/fpls-04-00046-t004.gif" id="T4" alt="www.frontiersin.org" /></a>
+      <p><strong>Table 4</strong>. <strong>Identification of duplication events in each genome and genomic synteny between <i>A. thaliana</i> and <i>E. salsugineum</i></strong>.</p>
+   </div>
+   <div class="clear"></div>
+   <div class="DottedLine"></div>
+   <h3>High Repeat Content in the <i>E. salsugineum</i> Genome</h3>
+   <p class="mb0">Visualization of the macro-synteny between the top 25 scaffolds in <i>E. salsugineum</i> (S1&#x02013;S25) and the five chromosomes in <i>A. thaliana</i> (<i>At</i>Chr1-5) revealed uneven distributions of genes and repeats across certain scaffolds (Figure <a href="#F3">3</a>A and Figure S2 in Supplementary Material). To infer the scaffold orientations, we searched for centromere-specific CentO satellite tandem repeats that were used to determine the centromeric ends of scaffolds (<a href="#B33">Lee et al., 2006</a>). A 177-bp motif (<i>Es</i>CentO) was found tandemly repeated over 500,000 times in <i>E. salsugineum</i>, sharing a similar AT-rich pattern with the 178-bp CentO repeats in <i>A. thaliana</i> (<a href="#B30">Kumekawa et al., 2000</a>, <a href="#B31">2001</a>) (Figure S3 in Supplementary Material). The <i>Es</i>CentOs are abundant among the short scaffolds below 10 kb and often located at one terminus of a large scaffold, indicating <i>de novo</i> genome assembly was mostly interrupted at the edges of core centromeres (Figure S3 in Supplementary Material). To further examine if the highly repetitive sequences in the scaffolds may form continuous heterochromatin or just were dispersed in the chromosomes, we compared scaffolds 5, 23, 7, 8, and 9 with their syntenic chromosomes in <i>A. thaliana</i> (<i>At</i>Chr). While S5, S23, and S7 consecutively linked as one piece of 31.5 Mb sequence corresponded to the first 20 Mb of <i>At</i>Chr1, S8 and S9 in total of 26.3 Mb corresponded to the other 10 Mb of <i>At</i>Chr1 (Figure <a href="#F3">3</a>B). Scaffolds S3 and S1 were inversely arranged in synteny with the short-arm and long-arm of <i>At</i>Chr4, respectively (Figure <a href="#F3">3</a>C). While S3 consists of 3 Mb gene-rich and 15 Mb repeat-rich regions, in S1 a 10-Mbrepeat-rich half is followed by a 12 Mb gene-rich half (Figure <a href="#F3">3</a>C). As multiple heterochromatic knobs adjacent to centromeres were observed in the CCP-derived karyotype of <i>E. salsugineum</i>, we speculated that the 25 Mb repeat-rich sequence might correspond to pericentromeric heterochromatin in the <i>E. salsugineum</i> karyotype (<a href="#B41">Mandakova and Lysak, 2008</a>).</p>
+   <div class="DottedLine"></div>
+   <div class="Imageheaders">FIGURE 3</div>
+   <div class="FigureDesc">
+      <a href="https://www.frontiersin.org/files/Articles/45219/fpls-04-00046-HTML/image_m/fpls-04-00046-g003.jpg" name="figure3" target="_blank">
+         <img src="https://www.frontiersin.org/files/Articles/45219/fpls-04-00046-HTML/image_t/fpls-04-00046-g003.gif" id="F3" alt="www.frontiersin.org" /></a>
+      <p><strong>Figure 3. Dramatic expansion of pericentromeric heterochromatin in <i>E. salsugineum</i></strong>. <strong>(A)</strong> Macro-synteny between the 25 largest scaffolds in <i>E. salsugineum</i> and the five chromosomes in <i>A. thaliana</i>. <strong>(B)</strong> Scaffolds 5, 7, 8, 9 are in synteny with <i>At</i> Chr1. <strong>(C)</strong> Scaffolds S1 and S3 are in synteny with <i>At</i>Chr4.</p>
+   </div>
+   <div class="clear"></div>
+   <div class="DottedLine"></div>
+   <p class="mb0 w100pc float_left mt15">Genome size evolution in plants is highly correlated with the activity of transposable elements (TEs) (<a href="#B56">Wright and Agren, 2011</a>). Moreover, because environmental stresses can activate excessive TE transposition that may cause damage of genome integrity by inserting into protein-coding regions, the negative effect of TEs should be more efficiently tolerated by halophytes (salt-tolerant plants) than glycophytes (salt-sensitive plants) (<a href="#B54">Wessler, 1996</a>; <a href="#B15">Fedoroff, 2000</a>). In comparison with the relatively smaller centromere and pericentromere in the <i>A. thaliana</i> genome, the dramatic expansion of pericentromeric heterochromatin in <i>E. salsugineum</i>, which was also reported in <a href="#B58">Wu et al. (2012)</a> study, may be due to stress-induced activation of TEs. This difference of the genome structure and genome size between <i>E. salsugineum</i> and <i>A. thaliana</i> suggests that the salt-tolerant halophytic species may have evolved particular evolutionary and/or molecular mechanism to better tolerate the excessive TE transpositions induced by environmental stress than the salt-sensitive glycophytic species.</p>
+   <h3>Digital Karyotypes of the Four Published <i>Brassicaceae</i> Genomes</h3>
+   <p class="mb0">Due to the absence of a genetic map for <i>E. salsugineum</i>, assembly of the seven complete chromosomes was based on the (<i>n</i> &#x0003D; 7) experimentally derived karyotype of <i>E. salsugineum</i> (see Materials and Methods) (<a href="#B41">Mandakova and Lysak, 2008</a>). The <i>A. lyrata</i> genome represents the ancestral (<i>n</i> &#x0003D; 8) karyotype for much of the <i>Brassicaceae</i>, consisting of 24 conserved chromosomal blocks designated A&#x02013;X (<a href="#B47">Schranz et al., 2006</a>; <a href="#B41">Mandakova and Lysak, 2008</a>). Each block includes a set of <i>A. thaliana</i> genes in synteny with their orthologs in other <i>Brassicaceae</i> species (<a href="#B47">Schranz et al., 2006</a>; <a href="#B41">Mandakova and Lysak, 2008</a>). We developed a bioinformatic tool KGB assembler to finish the assembly of complete chromosomes of <i>Brassicaceae</i> species from the scaffold sequences according to the experimentally derived karyotypes provided by users (<a href="#B39">Ma et al., 2012</a>). Specifically, the scaffolds of <i>E. salsugineum</i> were automatically assigned to the 24 ancestral genome blocks based on the order of the <i>A. thaliana</i> genes mapped on the scaffold sequences. Then, the syntenic regions were visualized with the corresponding block-colors and block-labels associated with the <i>A. thaliana</i> genes, followed by manual adjustment of the scaffolds on each chromosome according to the block layouts in the <i>E. salsugineum</i> karyotype. The positions of <i>Es</i>CentO repeats and the density of genes and repeats on the scaffolds were also considered to ensure the correct orientations of scaffolds, since genomic inversions may exist between <i>E. salsugineum</i> and <i>A. thaliana</i>. Based on this analysis, we generated the <i>in silico</i> karyotypes of <i>E. salsugineum</i>, <i>A. thaliana</i>, <i>A. lyrata</i>, and <i>S. parvula</i> to visually inspect the four genome assemblies (Figure <a href="#F4">4</a>). The arrangements of the 24 blocks in <i>A. lyrata</i> and <i>A. thaliana</i> are consistent with the CCP-derived karyotypes, except that a &#x0223C;1 Mb region in the D-block of <i>Al</i>Chr2 is located on <i>Al</i>Chr1 (Figures <a href="#F4">4</a>A,B). In <i>S. parvula</i>, two discrepancies were observed, including a flip of the M-block and N-block on <i>Sp</i>Chr2 and an inverse order of the V- to X-blocks on <i>Sp</i>Chr5, which were likely due to assembly errors in the second version of the genome release (Figure <a href="#F4">4</a>C). The <i>E. salsugineum</i> karyotype had parts of the M-block on <i>Es</i>Chr5 and <i>Es</i>Chr3 and parts of H-block on <i>Es</i>Chr3 and <i>Es</i>Chr4 (Figure <a href="#F4">4</a>D). These digital karyotypes provide a starting point to facilitate the improvement of genome assembling in future.</p>
+   <div class="DottedLine"></div>
+   <div class="Imageheaders">FIGURE 4</div>
+   <div class="FigureDesc">
+      <a href="https://www.frontiersin.org/files/Articles/45219/fpls-04-00046-HTML/image_m/fpls-04-00046-g004.jpg" name="figure4" target="_blank">
+         <img src="https://www.frontiersin.org/files/Articles/45219/fpls-04-00046-HTML/image_t/fpls-04-00046-g004.gif" id="F4" alt="www.frontiersin.org" /></a>
+      <p><strong>Figure 4. The digital karyotypes of the <i>A. lyrata</i> (A), <i>A. thaliana</i> (B), <i>S. parvula</i> (C), and <i>E. salsugineum</i> (D) genomes</strong>.</p>
+   </div>
+   <div class="clear"></div>
+   <div class="DottedLine"></div>
+   <h3>Amplification of the F-Box Gene Family in <i>E. salsugineum via</i> Tandem Duplication</h3>
+   <p class="mb0">Based on the finalized genome assembly, we created a chromosome-scale synteny map to illustrate genomic rearrangements between <i>E. salsugineum</i> and <i>A. thaliana</i> based on the low-homology ortholog pairs (Figure <a href="#F5">5</a>). A syntenic block covering a &#x0223C;5 Mb region on <i>At</i>Chr3 and a &#x0223C;15 Mb region on <i>Es</i>Chr3 includes 59 and 78 tandemly arrayed F-box genes in <i>A. thaliana</i> and in <i>E. salsugineum</i>, respectively (Figure <a href="#F5">5</a>). Phylogenetic analysis of these 137 F-box genes in the two species revealed that <i>E. salsugineum</i> contains more lineage-specific F-box genes derived from tandem duplication (Figure <a href="#F5">5</a>). In plants, F-box genes comprise a rapidly evolving superfamily encoding a subunit of the SCF complex, an E3 ubiquitin ligase catalyzing substrate-specific protein degradation (<a href="#B59">Xu et al., 2009</a>). To examine whether the F-box gene families are substantially different among the <i>Brassicaceae</i> species, we included the other two <i>Brassicaceae</i> species with complete genome sequences. We identified 613, 505, 602, and 192 F-box genes in <i>E. salsugineum</i>, <i>A. thaliana</i>, <i>A. lyrata</i>, and <i>S. parvula</i>, respectively (Figure <a href="#F6">6</a>A). Among the four species, <i>E. salsugineum</i> contains the highest proportion (&#x0223C;55%) of tandemly duplicated F-box genes, while <i>S. parvula</i> contains the lowest (Figure <a href="#F6">6</a>A). To identify lineage-specific F-box genes for each species, we clustered protein sequences of the 1,912 F-box genes using OrthoMCL (<a href="#B34">Li et al., 2003</a>), and identified 428 groups with a minimum of two F-box genes in one group (Figure <a href="#F6">6</a>B). Because the only well-conserved region among all the F-box genes is the F-box domain (&#x0223C;60 amino acids), the high sequence divergence in the remainder of the F-box genes resulted in a high number of clusters of homologous genes. Genes clustered together in the same species may be indicative of lineage-specific F-box gene proliferation. Phylogenetic analysis based on both the complete gene sequences and the F-box domains revealed that <i>E. salsugineum</i> contains the highest number of species-specific F-box genes among the four species (Figure <a href="#F6">6</a>C). The numbers of F-box gene super-families have been reported to be highly variable in plants (<a href="#B59">Xu et al., 2009</a>). While there is no substantial difference in terms of copy number variations of F-box genes between salt-tolerant <i>E. salsugineum</i> and salt-sensitive <i>A. lyrata</i>, the number of F-box genes in salt-tolerant <i>S. parvula</i> is significantly different from <i>E. salsugineum</i>. Thus, whether the different contents of F-box genes and the biological consequence of either amplification or contraction of F-box genes in halophytic plants is correlated with its tolerance to salinity requires further investigation.</p>
+   <div class="DottedLine"></div>
+   <div class="Imageheaders">FIGURE 5</div>
+   <div class="FigureDesc">
+      <a href="https://www.frontiersin.org/files/Articles/45219/fpls-04-00046-HTML/image_m/fpls-04-00046-g005.jpg" name="figure5" target="_blank">
+         <img src="https://www.frontiersin.org/files/Articles/45219/fpls-04-00046-HTML/image_t/fpls-04-00046-g005.gif" id="F5" alt="www.frontiersin.org" /></a>
+      <p><strong>Figure 5. Chromosome-scale synteny between <i>A. thaliana</i> and <i>E. salsugineum</i></strong>. Each dot represents a pair of orthologs between <i>A. thaliana</i> and <i>E. salsugineum</i>. Red dots, macro-synteny orthologs. Blue dots, tandemly duplicated orthologs. Green dots, background noise.</p>
+   </div>
+   <div class="clear"></div>
+   <div class="DottedLine mb15"></div>
+   <div class="Imageheaders">FIGURE 6</div>
+   <div class="FigureDesc">
+      <a href="https://www.frontiersin.org/files/Articles/45219/fpls-04-00046-HTML/image_m/fpls-04-00046-g006.jpg" name="figure6" target="_blank">
+         <img src="https://www.frontiersin.org/files/Articles/45219/fpls-04-00046-HTML/image_t/fpls-04-00046-g006.gif" id="F6" alt="www.frontiersin.org" /></a>
+      <p><strong>Figure 6. Expansion of F-box gene family in <i>E. salsugineum</i></strong>. <strong>(A)</strong> Tandem duplications contribute to F-box gene family expansion. <strong>(B)</strong> The lineage-specific F-box genes in the four species. A total of 1,912 orthologous F-box genes in the four species were clustered to 428 clusters with at least two F-box genes. <strong>(C)</strong> Phylogenetic tree analysis of the total of &#x0223C;1900 F-box genes identified in the four species. The tree on the right was built based on the &#x0223C;60-aa F-box domain. Four <i>E. salsugineum</i> specific F-box clades were numbered by 1&#x02013;4. The tree on the left was built based on the alignment of full CDS sequences of F-box genes in the four species.</p>
+   </div>
+   <div class="clear"></div>
+   <div class="DottedLine"></div>
+   <h3>Similar Copy Number of Gene Families between <i>E. salsugineum</i> and <i>A. thaliana</i></h3>
+   <p class="mb0">Gene duplication is recognized as a pivotal driving force for stress-adaptive evolution (<a href="#B22">Hittinger and Carroll, 2007</a>; <a href="#B10">Deng et al., 2010</a>). Gene copies arising from whole-genome duplication event may be either lost or develop new biological functions, which can be inferred from their differential expression patterns (<a href="#B14">Fang et al., 2012</a>; <a href="#B16">Ford et al., 2012</a>). We therefore compared gene copy number in families of transcription factors (TFs) and the families of SOS-like genes in <i>E. salsugineum</i> and <i>A. thaliana</i>. Most TF gene families contain equal or near-equal numbers (Figure S4 in Supplementary Material). Analysis of the <i>SOS</i>-like genes including <i>Cation/H&#43;Exchanger (CHX)</i>, <i>Calcineurin B-Like Interacting Protein Kinase</i> (<i>CIPK</i>), <i>Calcium Dependent Protein Kinase</i> (<i>CDPK</i>), <i>Calcineurin B-Like</i> (<i>CBL</i>), and antiporter families revealed that, in most cases, <i>A. thaliana</i> has more copies than <i>E. salsugineum</i> (Figure <a href="#F7">7</a>A and Table S1 in Supplementary Material). Moreover, most extra copies of the <i>SOS</i>-like genes in <i>A. thaliana</i> originated <i>via</i> tandem duplication (Figure <a href="#F7">7</a>B). When we searched for expanded gene families among all the functional categories, we found that the only class showing statistically higher enrichment in <i>E. salsugineum</i> compared to <i>A. thaliana</i> was &#x0201C;ubiquitin-dependent protein modification&#x0201D; (Figure <a href="#F7">7</a>C and Figure S5 in Supplementary Material). This result is consistent with the observed amplification of the F-box gene family in <i>E. salsugineum</i>, since the function of certain subfamilies of F-box genes is to recognize specific substrates in ubiquitin-dependent protein degradation pathways. As certain members of the F-box family are involved in stress-response pathways, functional analyses of the duplicated F-box genes in <i>E. salsugineum</i> will determine whether the lineage-specific proliferation of F-box genes in <i>E. salsugineum</i> contributes to stress-tolerance (<a href="#B17">Gagne et al., 2002</a>).</p>
+   <div class="DottedLine"></div>
+   <div class="Imageheaders">FIGURE 7</div>
+   <div class="FigureDesc">
+      <a href="https://www.frontiersin.org/files/Articles/45219/fpls-04-00046-HTML/image_m/fpls-04-00046-g007.jpg" name="figure7" target="_blank">
+         <img src="https://www.frontiersin.org/files/Articles/45219/fpls-04-00046-HTML/image_t/fpls-04-00046-g007.gif" id="F7" alt="www.frontiersin.org" /></a>
+      <p><strong>Figure 7. (A)</strong> The composition of SOS-like gene families is similar in <i>A. thaliana</i> and <i>E. salsugineum</i>. <strong>(B)</strong> A genomic region on <i>At</i>Chr4 shows two tandem duplication events in <i>A. thaliana</i> increasing the gene dosage of the <i>At</i>CDPK family. <strong>(C)</strong> The genes involved in &#x0201C;ubiquitin-dependent protein modification&#x0201D; are more enriched in <i>E. salsugineum</i> than in <i>A. thaliana</i>.</p>
+   </div>
+   <div class="clear"></div>
+   <div class="DottedLine"></div>
+   <h3>Stress-Related MicroRNAs Subject to Tandem Duplication</h3>
+   <p class="mb0">MicroRNAs have been frequently reported as critical posttranscriptional regulators of stress-response pathways in both plants and animals. To determine whether stress-related miRNA families are also subject to duplication, we computationally predicted the genomic loci encoding miRNAs in the <i>E. salsugineum</i> genome and compared them with <i>A. thaliana</i> miRNAs. Because currently there is no available small RNA sequencing data, our computational prediction of miRNA loci in <i>E. salsugineum</i> may only identify the highly conserved miRNA families between <i>E. salsugineum</i> and <i>A. thaliana</i>. First, the mature miRNA sequences in <i>A. thaliana</i> obtained from miRBase were mapped to the genome sequence of <i>E. salsugineum</i> by Bowtie (<a href="#B32">Langmead et al., 2009</a>). Then the pre-miRNA hairpins in <i>E. salsugineum</i> were predicted by miRDeep-p, a suite of tools that have been optimized based on the characteristics of pre-miRNA hairpins in plants (<a href="#B61">Yang and Li, 2011</a>). At last, the predicted pre-miRNA hairpins were manually examined to identify <i>bona fide</i> miRNA genes in <i>E. salsugineum</i> according to the secondary structures of candidate pre-miRNA hairs. We identified 141 high-confidence miRNA-encoding loci in <i>E. salsugineum</i>, corresponding to 151 miRNA loci <i>in A. thaliana</i> (Table S2 in Supplementary Materials). Additionally, seven genomic regions containing <i>A. thaliana</i> mature miRNA sequences in <i>E. salsugineum</i> showed ambiguous hairpin structures. As expected, we found expansion of numerous previously reported stress-related miRNAs in <i>E. salsugineum</i>, with potential gene targets in a wide range of stress-related pathways. For instance, four copies of miR164 (miR164a to miR164d) were identified in <i>E. salsugineum</i> while three copies were found in <i>A. thaliana</i>, which have been reported to post-transcriptionally regulate mRNA transcripts of NAC, a transcription factor required for ABA-independent pathway in response to a variety of abiotic stresses (<a href="#B28">Kim et al., 2009</a>). Another miRNA family MIR167 targeting genes encoding Auxin response factor (ARF) has six members (MIR167a to MIR167f) in <i>E. salsugineum</i> but four members (MIRR167a to MIR167d) in <i>A. thaliana</i> (<a href="#B45">Rhoades et al., 2002</a>). A number of miRNA genes showed tandem duplication patterns in <i>E. salsugineum</i>, including MIR168a and MIR399a which were tandemly duplicated four times on <i>Es</i>Chr7 and <i>Es</i>Chr1, respectively (Figure <a href="#F8">8</a> and Table S2 in Supplementary Material). While miR168a targets <i>ARGONAUTE 1</i> (<i>AGO1</i>) acting as a negative-feedback mediator to control <i>AGO1</i> expression, miR399a is stress-inducible and targets <i>PHO2</i> transcripts which encode E2 ubiquitin-conjugating enzymes (<a href="#B36">Lin et al., 2008</a>; <a href="#B35">Li et al., 2012</a>).</p>
+   <div class="DottedLine"></div>
+   <div class="Imageheaders">FIGURE 8</div>
+   <div class="FigureDesc">
+      <a href="https://www.frontiersin.org/files/Articles/45219/fpls-04-00046-HTML/image_m/fpls-04-00046-g008.jpg" name="figure8" target="_blank">
+         <img src="https://www.frontiersin.org/files/Articles/45219/fpls-04-00046-HTML/image_t/fpls-04-00046-g008.gif" id="F8" alt="www.frontiersin.org" /></a>
+      <p><strong>Figure 8. Tandemly duplicated stress-related miRNAs in <i>E. salsugineum</i></strong>. <strong>(A)</strong> The hairpin structures of ath-MIR399a and ath-MIR168a in <i>A. thaliana</i>, and the four copies of esa-MIR399a and esa-MIR168a miRNA precursors in <i>E. salsugineum</i>. <strong>(B)</strong> Copy number variation of stress-related microRNA genes MIR399a and MIR168a between <i>A. thaliana</i> and <i>E. salsugineum</i>.</p>
+   </div>
+   <div class="clear"></div>
+   <div class="DottedLine"></div>
+   <h3>High Translational Efficiency of Transportation-Related Genes in <i>E. salsugineum</i></h3>
+   <p class="mb0">To determine whether variation in translational efficiency of messenger RNAs to proteins caused by codon usage bias may contribute to the ability of <i>E. salsugineum</i> to tolerate extreme environments, we computed the tRNA adaptation index (tAI) among the gene families in the two species for each orthologous gene using the codon R software (<a href="#B12">dos Reis et al., 2004</a>). Specifically, the tRNA pool was first obtained by running tRNAs can-SE software in the two genomes (<a href="#B37">Lowe and Eddy, 1997</a>). Then, based on the classes of tRNAs, codon usage bias for each gene was computed (Figure <a href="#F9">9</a>A). Although the codon usage biases (tAIs) of the orthologs between <i>A. thaliana</i> and <i>E. salsugineum</i> were globally similar, we also observed that there were more genes with higher tAT in <i>E. salsugineum</i> than those in <i>A. thaliana</i>, indicating a group of genes in <i>E. salsugineum</i> may be more efficiently translated than their orthologs in <i>A. thaliana</i> (Figure <a href="#F9">9</a>A). Subsequently, we performed a Wilcoxon rank-sum test to identify the specific gene families whose members showed significantly increased translation rates in <i>E. salsugineum</i> relative to those in <i>A. thaliana</i>. Our analysis identified 21 gene families showing significantly higher translational rates (<i>p</i> &#x02265; 0.05) in <i>E. salsugineum</i> than in <i>A. thaliana</i>, including a variety of membrane-associated transporter families and certain TFs, such as ABC transporters, antiporters as well as a variety of membrane-associated proteins (Figure <a href="#F9">9</a>B and Table S3 in Supplementary Material). However, among the core SOS-like gene families, such as CBL family, CDPK family, and CIPK family, no similar trend was observed (Figure <a href="#F9">9</a>B). These results suggest that the translation of proteins related to ion transportation in <i>E. salsugineum</i> may be more efficient than in <i>A. thaliana</i>, which may result in a quick response to stress through biased codon usage.</p>
+   <div class="DottedLine"></div>
+   <div class="Imageheaders">FIGURE 9</div>
+   <div class="FigureDesc">
+      <a href="https://www.frontiersin.org/files/Articles/45219/fpls-04-00046-HTML/image_m/fpls-04-00046-g009.jpg" name="figure9" target="_blank">
+         <img src="https://www.frontiersin.org/files/Articles/45219/fpls-04-00046-HTML/image_t/fpls-04-00046-g009.gif" id="F9" alt="www.frontiersin.org" /></a>
+      <p><strong>Figure 9. High translational efficiency of transportation-related genes in <i>E. salsugineum</i></strong>. <strong>(A)</strong> Kernel density plot showing the globally similar codon usage bias (tAI) between <i>A. thaliana</i> and <i>E. salsugineum</i>. The x- and y-axis denote the tAI coefficient of genes. <strong>(B)</strong> Comparison of codon usage bias (tAI) of genes in terms of functional categories.</p>
+   </div>
+   <div class="clear"></div>
+   <div class="DottedLine"></div>
+   <a id="h5" name="h5"></a><h2>Conclusion</h2>
+   <p class="mb0">In this study, we present the whole-genome sequence of <i>E. salsugineum</i> and compare it to the published genome of <i>A. thaliana</i>. Our analyses collectively suggest that the stress-tolerance of <i>E. salsugineum</i> is unlikely to be determined by variation in a few genes; rather, a global network adjustment of multiple regulatory mechanisms, involving transcriptional, posttranscriptional, translational, and posttranslational systems, may be responsible for its adaptation to extreme environments. As a consequence, a spectrum of changes in life cycle, morphology, cellular components, and molecular pathways result in adaptation of <i>E. salsugineum</i> to environmental stresses (<a href="#B20">Gong et al., 2005</a>; <a href="#B55">Wong et al., 2006</a>; <a href="#B1">Amtmann, 2009</a>; <a href="#B6">Bouchereau et al., 2010</a>; <a href="#B43">Oh et al., 2010</a>).</p>
+   <a id="h6" name="h6"></a><h2>Accession</h2>
+   <p class="mb0">This Whole-Genome Shotgun project has been deposited at NCBI GenBank under the accession PRJNA73205. The version described in this paper is the first version. Genome annotation of <i>E. salsugineum</i> is publically available at <a href="http://www.phytozome.net">http://www.phytozome.net</a> in the category of <i>Thellungiella halophila</i> (Salt cress).</p>
+   <a id="h7" name="h7"></a><h2>Authors Contribution</h2>
+   <p class="mb0">Karen S. Schumaker, Rod A. Wing, and Thomas Mitchell-Olds conceived the project; David E. Jarvis prepared the plant materials and the samples; Jeremy Schmutz, Jane Grimwood, and Jerry Jenkins sequenced and assembled the genome; Simon Prochnik and ShengQiang Shu annotated the genome. Ruolin Yang, Hao Chen, Xiangfeng Wang, Chuang Ma, Mingming Xin, analyzed the data; and Xiangfeng Wang, Ruolin Yang, Karen S. Schumaker, David E. Jarvis, and Mark A. Beilstein wrote the manuscript with contributions from all authors.</p>
+   <a id="h8" name="h8"></a><h2>Conflict of Interest Statement</h2>
+   <p class="mb0">The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p>
+   <a id="h9" name="h9"></a><h2>Acknowledgments</h2>
+   <p class="mb15">The genome sequencing, assembly, and annotation conducted by the U.S. Department of Energy Joint Genome Institute is supported by the Office of Science of the U.S. Department of Energy under Contract No. DE-AC02-05CH11231.We thank Kerrie Barry for project management and support at the JGI. Thomas Mitchell-Olds was supported by NIH grant R01GM086496. We are also grateful to Dr. Stephen Wright for helpful comments on the manuscript.</p>
+   <a id="h10" name="h10"></a><h2>Supplementary Material</h2>
+   <p class="mb15">The Supplementary Material for this article can be found online at <a href="http://www.frontiersin.org/Plant_Genetics_and_Genomics/10.3389/fpls.2013.00046/abstract">http://www.frontiersin.org/Plant_Genetics_and_Genomics/10.3389/fpls.2013.00046/abstract</a></p>
+   <p class="mb15"><strong>Table S1. Lists of orthologs of stress-related SOS (Salt-Overly Sensitive) gene families</strong>. The genes in red indicate the tandem duplications. The <i>E. salsugineum</i> genes marked with asterisks indicates two copies in <i>A. thaliana</i> correspond to one copy in <i>E. salsugineum</i>.</p>
+   <p class="mb15"><strong>Table S2. microRNA gene families related to stress-response pathways computationally predicted in <i>E. salsugineum</i></strong>.</p>
+   <p class="mb15"><strong>Table S3. Comparison of translational efficiency among the gene families between the <i>A. thaliana</i> and <i>E. salsugineum</i></strong>.</p>
+   <p class="mb15"><strong>Figure S1. Maximum likelihood phylogeny inferred in RAxML 7.2.8 using the GTRGAMMA algorithm</strong>. The alignment comprised <i>ndh</i>F (2016 bp) and <i>PHYA</i> (1731 bp) sequences for 119 species of <i>Brassicaceae</i> and two outgroups in <i>Cleomaceae</i>. The data were partitioned by gene, and thus each partition was permitted to evolve independently. Numbers above nodes are likelihood bootstrap values from 100 replicates. Highlighted bootstrap values show the distinct placements of <i>Schrenkiella parvula</i> (formerly <i>Eutrema parvulum</i>) and <i>Eutrema salsugineum</i> (formerly <i>Thellungiella halophila</i>).</p>
+   <p class="mb15"><strong>Figure S2. Gene densities and repeat densities are unevenly distributed in the top 25 scaffolds</strong>. <strong>(A)</strong> The top 25 scaffolds are sorted in order of their sizes. <strong>(B)</strong> Scaffold 1, 2, 5, 6, 9, 10, 13 have higher numbers of protein-coding genes while scaffold 3, 4, 7, 8, 11, and 12 have lower numbers of genes. <strong>(C)</strong> The repeat densities (percentage of the repeat-associated nucleotides) are different among different scaffolds.</p>
+   <p class="mb15"><strong>Figure S3. Identification of CentO repeats in <i>E. salsugineum</i></strong>. To infer the scaffold orientations, we searched for centromere-specific CentO satellite sequences that could be used to determine the centromeric ends of scaffolds. <strong>(A)</strong> A 177-bp motif (EsCentO) was found tandemly repeated over 500,000 times in <i>E. salsugineum</i>, sharing a similar AT-rich pattern with the 178-bp CentO repeats in <i>A. thaliana</i>. <strong>(B)</strong> The <i>Es</i>CentOs are abundant among the short scaffolds below 10 kb and often located at one terminus of a large scaffold, indicating the genome assembling was mostly interrupted at the edges of core centromeres. <strong>(C)</strong> Comparison of the CentO repeat motifs in <i>A. thaliana</i> and <i>E. salsugineum</i> shows the similar size and AT-rich feature.</p>
+   <p class="mb15"><strong>Figure S4. Comparison of the numbers of transcription factor families in the <i>A. thaliana</i> and <i>E. salsugineum</i></strong>. Most TF families contain similar numbers of members between the two species.</p>
+   <p class="mb15"><strong>Figure S5. (A)</strong> GO enrichment analysis shows that the two species has similar number of genes in each functional category. The GO enrichment analysis was performed by AgriGO database. <strong>(B)</strong> The genes involved in ubiquitin related protein modification pathways are over represented in <i>E. salsugineum</i> than in <i>A. thaliana</i> in category of Biological Process. <strong>(C)</strong> Over represented GO classes in Cellular Components (Left) and Molecular Function (Right). Genes in the &#x0201C;ubiquitin-protein ligase activity&#x0201D; are overrepresented in <i>E. salsugineum</i>.</p>
+   <a id="h11" name="h11"></a><h2>Footnotes</h2>
+   <div id="footnotetext" class="fulltextdescription">
+      <ol>
+         <li id="note1"><strong><a style="color:#707173; text-decoration:none;" class="footnotetextanchor" href="#note1a" title="">^</a></strong><a style="color:#707173; text-decoration:none;" href="http://www.qiagen.com">www.qiagen.com</a></li>
+         <li id="note2"><strong><a style="color:#707173; text-decoration:none;" class="footnotetextanchor" href="#note2a" title="">^</a></strong><a style="color:#707173; text-decoration:none;" href="http://www.invitrogen.com">www.invitrogen.com</a></li>
+      </ol>
+   </div>
+   <a id="h12" name="h12"></a><h2>References</h2>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B1" id="B1"></a>Amtmann, A. (2009). Learning from evolution: <i>Thellungiella</i> generates new knowledge on essential and critical components of abiotic stress tolerance in plants. <i>Mol. Plant</i> 2, 3&#x02013;12.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=19529830" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=19529830" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1093/mp/ssn094" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B2" id="B2"></a>Amtmann, A., Bohnert, H. J., and Bressan, R. A. (2005). Abiotic stress and plant genome evolution. Search for new models. <i>Plant Physiol.</i> 138, 127&#x02013;130.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=15888685" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=15888685" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1104/pp.105.059972" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B3" id="B3"></a>Batzoglou, S., Jaffe, D. B., Stanley, K., Butler, J., Gnerre, S., Mauceli, E., et al. (2002). ARACHNE: a whole-genome shotgun assembler. <i>Genome Res.</i> 12, 177&#x02013;189.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=11779843" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=11779843" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1101/gr.208902" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B4" id="B4"></a>Beilstein, M. A., Al-Shehbaz, I. A., Mathews, S., and Kellogg, E. A. (2008). <i>Brassicaceae</i> phylogeny inferred from phytochrome <i>a</i> and Ndhf sequence data: tribes and trichomes revisited. <i>Am. J. Bot.</i> 95, 1307&#x02013;1327.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=21632335" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=21632335" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.3732/ajb.0800065" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B5" id="B5"></a>Beilstein, M. A., Nagalingum, N. S., Clements, M. D., Manchester, S. R., and Mathews, S. (2010). Dated molecular phylogenies indicate a Miocene origin for <i>Arabidopsis thaliana</i>. <i>Proc. Natl. Acad. Sci. U.S.A.</i> 107, 18724&#x02013;18728.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=20921408" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=20921408" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1073/pnas.0909766107" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B6" id="B6"></a>Bouchereau, A., Lugan, R., Niogret, M. F., Leport, L., Guegan, J. P., Larher, F. R., et al. (2010). Metabolome and water homeostasis analysis of <i>Thellungiella salsuginea</i> suggests that dehydration tolerance is a key response to osmotic stress in this halophyte. <i>Plant J.</i> 64, 215&#x02013;229.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=21070405" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=21070405" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1111/j.1365-313X.2010.04323.x" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B7" id="B7"></a>Bressan, R. A., Zhang, C. Q., Zhang, H., Hasegawa, P. M., Bohnert, H. J., and Zhu, J. K. (2001). Learning from the <i>Arabidopsis</i> experience. The next gene search paradigm. <i>Plant Physiol.</i> 127, 1354&#x02013;1360.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=11743073" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=11743073" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1104/pp.010752" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B8" id="B8"></a>Cheng, F. W. J., Fang, L., and Wang, X. (2012). Syntenic gene analysis between <i>Brassica rapa</i> and other <i>Brassicaceae</i> species. <i>Front. Plant Sci.</i> 3:198. doi:10.3389/fpls.2012.00198</p>
+      <p class="ReferencesCopy2"><a href="http://dx.doi.org/10.3389/fpls.2012.00198" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B9" id="B9"></a>Dassanayake, M., Oh, D. H., Haas, J. S., Hernandez, A., Hong, H., Ali, S., et al. (2011). The genome of the extremophile crucifer <i>Thellungiella parvula</i>. <i>Nat. Genet.</i> 43, 913&#x02013;918.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=21822265" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=21822265" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1038/ng.889" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B10" id="B10"></a>Deng, C., Cheng, C. H., Ye, H., He, X., and Chen, L. (2010). Evolution of an antifreeze protein by neofunctionalization under escape from adaptive conflict. <i>Proc. Natl. Acad. Sci. U.S.A.</i> 107, 21593&#x02013;21598.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=21115821" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=21115821" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1073/pnas.1005475107" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B11" id="B11"></a>Dorantes-Acosta, A. E., Sanchez-Hernandez, C. V., and Arteaga-Vazquez, M. A. (2012). Biotic stress in plants: life lessons from your parents and grandparents. <i>Front. Genet.</i> 3:256. doi:10.3389/fgene.2012.00256</p>
+      <p class="ReferencesCopy2"><a href="http://dx.doi.org/10.3389/fgene.2012.00256" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B12" id="B12"></a>dos Reis, M., Savva, R., and Wernisch, L. (2004). Solving the riddle of codon usage preferences: a test for translational selection. <i>Nucleic Acids Res.</i> 32, 5036&#x02013;5044.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=15448185" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=15448185" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1093/nar/gkh834" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B13" id="B13"></a>Eddy, S. R. (1998). Profile hidden Markov models. <i>Bioinformatics</i> 14, 755&#x02013;763.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=9918945" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=9918945" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1093/bioinformatics/14.9.755" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B14" id="B14"></a>Fang, L., Cheng, F., Wu, J., and Wang, X. (2012). The impact of genome triplication on tandem gene evolution in <i>Brassica rapa</i>. <i>Front. Plant Sci.</i> 3:261. doi:10.3389/fpls.2012.00261</p>
+      <p class="ReferencesCopy2"><a href="http://dx.doi.org/10.3389/fpls.2012.00261" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B15" id="B15"></a>Fedoroff, N. (2000). Transposons and genome evolution in plants. <i>Proc. Natl. Acad. Sci. U.S.A.</i> 97, 7002&#x02013;7007.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=10860963" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=10860963" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1073/pnas.97.13.7002" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B16" id="B16"></a>Ford, B. A., Ernest, J. R., and Gendall, A. R. (2012). Identification and characterization of orthologs of AtNHX5 and AtNHX6 in <i>Brassica napus</i>. <i>Front. Plant Sci.</i> 3:208. doi:10.3389/fpls.2012.00208</p>
+      <p class="ReferencesCopy2"><a href="http://dx.doi.org/10.3389/fpls.2012.00208" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B17" id="B17"></a>Gagne, J. M., Downes, B. P., Shiu, S. H., Durski, A. M., and Vierstra, R. D. (2002). The F-box subunit of the SCF E3 complex is encoded by a diverse superfamily of genes in <i>Arabidopsis</i>. <i>Proc. Natl. Acad. Sci. U.S.A.</i> 99, 11519&#x02013;11524.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=12169662" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=12169662" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1073/pnas.162339999" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B18" id="B18"></a>Gibeaut, D. M., Hulett, J., Cramer, G. R., and Seemann, J. R. (1997). Maximal biomass of <i>Arabidopsis thaliana</i> using a simple, low-maintenance hydroponic method and favorable environmental conditions. <i>Plant Physiol.</i> 115, 317&#x02013;319.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=9342857" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=9342857" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1104/pp.115.2.317" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B19" id="B19"></a>Godfray, H. C., Beddington, J. R., Crute, I. R., Haddad, L., Lawrence, D., Muir, J. F., et al. (2010). Food security: the challenge of feeding 9 billion people. <i>Science</i> 327, 812&#x02013;818.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=20110467" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=20110467" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1126/science.1185383" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B20" id="B20"></a>Gong, Q. Q., Li, P. H., Ma, S. S., Rupassara, S. I., and Bohnert, H. J. (2005). Salinity stress adaptation competence in the extremophile <i>Thellungiella halophila</i> in comparison with its relative <i>Arabidopsis thaliana</i>. <i>Plant J.</i> 44, 826&#x02013;839.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=16297073" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=16297073" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1111/j.1365-313X.2005.02587.x" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B21" id="B21"></a>Hatje, K., and Kollmar, M. (2012). A phylogenetic analysis of the brassicales clade based on an alignment-free sequence comparison method. <i>Front. Plant Sci.</i> 3:192. doi:10.3389/fpls.2012.00192</p>
+      <p class="ReferencesCopy2"><a href="http://dx.doi.org/10.3389/fpls.2012.00192" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B22" id="B22"></a>Hittinger, C. T., and Carroll, S. B. (2007). Gene duplication and the adaptive evolution of a classic genetic switch. <i>Nature</i> 449, 677&#x02013;681.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=17928853" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=17928853" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1038/nature06151" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B23" id="B23"></a>Hu, T. T., Pattyn, P., Bakker, E. G., Cao, J., Cheng, J. F., Clark, R. M., et al. (2011). The <i>Arabidopsis lyrata</i> genome sequence and the basis of rapid genome size change. <i>Nat. Genet.</i> 43, 476&#x02013;481.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=21478890" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=21478890" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1038/ng.875" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B24" id="B24"></a>Innan, H., and Kondrashov, F. (2010). The evolution of gene duplications: classifying and distinguishing between models. <i>Nat. Rev. Genet.</i> 11, 97&#x02013;108.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=20051986" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=20051986" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1038/nrg2689" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B25" id="B25"></a>Jiang, H., Zhang, Y., Sun, J., Wang, W., and Gu, Z. (2008). Differential selection on gene translation efficiency between the filamentous fungus <i>Ashbya gossypii</i> and yeasts. <i>BMC Evol. Biol.</i> 8:343. doi:10.1186/1471-2148-8-343</p>
+      <p class="ReferencesCopy2"><a href="http://dx.doi.org/10.1186/1471-2148-8-343" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B26" id="B26"></a>Kent, W. J. (2002). BLAT &#x02013; the BLAST-like alignment tool. <i>Genome Res.</i> 12, 656&#x02013;664.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=11932250" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=11932250" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1101/gr.229102.Article published online before print in May 2002" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B27" id="B27"></a>Khan, I. A. (1982). Managing salinity in irrigated agriculture. <i>J. Irrigat. Drain. Div.</i> 108, 43&#x02013;56.</p>
+   </div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B28" id="B28"></a>Kim, J. H., Woo, H. R., Kim, J., Lim, P. O., Lee, I. C., Choi, S. H., et al. (2009). Trifurcate feed-forward regulation of age-dependent cell death involving miR164 in <i>Arabidopsis</i>. <i>Science</i> 323, 1053&#x02013;1057.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=19229035" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=19229035" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1126/science.1167106" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B29" id="B29"></a>Krzywinski, M., Schein, J., Birol, I., Connors, J., Gascoyne, R., Horsman, D., et al. (2009). Circos: an information aesthetic for comparative genomics. <i>Genome Res.</i> 19, 1639&#x02013;1645.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=19541911" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=19541911" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1101/gr.092759.109" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B30" id="B30"></a>Kumekawa, N., Hosouchi, T., Tsuruoka, H., and Kotani, H. (2000). The size and sequence organization of the centromeric region of <i>Arabidopsis thaliana</i> chromosome 5. <i>DNA Res.</i> 7, 315&#x02013;321.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=11214966" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=11214966" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1093/dnares/7.6.315" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B31" id="B31"></a>Kumekawa, N., Hosouchi, T., Tsuruoka, H., and Kotani, H. (2001). The size and sequence organization of the centromeric region of <i>Arabidopsis thaliana</i> chromosome 4. <i>DNA Res.</i> 8, 285&#x02013;290.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=11853315" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=11853315" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1093/dnares/8.6.285" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B32" id="B32"></a>Langmead, B., Trapnell, C., Pop, M., and Salzberg, S. L. (2009). Ultrafast and memory-efficient alignment of short DNA sequences to the human genome. <i>Genome Biol.</i> 10, R25.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=19261174" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=19261174" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1186/gb-2009-10-3-r25" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B33" id="B33"></a>Lee, H. R., Neumann, P., MacAs, J., and Jiang, J. M. (2006). Transcription and evolutionary dynamics of the centromeric satellite repeat CentO in rice. <i>Mol. Biol. Evol.</i> 23, 2505&#x02013;2520.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=16987952" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=16987952" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1093/molbev/msl127" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B34" id="B34"></a>Li, L., Stoeckert, C. J. Jr., and Roos, D. S. (2003). OrthoMCL: identification of ortholog groups for eukaryotic genomes. <i>Genome Res.</i> 13, 2178&#x02013;2189.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=12952885" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=12952885" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1101/gr.693203" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B35" id="B35"></a>Li, W., Cui, X., Meng, Z., Huang, X., Xie, Q., Wu, H., et al. (2012). Transcriptional regulation of <i>Arabidopsis</i> MIR168a and argonaute1 homeostasis in abscisic acid and abiotic stress responses. <i>Plant Physiol.</i> 158, 1279&#x02013;1292.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=22247272" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=22247272" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1104/pp.111.188789" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B36" id="B36"></a>Lin, S. I., Chiang, S. F., Lin, W. Y., Chen, J. W., Tseng, C. Y., Wu, P. C., et al. (2008). Regulatory network of microRNA399 and PHO2 by systemic signaling. <i>Plant Physiol.</i> 147, 732&#x02013;746.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=18390805" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=18390805" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1104/pp.108.121269" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B37" id="B37"></a>Lowe, T. M., and Eddy, S. R. (1997). tRNAscan-SE: a program for improved detection of transfer RNA genes in genomic sequence. <i>Nucleic Acids Res.</i> 25, 955&#x02013;964.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=9023104" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=9023104" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1093/nar/25.5.955" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B38" id="B38"></a>Luo, M., and Wing, R. A. (2003). An improved method for plant BAC library construction. <i>Methods Mol. Biol.</i> 236, 3&#x02013;20.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=14501055" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=14501055" target="_blank">Pubmed Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B39" id="B39"></a>Ma, C., Chen, H., Xin, M., Yang, R., and Wang, X. (2012). KGBassembler: a karyotype-based genome assembler for <i>Brassicaceae</i> species. <i>Bioinformatics</i> 28, 3141&#x02013;3143.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=23044544" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=23044544" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1093/bioinformatics/bts213" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B40" id="B40"></a>Man, O., and Pilpel, Y. (2007). Differential translation efficiency of orthologous genes is involved in phenotypic divergence of yeast species. <i>Nat. Genet.</i> 39, 415&#x02013;421.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=17277776" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=17277776" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1038/ng1967" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B41" id="B41"></a>Mandakova, T., and Lysak, M. A. (2008). Chromosomal phylogeny and karyotype evolution in x=7 crucifer species (<i>Brassicaceae</i>). <i>Plant Cell</i> 20, 2559&#x02013;2570.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=18836039" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=18836039" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1105/tpc.108.062166" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B42" id="B42"></a>Murashige, T., and Skoog, F. (1962). A revised medium for rapid growth and bio assays with tobacco tissue cultures. <i>Physiol. Plant</i> 15, 473&#x02013;497.</p>
+      <p class="ReferencesCopy2"><a href="http://dx.doi.org/10.1111/j.1399-3054.1962.tb08052.x" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B43" id="B43"></a>Oh, D. H., Dassanayake, M., Haas, J. S., Kropornika, A., Wright, C., d&#x02019;Urzo, M. P., et al. (2010). Genome structures and halophyte-specific gene expression of the extremophile <i>Thellungiella parvula</i> in comparison with <i>Thellungiella salsuginea</i> (<i>Thellungiella halophila</i>) and <i>Arabidopsis</i>. <i>Plant Physiol.</i> 154, 1040&#x02013;1052.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=20833729" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=20833729" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1104/pp.110.162339" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B44" id="B44"></a>Oh, D. H., Leidi, E., Zhang, Q., Hwang, S. M., Li, Y., Quintero, F. J., et al. (2009). Loss of halophytism by interference with SOS1 expression. <i>Plant Physiol.</i> 151, 210&#x02013;222.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=19571313" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=19571313" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1104/pp.109.137802" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B45" id="B45"></a>Rhoades, M. W., Reinhart, B. J., Lim, L. P., Burge, C. B., Bartel, B., and Bartel, D. P. (2002). Prediction of plant microRNA targets. <i>Cell</i> 110, 513&#x02013;520.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=12202040" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=12202040" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1016/S0092-8674(02)00863-2" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B46" id="B46"></a>Saitou, N., and Nei, M. (1987). The neighbor-joining method: a new method for reconstructing phylogenetic trees. <i>Mol. Biol. Evol.</i> 4, 406&#x02013;425.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=3447015" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=3447015" target="_blank">Pubmed Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B47" id="B47"></a>Schranz, M. E., Lysak, M. A., and Mitchell-Olds, T. (2006). The ABC&#x02019;s of comparative genomics in the <i>Brassicaceae</i>: building blocks of crucifer genomes. <i>Trends Plant Sci.</i> 11, 535&#x02013;542.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=17029932" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=17029932" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1016/j.tplants.2006.09.002" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B48" id="B48"></a>Simillion, C., Janssens, K., Sterck, L., and Van de Peer, Y. (2008). i-ADHoRe 2.0: an improved tool to detect degenerated genomic homology using genomic profiles. <i>Bioinformatics</i> 24, 127&#x02013;128.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=17947255" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=17947255" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1093/bioinformatics/btm449" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B49" id="B49"></a>Taji, T., Komatsu, K., Katori, T., Kawasaki, Y., Sakata, Y., Tanaka, S., et al. (2010). Comparative genomic analysis of 1047 completely sequenced cDNAs from an <i>Arabidopsis</i>-related model halophyte, <i>Thellungiella halophila</i>. <i>BMC Plant Biol.</i> 10:261. doi:10.1186/1471-2229-10-261</p>
+      <p class="ReferencesCopy2"><a href="http://dx.doi.org/10.1186/1471-2229-10-261" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B50" id="B50"></a>Taji, T., Seki, M., Satou, M., Sakurai, T., Kobayashi, M., Ishiyama, K., et al. (2004). Comparative genomics in salt tolerance between <i>Arabidopsis</i> and <i>Arabidopsis</i>-related halophyte salt cress using <i>Arabidopsis</i> microarray. <i>Plant Physiol.</i> 135, 1697&#x02013;1709.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=15247402" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=15247402" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1104/pp.104.039909" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B51" id="B51"></a>Tang, H., and Lyons, E. (2012). Unleashing the genome of <i>Brassica rapa</i>. <i>Front. Plant Sci.</i> 3:172. doi:10.3389/fpls.2012.00172</p>
+      <p class="ReferencesCopy2"><a href="http://dx.doi.org/10.3389/fpls.2012.00172" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B52" id="B52"></a>Thompson, J. D., Gibson, T. J., Plewniak, F., Jeanmougin, F., and Higgins, D. G. (1997). The CLUSTAL_X windows interface: flexible strategies for multiple sequence alignment aided by quality analysis tools. <i>Nucleic Acids Res.</i> 25, 4876&#x02013;4882.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=9396791" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=9396791" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1093/nar/25.24.4876" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B53" id="B53"></a>Wang, X., Wang, H., Wang, J., Sun, R., Wu, J., Liu, S., et al. (2011). The genome of the mesopolyploid crop species <i>Brassica rapa</i>. <i>Nat. Genet.</i> 43, 1035&#x02013;1039.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=21873998" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=21873998" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1038/ng.919" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B54" id="B54"></a>Wessler, S. R. (1996). Turned on by stress. Plant retrotransposons. <i>Curr. Biol.</i> 6, 959&#x02013;961.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=8805314" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=8805314" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1016/S0960-9822(02)00638-3" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B55" id="B55"></a>Wong, C. E., Li, Y., Labbe, A., Guevara, D., Nuin, P., Whitty, B., et al. (2006). Transcriptional profiling implicates novel interactions between abiotic stress and hormonal responses in <i>Thellungiella</i>, a close relative of <i>Arabidopsis</i>. <i>Plant Physiol.</i> 140, 1437&#x02013;1450.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=16500996" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=16500996" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1104/pp.105.070508" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B56" id="B56"></a>Wright, S. I., and Agren, J. A. (2011). The <i>Arabidopsis lyrata</i> genome sequence Sizing up <i>Arabidopsis</i> genome evolution. <i>Heredity</i> 107, 509&#x02013;510.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=21712843" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=21712843" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1038/hdy.2011.47" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B57" id="B57"></a>Wright, S. I., and Gaut, B. S. (2005). Molecular population genetics and the search for adaptive evolution in plants. <i>Mol. Biol. Evol.</i> 22, 506&#x02013;519.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=15525701" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=15525701" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1093/molbev/msi035" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B58" id="B58"></a>Wu, H. J., Zhang, Z. H., Wang, J. Y., Oh, D. H., Dassanayake, M., Liu, B. H., et al. (2012). Insights into salt tolerance from the genome of <i>Thellungiella salsuginea</i>. <i>Proc. Natl. Acad. Sci. U.S.A.</i> 109, 12219&#x02013;12224.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=22778405" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=22778405" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1073/pnas.1209397109" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B59" id="B59"></a>Xu, G., Ma, H., Nei, M., and Kong, H. (2009). Evolution of F-box genes in plants: different modes of sequence divergence and their relationships with functional diversification. <i>Proc. Natl. Acad. Sci. U.S.A.</i> 106, 835&#x02013;840.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=19126682" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=19126682" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1073/pnas.0812506106" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B60" id="B60"></a>Yang, J., Osman, K., Iqbal, M., Stekel, D. J., Luo, Z., Armstrong, S. J., et al. (2012). Inferring the <i>Brassica rapa</i> interactome using protein-protein interaction data from <i>Arabidopsis thaliana</i>. <i>Front. Plant Sci.</i> 3:297. doi:10.3389/fpls.2012.00297</p>
+      <p class="ReferencesCopy2"><a href="http://dx.doi.org/10.3389/fpls.2012.00297" target="_blank">CrossRef Full Text</a></p></div>
+   <div class="References" style="margin-bottom:0.5em;">
+      <p class="ReferencesCopy1"><a name="B61" id="B61"></a>Yang, X., and Li, L. (2011). miRDeep-P: a computational tool for analyzing the microRNA transcriptome in plants. <i>Bioinformatics</i> 27, 2614&#x02013;2615.</p>
+      <p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=21775303" target="_blank">Pubmed Abstract</a> | <a href="http://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&#x00026;cmd=prlinks&#x00026;retmode=ref&#x00026;id=21775303" target="_blank">Pubmed Full Text</a> | <a href="http://dx.doi.org/10.1093/bioinformatics/btr041" target="_blank">CrossRef Full Text</a></p></div>
+</div>
+<div class="thinLineM20"></div>
+<div class="AbstractSummary">
+   <p>
+      <span>Keywords:</span> whole-genome sequencing, genome annotation, <i>Brassicaceae</i>, <i>Eutrema salsugineum</i>, <i>Arabidopsis thaliana</i>, halophyte</p>
+   <p>
+      <span>Citation:</span> Yang R, Jarvis DE, Chen H, Beilstein MA, Grimwood J, Jenkins J, Shu S, Prochnik S, Xin M, Ma C, Schmutz J, Wing RA, Mitchell-Olds T, Schumaker KS and Wang X (2013) The reference genome of the halophytic plant <i>Eutrema salsugineum</i>. <i>Front. Plant Sci.</i> <b>4</b>:46. doi: 10.3389/fpls.2013.00046</p>
+   <p id="timestamps">
+      <span>Received:</span> 22 January 2013; <span>Paper pending published:</span> 15 February  2013;<br/> 
+      <span>Accepted:</span> 24  February  2013; <span>Published online:</span> 21 March  2013.</p>
+   <div>
+      <p>Edited by:</p>
+ <a href="http://www.frontiersin.org/Community/WhosWhoActivity.aspx?sname=JunYu&#x00026;UID=25678">Jun Yu</a>, Beijing Institute of Genomics, China</div>
+   <div>
+      <p>Reviewed by:</p>
+ <a href="http://www.frontiersin.org/Community/WhosWhoActivity.aspx?sname=JunYu&#x00026;UID=25678">Jun Yu</a>, Beijing Institute of Genomics, China<br/> <a href="http://www.frontiersin.org/Community/WhosWhoActivity.aspx?sname=JingfaXiao&#x00026;UID=27143">Jingfa Xiao</a>, Beijing institute of Genomics, China</div>
+   <p>
+      <span>Copyright:</span>  &#x000A9; 2013 Yang, Jarvis, Chen, Beilstein, Grimwood, Jenkins, Shu, Prochnik, Xin, Ma, Schmutz, Wing, Mitchell-Olds, Schumaker and Wang. This is an open-access article distributed under the terms of the <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons Attribution License</a>, which permits use, distribution and reproduction in other forums, provided the original authors and source are credited and subject to any copyright notices concerning any third-party graphics etc.</p>
+   <p>
+      <span>*Correspondence:</span> Karen S. Schumaker and Xiangfeng Wang, School of Plant Sciences, University of Arizona, 303 Forbes Hall, 1140 E. South Campus Drive, Tucson, AZ 85721-0036, USA. e-mail: schumake&#x00040;ag.arizona.edu; xwang1&#x00040;cals.arizona.edu</p>
+	  
+	  <p><sup>&#x02020;</sup>Ruolin Yang and David E. Jarvis have contributed equally to this work.</p>
+	  
+   <div class="clear"></div>
+</div>
+                
+                <div class="thin-line-dark"></div>
+                    <div class="social-feed"></div>
+                    <div class="container-bordered comment-list social-feed">
+                        <div class="container-comments">                           
+                        </div>
+
+                        <div class="loading-wrapper" style="padding-left: 49%">
+                            <img style="padding-top: 5%; padding-bottom: 5%;" src="/areas/research-topics/Content/Images/frontiers/common/icon/loading.gif" alt="Loading.." />
+                        </div>                       
+                    </div>
+
+            </div>
+        </div>
+    </div>
+</main>
+
+            <div class="clearfix visible-sm"></div>
+
+            
+    <div class="c col-xs-12 col-sm-12 col-lg-2 col-md-3 pull-right side-article related right-container-articles" style="clear: right !important">
+        
+        <article class="widget-listing commentary-article hidden">
+            <h5 class="like-h4">COMMENTARY</h5>
+        </article>
+
+        <article class="widget-listing original-article hidden">
+            <h5 class="like-h4">ORIGINAL ARTICLE</h5>
+        </article>
+
+        <article class="widget-listing people-also-looked-at side-article-related hidden">
+            <h5 class="like-h4">People also looked at</h5>
+        </article>
+            <div class="side-article-mrk clearfix hidden-md hidden-lg">
+                <p style="text-align: center;"><a href="https://spotlight.frontiersin.org/submit?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=rtlg_2020_gen"><img src="https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/article-marketing-message-79982763-254d-4bb6-96b8-126758de1166.png" alt="" /><br /></a></p>
+<p style="text-align: center;"><a href="https://spotlight.frontiersin.org/submit?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=rtlg_2020_gen"><strong>Suggest a Research Topic &gt;</strong></a></p>
+            </div>
+
+
+    </div>
+
+
+        </div>
+    </div>
+</div>
+<div id="divTemplates">
+    <div class="modal fade modal-container impact-modal-container" data-backdrop="static" id="impactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+</div>
+
+
+
+
+
+    <div class="modal fade modal-container supplementary-modal-container"
+     data-backdrop="static"
+     data-keyboard="false"
+     id="supplementaryFilesModal"
+     tabindex="-1" role="dialog"
+     aria-labelledby="mySupplementaryModalLabel"
+     aria-hidden="true">
+</div>
+
+
+
+
+<script type="text/template" id="template-supplementary-files-modal">
+    <div class="supplementary-material-wrapper modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <a class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a>
+                <h4>Supplementary Material</h4><br>
+                <p class="supplementary-empty-message">There is no supplementary material currently available for this article</p>
+                <div class="loading-wrapper"
+                     id="loader"
+                     style="display:none">
+                    Loading supplemental data...
+                    <img style="" src="/Areas/Articles/Images/Icon/loading.gif" alt="Loading.." />
+                </div>
+                <br />
+                <div class="table-responsive" id="localFiles">
+                </div>
+                <div id="figshare-widget-container">
+
+                </div>
+            </div>
+            <br />
+            <div class="modal-footer bottom-links">
+                <a class="btn btn-default" data-dismiss="modal">Close</a>
+            </div>
+        </div>
+
+    </div>
+</script>
+
+
+
+
+
+<script type="text/template" id="template-local-files-modal">
+    <table class="table table-striped supplementary-content" id="localFilesTable">
+        <thead>
+            <tr>
+                <th>&nbsp;</th>
+                <th>File Name</th>
+                <th>&nbsp;</th>
+            </tr>
+        </thead>
+        <tbody class="file-content">
+            <% _.each(supplimentalFileDetails.FileDetails, function(fileViewModel){   %>
+            <tr>
+                <th scope="row"><a data-test-id="<%= fileViewModel.TestId %>" href="<%= fileViewModel.FileDownloadUrl %>"><img class="img-figure" src="<%= fileViewModel.ImageUrl %>"></a></th>
+                <td>
+                    <a  href="<%= fileViewModel.FileDownloadUrl %>">
+                        <%= fileViewModel.FileName %>
+                    </a>
+                </td>
+                <td><a  href="<%= fileViewModel.FileDownloadUrl %>" class="btn-link"><i class="fa fa-download" aria-hidden="true"></i></a></td>
+            </tr>
+            <% }); %>
+        </tbody>
+    </table>
+</script>
+
+
+
+
+
+
+
+    <div class="modal fade modal-container notifyme-modal-container" data-backdrop="static" id="notifyModal" tabindex="-1" role="dialog" aria-labelledby="Notify on publication" aria-hidden="true">
+</div>
+
+
+
+<script type="text/template" id="template-notify-me-modal">
+    <div class="modal-f page-container simple-modal" role="dialog" aria-labelledby="NotfifyMeModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <form onsubmit="return false" id="modalnotifyme">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                            <h3>Notify me on publication</h3>
+                        </div>
+                        <div class="modal-body">
+
+                            <div class="form-group">
+                                <label>Please enter your email address:</label>
+                            <input type="email" required class="form-control" id="txt_notification_email_id" placeholder="Email">
+                            </div>
+
+                        <div class="g-recaptcha" id="recaptcha"></div><br />
+
+                        <p class="small" style="color: #555;">If you already have an account, please <a href="<%=login.FrontiersLoginUrl%>?returnUrl=<%=currentPage%>" class="text-blue">login</a>.</p>
+                        <p class="small" style="color: #555;">You don't have a Frontiers account ? You can <a href="<%=login.FrontiersRegistrationUrl%>" class="text-blue">register here</a>.</p>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" id="article_notify_non_registered_user" class="btn btn-default btn-progress" style="width: 118px; visibility:hidden;">Notify me</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+</script>
+
+<script type="text/template" id="template-notifyme-mailselection-modal">
+    <div class="modal-f page-container simple-modal" tabindex="-1" role="dialog" aria-labelledby="NotfifyMeModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h3>Select one of your emails</h3>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label>You have multiple emails registered with Frontiers:</label>
+                        </div>
+                                           
+                        <% _.each(userEmailList, function(user){   %>
+                        <input type="radio" value="<%=user%>" name="notify_Emailcollection"> <%=user%><br>
+                        <% }); %>
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="article_notify_loggedin_user" class="btn btn-default btn-progress" style="width: 118px;">Notify me</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</script>
+
+<script type="text/template" id="template_notifyme_error_modal">
+    <div class="modal-f page-container simple-modal" tabindex="-1" role="dialog" aria-labelledby="NotfifyMeModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h3>Notify me on publication</h3>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <p class="text-red"><strong><%=message%></strong></p>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" data-dismiss="modal" class="btn btn-default btn-progress" style="width: 118px;">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+
+
+
+
+
+
+
+    
+
+<script type="text/template" id="template-article-comments">
+
+    <div class="w100pc float_left CommentsHolder" id="div_article_comment_holder">
+        <% if(journalComments.Count !=0) { %>
+        <div id="divActivityBox" class="commentBox bubbleInfo " style="z-index: 300;">
+            <div class="float_left w100pc divActivityBox">
+                <p id="pAllUsers" class="pb0 float_left w581 pAllUsers">
+                    <a id="aAllUsers" href="javascript:void(0);" class="fontnormal trigger">
+                        <%- journalComments.Count %> Comments
+                    </a> <%= journalComments.CommentedUsers %>
+                </p>
+            </div>
+        </div>
+        <% } %>
+
+        <% _.each( journalComments.Comments, function( comment ){ %>
+
+        <div class="commentBox">
+
+            <% if (comment.IsDeleted) {%>
+
+            <div class="wrapper pt4 pb4">
+                <div class="imgHolder mr10"> <!--<a  class="fontnormal">--><img width="32" src="/Areas/Articles/Design/Images/default_profile_32.jpg" onerror="if (!this.src.endsWith('/Areas/Articles/Design/Images/default_profile_32.jpg')) this.src='/Areas/Articles/Design/Images/default_profile_32.jpg';" alt=""><!--</a>--></div>
+                <div class="content w555">
+                    <!-- <p class="mtm3" style='word-wrap:break-word'><a  class="fontnormal">User</a> </p>-->
+                    <p class="mtm3">User</p><ul class="toolbar mt4 disblk w100pc">
+                        <li class="pl0">
+                            <p class="date">Comment deleted on <%- GetFormattedCommentDeletedDate(comment.CommentedDate) %></p>
+                        </li>
+                        <li class="float_right pr0"></li>
+                    </ul>
+                </div>
+            </div>
+
+            <% } else {%>
+
+            <div class="wrapper pt4 pb4">
+                <div class="imgHolder mr10"> <a class="fontnormal" data-test-id="article_commenteduser_profileimage_link" href="<%- comment.CommentedUser.ProfileUrl %>"><img src="<%- comment.CommentedUser.ThumbnailUrl %>" onerror="if (!this.src.endsWith('/Areas/Articles/Images/Frontiers/Common/Profile/default_profile_32.jpg')) this.src='/Areas/Articles/Images/Frontiers/Common/Profile/default_profile_32.jpg';" alt=""></a></div>
+                <div class="content w555 comment-body">
+                    <p class="mtm3" style="word-wrap:break-word">
+                        <a class="fontnormal" data-test-id="article_commenteduser_profile_link" href="<%- comment.CommentedUser.ProfileUrl %>">
+                            <%- comment.CommentedUser.FullName %>
+                        </a>
+                        <span class="comment-text"><%= comment.Comment %></span>
+                    </p>
+                    <ul class="toolbar mt4 disblk w100pc">
+                        <li class="pl0"><p class="date"><%- GetFormattedCommentDate(comment.CommentedDate) %></p></li>
+                        <% if (comment.IsEditVisible)
+                        { %>
+                        <li>|</li>
+                        <li><a href="javascript:void(0);" data-test-id="article_comment_edit_link" class="fontnormal btn-edit-comment" id="btnEditcom" data-comment-id="<%- comment.CommentId %>">Edit</a></li>
+                        <% } %>
+                        <% if (comment.IsDeleteVisible)
+                        { %>
+                        <li>|</li>
+                        <li><a href="javascript:void(0);" data-test-id="article_comment_delete_link" class="fontnormal btn-delete-comment" id="btnDeletecom" data-comment-id="<%- comment.CommentId %>">Delete</a></li>
+                        <% }%>
+                        <li class="float_right pr0"></li>
+                    </ul>
+                </div>
+            </div>
+            <% }%>
+        </div>
+
+        <%  }); %>
+    </div>
+
+    <div id="div_add_comment" class="commentBox">
+        <div class="imgTn32"
+             style="display: none;">
+            <% if(journalComments.LoginUserId !=0) { %>
+            <img src="<%- journalComments.LoggedInUserInfo.ThumbnailUrl %>" alt=""
+                 onerror="if (!this.src.endsWith('/Areas/Articles/Images/Frontiers/Common/Profile/default_profile_32.jpg')) this.src='/Areas/Articles/Images/Frontiers/Common/Profile/default_profile_32.jpg';">
+            <% } else {%>
+            <img src="/Areas/Articles/Design/Images/default_profile_32.jpg" alt=""
+                 onerror="if (!this.src.endsWith('/Areas/Articles/Images/Frontiers/Common/Profile/default_profile_32.jpg')) this.src='/Areas/Articles/Images/Frontiers/Common/Profile/default_profile_32.jpg';">
+            <% }%>
+
+        </div>
+        <div class="wrapper pt4 pb4 wAuto">
+            <textarea onfocus="showUserImageOnAdd(this)"
+                      onblur="hideUserImage(this)"
+                      id="txt_comment"
+                      cols=""
+                      rows="1"
+                      style="overflow: hidden; word-wrap: break-word; resize: horizontal;"
+                      data-test-id="article_comment_add_textarea"
+                      class="write setfocus autoext w535 frUIResizeTextArea comment-textarea is-ui animated-resize grey_90">Write a comment...</textarea>
+        </div>
+        <div class="commentAddWrap">
+            <div>
+                <a class="addBtnComment" data-test-id="article_comment_add_button"  onclick="javascript:AddComments(this);" href="javascript:void(0);" id="btnAddcom"><span>Add</span></a>
+            </div>
+        </div>
+    </div>
+
+
+</script>
+
+<script type="text/template" id="template-article-comments-warning">
+    <div class="commentBox">
+        <div class="wrapper">
+            <p class="comment-warning">The comment section has been closed.</p>
+        </div>
+    </div>
+</script>
+
+<script type="text/template" id="template-article-edit-comments">
+
+
+    <div id="edit-comment-form" class="wrapper pt4 pb4 wAuto edit-comments">
+        <textarea class="txt-comment"
+                  onfocus="showUserImageOnEdit(this)"
+                  onblur="hideUserImage(this)"
+                  data-test-id="article_comment_edit_textarea"
+                  rows="3"><%= commentText %> </textarea>
+        <div>
+            <a class="btn btn-add-comment addBtnComment" data-test-id="article_comment_edit_button" data-comment-id="<%- commentId %>">Add</a>
+        </div>
+    </div>
+
+</script>
+
+
+
+</div>
+
+    </div>
+
+        <div data-navigation-plugin="footer"></div>
+        <script src="https://static.frontiersin.org/navigation-plugins/footer/js"></script>
+
+    <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+
+    <script src="/areas/articles/scripts/frontiers/common/frontiers.banners-1.0.js"></script>
+
+
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+    <script src="https://static.frontiersin.org/areas/articles/js/vendors?v=ygjL-ZM7HLAoWWjVcHqPBLlSjGooDB3IHD1kVXFmvmI1"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+ 
+<script src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
+    <script src="https://static.frontiersin.org/areas/articles/js/frontiers?v=4c3spupE-VFg577OoPHsSr4WEf6T5hs_2nCv5fPKVdA1"></script>
+
+
+    <script type="text/javascript">
+
+        var FRArticle = (function() {
+            return {
+                ArticleId: '45219',
+                DOI:'10.3389/fpls.2013.00046',
+                LoginUserId: '0',
+                DomainId: '1',
+                FieldId: '66',
+                SpecialityId: '905',
+                IsPreview: FRSafe.boolean('False'),
+                IsViewImpactFromLoop: FRSafe.boolean('False'),
+                IsPublished: 'True',
+                FigShareApiUrl: 'https://api.figshare.com/v2/collections/search',
+                FigShareTimeOut: '3000'
+            };
+        })();
+
+        var FRSocial = (function() {
+            return {
+                itemId: 14,
+                itemTypeId: 1,
+                entityId: '45219',
+                ownerId: '26133',
+                sanPath: 'https://www.frontiersin.org/files/',
+                subItemId: '8',
+                loginUserId: '0',
+                ownerNWDBId: '4',
+                pageType: 1,
+                loopUrl:'https://loop.frontiersin.org'
+            };
+        })();
+    </script>
+
+    <script>
+        var FRAjaxSettings = (function () {
+
+            function urlLowercase() {
+                $.ajaxSetup({
+                    beforeSend: function (jqXHR, settings) {
+                        settings.url = settings.url.toLowerCase();
+                    }
+                });
+            }
+
+            return { urlLowercase: urlLowercase };
+        })();
+
+        FRAjaxSettings.urlLowercase();
+    </script>
+
+    <script src="https://static.frontiersin.org/areas/articles/js/schema?v=13am1aL5JpCh_IIFOIFRdlFySxVv16JLaVykDEyHCu81"></script>
+
+
+
+    
+    <script src="/areas/articles/js/app?v=UqywkE0AkDO6E3V0irIiBz8giFUKKVUi57o1J1h1S2g1"></script>
+
+    <script src="https://widgets.figshare.com/static/figshare.js"></script>
+
+
+    <script>
+        (function () {
+            console.log("Script executed after FigShareWidget");
+        })();
+    </script>
+
+</body>
+</html>

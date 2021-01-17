@@ -5,7 +5,6 @@ from pandas import read_excel
 
 
 species=read_excel(r"D:/Study/Z_Work/LX/Data/Bulit_tree/4.other_data_base/species_doi.xlsx")
-
 url=species["doi"].tolist()
 species=species["species"].tolist()
 # html=requests.get(url[1])

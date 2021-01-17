@@ -1,0 +1,2043 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:dc="http://purl.org/dc/terms/"
+      xmlns:doi="http://dx.doi.org/"
+      lang="en" xml:lang="en"
+      itemscope itemtype="http://schema.org/Article"
+      class="no-js">
+
+
+
+<head prefix="og: http://ogp.me/ns#">
+  <title>Draft genome of multiple resistance donor plant Sinapis alba: An insight into SSRs, annotations and phylogenetics</title>
+
+
+
+
+
+
+<link rel="stylesheet" href="/plosone/resource/compiled/asset_AKLZXRIMU5CA6IHTBZUC6CWWSXGNRDOD.css" />
+
+  <!-- allows for  extra head tags -->
+
+
+<!-- hello -->
+<link rel="stylesheet" type="text/css"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600">
+
+<link media="print" rel="stylesheet" type="text/css"  href="/plosone/resource/css/print.css"/>
+    <script type="text/javascript">
+        var siteUrlPrefix = "/plosone/";
+    </script>
+<script src="/plosone/resource/compiled/asset_SC5JIUGEUPR4P4P6VBUINUVOVUSU3NRY.js"></script>
+
+  <link rel="shortcut icon" href="/plosone/resource/img/favicon.ico" type="image/x-icon"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+
+
+
+
+
+  <link rel="canonical" href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0231002" />
+  <meta name="description" content="Background Sinapis alba is a wild member of the Brassicaceae family reported to possess genetic resistance against major biotic and abiotic stresses of oilseed brassicas. However, the resistance nature of S. alba was not exploited generously due to the unavailability of usable genome sequences in public databases. Therefore, the present study was conducted to assemble the first draft genome from raw whole genome shotgun sequences with annotation and develop simple sequence repeat markers for molecular genetics and marker-assisted breeding.   Results The raw genome sequences had 96x coverage on the Illumina platform with 170 Gbp data. The developed assembly by SOAPdenovo2 has ~459 Mbp genome size covered in 403,423 contigs with an average size of 1138.04 bp. The assembly was BLASTX with Arabidopsis thaliana which showed 32.9% positive hits between both plants. The top hit species distribution analysis showed the highest similarity with A. thaliana. A total of 809,597 GO level annotations were recorded after BLASTX results, and 34,012 sequences were annotated with different enzyme codes grouped under seven classes. The gene prediction tool AUGUSTUS identified 113,107 probable genes with an average size of 684 bp. The biochemical pathway annotation assigned 16,119 potential genes to 152 KEGG maps and 1751 enzyme codes. The development of potential SSRs from the de-novo assembly yielded 70731 unique primer pairs. Out of 159 randomly selected SSR markers for validation, 149 successfully amplified in S. alba. However, 10 SSR markers did not amplify during the validation experiment.   Conclusion The annotated genome assembly with a large number of SSRs was developed in the present study. To the best of our knowledge, this is the first report of S. alba genome assembly development, annotation, and SSRs mining to date. The data presented here will be a very important resource for future crop improvement programs, especially for resistant breeding." />
+
+  <meta name="citation_abstract" content="Background Sinapis alba is a wild member of the Brassicaceae family reported to possess genetic resistance against major biotic and abiotic stresses of oilseed brassicas. However, the resistance nature of S. alba was not exploited generously due to the unavailability of usable genome sequences in public databases. Therefore, the present study was conducted to assemble the first draft genome from raw whole genome shotgun sequences with annotation and develop simple sequence repeat markers for molecular genetics and marker-assisted breeding.   Results The raw genome sequences had 96x coverage on the Illumina platform with 170 Gbp data. The developed assembly by SOAPdenovo2 has ~459 Mbp genome size covered in 403,423 contigs with an average size of 1138.04 bp. The assembly was BLASTX with Arabidopsis thaliana which showed 32.9% positive hits between both plants. The top hit species distribution analysis showed the highest similarity with A. thaliana. A total of 809,597 GO level annotations were recorded after BLASTX results, and 34,012 sequences were annotated with different enzyme codes grouped under seven classes. The gene prediction tool AUGUSTUS identified 113,107 probable genes with an average size of 684 bp. The biochemical pathway annotation assigned 16,119 potential genes to 152 KEGG maps and 1751 enzyme codes. The development of potential SSRs from the de-novo assembly yielded 70731 unique primer pairs. Out of 159 randomly selected SSR markers for validation, 149 successfully amplified in S. alba. However, 10 SSR markers did not amplify during the validation experiment.   Conclusion The annotated genome assembly with a large number of SSRs was developed in the present study. To the best of our knowledge, this is the first report of S. alba genome assembly development, annotation, and SSRs mining to date. The data presented here will be a very important resource for future crop improvement programs, especially for resistant breeding.">
+
+
+  <meta name="keywords" content="Genomics,Gene prediction,Microsatellite loci,Plant genomics,Genome annotation,Arabidopsis thaliana,Retrotransposons,Computer software" />
+
+
+<meta name="citation_doi" content="10.1371/journal.pone.0231002"/>
+<meta name="citation_author" content="Preetesh Kumari"/>
+  <meta name="citation_author_institution" content="ICAR-National Institute on Plant Biotechnology, IARI, Pusa Campus, New Delhi, India"/>
+<meta name="citation_author" content="Kaushal Pratap Singh"/>
+  <meta name="citation_author_institution" content="ICAR-Directorate of Rapeseed Mustard Research, Sewar, Bharatpur, Rajasthan, India"/>
+<meta name="citation_author" content="Pramod Kumar Rai"/>
+  <meta name="citation_author_institution" content="ICAR-Directorate of Rapeseed Mustard Research, Sewar, Bharatpur, Rajasthan, India"/>
+
+<meta name="citation_title" content="Draft genome of multiple resistance donor plant Sinapis alba: An insight into SSRs, annotations and phylogenetics"/>
+<meta itemprop="name" content="Draft genome of multiple resistance donor plant Sinapis alba: An insight into SSRs, annotations and phylogenetics"/>
+<meta name="citation_journal_title" content="PLOS ONE"/>
+<meta name="citation_journal_abbrev" content="PLOS ONE"/>
+<meta name="citation_date" content="Apr 9, 2020"/>
+<meta name="citation_firstpage" content="e0231002"/>
+<meta name="citation_issue" content="4"/>
+<meta name="citation_volume" content="15"/>
+<meta name="citation_issn" content="1932-6203"/>
+<meta name="citation_publisher" content="Public Library of Science"/>
+
+  <meta name="citation_pdf_url" content="https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0231002&type=printable">
+
+  <meta name="citation_article_type" content="Research Article">
+
+<meta name="dc.identifier" content="10.1371/journal.pone.0231002" />
+
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@plosone"/>
+    <meta name="twitter:title" content="Draft genome of multiple resistance donor plant Sinapis alba: An insight into SSRs, annotations and phylogenetics" />
+    <meta property="twitter:description" content="Background Sinapis alba is a wild member of the Brassicaceae family reported to possess genetic resistance against major biotic and abiotic stresses of oilseed brassicas. However, the resistance nature of S. alba was not exploited generously due to the unavailability of usable genome sequences in public databases. Therefore, the present study was conducted to assemble the first draft genome from raw whole genome shotgun sequences with annotation and develop simple sequence repeat markers for molecular genetics and marker-assisted breeding.   Results The raw genome sequences had 96x coverage on the Illumina platform with 170 Gbp data. The developed assembly by SOAPdenovo2 has ~459 Mbp genome size covered in 403,423 contigs with an average size of 1138.04 bp. The assembly was BLASTX with Arabidopsis thaliana which showed 32.9% positive hits between both plants. The top hit species distribution analysis showed the highest similarity with A. thaliana. A total of 809,597 GO level annotations were recorded after BLASTX results, and 34,012 sequences were annotated with different enzyme codes grouped under seven classes. The gene prediction tool AUGUSTUS identified 113,107 probable genes with an average size of 684 bp. The biochemical pathway annotation assigned 16,119 potential genes to 152 KEGG maps and 1751 enzyme codes. The development of potential SSRs from the de-novo assembly yielded 70731 unique primer pairs. Out of 159 randomly selected SSR markers for validation, 149 successfully amplified in S. alba. However, 10 SSR markers did not amplify during the validation experiment.   Conclusion The annotated genome assembly with a large number of SSRs was developed in the present study. To the best of our knowledge, this is the first report of S. alba genome assembly development, annotation, and SSRs mining to date. The data presented here will be a very important resource for future crop improvement programs, especially for resistant breeding." />
+    <meta property="twitter:image" content="https://journals.plos.org/plosone/article/figure/image?id=10.1371/journal.pone.0231002.g008&size=inline" />
+
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0231002"/>
+<meta property="og:title" content="Draft genome of multiple resistance donor plant Sinapis alba: An insight into SSRs, annotations and phylogenetics"/>
+<meta property="og:description" content="Background Sinapis alba is a wild member of the Brassicaceae family reported to possess genetic resistance against major biotic and abiotic stresses of oilseed brassicas. However, the resistance nature of S. alba was not exploited generously due to the unavailability of usable genome sequences in public databases. Therefore, the present study was conducted to assemble the first draft genome from raw whole genome shotgun sequences with annotation and develop simple sequence repeat markers for molecular genetics and marker-assisted breeding.   Results The raw genome sequences had 96x coverage on the Illumina platform with 170 Gbp data. The developed assembly by SOAPdenovo2 has ~459 Mbp genome size covered in 403,423 contigs with an average size of 1138.04 bp. The assembly was BLASTX with Arabidopsis thaliana which showed 32.9% positive hits between both plants. The top hit species distribution analysis showed the highest similarity with A. thaliana. A total of 809,597 GO level annotations were recorded after BLASTX results, and 34,012 sequences were annotated with different enzyme codes grouped under seven classes. The gene prediction tool AUGUSTUS identified 113,107 probable genes with an average size of 684 bp. The biochemical pathway annotation assigned 16,119 potential genes to 152 KEGG maps and 1751 enzyme codes. The development of potential SSRs from the de-novo assembly yielded 70731 unique primer pairs. Out of 159 randomly selected SSR markers for validation, 149 successfully amplified in S. alba. However, 10 SSR markers did not amplify during the validation experiment.   Conclusion The annotated genome assembly with a large number of SSRs was developed in the present study. To the best of our knowledge, this is the first report of S. alba genome assembly development, annotation, and SSRs mining to date. The data presented here will be a very important resource for future crop improvement programs, especially for resistant breeding."/>
+<meta property="og:image" content="https://journals.plos.org/plosone/article/figure/image?id=10.1371/journal.pone.0231002.g008&size=inline"/>
+
+<meta name="citation_reference" content="citation_title=2006, Brassicaceae: species checklist and database on CD-Rom;citation_author=SI Warwick;citation_author=A Francis;citation_author=IA Al-Shehbaz;citation_journal_title=Pl. Syst. Evol;citation_volume=259;citation_number=259;citation_first_page=249;citation_last_page=258;citation_publication_date=2006;"/>    
+<meta name="citation_reference" content="citation_title=Somatic hybrids between  Brassica oleracea  and  Sinapis alba  L. with resistance to  Alternaria brassicae (Berk.) Sacc;citation_author=LN Hansen;citation_author=ED Earle;citation_journal_title=Theor. Appl. Genet;citation_volume=94;citation_number=94;citation_first_page=1078;citation_last_page=1085;citation_publication_date=1997;"/>    
+<meta name="citation_reference" content="citation_title=Analysis of intergeneric sexual hybridization between transgenic  Brassica oleracea  and  Sinapis alba ;citation_author=J Li;citation_author=C Zhang;citation_author=C Guan;citation_author=L Luo;citation_author=L Ren;citation_author=W Wei;citation_journal_title=Euphytica;citation_volume=213;citation_number=213;citation_issue=12;citation_first_page=271;citation_publication_date=2017;"/>    
+<meta name="citation_reference" content="citation_title=Stable, fertile somatic hybrids between  Sinapis alba  and  Brassica juncea show resistance to  Alternaria brassicae and heat stress;citation_author=P Kumari;citation_author=DS Bisht;citation_author=SR Bhat;citation_journal_title=Plant Cell Tissue and Organ Culture;citation_volume=133;citation_number=133;citation_first_page=77;citation_last_page=86;citation_publication_date=2017;"/>    
+<meta name="citation_reference" content="citation_title=2009, Phenotypic variation in the progeny of somatic hybrids between  Brassica napus and  Sinapis alba ;citation_author=AM Li;citation_author=CX Wei;citation_author=JJ Jiang;citation_author=YT Zhang;citation_author=RJ Snowdon;citation_author=Y Wang;citation_journal_title=Euphytica;citation_volume=170;citation_number=170;citation_first_page=289;citation_last_page=296;citation_publication_date=2009;"/>    
+<meta name="citation_reference" content="citation_title=1993, The development of juveniles of  Heteroderaschachtii in roots of resistant and susceptible genotypes of  Sinapis alba ,  Brassica napus ,  Raphanus sativus  and hybrids;citation_author=CLC Lelivelt;citation_author=J Hoogendoorn;citation_journal_title=Eur J Plant Pathol;citation_volume=99;citation_number=99;citation_first_page=13;citation_last_page=22;citation_publication_date=1993;"/>    
+<meta name="citation_reference" content="citation_title=Effects of flea beetles,  Phyllotreta spp. (Chrysomelidae: Coleoptera), on the survival, growth, seed yield and quality of canola, rape and yellow mustard;citation_author=RJ Lamb;citation_journal_title=Can Entomol;citation_volume=116;citation_number=116;citation_first_page=269;citation_last_page=280;citation_publication_date=1984;"/>    
+<meta name="citation_reference" content="citation_title=Yield reduction in  Brassica napus ,  B. rapa, B. juncea , and  Sinapis alba  caused by flea beetle ( Phyllotreta Cruciferae  Goeze) (Coleoptera: Chrysomelidae) infestation in northern Idaho;citation_author=J Brown;citation_author=JP McCaffrey;citation_author=DA Brown;citation_author=DA Harmon;citation_author=BL Harmon;citation_author=JB Davis;citation_journal_title=J Econ Entomol;citation_volume=97;citation_number=97;citation_first_page=1642;citation_last_page=1647;citation_publication_date=2004;"/>    
+<meta name="citation_reference" content="citation_title=Modulating flowering time and prevention of pod shatter in oilseed rape;citation_author=J Chandler;citation_author=L Corbesier;citation_author=P Spielmann;citation_author=J Dettendorfer;citation_author=D Stahl;citation_author=K Apel;citation_journal_title=Mol Breed;citation_volume=15;citation_number=15;citation_first_page=87;citation_last_page=94;citation_publication_date=2005;"/>    
+<meta name="citation_reference" content="citation_title=Behaviour of  Sinapis alba  chromosomes in a  Brassica napus  background revealed by genomic  in-situ  hybridization;citation_author=YP Wang;citation_author=XX Zhao;citation_author=K Sonntag;citation_author=P Wehling;citation_author=RJ Snowdon;citation_journal_title=Chromosome Res;citation_volume=13;citation_number=13;citation_first_page=819;citation_last_page=826;citation_publication_date=2005;"/>    
+<meta name="citation_reference" content="citation_title=. Breeding rapeseed and mustard crops;citation_inbook_title=Oilseed and Pulse Crops in Western Canada;citation_author=RK Downey;citation_author=GR Stringham;citation_author=DI McGregor;citation_author=S Steffanson;citation_first_page=157;citation_last_page=183;citation_publication_date=1975;citation_publisher=Western Cooperative Fertilize Ltd"/>    
+<meta name="citation_reference" content="citation_title=Intergeneric hybridization between  Sinapis alba  and  Brassica napus ;citation_author=J Brown;citation_author=AP Brown;citation_author=JB Davis;citation_author=D Erickson;citation_journal_title=Euphytica;citation_volume=93;citation_number=93;citation_first_page=163;citation_last_page=168;citation_publication_date=1997;"/>    
+<meta name="citation_reference" content="citation_title=Effect of biologically active substances present in water extracts of white mustard and coriander on antioxidant status and lipid peroxidation of mouse C2C12 skeletal muscle cells;citation_author=K Zielniok;citation_author=K Szkoda;citation_author=M Gajewska;citation_author=J Wilczak;citation_journal_title=J. Anim. Physiol. Anim. Nutr;citation_publication_date=2015;"/>    
+<meta name="citation_reference" content="citation_title=The effect of soil bioaugmentation with strains of Pseudomonas on Cd, Zn and Cu uptake by  Sinapis alba  L;citation_author=T Plociniczak;citation_author=M Kukla;citation_author=R Watroba;citation_author=Z Piotrowska-Seget;citation_journal_title=Chemosphere;citation_volume=91;citation_number=91;citation_first_page=1332;citation_last_page=1337;citation_publication_date=2013;"/>    
+<meta name="citation_reference" content="citation_title=Diseases of Annual Edible Oilseed Crops, vol-II Rapeseed-Mustard and Sesame Diseases;citation_author=SJ Kolte;citation_publication_date=1985;citation_publisher=CRC Press"/>    
+<meta name="citation_reference" content="citation_title=Effect of  Sclerotinia  rot on oil quality in low erucic acid cultivars of rapeseed;citation_author=RAK Agarwal;citation_author=A Kumar;citation_author=HL Thakur;citation_journal_title=Crucifereae Newsletter;citation_volume=19;citation_number=19;citation_first_page=103;citation_last_page=104;citation_publication_date=1997;"/>    
+<meta name="citation_reference" content="citation_title= Sclerotinia rot of Indian mustard ( Brassica juncea ) in Rajasthan;citation_author=RP Ghasolia;citation_author=A Shivpuri;citation_author=AK Bhargava;citation_journal_title=Indian Phytopathol;citation_volume=57;citation_number=57;citation_first_page=76;citation_last_page=79;citation_publication_date=2004;"/>    
+<meta name="citation_reference" content="citation_title=Estimation of yield losses to Indian mustard ( Brassica juncea ) due to  Sclerotinia  stem rot;citation_author=AK Shukla;citation_journal_title=J Phytol Res;citation_volume=18;citation_number=18;citation_first_page=267;citation_last_page=268;citation_publication_date=2005;"/>    
+<meta name="citation_reference" content="citation_title=2007, pod shatter resistance evaluation in cultivars and breeding lines of  Brassica napus, B. juncea  and  Sinapis alba ;citation_author=R Wang;citation_author=VL Ripley;citation_author=G Rakow;citation_journal_title=Plant Breed;citation_volume=126;citation_number=126;citation_first_page=588;citation_last_page=595;citation_publication_date=2007;"/>    
+<meta name="citation_reference" content="citation_title= De novo  transcriptome analysis of  Sinapis alba  in revealing the glucosinolate and phytochelatin pathways;citation_author=X Zhang;citation_author=T Liu;citation_author=M Duan;citation_author=J Song;citation_author=X Li;citation_journal_title=Front. Plant Sci. 2016;citation_volume=7;citation_number=7;citation_first_page=259;"/>    
+
+<meta name="citation_reference" content="Andrews S. FastQC: a quality control tool for high throughput sequence data Available online at:  http://www.bioinformatics.babraham.ac.uk/projects/fastqc . 2010."/>
+<meta name="citation_reference" content="citation_title=Cutadapt: removes adapter sequences from high-throughput sequencing reads;citation_author=M Martin;citation_journal_title=EMBnet journal;citation_volume=17;citation_number=17;citation_issue=1;citation_first_page=10;citation_last_page=12;citation_publication_date=2011;"/>    
+<meta name="citation_reference" content="citation_title=1995,  Diplotaxiscatholica +  Brassica juncea somatic hybrids: molecular and cytogenetic characterization;citation_author=PB Kirti;citation_author=T Mohapatra;citation_author=H Khanna;citation_author=S Prakash;citation_author=VL Chopra;citation_journal_title=Plant Cell Rep;citation_volume=14;citation_number=14;citation_first_page=593;citation_last_page=597;citation_publication_date=1995;"/>    
+<meta name="citation_reference" content="citation_title=KEGG: Kyoto encyclopedia of genes and genomes;citation_author=M Kanehisa;citation_author=S Goto;citation_journal_title=Nucleic Acids Res;citation_volume=28;citation_number=28;citation_issue=1;citation_first_page=27;citation_last_page=30;citation_publication_date=2000;"/>    
+<meta name="citation_reference" content="citation_title=MEGA7: Molecular Evolutionary Genetics Analysis version 7.0 for bigger datasets;citation_author=S Kumar;citation_author=G Stecher;citation_author=K Tamura;citation_journal_title=Molecular Biology and Evolution;citation_volume=33;citation_number=33;citation_first_page=1870;citation_last_page=1874;citation_publication_date=2016;"/>    
+<meta name="citation_reference" content="citation_title=FT-IR and NMR study of seed coat dissected from different colored progenies of  Brassica napus-Sinapis  alba hybrids;citation_author=J Jiang;citation_author=Y Shao;citation_author=A Li;citation_author=Y Zhang;citation_author=C Wei;citation_author=Y Wang;citation_journal_title=J. Sci. Food Agri;citation_volume=93;citation_number=93;citation_first_page=1898;citation_last_page=1902;citation_publication_date=2013;"/>    
+<meta name="citation_reference" content="citation_title=Identification of putative quantitative trait loci associated with a flavonoid related to resistance to cabbage seedpod weevil ( Ceutorhynchusobstrictus ) in canola derived from an intergeneric cross,  Sinapis alba  x  Brassica napus ;citation_author=RW Lee;citation_author=IT Malchev;citation_author=I Rajcan;citation_author=LS Kott;citation_journal_title=Theor. Appl. Genet;citation_volume=127;citation_number=127;citation_first_page=419;citation_last_page=428;citation_publication_date=2014;"/>    
+<meta name="citation_reference" content="citation_title=Evolution of genome size in Brassicaceae;citation_author=JS Johnston;citation_author=AE Pepper;citation_author=AE Hall;citation_author=ZJ Chen;citation_author=G Hodnett;citation_author=J Drabek;citation_journal_title=Annals of Botany;citation_volume=95;citation_number=95;citation_issue=1;citation_first_page=229;citation_last_page=235;citation_publication_date=2005;"/>    
+<meta name="citation_reference" content="citation_title=Construction of a genetic linkage map and QTL analysis of erucic acid content and glucosinolate components in yellow mustard ( Sinapis alba  L.);citation_author=F Javidfar;citation_author=B Cheng;citation_journal_title=BMC Plant Biol;citation_volume=13;citation_number=13;citation_first_page=142;citation_publication_date=2013;"/>    
+<meta name="citation_reference" content="citation_title=Detection and molecular characterization of two  FAD3  genes controlling linolenic acid content and development of allele-specific markers in yellow mustard ( Sinapis alba );citation_author=E Tian;citation_author=F Zeng;citation_author=K MacKay;citation_author=V Roslinsky;citation_author=B Cheng;citation_journal_title=PLoS ONE;citation_volume=9;citation_number=9;citation_first_page=e97430;citation_publication_date=2014;"/>    
+<meta name="citation_reference" content="citation_title=2012, Primer3—new capabilities and interfaces;citation_author=A Untergasser;citation_author=I Cutcutache;citation_author=T Koressaar;citation_author=J Ye;citation_author=BC Faircloth;citation_author=M Remm;citation_journal_title=Nucleic Acids Research;citation_volume=40;citation_number=40;citation_issue=15;citation_first_page=e115;citation_publication_date=2012;"/>    
+<meta name="citation_reference" content="citation_title=Computational and experimental characterization of physically clustered simple sequence repeats in plants;citation_author=L Cardle;citation_author=L Ramsay;citation_author=D Milbourne;citation_author=M Macaulay;citation_author=D Marshall;citation_author=R Waugh;citation_journal_title=Genetics;citation_volume=156;citation_number=156;citation_first_page=847;citation_last_page=854;citation_publication_date=2000;"/>    
+<meta name="citation_reference" content="citation_title=Identification and characterization of EST-SSR markers in cluster bean (spp.);citation_author=NA Kuravadi;citation_author=PB Tiwari;citation_author=UK Tanwar;citation_author=SK Tripathi;citation_author=KS Dhugga;citation_author=KS Gill;citation_journal_title=Crop Sci;citation_volume=54;citation_number=54;citation_first_page=1097;citation_last_page=1102;citation_publication_date=2014;"/>    
+<meta name="citation_reference" content="citation_title=Genic microsatellite markers in plants: features and applications;citation_author=RK Varshney;citation_author=A Graner;citation_author=ME Sorrells;citation_journal_title=Trends Biotechnol;citation_volume=23;citation_number=23;citation_first_page=48;citation_last_page=55;citation_publication_date=2005;"/>    
+<meta name="citation_reference" content="citation_title=Genome-wide distribution and organization of microsatellites in plants: an insight in to marker development in Brachypodium;citation_author=H Sonah;citation_author=RK Deshmukh;citation_author=A Sharma;citation_author=VP Singh;citation_author=DK Gupta;citation_author=RN Gacche;citation_journal_title=PLoS ONE;citation_volume=6;citation_number=6;citation_first_page=e21298;citation_publication_date=2011;"/>    
+<meta name="citation_reference" content="citation_title=A novel dominant glossy mutation causes suppression of wax biosynthesis pathway and deficiency of cuticular wax in  Brassica napus ;citation_author=Y Pu;citation_author=J Gao;citation_author=Y Guo;citation_author=T Liu;citation_author=L Zhu;citation_author=P Xu;citation_journal_title=BMC Plant Biology;citation_volume=215;citation_number=215;citation_first_page=13;citation_publication_date=2013;"/>    
+<meta name="citation_reference" content="citation_title=2006, Genetic mapping and BAC assignment of EST-derived SSR markers shows non-uniform distribution of genes in the barley genome;citation_author=RK Varshney;citation_author=I Grosse;citation_author=U Hähnel;citation_author=R Siefken;citation_author=M Prasad;citation_author=N Stein;citation_journal_title=Theor. Appl. Genet;citation_volume=113;citation_number=113;citation_first_page=239;citation_last_page=250;citation_publication_date=2006;"/>    
+<meta name="citation_reference" content="citation_title=2017, RNA-Seq of Guar ( Cyamopsistetragonoloba , L. Taub.) Leaves:  De novo  Transcriptome Assembly, Functional Annotation and Development of Genomic Resources;citation_author=UK Tanwar;citation_author=V Pruthi;citation_author=GS Randhawa;citation_journal_title=Front. Plant Sci. 2017;citation_volume=8;citation_number=8;citation_first_page=91;"/>    
+<meta name="citation_reference" content="citation_title=Development and analysis of EST-SSRs for flax ( Linumusitatissimum L.);citation_author=S Cloutier;citation_author=Z Niu;citation_author=R Datla;citation_author=S Duguid;citation_journal_title=Theor. Appl. Genet;citation_volume=119;citation_number=119;citation_first_page=53;citation_last_page=63;citation_publication_date=2009;"/>    
+<meta name="citation_reference" content="citation_title=Gene Ontology: tool for the unification of biology Nat;citation_author=M Ashburner;citation_author=CA Ball;citation_author=JA Blake;citation_author=D Botstein;citation_author=H Butler;citation_author=JM Cherry;citation_journal_title=Genet;citation_volume=25;citation_number=25;citation_first_page=25;citation_last_page=29;citation_publication_date=2000;"/>    
+<meta name="citation_reference" content="citation_title=AUGUSTUS: a web server for gene prediction in eukaryotes that allows user-defined constraints;citation_author=S Mario;citation_author=M Burkhard;citation_journal_title=Nucleic Acids Res;citation_volume=33;citation_number=33;citation_first_page=W465;citation_last_page=W467;citation_publication_date=2005;"/>    
+<meta name="citation_reference" content="citation_title=Predicting genes in single genome with AUGUSTUS;citation_author=KJ Hoff;citation_author=M Stanke;citation_journal_title=Current Protocols in Bioinformatics;citation_volume=65;citation_number=65;citation_first_page=e57;citation_publication_date=2019;"/>    
+<meta name="citation_reference" content="citation_title=Sequencing,  de novo  assembly, functional annotation and analysis of Phyllanthus amarus leaf transcriptome using the Illumina platform;citation_author=MA Bose;citation_author=S Chattopadhyay;citation_journal_title=Front. Plant Sci. 2016;citation_volume=6;citation_number=6;citation_first_page=1199;"/>    
+<meta name="citation_reference" content="citation_title=Overexpression of Arabidopsis ECERIFERUM1 promotes wax very-long-chain alkane biosynthesis and influences plant response to biotic and abiotic stresses;citation_author=BB Bourdenx;citation_author=A Bernard;citation_author=F Domergue;citation_author=S Pascal;citation_author=L Amandine;citation_author=D Roby;citation_journal_title=Plant Physiology;citation_volume=156;citation_number=156;citation_first_page=29;citation_last_page=45;citation_publication_date=2011;"/>    
+<meta name="citation_reference" content="citation_title=Molecular characterization of the  CER7  gene of Arabidopsis involved in epicuticular wax biosynthesis and pollen fertility;citation_author=MGM Aarts;citation_author=CJ Keijzer;citation_author=WJ Stiekema;citation_author=A Pereira;citation_journal_title=The Plant Cell;citation_volume=7;citation_number=7;citation_first_page=2115;citation_last_page=2127;citation_publication_date=1995;"/>    
+<meta name="citation_reference" content="citation_title=Plant retrotransposons;citation_author=A Kumar;citation_author=JL Bennetzen;citation_journal_title=Annual Review of Genetics;citation_volume=33;citation_number=33;citation_first_page=479;citation_last_page=532;citation_publication_date=1999;"/>    
+<meta name="citation_reference" content="citation_title=Transcriptome sequencing in an ecologically important tree species: assembly, annotation, and marker discovery;citation_author=TL Parchman;citation_author=SG Katherine;citation_author=AG Johan;citation_author=WB Craig;citation_author=CA Buerkle;citation_journal_title=BMC Genomics;citation_volume=11;citation_number=11;citation_first_page=180;citation_publication_date=2010;"/>    
+
+
+<!-- DoubleClick overall ad setup script -->
+<script type='text/javascript'>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  (function() {
+    var gads = document.createElement('script');
+    gads.async = true;
+    gads.type = 'text/javascript';
+    var useSSL = 'https:' == document.location.protocol;
+    gads.src = (useSSL ? 'https:' : 'http:') +
+        '//www.googletagservices.com/tag/js/gpt.js';
+    var node = document.getElementsByTagName('script')[0];
+    node.parentNode.insertBefore(gads, node);
+  })();
+</script>
+
+<!-- DoubleClick ad slot setup script -->
+
+  <script id="doubleClickSetupScript" type='text/javascript'>
+    googletag.cmd.push(function() {
+  googletag.defineSlot('/75507958/PONE_728x90_ATF', [728, 90], 'div-gpt-ad-1458247671871-0').addService(googletag.pubads());
+  googletag.defineSlot('/75507958/PONE_160x600_BTF', [160, 600], 'div-gpt-ad-1458247671871-1').addService(googletag.pubads());
+      googletag.pubads().enableSingleRequest();
+      googletag.enableServices();
+    });
+  </script>
+
+
+
+<script type="text/javascript">
+    var WombatConfig = WombatConfig || {};
+    WombatConfig.resourcePath = "/plosone/resource/";
+    WombatConfig.imgPath = "/plosone/resource/img/";
+    WombatConfig.journalKey = "PLoSONE";
+    WombatConfig.figurePath = "/plosone/article/figure/image";
+    WombatConfig.figShareInstitutionString = "plos";
+    WombatConfig.doiResolverPrefix = "https://dx.plos.org/";
+</script>
+
+<script type="text/javascript">
+  var WombatConfig = WombatConfig || {};
+  WombatConfig.metrics = WombatConfig.metrics || {};
+  WombatConfig.metrics.referenceUrl      = "http://lagotto.io/plos";
+  WombatConfig.metrics.googleScholarUrl  = "https://scholar.google.com/scholar";
+  WombatConfig.metrics.googleScholarCitationUrl  = WombatConfig.metrics.googleScholarUrl + "?hl=en&lr=&q=";
+  WombatConfig.metrics.crossrefUrl  = "https://www.crossref.org";
+</script>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js" ></script>
+<script>window.jQuery || document.write('<script src="/plosone/resource/js/vendor/jquery-2.1.4.min.js""><\/script>')</script>
+
+          <script type="text/javascript" src="https://widgets.figshare.com/static/figshare.js"></script>
+
+
+
+
+
+
+
+
+
+
+<!--For Google Tag manager to be able to track site information  -->
+<script>
+
+  dataLayer = [{
+    'mobileSite': 'false',
+    'desktopSite': 'true'
+  }];
+
+</script>
+
+</head>
+
+
+
+<body class="article plosone">
+
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TP26BH"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TP26BH');</script>
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MQQMGF"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MQQMGF');</script>
+<!-- End Google Tag Manager -->
+
+
+
+<header>
+
+  <div id="topslot" class="head-top">
+
+<div class="center">
+<div class="title">Advertisement</div>
+<!-- DoubleClick Ad Zone -->
+  <div class='advertisement' id='div-gpt-ad-1458247671871-0' style='width:728px; height:90px;'>
+    <script type='text/javascript'>
+      googletag.cmd.push(function() { googletag.display('div-gpt-ad-1458247671871-0'); });
+    </script>
+  </div>
+</div>
+  </div>
+
+  <div id="user" class="nav">
+    <ul class="nav-user">
+
+
+
+
+      <li ><a href="https://plos.org">plos.org</a></li>
+
+
+        <li ><a href="https://community.plos.org/registration/new">create account</a></li>
+
+
+          <li class="highlighted"><a href="/plosone/user/secure/login?page=%2Fplosone%2Farticle%3Fid%3D10.1371%2Fjournal.pone.0231002">sign in</a></li>
+
+    </ul>
+  </div>
+  <div id="pagehdr">
+
+    <nav class="nav-main">
+
+
+
+
+<h1 class="logo">
+  <a href="/plosone/.">PLOS ONE</a>
+</h1>
+
+<section class="top-bar-section"> 
+
+<ul class="nav-elements">
+
+
+    <li class="multi-col-parent menu-section-header has-dropdown" id="publish">
+    Publish
+      <div class="dropdown mega ">
+        <ul class="multi-col" id="publish-dropdown-list">
+
+  <li class="menu-section-header " id="submissions">
+    <span class="menu-section-header-title">  Submissions </span>
+
+    <ul class="menu-section "
+        id="submissions-dropdown-list">
+      <li>
+    <a href="/plosone/s/getting-started" >Getting Started</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/submission-guidelines" >Submission Guidelines</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/figures" >Figures</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/tables" >Tables</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/supporting-information" >Supporting Information</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/latex" >LaTeX</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/other-article-types" >Other Article Types</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/preprints" >Preprints</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/revising-your-manuscript" >Revising Your Manuscript</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/submit-now" >Submit Now</a>
+  </li>
+
+      <li>
+    <a href="https://collections.plos.org/s/calls-for-papers" >Calls for Papers</a>
+  </li>
+
+    </ul>
+
+  </li>
+
+
+  <li class="menu-section-header " id="policies">
+    <span class="menu-section-header-title">  Policies </span>
+
+    <ul class="menu-section "
+        id="policies-dropdown-list">
+      <li>
+    <a href="/plosone/s/best-practices-in-research-reporting" >Best Practices in Research Reporting</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/human-subjects-research" >Human Subjects Research</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/animal-research" >Animal Research</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/competing-interests" >Competing Interests</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/disclosure-of-funding-sources" >Disclosure of Funding Sources</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/licenses-and-copyright" >Licenses and Copyright</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/data-availability" >Data Availability</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/complementary-research" >Complementary Research</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/materials-and-software-sharing" >Materials and Software Sharing</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/ethical-publishing-practice" >Ethical Publishing Practice</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/authorship" >Authorship</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/downloads-and-translations" >Downloads and Translations</a>
+  </li>
+
+    </ul>
+
+  </li>
+
+
+  <li class="menu-section-header " id="manuscript-review-and-publication">
+    <span class="menu-section-header-title">  Manuscript Review and Publication </span>
+
+    <ul class="menu-section "
+        id="manuscript-review-and-publication-dropdown-list">
+      <li>
+    <a href="/plosone/s/criteria-for-publication" >Criteria for Publication</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/editorial-and-peer-review-process" >Editorial and Peer Review Process</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/editor-center" >Editor Center</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/reviewer-guidelines" >Guidelines for Reviewers</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/accepted-manuscripts" >Accepted Manuscripts</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/corrections-and-retractions" >Corrections and Retractions</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/comments" >Comments</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/article-level-metrics" >Article-Level Metrics</a>
+  </li>
+
+    </ul>
+
+  </li>
+        </ul>
+          <div class="calloutcontainer">
+
+
+
+  <h3 class="callout-headline">Submit Your Manuscript</h3>
+
+  <div class="action-contain">
+  <p class="callout-content">
+  Discover a faster, simpler path to publishing in a high-quality journal. <em>PLOS ONE</em> promises fair, rigorous peer review,
+  broad scope, and wide readership – a perfect fit for your research every time.
+  </p>
+
+  <p class="button-contain special">
+    <a class="button button-default" href="/plosone/static/publish">
+     Learn More
+    </a>
+    <a class="button-link" href="https://www.editorialmanager.com/pone/default.asp">
+      Submit Now
+    </a>
+  </p>
+  </div>  <!-- opens in siteMenuCalloutDescription -->
+
+
+          </div>
+      </div>
+    </li>
+
+
+
+  <li class="menu-section-header has-dropdown " id="about">
+    <span class="menu-section-header-title">  About </span>
+
+    <ul class="menu-section dropdown "
+        id="about-dropdown-list">
+      <li>
+    <a href="/plosone/static/publish" >Why Publish with PLOS ONE</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/journal-information" >Journal Information</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/staff-editors" >Staff Editors</a>
+  </li>
+
+      <li>
+    <a href="/plosone/static/editorial-board" >Editorial Board</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/section-editors" >Section Editors</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/advisory-groups" >Advisory Groups</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/find-and-read-articles" >Find and Read Articles</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/publishing-information" >Publishing Information</a>
+  </li>
+
+      <li>
+    <a href="https://plos.org/publication-fees" >Publication Fees</a>
+  </li>
+
+      <li>
+    <a href="https://plos.org/press-and-media" >Press and Media</a>
+  </li>
+
+      <li>
+    <a href="/plosone/s/contact" >Contact</a>
+  </li>
+
+    </ul>
+
+  </li>
+
+  <li data-js-tooltip-hover="trigger" class="subject-area menu-section-header">
+  Browse
+  </li>
+
+      <li id="navsearch" class="head-search">
+
+
+    <form name="searchForm" action="/plosone/search" method="get">
+      <fieldset>
+        <legend>Search</legend>
+        <label for="search">Search</label>
+        <div class="search-contain">
+          <input id="search" type="text" name="q" placeholder="SEARCH" required/>
+          <button id="headerSearchButton" type="submit"><span class="search-icon"></span></button>
+        </div>
+      </fieldset>
+      <input type="hidden" name="filterJournals" value="PLoSONE"/>
+    </form>
+
+    <a id="advSearch"
+       href="/plosone/search">
+      advanced search
+    </a>
+
+
+
+
+      </li>
+
+      </ul>     
+      </section>  
+    </nav>
+  </div>
+
+</header><section id="taxonomyContainer">
+
+<div id="taxonomy-browser" class="areas" data-search-url="/plosone/browse">
+  <div class="wrapper">
+    <div class="taxonomy-header">
+      Browse Subject Areas
+      <div id="subjInfo">?</div>
+      <div id="subjInfoText">
+        <p>Click through the PLOS taxonomy to find articles in your field.</p>
+        <p>For more information about PLOS Subject Areas, click
+          <a href="https://github.com/PLOS/plos-thesaurus/blob/master/README.md" target="_blank" title="Link opens in new window">here</a>.
+        </p>
+      </div>
+    </div>
+    <div class="levels">
+      <div class="levels-container cf">
+        <div class="levels-position"></div>
+      </div>
+      <a href="#" class="prev"></a>
+      <a href="#" class="next active"></a>
+    </div>
+  </div>
+  <div class="taxonomy-browser-border-bottom"></div>
+</div></section>
+<main> <div class="set-grid">
+
+<header class="title-block">
+
+
+
+<script type="text/javascript">
+  var COUNTER_HOST = "https://counter.plos.org/api/v1.0/stats/totals/doi";
+</script>
+
+<script type="text/javascript">
+  var ALM_CONFIG = ALM_CONFIG || {};
+  ALM_CONFIG.hostname = "https://alm.plos.org";
+  ALM_CONFIG.apiKey = "3pezRBRXdyzYW6ztfwft";
+  ALM_CONFIG.host = "https://alm.plos.org/api/v5/articles";
+</script>
+
+<ul id="almSignposts" class="signposts">
+  <li id="loadingMetrics">
+    <p>Loading metrics</p>
+  </li>
+</ul>
+
+<script type="text/template" id="signpostsGeneralErrorTemplate">
+  <li id="metricsError">Article metrics are unavailable at this time. Please try again later.</li>
+</script>
+
+<script type="text/template" id="signpostsNewArticleErrorTemplate">
+  <li></li><li></li><li id="tooSoon">Article metrics are unavailable for recently published articles.</li>
+</script>
+
+<script type="text/template" id="signpostsTemplate">
+    <li id="almSaves">
+      <%= s.numberFormat(saveCount, 0) %>
+      <div class="tools" data-js-tooltip-hover="trigger">
+        <a class="metric-term" href="/plosone/article/metrics?id=10.1371/journal.pone.0231002#savedHeader">Save</a>
+        <p class="saves-tip" data-js-tooltip-hover="target"><a href="/plosone/article/metrics?id=10.1371/journal.pone.0231002#savedHeader">Total Mendeley bookmarks.</a></p>
+      </div>
+    </li>
+
+    <li id="almCitations">
+      <%= s.numberFormat(citationCount, 0) %>
+      <div class="tools" data-js-tooltip-hover="trigger">
+        <a class="metric-term" href="/plosone/article/metrics?id=10.1371/journal.pone.0231002#citedHeader">Citation</a>
+        <p class="citations-tip" data-js-tooltip-hover="target"><a href="/plosone/article/metrics?id=10.1371/journal.pone.0231002#citedHeader">Paper's citation count computed by Scopus.</a></p>
+      </div>
+    </li>
+
+    <li id="almViews">
+      <%= s.numberFormat(viewCount, 0) %>
+      <div class="tools" data-js-tooltip-hover="trigger">
+        <a class="metric-term" href="/plosone/article/metrics?id=10.1371/journal.pone.0231002#viewedHeader">View</a>
+        <p class="views-tip" data-js-tooltip-hover="target"><a href="/plosone/article/metrics?id=10.1371/journal.pone.0231002#viewedHeader">Sum of PLOS and PubMed Central page views and downloads.</a></p>
+      </div>
+    </li>
+
+    <li id="almShares">
+      <%= s.numberFormat(shareCount, 0) %>
+      <div class="tools" data-js-tooltip-hover="trigger">
+        <a class="metric-term" href="/plosone/article/metrics?id=10.1371/journal.pone.0231002#discussedHeader">Share</a>
+        <p class="shares-tip" data-js-tooltip-hover="target"><a href="/plosone/article/metrics?id=10.1371/journal.pone.0231002#discussedHeader">Sum of Facebook and Twitter activity.</a></p>
+      </div>
+    </li>
+</script>
+
+    <div class="article-meta">
+
+<div class="classifications">
+  <p class="license-short" id="licenseShort">Open Access</p>
+  <p class="peer-reviewed" id="peerReviewed">Peer-reviewed</p>
+
+<div class="article-type" >
+  <p class="type-article" id="artType">Research Article</p>
+</div>
+
+
+</div>
+
+
+    </div>
+    <div class="article-title-etc">
+
+
+
+<div class="title-authors">
+  <h1 id="artTitle"><?xml version="1.0" encoding="UTF-8"?>Draft genome of multiple resistance donor plant <i>Sinapis alba</i>: An insight into SSRs, annotations and phylogenetics</h1>
+
+<ul class="author-list clearfix"  data-js-tooltip="tooltip_container" id="author-list">
+
+
+
+<li
+  data-js-tooltip="tooltip_trigger"
+  
+>
+   <a  data-author-id="0" class="author-name" >
+Preetesh Kumari <span class="rel-footnote"> </span>,</a>    <div id="author-meta-0" class="author-info" data-js-tooltip="tooltip_target">
+
+  
+  <p class="roles" id="authRoles">
+    <span class="type">Roles</span>
+    Conceptualization,
+
+    Data curation,
+
+    Funding acquisition,
+
+    Investigation,
+
+    Visualization,
+
+    Writing – review & editing
+  </p>
+  
+    <p><span class="rel-footnote">¶</span>‡ These authors share first authorship on this work.</p>
+  <p id="authAffiliations-0"><span class="type">Affiliation</span>
+    ICAR-National Institute on Plant Biotechnology, IARI, Pusa Campus, New Delhi, India
+  </p>
+
+      <a data-js-tooltip="tooltip_close" class="close" id="tooltipClose0"> &#x02A2F; </a>
+    </div>
+</li>
+
+<li
+  data-js-tooltip="tooltip_trigger"
+  
+>
+   <a  data-author-id="1" class="author-name" >
+Kaushal Pratap Singh <span class="rel-footnote"> </span> <span class="email">  </span>,</a>    <div id="author-meta-1" class="author-info" data-js-tooltip="tooltip_target">
+
+  
+  <p class="roles" id="authRoles">
+    <span class="type">Roles</span>
+    Funding acquisition,
+
+    Investigation,
+
+    Methodology,
+
+    Software,
+
+    Validation,
+
+    Writing – original draft,
+
+    Writing – review & editing
+  </p>
+  <p id="authCorresponding-1"> <span class="email">* E-mail:</span> <a href="mailto:kaushalmpi1978@gmail.com">kaushalmpi1978@gmail.com</a></p>
+    <p><span class="rel-footnote">¶</span>‡ These authors share first authorship on this work.</p>
+  <p id="authAffiliations-1"><span class="type">Affiliation</span>
+    ICAR-Directorate of Rapeseed Mustard Research, Sewar, Bharatpur, Rajasthan, India
+  </p>
+  <div>
+  <p class="orcid" id="authOrcid-1">
+    <span>
+      <a id="connect-orcid-link" href="http://orcid.org/0000-0002-6997-9232" target="_blank" title="ORCID Registry">
+        <img id="orcid-id-logo" src="/plosone/resource/img/orcid_16x16.png" width="16" height="16" alt="ORCID logo"/>
+      </a>
+    </span>
+    <a href="http://orcid.org/0000-0002-6997-9232">http://orcid.org/0000-0002-6997-9232</a>
+  </p>
+  </div>
+
+      <a data-js-tooltip="tooltip_close" class="close" id="tooltipClose1"> &#x02A2F; </a>
+    </div>
+</li>
+
+<li
+  data-js-tooltip="tooltip_trigger"
+  
+>
+   <a  data-author-id="2" class="author-name" >
+Pramod Kumar Rai</a>    <div id="author-meta-2" class="author-info" data-js-tooltip="tooltip_target">
+
+  
+  <p class="roles" id="authRoles">
+    <span class="type">Roles</span>
+    Resources,
+
+    Software,
+
+    Supervision,
+
+    Writing – review & editing
+  </p>
+  
+  <p id="authAffiliations-2"><span class="type">Affiliation</span>
+    ICAR-Directorate of Rapeseed Mustard Research, Sewar, Bharatpur, Rajasthan, India
+  </p>
+
+      <a data-js-tooltip="tooltip_close" class="close" id="tooltipClose2"> &#x02A2F; </a>
+    </div>
+</li>
+
+</ul>
+
+</div>
+
+
+<div id="floatTitleTop" data-js-floater="title_author" class="float-title">
+  <div class="set-grid">
+    <div class="float-title-inner">
+      <h1><?xml version="1.0" encoding="UTF-8"?>Draft genome of multiple resistance donor plant <i>Sinapis alba</i>: An insight into SSRs, annotations and phylogenetics</h1>
+
+<ul id="floatAuthorList" data-js-floater="floated_authors">
+
+  <li data-float-index="1">Preetesh Kumari,&nbsp;
+
+  </li>
+  <li data-float-index="2">Kaushal Pratap Singh,&nbsp;
+
+  </li>
+  <li data-float-index="3">Pramod Kumar Rai
+
+  </li>
+
+</ul>
+
+
+
+    </div>
+    <div class="logo-close" id="titleTopCloser">
+      <img src="/plosone/resource/img/logo-plos.png" style="height: 2em" alt="PLOS" />
+      <div class="close-floater" title="close">x</div>
+    </div>
+  </div>
+</div>
+
+      <ul class="date-doi">
+        <li id="artPubDate">Published: April 9, 2020</li>
+        <li id="artDoi">
+<a   href="https://doi.org/10.1371/journal.pone.0231002">https://doi.org/10.1371/journal.pone.0231002</a>
+        </li>
+      </ul>
+
+    </div>
+  <div>
+
+  </div>
+</header>
+
+  <section class="article-body">
+
+
+
+<ul class="article-tabs">
+
+          <li class="tab-title active" id="tabArticle">
+            <a href="/plosone/article?id=10.1371/journal.pone.0231002" class="article-tab-1">Article</a>
+        </li>
+
+
+              <li class="tab-title " id="tabAuthors">
+            <a href="/plosone/article/authors?id=10.1371/journal.pone.0231002" class="article-tab-2">Authors</a>
+        </li>
+
+
+          <li class="tab-title " id="tabMetrics">
+            <a href="/plosone/article/metrics?id=10.1371/journal.pone.0231002" class="article-tab-3">Metrics</a>
+        </li>
+
+
+          <li class="tab-title " id="tabComments">
+            <a href="/plosone/article/comments?id=10.1371/journal.pone.0231002" class="article-tab-4">Comments</a>
+        </li>
+
+          <li class="tab-title " id="tabRelated">
+            <a href="/plosone/article/related?id=10.1371/journal.pone.0231002" class="article-tab-5">Media Coverage</a>
+        </li>
+
+            <li class="tab-title " id="tabPeerReview">
+            <a href="/plosone/article/peerReview?id=10.1371/journal.pone.0231002" class="article-tab-6">Peer Review</a>
+        </li>
+
+</ul>
+
+    <div class="article-container">
+
+
+<div id="nav-article">
+  <ul class="nav-secondary">
+
+    <li class="nav-comments" id="nav-comments">
+      <a href="article/comments?id=10.1371/journal.pone.0231002">Reader Comments (0)</a>
+    </li>
+
+    <li class="nav-media" id="nav-media" data-doi="10.1371/journal.pone.0231002">
+      <a href="/plosone/article/related?id=10.1371/journal.pone.0231002">
+        Media Coverage <span id="media-coverage-count"></span>
+      </a>
+    </li>
+
+    <li id="nav-figures"><a href="#" data-doi="10.1371/journal.pone.0231002">Figures</a></li>
+  </ul>
+</div>
+
+<div id="figure-lightbox-container"></div>
+
+<script id="figure-lightbox-template" type="text/template">
+  <div id="figure-lightbox" class="reveal-modal full" data-reveal aria-hidden="true"
+       role="dialog">
+    <div class="lb-header">
+      <h1 id="lb-title"><%= articleTitle %></h1>
+
+      <div id="lb-authors">
+            <span>Preetesh Kumari</span>
+            <span>Kaushal Pratap Singh</span>
+            <span>Pramod Kumar Rai</span>
+      </div>
+
+      <div class="lb-close" title="close">&nbsp;</div>
+    </div>
+    <div class="img-container">
+      <div class="loader"> <i class="fa-spinner"></i> </div>
+      <img class="main-lightbox-image" src=""/>
+      <aside id="figures-list">
+        <% figureList.each(function (ix, figure) { %>
+        <div class="change-img" data-doi="<%= figure.getAttribute('data-doi') %>">
+          <img class="aside-figure" src="/plosone/article/figure/image?size=inline&id=<%= figure.getAttribute('data-doi') %>" />
+        </div>
+        <% }) %>
+        <div class="dummy-figure">
+        </div>
+      </aside>
+    </div>
+    <div id="lightbox-footer">
+
+      <div id="btns-container" class="lightbox-row <% if(figureList.length <= 1) { print('one-figure-only') } %>">
+        <div class="fig-btns-container reset-zoom-wrapper left">
+          <span class="fig-btn reset-zoom-btn">Reset zoom</span>
+        </div>
+        <div class="zoom-slider-container">
+          <div class="range-slider-container">
+            <span id="lb-zoom-min"></span>
+            <div class="range-slider round" data-slider data-options="start: 20; end: 200; initial: 20;">
+              <span class="range-slider-handle" role="slider" tabindex="0"></span>
+              <span class="range-slider-active-segment"></span>
+              <input type="hidden">
+            </div>
+            <span id="lb-zoom-max"></span>
+          </div>
+        </div>
+        <% if(figureList.length > 1) { %>
+        <div class="fig-btns-container">
+          <span class="fig-btn all-fig-btn"><i class="icon icon-all"></i> All Figures</span>
+          <span class="fig-btn next-fig-btn"><i class="icon icon-next"></i> Next</span>
+          <span class="fig-btn prev-fig-btn"><i class="icon icon-prev"></i> Previous</span>
+        </div>
+        <% } %>
+      </div>
+      <div id="image-context">
+      </div>
+    </div>
+  </div>
+</script>
+
+<script id="image-context-template" type="text/template">
+  <div class="footer-text">
+    <div id="figure-description-wrapper">
+      <div id="view-more-wrapper" style="<% descriptionExpanded? print('display:none;') : '' %>">
+        <span id="figure-title"><%= title %></span>
+        <p id="figure-description">
+          <%= description %>&nbsp;&nbsp;
+        </p>
+        <span id="view-more">show more<i class="icon-arrow-right"></i></span>
+
+      </div>
+      <div id="view-less-wrapper" style="<% descriptionExpanded? print('display:inline-block;') : '' %>" >
+        <span id="figure-title"><%= title %></span>
+        <p id="full-figure-description">
+          <%= description %>&nbsp;&nbsp;
+          <span id="view-less">show less<i class="icon-arrow-left"></i></span>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div id="show-context-container">
+    <a class="btn show-context" href="<%= showInContext(strippedDoi) %>">Show in Context</a>
+  </div>
+  <div id="download-buttons">
+    <h3>Download:</h3>
+    <div class="item">
+      <a href="/plosone/article/figure/image?size=original&download=&id=<%= doi %>" title="original image">
+        <span class="download-btn">TIFF</span>
+      </a>
+      <span class="file-size"><%= fileSizes.original %></span>
+    </div>
+    <div class="item">
+      <a href="/plosone/article/figure/image?size=large&download=&id=<%= doi %>" title="large image">
+        <span class="download-btn">PNG</span>
+      </a>
+      <span class="file-size"><%= fileSizes.large %></span>
+    </div>
+    <div class="item">
+      <a href="/plosone/article/figure/powerpoint?id=<%= doi %>" title="PowerPoint slide">
+        <span class="download-btn">PPT</span>
+      </a>
+    </div>
+
+  </div>
+</script>
+      <div class="article-content">
+
+
+
+
+
+
+<div id="figure-carousel-section">
+  <h2>Figures</h2>
+
+  <div id="figure-carousel">
+
+    <div class="carousel-wrapper">
+      <div class="slider">
+
+          <div class="carousel-item lightbox-figure" data-doi="10.1371/journal.pone.0231002.t001">
+
+                <img src="/plosone/article/figure/image?size=inline&amp;id=10.1371/journal.pone.0231002.t001"
+                     loading="lazy"
+                     alt="Table 1"
+                />
+
+            </div>
+
+          <div class="carousel-item lightbox-figure" data-doi="10.1371/journal.pone.0231002.g001">
+
+                <img src="/plosone/article/figure/image?size=inline&amp;id=10.1371/journal.pone.0231002.g001"
+                     loading="lazy"
+                     alt="Fig 1"
+                />
+
+            </div>
+
+          <div class="carousel-item lightbox-figure" data-doi="10.1371/journal.pone.0231002.g002">
+
+                <img src="/plosone/article/figure/image?size=inline&amp;id=10.1371/journal.pone.0231002.g002"
+                     loading="lazy"
+                     alt="Fig 2"
+                />
+
+            </div>
+
+          <div class="carousel-item lightbox-figure" data-doi="10.1371/journal.pone.0231002.g003">
+
+                <img src="/plosone/article/figure/image?size=inline&amp;id=10.1371/journal.pone.0231002.g003"
+                     loading="lazy"
+                     alt="Fig 3"
+                />
+
+            </div>
+
+          <div class="carousel-item lightbox-figure" data-doi="10.1371/journal.pone.0231002.g004">
+
+                <img src="/plosone/article/figure/image?size=inline&amp;id=10.1371/journal.pone.0231002.g004"
+                     loading="lazy"
+                     alt="Fig 4"
+                />
+
+            </div>
+
+          <div class="carousel-item lightbox-figure" data-doi="10.1371/journal.pone.0231002.g005">
+
+                <img src="/plosone/article/figure/image?size=inline&amp;id=10.1371/journal.pone.0231002.g005"
+                     loading="lazy"
+                     alt="Fig 5"
+                />
+
+            </div>
+
+          <div class="carousel-item lightbox-figure" data-doi="10.1371/journal.pone.0231002.g006">
+
+                <img src="/plosone/article/figure/image?size=inline&amp;id=10.1371/journal.pone.0231002.g006"
+                     loading="lazy"
+                     alt="Fig 6"
+                />
+
+            </div>
+
+          <div class="carousel-item lightbox-figure" data-doi="10.1371/journal.pone.0231002.g007">
+
+                <img src="/plosone/article/figure/image?size=inline&amp;id=10.1371/journal.pone.0231002.g007"
+                     loading="lazy"
+                     alt="Fig 7"
+                />
+
+            </div>
+
+          <div class="carousel-item lightbox-figure" data-doi="10.1371/journal.pone.0231002.g008">
+
+                <img src="/plosone/article/figure/image?size=inline&amp;id=10.1371/journal.pone.0231002.g008"
+                     loading="lazy"
+                     alt="Fig 8"
+                />
+
+            </div>
+
+          <div class="carousel-item lightbox-figure" data-doi="10.1371/journal.pone.0231002.t002">
+
+                <img src="/plosone/article/figure/image?size=inline&amp;id=10.1371/journal.pone.0231002.t002"
+                     loading="lazy"
+                     alt="Table 2"
+                />
+
+            </div>
+      </div>
+    </div>
+
+    <div class="carousel-control">
+      <span class="button previous"></span>
+      <span class="button next"></span>
+    </div>
+    <div class="carousel-page-buttons">
+
+    </div>
+  </div>
+</div>
+
+
+        <div class="article-text" id="artText">
+          
+
+
+
+<div class="abstract toc-section abstract-type-"><a id="abstract0" name="abstract0" data-toc="abstract0" class="link-target" title="Abstract"></a><h2>Abstract</h2><div class="abstract-content">
+<div id="section1" class="section toc-section"><a id="sec001" name="sec001" class="link-target" title="Background"></a>
+<h3>Background</h3>
+<a id="article1.front1.article-meta1.abstract1.sec1.p1" name="article1.front1.article-meta1.abstract1.sec1.p1" class="link-target"></a><p><em>Sinapis alba</em> is a wild member of the Brassicaceae family reported to possess genetic resistance against major biotic and abiotic stresses of oilseed brassicas. However, the resistance nature of <em>S</em>. <em>alba</em> was not exploited generously due to the unavailability of usable genome sequences in public databases. Therefore, the present study was conducted to assemble the first draft genome from raw whole genome shotgun sequences with annotation and develop simple sequence repeat markers for molecular genetics and marker-assisted breeding.</p>
+</div>
+
+<div id="section2" class="section toc-section"><a id="sec002" name="sec002" class="link-target" title="Results"></a>
+<h3>Results</h3>
+<a id="article1.front1.article-meta1.abstract1.sec2.p1" name="article1.front1.article-meta1.abstract1.sec2.p1" class="link-target"></a><p>The raw genome sequences had 96x coverage on the Illumina platform with 170 Gbp data. The developed assembly by SOAPdenovo2 has ~459 Mbp genome size covered in 403,423 contigs with an average size of 1138.04 bp. The assembly was BLASTX with <em>Arabidopsis thaliana</em> which showed 32.9% positive hits between both plants. The top hit species distribution analysis showed the highest similarity with <em>A</em>. <em>thaliana</em>. A total of 809,597 GO level annotations were recorded after BLASTX results, and 34,012 sequences were annotated with different enzyme codes grouped under seven classes. The gene prediction tool AUGUSTUS identified 113,107 probable genes with an average size of 684 bp. The biochemical pathway annotation assigned 16,119 potential genes to 152 KEGG maps and 1751 enzyme codes. The development of potential SSRs from the <em>de-novo</em> assembly yielded 70731 unique primer pairs. Out of 159 randomly selected SSR markers for validation, 149 successfully amplified in <em>S</em>. <em>alba</em>. However, 10 SSR markers did not amplify during the validation experiment.</p>
+</div>
+
+<div id="section3" class="section toc-section"><a id="sec003" name="sec003" class="link-target" title="Conclusion"></a>
+<h3>Conclusion</h3>
+<a id="article1.front1.article-meta1.abstract1.sec3.p1" name="article1.front1.article-meta1.abstract1.sec3.p1" class="link-target"></a><p>The annotated genome assembly with a large number of SSRs was developed in the present study. To the best of our knowledge, this is the first report of <em>S</em>. <em>alba</em> genome assembly development, annotation, and SSRs mining to date. The data presented here will be a very important resource for future crop improvement programs, especially for resistant breeding.</p>
+</div>
+</div></div>
+
+
+<div class="articleinfo"><p><strong>Citation: </strong>Kumari P, Singh KP, Rai PK (2020) Draft genome of multiple resistance donor plant <em>Sinapis alba</em>: An insight into SSRs, annotations and phylogenetics. PLoS ONE 15(4):
+           e0231002.
+        
+        https://doi.org/10.1371/journal.pone.0231002</p><p><strong>Editor: </strong>Evangelia V. Avramidou, Institute of Mediterranean Forest Ecosystems of Athens, GREECE</p><p><strong>Received: </strong>September 10, 2019; <strong>Accepted: </strong>March 13, 2020; <strong>Published: </strong> April 9, 2020</p><p><strong>Copyright: </strong> © 2020 Kumari et al. This is an open access article distributed under the terms of the <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</a>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</p><p><strong>Data Availability: </strong>All relevant data are within the paper and its supporting information files. This Whole Genome Shotgun project has been deposited at DDBJ/ENA/GenBank under the accession WIDR00000000. The version described in this paper is version WIDR01000000.</p><p><strong>Funding: </strong>1. Preetesh Kumari, File No. YSS/2015/001849), Science and Engineering Research Board, Ministry of Science &amp; Technology, India, <a href="https://www.serbonline.in">https://www.serbonline.in</a>, Sponsor does not have any role in the study design, data collection and analysis, decision to publish, or preparation of the manuscript 2. Kaushal Pratap Singh, File No. 19/1247(0001)/19-EMR-I, HRDG-Council of Scientific &amp; Industrial Research, New Delhi, <a href="http://www.csirhrdg.res.in">www.csirhrdg.res.in</a>, Sponsor does not have any role in the study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p><p><strong>Competing interests: </strong> The authors have declared that no competing interests exist.</p></div>
+
+
+
+
+
+<div id="section1" class="section toc-section"><a id="sec004" name="sec004" data-toc="sec004" class="link-target" title="1. Introduction"></a><h2>1. Introduction</h2><a id="article1.body1.sec1.p1" name="article1.body1.sec1.p1" class="link-target"></a><p>Next-generation sequencing (NGS) provides high throughput data for analyzing complete genomes of diploid and polyploidy plants. In recent years, NGS is being used worldwide for generating sequence information that can be used for decoding numerous eukaryotic genomes. In agriculturally important crops including their wild donor plants, the reference or draft level genome sequences and its annotation information can be used for the rapid identification of potential genes. These sequences can also be used to develop molecular markers in the form of single nucleotide polymorphism and simple sequence repeats (SSRs). These markers are used to construct fine linkage maps and map-based cloning of important genes and are also used in marker-assisted breeding to accumulate rapid information about plants with useful traits. The identified genes can be marked for their roles in different biological pathways of plant systems. These marked genes can be cloned and introgressed in economically useful crop plants to develop super agriculturally-important crops. In the Brassicaceae family, <em>Arabidopsis thaliana</em> is the completely sequenced model plant that is used as a reference genome to annotate unknown gene sequences.</p>
+<a id="article1.body1.sec1.p2" name="article1.body1.sec1.p2" class="link-target"></a><p>The Brassicaceae family contains 338 genera and 3,709 species including oilseed crops, vegetables, and some wild relatives [<a href="#pone.0231002.ref001" class="ref-tip">1</a>]. The white mustard (<em>Sinapis alba</em> L., 2x = 2n = 24), a diploid wild member of this family, is widely cultivated for food condiments in dry temperate and tropical countries (e.g., China, India, Pakistan, Russia, Tajikistan, Turkmenistan, Uzbekistan, Vietnam, Africa, Europe, Canada, and North America). It also performs well in dry and hot environments. The plant possesses many important agronomic traits such as tolerance/resistance against <em>Alternaria</em> blight [<a href="#pone.0231002.ref002" class="ref-tip">2</a>,<a href="#pone.0231002.ref003" class="ref-tip">3</a>,<a href="#pone.0231002.ref004" class="ref-tip">4</a>], <em>Sclerotinia</em> stem rot [<a href="#pone.0231002.ref005" class="ref-tip">5</a>], beet cyst nematode [<a href="#pone.0231002.ref006" class="ref-tip">6</a>], flea beetles [<a href="#pone.0231002.ref007" class="ref-tip">7</a>,<a href="#pone.0231002.ref008" class="ref-tip">8</a>], pod shattering [<a href="#pone.0231002.ref009" class="ref-tip">9</a>,<a href="#pone.0231002.ref010" class="ref-tip">10</a>], high temperature [<a href="#pone.0231002.ref011" class="ref-tip">11</a>], and drought [<a href="#pone.0231002.ref012" class="ref-tip">12</a>]. Currently, the importance of this plant has increased due to the identification of antioxidants, antibiotics, and anti-cancer chemicals in its seed extract [<a href="#pone.0231002.ref013" class="ref-tip">13</a>]. The plant can absorb heavy metal (Cd) from the soil, suggesting its potential application in phytoremediation [<a href="#pone.0231002.ref014" class="ref-tip">14</a>]. The cultivated crop brassicas have very low genetic variability and are highly susceptible to many diseases, resulting in heavy yield losses [<a href="#pone.0231002.ref015" class="ref-tip">15</a>,<a href="#pone.0231002.ref016" class="ref-tip">16</a>,<a href="#pone.0231002.ref017" class="ref-tip">17</a>,<a href="#pone.0231002.ref018" class="ref-tip">18</a>]. The <em>S</em>. <em>alba</em> has post-fertilization barriers with <em>Brassica juncea</em>; thus, resistance could not be transferred. However, some workers developed somatic hybrids of <em>S</em>. <em>alba</em> with cultivated oilseed brassicas to introgress resistance [<a href="#pone.0231002.ref004" class="ref-tip">4</a>,<a href="#pone.0231002.ref019" class="ref-tip">19</a>]. The <em>S</em>. <em>alba</em> genome assembly was not available till now, so all useful work like molecular marker discovery and identification of genes could not be possible previously.</p>
+<a id="article1.body1.sec1.p3" name="article1.body1.sec1.p3" class="link-target"></a><p>Compared to other Brassicaceae family plants such as <em>Brassica rapa</em>, <em>Brassica nigra</em>, <em>Brassica oleracea</em>, <em>B</em>. <em>juncea</em>, <em>Brassica napus</em>, the genome sequencing data of <em>S</em>. <em>alba</em> was not available in the public domain. However, the report on the transcriptome assembly is available and published [<a href="#pone.0231002.ref020" class="ref-tip">20</a>]. Thus in this study, we have used Illumina sequenced NGS data of <em>S</em>. <em>alba</em> genome from NCBI (Accession No. SRR3490913, SRR3490914, SRR1799170, SRR1799171). This raw data was used to develop <em>de-novo</em> assembly, gene prediction with annotations and identification of SSR markers. The insight of <em>S</em>. <em>alba</em> genome provides useful information on SSRs, genes and biochemical pathways that could be used in crop improvement programs.</p>
+</div>
+
+<div id="section2" class="section toc-section"><a id="sec005" name="sec005" data-toc="sec005" class="link-target" title="2. Material and methods"></a><h2>2. Material and methods</h2>
+<div id="section1" class="section toc-section"><a id="sec006" name="sec006" class="link-target" title="2.1. Assembly preparation"></a>
+<h3>2.1. Assembly preparation</h3>
+<a id="article1.body1.sec2.sec1.p1" name="article1.body1.sec2.sec1.p1" class="link-target"></a><p>Department of Energy, Joint genome institute, USA had developed whole genome shotgun (WGS) sequences (Illumina Hiseq 2500/2000) of <em>S</em>. <em>alba</em> (Strain: S2 GC0560-79) and submitted to SRA (NCBI). A total of four different runs were developed by JGI and submitted with accession numbers SRR3490913 and SRR3490914 (Single-end) and SRR1799170 and SRR1799171 (Paired-end). We have downloaded WGS sequences of all four runs from NCBI in FASTQ format to develop the first draft genome assembly. The raw sequences were checked for adapter contamination and poor quality bases by FASTQC v0.11.8 software [<a href="#pone.0231002.ref021" class="ref-tip">21</a>]. The identified adapters and poor-quality bases were removed with CutAdapt v2.3 [<a href="#pone.0231002.ref022" class="ref-tip">22</a>] with the quality score (Q) 25 and rechecked with FASTQC. The statistics of all four runs were cross-checked by Assembly-stats software (<a href="https://github.com/sanger-pathogens/assembly-stats">https://github.com/sanger-pathogens/assembly-stats</a>) before and after the removal of adapter and poor-quality bases. The trimmed quality raw sequences were then used for assembly preparation by SOAPdenovo2 (<a href="https://github.com/aquaskyline/SOAPdenovo2">https://github.com/aquaskyline/SOAPdenovo2</a>) with parameter K = 37 and -R option enabled to solve the tiny repeat region assembly using the reads.</p>
+</div>
+
+<div id="section2" class="section toc-section"><a id="sec007" name="sec007" class="link-target" title="2.2. SSR detection and primer design"></a>
+<h3>2.2. SSR detection and primer design</h3>
+<a id="article1.body1.sec2.sec2.p1" name="article1.body1.sec2.sec2.p1" class="link-target"></a><p>The potential microsatellite markers were identified in 403,423 contigs by using the MIcroSAtellite (MISA) identification tool (<a href="http://pgrc.ipk-gatersleben.de/misa/misa.html">http://pgrc.ipk-gatersleben.de/misa/misa.html</a>). The parameters were adjusted for identification of perfect di-, tri-, tetra-, penta- and hexanucleotide motifs with the minimum number of 6, 5, 5, 5, and 5 repetitions, respectively. However, mononucleotide repeats were not considered for this purpose. The primer pairs were designed by using Primer3 v0.4.0. The parameters used for primer pair designing were put as follows: primer size 18–25 bp (optimum 20 bp), PCR product size 100–400 bp (optimum 280 bp), GC percent 45–70 (optimum 50%), Tm 57–63°C (optimum 60°C). Based on the above parameters, 78067 primer pairs were designed.</p>
+</div>
+
+<div id="section3" class="section toc-section"><a id="sec008" name="sec008" class="link-target" title="2.3. SSR marker validation"></a>
+<h3>2.3. SSR marker validation</h3>
+<a id="article1.body1.sec2.sec3.p1" name="article1.body1.sec2.sec3.p1" class="link-target"></a><p>For validation of randomly selected 159 SSR markers, the young leaves of field-grown single <em>S</em>. <em>alba</em> (Strain: DRMR-2183) plant were used for genomic DNA extraction and purification as reported earlier [<a href="#pone.0231002.ref023" class="ref-tip">23</a>]. Nanodrop 8000 spectrophotometer was used for quantification (Thermo Fisher Scientific, USA). The 20 μl PCR reaction mixture contained template DNA- 2 μl (25 ng/μl), primer pairs (forward and reverse)- 2 μl (10 ng/μl), 0.05 mM dNTP mix- 0.25 μl, 2.5 mM MgCl2−0.25 μl, Taq DNA polymerase buffer (10 X)- 2 μl, 0.25 U Taq DNA polymerase (Banglore GENEI)- 0.5 μl, and nuclease-free water- 13 μl. The PCR conditions were 4 min at 94°C, followed by 40 cycles at 94°C/30 sec (denaturation), 58°C/30 seconds (primer annealing) and 72°C/30 seconds (primer extension), followed by a final extension at 72°C for 7 min. To determine the approximate amplicon size, 50 bp DNA ladder (New England Biolabs) was used as a molecular marker. PCR products were resolved on a 3% agarose gel and visualized by ethidium bromide staining in a gel documentation unit.</p>
+</div>
+
+<div id="section4" class="section toc-section"><a id="sec009" name="sec009" class="link-target" title="2.4. Structural and functional annotation of assembly"></a>
+<h3>2.4. Structural and functional annotation of assembly</h3>
+<a id="article1.body1.sec2.sec4.p1" name="article1.body1.sec2.sec4.p1" class="link-target"></a><p>Before downstream analysis of <em>de-novo</em> assembly, repeat masking was done with Repeat Masker. A local BLASTX was used to compare the similarity between <em>S</em>. <em>alba</em> and <em>A</em>. <em>thaliana</em> by the OmicsBox tool (<a href="https://www.biobam.com/omicsbox/">https://www.biobam.com/omicsbox/</a>). The protein fasta (downloaded from NCBI; RefSeq assembly accession No. GCF_000001735.4_TAIR10.1) of this plant was used for local BLASTX at an <em>E</em> value threshold of 1e-25 with all unique contigs (4,03,423) of <em>S</em>. <em>alba</em>. The minimum alignment length (hsp-length) was set on 11 bp. The BLASTX result was used in OmicsBox for Gene Ontology (GO) analysis. OmicsBox retrieves the most significant GO terms related to the blast hits of query contigs. The retrieved GO terms were owed to query contigs and classified into cellular component, molecular function, and biological process categories. The contigs were also used for gene prediction by AUGUSTUS webserver (<em>ab-initio</em>) through OmicsBox. The predicted genes were further searched for similarity by NCBI blast+ via CloudBlast on BLASTX program with UniProtKB/Swiss-Prot (swissprot_v5) and Non-redundant protein sequences (Nr_v5) databases. The taxonomic groups were selected as Brassicaceae and Brassica to specify our search results. The filter was used as a BLAST against a subset of taxonomies. The genes were further used to annotate against the Kyoto Encyclopedia of Genes and Genomes (KEGG) metabolic pathways database [<a href="#pone.0231002.ref024" class="ref-tip">24</a>]. The pathway genes related to plant physical defense systems were identified and verified by BLASTN with available information against the NCBI database. The key gene in plant cuticular wax synthesis was identified and examined their genetic relationship within the Brassicaceae family. The MEGA software was used to construct a dendrogram based on the unweighted pair group method of an arithmetic average algorithm from gene sequences present in various plant species [<a href="#pone.0231002.ref025" class="ref-tip">25</a>]. The <em>S</em>. <em>alba</em> genome was examined for all types of retrotransposons and classified according to their category.</p>
+</div>
+</div>
+
+<div id="section3" class="section toc-section"><a id="sec010" name="sec010" data-toc="sec010" class="link-target" title="3. Results and discussion"></a><h2>3. Results and discussion</h2><a id="article1.body1.sec3.p1" name="article1.body1.sec3.p1" class="link-target"></a><p><em>S</em>. <em>alba</em> could be a potential donor of genetic resistance for biotic disease, environmental stresses, and some other agronomic traits to close relatives such as <em>B</em>. <em>juncea</em>, <em>B</em>. <em>napus</em> and other brassica crops [<a href="#pone.0231002.ref012" class="ref-tip">12</a>,<a href="#pone.0231002.ref026" class="ref-tip">26</a>,<a href="#pone.0231002.ref027" class="ref-tip">27</a>]. Much research has been focused on this wild plant for its medicinal values because of the presence of anti-bacterial, antioxidant, and anti-cancer chemicals [<a href="#pone.0231002.ref013" class="ref-tip">13</a>]. The processed genome sequencing data was not available in any database. However, the transcriptome sequencing was reported for glucosinolate and phytochelatin pathways [<a href="#pone.0231002.ref020" class="ref-tip">20</a>]. The raw sequenced data of transcriptome and whole nuclear genome have been submitted in NCBI. In the present study, WGS sequence data was used for assembly, annotations, and SSRs development.</p>
+
+<div id="section1" class="section toc-section"><a id="sec011" name="sec011" class="link-target" title="3.1. De-novo assembly development"></a>
+<h3>3.1. <em>De-novo</em> assembly development</h3>
+<a id="article1.body1.sec3.sec1.p1" name="article1.body1.sec3.sec1.p1" class="link-target"></a><p>The whole genome shotgun sequences of <em>S</em>. <em>alba</em>, developed and submitted to NCBI by the Department of Energy, Joint genome institute, USA was used for <em>de-novo</em> assembly development. The sequences were submitted in four accessions generated from four different runs. The total genome coverage in these runs was 96x on Illumina Hiseq 2500/2000 platform. The generated FASTQ sequences were single- and paired-end reads. The total raw sequences were approximately 170 G base pairs (<a href="#pone-0231002-t001">Table 1</a>).</p>
+<a class="link-target" id="pone-0231002-t001" name="pone-0231002-t001"></a><div class="figure" data-doi="10.1371/journal.pone.0231002.t001"><div class="img-box"><a title="Click for larger image" href="article/figure/image?size=medium&amp;id=info:doi/10.1371/journal.pone.0231002.t001" data-doi="info:doi/10.1371/journal.pone.0231002" data-uri="info:doi/10.1371/journal.pone.0231002.t001"><img src="article/figure/image?size=inline&amp;id=info:doi/10.1371/journal.pone.0231002.t001" alt="thumbnail" class="thumbnail" loading="lazy"></a><div class="expand"></div></div><div class="figure-inline-download">
+          Download:
+          <ul><li><div class="definition-label"><a href="article/figure/powerpoint?id=info:doi/10.1371/journal.pone.0231002.t001">
+                  PPT
+                </a></div><a href="article/figure/powerpoint?id=info:doi/10.1371/journal.pone.0231002.t001">
+                PowerPoint slide
+              </a></li><li><div class="definition-label"><a href="article/figure/image?download&amp;size=large&amp;id=info:doi/10.1371/journal.pone.0231002.t001">
+                  PNG
+                </a></div><a href="article/figure/image?download&amp;size=large&amp;id=info:doi/10.1371/journal.pone.0231002.t001">
+                larger image
+              </a></li><li><div class="definition-label"><a href="article/figure/image?download&amp;size=original&amp;id=info:doi/10.1371/journal.pone.0231002.t001">
+                  TIFF
+                </a></div><a href="article/figure/image?download&amp;size=original&amp;id=info:doi/10.1371/journal.pone.0231002.t001">
+                original image
+              </a></li></ul></div><div class="figcaption"><span>Table 1. </span> Raw Illumina sequenced data statistics.</div><p class="caption_target"></p><p class="caption_object"><a href="https://doi.org/10.1371/journal.pone.0231002.t001">
+              https://doi.org/10.1371/journal.pone.0231002.t001</a></p></div><a id="article1.body1.sec3.sec1.p2" name="article1.body1.sec3.sec1.p2" class="link-target"></a><p>At first, the downloaded raw sequences were checked by Assembly-stats software and data statistics were matched with the information provided by the submitter. The sequence length of the raw read was 150 bp, and the total GC percentage was 37. The low-quality bases were trimmed at Phred score (Q) 25, and all identified adapters were removed with CutAdapt 2.3 software. The trimmed raw sequences were analyzed with Assembly-stats and FASTQC for quality check. The trimmed quality raw sequences were then used for <em>de-novo</em> assembly preparation using SOAPdenovo2 software with optimum k-mer size 37. A total of 4,03,423 contigs with sum base pair of 459,115,215 were generated as an output of the <em>de-novo</em> assembly. The generated draft assembly (459 Mb) was approximately 83% of the total genome size of <em>S</em>. <em>alba</em> (553 Mb) [<a href="#pone.0231002.ref028" class="ref-tip">28</a>]. The maximum and minimum contig size was 29,081 and 200 base pairs respectively. However, the average size of contigs was 1138.04 bp and N50 was 1742 bp. The contigs below 1000 bp were recorded at 68.19%, and only 25 (0.006%) contigs were found above 20,000 bp (<a href="#pone-0231002-g003">Fig 3A</a>).</p>
+</div>
+
+<div id="section2" class="section toc-section"><a id="sec012" name="sec012" class="link-target" title="3.2. SSRs development, characterization and validation"></a>
+<h3>3.2. SSRs development, characterization and validation</h3>
+<a id="article1.body1.sec3.sec2.p1" name="article1.body1.sec3.sec2.p1" class="link-target"></a><p>Molecular markers are a vital source of genetic studies, but they are still rare in the case of <em>S</em>. <em>alba</em> because of the unavailability of the reference genome in the public domain. The SSRs and intron length polymorphism markers were developed and used by some workers for such studies [<a href="#pone.0231002.ref020" class="ref-tip">20</a>,<a href="#pone.0231002.ref029" class="ref-tip">29</a>,<a href="#pone.0231002.ref030" class="ref-tip">30</a>]. In this study, the generated draft assembly of <em>S</em>. <em>alba</em> was used for <em>in-silico</em> SSR prediction and flanking primer designing with MISA and Primer3 software [<a href="#pone.0231002.ref031" class="ref-tip">31</a>]. The total number of SSR loci identified in the assembly was 109,980, while the primer pairs were designed only for 78,067 (70.98%) SSR loci. No primer pairs were designed for 31,913 (29.02%) SSR loci. An average of one SSR per 5.88kb genome sequence was developed in this study; similar observations were reported by previous authors [<a href="#pone.0231002.ref032" class="ref-tip">32</a>,<a href="#pone.0231002.ref033" class="ref-tip">33</a>]. However, the average size (kbp) may be varied depending upon the size of datasets (genes, contigs, and scaffolds), program or parameters [<a href="#pone.0231002.ref034" class="ref-tip">34</a>]. The redundant primers were removed, and a total of 70,731 (64.31%) unique SSR markers of <em>S</em>. <em>alba</em> were obtained (<a href="#pone.0231002.s001">S1 Table</a>). The dinucleotide motifs were most common SSRs, accounting for about 85.06%, followed by tri-, tetra-, penta-, and hexanucleotide repeats that accounted for 12.99%, 0.94%, 0.35% and 0.46% SSRs, respectively [<a href="#pone.0231002.ref035" class="ref-tip">35</a>]. The developed SSRs also contained 178 (0.16%) hepta-, 8 (0.007%) oct-, 27 (0.024%) nona- and 1 (0.0009%) decanucleotide motifs. Most of the contigs (32261) have 5 repetitions of motifs within SSR length while only one contig has 99 repetitions. Only 24 contigs were found with more than 50 repetitions. (<a href="#pone-0231002-g001">Fig 1A</a>; <a href="#pone.0231002.s002">S2 Table</a>). The top dinucleotide and trinucleotide motifs present in the SSRs were AT (27.9%), TA (20.8%), AG (9%), TC (8.5%), CT (6.2%), GA (5.4%), TG (2.3%), AC (2.1%), CA (1.5%), GT (1.2%), GAA (0.9%), TCT (0.9%) and TTC (0.8%) (<a href="#pone-0231002-g001">Fig 1B</a>). This data propensity was also reported in other plant genomes [<a href="#pone.0231002.ref036" class="ref-tip">36</a>]. The frequency of top grouped motifs in SSRs was AT/AT (27.9%), TA/TA (20.8%), CT/AG (15.2%), GA/TC (13.9%), TG/CA (3.8%), AC/GT (3.4%), GAA/TTC (1.7%), TCT/AGA (1.5%), and CTT/AAG (1.3%) (<a href="#pone-0231002-g001">Fig 1C</a>). The detailed information on SSRs included for each marker were SSRs ID, the position of SSRs flanking region in the contig, length and sequence of forward and reverse primers, number of alleles, melting temperature and expected PCR product size. In an earlier study, the transcriptome assembly of 46 days old <em>S</em>. <em>alba</em> (ZYZ-1553) plant was developed and produced 14,727 simple sequence repeats from unigenes longer than 1 kb size [<a href="#pone.0231002.ref020" class="ref-tip">20</a>]. However, this plant was attacked by pathogens and environmental stresses during and after the flowering stages. The AUGUSTUS predicted a total of 113107 genes in our study, out of which more than 91800 genes were smaller than 1kb size. There may be a situation that potential gene products were not covered in transcriptome assembly. In the present study, simple sequence repeat markers were developed from both exons and introns in ~5x numbers than transcriptome assembly. Thus, the results of the present study would be more useful over previously reported transcriptome assembly and markers especially when resistance breeding objective included. In a single experiment of 159 randomly selected SSR markers from different repeat motifs, 149 were successfully amplified in <em>S</em>. <em>alba</em>. However, 10 markers did not give amplification in <em>S</em>. <em>alba</em> (<a href="#pone.0231002.s003">S3 Table</a>). A total of 144 markers produced expected amplicon size, while 5 markers gave single amplicons of larger than expected size. The PCR amplification of only 38 markers is shown in <a href="#pone-0231002-g002">Fig 2</a>. However, two markers (04 and 28) were developed more than one amplicon on amplification. Some previous workers reported 65–70% amplification in SSR marker validation experiments [<a href="#pone.0231002.ref037" class="ref-tip">37</a>,<a href="#pone.0231002.ref038" class="ref-tip">38</a>]. However, the flex has been reported at about 92% SSR amplification rate, which was very close to the results of our study [<a href="#pone.0231002.ref039" class="ref-tip">39</a>].</p>
+<a class="link-target" id="pone-0231002-g001" name="pone-0231002-g001"></a><div class="figure" data-doi="10.1371/journal.pone.0231002.g001"><div class="img-box"><a title="Click for larger image" href="article/figure/image?size=medium&amp;id=info:doi/10.1371/journal.pone.0231002.g001" data-doi="info:doi/10.1371/journal.pone.0231002" data-uri="info:doi/10.1371/journal.pone.0231002.g001"><img src="article/figure/image?size=inline&amp;id=info:doi/10.1371/journal.pone.0231002.g001" alt="thumbnail" class="thumbnail" loading="lazy"></a><div class="expand"></div></div><div class="figure-inline-download">
+          Download:
+          <ul><li><div class="definition-label"><a href="article/figure/powerpoint?id=info:doi/10.1371/journal.pone.0231002.g001">
+                  PPT
+                </a></div><a href="article/figure/powerpoint?id=info:doi/10.1371/journal.pone.0231002.g001">
+                PowerPoint slide
+              </a></li><li><div class="definition-label"><a href="article/figure/image?download&amp;size=large&amp;id=info:doi/10.1371/journal.pone.0231002.g001">
+                  PNG
+                </a></div><a href="article/figure/image?download&amp;size=large&amp;id=info:doi/10.1371/journal.pone.0231002.g001">
+                larger image
+              </a></li><li><div class="definition-label"><a href="article/figure/image?download&amp;size=original&amp;id=info:doi/10.1371/journal.pone.0231002.g001">
+                  TIFF
+                </a></div><a href="article/figure/image?download&amp;size=original&amp;id=info:doi/10.1371/journal.pone.0231002.g001">
+                original image
+              </a></li></ul></div><div class="figcaption"><span>Fig 1. </span> SSRs development statistics.</div><p class="caption_target"><a id="article1.body1.sec3.sec2.fig1.caption1.p1" name="article1.body1.sec3.sec2.fig1.caption1.p1" class="link-target"></a><p>(A) Motif distribution against the total occurrence. (B) Top motif distribution in SSRs (C) Abundance of various repeat motifs in total SSRs.</p>
+</p><p class="caption_object"><a href="https://doi.org/10.1371/journal.pone.0231002.g001">
+              https://doi.org/10.1371/journal.pone.0231002.g001</a></p></div><a class="link-target" id="pone-0231002-g002" name="pone-0231002-g002"></a><div class="figure" data-doi="10.1371/journal.pone.0231002.g002"><div class="img-box"><a title="Click for larger image" href="article/figure/image?size=medium&amp;id=info:doi/10.1371/journal.pone.0231002.g002" data-doi="info:doi/10.1371/journal.pone.0231002" data-uri="info:doi/10.1371/journal.pone.0231002.g002"><img src="article/figure/image?size=inline&amp;id=info:doi/10.1371/journal.pone.0231002.g002" alt="thumbnail" class="thumbnail" loading="lazy"></a><div class="expand"></div></div><div class="figure-inline-download">
+          Download:
+          <ul><li><div class="definition-label"><a href="article/figure/powerpoint?id=info:doi/10.1371/journal.pone.0231002.g002">
+                  PPT
+                </a></div><a href="article/figure/powerpoint?id=info:doi/10.1371/journal.pone.0231002.g002">
+                PowerPoint slide
+              </a></li><li><div class="definition-label"><a href="article/figure/image?download&amp;size=large&amp;id=info:doi/10.1371/journal.pone.0231002.g002">
+                  PNG
+                </a></div><a href="article/figure/image?download&amp;size=large&amp;id=info:doi/10.1371/journal.pone.0231002.g002">
+                larger image
+              </a></li><li><div class="definition-label"><a href="article/figure/image?download&amp;size=original&amp;id=info:doi/10.1371/journal.pone.0231002.g002">
+                  TIFF
+                </a></div><a href="article/figure/image?download&amp;size=original&amp;id=info:doi/10.1371/journal.pone.0231002.g002">
+                original image
+              </a></li></ul></div><div class="figcaption"><span>Fig 2. </span> PCR amplification patterns of tested SSR primer in <em>S</em>. <em>alba</em> DNA (Details of primer pairs are included in <a href="#pone.0231002.s003">S3 Table</a>).</div><p class="caption_target"></p><p class="caption_object"><a href="https://doi.org/10.1371/journal.pone.0231002.g002">
+              https://doi.org/10.1371/journal.pone.0231002.g002</a></p></div><a id="article1.body1.sec3.sec2.p2" name="article1.body1.sec3.sec2.p2" class="link-target"></a><p>This experiment was the first report of <em>S</em>. <em>alba</em> genome assembly and SSRs development. The huge quantity of SSRs developed in this study will serve for crop improvement programs. They will also provide opportunities to work on resistance breeding, marker-assisted breeding, linkage mapping, and transgenic development.</p>
+</div>
+
+<div id="section3" class="section toc-section"><a id="sec013" name="sec013" class="link-target" title="3.3. Structural and functional annotation of assembly"></a>
+<h3>3.3. Structural and functional annotation of assembly</h3>
+<a id="article1.body1.sec3.sec3.p1" name="article1.body1.sec3.sec3.p1" class="link-target"></a><p>The OmicsBox tool was used for all downstream analysis of assembled <em>S</em>. <em>alba</em> genome. Before starting genome characterization, the contigs of <em>S</em>. <em>alba</em> were subjected to repeat masking by RepeatMasker software using NHMMER search engine. The results showed that a total of 109,639,44 bp (2.39%) were masked; of them, 1.72% belong to simple repeats, 0.67% belong to low complexity DNA (0.67%) (<a href="#pone.0231002.s004">S4 Table</a>).</p>
+<a id="article1.body1.sec3.sec3.p2" name="article1.body1.sec3.sec3.p2" class="link-target"></a><p>The blast search revealed a total of 132,763 (32.9%) unique matches between <em>S</em>. <em>alba</em> and <em>A</em>. <em>thaliana</em>, and the remaining 270,660 (67.1%) contigs did not show any hit (<a href="#pone-0231002-g003">Fig 3B</a>). The contigs were matched at the <em>E</em>-value threshold between 1e-4 to 1e-180 (<a href="#pone-0231002-g003">Fig 3C</a>). The similarity distribution of BLASTX hits was recorded from 28 to 100%, while the maximum number of hits (28,580) was found at 60%. A total of 19476 hits showed an absolute similarity between sequences of both plants. A total of 25.44% hits showed higher than 80% similarity; while hits with the similarity between 28 to 80 percent were 74.56% (<a href="#pone-0231002-g003">Fig 3D</a>). The smallest contig (220 bp) showed 9% annotations, and the largest contig (29081 bp) showed 100% annotations (<a href="#pone-0231002-g003">Fig 3E</a>). The InterProScan results showed that a total of 403,277 contigs were analyzed, out of which 265,913 were without IPS, 137,510 with IPS and 52,741 with GOs terms. The Tag distribution analysis revealed that 108,748 and 125,438 contigs were annotated and mapped, respectively (<a href="#pone-0231002-g003">Fig 3F</a>).</p>
+<a class="link-target" id="pone-0231002-g003" name="pone-0231002-g003"></a><div class="figure" data-doi="10.1371/journal.pone.0231002.g003"><div class="img-box"><a title="Click for larger image" href="article/figure/image?size=medium&amp;id=info:doi/10.1371/journal.pone.0231002.g003" data-doi="info:doi/10.1371/journal.pone.0231002" data-uri="info:doi/10.1371/journal.pone.0231002.g003"><img src="article/figure/image?size=inline&amp;id=info:doi/10.1371/journal.pone.0231002.g003" alt="thumbnail" class="thumbnail" loading="lazy"></a><div class="expand"></div></div><div class="figure-inline-download">
+          Download:
+          <ul><li><div class="definition-label"><a href="article/figure/powerpoint?id=info:doi/10.1371/journal.pone.0231002.g003">
+                  PPT
+                </a></div><a href="article/figure/powerpoint?id=info:doi/10.1371/journal.pone.0231002.g003">
+                PowerPoint slide
+              </a></li><li><div class="definition-label"><a href="article/figure/image?download&amp;size=large&amp;id=info:doi/10.1371/journal.pone.0231002.g003">
+                  PNG
+                </a></div><a href="article/figure/image?download&amp;size=large&amp;id=info:doi/10.1371/journal.pone.0231002.g003">
+                larger image
+              </a></li><li><div class="definition-label"><a href="article/figure/image?download&amp;size=original&amp;id=info:doi/10.1371/journal.pone.0231002.g003">
+                  TIFF
+                </a></div><a href="article/figure/image?download&amp;size=original&amp;id=info:doi/10.1371/journal.pone.0231002.g003">
+                original image
+              </a></li></ul></div><div class="figcaption"><span>Fig 3. </span> Structural and functional annotation of assembly.</div><p class="caption_target"><a id="article1.body1.sec3.sec3.fig1.caption1.p1" name="article1.body1.sec3.sec3.fig1.caption1.p1" class="link-target"></a><p>(A) Sequence length distribution of <em>de-novo</em> assembly. (B) BLASTX hit distribution. (C) <em>E</em>-value distribution of local BLASTX hits for each contig. (D) Similarity distribution of BLASTX hits for each contig. (E) Annotation percentage of all contigs against length. (F) Four-step distribution of OmicsBox process including BLASTX, IPScan, Mapping, and Annotation. (G) GO level distribution for Biological process [P-BP, F-MF, C-CC], Molecular function and Cellular component. (H) Enzyme code distribution for major classes.</p>
+</p><p class="caption_object"><a href="https://doi.org/10.1371/journal.pone.0231002.g003">
+              https://doi.org/10.1371/journal.pone.0231002.g003</a></p></div><a id="article1.body1.sec3.sec3.p3" name="article1.body1.sec3.sec3.p3" class="link-target"></a><p>The homologous sequences of SOAPdenovo2 assembled contigs were assigned to GO terms. The highest number of GO terms (1124) was recorded in contigs with the length of 749 base pairs, while many contigs showed only 1 GO term. A total of 809,597 annotations were found based on BLASTX results (<a href="#pone-0231002-g003">Fig 3G</a>). A total of 34,012 sequences were annotated and grouped under seven enzyme code classes, i.e., Oxidoreductases (14.23%), Transferases (35.7%), Hydrolases (36.15%), Layases (5.72%), Isomerases (2.58%), Ligases (2.55%) and Translocases (3.07%) (<a href="#pone-0231002-g003">Fig 3H</a>). The GO database is a useful source as the GO terms assigned to genes of any organism provide dynamic, controlled vocabulary information about its role [<a href="#pone.0231002.ref040" class="ref-tip">40</a>]. The <em>S</em>. <em>alba</em> contigs were divided into three classifications at level 3 based on their functions by BLASTX analysis, i.e., biological process, cellular components, and molecular function. A total of 13,18,309 GO terms were associated with all these contigs. Out of these, the majority were assigned to cellular components (483,328; 36.66%), followed by biological process (607,567; 46.09%) and molecular functions (227,414; 17.25%) (<a href="#pone-0231002-g004">Fig 4</a>). The contigs involved in biological process were shown to have putative function in organic substance metabolic process (9%), cellular metabolic process (8%), primary metabolic process (8%), nitrogen compound metabolic process (7%), biosynthetic process (4%), response to stress (4%) and chemical (4%), response to abiotic (3%), and so on. Some other components such as cell communication, response to biotic stimulus, signal transduction regulation of biological quality or catabolic process were each represented by ≤ 2% of the total (<a href="#pone-0231002-g004">Fig 4A</a>). The contigs were classified in the cellular component category; the majority was found in terms of intracellular (17%), intracellular part (17%), intracellular organelle (15%), membrane-bound organelle (15%), cell periphery (6%), etc. (<a href="#pone-0231002-g004">Fig 4B</a>). The contigs classified in the molecular function category were shown to have putative function in organic cyclic compound binding (17%), heterocyclic compound binding (16%), protein binding (13%), transferase activity (10%), catalytic activity (6%), drug binding (5%), and so on (<a href="#pone-0231002-g004">Fig 4C</a>).</p>
+<a class="link-target" id="pone-0231002-g004" name="pone-0231002-g004"></a><div class="figure" data-doi="10.1371/journal.pone.0231002.g004"><div class="img-box"><a title="Click for larger image" href="article/figure/image?size=medium&amp;id=info:doi/10.1371/journal.pone.0231002.g004" data-doi="info:doi/10.1371/journal.pone.0231002" data-uri="info:doi/10.1371/journal.pone.0231002.g004"><img src="article/figure/image?size=inline&amp;id=info:doi/10.1371/journal.pone.0231002.g004" alt="thumbnail" class="thumbnail" loading="lazy"></a><div class="expand"></div></div><div class="figure-inline-download">
+          Download:
+          <ul><li><div class="definition-label"><a href="article/figure/powerpoint?id=info:doi/10.1371/journal.pone.0231002.g004">
+                  PPT
+                </a></div><a href="article/figure/powerpoint?id=info:doi/10.1371/journal.pone.0231002.g004">
+                PowerPoint slide
+              </a></li><li><div class="definition-label"><a href="article/figure/image?download&amp;size=large&amp;id=info:doi/10.1371/journal.pone.0231002.g004">
+                  PNG
+                </a></div><a href="article/figure/image?download&amp;size=large&amp;id=info:doi/10.1371/journal.pone.0231002.g004">
+                larger image
+              </a></li><li><div class="definition-label"><a href="article/figure/image?download&amp;size=original&amp;id=info:doi/10.1371/journal.pone.0231002.g004">
+                  TIFF
+                </a></div><a href="article/figure/image?download&amp;size=original&amp;id=info:doi/10.1371/journal.pone.0231002.g004">
+                original image
+              </a></li></ul></div><div class="figcaption"><span>Fig 4. </span> Pie-chart representations for classification of <em>S</em>. <em>alba</em> assembly into functional categories according to GO terms.</div><p class="caption_target"><a id="article1.body1.sec3.sec3.fig2.caption1.p1" name="article1.body1.sec3.sec3.fig2.caption1.p1" class="link-target"></a><p>(A) Biological process, (B) Cellular component, (C) Molecular function.</p>
+</p><p class="caption_object"><a href="https://doi.org/10.1371/journal.pone.0231002.g004">
+              https://doi.org/10.1371/journal.pone.0231002.g004</a></p></div></div>
+
+<div id="section4" class="section toc-section"><a id="sec014" name="sec014" class="link-target" title="3.4. Gene prediction and annotation"></a>
+<h3>3.4. Gene prediction and annotation</h3>
+<a id="article1.body1.sec3.sec4.p1" name="article1.body1.sec3.sec4.p1" class="link-target"></a><p>All <em>S</em>. <em>alba</em> contigs were used for gene prediction by AUGUSTUS webserver (<em>ab-initio</em>) [<a href="#pone.0231002.ref041" class="ref-tip">41</a>,<a href="#pone.0231002.ref042" class="ref-tip">42</a>] through OmicsBox. The results revealed a total of 113,107 genes with an average length of 684 base pairs. The predicted genes covered a total of 77,411,493 base pairs with minimum and maximum gene length of 102 and 10359 base pairs, respectively. A total of 81.2% predicted mRNA sequences were found below 1000 base pairs (<a href="#pone-0231002-g005">Fig 5A</a>). The coding potential distribution showed that 98% (110,690) predicted genes have the protein-coding ability, while only 2% (2417) genes may not produce a functional product. The coding probability check showed that 96,327 (85.16%) predicted genes had more than 90% coding potential. The analysis progress report of predicted genes revealed that 113,107 sequences have InterProScan IDs. The locally BLASTX search with <em>A</em>. <em>thaliana</em> sequences for similarity made hits in 78,625 sequences. The total numbers of sequences mapped and GO annotated were 77,698 and 56,160, respectively (<a href="#pone-0231002-g005">Fig 5B</a>).</p>
+<a class="link-target" id="pone-0231002-g005" name="pone-0231002-g005"></a><div class="figure" data-doi="10.1371/journal.pone.0231002.g005"><div class="img-box"><a title="Click for larger image" href="article/figure/image?size=medium&amp;id=info:doi/10.1371/journal.pone.0231002.g005" data-doi="info:doi/10.1371/journal.pone.0231002" data-uri="info:doi/10.1371/journal.pone.0231002.g005"><img src="article/figure/image?size=inline&amp;id=info:doi/10.1371/journal.pone.0231002.g005" alt="thumbnail" class="thumbnail" loading="lazy"></a><div class="expand"></div></div><div class="figure-inline-download">
+          Download:
+          <ul><li><div class="definition-label"><a href="article/figure/powerpoint?id=info:doi/10.1371/journal.pone.0231002.g005">
+                  PPT
+                </a></div><a href="article/figure/powerpoint?id=info:doi/10.1371/journal.pone.0231002.g005">
+                PowerPoint slide
+              </a></li><li><div class="definition-label"><a href="article/figure/image?download&amp;size=large&amp;id=info:doi/10.1371/journal.pone.0231002.g005">
+                  PNG
+                </a></div><a href="article/figure/image?download&amp;size=large&amp;id=info:doi/10.1371/journal.pone.0231002.g005">
+                larger image
+              </a></li><li><div class="definition-label"><a href="article/figure/image?download&amp;size=original&amp;id=info:doi/10.1371/journal.pone.0231002.g005">
+                  TIFF
+                </a></div><a href="article/figure/image?download&amp;size=original&amp;id=info:doi/10.1371/journal.pone.0231002.g005">
+                original image
+              </a></li></ul></div><div class="figcaption"><span>Fig 5. </span> Sequence length and four-step distribution of <em>S</em>. <em>alba</em> genes.</div><p class="caption_target"><a id="article1.body1.sec3.sec4.fig1.caption1.p1" name="article1.body1.sec3.sec4.fig1.caption1.p1" class="link-target"></a><p>(A) Sequence length distribution of predicted genes by AUGUSTUS. (B) Four-step distribution of genes by OmicsBox including BLASTX, IPScan, Mapping, and Annotation.</p>
+</p><p class="caption_object"><a href="https://doi.org/10.1371/journal.pone.0231002.g005">
+              https://doi.org/10.1371/journal.pone.0231002.g005</a></p></div><a id="article1.body1.sec3.sec4.p2" name="article1.body1.sec3.sec4.p2" class="link-target"></a><p>The predicted genes with near-related species were compared with UniProtKB/Swiss-Prot (swissprot_v5) and Non-redundant protein sequences (Nr_v5) databases. The species distribution analysis discovered that the predicted genes of <em>S</em>. <em>alba</em> had homology with several other plant species. The top hit species distribution showed the highest similarity of <em>S</em>. <em>alba</em> with <em>A</em>. <em>thaliana</em> (42,299), followed by <em>B</em>. <em>napus</em> (291), <em>S</em>. <em>alba</em> (74), <em>B</em>. <em>juncea</em> (45), etc. (<a href="#pone-0231002-g006">Fig 6A</a>). The species distribution also revealed maximum similarity with <em>A</em>. <em>thaliana</em> (128,494), <em>B</em>. <em>napus</em> (944), <em>S</em>. <em>alba</em> (221), <em>B</em>. <em>oleracea</em> (162), <em>B</em>. <em>juncea</em> (159) and <em>B</em>. <em>rapa</em> (122) (<a href="#pone-0231002-g006">Fig 6B</a>). The Nr database also gave similar results as SwissProt.</p>
+<a class="link-target" id="pone-0231002-g006" name="pone-0231002-g006"></a><div class="figure" data-doi="10.1371/journal.pone.0231002.g006"><div class="img-box"><a title="Click for larger image" href="article/figure/image?size=medium&amp;id=info:doi/10.1371/journal.pone.0231002.g006" data-doi="info:doi/10.1371/journal.pone.0231002" data-uri="info:doi/10.1371/journal.pone.0231002.g006"><img src="article/figure/image?size=inline&amp;id=info:doi/10.1371/journal.pone.0231002.g006" alt="thumbnail" class="thumbnail" loading="lazy"></a><div class="expand"></div></div><div class="figure-inline-download">
+          Download:
+          <ul><li><div class="definition-label"><a href="article/figure/powerpoint?id=info:doi/10.1371/journal.pone.0231002.g006">
+                  PPT
+                </a></div><a href="article/figure/powerpoint?id=info:doi/10.1371/journal.pone.0231002.g006">
+                PowerPoint slide
+              </a></li><li><div class="definition-label"><a href="article/figure/image?download&amp;size=large&amp;id=info:doi/10.1371/journal.pone.0231002.g006">
+                  PNG
+                </a></div><a href="article/figure/image?download&amp;size=large&amp;id=info:doi/10.1371/journal.pone.0231002.g006">
+                larger image
+              </a></li><li><div class="definition-label"><a href="article/figure/image?download&amp;size=original&amp;id=info:doi/10.1371/journal.pone.0231002.g006">
+                  TIFF
+                </a></div><a href="article/figure/image?download&amp;size=original&amp;id=info:doi/10.1371/journal.pone.0231002.g006">
+                original image
+              </a></li></ul></div><div class="figcaption"><span>Fig 6. </span> Species distribution pattern of <em>S</em>. <em>alba</em> genes.</div><p class="caption_target"><a id="article1.body1.sec3.sec4.fig2.caption1.p1" name="article1.body1.sec3.sec4.fig2.caption1.p1" class="link-target"></a><p>(A) Top BLASTX alignment hit species distribution. (B) All BLASTX hit distribution.</p>
+</p><p class="caption_object"><a href="https://doi.org/10.1371/journal.pone.0231002.g006">
+              https://doi.org/10.1371/journal.pone.0231002.g006</a></p></div><a id="article1.body1.sec3.sec4.p3" name="article1.body1.sec3.sec4.p3" class="link-target"></a><p>The gene function analysis against the KEGG database resulted in assigning a total of 16,119 predicted genes to various biochemical pathways. These genes were found related to 152 KEGG maps and produced 1751 enzyme codes. In this study, there was more than one gene involved in single enzyme annotation against the KEGG database, and similar findings were reported by other studies [<a href="#pone.0231002.ref043" class="ref-tip">43</a>,<a href="#pone.0231002.ref038" class="ref-tip">38</a>]. The KEGG database-annotated genes were categorized under five major pathway groups: metabolism (14,248), genetic information processing (25), environmental information processing (88), organismal systems (1756), and human disease (2). The highest representation was recorded from the metabolism pathways group. The top five pathways within this group were the metabolism of cofactors and vitamins (2814), nucleotide metabolism (2474), xenobiotics biodegradation and metabolism (2014), amino acid metabolism (1472) and carbohydrate metabolism (1467). However, the second-highest group (organismal systems) has three important pathways under the immune system category which are related to the anti-cancer pathways of humans. These three pathways were T cell receptor signaling pathway, PD-L1 expression and PD-1 checkpoint pathway in cancer, Th1 and Th2 cell differentiation with 586, 585 and 585 predicted gene sequences, respectively (<a href="#pone.0231002.s005">S5 Table</a>) (<a href="#pone-0231002-g007">Fig 7</a>).</p>
+<a class="link-target" id="pone-0231002-g007" name="pone-0231002-g007"></a><div class="figure" data-doi="10.1371/journal.pone.0231002.g007"><div class="img-box"><a title="Click for larger image" href="article/figure/image?size=medium&amp;id=info:doi/10.1371/journal.pone.0231002.g007" data-doi="info:doi/10.1371/journal.pone.0231002" data-uri="info:doi/10.1371/journal.pone.0231002.g007"><img src="article/figure/image?size=inline&amp;id=info:doi/10.1371/journal.pone.0231002.g007" alt="thumbnail" class="thumbnail" loading="lazy"></a><div class="expand"></div></div><div class="figure-inline-download">
+          Download:
+          <ul><li><div class="definition-label"><a href="article/figure/powerpoint?id=info:doi/10.1371/journal.pone.0231002.g007">
+                  PPT
+                </a></div><a href="article/figure/powerpoint?id=info:doi/10.1371/journal.pone.0231002.g007">
+                PowerPoint slide
+              </a></li><li><div class="definition-label"><a href="article/figure/image?download&amp;size=large&amp;id=info:doi/10.1371/journal.pone.0231002.g007">
+                  PNG
+                </a></div><a href="article/figure/image?download&amp;size=large&amp;id=info:doi/10.1371/journal.pone.0231002.g007">
+                larger image
+              </a></li><li><div class="definition-label"><a href="article/figure/image?download&amp;size=original&amp;id=info:doi/10.1371/journal.pone.0231002.g007">
+                  TIFF
+                </a></div><a href="article/figure/image?download&amp;size=original&amp;id=info:doi/10.1371/journal.pone.0231002.g007">
+                original image
+              </a></li></ul></div><div class="figcaption"><span>Fig 7. </span> Annotations of <em>S</em>. <em>alba</em> genes against KEGG database.</div><p class="caption_target"><a id="article1.body1.sec3.sec4.fig3.caption1.p1" name="article1.body1.sec3.sec4.fig3.caption1.p1" class="link-target"></a><p>(A) KEGG distribution of genes into biological categories. (B) Classification of genes in KEGG metabolism category into sub-categories.</p>
+</p><p class="caption_object"><a href="https://doi.org/10.1371/journal.pone.0231002.g007">
+              https://doi.org/10.1371/journal.pone.0231002.g007</a></p></div></div>
+
+<div id="section5" class="section toc-section"><a id="sec015" name="sec015" class="link-target" title="3.5. Reconstruction of defense related pathway genes"></a>
+<h3>3.5. Reconstruction of defense related pathway genes</h3>
+<a id="article1.body1.sec3.sec5.p1" name="article1.body1.sec3.sec5.p1" class="link-target"></a><p><em>S</em>. <em>alba</em> is known for its high resistance responses against biotic and abiotic stresses. The outer plant surface is covered by thick cuticular wax and prominent trichomes that protect the plant from drought, pests, pathogens and other external stresses [<a href="#pone.0231002.ref036" class="ref-tip">36</a>,<a href="#pone.0231002.ref008" class="ref-tip">8</a>]. The outer plant surface composed of three major components i.e. cutin, suberin, and wax. A total of ten genes were identified to produce seven enzymes that participated in cutin, suberin and wax biosynthesis pathway by KEGG analysis. These enzymes were O-acyltransferase (S-A_c_3385.g114), acyl-protein thioester reductase (S-A_c_8116.g84; S-A_c_318122.g9), seed peroxygenase (S-A_c_8126.g95; S-A_c_309255.g35), aldehyde oxygenase (deformylating) (S-A_c_25257.g84), O-feruloyl transferase (S-A_c_402.g243), O-fatty-acyltransferase (S-A_c_321813.g157; S-A_c_5996.g25) and fatty acyl-CoA reductase (S-A_c_10439.g247). All these genes were searched against the NCBI database by BLASTN to verify their roles in plant physical defense systems. The BLASTN results are listed in <a href="#pone-0231002-t002">Table 2</a> and confirmed the KEGG database results for all these ten genes. The ECERIFERUM 1 (CER1) [<a href="#pone.0231002.ref044" class="ref-tip">44</a>] like gene identified in <em>S</em>. <em>alba</em> genome encoded for fatty acid hydroxylase superfamily protein participated in aldehyde oxygenase (deformylating) activity. This is a key enzyme for biosynthesis of cuticular wax. The CER1 was also reported for increased pollen fertility in plants [<a href="#pone.0231002.ref045" class="ref-tip">45</a>]. The phylogeny of <em>S</em>. <em>alba</em> CER1 like gene with homologous genes from Brassicaceae plants was illustrated in <a href="#pone-0231002-g008">Fig 8</a> that they divided into two clades. The one set of <em>S</em>. <em>alba</em> CER1 like with <em>A</em>. <em>thaliana</em> CER1, <em>B</em>. <em>rapa</em> cv. chifu CER1, <em>Eutrema salsugenium</em> CER1, and <em>A</em>. <em>thaliana</em> CER3. Another set has <em>B</em>. <em>oleracea var oleracea</em>, <em>B</em>. <em>napus</em> cv ZS11 FAH1, <em>Capsella rubella</em> cv Monte FAH1, <em>Camelina sativa</em> cv DH55 FAH1 and <em>A</em>. <em>lyrata</em> subsp <em>lyrata</em> FAH1. This study revealed that <em>S</em>. <em>alba</em> FAH superfamily gene was closely related to <em>A</em>. <em>thaliana</em> CER1 gene.</p>
+<a class="link-target" id="pone-0231002-g008" name="pone-0231002-g008"></a><div class="figure" data-doi="10.1371/journal.pone.0231002.g008"><div class="img-box"><a title="Click for larger image" href="article/figure/image?size=medium&amp;id=info:doi/10.1371/journal.pone.0231002.g008" data-doi="info:doi/10.1371/journal.pone.0231002" data-uri="info:doi/10.1371/journal.pone.0231002.g008"><img src="article/figure/image?size=inline&amp;id=info:doi/10.1371/journal.pone.0231002.g008" alt="thumbnail" class="thumbnail" loading="lazy"></a><div class="expand"></div></div><div class="figure-inline-download">
+          Download:
+          <ul><li><div class="definition-label"><a href="article/figure/powerpoint?id=info:doi/10.1371/journal.pone.0231002.g008">
+                  PPT
+                </a></div><a href="article/figure/powerpoint?id=info:doi/10.1371/journal.pone.0231002.g008">
+                PowerPoint slide
+              </a></li><li><div class="definition-label"><a href="article/figure/image?download&amp;size=large&amp;id=info:doi/10.1371/journal.pone.0231002.g008">
+                  PNG
+                </a></div><a href="article/figure/image?download&amp;size=large&amp;id=info:doi/10.1371/journal.pone.0231002.g008">
+                larger image
+              </a></li><li><div class="definition-label"><a href="article/figure/image?download&amp;size=original&amp;id=info:doi/10.1371/journal.pone.0231002.g008">
+                  TIFF
+                </a></div><a href="article/figure/image?download&amp;size=original&amp;id=info:doi/10.1371/journal.pone.0231002.g008">
+                original image
+              </a></li></ul></div><div class="figcaption"><span>Fig 8. </span> UPGMA-based phylogeny of CER1 like gene identified in <em>S</em>. <em>alba</em> genome with other plant species of Brassicaceae.</div><p class="caption_target"><a id="article1.body1.sec3.sec5.fig1.caption1.p1" name="article1.body1.sec3.sec5.fig1.caption1.p1" class="link-target"></a><p>The tree was constructed from gene sequence data obtained from NCBI and two clades were recognized.</p>
+</p><p class="caption_object"><a href="https://doi.org/10.1371/journal.pone.0231002.g008">
+              https://doi.org/10.1371/journal.pone.0231002.g008</a></p></div><a class="link-target" id="pone-0231002-t002" name="pone-0231002-t002"></a><div class="figure" data-doi="10.1371/journal.pone.0231002.t002"><div class="img-box"><a title="Click for larger image" href="article/figure/image?size=medium&amp;id=info:doi/10.1371/journal.pone.0231002.t002" data-doi="info:doi/10.1371/journal.pone.0231002" data-uri="info:doi/10.1371/journal.pone.0231002.t002"><img src="article/figure/image?size=inline&amp;id=info:doi/10.1371/journal.pone.0231002.t002" alt="thumbnail" class="thumbnail" loading="lazy"></a><div class="expand"></div></div><div class="figure-inline-download">
+          Download:
+          <ul><li><div class="definition-label"><a href="article/figure/powerpoint?id=info:doi/10.1371/journal.pone.0231002.t002">
+                  PPT
+                </a></div><a href="article/figure/powerpoint?id=info:doi/10.1371/journal.pone.0231002.t002">
+                PowerPoint slide
+              </a></li><li><div class="definition-label"><a href="article/figure/image?download&amp;size=large&amp;id=info:doi/10.1371/journal.pone.0231002.t002">
+                  PNG
+                </a></div><a href="article/figure/image?download&amp;size=large&amp;id=info:doi/10.1371/journal.pone.0231002.t002">
+                larger image
+              </a></li><li><div class="definition-label"><a href="article/figure/image?download&amp;size=original&amp;id=info:doi/10.1371/journal.pone.0231002.t002">
+                  TIFF
+                </a></div><a href="article/figure/image?download&amp;size=original&amp;id=info:doi/10.1371/journal.pone.0231002.t002">
+                original image
+              </a></li></ul></div><div class="figcaption"><span>Table 2. </span> List of predicted genes with BLASTN results against NCBI showing their role in plant physical defense.</div><p class="caption_target"></p><p class="caption_object"><a href="https://doi.org/10.1371/journal.pone.0231002.t002">
+              https://doi.org/10.1371/journal.pone.0231002.t002</a></p></div></div>
+
+<div id="section6" class="section toc-section"><a id="sec016" name="sec016" class="link-target" title="3.6. Estimation of retrotransposon abundance in S. alba genes"></a>
+<h3>3.6. Estimation of retrotransposon abundance in <em>S</em>. <em>alba</em> genes</h3>
+<a id="article1.body1.sec3.sec6.p1" name="article1.body1.sec3.sec6.p1" class="link-target"></a><p>The retrotransposons played a well-known role in genome size expansion and evolution. They composed up to 50% mammalian genome and somewhat less in plant genomes. They are mobile elements and can transpose with RNA intermediate. Retrotransposons are present in high copy numbers in all types of plants such as angiosperms, gymnosperms, pteridophytes, etc. [<a href="#pone.0231002.ref046" class="ref-tip">46</a>,<a href="#pone.0231002.ref047" class="ref-tip">47</a>] The BLAST search and gene prediction criteria revealed that <em>S</em>. <em>alba</em> genome has a variety of retrotransposons. There were a total of 2293 genes in the genome that fall in the retrotransposon category. They were produced a total of about 2% part from all gene sequences identified in <em>S</em>. <em>alba</em> genome. The further classification of retrotransposon was found as Gag-Pol polyprotein/retrotransposon (999 genes), Copia-like (749 genes), Ta11-like non-LTR retrotransposon (236 genes), retrotransposon ORF-1 protein (125 genes), En/Spm-like transposon (82 genes), hAT transposon superfamily (52 genes) and retrotransposon Gag (48 genes). However, Gypsy-like retrotransposons were not identified in the genome.</p>
+</div>
+</div>
+
+<div id="section4" class="section toc-section"><a id="sec017" name="sec017" data-toc="sec017" class="link-target" title="4. Conclusions"></a><h2>4. Conclusions</h2><a id="article1.body1.sec4.p1" name="article1.body1.sec4.p1" class="link-target"></a><p>The NGS sequencing data has become available in recent years because of cheaper cost and in reach of maximum workers to sequence large genomes. However, polyploid plants are still tough to sequence and develop reference sequence assembly. The Illumina is still a better choice for small cost sequencing and produces small reads. In the present study, we have developed the first draft genome assembly of <em>S</em>. <em>alba</em> from WGS sequences available in the SRA (NCBI) database. The assembled genome showed short contigs (403423) with an average size of 1138 bp and N50 was 1742 bp. The BLASTX search revealed a 32.9% sequence similarity with <em>A</em>. <em>thaliana</em>, a model plant of Brassicaceae family. The assembly produced a total of 70,731 unique SSRs with an average of one SSR per 5.88 kb genome. The validation experiment of randomly selected SSR markers has confirmed the amplification of more than 93 percent markers. The AUGUSTUS predicted 113107 genes and the majority (81.2%) of were less than 1000 base pairs with all IPScan IDs. Out of 113,107 predicted genes, 16119 genes have been identified to participate in various biochemical pathways to produce 1751 enzymes. During KEGG analysis, it was revealed that <em>S</em>. <em>alba</em> owns physical and biochemical defense-related pathways. The three most important anti-cancer pathways were identified during KEGG analysis related to humans that could be studied later. Besides, our approach was to provide information on assembly, functional annotation and SSR markers to exploit this plant for future research work in crop improvement, medicine (antibiotics and anti-cancer chemicals), resistance introgression and marker-assisted breeding programs.</p>
+</div>
+
+<div id="section5" class="section toc-section"><a id="sec018" name="sec018" data-toc="sec018" class="link-target" title="Supporting information"></a><h2>Supporting information</h2><div class="figshare_widget" doi="10.1371/journal.pone.0231002"></div><div class="supplementary-material"><a name="pone.0231002.s001" id="pone.0231002.s001" class="link-target"></a><h3 class="siTitle title-small"><a href="article/file?type=supplementary&amp;id=info:doi/10.1371/journal.pone.0231002.s001">S1 Table. </a>Total in-silico SSR markers developed from <em>S</em>. <em>alba</em> genome assembly with complete details.</h3><p class="siDoi"><a href="https://doi.org/10.1371/journal.pone.0231002.s001">https://doi.org/10.1371/journal.pone.0231002.s001</a></p><a id="article1.body1.sec5.supplementary-material1.caption1.p1" name="article1.body1.sec5.supplementary-material1.caption1.p1" class="link-target"></a><p class="postSiDOI">(XLSX)</p>
+</div><div class="supplementary-material"><a name="pone.0231002.s002" id="pone.0231002.s002" class="link-target"></a><h3 class="siTitle title-small"><a href="article/file?type=supplementary&amp;id=info:doi/10.1371/journal.pone.0231002.s002">S2 Table. </a>Distribution of SSR markers in <em>S</em>. <em>alba</em> contigs with motifs, types, repetitions and positions.</h3><p class="siDoi"><a href="https://doi.org/10.1371/journal.pone.0231002.s002">https://doi.org/10.1371/journal.pone.0231002.s002</a></p><a id="article1.body1.sec5.supplementary-material2.caption1.p1" name="article1.body1.sec5.supplementary-material2.caption1.p1" class="link-target"></a><p class="postSiDOI">(XLS)</p>
+</div><div class="supplementary-material"><a name="pone.0231002.s003" id="pone.0231002.s003" class="link-target"></a><h3 class="siTitle title-small"><a href="article/file?type=supplementary&amp;id=info:doi/10.1371/journal.pone.0231002.s003">S3 Table. </a>Details of <em>S</em>. <em>alba</em> SSR markers used in the validation process.</h3><p class="siDoi"><a href="https://doi.org/10.1371/journal.pone.0231002.s003">https://doi.org/10.1371/journal.pone.0231002.s003</a></p><a id="article1.body1.sec5.supplementary-material3.caption1.p1" name="article1.body1.sec5.supplementary-material3.caption1.p1" class="link-target"></a><p class="postSiDOI">(XLS)</p>
+</div><div class="supplementary-material"><a name="pone.0231002.s004" id="pone.0231002.s004" class="link-target"></a><h3 class="siTitle title-small"><a href="article/file?type=supplementary&amp;id=info:doi/10.1371/journal.pone.0231002.s004">S4 Table. </a>Repeat masking report file of <em>S</em>. <em>alba</em> genome with information of masked bases.</h3><p class="siDoi"><a href="https://doi.org/10.1371/journal.pone.0231002.s004">https://doi.org/10.1371/journal.pone.0231002.s004</a></p><a id="article1.body1.sec5.supplementary-material4.caption1.p1" name="article1.body1.sec5.supplementary-material4.caption1.p1" class="link-target"></a><p class="postSiDOI">(PDF)</p>
+</div><div class="supplementary-material"><a name="pone.0231002.s005" id="pone.0231002.s005" class="link-target"></a><h3 class="siTitle title-small"><a href="article/file?type=supplementary&amp;id=info:doi/10.1371/journal.pone.0231002.s005">S5 Table. </a>KEGG pathways classifications file of <em>S</em>. <em>alba</em> genes.</h3><p class="siDoi"><a href="https://doi.org/10.1371/journal.pone.0231002.s005">https://doi.org/10.1371/journal.pone.0231002.s005</a></p><a id="article1.body1.sec5.supplementary-material5.caption1.p1" name="article1.body1.sec5.supplementary-material5.caption1.p1" class="link-target"></a><p class="postSiDOI">(DOC)</p>
+</div><div class="supplementary-material"><a name="pone.0231002.s006" id="pone.0231002.s006" class="link-target"></a><h3 class="siTitle title-small"><a href="article/file?type=supplementary&amp;id=info:doi/10.1371/journal.pone.0231002.s006">S1 Fig. </a></h3><p class="siDoi"><a href="https://doi.org/10.1371/journal.pone.0231002.s006">https://doi.org/10.1371/journal.pone.0231002.s006</a></p><a id="article1.body1.sec5.supplementary-material6.caption1.p1" name="article1.body1.sec5.supplementary-material6.caption1.p1" class="link-target"></a><p class="postSiDOI">(TIF)</p>
+</div></div>
+
+
+
+
+
+<div class="section toc-section"><a id="ack" name="ack" data-toc="ack" title="Acknowledgments" class="link-target"></a><h2>Acknowledgments</h2>
+<a id="article1.back1.ack1.p1" name="article1.back1.ack1.p1" class="link-target"></a><p>We acknowledge NCBI for providing raw sequence data, and the Department of Energy, JGI, USA for allowing us to use this raw sequenced data.</p>
+</div><div class="toc-section"><a id="references" name="references" class="link-target" data-toc="references" title="References"></a><h2>References</h2><ol class="references"><li id="ref1"><span class="order">1.
+            </span><a name="pone.0231002.ref001" id="pone.0231002.ref001" class="link-target"></a>Warwick SI, Francis A, Al-Shehbaz IA. 2006, Brassicaceae: species checklist and database on CD-Rom. Pl. Syst. Evol. 2006. 259: 249–258. <ul class="reflinks"><li><a href="#" data-author="Warwick" data-cit="WarwickSI%2C%20FrancisA%2C%20Al-ShehbazIA.%202006%2C%20Brassicaceae%3A%20species%20checklist%20and%20database%20on%20CD-Rom.%20Pl.%20Syst.%20Evol.%202006.%20259%3A%20249%E2%80%93258." data-title="2006%2C%20Brassicaceae%3A%20species%20checklist%20and%20database%20on%20CD-Rom" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=2006%2C+Brassicaceae%3A+species+checklist+and+database+on+CD-Rom+Warwick+2006" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref2"><span class="order">2.
+            </span><a name="pone.0231002.ref002" id="pone.0231002.ref002" class="link-target"></a>Hansen LN, Earle ED. Somatic hybrids between <em>Brassica oleracea</em> and <em>Sinapis alba</em> L. with resistance to <em>Alternaria brassicae</em>(Berk.) Sacc. Theor. Appl. Genet. 1997; 94: 1078–1085. <ul class="reflinks"><li><a href="#" data-author="Hansen" data-cit="HansenLN%2C%20EarleED.%20Somatic%20hybrids%20between%20Brassica%20oleracea%20and%20Sinapis%20alba%20L.%20with%20resistance%20to%20Alternaria%20brassicae%28Berk.%29%20Sacc.%20Theor.%20Appl.%20Genet.%201997%3B%2094%3A%201078%E2%80%931085." data-title="Somatic%20hybrids%20between%20Brassica%20oleracea%20and%20Sinapis%20alba%20L.%20with%20resistance%20to%20Alternaria%20brassicae%28Berk.%29%20Sacc" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Somatic+hybrids+between+Brassica+oleracea+and+Sinapis+alba+L.+with+resistance+to+Alternaria+brassicae%28Berk.%29+Sacc+Hansen+1997" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref3"><span class="order">3.
+            </span><a name="pone.0231002.ref003" id="pone.0231002.ref003" class="link-target"></a>Li J, Zhang C, Guan C, Luo L, Ren L, Wei W, et al. Analysis of intergeneric sexual hybridization between transgenic <em>Brassica oleracea</em> and <em>Sinapis alba</em>. Euphytica. 2017; 213(12): 271 <a href="https://doi.org/10.1007/s10681-017-2063-5">https://doi.org/10.1007/s10681-017-2063-5</a> <ul class="reflinks"><li><a href="#" data-author="Li" data-cit="LiJ%2C%20ZhangC%2C%20GuanC%2C%20LuoL%2C%20RenL%2C%20WeiW%2C%20et%20al.%20Analysis%20of%20intergeneric%20sexual%20hybridization%20between%20transgenic%20Brassica%20oleracea%20and%20Sinapis%20alba.%20Euphytica.%202017%3B%20213%2812%29%3A%20271%20https%3A%2F%2Fdoi.org%2F10.1007%2Fs10681-017-2063-5" data-title="Analysis%20of%20intergeneric%20sexual%20hybridization%20between%20transgenic%20Brassica%20oleracea%20and%20Sinapis%20alba" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Analysis+of+intergeneric+sexual+hybridization+between+transgenic+Brassica+oleracea+and+Sinapis+alba+Li+2017" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref4"><span class="order">4.
+            </span><a name="pone.0231002.ref004" id="pone.0231002.ref004" class="link-target"></a>Kumari P, Bisht DS, Bhat SR. Stable, fertile somatic hybrids between <em>Sinapis alba</em> and <em>Brassica juncea</em>show resistance to <em>Alternaria brassicae</em>and heat stress. Plant Cell Tissue and Organ Culture. 2017; 133:77–86. <a href="https://doi.org/10.1007/s11240-017-1362-9">https://doi.org/10.1007/s11240-017-1362-9</a>. <ul class="reflinks"><li><a href="#" data-author="Kumari" data-cit="KumariP%2C%20BishtDS%2C%20BhatSR.%20Stable%2C%20fertile%20somatic%20hybrids%20between%20Sinapis%20alba%20and%20Brassica%20junceashow%20resistance%20to%20Alternaria%20brassicaeand%20heat%20stress.%20Plant%20Cell%20Tissue%20and%20Organ%20Culture.%202017%3B%20133%3A77%E2%80%9386.%20https%3A%2F%2Fdoi.org%2F10.1007%2Fs11240-017-1362-9." data-title="Stable%2C%20fertile%20somatic%20hybrids%20between%20Sinapis%20alba%20and%20Brassica%20junceashow%20resistance%20to%20Alternaria%20brassicaeand%20heat%20stress" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Stable%2C+fertile+somatic+hybrids+between+Sinapis+alba+and+Brassica+junceashow+resistance+to+Alternaria+brassicaeand+heat+stress+Kumari+2017" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref5"><span class="order">5.
+            </span><a name="pone.0231002.ref005" id="pone.0231002.ref005" class="link-target"></a>Li AM, Wei CX, Jiang JJ, Zhang YT, Snowdon RJ, Wang Y. 2009, Phenotypic variation in the progeny of somatic hybrids between <em>Brassica napus</em>and <em>Sinapis alba</em>. Euphytica. 2009; 170: 289–296. <ul class="reflinks"><li><a href="#" data-author="Li" data-cit="LiAM%2C%20WeiCX%2C%20JiangJJ%2C%20ZhangYT%2C%20SnowdonRJ%2C%20WangY.%202009%2C%20Phenotypic%20variation%20in%20the%20progeny%20of%20somatic%20hybrids%20between%20Brassica%20napusand%20Sinapis%20alba.%20Euphytica.%202009%3B%20170%3A%20289%E2%80%93296." data-title="2009%2C%20Phenotypic%20variation%20in%20the%20progeny%20of%20somatic%20hybrids%20between%20Brassica%20napusand%20Sinapis%20alba" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=2009%2C+Phenotypic+variation+in+the+progeny+of+somatic+hybrids+between+Brassica+napusand+Sinapis+alba+Li+2009" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref6"><span class="order">6.
+            </span><a name="pone.0231002.ref006" id="pone.0231002.ref006" class="link-target"></a>Lelivelt CLC, Hoogendoorn J. 1993, The development of juveniles of <em>Heteroderaschachtii</em>in roots of resistant and susceptible genotypes of <em>Sinapis alba</em>, <em>Brassica napus</em>, <em>Raphanus sativus</em> and hybrids. Eur J Plant Pathol. 1993; 99: 13–22. <ul class="reflinks"><li><a href="#" data-author="Lelivelt" data-cit="LeliveltCLC%2C%20HoogendoornJ.%201993%2C%20The%20development%20of%20juveniles%20of%20Heteroderaschachtiiin%20roots%20of%20resistant%20and%20susceptible%20genotypes%20of%20Sinapis%20alba%2C%20Brassica%20napus%2C%20Raphanus%20sativus%20and%20hybrids.%20Eur%20J%20Plant%20Pathol.%201993%3B%2099%3A%2013%E2%80%9322." data-title="1993%2C%20The%20development%20of%20juveniles%20of%20Heteroderaschachtiiin%20roots%20of%20resistant%20and%20susceptible%20genotypes%20of%20Sinapis%20alba%2C%20Brassica%20napus%2C%20Raphanus%20sativus%20and%20hybrids" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=1993%2C+The+development+of+juveniles+of+Heteroderaschachtiiin+roots+of+resistant+and+susceptible+genotypes+of+Sinapis+alba%2C+Brassica+napus%2C+Raphanus+sativus+and+hybrids+Lelivelt+1993" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref7"><span class="order">7.
+            </span><a name="pone.0231002.ref007" id="pone.0231002.ref007" class="link-target"></a>Lamb RJ. Effects of flea beetles, <em>Phyllotreta</em>spp. (Chrysomelidae: Coleoptera), on the survival, growth, seed yield and quality of canola, rape and yellow mustard. Can Entomol. 1984; 116: 269–280. <ul class="reflinks"><li><a href="#" data-author="Lamb" data-cit="LambRJ.%20Effects%20of%20flea%20beetles%2C%20Phyllotretaspp.%20%28Chrysomelidae%3A%20Coleoptera%29%2C%20on%20the%20survival%2C%20growth%2C%20seed%20yield%20and%20quality%20of%20canola%2C%20rape%20and%20yellow%20mustard.%20Can%20Entomol.%201984%3B%20116%3A%20269%E2%80%93280." data-title="Effects%20of%20flea%20beetles%2C%20Phyllotretaspp.%20%28Chrysomelidae%3A%20Coleoptera%29%2C%20on%20the%20survival%2C%20growth%2C%20seed%20yield%20and%20quality%20of%20canola%2C%20rape%20and%20yellow%20mustard" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Effects+of+flea+beetles%2C+Phyllotretaspp.+%28Chrysomelidae%3A+Coleoptera%29%2C+on+the+survival%2C+growth%2C+seed+yield+and+quality+of+canola%2C+rape+and+yellow+mustard+Lamb+1984" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref8"><span class="order">8.
+            </span><a name="pone.0231002.ref008" id="pone.0231002.ref008" class="link-target"></a>Brown J, McCaffrey JP, Brown DA, Harmon DA, Harmon BL, Davis JB. Yield reduction in <em>Brassica napus</em>, <em>B. rapa, B. juncea</em>, and <em>Sinapis alba</em> caused by flea beetle (<em>Phyllotreta Cruciferae</em> Goeze) (Coleoptera: Chrysomelidae) infestation in northern Idaho. J Econ Entomol. 2004; 97: 1642–1647.  pmid:15568354 <ul class="reflinks" data-doi="10.1603/0022-0493-97.5.1642"><li><a href="https://doi.org/10.1603/0022-0493-97.5.1642" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/15568354" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=Yield+reduction+in+Brassica+napus%2C+B.+rapa%2C+B.+juncea%2C+and+Sinapis+alba+caused+by+flea+beetle+%28Phyllotreta+Cruciferae+Goeze%29+%28Coleoptera%3A+Chrysomelidae%29+infestation+in+northern+Idaho+Brown+2004" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref9"><span class="order">9.
+            </span><a name="pone.0231002.ref009" id="pone.0231002.ref009" class="link-target"></a>Chandler J, Corbesier L, Spielmann P, Dettendorfer J, Stahl D, Apel K, et al. Modulating flowering time and prevention of pod shatter in oilseed rape. Mol Breed. 2005; 15: 87–94. <ul class="reflinks"><li><a href="#" data-author="Chandler" data-cit="ChandlerJ%2C%20CorbesierL%2C%20SpielmannP%2C%20DettendorferJ%2C%20StahlD%2C%20ApelK%2C%20et%20al.%20Modulating%20flowering%20time%20and%20prevention%20of%20pod%20shatter%20in%20oilseed%20rape.%20Mol%20Breed.%202005%3B%2015%3A%2087%E2%80%9394." data-title="Modulating%20flowering%20time%20and%20prevention%20of%20pod%20shatter%20in%20oilseed%20rape" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Modulating+flowering+time+and+prevention+of+pod+shatter+in+oilseed+rape+Chandler+2005" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref10"><span class="order">10.
+            </span><a name="pone.0231002.ref010" id="pone.0231002.ref010" class="link-target"></a>Wang YP, Zhao XX, Sonntag K, Wehling P, Snowdon RJ. Behaviour of <em>Sinapis alba</em> chromosomes in a <em>Brassica napus</em> background revealed by genomic <em>in-situ</em> hybridization. Chromosome Res. 2005; 13: 819–826.  pmid:16331413 <ul class="reflinks" data-doi="10.1007/s10577-005-1017-2"><li><a href="https://doi.org/10.1007/s10577-005-1017-2" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/16331413" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=Behaviour+of+Sinapis+alba+chromosomes+in+a+Brassica+napus+background+revealed+by+genomic+in-situ+hybridization+Wang+2005" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref11"><span class="order">11.
+            </span><a name="pone.0231002.ref011" id="pone.0231002.ref011" class="link-target"></a>Downey RK, Stringham GR, McGregor DI, Steffanson S. Breeding rapeseed and mustard crops. In: Harapiak J.T. (Ed.), Oilseed and Pulse Crops in Western Canada, 1975; pp. 157–183. Western Cooperative Fertilize Ltd. Calgary, Alberta, Canada <ul class="find-nolinks"></ul></li><li id="ref12"><span class="order">12.
+            </span><a name="pone.0231002.ref012" id="pone.0231002.ref012" class="link-target"></a>Brown J, Brown AP, Davis JB, Erickson D. Intergeneric hybridization between <em>Sinapis alba</em> and <em>Brassica napus</em>. Euphytica. 1997; 93: 163–168.  <ul class="reflinks" data-doi="10.1023/A:1002905816887"><li><a href="https://doi.org/10.1023/A:1002905816887" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Intergeneric+hybridization+between+Sinapis+alba+and+Brassica+napus+Brown+1997" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref13"><span class="order">13.
+            </span><a name="pone.0231002.ref013" id="pone.0231002.ref013" class="link-target"></a>Zielniok K, Szkoda K, Gajewska M, Wilczak J. Effect of biologically active substances present in water extracts of white mustard and coriander on antioxidant status and lipid peroxidation of mouse C2C12 skeletal muscle cells. J. Anim. Physiol. Anim. Nutr. 2015;  <ul class="reflinks" data-doi="10.1111/jpn.12412"><li><a href="https://doi.org/10.1111/jpn.12412" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Effect+of+biologically+active+substances+present+in+water+extracts+of+white+mustard+and+coriander+on+antioxidant+status+and+lipid+peroxidation+of+mouse+C2C12+skeletal+muscle+cells+Zielniok+2015" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref14"><span class="order">14.
+            </span><a name="pone.0231002.ref014" id="pone.0231002.ref014" class="link-target"></a>Plociniczak T, Kukla M, Watroba R, Piotrowska-Seget Z. 2013, The effect of soil bioaugmentation with strains of Pseudomonas on Cd, Zn and Cu uptake by <em>Sinapis alba</em> L. Chemosphere. 2013; 91: 1332–1337.y  pmid:23561856 <ul class="reflinks" data-doi="10.1016/j.chemosphere.2013.03.008"><li><a href="https://doi.org/10.1016/j.chemosphere.2013.03.008" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/23561856" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=The+effect+of+soil+bioaugmentation+with+strains+of+Pseudomonas+on+Cd%2C+Zn+and+Cu+uptake+by+Sinapis+alba+L+Plociniczak+2013" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref15"><span class="order">15.
+            </span><a name="pone.0231002.ref015" id="pone.0231002.ref015" class="link-target"></a>Kolte SJ. Diseases of Annual Edible Oilseed Crops, vol-II Rapeseed-Mustard and Sesame Diseases. CRC Press, Boca Raton, FL, 135p. 1985. <ul class="find-nolinks"></ul></li><li id="ref16"><span class="order">16.
+            </span><a name="pone.0231002.ref016" id="pone.0231002.ref016" class="link-target"></a>Agarwal RAK, Kumar A, Thakur HL. Effect of <em>Sclerotinia</em> rot on oil quality in low erucic acid cultivars of rapeseed. Crucifereae Newsletter. 1997; 19: 103–104. <ul class="reflinks"><li><a href="#" data-author="Agarwal" data-cit="AgarwalRAK%2C%20KumarA%2C%20ThakurHL.%20Effect%20of%20Sclerotinia%20rot%20on%20oil%20quality%20in%20low%20erucic%20acid%20cultivars%20of%20rapeseed.%20Crucifereae%20Newsletter.%201997%3B%2019%3A%20103%E2%80%93104." data-title="Effect%20of%20Sclerotinia%20rot%20on%20oil%20quality%20in%20low%20erucic%20acid%20cultivars%20of%20rapeseed" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Effect+of+Sclerotinia+rot+on+oil+quality+in+low+erucic+acid+cultivars+of+rapeseed+Agarwal+1997" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref17"><span class="order">17.
+            </span><a name="pone.0231002.ref017" id="pone.0231002.ref017" class="link-target"></a>Ghasolia RP, Shivpuri A, Bhargava AK. <em>Sclerotinia</em>rot of Indian mustard (<em>Brassica juncea</em>) in Rajasthan. Indian Phytopathol. 2004; 57: 76–79. <ul class="reflinks"><li><a href="#" data-author="Ghasolia" data-cit="GhasoliaRP%2C%20ShivpuriA%2C%20BhargavaAK.%20Sclerotiniarot%20of%20Indian%20mustard%20%28Brassica%20juncea%29%20in%20Rajasthan.%20Indian%20Phytopathol.%202004%3B%2057%3A%2076%E2%80%9379." data-title="Sclerotiniarot%20of%20Indian%20mustard%20%28Brassica%20juncea%29%20in%20Rajasthan" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Sclerotiniarot+of+Indian+mustard+%28Brassica+juncea%29+in+Rajasthan+Ghasolia+2004" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref18"><span class="order">18.
+            </span><a name="pone.0231002.ref018" id="pone.0231002.ref018" class="link-target"></a>Shukla AK. Estimation of yield losses to Indian mustard (<em>Brassica juncea</em>) due to <em>Sclerotinia</em> stem rot. J Phytol Res. 2005; 18: 267–268. <ul class="reflinks"><li><a href="#" data-author="Shukla" data-cit="ShuklaAK.%20Estimation%20of%20yield%20losses%20to%20Indian%20mustard%20%28Brassica%20juncea%29%20due%20to%20Sclerotinia%20stem%20rot.%20J%20Phytol%20Res.%202005%3B%2018%3A%20267%E2%80%93268." data-title="Estimation%20of%20yield%20losses%20to%20Indian%20mustard%20%28Brassica%20juncea%29%20due%20to%20Sclerotinia%20stem%20rot" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Estimation+of+yield+losses+to+Indian+mustard+%28Brassica+juncea%29+due+to+Sclerotinia+stem+rot+Shukla+2005" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref19"><span class="order">19.
+            </span><a name="pone.0231002.ref019" id="pone.0231002.ref019" class="link-target"></a>Wang R, Ripley VL, Rakow G. 2007, pod shatter resistance evaluation in cultivars and breeding lines of <em>Brassica napus, B. juncea</em> and <em>Sinapis alba</em>. Plant Breed. 2007; 126: 588–595. <ul class="reflinks"><li><a href="#" data-author="Wang" data-cit="WangR%2C%20RipleyVL%2C%20RakowG.%202007%2C%20pod%20shatter%20resistance%20evaluation%20in%20cultivars%20and%20breeding%20lines%20of%20Brassica%20napus%2C%20B.%20juncea%20and%20Sinapis%20alba.%20Plant%20Breed.%202007%3B%20126%3A%20588%E2%80%93595." data-title="2007%2C%20pod%20shatter%20resistance%20evaluation%20in%20cultivars%20and%20breeding%20lines%20of%20Brassica%20napus%2C%20B.%20juncea%20and%20Sinapis%20alba" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=2007%2C+pod+shatter+resistance+evaluation+in+cultivars+and+breeding+lines+of+Brassica+napus%2C+B.+juncea+and+Sinapis+alba+Wang+2007" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref20"><span class="order">20.
+            </span><a name="pone.0231002.ref020" id="pone.0231002.ref020" class="link-target"></a>Zhang X, Liu T, Duan M, Song J, Li X. <em>De novo</em> transcriptome analysis of <em>Sinapis alba</em> in revealing the glucosinolate and phytochelatin pathways. Front. Plant Sci. 2016; 7: 259.  <ul class="reflinks" data-doi="10.3389/fpls.2016.00259"><li><a href="https://doi.org/10.3389/fpls.2016.00259" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=De+novo+transcriptome+analysis+of+Sinapis+alba+in+revealing+the+glucosinolate+and+phytochelatin+pathways+Zhang+" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref21"><span class="order">21.
+            </span><a name="pone.0231002.ref021" id="pone.0231002.ref021" class="link-target"></a>Andrews S. FastQC: a quality control tool for high throughput sequence data Available online at: <a href="http://www.bioinformatics.babraham.ac.uk/projects/fastqc">http://www.bioinformatics.babraham.ac.uk/projects/fastqc</a>. 2010. <ul class="find-nolinks"></ul></li><li id="ref22"><span class="order">22.
+            </span><a name="pone.0231002.ref022" id="pone.0231002.ref022" class="link-target"></a>Martin M. Cutadapt: removes adapter sequences from high-throughput sequencing reads. EMBnet journal. 2011; 17(1): 10–12. <a href="http://dx.doi.org/10.14806/ej.17.1.200">http://dx.doi.org/10.14806/ej.17.1.200</a> <ul class="reflinks"><li><a href="#" data-author="Martin" data-cit="MartinM.%20Cutadapt%3A%20removes%20adapter%20sequences%20from%20high-throughput%20sequencing%20reads.%20EMBnet%20journal.%202011%3B%2017%281%29%3A%2010%E2%80%9312.%20http%3A%2F%2Fdx.doi.org%2F10.14806%2Fej.17.1.200" data-title="Cutadapt%3A%20removes%20adapter%20sequences%20from%20high-throughput%20sequencing%20reads" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Cutadapt%3A+removes+adapter+sequences+from+high-throughput+sequencing+reads+Martin+2011" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref23"><span class="order">23.
+            </span><a name="pone.0231002.ref023" id="pone.0231002.ref023" class="link-target"></a>Kirti PB, Mohapatra T, Khanna H, Prakash S, Chopra VL. 1995, <em>Diplotaxiscatholica</em>+ <em>Brassica juncea</em>somatic hybrids: molecular and cytogenetic characterization. Plant Cell Rep. 1995; 14: 593–597.  pmid:24185604 <ul class="reflinks" data-doi="10.1007/BF00231945"><li><a href="https://doi.org/10.1007/BF00231945" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/24185604" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=1995%2C+Diplotaxiscatholica%2B+Brassica+junceasomatic+hybrids%3A+molecular+and+cytogenetic+characterization+Kirti+1995" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref24"><span class="order">24.
+            </span><a name="pone.0231002.ref024" id="pone.0231002.ref024" class="link-target"></a>Kanehisa M, Goto S. KEGG: Kyoto encyclopedia of genes and genomes. Nucleic Acids Res. 2000; 28(1): 27–30.  pmid:10592173 <ul class="reflinks" data-doi="10.1093/nar/28.1.27"><li><a href="https://doi.org/10.1093/nar/28.1.27" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/10592173" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=KEGG%3A+Kyoto+encyclopedia+of+genes+and+genomes+Kanehisa+2000" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref25"><span class="order">25.
+            </span><a name="pone.0231002.ref025" id="pone.0231002.ref025" class="link-target"></a>Kumar S, Stecher G, Tamura K. MEGA7: Molecular Evolutionary Genetics Analysis version 7.0 for bigger datasets. Molecular Biology and Evolution. 2016; 33: 1870–1874  pmid:27004904 <ul class="reflinks" data-doi="10.1093/molbev/msw054"><li><a href="https://doi.org/10.1093/molbev/msw054" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/27004904" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=MEGA7%3A+Molecular+Evolutionary+Genetics+Analysis+version+7.0+for+bigger+datasets+Kumar+2016" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref26"><span class="order">26.
+            </span><a name="pone.0231002.ref026" id="pone.0231002.ref026" class="link-target"></a>Jiang J, Shao Y, Li A, Zhang Y, Wei C, Wang Y. FT-IR and NMR study of seed coat dissected from different colored progenies of <em>Brassica napus-Sinapis</em> alba hybrids. J. Sci. Food Agri. 2013; 93: 1898–1902.  <ul class="reflinks" data-doi="10.1002/jsfa.5986"><li><a href="https://doi.org/10.1002/jsfa.5986" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=FT-IR+and+NMR+study+of+seed+coat+dissected+from+different+colored+progenies+of+Brassica+napus-Sinapis+alba+hybrids+Jiang+2013" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref27"><span class="order">27.
+            </span><a name="pone.0231002.ref027" id="pone.0231002.ref027" class="link-target"></a>Lee RW, Malchev IT, Rajcan I, Kott LS. Identification of putative quantitative trait loci associated with a flavonoid related to resistance to cabbage seedpod weevil (<em>Ceutorhynchusobstrictus</em>) in canola derived from an intergeneric cross, <em>Sinapis alba</em> x <em>Brassica napus</em>. Theor. Appl. Genet. 2014; 127: 419–428.  <ul class="reflinks" data-doi="10.1007/s00122-013-2228-0"><li><a href="https://doi.org/10.1007/s00122-013-2228-0" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Identification+of+putative+quantitative+trait+loci+associated+with+a+flavonoid+related+to+resistance+to+cabbage+seedpod+weevil+%28Ceutorhynchusobstrictus%29+in+canola+derived+from+an+intergeneric+cross%2C+Sinapis+alba+x+Brassica+napus+Lee+2014" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref28"><span class="order">28.
+            </span><a name="pone.0231002.ref028" id="pone.0231002.ref028" class="link-target"></a>Johnston JS, Pepper AE, Hall AE, Chen ZJ, Hodnett G, Drabek J, et al. 2005, Evolution of genome size in Brassicaceae. Annals of Botany. 2005; 95(1): 229–235.  pmid:15596470 <ul class="reflinks" data-doi="10.1093/aob/mci016"><li><a href="https://doi.org/10.1093/aob/mci016" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/15596470" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=Evolution+of+genome+size+in+Brassicaceae+Johnston+2005" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref29"><span class="order">29.
+            </span><a name="pone.0231002.ref029" id="pone.0231002.ref029" class="link-target"></a>Javidfar F, Cheng B. Construction of a genetic linkage map and QTL analysis of erucic acid content and glucosinolate components in yellow mustard (<em>Sinapis alba</em> L.). BMC Plant Biol. 2013; 13: 142.  pmid:24066707 <ul class="reflinks" data-doi="10.1186/1471-2229-13-142"><li><a href="https://doi.org/10.1186/1471-2229-13-142" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/24066707" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=Construction+of+a+genetic+linkage+map+and+QTL+analysis+of+erucic+acid+content+and+glucosinolate+components+in+yellow+mustard+%28Sinapis+alba+L.%29+Javidfar+2013" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref30"><span class="order">30.
+            </span><a name="pone.0231002.ref030" id="pone.0231002.ref030" class="link-target"></a>Tian E, Zeng F, MacKay K, Roslinsky V, Cheng B. 2014, Detection and molecular characterization of two <em>FAD3</em> genes controlling linolenic acid content and development of allele-specific markers in yellow mustard (<em>Sinapis alba</em>). PLoS ONE. 2014; 9: e97430.  pmid:24823372 <ul class="reflinks" data-doi="10.1371/journal.pone.0097430"><li><a href="https://doi.org/10.1371/journal.pone.0097430" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/24823372" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=Detection+and+molecular+characterization+of+two+FAD3+genes+controlling+linolenic+acid+content+and+development+of+allele-specific+markers+in+yellow+mustard+%28Sinapis+alba%29+Tian+2014" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref31"><span class="order">31.
+            </span><a name="pone.0231002.ref031" id="pone.0231002.ref031" class="link-target"></a>Untergasser A, Cutcutache I, Koressaar T, Ye J, Faircloth BC, Remm M, et al. 2012, Primer3—new capabilities and interfaces. Nucleic Acids Research. 2012. 40(15): e115.  pmid:22730293 <ul class="reflinks" data-doi="10.1093/nar/gks596"><li><a href="https://doi.org/10.1093/nar/gks596" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/22730293" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=2012%2C+Primer3%E2%80%94new+capabilities+and+interfaces+Untergasser+2012" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref32"><span class="order">32.
+            </span><a name="pone.0231002.ref032" id="pone.0231002.ref032" class="link-target"></a>Cardle L, Ramsay L, Milbourne D, Macaulay M, Marshall D, Waugh R. Computational and experimental characterization of physically clustered simple sequence repeats in plants. Genetics. 2000; 156: 847–854. Available online at: <a href="http://www.genetics.org/content/156/2/847">http://www.genetics.org/content/156/2/847</a>. pmid:11014830 <ul class="reflinks"><li><a href="#" data-author="Cardle" data-cit="CardleL%2C%20RamsayL%2C%20MilbourneD%2C%20MacaulayM%2C%20MarshallD%2C%20WaughR.%20Computational%20and%20experimental%20characterization%20of%20physically%20clustered%20simple%20sequence%20repeats%20in%20plants.%20Genetics.%202000%3B%20156%3A%20847%E2%80%93854.%20Available%20online%20at%3A%20http%3A%2F%2Fwww.genetics.org%2Fcontent%2F156%2F2%2F847.%2011014830" data-title="Computational%20and%20experimental%20characterization%20of%20physically%20clustered%20simple%20sequence%20repeats%20in%20plants" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/11014830" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=Computational+and+experimental+characterization+of+physically+clustered+simple+sequence+repeats+in+plants+Cardle+2000" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref33"><span class="order">33.
+            </span><a name="pone.0231002.ref033" id="pone.0231002.ref033" class="link-target"></a>Kuravadi NA, Tiwari PB, Tanwar UK, Tripathi SK, Dhugga KS, Gill KS, et al. Identification and characterization of EST-SSR markers in cluster bean (spp.). Crop Sci. 2014; 54: 1097–1102.  <ul class="reflinks" data-doi="10.2135/cropsci2013.08.0522"><li><a href="https://doi.org/10.2135/cropsci2013.08.0522" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Identification+and+characterization+of+EST-SSR+markers+in+cluster+bean+%28spp.%29+Kuravadi+2014" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref34"><span class="order">34.
+            </span><a name="pone.0231002.ref034" id="pone.0231002.ref034" class="link-target"></a>Varshney RK, Graner A, Sorrells ME. 2005, Genic microsatellite markers in plants: features and applications. Trends Biotechnol. 20054; 23: 48–55.  pmid:15629858 <ul class="reflinks" data-doi="10.1016/j.tibtech.2004.11.005"><li><a href="https://doi.org/10.1016/j.tibtech.2004.11.005" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/15629858" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=Genic+microsatellite+markers+in+plants%3A+features+and+applications+Varshney+2005" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref35"><span class="order">35.
+            </span><a name="pone.0231002.ref035" id="pone.0231002.ref035" class="link-target"></a>Sonah H, Deshmukh RK, Sharma A, Singh VP, Gupta DK, Gacche RN, et al. Genome-wide distribution and organization of microsatellites in plants: an insight in to marker development in Brachypodium. PLoS ONE. 2011; 6: e21298.  pmid:21713003 <ul class="reflinks" data-doi="10.1371/journal.pone.0021298"><li><a href="https://doi.org/10.1371/journal.pone.0021298" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/21713003" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=Genome-wide+distribution+and+organization+of+microsatellites+in+plants%3A+an+insight+in+to+marker+development+in+Brachypodium+Sonah+2011" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref36"><span class="order">36.
+            </span><a name="pone.0231002.ref036" id="pone.0231002.ref036" class="link-target"></a>Pu Y, Gao J, Guo Y, Liu T, Zhu L, Xu P, et al. A novel dominant glossy mutation causes suppression of wax biosynthesis pathway and deficiency of cuticular wax in <em>Brassica napus</em>. BMC Plant Biology. 2013; 215: 13. <a href="https://doi.org/10.1186/1471-2229-13-215">https://doi.org/10.1186/1471-2229-13-215</a>. <ul class="reflinks"><li><a href="#" data-author="Pu" data-cit="PuY%2C%20GaoJ%2C%20GuoY%2C%20LiuT%2C%20ZhuL%2C%20XuP%2C%20et%20al.%20A%20novel%20dominant%20glossy%20mutation%20causes%20suppression%20of%20wax%20biosynthesis%20pathway%20and%20deficiency%20of%20cuticular%20wax%20in%20Brassica%20napus.%20BMC%20Plant%20Biology.%202013%3B%20215%3A%2013.%20https%3A%2F%2Fdoi.org%2F10.1186%2F1471-2229-13-215." data-title="A%20novel%20dominant%20glossy%20mutation%20causes%20suppression%20of%20wax%20biosynthesis%20pathway%20and%20deficiency%20of%20cuticular%20wax%20in%20Brassica%20napus" target="_new" title="Go to article in CrossRef">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=A+novel+dominant+glossy+mutation+causes+suppression+of+wax+biosynthesis+pathway+and+deficiency+of+cuticular+wax+in+Brassica+napus+Pu+2013" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref37"><span class="order">37.
+            </span><a name="pone.0231002.ref037" id="pone.0231002.ref037" class="link-target"></a>Varshney RK, Grosse I, Hähnel U, Siefken R, Prasad M, Stein N, et al. 2006, Genetic mapping and BAC assignment of EST-derived SSR markers shows non-uniform distribution of genes in the barley genome. Theor. Appl. Genet. 2006; 113: 239–250.  pmid:16791690 <ul class="reflinks" data-doi="10.1007/s00122-006-0289-z"><li><a href="https://doi.org/10.1007/s00122-006-0289-z" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/16791690" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=2006%2C+Genetic+mapping+and+BAC+assignment+of+EST-derived+SSR+markers+shows+non-uniform+distribution+of+genes+in+the+barley+genome+Varshney+2006" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref38"><span class="order">38.
+            </span><a name="pone.0231002.ref038" id="pone.0231002.ref038" class="link-target"></a>Tanwar UK, Pruthi V, Randhawa GS. 2017, RNA-Seq of Guar (<em>Cyamopsistetragonoloba</em>, L. Taub.) Leaves: <em>De novo</em> Transcriptome Assembly, Functional Annotation and Development of Genomic Resources. Front. Plant Sci. 2017; 8: 91.  <ul class="reflinks" data-doi="10.3389/fpls.2017.00091"><li><a href="https://doi.org/10.3389/fpls.2017.00091" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=2017%2C+RNA-Seq+of+Guar+%28Cyamopsistetragonoloba%2C+L.+Taub.%29+Leaves%3A+De+novo+Transcriptome+Assembly%2C+Functional+Annotation+and+Development+of+Genomic+Resources+Tanwar+" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref39"><span class="order">39.
+            </span><a name="pone.0231002.ref039" id="pone.0231002.ref039" class="link-target"></a>Cloutier S, Niu Z, Datla R, Duguid S. Development and analysis of EST-SSRs for flax (<em>Linumusitatissimum</em>L.). Theor. Appl. Genet. 2009; 119: 53–63.  pmid:19357828 <ul class="reflinks" data-doi="10.1007/s00122-009-1016-3"><li><a href="https://doi.org/10.1007/s00122-009-1016-3" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/19357828" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=Development+and+analysis+of+EST-SSRs+for+flax+%28LinumusitatissimumL.%29+Cloutier+2009" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref40"><span class="order">40.
+            </span><a name="pone.0231002.ref040" id="pone.0231002.ref040" class="link-target"></a>Ashburner M, Ball CA, Blake JA, Botstein D, Butler H, Cherry JM, et al. Gene Ontology: tool for the unification of biology Nat. Genet. 2000; 25; 25–29.  <ul class="reflinks" data-doi="10.1038/75556"><li><a href="https://doi.org/10.1038/75556" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Gene+Ontology%3A+tool+for+the+unification+of+biology+Nat+Ashburner+2000" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref41"><span class="order">41.
+            </span><a name="pone.0231002.ref041" id="pone.0231002.ref041" class="link-target"></a>Mario S, Burkhard M. AUGUSTUS: a web server for gene prediction in eukaryotes that allows user-defined constraints. Nucleic Acids Res. 2005; 33 (Web Server issue): W465–W467.  pmid:15980513 <ul class="reflinks" data-doi="10.1093/nar/gki458"><li><a href="https://doi.org/10.1093/nar/gki458" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/15980513" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=AUGUSTUS%3A+a+web+server+for+gene+prediction+in+eukaryotes+that+allows+user-defined+constraints+Mario+2005" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref42"><span class="order">42.
+            </span><a name="pone.0231002.ref042" id="pone.0231002.ref042" class="link-target"></a>Hoff KJ, Stanke M. Predicting genes in single genome with AUGUSTUS. Current Protocols in Bioinformatics. 2019; 65: e57.  pmid:30466165 <ul class="reflinks" data-doi="10.1002/cpbi.57"><li><a href="https://doi.org/10.1002/cpbi.57" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/30466165" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=Predicting+genes+in+single+genome+with+AUGUSTUS+Hoff+2019" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref43"><span class="order">43.
+            </span><a name="pone.0231002.ref043" id="pone.0231002.ref043" class="link-target"></a>Bose MA, Chattopadhyay S. Sequencing, <em>de novo</em> assembly, functional annotation and analysis of Phyllanthus amarus leaf transcriptome using the Illumina platform. Front. Plant Sci. 2016; 6: 1199.  <ul class="reflinks" data-doi="10.3389/fpls.2015.01199"><li><a href="https://doi.org/10.3389/fpls.2015.01199" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://scholar.google.com/scholar?q=Sequencing%2C+de+novo+assembly%2C+functional+annotation+and+analysis+of+Phyllanthus+amarus+leaf+transcriptome+using+the+Illumina+platform+Bose+" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref44"><span class="order">44.
+            </span><a name="pone.0231002.ref044" id="pone.0231002.ref044" class="link-target"></a>Bourdenx BB, Bernard A, Domergue F, Pascal S, Amandine L, Roby D, et al. Overexpression of Arabidopsis ECERIFERUM1 promotes wax very-long-chain alkane biosynthesis and influences plant response to biotic and abiotic stresses. Plant Physiology. 2011; 156: 29–45.  pmid:21386033 <ul class="reflinks" data-doi="10.1104/pp.111.172320"><li><a href="https://doi.org/10.1104/pp.111.172320" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/21386033" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=Overexpression+of+Arabidopsis+ECERIFERUM1+promotes+wax+very-long-chain+alkane+biosynthesis+and+influences+plant+response+to+biotic+and+abiotic+stresses+Bourdenx+2011" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref45"><span class="order">45.
+            </span><a name="pone.0231002.ref045" id="pone.0231002.ref045" class="link-target"></a>Aarts MGM, Keijzer CJ, Stiekema WJ, Pereira A. Molecular characterization of the <em>CER7</em> gene of Arabidopsis involved in epicuticular wax biosynthesis and pollen fertility. The Plant Cell. 1995; 7: 2115–2127.  pmid:8718622 <ul class="reflinks" data-doi="10.1105/tpc.7.12.2115"><li><a href="https://doi.org/10.1105/tpc.7.12.2115" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/8718622" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=Molecular+characterization+of+the+CER7+gene+of+Arabidopsis+involved+in+epicuticular+wax+biosynthesis+and+pollen+fertility+Aarts+1995" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref46"><span class="order">46.
+            </span><a name="pone.0231002.ref046" id="pone.0231002.ref046" class="link-target"></a>Kumar A, Bennetzen JL. Plant retrotransposons. Annual Review of Genetics. 1999; 33: 479–532.  pmid:10690416 <ul class="reflinks" data-doi="10.1146/annurev.genet.33.1.479"><li><a href="https://doi.org/10.1146/annurev.genet.33.1.479" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/10690416" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=Plant+retrotransposons+Kumar+1999" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li><li id="ref47"><span class="order">47.
+            </span><a name="pone.0231002.ref047" id="pone.0231002.ref047" class="link-target"></a>Parchman TL, Katherine SG, Johan AG, Craig WB, Buerkle CA. 2010, Transcriptome sequencing in an ecologically important tree species: assembly, annotation, and marker discovery. BMC Genomics. 2010; 11: 180.  pmid:20233449 <ul class="reflinks" data-doi="10.1186/1471-2164-11-180"><li><a href="https://doi.org/10.1186/1471-2164-11-180" data-author="doi-provided" data-cit="doi-provided" data-title="doi-provided" target="_new" title="Go to article">
+                      View Article
+                    </a></li><li><a href="http://www.ncbi.nlm.nih.gov/pubmed/20233449" target="_new" title="Go to article in PubMed">
+                        PubMed/NCBI
+                      </a></li><li><a href="http://scholar.google.com/scholar?q=Transcriptome+sequencing+in+an+ecologically+important+tree+species%3A+assembly%2C+annotation%2C+and+marker+discovery+Parchman+2010" target="_new" title="Go to article in Google Scholar">
+                      Google Scholar
+                    </a></li></ul></li></ol></div>
+
+
+
+          <div class="ref-tooltip">
+            <div class="ref_tooltip-content">
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <aside class="article-aside">
+
+
+<!--[if IE 9]>
+<style>
+.dload-xml {margin-top: 38px}
+</style>
+<![endif]-->
+<div class="dload-menu">
+  <div class="dload-pdf">
+    <a href="/plosone/article/file?id=10.1371/journal.pone.0231002&type=printable"
+       id="downloadPdf" target="_blank">Download PDF</a>
+  </div>
+  <div data-js-tooltip-hover="trigger" class="dload-hover">&nbsp;
+    <ul class="dload-xml" data-js-tooltip-hover="target">
+      <li><a href="/plosone/article/citation?id=10.1371/journal.pone.0231002"
+             id="downloadCitation">Citation</a></li>
+      <li><a href="/plosone/article/file?id=10.1371/journal.pone.0231002&type=manuscript"
+             id="downloadXml">XML</a>
+      </li>
+    </ul>
+
+  </div>
+</div>
+
+<div class="aside-container">
+
+<div class="print-article" id="printArticle" data-js-tooltip-hover="trigger">
+
+  Print
+  <ul class="print-options" data-js-tooltip-hover="target">
+    <li><a href="#" onclick="window.print(); return false;" class="preventDefault" id="printBrowser">Print article</a></li>
+
+<li><a href="http://surveys.plos.org/s3/reprints">Reprints</a></li>
+
+  </ul>
+</div>
+
+<div class="share-article" id="shareArticle" data-js-tooltip-hover="trigger">
+  Share
+  <ul data-js-tooltip-hover="target" class="share-options" id="share-options">
+
+<li><a href="https://www.reddit.com/submit?url=https%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pone.0231002" id="shareReddit" target="_blank" title="Submit to Reddit"><img src="/plosone/resource/img/icon.reddit.16.png" width="16" height="16" alt="Reddit">Reddit</a></li>
+
+<li><a href="https://www.facebook.com/share.php?u=https%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pone.0231002&t=Draft genome of multiple resistance donor plant Sinapis alba: An insight into SSRs, annotations and phylogenetics" id="shareFacebook" target="_blank" title="Share on Facebook"><img src="/plosone/resource/img/icon.fb.16.png" width="16" height="16" alt="Facebook">Facebook</a></li>
+
+
+<li><a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pone.0231002&title=Draft genome of multiple resistance donor plant Sinapis alba: An insight into SSRs, annotations and phylogenetics&summary=Checkout this article I found at PLOS"  id="shareLinkedIn" target="_blank" title="Add to LinkedIn"><img src="/plosone/resource/img/icon.linkedin.16.png" width="16" height="16" alt="LinkedIn">LinkedIn</a></li>
+
+<li><a href="https://www.mendeley.com/import/?url=https%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pone.0231002"  id="shareMendeley" target="_blank" title="Add to Mendeley"><img src="/plosone/resource/img/icon.mendeley.16.png" width="16" height="16" alt="Mendeley">Mendeley</a></li>
+
+<li><a href="https://www.pubchase.com/library?add_aid=10.1371/journal.pone.0231002&source=plos"  id="sharePubChase" target="_blank" title="Add to PubChase"><img src="/plosone/resource/img/icon.pc.16.png" width="16" height="16" alt="PubChase">PubChase</a></li>
+
+  <li><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pone.0231002&text=%23PLOSONE%3A%20Draft genome of multiple resistance donor plant Sinapis alba: An insight into SSRs, annotations and phylogenetics" target="_blank" title="share on Twitter" id="twitter-share-link"><img src="/plosone/resource/img/icon.twtr.16.png" width="16" height="16" alt="Twitter">Twitter</a></li>
+
+<li><a href="mailto:?subject=Draft genome of multiple resistance donor plant Sinapis alba: An insight into SSRs, annotations and phylogenetics&body=I%20thought%20you%20would%20find%20this%20article%20interesting.%20From%20PLOS ONE:%20https%3A%2F%2Fdx.plos.org%2F10.1371%2Fjournal.pone.0231002"  id="shareEmail" rel="noreferrer" aria-label="Email"><img src="/plosone/resource/img/icon.email.16.png" width="16" height="16" alt="Email">Email</a></li>
+  </ul>
+</div></div>
+
+
+ <!-- Crossmark 2.0 widget -->
+<script src="https://crossmark-cdn.crossref.org/widget/v2.0/widget.js"></script>
+<a data-target="crossmark"><img width="150" src="https://crossmark-cdn.crossref.org/widget/v2.0/logos/CROSSMARK_BW_horizontal.svg"></a>
+<!-- End Crossmark 2.0 widget -->
+
+
+
+
+<script type="text/javascript">
+  var articleDoi = "10.1371/journal.pone.0231002";
+  $.ajax({
+    url: "https://collections.plos.org/wp-json/collections-api/contains",
+    data: {id: articleDoi},
+    context: document.body,
+    timeout: 10000,
+    dataType: "json",
+    success: function (result, textStatus, xOptions) {
+      if (result.response == "success" && result.data.collections.length > 0) {
+        var articleCollectionsTemplate = _.template($('#articleCollectionsTemplate').html());
+        var articleCollectionsHTML = articleCollectionsTemplate(result.data)
+        $('.collections-aside-container').append(articleCollectionsHTML);
+      }
+    }
+  });
+</script>
+
+<script type="text/template" id="articleCollectionsTemplate">
+  <h3>Included in the Following <% if (collections.length == 1) { %>Collection<% } else { %>Collections<% } %></h3>
+  <ul id="collectionList">
+  <% _.each(collections, function (collection) { %>
+    <li>
+      <a href="<%= collection.permalink %>"><%= collection.title %></a>
+    </li>
+  <% }); %>
+  </ul>
+</script>
+
+<div class="aside-container collections-aside-container">
+</div>
+
+
+<div class="skyscraper-container">
+  <div class="title">Advertisement</div>
+<!-- DoubleClick Ad Zone -->
+  <div class='advertisement' id='div-gpt-ad-1458247671871-1' style='width:160px; height:600px;'>
+    <script type='text/javascript'>
+      googletag.cmd.push(function() { googletag.display('div-gpt-ad-1458247671871-1'); });
+    </script>
+  </div>
+</div>
+
+
+
+
+<div class="subject-areas-container">
+  <h3>Subject Areas <div id="subjInfo">?</div>
+    <div id="subjInfoText">
+      <p>For more information about PLOS Subject Areas, click
+        <a href="https://github.com/PLOS/plos-thesaurus/blob/master/README.md" target="_blank" title="Link opens in new window">here</a>.</p>
+      <span class="inline-intro">We want your feedback.</span> Do these Subject Areas make sense for this article? Click the target next to the incorrect Subject Area and let us know. Thanks for your help!
+
+
+    </div>
+  </h3>
+  <ul id="subjectList">
+      <li>
+              <a class="taxo-term" title="Search for articles about Genomics"
+                 href="/plosone/search?filterSubjects=Genomics&filterJournals=PLoSONE&q=">Genomics</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="Genomics"><p class="taxo-explain">Is the Subject Area <strong>"Genomics"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+      <li>
+              <a class="taxo-term" title="Search for articles about Gene prediction"
+                 href="/plosone/search?filterSubjects=Gene+prediction&filterJournals=PLoSONE&q=">Gene prediction</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="Gene prediction"><p class="taxo-explain">Is the Subject Area <strong>"Gene prediction"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+      <li>
+              <a class="taxo-term" title="Search for articles about Microsatellite loci"
+                 href="/plosone/search?filterSubjects=Microsatellite+loci&filterJournals=PLoSONE&q=">Microsatellite loci</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="Microsatellite loci"><p class="taxo-explain">Is the Subject Area <strong>"Microsatellite loci"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+      <li>
+              <a class="taxo-term" title="Search for articles about Plant genomics"
+                 href="/plosone/search?filterSubjects=Plant+genomics&filterJournals=PLoSONE&q=">Plant genomics</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="Plant genomics"><p class="taxo-explain">Is the Subject Area <strong>"Plant genomics"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+      <li>
+              <a class="taxo-term" title="Search for articles about Genome annotation"
+                 href="/plosone/search?filterSubjects=Genome+annotation&filterJournals=PLoSONE&q=">Genome annotation</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="Genome annotation"><p class="taxo-explain">Is the Subject Area <strong>"Genome annotation"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+      <li>
+              <a class="taxo-term" title="Search for articles about Arabidopsis thaliana"
+                 href="/plosone/search?filterSubjects=Arabidopsis+thaliana&filterJournals=PLoSONE&q=">Arabidopsis thaliana</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="Arabidopsis thaliana"><p class="taxo-explain">Is the Subject Area <strong>"Arabidopsis thaliana"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+      <li>
+              <a class="taxo-term" title="Search for articles about Retrotransposons"
+                 href="/plosone/search?filterSubjects=Retrotransposons&filterJournals=PLoSONE&q=">Retrotransposons</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="Retrotransposons"><p class="taxo-explain">Is the Subject Area <strong>"Retrotransposons"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+      <li>
+              <a class="taxo-term" title="Search for articles about Computer software"
+                 href="/plosone/search?filterSubjects=Computer+software&filterJournals=PLoSONE&q=">Computer software</a>
+        <span class="taxo-flag">&nbsp;</span>
+        <div class="taxo-tooltip" data-categoryname="Computer software"><p class="taxo-explain">Is the Subject Area <strong>"Computer software"</strong> applicable to this article?
+          <button id="noFlag" data-action="remove">Yes</button>
+          <button id="flagIt" value="flagno" data-action="add">No</button></p>
+          <p class="taxo-confirm">Thanks for your feedback.</p>
+        </div>
+      </li>
+  </ul>
+</div>
+<div id="subjectErrors"></div>
+
+
+<div class="twitter-container">
+  <h3>Archived Tweets</h3>
+  <ul id="tweetList">
+
+  </ul>
+  <div class="load-more">Load more <span></span></div>
+  <div class="view-all"><a href="https://alm.plos.org/works/doi.org/10.1371/journal.pone.0231002?source_id=twitter">View all tweets</a>
+  </div>
+</div>
+
+<script type="text/template" id="twitterModuleItemTemplate">
+  <% _.each(items, function(item) { %>
+    <li>
+      <div class="tweet-info">
+        <a href="https://twitter.com/<%= item.user %>">
+          <span class="imgholder">
+            <img class="imgLoad" src="<%= item.user_profile_image %>">
+          </span>
+          <div class="tweetDate"><%= item.created_at %></div>
+          <div class="tweetUser">
+            <strong><%= item.user_name %></strong>
+            <span>@<%= item.user %></span>
+          </div>
+        </a>
+      </div>
+      <div class="tweetText">
+        <%= item.text %>
+      </div>
+      <div id="tweetActions">
+        <a class="tweet-reply" href="https://twitter.com/intent/tweet?in_reply_to<%= item.id %>&amp;text=@<%= item.user %>">
+          <div>&nbsp;</div> Reply
+        </a>
+        <a class="tweet-retweet" href="https://twitter.com/intent/retweet?tweet_id=<%= item.id %>">
+          <div>&nbsp;</div> Retweet
+        </a>
+        <a class="tweet-favorite" href="https://twitter.com/intent/favorite?tweet_id=<%= item.id %>">
+          <div>&nbsp;</div> Favorite
+        </a>
+      </div>
+    </li>
+  <% }); %>
+</script>
+
+
+  </aside>
+</div>
+
+
+
+
+</main>
+
+<footer id="pageftr">
+  <div class="row">
+  
+
+     <div class="block x-small">   
+      
+
+<ul class="nav nav-secondary">
+    <li class="ftr-header"><a href="https://plos.org/publications/journals/">Publications</a></li>
+    <li><a href="/plosbiology/" id="ftr-bio">PLOS Biology</a></li>
+    <li><a href="/plosmedicine/" id="ftr-med">PLOS Medicine</a></li>
+    <li><a href="/ploscompbiol/" id="ftr-compbio">PLOS Computational Biology</a></li>
+    <li><a href="/plosgenetics/" id="ftr-gen">PLOS Genetics</a></li>
+    <li><a href="/plospathogens/" id="ftr-path">PLOS Pathogens</a></li>
+    <li><a href="/plosone/" id="ftr-one">PLOS ONE</a></li>
+    <li><a href="/plosntds/" id="ftr-ntds">PLOS Neglected Tropical Diseases</a></li>
+  </ul>
+  </div>
+   
+    <div class="block xx-small">	
+
+
+<ul class="nav nav-tertiary">
+  <li>
+    <a href="https://plos.org" id="ftr-home">Home</a>
+  </li>
+  <li>
+    <a href="https://blogs.plos.org" id="ftr-blog">Blogs</a>
+  </li>
+  <li>
+    <a href="https://collections.plos.org/" id="ftr-collections">Collections</a>
+  </li>
+  <li>
+    <a href="mailto:webmaster@plos.org" id="ftr-feedback">Give feedback</a>
+  </li>
+  <li>
+    <a href="/plosone/lockss-manifest" id="ftr-lockss">LOCKSS</a>
+  </li>
+</ul>
+    </div>
+    <div class="block xx-small">
+
+<ul class="nav nav-primary">
+  <li><a href="https://plos.org/privacy-policy" id="ftr-privacy">Privacy Policy</a></li>
+  <li><a href="https://plos.org/terms-of-use" id="ftr-terms">Terms of Use</a></li>
+  <li><a href="https://plos.org/advertise/" id="ftr-advertise">Advertise</a></li>
+  <li><a href="https://plos.org/media-inquiries" id="ftr-media">Media Inquiries</a></li>
+  <li><a href="https://plos.org/contact" id="ftr-contact">Contact</a></li>
+</ul>
+     </div>
+
+<p class="footer-non-profit-statement">PLOS is a nonprofit 501(c)(3) corporation, #C2354500, based in San Francisco, California, US</p>     <div class="block x-small">
+
+<img src="/plosone/resource/img/logo-plos-footer.png" alt="PLOS" class="logo-footer"/>
+    </div>
+	 
+
+
+&nbsp;
+<!--
+  Webapp build:  3.7.22 at 20210114231037 by root, commit: f58c68c
+  Service build: 2.6.0-SNAPSHOT at 20201216040034 by root, commit: bb1e4d4
+  -->
+     
+  </div>
+ 
+
+
+</footer>
+
+
+
+
+<script type="text/javascript">
+  var ArticleData = {
+    doi: '10.1371/journal.pone.0231002',
+    title: '<article-title xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">Draft genome of multiple resistance donor plant <italic>Sinapis alba<\/italic>: An insight into SSRs, annotations and phylogenetics<\/article-title>',
+    date: 'Apr 09, 2020'
+  };
+</script>
+
+<script type="text/javascript">
+  var ALM_CONFIG = ALM_CONFIG || {};
+  ALM_CONFIG.hostname = "https://alm.plos.org";
+  ALM_CONFIG.apiKey = "3pezRBRXdyzYW6ztfwft";
+  ALM_CONFIG.host = "https://alm.plos.org/api/v5/articles";
+</script>
+<script type="text/javascript">
+  var ALM_CONFIG = ALM_CONFIG || {};
+  ALM_CONFIG.hostname = "https://alm.plos.org";
+  ALM_CONFIG.apiKey = "3pezRBRXdyzYW6ztfwft";
+  ALM_CONFIG.host = "https://alm.plos.org/api/v5/articles";
+</script>
+
+
+
+
+
+
+<script type="text/javascript" async src="https://platform.twitter.com/widgets.js"></script>
+
+
+
+
+
+<!-- This file should be loaded before the renderJs, to avoid conflicts with the FigShare, that implements the MathJax also. -->
+
+<!--  mathjax configuration options  -->
+<!-- more can be found at http://docs.mathjax.org/en/latest/ -->
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  "HTML-CSS": {
+    scale: 100,
+    availableFonts: ["STIX","TeX"],
+    preferredFont: "STIX",
+    webFont: "STIX-Web",
+    linebreaks: { automatic: false }
+  },
+  jax: ["input/MathML", "output/HTML-CSS"]
+});
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=MML_HTMLorMML"></script>
+
+<script src="/plosone/resource/compiled/asset_FBSXJA6FYBU6CGPQV6N52S52ZVTXIDTR.js"></script>
+<div class="reveal-modal-bg"></div>
+</body>
+</html>

@@ -1,0 +1,1510 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+            var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl + '&gtm_auth=fCzlsmYQFAUQ_UXneGJNag&gtm_preview=env-2&gtm_cookies_win=x';
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TZGWTGG');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title>Frontiers | The Genome Sequence of Alpine Megacarpaea delavayi Identifies Species-Specific Whole-Genome Duplication | Genetics</title>
+
+    <link rel="shortcut icon" href="https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/favicon_16x16.ico" type="image/x-icon" />
+
+    <meta property="og:type" content="article" />
+    <meta property="frontiers:type" content="Article" />
+    <meta property="og:site_name" name="site_name" content="Frontiers" />
+    <meta property="og:title" name="Title" content="The Genome Sequence of Alpine Megacarpaea delavayi Identifies Species-Specific Whole-Genome Duplication" />
+    <meta property="og:description" name="Description" content="Megacarpaea delavayi (Brassicaceae), a plant found the high mountains of southwest China at high altitudes (3000–4800 m), is used as a vegetable or medicine. Here, we report a draft genome for this species. The assembly genome of M. delavayi is 883 Mb, and 61.59% of the genome is composed of repeat sequences. Annotation of the genome identified a total of 41,114 protein-coding genes. We found that M. delavayi experienced an independent whole-genome duplication (WGD), paralleling those independent WGDs in Iberis, Biscutella, and Anastatica in the early Miocene. Phylogenetic analyses based on the single-copy genes confirmed the position of the genus Megacarpaea within the expanded lineage II of the family and resolved its basal divergence to a subclade consisting of Anastatica, Iberis, and Biscutella. Species-specific and fast-evolving genes in M. delavayi are mainly involved in “DNA repair” and “response to UV-B radiation.” These genetic changes may together help this species survive in high-altitude environments. The reference genome reported here provides a valuable resource for studying adaptation of this and other alpine plants to the high-altitude habitats." />
+    <meta property="og:url" name="url" content="https://www.frontiersin.org/article/10.3389/fgene.2020.00812/full" />
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"
+            integrity="sha256-h0cGsrExGgcZtSZ/fRz4AwV+Nn6Urh/3v3jFRQ0w9dQ=" crossorigin="anonymous"></script>
+        <link href="https://static.frontiersin.org/navigation-plugins/footer/css" rel="stylesheet" />
+            <link href="https://static.frontiersin.org/navigation-plugins/header/css" rel="stylesheet" />
+
+        <meta property="og:image" content="https://www.frontiersin.org/files/MyHome%20Article%20Library/547001/547001_Thumb_400.jpg" />
+            <meta name="citation_volume" content="11" />
+        <meta name="citation_journal_title" content="Frontiers in Genetics" />
+        <meta name="citation_publisher" content="Frontiers" />
+        <meta name="citation_journal_abbrev" content="Front. Genet." />
+        <meta name="citation_issn" content="1664-8021" />
+        <meta name="citation_doi" content="10.3389/fgene.2020.00812" />
+        <meta name="citation_pages" content="812" />
+        <meta name="citation_language" content="English" />
+        <meta name="citation_title" content="The Genome Sequence of Alpine Megacarpaea delavayi Identifies Species-Specific Whole-Genome Duplication" />
+        <meta name="citation_keywords" content="Megacarpaea delavayi; genome sequence; Alpine adaptation; Whole-genome duplication; Brassicaceae" />
+        <meta name="citation_abstract" content="Megacarpaea delavayi (Brassicaceae), a plant found the high mountains of southwest China at high altitudes (3,000–4,800 m), is used as a vegetable or medicine. Here we report a draft genome for this species. The assembly genome of M. delavayi is 883 Mb, and 61.59% of the genome is composed of repeat sequences. Annotation of the genome identified a total of 41,114 protein-coding genes. We found that M. delavayi experienced an independent whole-genome duplication (WGD), paralleling to those independent WGDs in Iberis, Biscutella and Anastatica in the early Miocene. Phylogenetic analyses based on the single-copy genes confirmed the position of the genus Megacarpaea within the expanded lineage II of the family and resolved its basal divergence to a subclade consisting of Anastatica, Iberis and Biscutella. Species-specific and fast-evolving genes in M. delavayi are mainly involved in “DNA repair” and “response to UV-B radiation”. These genetic changes may together help this species survive in high-altitude environments. The reference genome reported here provides a valuable resource for studying adaptation of this and other alpine plants to the high-altitude habitats. Running title: Genome of alpine Megacarpaea delavayi " />
+        <meta name="description" content="Megacarpaea delavayi (Brassicaceae), a plant found the high mountains of southwest China at high altitudes (3,000–4,800 m), is used as a vegetable or medicine. Here we report a draft genome for this species. The assembly genome of M. delavayi is 883 Mb, and 61.59% of the genome is composed of repeat sequences. Annotation of the genome identified a total of 41,114 protein-coding genes. We found that M. delavayi experienced an independent whole-genome duplication (WGD), paralleling to those independent WGDs in Iberis, Biscutella and Anastatica in the early Miocene. Phylogenetic analyses based on the single-copy genes confirmed the position of the genus Megacarpaea within the expanded lineage II of the family and resolved its basal divergence to a subclade consisting of Anastatica, Iberis and Biscutella. Species-specific and fast-evolving genes in M. delavayi are mainly involved in “DNA repair” and “response to UV-B radiation”. These genetic changes may together help this species survive in high-altitude environments. The reference genome reported here provides a valuable resource for studying adaptation of this and other alpine plants to the high-altitude habitats. Running title: Genome of alpine Megacarpaea delavayi " />
+        <meta name="citation_online_date" content="2020/07/06" />
+        <meta name="citation_date" content="2020" />
+        <meta name="citation_publication_date" content="2020/08/03" />
+        <meta name="citation_pdf_url" content="https://www.frontiersin.org/articles/10.3389/fgene.2020.00812/pdf" />
+        <meta name="citation_author" content="Yang, Qiao" />
+        <meta name="citation_author_institution" content="Key Laboratory of Bio-Resource and Eco-Environment of Ministry of Education, State Key Laboratory of Hydraulics and Mountain River Engineering, College of Life Sciences, Sichuan University, China" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Bi, Hao" />
+        <meta name="citation_author_institution" content="Key Laboratory of Bio-Resource and Eco-Environment of Ministry of Education, State Key Laboratory of Hydraulics and Mountain River Engineering, College of Life Sciences, Sichuan University, China" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Yang, Wenjie" />
+        <meta name="citation_author_institution" content="Key Laboratory of Bio-Resource and Eco-Environment of Ministry of Education, State Key Laboratory of Hydraulics and Mountain River Engineering, College of Life Sciences, Sichuan University, China" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Li, Ting" />
+        <meta name="citation_author_institution" content="Key Laboratory of Bio-Resource and Eco-Environment of Ministry of Education, State Key Laboratory of Hydraulics and Mountain River Engineering, College of Life Sciences, Sichuan University, China" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Jiang, Jiebei" />
+        <meta name="citation_author_institution" content="Key Laboratory of Bio-Resource and Eco-Environment of Ministry of Education, State Key Laboratory of Hydraulics and Mountain River Engineering, College of Life Sciences, Sichuan University, China" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Zhang, Lei" />
+        <meta name="citation_author_institution" content="Key Laboratory of Bio-Resource and Eco-Environment of Ministry of Education, State Key Laboratory of Hydraulics and Mountain River Engineering, College of Life Sciences, Sichuan University, China" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Liu, Jianquan" />
+        <meta name="citation_author_institution" content="Key Laboratory of Bio-Resource and Eco-Environment of Ministry of Education, State Key Laboratory of Hydraulics and Mountain River Engineering, College of Life Sciences, Sichuan University, China" />
+        <meta name="citation_author_institution" content="State Key Laboratory of Grassland Agro-Ecosystem, Institute of Innovation Ecology, Lanzhou University, China" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Hu, Quanjun" />
+        <meta name="citation_author_institution" content="Key Laboratory of Bio-Resource and Eco-Environment of Ministry of Education, State Key Laboratory of Hydraulics and Mountain River Engineering, College of Life Sciences, Sichuan University, China" />
+        <meta name="citation_author_email" content="" />
+    <meta name="Keywords" content="Megacarpaea delavayi, genome sequence, Alpine adaptation, Whole-genome duplication, Brassicaceae" />
+
+        <meta name="dc.identifier" content="doi:10.3389/fgene.2020.00812"> <!--CrossMark widget-->
+    
+    <script type="text/javascript">
+
+        var CurrentIBarMenu = 'bysubjects';
+        var CurrentPageCode = 'ARTICLE_PAGE_NEW';
+
+        var FRConfiguration = (function() {
+            return {
+                Environment: 'Live',
+                SANVirtualPath: 'https://www.frontiersin.org/files/',
+                SharepointWebsiteUrl: 'https://www.frontiersin.org',
+                FrontiersJournalUIUrl: 'https://www.frontiersin.org',
+                FrontiersJournalAPIUrl: 'https://api-journal.frontiersin.org',
+                FrontiersReviewUIUrl: '',
+                FrontiersReviewAPIUrl: '',
+                FrontiersCookie: 'frontiersN',
+                FrontiersCookieRememberMe: 'frontiersNt',
+                FrontiersLoginUrl: 'https://www.frontiersin.org/Login.aspx',
+                FrontiersRegistrationUrl: 'http://www.frontiersin.org/Registration/Register.aspx',
+                IsCommentVisible: 'True',
+                IsPreview:'False'
+            };
+        })();
+
+        var FRLanguage = (function() {
+            var languageSet = {"ART_FRONTIERS":"Frontiers ","Article_AcceptedDate":"Accepted: ","Article_AnalyticsToolTip":"The total view count is updated once a day, so not to worry if you don\u0027t see immediate results.","Article_AnalyticsTotalViews":"total views","Article_AnalyticsViewImpact":"View Article Impact","Article_ArchiveLinkText":"Articles","Article_BibTex":"BibTex","Article_Citation":"Citation: ","Article_Commentary":"COMMENTARY","Article_Copyright":"Copyright: ","Article_CopyrightText":"This is an open-access article distributed under the terms of the \u003ca href=\"http://creativecommons.org/licenses/by/4.0/\"\u003eCreative Commons Attribution License (CC BY)\u003c/a\u003e. The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.","Article_Correspondence":"* Correspondence: ","Article_DownloadArticle":"Download Article","Article_DownloadPDF":"Download PDF","Article_DownloadProvisionalArticle":"Download Provisional Article","Article_DownloadProvisionalPDF":"Download Provisional PDF","Article_EditedBy":"Edited by: ","Article_EndNote":"EndNote","Article_EPUB":"EPUB","Article_ExportCitation":"Export Citation","Article_JATS":"JATS","Article_Keywords":"Keywords: ","Article_NLM":"XML (NLM)","Article_OriginalArticle":"ORIGINAL ARTICLE","Article_PaperPendingPublishedDate":"Paper pending published: ","Article_PDF":"PDF","Article_ProvisionalPDF":"Provisional PDF","Article_PublishedDate":"Published online: ","Article_ReadFullText":"Read Full Text","Article_ReceivedDate":"Received: ","Article_ReferenceManager":"Reference Manager","Article_ReviewedBy":"Reviewed by: ","Article_RTInfoText":"This article is part of the Research Topic","Article_ShareOn":"SHARE ON","Article_SimpleTEXTfile":"Simple TEXT file","Article_SupplementalData":"SUPPLEMENTAL DATA","Article_TableOfContent":"TABLE OF CONTENTS","Article_ViewEnhancedPDF":"ReadCube","Article_XML":"XML","BrowserWarningText":"\u003ch2\u003eWarning!\u003c/h2\u003e\u003cp\u003eYou are using an \u003cstrong\u003eoutdated\u003c/strong\u003e browser. This page doesn\u0027t support Internet Explorer 6, 7 and 8.\u003cbr /\u003ePlease \u003ca class=\"blue\" href=\"http://browsehappy.com/\"\u003eupgrade your browser\u003c/a\u003e or \u003ca class=\"blue\" href=\"http://www.google.com/chromeframe/?redirect=true\"\u003eactivate Google Chrome Frame\u003c/a\u003e to improve your experience.\u003c/p\u003e","COMMENT_HEADERTEXT":"Comment text too long","COMMENT_WARNINGTEXT":"Comments must be less than 4,000 characters. You have entered ","Impact_BackToArticle":"Back to article","People_Also_LookedAt":"People also looked at"};
+
+            return {
+                value: function(key) {
+                    if (languageSet[key]) {
+                        return languageSet[key];
+                    } else {
+                        throw new Error('Unable to get the value status from the language set'); // Use Error, not FRError
+                    }
+                }
+            };
+
+        })();
+
+        var FRJournalDetails = (function() {
+            return {
+                JournalType: 'section',
+                JournalId: '240',
+                SectionId: '1520'
+            };
+        })();
+
+        var FRArticleDetails = (function() {
+            return {
+                ArticleId: '547001'
+            };
+        })();
+        var FRArticleRecaptchaSettings = (function() {
+            return {
+                RecaptchaSiteKey: '6LdG3i0UAAAAAOC4qUh35ubHgJotEHp_STXHgr_v'
+            };
+        })();
+
+    </script>
+
+    <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-535f7e222fc3ca72"></script>
+
+
+    <script language="javascript">
+        var addthis_config = addthis_config || {};
+        addthis_config.data_track_addressbar = false;
+        addthis_config.data_track_clickback = false;
+    </script>
+
+    
+    
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+
+    <![endif]-->
+
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+    <script src="/areas/research-topics/content/scripts/frontiers/frontiers.markerclusterer.js"></script>
+
+
+    <link href="https://209cd62b0febf2a55d40-715eb384bc6027b876e93ad33d5c5ec3.ssl.cf3.rackcdn.com/font-awesome-4.3.0/css/font-awesome.css" rel="stylesheet"/>
+
+    <link href="https://9d0dd7a648345f19af83-877d2ecaf11b88d5e17327c758e17ef6.ssl.cf2.rackcdn.com/museo-sans-1.0.1/css/museo-sans.css" rel="stylesheet"/>
+
+    <link href="https://9d0dd7a648345f19af83-877d2ecaf11b88d5e17327c758e17ef6.ssl.cf2.rackcdn.com/museo-slab-1.0.1/css/museo-slab.css" rel="stylesheet"/>
+
+    <link href="https://209cd62b0febf2a55d40-715eb384bc6027b876e93ad33d5c5ec3.ssl.cf3.rackcdn.com/open-sans-1.0.0/css/open-sans.css" rel="stylesheet"/>
+
+    <link href="https://static.frontiersin.org/areas/articles/css/app?v=d7xs6QXeE2UIxbm9TizlA3t08LzxgJlsJHBk24_OOR81" rel="stylesheet"/>
+
+    
+    <style type="text/css"> .journal-genetics {
+ background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-genetics.png') no-repeat 100% 10px;
+ background-size: 51%;
+}
+
+/* Displays/Screens (e.g. 19" WS @ 1440x900) --------------- */ @media only screen and (max-width: 1649px) {
+.journal-genetics {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-genetics.png') no-repeat 140% 70px;
+ background-size: 54%;
+ }}
+
+/* Displays/Screens (e.g. MacBook @ 1280x800) -------------- */
+@media only screen and (max-width: 1409px) {
+.journal-genetics {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-genetics.png') no-repeat 140% 70px;
+ background-size: 54%;
+ }}
+ 
+/* Large Devices, Wide Screens --------- */  @media only screen and (max-width : 1250px) {
+.journal-genetics {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-genetics.png') no-repeat 140% 70px;
+ background-size: 54%;
+ }}
+
+/* Medium Devices, Desktops ---------- */  @media only screen and (max-width : 992px) { 
+.journal-genetics {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-genetics.png') no-repeat 140% 70px;
+ background-size: 54%;
+ }}
+
+/* Small Devices, Tablets ------------ */  @media only screen and (max-width : 768px) {
+.journal-genetics {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-genetics.png') no-repeat 140% 70px;
+ background-size: 74%;
+ }}
+
+/* Small Devices, Tablets  --------- */ @media only screen and (max-width : 640px) {
+.journal-genetics {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-genetics.png') no-repeat 250px 0px;
+ }}
+
+/* Extra Small Devices, Phones-----------  */  @media only screen and (max-width : 480px) {
+.journal-genetics {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-genetics.png') no-repeat 225px 150px;
+  background-size: 51%; 
+ }}
+
+/* Custom, iPhone Retina  -------*/  @media only screen and (max-width : 320px) {
+.journal-genetics {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-genetics.png') no-repeat 165px 170px;
+  background-size: 51%; 
+ }} </style>
+    
+</head>
+<body class="journal-genetics section-plant-genomics">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZGWTGG&gtm_auth=fCzlsmYQFAUQ_UXneGJNag&gtm_preview=env-2&gtm_cookies_win=x"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+        <div data-navigation-plugin="header"></div>
+        <script src="https://static.frontiersin.org/navigation-plugins/header/js"></script>
+
+
+
+    
+
+    <!--[if lte IE 8]>
+        <div class="row">
+            <div class="col-md-16">
+                <div style="margin-bottom: 15px;"><h2>Warning!</h2><p>You are using an <strong>outdated</strong> browser. This page doesn't support Internet Explorer 6, 7 and 8.<br />Please <a class="blue" href="http://browsehappy.com/">upgrade your browser</a> or <a class="blue" href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p></div>
+            </div>
+        </div>
+    <![endif]-->
+
+    <div class="page-container">
+        
+
+<header>
+
+            <a href="https://www.frontiersin.org/about/impact?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=impact-2020-jour-hp-top" target="_blank">
+            <div class="marketing journal-marketing-message no-impact">
+                <span class="message">
+                    <p><strong>Impact Factor 3.258</strong>&nbsp;|<strong> CiteScore 2.7<br /></strong>More on impact &rsaquo;</p>
+                </span>
+
+            </div>
+        </a>
+<div id="journal-header" class="journal-home" style="position: relative;">
+    <div class="container-fluid main-container-xxl">
+        <table id="logo-table" style="width:100%">
+            <tr>
+                    <td width="50%" valign="bottom" align="right" class="left-cell">
+                        <h1>
+                            <a href="https://www.frontiersin.org/journals/240" data-test-id="journal-link">
+                                <span>Frontiers </span>in Genetics
+                            </a>
+                        </h1>
+                    </td>
+                        <td class="right-cell" width="50%" style="vertical-align: bottom">
+                            <h2>
+                                <a href="https://www.frontiersin.org/journals/240/sections/1520" data-test-id="section-link" class="btn btn-link">
+                                    Plant Genomics
+
+
+                                </a>
+                            </h2>
+                        </td>
+            </tr>
+        </table>
+
+
+        
+     </div>
+</div>
+
+
+    <div id="journal-nav">
+    <div class="container-fluid main-container-xxl">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="nav-wrapper">
+                    <nav class="navbar navbar-default">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#journal-navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="pull-left">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </span>
+                            <span class="pull-right hidden-xs">Section</span>
+                        </button>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse no-transition journal-nav-bar" id="journal-navbar-collapse">
+                            <ul class="nav navbar-nav">
+                                <li class="tab-overview icon icon-left">
+                                    <a id="journal_nav_home" href="https://www.frontiersin.org/journals/genetics/sections/plant-genomics#"><span class="sr-only">(current)</span><i class="fa fa-home"></i>Section</a>
+                                </li>
+                                <li class="tab-about">
+                                    <a id="journal_nav_about" href="https://www.frontiersin.org/journals/genetics/sections/plant-genomics#about">About</a>
+                                </li>
+                                <li class="tab-archive active">
+                                    <a id="journal_nav_articles" href="https://www.frontiersin.org/journals/genetics/sections/plant-genomics#articles">Articles</a>
+                                </li>
+                                <li class="tab-research-topics">
+                                    <a id="journal_nav_research_topics" href="https://www.frontiersin.org/journals/genetics/sections/plant-genomics#research-topics">Research topics</a>
+                                </li>
+                                <li class="dropdown">
+                                    <a id="journal_nav_for_authors" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">For authors <span class="caret"></span></a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a id="for_authors_why_submit" href="https://www.frontiersin.org/journals/genetics/sections/plant-genomics#why-submit">Why submit?</a></li>
+                                        <li><a id="for_authors_fees" href="https://www.frontiersin.org/about/publishing-fees" target="_blank">Fees</a></li>
+                                        <li><a id="for_authors_article_types" href="https://www.frontiersin.org/journals/genetics/sections/plant-genomics#article-types">Article types</a></li>
+                                        <li><a id="for_authors_authors_guidelines" href="https://www.frontiersin.org/journals/genetics/sections/plant-genomics#author-guidelines">Author guidelines</a></li>
+                                        <li><a id="for_authors_review_guidelines" href="https://www.frontiersin.org/journals/genetics/sections/plant-genomics#review-guidelines">Review guidelines</a></li>
+                                        <li><a id="for_authors_submission_checklist" href="https://www.frontiersin.org/journals/genetics/sections/plant-genomics#submission-checklist">Submission checklist</a></li>
+                                        <li><a id="for_authors_contact_editorial_office" href="https://www.frontiersin.org/journals/genetics/sections/plant-genomics#contact-editorial-office">Contact editorial office</a></li>
+                                            <li><a id="for_authors_submit_manuscript" href="https://www.frontiersin.org/submission/submissioninfo.aspx" class="action-link">Submit your manuscript</a></li>
+                                    </ul>
+                                </li>
+                                <li class="tab-editorial-board">
+                                    <a id="journal_nav_Editorial_Board" href="https://www.frontiersin.org/journals/genetics/sections/plant-genomics#editorial-board">Editorial board</a>
+                                </li>
+                            </ul>
+                        </div><!-- /.navbar-collapse -->
+                        <ul class="list-inline follow-us nav navbar-nav">
+                            <li class="twitter icon button">
+                                <a data-test-id="twitter-link" href="https://twitter.com/@FrontGenetics">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="rss icon button">
+                                <a data-test-id="rss-link" href="https://www.frontiersin.org/journals/genetics/sections/plant-genomics/rss">
+                                    <i class="fa fa-rss"></i>
+                                </a>
+                            </li>
+                            <li class="alerts icon button">
+                                <a data-test-id="alert-link" href="http://connect.frontiersin.org/subscriptions/subscribe?item=1&amp;field=30">
+                                    <i class="fa fa-bell" style="width: auto; padding-right: 7px; padding-left: 7px;"><span class="article-alert-text" style="font-family: MuseoSans, 'Helvetica Neue', Helvetica, Arial, sans-serif; margin-left: 6px; font-weight: 700; letter-spacing: 0px; font-size: 13px;">Article alerts</span></i>
+                                </a>
+                            </li>
+                                    
+                            
+                        </ul>
+
+                    </nav>
+                </div><!-- / .nav-wrapper -->
+            </div>
+        </div>
+    </div>
+</div>
+
+</header>
+
+<div class="journal-actions article-actions">
+    <div class="container-fluid main-container-xxl">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-lg-push-6 col-md-push-6 col-research-topic">
+                    <div class="research-topic-container">
+                        <a href="https://www.frontiersin.org/research-topics/13027#articles" data-test-id="relatedRT-link">
+                            <div class="research-topic-data">
+                                <h5 class="topic-title">
+                                    <span>This article is part of</span> the Research Topic
+                                </h5>
+                                <p style="margin-bottom:0;">
+                                   
+                                        Comparative Genomics and Functional Genomics Analyses in Plants
+                                        <span style="color:red;" class="topic-link-trim">
+                                            View all
+<span>
+                                                    34
+                                                </span>
+                                            Articles <span style="position: relative;top: 1px;" class="fa fa-angle-right"></span>
+                                        </span>
+
+                                   
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+            </div>
+            <section class="col-lg-4 col-lg-offset-2 col-md-6 col-md-offset-0 col-lg-pull-6 col-md-pull-6">
+                <a href="https://www.frontiersin.org/journals/240/sections/1520#articles" class="archive-link hidden-sm hidden-xs" data-test-id="archive-link">
+                    <i class="fa fa-angle-left"></i> Articles
+                </a>
+            </section>
+        </div>
+    </div>
+</div>
+
+
+<aside id="anchors" class="pull-left table-of-contents side-article">
+    <div class="side-people hidden-sm hidden-xs">
+                <section class="side-article-editors">
+                    <header><h5 class="like-h4">Edited by</h5></header>
+                    <a class="authors" href="https://loop.frontiersin.org/people/499024/overview">
+                        <img alt=" " class="pr5 pull-left" src="https://loop.frontiersin.org/images/profile/499024/24"></img>
+                        <h6 class="author-link-aside">Xiaoming Song</h6>
+                    </a>
+                    <div class="clearfix"></div>
+                    <p><span class="notes">North China University of Science and Technology, China</span></p>
+                </section>
+                <section class="side-article-editors">
+                    <header><h5 class="like-h4"> Reviewed by</h5></header>
+                            <a class="authors" href="https://loop.frontiersin.org/people/190885/overview">
+                                <img alt=" " class="pr5 pull-left" src="https://loop.frontiersin.org/images/profile/190885/24"></img>
+                                <h6 class="author-link-aside">Michael E. Schranz</h6>
+                            </a>
+                            <div class="clearfix"></div>
+                        <p><span class="notes">Wageningen University and Research, Netherlands</span></p>
+                            <a class="authors" href="https://loop.frontiersin.org/people/346754/overview">
+                                <img alt=" " class="pr5 pull-left" src="https://loop.frontiersin.org/images/profile/346754/24"></img>
+                                <h6 class="author-link-aside">Jingyin Yu</h6>
+                            </a>
+                            <div class="clearfix"></div>
+                        <p><span class="notes">Boyce Thompson Institute, United States</span></p>
+                    <p class="disclaimer">The editor and reviewers' affiliations are the latest provided on their Loop research profiles and may not reflect their situation at the time of review.</p>
+                </section>
+    </div>
+    <nav>
+            <header><h5 class="like-h4" style="padding-top: 14px; padding-left: 6px; margin-bottom: 6px;">TABLE OF CONTENTS</h5></header>
+            <ul class="nav nav-list list-unstyled contents">
+                <li>
+<ul class="flyoutJournal">
+<li><a href="#h1">Abstract</a></li>
+<li><a href="#h2">Introduction</a></li>
+<li><a href="#h3">Materials and Methods</a></li>
+<li><a href="#h4">Results</a></li>
+<li><a href="#h5">Discussion</a></li>
+<li><a href="#h6">Data Availability Statement</a></li>
+<li><a href="#h7">Author Contributions</a></li>
+<li><a href="#fun1">Funding</a></li>
+<li><a href="#conf1">Conflict of Interest</a></li>
+<li><a href="#h9">Supplementary Material</a></li>
+<li><a href="#FNT1">Footnotes</a></li>
+<li><a href="#refer1">References</a></li>
+</ul>
+                </li>
+            </ul>
+    </nav>
+</aside>
+
+
+<div id="article" class="boxed white no-padding">
+    <div class="container-fluid main-container-xxl">
+            <div class="side-article-mrk hidden-md hidden-lg top clearfix">
+                <p style="text-align: center;"><a href="https://spotlight.frontiersin.org/submit?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=rtlg_2020_gen"><img src="https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/article-marketing-message-79982763-254d-4bb6-96b8-126758de1166.png" alt="" /><br /></a></p>
+<p style="text-align: center;"><a href="https://spotlight.frontiersin.org/submit?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=rtlg_2020_gen"><strong>Suggest a Research Topic &gt;</strong></a></p>
+            </div>
+        <div class="row">
+
+            
+<aside class="a col-xs-12 col-sm-12 col-lg-2 col-md-3 pull-right side-article right-container">
+        <button type="button" class="navbar-toggle navbar-download collapsed" data-toggle="collapse" data-target=".show" aria-expanded="false">
+            <span class="icon"><i class="fa fa-download"></i></span>
+        </button>
+    <button type="button" class="navbar-toggle navbar-share collapsed" data-toggle="collapse" data-target=".show" aria-expanded="false">
+        <span class="icon"><i class="fa fa-share-alt"></i></span>
+    </button>
+        <div class="side-article-download show collapse clearfix">
+            <ul class="list-unstyled list-inline clearfix">
+                    <li class="dropdown text-center paper">
+                        <a data-target="#" class="dropdown-toggle" data-test-id="download-button" data-toggle="dropdown" role="button" aria-expanded="false">
+                            <span class="icon icon-article"><i class="fa fa-file-pdf-o"></i></span>
+                            <span class="icon-label">Download Article</span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                                <li>
+                                    <a class="download-files-pdf action-link" href="/articles/10.3389/fgene.2020.00812/pdf" data-test-id="article-downloadpdf">
+                                        Download PDF
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="download-files-readcube" href="http://www.readcube.com/articles/10.3389/fgene.2020.00812" data-test-id="article-viewenhancedpdf">
+                                        ReadCube
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="download-files-epub" href="/articles/10.3389/fgene.2020.00812/epub" data-test-id="article-epub">
+                                        EPUB
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="download-files-nlm" href="/articles/10.3389/fgene.2020.00812/xml/nlm" data-test-id="article-nlm">
+                                        XML (NLM)
+                                    </a>
+                                </li>
+                                                            <li class="">
+
+<a data-test-id="supplementary-button"
+                                        id="supplementary_view">
+
+                                            Supplementary
+                                            <br>
+                                            Material
+                                        </a>
+
+                                </li>
+                        </ul>
+                    </li>
+                <li class="dropdown text-center citation">
+                    <a data-target="#" class="dropdown-toggle" data-test-id="citation-button" data-toggle="dropdown" role="button" aria-expanded="false">
+                        <span class="icon icon-citation"><i class="fa fa-quote-left"></i></span>
+                        <span class="icon-label">Export citation</span>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                            <li>
+                                <a data-test-id="article-endnote" href="https://www.frontiersin.org/articles/10.3389/fgene.2020.00812/endNote">
+                                    EndNote
+                                </a>
+                            </li>
+                            <li>
+                                <a data-test-id="article-referencemanager" href="https://www.frontiersin.org/articles/10.3389/fgene.2020.00812/reference">
+                                    Reference Manager
+                                </a>
+                            </li>
+                            <li>
+                                <a data-test-id="article-simpletextfile" href="https://www.frontiersin.org/articles/10.3389/fgene.2020.00812/text">
+                                    Simple TEXT file
+                                </a>
+                            </li>
+                            <li>
+                                <a data-test-id="article-bibtex" href="https://www.frontiersin.org/articles/10.3389/fgene.2020.00812/bibTex">
+                                    BibTex
+                                </a>
+                            </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+            <div class="side-article-impact">
+            <ul class="nav">
+                <li class="impact-data" title="The total view count is updated once a day, so not to worry if you don&#39;t see immediate results.">
+                    <span class="title-number"></span>
+                    <span class="title-text">total views</span>
+                </li>
+                <li class="hidden-sm hidden-xs">
+                    <div class="altmetric-icon">
+                        <div class='altmetric-embed' data-badge-type='1' data-doi='10.3389/fgene.2020.00812' data-link-target="new"></div>
+                    </div>
+                </li>
+            </ul>
+                <a type="button" class="btn btn-default hidden-sm hidden-xs btn-impact " data-test-id="view-article-impact" href="http://loop-impact.frontiersin.org/impact/article/547001#views" target="_blank">
+                    <span class="icon-impact"><i class="fa fa-line-chart"></i></span> View Article Impact
+                </a>
+        </div>
+            <div class="side-article-mrk hidden-sm hidden-xs clearfix">
+            <p style="text-align: center;"><a href="https://spotlight.frontiersin.org/submit?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=rtlg_2020_gen"><img src="https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/article-marketing-message-79982763-254d-4bb6-96b8-126758de1166.png" alt="" /><br /></a></p>
+<p style="text-align: center;"><a href="https://spotlight.frontiersin.org/submit?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=rtlg_2020_gen"><strong>Suggest a Research Topic &gt;</strong></a></p>
+        </div>
+    <div class="side-article-share show collapse">
+        <h5 class="like-h4">SHARE ON</h5>
+        <ul class="share-media clearfix" style="padding: 0;">
+            <li class="social_block">
+                <div class="atButton">
+                    <a class="addthis_button_facebook at300b" addthis:title="The Genome Sequence of Alpine Megacarpaea delavayi Identifies Species-Specific Whole-Genome Duplication" addthis:description="Megacarpaea delavayi (Brassicaceae), a plant found the high mountains of southwest China at high altitudes (3000–4800 m), is used as a vegetable or medicine. Here, we report a draft genome for this species. The assembly genome of M. delavayi is 883 Mb, and 61.59% of the genome is composed of repeat sequences. Annotation of the genome identified a total of 41,114 protein-coding genes. We found that M. delavayi experienced an independent whole-genome duplication (WGD), paralleling those independent WGDs in Iberis, Biscutella, and Anastatica in the early Miocene. Phylogenetic analyses based on the single-copy genes confirmed the position of the genus Megacarpaea within the expanded lineage II of the family and resolved its basal divergence to a subclade consisting of Anastatica, Iberis, and Biscutella. Species-specific and fast-evolving genes in M. delavayi are mainly involved in “DNA repair” and “response to UV-B radiation.” These genetic changes may together help this species survive in high-altitude environments. The reference genome reported here provides a valuable resource for studying adaptation of this and other alpine plants to the high-altitude habitats." addthis:url="https://www.frontiersin.org/article/10.3389/fgene.2020.00812" title="Facebook"></a>
+                </div>
+                <a><span class="facebook_count"></span></a>
+            </li>
+            <li class="social_block">
+                <div class="atButton">
+                    <a class="addthis_button_twitter at300b" addthis:title="The Genome Sequence of Alpine Megacarpaea delavayi Identifies Species-Specific Whole-Genome Duplication" addthis:description="Megacarpaea delavayi (Brassicaceae), a plant found the high mountains of southwest China at high altitudes (3000–4800 m), is used as a vegetable or medicine. Here, we report a draft genome for this species. The assembly genome of M. delavayi is 883 Mb, and 61.59% of the genome is composed of repeat sequences. Annotation of the genome identified a total of 41,114 protein-coding genes. We found that M. delavayi experienced an independent whole-genome duplication (WGD), paralleling those independent WGDs in Iberis, Biscutella, and Anastatica in the early Miocene. Phylogenetic analyses based on the single-copy genes confirmed the position of the genus Megacarpaea within the expanded lineage II of the family and resolved its basal divergence to a subclade consisting of Anastatica, Iberis, and Biscutella. Species-specific and fast-evolving genes in M. delavayi are mainly involved in “DNA repair” and “response to UV-B radiation.” These genetic changes may together help this species survive in high-altitude environments. The reference genome reported here provides a valuable resource for studying adaptation of this and other alpine plants to the high-altitude habitats." addthis:url="https://www.frontiersin.org/article/10.3389/fgene.2020.00812" title="Tweet"></a>
+                </div>
+                <a><span class="twitter_count"></span></a>
+            </li>
+            <li class="social_block">
+                <div class="atButton">
+                    <a class="addthis_button_linkedin at300b" addthis:title="The Genome Sequence of Alpine Megacarpaea delavayi Identifies Species-Specific Whole-Genome Duplication" addthis:description="Megacarpaea delavayi (Brassicaceae), a plant found the high mountains of southwest China at high altitudes (3000–4800 m), is used as a vegetable or medicine. Here, we report a draft genome for this species. The assembly genome of M. delavayi is 883 Mb, and 61.59% of the genome is composed of repeat sequences. Annotation of the genome identified a total of 41,114 protein-coding genes. We found that M. delavayi experienced an independent whole-genome duplication (WGD), paralleling those independent WGDs in Iberis, Biscutella, and Anastatica in the early Miocene. Phylogenetic analyses based on the single-copy genes confirmed the position of the genus Megacarpaea within the expanded lineage II of the family and resolved its basal divergence to a subclade consisting of Anastatica, Iberis, and Biscutella. Species-specific and fast-evolving genes in M. delavayi are mainly involved in “DNA repair” and “response to UV-B radiation.” These genetic changes may together help this species survive in high-altitude environments. The reference genome reported here provides a valuable resource for studying adaptation of this and other alpine plants to the high-altitude habitats." addthis:url="https://www.frontiersin.org/article/10.3389/fgene.2020.00812" title="LinkedIn"></a>
+                </div>
+                <a><span class="linkedin_count"></span></a>
+            </li>
+            <li class="social_block">
+                <div class="atButton">
+                    <a class="addthis_button_more at300b" addthis:title="The Genome Sequence of Alpine Megacarpaea delavayi Identifies Species-Specific Whole-Genome Duplication" addthis:description="Megacarpaea delavayi (Brassicaceae), a plant found the high mountains of southwest China at high altitudes (3000–4800 m), is used as a vegetable or medicine. Here, we report a draft genome for this species. The assembly genome of M. delavayi is 883 Mb, and 61.59% of the genome is composed of repeat sequences. Annotation of the genome identified a total of 41,114 protein-coding genes. We found that M. delavayi experienced an independent whole-genome duplication (WGD), paralleling those independent WGDs in Iberis, Biscutella, and Anastatica in the early Miocene. Phylogenetic analyses based on the single-copy genes confirmed the position of the genus Megacarpaea within the expanded lineage II of the family and resolved its basal divergence to a subclade consisting of Anastatica, Iberis, and Biscutella. Species-specific and fast-evolving genes in M. delavayi are mainly involved in “DNA repair” and “response to UV-B radiation.” These genetic changes may together help this species survive in high-altitude environments. The reference genome reported here provides a valuable resource for studying adaptation of this and other alpine plants to the high-altitude habitats." addthis:url="https://www.frontiersin.org/article/10.3389/fgene.2020.00812" title="View more services"></a>
+                </div>
+                <a><span class="total_count"></span></a>
+            </li>
+        </ul>
+    </div>
+        <a type="button"
+           class="open-supplemental-data btn btn-default hidden-sm hidden-xs"
+           id="supplementary_view">
+            <span class="supplemental-label">
+                <i class="supplemental-icon"></i>
+                <label>Open Supplemental Data</label>
+            </span>
+        </a>
+</aside>
+
+
+            
+<main class="b col-xs-12 col-sm-12 col-lg-8 col-lg-push-2 col-md-7 col-md-push-2 pull-left">
+    <div class="article-section">
+        <div class="article-container" data-html="True">
+            <div class="abstract-container">
+                
+                <div class="article-header-container">
+                    <!-- Start CrossMark Snippet v2.0 -->
+                        <!-- the external CrossMark script to load the crossmark logo responsive  JPB-5562 -->
+                        <script src="https://crossmark-cdn.crossref.org/widget/v2.0/widget.js"></script>
+                        <a data-target="crossmark" class="crossmark pull-right" style="padding: 3px 0 13px 0;"><img id="crossmark-icon" style="border: 0; width:64px; height:64px;" src="https://crossmark-cdn.crossref.org/widget/v2.0/logos/CROSSMARK_Color_square.svg" /></a>
+                        <div id="crossmark-dialog" style="display: none;" title="">
+                            <!-- the external CrossMark data is loaded inside this iframe -->
+                            <iframe id="crossmark-dialog-frame" frameborder="0"></iframe>
+                        </div>
+                    <!-- End CrossMark Snippet -->                   
+
+                    <div class="header-bar-one">
+                        <h2>
+                            Original Research ARTICLE
+
+                    </h2>
+                </div>
+                <div class="header-bar-three">
+                    Front. Genet., 03 August 2020
+                             | <a href="https://doi.org/10.3389/fgene.2020.00812">https://doi.org/10.3389/fgene.2020.00812</a>
+                </div>
+                </div>
+                
+<div class="JournalAbstract">
+<a id="h1" name="h1"></a><h1>The Genome Sequence of Alpine <i>Megacarpaea delavayi</i> Identifies Species-Specific Whole-Genome Duplication</h1>
+<div class="authors">
+<img class="pr5" src="https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg" alt=""/>Qiao Yang<sup>1&#x2020;</sup>, <img class="pr5" src="https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg" alt=""/>Hao Bi<sup>1&#x2020;</sup>, <img class="pr5" src="https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg" alt=""/>Wenjie Yang<sup>1</sup>, <img class="pr5" src="https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg" alt=""/>Ting Li<sup>1</sup>, <img class="pr5" src="https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg" alt=""/>Jiebei Jiang<sup>1</sup>, <img class="pr5" src="https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg" alt=""/>Lei Zhang<sup>1</sup>, <img class="pr5" src="https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg" alt=""/>Jianquan Liu<sup>1,2</sup> and <a href="https://www.frontiersin.org/people/u/374792" class="user-id-374792"><img class="pr5" src="https://loop.frontiersin.org/images/profile/374792/24" onerror="this.src='https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg'" alt=""/>Quanjun Hu</a><sup>1*</sup></div>
+<ul class="notes">
+<li><span><sup>1</sup></span>Key Laboratory of Bio-Resource and Eco-Environment of Ministry of Education, State Key Laboratory of Hydraulics and Mountain River Engineering, College of Life Sciences, Sichuan University, Chengdu, China</li>
+<li><span><sup>2</sup></span>State Key Laboratory of Grassland Agro-Ecosystem, Institute of Innovation Ecology, Lanzhou University, Lanzhou, China</li>
+</ul>
+<p class="mb0"><i>Megacarpaea delavayi</i> (Brassicaceae), a plant found the high mountains of southwest China at high altitudes (3000&#x2013;4800 m), is used as a vegetable or medicine. Here, we report a draft genome for this species. The assembly genome of <i>M. delavayi</i> is 883 Mb, and 61.59% of the genome is composed of repeat sequences. Annotation of the genome identified a total of 41,114 protein-coding genes. We found that <i>M. delavayi</i> experienced an independent whole-genome duplication (WGD), paralleling those independent WGDs in <i>Iberis</i>, <i>Biscutella</i>, and <i>Anastatica</i> in the early Miocene. Phylogenetic analyses based on the single-copy genes confirmed the position of the genus <i>Megacarpaea</i> within the expanded lineage II of the family and resolved its basal divergence to a subclade consisting of <i>Anastatica, Iberis</i>, and <i>Biscutella.</i> Species-specific and fast-evolving genes in <i>M. delavayi</i> are mainly involved in &#x201C;DNA repair&#x201D; and &#x201C;response to UV-B radiation.&#x201D; These genetic changes may together help this species survive in high-altitude environments. The reference genome reported here provides a valuable resource for studying adaptation of this and other alpine plants to the high-altitude habitats.</p>
+<div class="clear"></div>
+</div>
+<div class="JournalFullText">
+<a id="h2" name="h2"></a><h2>Introduction</h2>
+<p class="mb15">Polyploidy (whole-genome duplication, WGD), which occurs frequently through evolutionary histories of plants (<a href="#B59">Wu et al., 2020</a>), contributes greatly to both species diversification and colonization of the new niches (<a href="#B49">Soltis and Soltis, 2016</a>). Numerous independent WGDs were identified for angiosperm families, such as Asteraceae (<a href="#B20">Huang et al., 2016</a>), Poaceae (<a href="#B38">McKain et al., 2016</a>), and Brassicaceae (<a href="#B11">Edger et al., 2015</a>). The Brassicaceae-specific WGD was named At-&#x03B1; WGDs (<a href="#B2">Bowers et al., 2003</a>), which occurred 23&#x2013;43 million years ago (Mya) (<a href="#B35">Mand&#x00E1;kov&#x00E1; et al., 2010</a>). In addition, more independent WGDs were revealed to be specific to lineages or species within the family (<a href="#B36">Mand&#x00E1;kov&#x00E1; et al., 2017</a>). It is increasingly clear that subsequent lineage-specific or species-specific WGD events laid the foundation for species diversification, environmental adaptability, and stress tolerance of the Brassicaceae species (<a href="#B22">Kagale et al., 2014</a>).</p>
+<p class="mb15">In this study, we aimed to examine whether WGD occurred in one alpine herb, <i>Megacarpaea delavayi</i> (2<i>n</i> = 18) of Brassicaceae through sequencing its draft genome. This species grows on swampy meadows, steep grassy slopes, and open thickets of the high mountains (Hengduan Mountains) in southwest China at elevations of 3000&#x2013;4800 m (<a href="#B6">Cheo et al., 2001</a>). It has been collected as a wild vegetable and medicine for years by the local inhabitants in the high-altitude regions (<a href="#B69">Zhong et al., 2015</a>). The dried plants of <i>M. delavayi</i> are used to treat dysentery, lung cough, and disordered indigestion by Bai and Tibetan people (<a href="#B28">Lei et al., 2009</a>; <a href="#B46">Shen et al., 2009</a>). Other species of the genus are distributed in the high-elevation regions from the Hengduan Mountains to Himalaya and central Asia (<a href="#B6">Cheo et al., 2001</a>). However, phylogenetic relationships of the genus <i>Megacarpae</i> in the family Brassicaceae remain unclear although both recent studies suggested its likely position in the expanded lineage II of the family Brassicaceae (<a href="#B14">Guo et al., 2017</a>; <a href="#B41">Nikolov et al., 2019</a>). Maximum likelihood analyses based on targeted enrichment sequence data suggested the close relationship between <i>Megacarpaea</i>, <i>Iberis</i>, <i>Cochlearia</i> and others although this received little support according to coalescent analyses of these data (<a href="#B41">Nikolov et al., 2019</a>). In addition, in these analyses, it remained unsolved whether <i>Biscutella</i> should be placed in this clade (<a href="#B41">Nikolov et al., 2019</a>) although another study based on genome-scale single-copy genes suggested the well-supported close relationship between <i>Biscutella</i> and <i>Iberis</i> (<a href="#B26">Kiefer et al., 2019</a>). Independent WGDs, which might have led to incorrect gene orthology alignments (<a href="#B53">Walker et al., 2017</a>), seem to account for these conflicting phylogenies (<a href="#B41">Nikolov et al., 2019</a>).</p>
+<p class="mb0">Here, we report the assembly and comparative genomic analysis of the <i>M. delavayi</i> genome. We revealed that one independent WGD occurred in this species in the early Miocene, paralleling those WGDs in other genera. We determined the phylogenetic relationship of the genus <i>Megacarpaea</i> based on genome-scale single-copy genes. We further found that numerous species-specific and fast-evolving genes existed in this species, which may be beneficial for its survival in the alpine habitat.</p>
+<a id="h3" name="h3"></a><h2>Materials and Methods</h2>
+<h3 class="pt0">Plant Materials and Genomic DNA Extraction</h3>
+<p class="mb0">One wild <i>M. delavayi</i> (2<i>n</i> = 18) individual (<a href="#F1">Figure 1A</a>) was collected from Cangshan Mountain (3181 m, N25.659, E100.117) in Yunnan Province, China. Fresh and healthy leaves were immediately frozen at &#x2212;80&#x00B0;C for DNA extraction. High-quality genomic DNA from leaf tissue was extracted with the CTAB method (<a href="#B32">Liu et al., 2009</a>). We used 1% agarose gel electrophoresis to check the quality of the high-molecular-weight DNA. High-quality genomic DNA with an effective concentration of more than 2 nM was used to construct the library.</p>
+<div class="DottedLine"></div>
+<div class="Imageheaders">FIGURE 1</div>
+<div class="FigureDesc">
+<a href="https://www.frontiersin.org/files/Articles/547001/fgene-11-00812-HTML-r1/image_m/fgene-11-00812-g001.jpg" name="figure1" target="_blank">
+<img src="https://www.frontiersin.org/files/Articles/547001/fgene-11-00812-HTML-r1/image_t/fgene-11-00812-g001.gif" id="F1" alt="www.frontiersin.org" /></a>
+<p><strong>Figure 1.</strong> <b>(A)</b> <i>M. delavayi</i> in flowering stage of growth. Photo taken by Lei Zhang in Pingwu County (3,077 m a.s.l.), Sichuan Province, China. <b>(B)</b> Insertion time distribution of intact LTR-RTs of <i>M. delavayi</i> and other Brassicaceae species.</p>
+</div>
+<div class="clear"></div>
+<div class="DottedLine"></div>
+<h3>Genome Sequencing and Assembly</h3>
+<p class="mb0">We constructed Illumina paired-end libraries with small (230, 500, and 800 bp) and large (2, 5, 10, and 20 kb) insert sizes and read lengths of 150 bp (<a href="#TS1">Supplementary Table S1</a>). We sequenced them using the Illumina HiSeq 2500 platform (Illumina, San Diego, CA, United States) at Novogene (Tianjin, China) following the manufacturer protocols. Short reads were first subjected to quality filtering with Trimmomatic v0.36 (<a href="#B1">Bolger et al., 2014</a>), error correction with BFC v1.8 (<a href="#B29">Li, 2015</a>), and mate-pair data deduplication with FastUniq v1.1 (<a href="#B61">Xu et al., 2012</a>). The genome was initially assembled into scaffolds with Platanus v1.2.4 (<a href="#B23">Kajitani et al., 2014</a>) with the first round of gap closing. An additional gap closing procedure was performed with GapCloser v1.12 (<a href="#B33">Luo et al., 2012</a>). Finally, we evaluated genome assemblies for completeness using BUSCO v3.0.2 (<a href="#B56">Waterhouse et al., 2018</a>) with &#x201C;embryophyta_odb9&#x201D; (<a href="#TS2">Supplementary Table S2</a>).</p>
+<h3>Genome Size Estimation</h3>
+<p class="mb0">The sequencing reads were used to estimate genome size of <i>M. delavayi</i> based on k-mer frequencies. We used quality-filtered Illumina short reads and 17-mer frequency distribution to estimate the genome size with Jellyfish v2.2.9 (<a href="#B37">Mar&#x00E7;ais and Kingsford, 2011</a>). The highest peak value of k-mer distribution was used to estimate the sequencing depth. We plotted the distribution of k-mer depth against the frequency with the main peak occurring at a depth of 19 (<a href="#FS1">Supplementary Figure S1</a>). A Perl script<sup id="footnotesuper1"><a id="footnote1a"></a><a class="footnoteanchor" href="#footnote1">1</a></sup> was used to calculate the size of the <i>M. delavayi</i> genome.</p>
+<h3>Repetitive Identification</h3>
+<p class="mb15">We used a combination of homology-based and <i>de novo</i> search methods to identify repeat sequences in the <i>M. delavayi</i> genome. In terms of homology-based prediction, RepeatMasker v4.0.7 (<a href="#B52">Tarailo-Graovac and Chen, 2009</a>) was used to find repeat elements at the DNA level with the Repbase library. <i>De novo</i> repeat annotation of the <i>M. delavayi</i> genome was performed with RepeatModeler v1.0.11 (<a href="#B48">Smit and Hubley, 2008</a>).</p>
+<p class="mb0">We identified intact long-terminal repeat retrotransposons (LTR-RTs) by searching the <i>M. delavayi</i> genome with LTRharvest v1.5.10 (<a href="#B12">Ellinghaus et al., 2008</a>; -motif tgca -motifmis 1) and LTR_Finder v1.06 (<a href="#B62">Xu and Wang, 2007</a>; -D 20000 -d 1000 -L 5000 -l 100). Then, LTR_retriever v1.9 (<a href="#B43">Ou and Jiang, 2018</a>) was used to integrate the results of LTR_Finder and LTRharvest (<a href="#TS3">Supplementary Table S3</a>). Using a substitution rate (<i>r</i>) of 7 &#x00D7; 10<sup>&#x2013;9</sup> substitutions per site per year (<a href="#B42">Ossowski et al., 2010</a>), we calculated the insertion time (<i>T</i>) for each LTR retrotransposon as <i>T</i> = <i>K</i>/(2<i>r</i>), where <i>K</i> is genetic distance and <i>r</i> is the rate of nucleotide substitution per site per year (<i>r</i> = 7 &#x00D7; 10<sup>&#x2013;9</sup>).</p>
+<h3>Gene Annotation</h3>
+<p class="mb15">A combination of <i>de novo</i>, homology-based, and transcript-based approaches were used to predict protein-coding genes in the <i>M. delavayi</i> genome. Before the transcriptome could be aligned, RNA-Seq reads needed to be assembled into transcripts. We first filtered RNA-Seq reads with potential low-quality regions using Trimmomatic v0.36 (<a href="#B1">Bolger et al., 2014</a>). After quality control was performed, all clean reads were assembled into <i>de novo</i> transcripts with Trinity v2.8.4 (<a href="#B16">Haas et al., 2013</a>). Then, we used PASA v2.1.0 (<a href="#B15">Haas et al., 2003</a>) to obtain information on the gene structure annotation by aligning the assembled transcripts with the genomes. Protein sequences of <i>Aethionema arabicum</i>, <i>Arabidopsis lyrata</i>, <i>Arabidopsis thaliana</i>, <i>Brassica rapa</i>, and <i>Capsella rubella</i>, were obtained for homology-based gene annotation. GlimmerHMM v3.0.4 (<a href="#B34">Majoros et al., 2004</a>) was used to predict the gene structure in each protein-coding region. We performed <i>de novo</i> prediction with AUGUSTUS v3.2.3 (<a href="#B51">Stanke et al., 2006</a>) to annotate protein-coding genes. The gene model parameters were trained from <i>A. thaliana</i> and our transcriptome data set. The above three gene prediction results were merged with EVidenceModeler v1.1.1 (<a href="#B17">Haas et al., 2008</a>) to form a comprehensive and non-redundant reference gene list. Weights of evidence for gene models were defined as follows: <i>de novo</i> prediction weight (Augustus) = 1, homology-based prediction weight (GlimmerHMM) = 5, transcript-based prediction weight (PASA) = 10. The EVM merged result was updated with an additional round of PASA annotation to add UTRs and provide information on alternative splicing variants to gene models.</p>
+<p class="mb0">To obtain functional annotation of protein-coding genes, we used Blast2GO v2.5 (<a href="#B8">Conesa and G&#x00F6;tz, 2008</a>) for gene ontology (GO) annotation based on the NCBI-NR database. The predicted genes were mapped to KEGG pathways using KAAS (<a href="#B40">Moriya et al., 2007</a>) to obtain the KEGG annotation. For Swiss-Prot annotations, we employed BLAST + v2.2.31 (<a href="#B4">Camacho et al., 2009</a>; Blastp with the E-value cutoff 1 &#x00D7; 10<sup>&#x2212;5</sup>) to align proteins to the Swiss-Prot databases. InterProScan v5.31-70 was used to determine the domains/motifs (<a href="#B21">Jones et al., 2014</a>; <a href="#TS4">Supplementary Table S4</a>).</p>
+<h3>Gene Family Identification</h3>
+<p class="mb0">We downloaded the protein-coding genes of <i>Arabis alpina</i>, <i>Boechera stricta</i>, <i>Crucihimalaya himalaica</i>, <i>Eutrema heterophyllum</i>, and <i>Lepidium meyenii</i> together with <i>Megacarpaea delavayi</i> to identify orthologous groups (<a href="#TS5">Supplementary Table S5</a>). To remove redundancy caused by alternative splicing variations, we retained only the gene models at each gene locus that encoded the longest protein sequence, and putative fragmented genes that encoded protein sequences shorter than 50 aa and stop codon ratios greater than 20% were filtered out. Then, we used Diamond v0.9.22 (<a href="#B3">Buchfink et al., 2014</a>; E-value cutoff 1 &#x00D7; 10<sup>&#x2212;5</sup>) to compare all filtered protein sequences and used OrthoMCL v2.0.9 (<a href="#B30">Li et al., 2003</a>) to cluster genes into orthologous groups. Genes that could not be clustered into any gene family and for which only one species existed were considered species specific. Finally, we summarized the gene family cluster results for six species in Venn diagram format.</p>
+<h3>Phylogenetic Analyses</h3>
+<p class="mb15">We downed the reported genomes of all related species from two main lineages of Brassiaceae, including <i>Aethionema arabicum</i>, <i>Anastatica hierochuntica</i>, <i>Arabidopsis lyrate</i>, <i>Arabidopsis thaliana</i>, <i>Biscutella auriculate, Biscutella laevigata, Brassica rapa</i>, <i>Boechera stricta, Crucihimalaya himalaica, Eutrema heterophyllum, Iberis amara, Kernera saxatilis, Lepidium meyenii, Macropodium nivale</i>, and <i>Noccaea caerulescens</i> (<a href="#TS5">Supplementary Table S5</a>). We used the single-copy orthologous genes identified in the gene family cluster analyses from these species and <i>M. delavayi</i> to construct phylogenetic tree. Multiple sequence alignments were performed for the protein sequence of each single-copy orthologous gene with MAFFT v7.313 (<a href="#B25">Katoh and Standley, 2013</a>). Then, the alignments were concatenated to generate a super alignment matrix, which was used to generate a maximum likelihood tree with the PROTGAMMAILGX model in RAxML v8.2.11 (<a href="#B50">Stamatakis, 2014</a>).</p>
+<p class="mb0">The divergence time between these species was estimated with the MCMCtree program in PAML v4.9 (<a href="#B63">Yang, 2007</a>). The F84 model (model = 4) and independent rates molecular clock (clock = 2) were used for calculations in MCMCtree. The MCMC process was run for 1,500,000 iterations, with a sample frequency of 150, after a burn-in of 500,000 iterations. We ran the program twice for each data type to confirm that the results were convergent between runs. We looked up three calibration points in the TimeTree database (<a href="#B27">Kumar et al., 2017</a>) to estimate the Brassicaceae divergence time: divergence time for <i>Ae. arabicum</i> and other Brassicaceae plants was 32&#x2013;43 Mya, divergence time for Lineages II+ expanded lineage II and lineage I was 23.4&#x2013;33.5 Mya, divergence time for <i>L. meyenii</i> and other lineage I plants was 11.9&#x2013;20.6 Mya. The phylogenetic analyses for Brassicaceae was visualized with FigTree v1.4.3<sup id="footnotesuper2"><a id="footnote2a"></a><a class="footnoteanchor" href="#footnote2">2</a></sup>.</p>
+<h3>Gene Family Expansion and Contraction</h3>
+<p class="mb0">CAF&#x00C9; (<a href="#B9">De Bie et al., 2006</a>) is a tool for analyzing evolutionary changes of the gene families. This software uses the stochastic birth and death process to model gene gain and loss over a phylogeny. Based on the results of phylogeny and divergence time, we applied CAFE v4.2 to identify gene families that had undergone expansion and contraction on the phylogeny tree (<i>p</i>-value cutoff 0.05). For each significantly expanded and contracted gene family in <i>M. delavayi</i>, we inferred functional information based on its functional annotations.</p>
+<h3>WGD and Positively Selected Genes</h3>
+<p class="mb15">We used MCScanX (<a href="#B55">Wang et al., 2012</a>) to detect syntenic blocks (regions with at least five collinear genes) and duplication levels (depth) for four species: <i>A. hierochuntica</i>, <i>A. thaliana</i>, <i>B. rapa</i>, and <i>M. delavayi</i>. To recover the WGD event, we calculated synonymous substitution rates (Ks) for syntenic genes using codeml in PAML. To further examine whether the recent WGDs were shared by <i>M. delavayi</i> and the closely related species, we extracted homologous gene groups to construct phylogenetic trees of the orthologous genes. We used phylogenetic relationships of the homologous genes identified the likely WGD nodes.</p>
+<p class="mb0">To identify fast-evolving genes, we used MCScanX to search for syntenic blocks. Similar to previous research (<a href="#B58">Wu et al., 2019</a>), we calculated non-synonymous substitution (Ka) and synonymous substitution (Ks) for the collinear orthologous gene pairs using the Perl script &#x201C;add_ka_and_ks_to_collinearity.pl&#x201D; in MCScanX. The ratio of Ka to Ks is a commonly used indicator of selective pressure acting on protein-coding genes with a ratio &#x003E;1 representing positive selection.</p>
+<a id="h4" name="h4"></a><h2>Results</h2>
+<h3 class="pt0">Genome Size Estimation</h3>
+<p class="mb0">The distribution of short subsequence (k-mer) frequency, also known as the k-mer spectrum, is widely used to estimate genome size (<a href="#B31">Li et al., 2013</a>; <a href="#B66">Zhang et al., 2015</a>). A k-mer depth distribution was obtained from Jellyfish (<a href="#B37">Mar&#x00E7;ais and Kingsford, 2011</a>) analyses, and the peak depth was clearly visible from the distribution data (<a href="#FS1">Supplementary Figure S1</a>). The genome size of <i>M. delavayi</i> calculated by the aforementioned Perl script was estimated to be approximately 899 Mb (<a href="#T1">Table 1</a>).</p>
+<div class="DottedLine"></div>
+<div class="Imageheaders">TABLE 1</div>
+<div class="FigureDesc">
+<a href="https://www.frontiersin.org/files/Articles/547001/fgene-11-00812-HTML-r1/image_m/fgene-11-00812-t001.jpg" name="table1" target="_blank">
+<img src="https://www.frontiersin.org/files/Articles/547001/fgene-11-00812-HTML-r1/image_t/fgene-11-00812-t001.gif" id="T1" alt="www.frontiersin.org" /></a>
+<p><strong>Table 1.</strong> Statistics for the <i>M. delavayi</i> genome assembly and annotation.</p>
+</div>
+<div class="clear"></div>
+<div class="DottedLine"></div>
+<h3>Genome Assembly and Annotation</h3>
+<p class="mb15">To sequence the whole genome of <i>M. delavayi</i>, we generated 133 Gb of paired-end and mate-pair clean reads (150 &#x00D7; assembled sequence coverage) with different insert sizes using an Illumina HiSeq 2500 platform (<a href="#TS1">Supplementary Table S1</a>). The final assembly genome of <i>M. delavayi</i> (883.81 Mb) consisted of 763,815 contigs (contig N50, 65.48 kb; longest contig, 794.13 kb; <a href="#T1">Table 1</a>). Completeness of the genome regions was further assessed with BUSCO. Of a core set of 1440 single-copy ortholog genes of the Embryophyta lineage, 94.5% were complete in the genome, which contained 85.6% of the plant single-copy orthologs and 8.9% of the plant duplicate orthologs (<a href="#TS2">Supplementary Table S2</a>), which suggests that the genome of <i>M. delavayi</i> was well-assembled with high completeness and accuracy.</p>
+<p class="mb0"><i>De novo</i>, homology-based, and transcript-based approaches were combined to annotate protein-coding sequences (<a href="#B5">Chen et al., 2020</a>; <a href="#B24">Kang et al., 2020</a>; <a href="#B68">Zhang et al., 2020</a>). In total, 41,114 genes were predicted with an average gene length and number of exons of 1853 bp and 6.57, respectively (<a href="#T1">Table 1</a>). Moreover, we annotated functions of the predicted genes with Swiss-Prot, InterProScan, GO, and KEGG databases. The results showed that 85.78% of all the protein-coding genes were successfully annotated by at least one database (<a href="#TS4">Supplementary Table S4</a>).</p>
+<h3>Repetitive Elements Analysis</h3>
+<p class="mb0">Through combination of <i>de novo</i> searches and homology-based methods, we identified nearly 536 Mb repetitive elements, representing 61.59% of the <i>M. delavayi</i> genome (<a href="#T2">Table 2</a>). Retrotransposons (LTR, SINEs, and LINEs) were the most abundant, accounting for 44.06% of the genome. LTR-RTs represented 39.25% of the genome, and Ty3/Gypsy (24.71%) made up major elements of LTR-RTs (<a href="#T2">Table 2</a>).</p>
+<div class="DottedLine"></div>
+<div class="Imageheaders">TABLE 2</div>
+<div class="FigureDesc">
+<a href="https://www.frontiersin.org/files/Articles/547001/fgene-11-00812-HTML-r1/image_m/fgene-11-00812-t002.jpg" name="table2" target="_blank">
+<img src="https://www.frontiersin.org/files/Articles/547001/fgene-11-00812-HTML-r1/image_t/fgene-11-00812-t002.gif" id="T2" alt="www.frontiersin.org" /></a>
+<p><strong>Table 2.</strong> Repeat content (subtypes) of <i>M. delavayi</i> genome.</p>
+</div>
+<div class="clear"></div>
+<div class="DottedLine"></div>
+<p class="mb15 w100pc float_left mt15">A high proportion of repetitive elements in the <i>M. delavayi</i> genome were LTR-RTs, and the proliferation of retrotransposons might have been responsible for genome expansion (<a href="#B67">Zhang et al., 2019</a>). To estimate insertion time of the LTR-RTs, we identified complete LTR-RTs in four Brassicaceae species (<i>A. hierochuntica</i>, <i>A. thaliana</i>, <i>A. lyrate</i>, and <i>M. delavayi</i>). We identified 814 complete LTR-RTs in the <i>M. delavayi</i> genome and 176 in <i>A. thaliana</i> and 1227 in <i>A. lyrate</i> (<a href="#TS3">Supplementary Table S3</a>). <i>A. thaliana</i> had more microdeletions in transposons than <i>M. delavayi</i> (<a href="#B19">Hu et al., 2011</a>), and <i>A. lyrata</i> had a comparatively higher proportion of recent insertions (<a href="#B47">Slotte et al., 2013</a>), consistent with our study. The insertion time distribution showed that <i>M. delavayi</i> LTR-RTs expanded within the past 5 million years (based on <i>r</i> of 7 &#x00D7; 10<sup>&#x2013;9</sup> substitutions per site per year; <a href="#F1">Figure 1B</a>). In general, recent expansion of repeat sequences may have played a key role in increasing the genome size of <i>M. delavayi</i>.</p>
+<h3>Phylogenetic Analyses</h3>
+<p class="mb0">Sixteen species were selected to identify orthologous groups, and they were clustered into 51,589 orthologous groups. A total of 361 single-copy gene families were identified and used to construct the maximum likelihood phylogenetic tree. Three major lineages were identified: lineages I, and traditionally recognized lineages II and those added to the expanded lineage II. Phylogenetic analysis confirmed the phylogenetic position of <i>M. delavayi</i> in the expanded lineage II of Brassicaceae (<a href="#F2">Figure 2A</a>), consistent with previous published research (<a href="#B14">Guo et al., 2017</a>; <a href="#B26">Kiefer et al., 2019</a>; <a href="#B41">Nikolov et al., 2019</a>). Within this lineage, <i>M. delavayi</i> diverged early as one subclade, and another comprised <i>Anastatica</i>, <i>Iberis</i> and <i>Biscutella</i> as suggested before based on the genome-scale single-copy genes. The close relationships between the latter three genera agree with phylogenetic analyses similarly based on the genome-scale, single-copy genes (<a href="#B26">Kiefer et al., 2019</a>). Based the fossil-calibrated phylogeny, <i>M. delavayi</i> diverged from other three genera of the expanded lineage II around 20.53 Mya (<a href="#FS2">Supplementary Figure S2</a>).</p>
+<div class="DottedLine"></div>
+<div class="Imageheaders">FIGURE 2</div>
+<div class="FigureDesc">
+<a href="https://www.frontiersin.org/files/Articles/547001/fgene-11-00812-HTML-r1/image_m/fgene-11-00812-g002.jpg" name="figure2" target="_blank">
+<img src="https://www.frontiersin.org/files/Articles/547001/fgene-11-00812-HTML-r1/image_t/fgene-11-00812-g002.gif" id="F2" alt="www.frontiersin.org" /></a>
+<p><strong>Figure 2.</strong> <b>(A)</b> Phylogenetic relationship of <i>M. delavayi</i> and other Brassicaceae species. Numbers on nodes represent bootstrap values. <b>(B)</b> Synonymous substitutions (Ks) estimated from <i>M. delavayi</i>-specific WGD. <b>(C)</b> A phylogenetic tree of the homologous genes from the expanded lineage II.</p>
+</div>
+<div class="clear"></div>
+<div class="DottedLine"></div>
+<h3>Whole-Genome Duplication</h3>
+<p class="mb0">The distribution of Ks was analyzed to uncover and assess the frequency of WGD events in the Brassicaceae (<a href="#B22">Kagale et al., 2014</a>). Using syntenic orthologs within each genome to construct the distribution of Ks, we found <i>M. delavayi</i> had undergone a further more species-specific WGD (<a href="#F2">Figure 2B</a>) after the well-known ancient At-&#x03B1; (23&#x2013;47 Mya) paleopolyploid WGD. Although the Brassicaceae diverged from other closely related eudicots at the beginning of the Cenozoic era, the rapid species diversification of the family occurred only within the Miocene (&#x003C;23 Mya; <a href="#B22">Kagale et al., 2014</a>). Importantly, the lineage- or species-specific polyploid or WGD events seemed to have promoted species diversification during this recent stage (<a href="#B22">Kagale et al., 2014</a>; <a href="#B26">Kiefer et al., 2019</a>). Four genera, <i>Brassica</i>, <i>Anastatica</i>, <i>Iberis</i>, and <i>Biscutella</i>, of the expanded lineage II were suggested to experience independent WGDs (<a href="#B54">Wang et al., 2011</a>; <a href="#B26">Kiefer et al., 2019</a>). We examined Ks distributions of these species. We confirmed these WGDs and found that they occurred between 16 and 23 Mya almost at the same stage after their divergences (<a href="#F2">Figure 2B</a>). These WGDs seem to occur independently based on the Ks distributions despite the slight differences between them. It remains interesting to further examine whether <i>Megacarpaea</i> shared a WGD with the closely related <i>Anastatica</i>, <i>Iberis</i>, and <i>Biscutella</i> based the homologous genes. After the WGD, the duplicated gene may have been randomly lost in the derived lineages, and therefore, it is difficult to identify all paralogous genes between different lineages. We, therefore, used <i>Arabidopsis</i> without further WGD as an out-group. We extracted a set of homologous gene groups: <i>Arabidopsis</i> (1): <i>Megacarpaea</i> (2): <i>Anastatica</i> (2): <i>Iberis</i> (2): <i>Biscutella</i> (2). We recovered 24 groups of homologous genes, but phylogenetic analyses suggested that only one group could be used to construct a gene tree with most subclades statistically supported (<a href="#F2">Figure 2C</a>). On this tree, two genes from <i>Megacarpaea</i> did not cluster together, and their clustering with other subclades failed to receive statistical support. Because two genes from each of the other three genera comprised a monophyletic clade, respectively, it is highly likely that WGDs occurred in these genera independently.</p>
+<h3>Gene Family Expansion and Contraction</h3>
+<p class="mb15">Gene loss and gain are the primary reasons for functional changes (<a href="#B60">Xing et al., 2019</a>). To better understand the relationships between the gene families of <i>M. delavayi</i> and other crucifer, we performed a systematic comparison of genes among different species. Phylogenetic analyses indicated that <i>M. delavayi</i> was phylogenetically categorized into expanded lineage II. Further comparisons of these species revealed 2673 expanded and 3600 contracted gene families in the <i>M. delavayi</i> genome. Significant expansion or contraction in the size of particular gene families is often associated with the adaptive divergence of related species (<a href="#B65">Zhang et al., 2016</a>). Also, a total of 41 gene families showed significant expansion (<i>P</i> &#x003C; 0.05), and 37 gene families showed significant contraction (<i>P</i> &#x003C; 0.05) in <i>M. delavayi</i>. The significantly expanded gene families contained 312 genes, which are mainly involved in &#x201C;response to light,&#x201D; &#x201C;response to salt stress,&#x201D; &#x201C;response to water deprivation,&#x201D; and &#x201C;calcium-mediated signaling&#x201D; (<a href="#TS6">Supplementary Table S6</a>). This also agrees with the previous predication that some species from the expanded lineage II of Brassicaceae are salt-tolerant (<a href="#B39">Monihan et al., 2020</a>).</p>
+<p class="mb0">We further examined the shared and species-specific gene families between <i>M. delavayi</i> and other alpine crucifers with genomes available: <i>A. alpine</i> (<a href="#B57">Willing et al., 2015</a>), <i>B. stricta</i>, <i>C. himalaica</i> (<a href="#B67">Zhang et al., 2019</a>), <i>E. heterophyllum</i> (<a href="#B13">Guo et al., 2018</a>), and <i>L. meyenii</i> (<a href="#B65">Zhang et al., 2016</a>). These alpine crucifers were found to develop more species-specific genes to adapt to alpine habitats. We next examined whether <i>M. delavayi</i> developed more such genes in addition to those shared with other alpine crucifers. We identified a total of 28,835 homologous gene families, 13,117 of which were shared by six alpine crucifers. We identified 1383 gene families specific to the <i>M. delavayi</i> genome (<a href="#F3">Figure 3A</a>). GO enrichments of these genes in species-specific gene families revealed that they were mainly involved in &#x201C;response to UV-B,&#x201D; &#x201C;response to cold,&#x201D; &#x201C;DNA repair,&#x201D; and &#x201C;cellular response to salt stress&#x201D; (<a href="#F3">Figure 3B</a> and <a href="#TS7">Supplementary Table S7</a>).</p>
+<div class="DottedLine"></div>
+<div class="Imageheaders">FIGURE 3</div>
+<div class="FigureDesc">
+<a href="https://www.frontiersin.org/files/Articles/547001/fgene-11-00812-HTML-r1/image_m/fgene-11-00812-g003.jpg" name="figure3" target="_blank">
+<img src="https://www.frontiersin.org/files/Articles/547001/fgene-11-00812-HTML-r1/image_t/fgene-11-00812-g003.gif" id="F3" alt="www.frontiersin.org" /></a>
+<p><strong>Figure 3.</strong> <b>(A)</b> Venn diagram showing shared and unique gene families among six species of Brassicaceae. <b>(B)</b> Gene ontology (GO) enrichment of <i>M. delavayi</i>&#x2013;specific genes.</p>
+</div>
+<div class="clear"></div>
+<div class="DottedLine"></div>
+<h3>Fast-Evolving Genes in <i>M. delavayi</i></h3>
+<p class="mb0">In plants, tolerance to UV-B radiation and cold are critical for surviving at high altitudes (<a href="#B65">Zhang et al., 2016</a>). Increased Ka relative to Ks in certain genes may explain the adaptive evolution of organisms at the molecular level (<a href="#B45">Qiu et al., 2012</a>). We identified 1203 syntenic gene blocks containing 20,442 collinear gene pairs in the <i>M. delavayi</i> and <i>A. thaliana</i> genomes. A total of 327 genes under positive selection had a Ka/Ks ratio greater than 1.0. The Swiss-Port functional classification revealed that the fast-evolving genes with putative functions were related to &#x201C;DNA repair,&#x201D; &#x201C;response to UV-B radiation,&#x201D; &#x201C;defense response,&#x201D; and &#x201C;response to cold&#x201D; (<a href="#TS8">Supplementary Table S8</a>). In particular, we found that <i>DRT101</i> (<i>Mde002296.11</i>) related to the DNA repair from UV damage evolved quickly in the <i>M. delavayi</i> genome (<a href="#TS8">Supplementary Table S8</a>). In the maca genome, genes related to DNA repair (<i>DRT102</i>) have also been found to evolve rapidly (<a href="#B65">Zhang et al., 2016</a>). Both <i>DRT101</i> and <i>DRT102</i> belong to the DNA-damage-repair/toleration (<i>DRT</i>) genes (<a href="#TS9">Supplementary Table S9</a>), and they may encode UV-specific excision repair activities (<a href="#B44">Pang et al., 1993</a>; <a href="#B18">Hays and Pang, 1994</a>). The accelerated evolution of DRT and other genes may help <i>M. delavayi</i> adapt to the high-altitude environment.</p>
+<a id="h5" name="h5"></a><h2>Discussion</h2>
+<p class="mb15">In this study, we performed <i>de novo</i> assembly of the <i>M. delavayi</i> genome based on an Illumina HiSeq 2500 platform. <i>M. delavayi</i> is the first sequenced species of the genus <i>Megacarpaea</i>. This reference genome provides a basis for further studying speciation based on genomic data for the genus and comparative genomics studies in the family Brassicaceae. The genome of <i>M. delavayi</i> was estimated at 899 Mb, and the final assembly genome was 883.81 Mb, representing about 98% of the estimated genome size (<a href="#T1">Table 1</a>). WGD and expansion of repetitive elements in the <i>M. delavayi</i> genome might have led to its larger size than other species (<a href="#F1">Figure 1B</a> and <a href="#TS3">Supplementary Table S3</a>). Based on the genome-scale single copy genes, our phylogenetic analysis clearly shows that <i>Megacarpaea</i> was placed in the expanded lineage II of Brassiaceae, and it was closely related to <i>Anastatica</i>, <i>Iberis</i>, and <i>Biscutella</i>. This finding resolved the ambiguous phylogenetic position of the genus <i>Megacarpaea</i> in the previous study (<a href="#B41">Nikolov et al., 2019</a>) because of the difficulties in gene orthologous alignments (<a href="#B53">Walker et al., 2017</a>).</p>
+<p class="mb15">Our genomic analyses suggested one species-specific WGD event in the <i>M. delavayi</i> genome. This WGD paralleled independently to those that occurred in the closely related species, <i>Anastatica</i>, <i>Biscutella</i>, and <i>Iberis.</i> These WGDs were estimated to occur within the Miocene shortly after the radiative divergences of the sampled genera. Such repeated WGDs accompanying lineage divergences together drove species diversification of the family (<a href="#B22">Kagale et al., 2014</a>). In addition, WGDs should have also played an important role for crucifers to colonize the arid habitats because of the obvious advantages of the polyploids under selective pressure (<a href="#B10">Dong et al., 2019</a>).</p>
+<p class="mb0">Compared with the published alpine crucifers with available genomes (<a href="#B13">Guo et al., 2018</a>; <a href="#B64">Zeng et al., 2019</a>; <a href="#B67">Zhang et al., 2019</a>), we also found that <i>M. delavayi</i> retained numerous species-specific genes, which are involved in &#x201C;response to UV-B,&#x201D; &#x201C;response to cold,&#x201D; &#x201C;DNA repair,&#x201D; and &#x201C;cellular response to salt stress&#x201D; (<a href="#F3">Figure 3B</a> and <a href="#TS7">Supplementary Table S7</a>). These genes derived from WGD or other ways may also play an important role for <i>M. delavayi</i> to adapt to a cold and UV-B stressed habitat at high altitude (<a href="#B7">Cheviron and Brumfield, 2012</a>). In addition, fast-evolving genes in <i>M. delavayi</i> were also found to be involved in &#x201C;DNA repair&#x201D; and abiotic stresses (<a href="#TS8">Supplementary Table S8</a>). All these findings suggest that <i>M. delavayi</i> had developed obvious genomic changes to adapt to alpine habitats. The reference genome presented here provides an important resource for further studying molecular adaptation of this and other alpine plants to the highlands.</p>
+<a id="h6" name="h6"></a><h2>Data Availability Statement</h2>
+<p class="mb0">The genomic sequence data of <i>Megacarpaea delavayi</i> in this study have been deposited in the NCBI under BioProject PRJNA630110. The assembled genome and genome annotation information have been deposited in the National Genomics Data Center (<a href="https://bigd.big.ac.cn/?lang=zh">https://bigd.big.ac.cn/?lang=zh</a>) under BioProject PRJCA002887.</p>
+<a id="h7" name="h7"></a><h2>Author Contributions</h2>
+<p class="mb0">QH and JL designed the research. LZ and HB collected the materials and performed the genome sequencing and assembly. QY, WY, HB, TL, JJ, and LZ performed the genome annotation and evolution analyses. QY, QH, and JL wrote the manuscript. All authors contributed to the article and approved the submitted version.</p>
+<a id="fun1" name="fun1"></a><h2>Funding</h2>
+<p class="mb0">This work was supported equally by the National Key Research and Development Program of China (2017YFC0505203) and the Fundamental Research Funds for the Central Universities (2018CDDY-S02-SCU and SCU2019D013), the National High-Level Talents Special Support Plans (10 Thousand of People Plan), and 985 and 211 Projects of the Sichuan University.</p>
+<a id="conf1" name="conf1"></a><h2>Conflict of Interest</h2>
+<p class="mb0">The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p>
+<a id="h9" name="h9"></a><h2>Supplementary Material</h2>
+<p class="mb0">The Supplementary Material for this article can be found online at: <a href="https://www.frontiersin.org/articles/10.3389/fgene.2020.00812/full#supplementary-material">https://www.frontiersin.org/articles/10.3389/fgene.2020.00812/full#supplementary-material</a></p>
+<p class="mb15" id="FS1"><b>FIGURE S1 &#x007C;</b> 17-k-mer frequency distribution of sequencing reads from <i>M. delavayi</i>. The size of the <i>M. delavayi</i> genome was estimated at 899 Mb.</p>
+<p class="mb15" id="FS2"><b>FIGURE S2 &#x007C;</b> Phylogenetic tree with divergence time and expanded/contracted gene family for <i>M. delavayi</i> and other Brassicaceae species. The numbers above the branches are the predicted divergence times.</p>
+<p class="mb15" id="TS1"><b>TABLE S1 &#x007C;</b> Sequencing statistics of the <i>M. delavayi</i> genome.</p>
+<p class="mb15" id="TS2"><b>TABLE S2 &#x007C;</b> Evaluation <i>M. delavayi</i> genome assembly with BUSCO.</p>
+<p class="mb15" id="TS3"><b>TABLE S3 &#x007C;</b> Numbers of annotated protein-coding genes in <i>M. delavayi</i> genome.</p>
+<p class="mb15" id="TS4"><b>TABLE S4 &#x007C;</b> Intact LTR-RTs in <i>M. delavayi</i> and other Brassicaceae species.</p>
+<p class="mb15" id="TS5"><b>TABLE S5 &#x007C;</b> Protein data sets used for comparative genomic analyses.</p>
+<p class="mb15" id="TS6"><b>TABLE S6 &#x007C;</b> Function of significantly expanded genes in <i>M. delavayi</i> genome.</p>
+<p class="mb15" id="TS7"><b>TABLE S7 &#x007C;</b> GO enrichment of <i>M. delavayi</i> specific genes.</p>
+<p class="mb15" id="TS8"><b>TABLE S8 &#x007C;</b> Function of fast-evolving genes in <i>M. delavayi</i> genome.</p>
+<p class="mb0" id="TS9"><b>TABLE S9 &#x007C;</b> DRT genes copy number in <i>M. delavayi</i> and <i>L. meyenii</i> genomes (identity &#x003E; 80%).</p>
+<a id="FNT1" name="FNT1"></a><h2>Footnotes</h2>
+<ol>
+<li id="footnote1"><strong><a style="color:gray;" class="footnotetextanchor" href="#footnote1a" title="">^</a></strong> <a style="color:gray;" href="https://github.com/josephryan/estimate_genome_size.pl">https://github.com/josephryan/estimate_genome_size.pl</a></li>
+<li id="footnote2"><strong><a style="color:gray;" class="footnotetextanchor" href="#footnote2a" title="">^</a></strong> <a style="color:gray;" href="http://tree.bio.ed.ac.uk/">http://tree.bio.ed.ac.uk/</a></li>
+</ol>
+<a id="refer1" name="refer1"></a><h2>References</h2>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B1" id="B1"></a>Bolger, A. M., Lohse, M., and Usadel, B. (2014). Trimmomatic: a flexible trimmer for Illumina sequence data. <i>Bioinformatics</i> 30, 2114&#x2013;2120. doi: 10.1093/bioinformatics/btu170</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/24695404" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/bioinformatics/btu170" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Trimmomatic%3A+a+flexible+trimmer+for+Illumina+sequence+data%2E&#x0026;journal=Bioinformatics&#x0026;author=Bolger+A.+M.&#x0026;author=Lohse+M.&#x0026;author=Usadel+B.&#x0026;publication_year=2014&#x0026;volume=30&#x0026;pages=2114&#x2013;2120" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B2" id="B2"></a>Bowers, J. E., Chapman, B. A., Rong, J., and Paterson, A. H. (2003). Unravelling angiosperm genome evolution by phylogenetic analysis of chromosomal duplication events. <i>Nature</i> 422, 433&#x2013;438. doi: 10.1038/nature01521</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/12660784" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1038/nature01521" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Unravelling+angiosperm+genome+evolution+by+phylogenetic+analysis+of+chromosomal+duplication+events%2E&#x0026;journal=Nature&#x0026;author=Bowers+J.+E.&#x0026;author=Chapman+B.+A.&#x0026;author=Rong+J.&#x0026;author=Paterson+A.+H.&#x0026;publication_year=2003&#x0026;volume=422&#x0026;pages=433&#x2013;438" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B3" id="B3"></a>Buchfink, B., Xie, C., and Huson, D. H. (2014). Fast and sensitive protein alignment using DIAMOND. <i>Nat. Methods</i> 12, 59&#x2013;60. doi: 10.1038/nmeth.3176</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/25402007" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1038/nmeth.3176" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Fast+and+sensitive+protein+alignment+using+DIAMOND%2E&#x0026;journal=Nat%2E+Methods&#x0026;author=Buchfink+B.&#x0026;author=Xie+C.&#x0026;author=Huson+D.+H.&#x0026;publication_year=2014&#x0026;volume=12&#x0026;pages=59&#x2013;60" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B4" id="B4"></a>Camacho, C., Coulouris, G., Avagyan, V., Ma, N., Papadopoulos, J., Bealer, K., et al. (2009). BLAST+: architecture and applications. <i>BMC Bioinformatics</i> 10:421. doi: 10.1186/1471-2105-10-421</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/20003500" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1186/1471-2105-10-421" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=BLAST%2B%3A+architecture+and+applications%2E&#x0026;journal=BMC+Bioinformatics&#x0026;author=Camacho+C.&#x0026;author=Coulouris+G.&#x0026;author=Avagyan+V.&#x0026;author=Ma+N.&#x0026;author=Papadopoulos+J.&#x0026;author=Bealer+K.&#x0026;publication_year=2009&#x0026;volume=10&#x0026;issue=421" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B5" id="B5"></a>Chen, Y., Ma, T., Zhang, L., Kang, M., Zhang, Z., Zheng, Z., et al. (2020). Genomic analyses of a &#x201C;living fossil&#x201D;: the endangered dove-tree. <i>Mol. Ecol. Resour.</i> 20, 1&#x2013;14.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Genomic+analyses+of+a+&#x201C;living+fossil&#x201D;%3A+the+endangered+dove-tree%2E&#x0026;journal=Mol%2E+Ecol%2E+Resour%2E&#x0026;author=Chen+Y.&#x0026;author=Ma+T.&#x0026;author=Zhang+L.&#x0026;author=Kang+M.&#x0026;author=Zhang+Z.&#x0026;author=Zheng+Z.&#x0026;publication_year=2020&#x0026;volume=20&#x0026;pages=1&#x2013;14" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B6" id="B6"></a>Cheo, T. Y., Lu, L., Yang, G., Al-Shehbaz, I., and Dorofeev, V. (2001). Megacarpaea. <i>Flora China</i> 8, 39&#x2013;40.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Megacarpaea%2E&#x0026;journal=Flora+China&#x0026;author=Cheo+T.+Y.&#x0026;author=Lu+L.&#x0026;author=Yang+G.&#x0026;author=Al-Shehbaz+I.&#x0026;author=Dorofeev+V.&#x0026;publication_year=2001&#x0026;volume=8&#x0026;pages=39&#x2013;40" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B7" id="B7"></a>Cheviron, Z. A., and Brumfield, R. T. (2012). Genomic insights into adaptation to high-altitude environments. <i>Heredity</i> 108, 354&#x2013;361. doi: 10.1038/hdy.2011.85</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/21934702" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1038/hdy.2011.85" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Genomic+insights+into+adaptation+to+high-altitude+environments%2E&#x0026;journal=Heredity&#x0026;author=Cheviron+Z.+A.&#x0026;author=Brumfield+R.+T.&#x0026;publication_year=2012&#x0026;volume=108&#x0026;pages=354&#x2013;361" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B8" id="B8"></a>Conesa, A., and G&#x00F6;tz, S. (2008). Blast2GO: a comprehensive suite for functional analysis in plant genomics. <i>Int. J. Plant Genomics</i> 2008:619832.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Blast2GO%3A+a+comprehensive+suite+for+functional+analysis+in+plant+genomics%2E&#x0026;journal=Int%2E+J%2E+Plant+Genomics&#x0026;author=Conesa+A.&#x0026;author=G&#x00F6;tz+S.&#x0026;publication_year=2008&#x0026;volume=2008&#x0026;issue=619832" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B9" id="B9"></a>De Bie, T., Cristianini, N., Demuth, J. P., and Hahn, M. W. (2006). CAFE: a computational tool for the study of gene family evolution. <i>Bioinformatics</i> 22, 1269&#x2013;1271. doi: 10.1093/bioinformatics/btl097</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/16543274" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/bioinformatics/btl097" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=CAFE%3A+a+computational+tool+for+the+study+of+gene+family+evolution%2E&#x0026;journal=Bioinformatics&#x0026;author=De+Bie+T.&#x0026;author=Cristianini+N.&#x0026;author=Demuth+J.+P.&#x0026;author=Hahn+M.+W.&#x0026;publication_year=2006&#x0026;volume=22&#x0026;pages=1269&#x2013;1271" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B10" id="B10"></a>Dong, Y., Gupta, S., Sievers, R., Wargent, J. J., Wheeler, D., Putterill, J., et al. (2019). Genome draft of the <i>Arabidopsis</i> relative <i>Pachycladon cheesemanii</i> reveals novel strategies to tolerate New Zealand&#x2019;s high ultraviolet B radiation environment. <i>BMC Genomics</i> 20:838. doi: 10.1186/s12864-019-6084-4</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/31718535" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1186/s12864-019-6084-4" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Genome+draft+of+the+Arabidopsis+relative+Pachycladon+cheesemanii+reveals+novel+strategies+to+tolerate+New+Zealand&#x2019;s+high+ultraviolet+B+radiation+environment%2E&#x0026;journal=BMC+Genomics&#x0026;author=Dong+Y.&#x0026;author=Gupta+S.&#x0026;author=Sievers+R.&#x0026;author=Wargent+J.+J.&#x0026;author=Wheeler+D.&#x0026;author=Putterill+J.&#x0026;publication_year=2019&#x0026;volume=20&#x0026;issue=838" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B11" id="B11"></a>Edger, P. P., Heidel-Fischer, H. M., Bekaert, M., Rota, J., Gl&#x00F6;ckner, G., Platts, A. E., et al. (2015). The butterfly plant arms-race escalated by gene and genome duplications. <i>Proc. Natl. Acad. Sci. U.S.A.</i> 112, 8362&#x2013;8366. doi: 10.1073/pnas.1503926112</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/26100883" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1073/pnas.1503926112" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=The+butterfly+plant+arms-race+escalated+by+gene+and+genome+duplications%2E&#x0026;journal=Proc%2E+Natl%2E+Acad%2E+Sci%2E+U%2ES%2EA%2E&#x0026;author=Edger+P.+P.&#x0026;author=Heidel-Fischer+H.+M.&#x0026;author=Bekaert+M.&#x0026;author=Rota+J.&#x0026;author=Gl&#x00F6;ckner+G.&#x0026;author=Platts+A.+E.&#x0026;publication_year=2015&#x0026;volume=112&#x0026;pages=8362&#x2013;8366" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B12" id="B12"></a>Ellinghaus, D., Kurtz, S., and Willhoeft, U. (2008). LTRharvest, an efficient and flexible software for de novo detection of LTR retrotransposons. <i>BMC Bioinformatics</i> 9:18. doi: 10.1186/1471-2105-9-18</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/18194517" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1186/1471-2105-9-18" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=LTRharvest%2C+an+efficient+and+flexible+software+for+de+novo+detection+of+LTR+retrotransposons%2E&#x0026;journal=BMC+Bioinformatics&#x0026;author=Ellinghaus+D.&#x0026;author=Kurtz+S.&#x0026;author=Willhoeft+U.&#x0026;publication_year=2008&#x0026;volume=9&#x0026;issue=18" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B13" id="B13"></a>Guo, X., Hu, Q., Hao, G., Wang, X., Zhang, D., Ma, T., et al. (2018). The genomes of two <i>Eutrema</i> species provide insight into plant adaptation to high altitudes. <i>DNA Res.</i> 25, 307&#x2013;315. doi: 10.1093/dnares/dsy003</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/29394339" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/dnares/dsy003" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=The+genomes+of+two+Eutrema+species+provide+insight+into+plant+adaptation+to+high+altitudes%2E&#x0026;journal=DNA+Res%2E&#x0026;author=Guo+X.&#x0026;author=Hu+Q.&#x0026;author=Hao+G.&#x0026;author=Wang+X.&#x0026;author=Zhang+D.&#x0026;author=Ma+T.&#x0026;publication_year=2018&#x0026;volume=25&#x0026;pages=307&#x2013;315" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B14" id="B14"></a>Guo, X., Liu, J., Hao, G., Zhang, L., Mao, K., Wang, X., et al. (2017). Plastome phylogeny and early diversification of Brassicaceae. <i>BMC Genomics</i> 18:176. doi: 10.1186/s12864-017-3555-3</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/28209119" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1186/s12864-017-3555-3" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Plastome+phylogeny+and+early+diversification+of+Brassicaceae%2E&#x0026;journal=BMC+Genomics&#x0026;author=Guo+X.&#x0026;author=Liu+J.&#x0026;author=Hao+G.&#x0026;author=Zhang+L.&#x0026;author=Mao+K.&#x0026;author=Wang+X.&#x0026;publication_year=2017&#x0026;volume=18&#x0026;issue=176" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B15" id="B15"></a>Haas, B. J., Delcher, A. L., Mount, S. M., Wortman, J. R., Smith, R. K., Hannick, L. I., et al. (2003). Improving the <i>Arabidopsis</i> genome annotation using maximal transcript alignment assemblies. <i>Nucleic Acids Res.</i> 31, 5654&#x2013;5666. doi: 10.1093/nar/gkg770</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/14500829" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/nar/gkg770" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Improving+the+Arabidopsis+genome+annotation+using+maximal+transcript+alignment+assemblies%2E&#x0026;journal=Nucleic+Acids+Res%2E&#x0026;author=Haas+B.+J.&#x0026;author=Delcher+A.+L.&#x0026;author=Mount+S.+M.&#x0026;author=Wortman+J.+R.&#x0026;author=Smith+R.+K.&#x0026;author=Hannick+L.+I.&#x0026;publication_year=2003&#x0026;volume=31&#x0026;pages=5654&#x2013;5666" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B16" id="B16"></a>Haas, B. J., Papanicolaou, A., Yassour, M., Grabherr, M., Blood, P. D., Bowden, J., et al. (2013). De novo transcript sequence reconstruction from RNA-seq using the Trinity platform for reference generation and analysis. <i>Nat. Protoc.</i> 8, 1494&#x2013;1512. doi: 10.1038/nprot.2013.084</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/23845962" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1038/nprot.2013.084" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=De+novo+transcript+sequence+reconstruction+from+RNA-seq+using+the+Trinity+platform+for+reference+generation+and+analysis%2E&#x0026;journal=Nat%2E+Protoc%2E&#x0026;author=Haas+B.+J.&#x0026;author=Papanicolaou+A.&#x0026;author=Yassour+M.&#x0026;author=Grabherr+M.&#x0026;author=Blood+P.+D.&#x0026;author=Bowden+J.&#x0026;publication_year=2013&#x0026;volume=8&#x0026;pages=1494&#x2013;1512" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B17" id="B17"></a>Haas, B. J., Salzberg, S. L., Zhu, W., Pertea, M., Allen, J. E., Orvis, J., et al. (2008). Automated eukaryotic gene structure annotation using EVidenceModeler and the program to assemble spliced alignments. <i>Genome Biol.</i> 9:R7.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Automated+eukaryotic+gene+structure+annotation+using+EVidenceModeler+and+the+program+to+assemble+spliced+alignments%2E&#x0026;journal=Genome+Biol%2E&#x0026;author=Haas+B.+J.&#x0026;author=Salzberg+S.+L.&#x0026;author=Zhu+W.&#x0026;author=Pertea+M.&#x0026;author=Allen+J.+E.&#x0026;author=Orvis+J.&#x0026;publication_year=2008&#x0026;volume=9&#x0026;issue=R7" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B18" id="B18"></a>Hays, J. B., and Pang, Q. (1994). <i>UV-B-Inducible and Constitutive Genes that Mediate Repair and Toleration Of UV-Damaged DNA in the Plant Arabidopsis Thaliana.</i> Berlin: Springer.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?&#x0026;journal=UV-B-Inducible+and+Constitutive+Genes+that+Mediate+Repair+and+Toleration+Of+UV-Damaged+DNA+in+the+Plant+Arabidopsis+Thaliana%2E&#x0026;author=Hays+J.+B.&#x0026;author=Pang+Q.&#x0026;publication_year=1994" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B19" id="B19"></a>Hu, T. T., Pattyn, P., Bakker, E. G., Cao, J., Cheng, J. F., Clark, R. M., et al. (2011). The <i>Arabidopsis lyrata</i> genome sequence and the basis of rapid genome size change. <i>Nat. Genet.</i> 43, 476&#x2013;483.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?&#x0026;title=The+Arabidopsis+lyrata+genome+sequence+and+the+basis+of+rapid+genome+size+change%2E&#x0026;journal=Nat%2E+Genet%2E&#x0026;author=Hu+T.+T.&#x0026;author=Pattyn+P.&#x0026;author=Bakker+E.+G.&#x0026;author=Cao+J.&#x0026;author=Cheng+J.+F.&#x0026;author=Clark+R.+M.&#x0026;publication_year=2011&#x0026;volume=43&#x0026;pages=476&#x2013;483" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B20" id="B20"></a>Huang, C.-H., Zhang, C., Liu, M., Hu, Y., Gao, T., Qi, J., et al. (2016). Multiple polyploidization events across asteraceae with two nested events in the early history revealed by nuclear phylogenomics. <i>Mol. Biol. Evol.</i> 33, 2820&#x2013;2835. doi: 10.1093/molbev/msw157</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/27604225" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/molbev/msw157" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Multiple+polyploidization+events+across+asteraceae+with+two+nested+events+in+the+early+history+revealed+by+nuclear+phylogenomics%2E&#x0026;journal=Mol%2E+Biol%2E+Evol%2E&#x0026;author=Huang+C.-H.&#x0026;author=Zhang+C.&#x0026;author=Liu+M.&#x0026;author=Hu+Y.&#x0026;author=Gao+T.&#x0026;author=Qi+J.&#x0026;publication_year=2016&#x0026;volume=33&#x0026;pages=2820&#x2013;2835" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B21" id="B21"></a>Jones, P., Binns, D., Chang, H. Y., Fraser, M., Li, W., McAnulla, C., et al. (2014). InterProScan 5: genome-scale protein function classification. <i>Bioinformatics</i> 30, 1236&#x2013;1240. doi: 10.1093/bioinformatics/btu031</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/24451626" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/bioinformatics/btu031" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=InterProScan+5%3A+genome-scale+protein+function+classification%2E&#x0026;journal=Bioinformatics&#x0026;author=Jones+P.&#x0026;author=Binns+D.&#x0026;author=Chang+H.+Y.&#x0026;author=Fraser+M.&#x0026;author=Li+W.&#x0026;author=McAnulla+C.&#x0026;publication_year=2014&#x0026;volume=30&#x0026;pages=1236&#x2013;1240" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B22" id="B22"></a>Kagale, S., Robinson, S. J., Nixon, J., Xiao, R., Huebert, T., Condie, J., et al. (2014). Polyploid evolution of the Brassicaceae during the <i>Cenozoic era</i>. <i>Plant Cell</i> 26, 2777&#x2013;2791. doi: 10.1105/tpc.114.126391</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/25035408" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1105/tpc.114.126391" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Polyploid+evolution+of+the+Brassicaceae+during+the+Cenozoic+era%2E&#x0026;journal=Plant+Cell&#x0026;author=Kagale+S.&#x0026;author=Robinson+S.+J.&#x0026;author=Nixon+J.&#x0026;author=Xiao+R.&#x0026;author=Huebert+T.&#x0026;author=Condie+J.&#x0026;publication_year=2014&#x0026;volume=26&#x0026;pages=2777&#x2013;2791" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B23" id="B23"></a>Kajitani, R., Toshimoto, K., Noguchi, H., Toyoda, A., Ogura, Y., Okuno, M., et al. (2014). Efficient de novo assembly of highly heterozygous genomes from whole-genome shotgun short reads. <i>Genome Res.</i> 24, 1384&#x2013;1395. doi: 10.1101/gr.170720.113</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/24755901" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1101/gr.170720.113" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Efficient+de+novo+assembly+of+highly+heterozygous+genomes+from+whole-genome+shotgun+short+reads%2E&#x0026;journal=Genome+Res%2E&#x0026;author=Kajitani+R.&#x0026;author=Toshimoto+K.&#x0026;author=Noguchi+H.&#x0026;author=Toyoda+A.&#x0026;author=Ogura+Y.&#x0026;author=Okuno+M.&#x0026;publication_year=2014&#x0026;volume=24&#x0026;pages=1384&#x2013;1395" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B24" id="B24"></a>Kang, M., Wu, H., Yang, Q., Huang, L., Hu, Q., Ma, T., et al. (2020). A chromosome-scale genome assembly of <i>Isatis indigotica</i>, an important medicinal plant used in traditional Chinese medicine: an Isatis genome. <i>Hortic. Res.</i> 7:18.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?&#x0026;title=A+chromosome-scale+genome+assembly+of+Isatis+indigotica%2C+an+important+medicinal+plant+used+in+traditional+Chinese+medicine%3A+an+Isatis+genome%2E&#x0026;journal=Hortic%2E+Res%2E&#x0026;author=Kang+M.&#x0026;author=Wu+H.&#x0026;author=Yang+Q.&#x0026;author=Huang+L.&#x0026;author=Hu+Q.&#x0026;author=Ma+T.&#x0026;publication_year=2020&#x0026;volume=7&#x0026;issue=18" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B25" id="B25"></a>Katoh, K., and Standley, D. M. (2013). MAFFT multiple sequence alignment software version 7: improvements in performance and usability. <i>Mol. Biol. Evol.</i> 30, 772&#x2013;780. doi: 10.1093/molbev/mst010</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/23329690" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/molbev/mst010" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=MAFFT+multiple+sequence+alignment+software+version+7%3A+improvements+in+performance+and+usability%2E&#x0026;journal=Mol%2E+Biol%2E+Evol%2E&#x0026;author=Katoh+K.&#x0026;author=Standley+D.+M.&#x0026;publication_year=2013&#x0026;volume=30&#x0026;pages=772&#x2013;780" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B26" id="B26"></a>Kiefer, C., Willing, E.-M., Jiao, W.-B., Sun, H., Piedno&#x00EB;l, M., H&#x00FC;mann, U., et al. (2019). Interspecies association mapping links reduced CG to TG substitution rates to the loss of gene-body methylation. <i>Nat. plants</i> 5, 846&#x2013;855. doi: 10.1038/s41477-019-0486-9</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/31358959" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1038/s41477-019-0486-9" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Interspecies+association+mapping+links+reduced+CG+to+TG+substitution+rates+to+the+loss+of+gene-body+methylation%2E&#x0026;journal=Nat%2E+plants&#x0026;author=Kiefer+C.&#x0026;author=Willing+E.-M.&#x0026;author=Jiao+W.-B.&#x0026;author=Sun+H.&#x0026;author=Piedno&#x00EB;l+M.&#x0026;author=H&#x00FC;mann+U.&#x0026;publication_year=2019&#x0026;volume=5&#x0026;pages=846&#x2013;855" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B27" id="B27"></a>Kumar, S., Stecher, G., Suleski, M., and Hedges, S. B. (2017). TimeTree: a resource for timelines, timetrees, and divergence times. <i>Mol. Biol. Evol.</i> 34, 1812&#x2013;1819. doi: 10.1093/molbev/msx116</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/28387841" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/molbev/msx116" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=TimeTree%3A+a+resource+for+timelines%2C+timetrees%2C+and+divergence+times%2E&#x0026;journal=Mol%2E+Biol%2E+Evol%2E&#x0026;author=Kumar+S.&#x0026;author=Stecher+G.&#x0026;author=Suleski+M.&#x0026;author=Hedges+S.+B.&#x0026;publication_year=2017&#x0026;volume=34&#x0026;pages=1812&#x2013;1819" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B28" id="B28"></a>Lei, S., Xiaobo, L., Guirong, S., Yun, Y., and Bin, L. (2009). Effect of <i>Megacarpaea delavayi</i> Franch on digestive juice in rat with heat due to food stagnation. <i>Chinese J. Ethnomed. Ethnopharm.</i> 18, 1&#x2013;3.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Effect+of+Megacarpaea+delavayi+Franch+on+digestive+juice+in+rat+with+heat+due+to+food+stagnation%2E&#x0026;journal=Chinese+J%2E+Ethnomed%2E+Ethnopharm%2E&#x0026;author=Lei+S.&#x0026;author=Xiaobo+L.&#x0026;author=Guirong+S.&#x0026;author=Yun+Y.&#x0026;author=Bin+L.&#x0026;publication_year=2009&#x0026;volume=18&#x0026;pages=1&#x2013;3" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B29" id="B29"></a>Li, H. (2015). BFC: correcting Illumina sequencing errors. <i>Bioinformatics</i> 31, 2885&#x2013;2887. doi: 10.1093/bioinformatics/btv290</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/25953801" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/bioinformatics/btv290" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=BFC%3A+correcting+Illumina+sequencing+errors%2E&#x0026;journal=Bioinformatics&#x0026;author=Li+H.&#x0026;publication_year=2015&#x0026;volume=31&#x0026;pages=2885&#x2013;2887" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B30" id="B30"></a>Li, L., Stoeckert, C. J., and Roos, D. S. (2003). OrthoMCL: identification of ortholog groups for eukaryotic genomes. <i>Genome Res.</i> 13, 2178&#x2013;2189. doi: 10.1101/gr.1224503</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/12952885" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1101/gr.1224503" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=OrthoMCL%3A+identification+of+ortholog+groups+for+eukaryotic+genomes%2E&#x0026;journal=Genome+Res%2E&#x0026;author=Li+L.&#x0026;author=Stoeckert+C.+J.&#x0026;author=Roos+D.+S.&#x0026;publication_year=2003&#x0026;volume=13&#x0026;pages=2178&#x2013;2189" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B31" id="B31"></a>Li, M., Tian, S., Jin, L., Zhou, G., Li, Y., Zhang, Y., et al. (2013). Genomic analyses identify distinct patterns of selection in domesticated pigs and Tibetan wild boars. <i>Nat. Genet.</i> 45, 1431&#x2013;1438. doi: 10.1038/ng.2811</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/24162736" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1038/ng.2811" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Genomic+analyses+identify+distinct+patterns+of+selection+in+domesticated+pigs+and+Tibetan+wild+boars%2E&#x0026;journal=Nat%2E+Genet%2E&#x0026;author=Li+M.&#x0026;author=Tian+S.&#x0026;author=Jin+L.&#x0026;author=Zhou+G.&#x0026;author=Li+Y.&#x0026;author=Zhang+Y.&#x0026;publication_year=2013&#x0026;volume=45&#x0026;pages=1431&#x2013;1438" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B32" id="B32"></a>Liu, W. S., Wei, W., and Dong, M. (2009). Clonal and genetic diversity of Carex moorcroftii on the Qinghai-Tibet plateau. <i>Biochem. Syst. Ecol.</i> 37, 370&#x2013;377. doi: 10.1016/j.bse.2009.07.003</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1016/j.bse.2009.07.003" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Clonal+and+genetic+diversity+of+Carex+moorcroftii+on+the+Qinghai-Tibet+plateau%2E&#x0026;journal=Biochem%2E+Syst%2E+Ecol%2E&#x0026;author=Liu+W.+S.&#x0026;author=Wei+W.&#x0026;author=Dong+M.&#x0026;publication_year=2009&#x0026;volume=37&#x0026;pages=370&#x2013;377" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B33" id="B33"></a>Luo, R., Liu, B., Xie, Y., Li, Z., Huang, W., Yuan, J., et al. (2012). SOAPdenovo2: an empirically improved memory-efficient short-read de novo assembler. <i>Gigascience</i> 1:18.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?&#x0026;title=SOAPdenovo2%3A+an+empirically+improved+memory-efficient+short-read+de+novo+assembler%2E&#x0026;journal=Gigascience&#x0026;author=Luo+R.&#x0026;author=Liu+B.&#x0026;author=Xie+Y.&#x0026;author=Li+Z.&#x0026;author=Huang+W.&#x0026;author=Yuan+J.&#x0026;publication_year=2012&#x0026;volume=1&#x0026;issue=18" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B34" id="B34"></a>Majoros, W. H., Pertea, M., and Salzberg, S. L. (2004). TigrScan and GlimmerHMM: two open source ab initio eukaryotic gene-finders. <i>Bioinformatics</i> 20, 2878&#x2013;2879. doi: 10.1093/bioinformatics/bth315</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/15145805" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/bioinformatics/bth315" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=TigrScan+and+GlimmerHMM%3A+two+open+source+ab+initio+eukaryotic+gene-finders%2E&#x0026;journal=Bioinformatics&#x0026;author=Majoros+W.+H.&#x0026;author=Pertea+M.&#x0026;author=Salzberg+S.+L.&#x0026;publication_year=2004&#x0026;volume=20&#x0026;pages=2878&#x2013;2879" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B35" id="B35"></a>Mand&#x00E1;kov&#x00E1;, T., Joly, S., Krzywinski, M., Mummenhoff, K., and Lysaka, M. A. (2010). Fast diploidization in close mesopolyploid relatives of <i>Arabidopsis</i>. <i>Plant Cell</i> 22, 2277&#x2013;2290. doi: 10.1105/tpc.110.074526</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/20639445" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1105/tpc.110.074526" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Fast+diploidization+in+close+mesopolyploid+relatives+of+Arabidopsis%2E&#x0026;journal=Plant+Cell&#x0026;author=Mand&#x00E1;kov&#x00E1;+T.&#x0026;author=Joly+S.&#x0026;author=Krzywinski+M.&#x0026;author=Mummenhoff+K.&#x0026;author=Lysaka+M.+A.&#x0026;publication_year=2010&#x0026;volume=22&#x0026;pages=2277&#x2013;2290" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B36" id="B36"></a>Mand&#x00E1;kov&#x00E1;, T., Li, Z., Barker, M. S., and Lysak, M. A. (2017). Diverse genome organization following 13 independent mesopolyploid events in Brassicaceae contrasts with convergent patterns of gene retention. <i>Plant J.</i> 91, 3&#x2013;21. doi: 10.1111/tpj.13553</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/28370611" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1111/tpj.13553" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Diverse+genome+organization+following+13+independent+mesopolyploid+events+in+Brassicaceae+contrasts+with+convergent+patterns+of+gene+retention%2E&#x0026;journal=Plant+J%2E&#x0026;author=Mand&#x00E1;kov&#x00E1;+T.&#x0026;author=Li+Z.&#x0026;author=Barker+M.+S.&#x0026;author=Lysak+M.+A.&#x0026;publication_year=2017&#x0026;volume=91&#x0026;pages=3&#x2013;21" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B37" id="B37"></a>Mar&#x00E7;ais, G., and Kingsford, C. (2011). A fast, lock-free approach for efficient parallel counting of occurrences of k-mers. <i>Bioinformatics</i> 27, 764&#x2013;770. doi: 10.1093/bioinformatics/btr011</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/21217122" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/bioinformatics/btr011" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=A+fast%2C+lock-free+approach+for+efficient+parallel+counting+of+occurrences+of+k-mers%2E&#x0026;journal=Bioinformatics&#x0026;author=Mar&#x00E7;ais+G.&#x0026;author=Kingsford+C.&#x0026;publication_year=2011&#x0026;volume=27&#x0026;pages=764&#x2013;770" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B38" id="B38"></a>McKain, M. R., Tang, H., McNeal, J. R., Ayyampalayam, S., Davis, J. I., DePamphilis, C. W., et al. (2016). A phylogenomic assessment of ancient polyploidy and genome evolution across the Poales. <i>Genome Biol. Evol.</i> 8, 1150&#x2013;1164.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?&#x0026;title=A+phylogenomic+assessment+of+ancient+polyploidy+and+genome+evolution+across+the+Poales%2E&#x0026;journal=Genome+Biol%2E+Evol%2E&#x0026;author=McKain+M.+R.&#x0026;author=Tang+H.&#x0026;author=McNeal+J.+R.&#x0026;author=Ayyampalayam+S.&#x0026;author=Davis+J.+I.&#x0026;author=DePamphilis+C.+W.&#x0026;publication_year=2016&#x0026;volume=8&#x0026;pages=1150&#x2013;1164." target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B39" id="B39"></a>Monihan, S. M., Magness, C. A., Ryu, C.-H., McMahon, M. M., Beilstein, M. A., and Schumaker, K. S. (2020). Duplication and functional divergence of a calcium sensor in the Brassicaceae. <i>J. Exp. Bot.</i> 71, 2782&#x2013;2795. doi: 10.1093/jxb/eraa031</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/31989164" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/jxb/eraa031" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Duplication+and+functional+divergence+of+a+calcium+sensor+in+the+Brassicaceae%2E&#x0026;journal=J%2E+Exp%2E+Bot%2E&#x0026;author=Monihan+S.+M.&#x0026;author=Magness+C.+A.&#x0026;author=Ryu+C.-H.&#x0026;author=McMahon+M.+M.&#x0026;author=Beilstein+M.+A.&#x0026;author=Schumaker+K.+S.&#x0026;publication_year=2020&#x0026;volume=71&#x0026;pages=2782&#x2013;2795" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B40" id="B40"></a>Moriya, Y., Itoh, M., Okuda, S., Yoshizawa, A. C., and Kanehisa, M. (2007). KAAS: an automatic genome annotation and pathway reconstruction server. <i>Nucleic Acids Res.</i> 35, W182&#x2013;W185.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?&#x0026;title=KAAS%3A+an+automatic+genome+annotation+and+pathway+reconstruction+server%2E&#x0026;journal=Nucleic+Acids+Res%2E&#x0026;author=Moriya+Y.&#x0026;author=Itoh+M.&#x0026;author=Okuda+S.&#x0026;author=Yoshizawa+A.+C.&#x0026;author=Kanehisa+M.&#x0026;publication_year=2007&#x0026;volume=35&#x0026;pages=W182&#x2013;W185" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B41" id="B41"></a>Nikolov, L. A., Shushkov, P., Nevado, B., Gan, X., Al-Shehbaz, I. A., Filatov, D., et al. (2019). Resolving the backbone of the Brassicaceae phylogeny for investigating trait diversity. <i>New Phytol.</i> 222, 1638&#x2013;1651. doi: 10.1111/nph.15732</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/30735246" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1111/nph.15732" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Resolving+the+backbone+of+the+Brassicaceae+phylogeny+for+investigating+trait+diversity%2E&#x0026;journal=New+Phytol%2E&#x0026;author=Nikolov+L.+A.&#x0026;author=Shushkov+P.&#x0026;author=Nevado+B.&#x0026;author=Gan+X.&#x0026;author=Al-Shehbaz+I.+A.&#x0026;author=Filatov+D.&#x0026;publication_year=2019&#x0026;volume=222&#x0026;pages=1638&#x2013;1651" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B42" id="B42"></a>Ossowski, S., Schneeberger, K., Lucas-Lled&#x00F3;, J. I., Warthmann, N., Clark, R. M., Shaw, R. G., et al. (2010). The rate and molecular spectrum of spontaneous mutations in <i>Arabidopsis thaliana</i>. <i>Science</i> 327, 92&#x2013;94. doi: 10.1126/science.1180677</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/20044577" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1126/science.1180677" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=The+rate+and+molecular+spectrum+of+spontaneous+mutations+in+Arabidopsis+thaliana%2E&#x0026;journal=Science&#x0026;author=Ossowski+S.&#x0026;author=Schneeberger+K.&#x0026;author=Lucas-Lled&#x00F3;+J.+I.&#x0026;author=Warthmann+N.&#x0026;author=Clark+R.+M.&#x0026;author=Shaw+R.+G.&#x0026;publication_year=2010&#x0026;volume=327&#x0026;pages=92&#x2013;94" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B43" id="B43"></a>Ou, S., and Jiang, N. (2018). LTR_retriever: a highly accurate and sensitive program for identification of long terminal repeat retrotransposons. <i>Plant Physiol.</i> 176, 1410&#x2013;1422. doi: 10.1104/pp.17.01310</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/29233850" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1104/pp.17.01310" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=LTR%5Fretriever%3A+a+highly+accurate+and+sensitive+program+for+identification+of+long+terminal+repeat+retrotransposons%2E&#x0026;journal=Plant+Physiol%2E&#x0026;author=Ou+S.&#x0026;author=Jiang+N.&#x0026;publication_year=2018&#x0026;volume=176&#x0026;pages=1410&#x2013;1422" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B44" id="B44"></a>Pang, Q., Hays, J. B., Rajagopal, I., and Schaefer, T. S. (1993). Selection of <i>Arabidopsis</i> cDNAs that partially correct phenotypes of <i>Escherichia coli</i> DNA-damage-sensitive mutants and analysis of two plant cDNAs that appear to express UV-specific dark repari activities. <i>Plant Mol. Biol.</i> 22, 411&#x2013;426. doi: 10.1007/bf00015972</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/8329681" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1007/bf00015972" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Selection+of+Arabidopsis+cDNAs+that+partially+correct+phenotypes+of+Escherichia+coli+DNA-damage-sensitive+mutants+and+analysis+of+two+plant+cDNAs+that+appear+to+express+UV-specific+dark+repari+activities%2E&#x0026;journal=Plant+Mol%2E+Biol%2E&#x0026;author=Pang+Q.&#x0026;author=Hays+J.+B.&#x0026;author=Rajagopal+I.&#x0026;author=Schaefer+T.+S.&#x0026;publication_year=1993&#x0026;volume=22&#x0026;pages=411&#x2013;426" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B45" id="B45"></a>Qiu, Q., Zhang, G., Ma, T., Qian, W., Ye, Z., Cao, C., et al. (2012). The yak genome and adaptation to life at high altitude. <i>Nat. Genet.</i> 44, 946&#x2013;949.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?&#x0026;title=The+yak+genome+and+adaptation+to+life+at+high+altitude%2E&#x0026;journal=Nat%2E+Genet%2E&#x0026;author=Qiu+Q.&#x0026;author=Zhang+G.&#x0026;author=Ma+T.&#x0026;author=Qian+W.&#x0026;author=Ye+Z.&#x0026;author=Cao+C.&#x0026;publication_year=2012&#x0026;volume=44&#x0026;pages=946&#x2013;949" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B46" id="B46"></a>Shen, L., Fang, C., Wang, J., Sa, L., and Yang, L. (2009). The effect of <i>megacarpaea delavayi</i> franch on intestinal propulsive and gastric emptying function in mice. <i>J. Dali Univ.</i> 8, 8&#x2013;10.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?&#x0026;title=The+effect+of+megacarpaea+delavayi+franch+on+intestinal+propulsive+and+gastric+emptying+function+in+mice%2E&#x0026;journal=J%2E+Dali+Univ%2E&#x0026;author=Shen+L.&#x0026;author=Fang+C.&#x0026;author=Wang+J.&#x0026;author=Sa+L.&#x0026;author=Yang+L.&#x0026;publication_year=2009&#x0026;volume=8&#x0026;pages=8&#x2013;10" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B47" id="B47"></a>Slotte, T., Hazzouri, K. M., &#x00C5;gren, J. A., Koenig, D., Maumus, F., Guo, Y. L., et al. (2013). The <i>Capsella rubella</i> genome and the genomic consequences of rapid mating system evolution. <i>Nat. Genet.</i> 45, 831&#x2013;835. doi: 10.1038/ng.2669</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/23749190" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1038/ng.2669" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=The+Capsella+rubella+genome+and+the+genomic+consequences+of+rapid+mating+system+evolution%2E&#x0026;journal=Nat%2E+Genet%2E&#x0026;author=Slotte+T.&#x0026;author=Hazzouri+K.+M.&#x0026;author=&#x00C5;gren+J.+A.&#x0026;author=Koenig+D.&#x0026;author=Maumus+F.&#x0026;author=Guo+Y.+L.&#x0026;publication_year=2013&#x0026;volume=45&#x0026;pages=831&#x2013;835" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B48" id="B48"></a>Smit, A. F. A., and Hubley, R. (2008). <i>RepeatModeler Open-1.0.</i> Available online at: <a href="http://www.repeatmasker.org/">http://www.repeatmasker.org/</a> (accessed November 24, 2017).</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?&#x0026;journal=RepeatModeler+Open-1%2E0%2E&#x0026;author=Smit+A.+F.+A.&#x0026;author=Hubley+R.&#x0026;publication_year=2008" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B49" id="B49"></a>Soltis, P. S., and Soltis, D. E. (2016). Ancient WGD events as drivers of key innovations in angiosperms. <i>Curr. Opin. Plant Biol.</i> 30, 159&#x2013;165. doi: 10.1016/j.pbi.2016.03.015</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/27064530" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/j.pbi.2016.03.015" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Ancient+WGD+events+as+drivers+of+key+innovations+in+angiosperms%2E&#x0026;journal=Curr%2E+Opin%2E+Plant+Biol%2E&#x0026;author=Soltis+P.+S.&#x0026;author=Soltis+D.+E.&#x0026;publication_year=2016&#x0026;volume=30&#x0026;pages=159&#x2013;165" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B50" id="B50"></a>Stamatakis, A. (2014). RAxML version 8: A tool for phylogenetic analysis and post-analysis of large phylogenies. <i>Bioinformatics</i> 30, 1312&#x2013;1313. doi: 10.1093/bioinformatics/btu033</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/24451623" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/bioinformatics/btu033" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=RAxML+version+8%3A+A+tool+for+phylogenetic+analysis+and+post-analysis+of+large+phylogenies%2E&#x0026;journal=Bioinformatics&#x0026;author=Stamatakis+A.&#x0026;publication_year=2014&#x0026;volume=30&#x0026;pages=1312&#x2013;1313" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B51" id="B51"></a>Stanke, M., Keller, O., Gunduz, I., Hayes, A., Waack, S., and Morgenstern, B. (2006). AUGUSTUS<i>: A b</i> initio prediction of alternative transcripts. <i>Nucleic Acids Res.</i> 34, W435&#x2013;W439.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?&#x0026;title=AUGUSTUS%3A+A+b+initio+prediction+of+alternative+transcripts%2E&#x0026;journal=Nucleic+Acids+Res%2E&#x0026;author=Stanke+M.&#x0026;author=Keller+O.&#x0026;author=Gunduz+I.&#x0026;author=Hayes+A.&#x0026;author=Waack+S.&#x0026;author=Morgenstern+B.&#x0026;publication_year=2006&#x0026;volume=34&#x0026;pages=W435&#x2013;W439" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B52" id="B52"></a>Tarailo-Graovac, M., and Chen, N. (2009). Using RepeatMasker to identify repetitive elements in genomic sequences. <i>Curr. Protoc. Bioinform.</i> 25, 4&#x2013;10.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Using+RepeatMasker+to+identify+repetitive+elements+in+genomic+sequences%2E&#x0026;journal=Curr%2E+Protoc%2E+Bioinform%2E&#x0026;author=Tarailo-Graovac+M.&#x0026;author=Chen+N.&#x0026;publication_year=2009&#x0026;volume=25&#x0026;pages=4&#x2013;10" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B53" id="B53"></a>Walker, J. F., Yang, Y., Moore, M. J., Mikenas, J., Timoneda, A., Brockington, S. F., et al. (2017). Widespread paleopolyploidy, gene tree conflict, and recalcitrant relationships among the carnivorous Caryophyllales. <i>Am. J. Bot.</i> 104, 858&#x2013;867. doi: 10.3732/ajb.1700083</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/28634254" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.3732/ajb.1700083" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Widespread+paleopolyploidy%2C+gene+tree+conflict%2C+and+recalcitrant+relationships+among+the+carnivorous+Caryophyllales%2E&#x0026;journal=Am%2E+J%2E+Bot%2E&#x0026;author=Walker+J.+F.&#x0026;author=Yang+Y.&#x0026;author=Moore+M.+J.&#x0026;author=Mikenas+J.&#x0026;author=Timoneda+A.&#x0026;author=Brockington+S.+F.&#x0026;publication_year=2017&#x0026;volume=104&#x0026;pages=858&#x2013;867" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B54" id="B54"></a>Wang, X., Wang, H., Wang, J., Sun, R., Wu, J., Liu, S., et al. (2011). The genome of the mesopolyploid crop species <i>Brassica rapa</i>. <i>Nat. Genet.</i> 43, 1035&#x2013;1040.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?&#x0026;title=The+genome+of+the+mesopolyploid+crop+species+Brassica+rapa%2E&#x0026;journal=Nat%2E+Genet%2E&#x0026;author=Wang+X.&#x0026;author=Wang+H.&#x0026;author=Wang+J.&#x0026;author=Sun+R.&#x0026;author=Wu+J.&#x0026;author=Liu+S.&#x0026;publication_year=2011&#x0026;volume=43&#x0026;pages=1035&#x2013;1040" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B55" id="B55"></a>Wang, Y., Tang, H., Debarry, J. D., Tan, X., Li, J., Wang, X., et al. (2012). MCScanX: a toolkit for detection and evolutionary analysis of gene synteny and collinearity. <i>Nucleic Acids Res.</i> 40:e49. doi: 10.1093/nar/gkr1293</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/22217600" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/nar/gkr1293" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=MCScanX%3A+a+toolkit+for+detection+and+evolutionary+analysis+of+gene+synteny+and+collinearity%2E&#x0026;journal=Nucleic+Acids+Res%2E&#x0026;author=Wang+Y.&#x0026;author=Tang+H.&#x0026;author=Debarry+J.+D.&#x0026;author=Tan+X.&#x0026;author=Li+J.&#x0026;author=Wang+X.&#x0026;publication_year=2012&#x0026;volume=40&#x0026;issue=e49" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B56" id="B56"></a>Waterhouse, R. M., Seppey, M., Simao, F. A., Manni, M., Ioannidis, P., Klioutchnikov, G., et al. (2018). BUSCO applications from quality assessments to gene prediction and phylogenomics. <i>Mol. Biol. Evol.</i> 35, 543&#x2013;548. doi: 10.1093/molbev/msx319</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/29220515" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/molbev/msx319" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=BUSCO+applications+from+quality+assessments+to+gene+prediction+and+phylogenomics%2E&#x0026;journal=Mol%2E+Biol%2E+Evol%2E&#x0026;author=Waterhouse+R.+M.&#x0026;author=Seppey+M.&#x0026;author=Simao+F.+A.&#x0026;author=Manni+M.&#x0026;author=Ioannidis+P.&#x0026;author=Klioutchnikov+G.&#x0026;publication_year=2018&#x0026;volume=35&#x0026;pages=543&#x2013;548" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B57" id="B57"></a>Willing, E. M., Rawat, V., Mand&#x00E1;kov&#x00E1;, T., Maumus, F., James, G. V., Nordstr&#x00F6;m, K. J. V., et al. (2015). Genome expansion of <i>Arabis alpina</i> linked with retrotransposition and reduced symmetric DNA methylation. <i>Nat. Plants</i> 1, 1&#x2013;7.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Genome+expansion+of+Arabis+alpina+linked+with+retrotransposition+and+reduced+symmetric+DNA+methylation%2E&#x0026;journal=Nat%2E+Plants&#x0026;author=Willing+E.+M.&#x0026;author=Rawat+V.&#x0026;author=Mand&#x00E1;kov&#x00E1;+T.&#x0026;author=Maumus+F.&#x0026;author=James+G.+V.&#x0026;author=Nordstr&#x00F6;m+K.+J.+V.&#x0026;publication_year=2015&#x0026;volume=1&#x0026;pages=1&#x2013;7" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B58" id="B58"></a>Wu, H., Ma, T., Kang, M., Ai, F., Zhang, J., Dong, G., et al. (2019). A high-quality <i>Actinidia chinensis</i> (kiwifruit) genome. <i>Hortic. Res.</i> 6, 1&#x2013;9.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?&#x0026;title=A+high-quality+Actinidia+chinensis+%28kiwifruit%29+genome%2E&#x0026;journal=Hortic%2E+Res%2E&#x0026;author=Wu+H.&#x0026;author=Ma+T.&#x0026;author=Kang+M.&#x0026;author=Ai+F.&#x0026;author=Zhang+J.&#x0026;author=Dong+G.&#x0026;publication_year=2019&#x0026;volume=6&#x0026;pages=1&#x2013;9" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B59" id="B59"></a>Wu, S., Han, B., and Jiao, Y. (2020). Genetic contribution of paleopolyploidy to adaptive evolution in angiosperms. <i>Mol. Plant</i> 13, 59&#x2013;71. doi: 10.1016/j.molp.2019.10.012</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/31678615" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/j.molp.2019.10.012" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Genetic+contribution+of+paleopolyploidy+to+adaptive+evolution+in+angiosperms%2E&#x0026;journal=Mol%2E+Plant&#x0026;author=Wu+S.&#x0026;author=Han+B.&#x0026;author=Jiao+Y.&#x0026;publication_year=2020&#x0026;volume=13&#x0026;pages=59&#x2013;71" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B60" id="B60"></a>Xing, Y., Liu, Y., Zhang, Q., Nie, X., Sun, Y., Zhang, Z., et al. (2019). Hybrid de novo genome assembly of Chinese chestnut (<i>Castanea mollissima</i>). <i>Gigascience</i> 8:giz112.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Hybrid+de+novo+genome+assembly+of+Chinese+chestnut+%28Castanea+mollissima%29%2E&#x0026;journal=Gigascience&#x0026;author=Xing+Y.&#x0026;author=Liu+Y.&#x0026;author=Zhang+Q.&#x0026;author=Nie+X.&#x0026;author=Sun+Y.&#x0026;author=Zhang+Z.&#x0026;publication_year=2019&#x0026;volume=8&#x0026;issue=giz112" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B61" id="B61"></a>Xu, H., Luo, X., Qian, J., Pang, X., Song, J., Qian, G., et al. (2012). FastUniq: a fast de novo duplicates removal tool for paired short reads. <i>PLoS One</i> 7:e52249. doi: 10.1371/journal.pone.0052249</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/23284954" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1371/journal.pone.0052249" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=FastUniq%3A+a+fast+de+novo+duplicates+removal+tool+for+paired+short+reads%2E&#x0026;journal=PLoS+One&#x0026;author=Xu+H.&#x0026;author=Luo+X.&#x0026;author=Qian+J.&#x0026;author=Pang+X.&#x0026;author=Song+J.&#x0026;author=Qian+G.&#x0026;publication_year=2012&#x0026;volume=7&#x0026;issue=e52249" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B62" id="B62"></a>Xu, Z., and Wang, H. (2007). LTR-FINDER: an efficient tool for the prediction of full-length LTR retrotransposons. <i>Nucleic Acids Res.</i> 35, W265&#x2013;W268.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?&#x0026;title=LTR-FINDER%3A+an+efficient+tool+for+the+prediction+of+full-length+LTR+retrotransposons%2E&#x0026;journal=Nucleic+Acids+Res%2E&#x0026;author=Xu+Z.&#x0026;author=Wang+H.&#x0026;publication_year=2007&#x0026;volume=35&#x0026;pages=W265&#x2013;W268" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B63" id="B63"></a>Yang, Z. (2007). PAML 4: phylogenetic analysis by maximum likelihood. <i>Mol. Biol. Evol.</i> 24, 1586&#x2013;1591. doi: 10.1093/molbev/msm088</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/17483113" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/molbev/msm088" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=PAML+4%3A+phylogenetic+analysis+by+maximum+likelihood%2E&#x0026;journal=Mol%2E+Biol%2E+Evol%2E&#x0026;author=Yang+Z.&#x0026;publication_year=2007&#x0026;volume=24&#x0026;pages=1586&#x2013;1591" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B64" id="B64"></a>Zeng, X., Yuan, H., Dong, X., Peng, M., Jing, X., Xu, Q., et al. (2019). Genome-wide Dissection of Co-selected UV-B Responsive Pathways in the UV-B Adaptation of Qingke. <i>Mol. Plant</i> 13, 112&#x2013;127. doi: 10.1016/j.molp.2019.10.009</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/31669581" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/j.molp.2019.10.009" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Genome-wide+Dissection+of+Co-selected+UV-B+Responsive+Pathways+in+the+UV-B+Adaptation+of+Qingke%2E&#x0026;journal=Mol%2E+Plant&#x0026;author=Zeng+X.&#x0026;author=Yuan+H.&#x0026;author=Dong+X.&#x0026;author=Peng+M.&#x0026;author=Jing+X.&#x0026;author=Xu+Q.&#x0026;publication_year=2019&#x0026;volume=13&#x0026;pages=112&#x2013;127" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B65" id="B65"></a>Zhang, J., Tian, Y., Yan, L., Zhang, G., Wang, X., Zeng, Y., et al. (2016). Genome of plant maca (<i>Lepidium meyenii</i>) illuminates genomic basis for high-altitude adaptation in the central andes. <i>Mol. Plant</i> 9, 1066&#x2013;1077. doi: 10.1016/j.molp.2016.04.016</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/27174404" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/j.molp.2016.04.016" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Genome+of+plant+maca+%28Lepidium+meyenii%29+illuminates+genomic+basis+for+high-altitude+adaptation+in+the+central+andes%2E&#x0026;journal=Mol%2E+Plant&#x0026;author=Zhang+J.&#x0026;author=Tian+Y.&#x0026;author=Yan+L.&#x0026;author=Zhang+G.&#x0026;author=Wang+X.&#x0026;author=Zeng+Y.&#x0026;publication_year=2016&#x0026;volume=9&#x0026;pages=1066&#x2013;1077" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B66" id="B66"></a>Zhang, T., Hu, Y., Jiang, W., Fang, L., Guan, X., Chen, J., et al. (2015). Sequencing of allotetraploid cotton (<i>Gossypium hirsutum</i> L. acc. TM-1) provides a resource for fiber improvement. <i>Nat. Biotechnol.</i> 33, 531&#x2013;537.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Sequencing+of+allotetraploid+cotton+%28Gossypium+hirsutum+L%2E+acc%2E+TM-1%29+provides+a+resource+for+fiber+improvement%2E&#x0026;journal=Nat%2E+Biotechnol%2E&#x0026;author=Zhang+T.&#x0026;author=Hu+Y.&#x0026;author=Jiang+W.&#x0026;author=Fang+L.&#x0026;author=Guan+X.&#x0026;author=Chen+J.&#x0026;publication_year=2015&#x0026;volume=33&#x0026;pages=531&#x2013;537" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B67" id="B67"></a>Zhang, T., Qiao, Q., Novikova, P. Y., Wang, Q., Yue, J., Guan, Y., et al. (2019). Genome of <i>Crucihimalaya himalaica</i>, a close relative of <i>Arabidopsis</i>, shows ecological adaptation to high altitude. <i>Proc. Natl. Acad. Sci. U.S.A.</i> 116, 7137&#x2013;7146. doi: 10.1073/pnas.1817580116</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/30894495" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1073/pnas.1817580116" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Genome+of+Crucihimalaya+himalaica%2C+a+close+relative+of+Arabidopsis%2C+shows+ecological+adaptation+to+high+altitude%2E&#x0026;journal=Proc%2E+Natl%2E+Acad%2E+Sci%2E+U%2ES%2EA%2E&#x0026;author=Zhang+T.&#x0026;author=Qiao+Q.&#x0026;author=Novikova+P.+Y.&#x0026;author=Wang+Q.&#x0026;author=Yue+J.&#x0026;author=Guan+Y.&#x0026;publication_year=2019&#x0026;volume=116&#x0026;pages=7137&#x2013;7146" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B68" id="B68"></a>Zhang, Z., Chen, Y., Zhang, J., Ma, X., Li, Y., Li, M., et al. (2020). Improved genome assembly provides new insights into genome evolution in a desert poplar (<i>Populus euphratica</i>). <i>Mol. Ecol. Resour.</i> 20, 1&#x2013;14.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Improved+genome+assembly+provides+new+insights+into+genome+evolution+in+a+desert+poplar+%28Populus+euphratica%29%2E&#x0026;journal=Mol%2E+Ecol%2E+Resour%2E&#x0026;author=Zhang+Z.&#x0026;author=Chen+Y.&#x0026;author=Zhang+J.&#x0026;author=Ma+X.&#x0026;author=Li+Y.&#x0026;author=Li+M.&#x0026;publication_year=2020&#x0026;volume=20&#x0026;pages=1&#x2013;14" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B69" id="B69"></a>Zhong, L., Zhang, L. Q., and Lan, M. (2015). Indigenous vegetables in Yunnan Province, China. <i>Acta Hortic.</i> 1102, 89&#x2013;92. doi: 10.17660/actahortic.2015.1102.10</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.17660/actahortic.2015.1102.10" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Indigenous+vegetables+in+Yunnan+Province%2C+China%2E&#x0026;journal=Acta+Hortic%2E&#x0026;author=Zhong+L.&#x0026;author=Zhang+L.+Q.&#x0026;author=Lan+M.&#x0026;publication_year=2015&#x0026;volume=1102&#x0026;pages=89&#x2013;92" target="_blank">Google Scholar</a></p>
+</div>
+</div>
+<div class="thinLineM20"></div>
+<div class="AbstractSummary">
+<p><span>Keywords</span>: <i>Megacarpaea delavayi</i>, genome sequence, alpine adaptation, whole-genome duplication, Brassicaceae</p>
+<p><span>Citation:</span> Yang Q, Bi H, Yang W, Li T, Jiang J, Zhang L, Liu J and Hu Q (2020) The Genome Sequence of Alpine <i>Megacarpaea delavayi</i> Identifies Species-Specific Whole-Genome Duplication. <i>Front. Genet.</i> 11:812. doi: 10.3389/fgene.2020.00812</p>
+<p id="timestamps">
+<span>Received:</span> 30 March 2020; <span>Accepted:</span> 06 July 2020;<br/><span>Published:</span> 03 August 2020.</p>
+<div>
+<p>Edited by:</p>
+<a href="https://loop.frontiersin.org/people/499024/overview">Xiaoming Song</a>, North China University of Science and Technology, China</div>
+<div>
+<p>Reviewed by:</p>
+<a href="https://loop.frontiersin.org/people/190885/overview">Michael Eric Schranz</a>, Wageningen University and Research, Netherlands<br/>
+<a href="https://loop.frontiersin.org/people/346754/overview">Jingyin Yu</a>, Boyce Thompson Institute, United States</div>
+<p><span>Copyright</span> &#x00A9; 2020 Yang, Bi, Yang, Li, Jiang, Zhang, Liu and Hu. This is an open-access article distributed under the terms of the <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution License (CC BY)</a>. The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.</p>
+<p><span>*Correspondence:</span> Quanjun Hu, <a href="mailto:huquanjun@gmail.com">huquanjun@gmail.com</a></p>
+<p><sup>&#x2020;</sup>These authors have contributed equally to this work</p>
+<div class="clear"></div>
+</div>                
+                <div class="thin-line-dark"></div>
+                    <div class="social-feed"></div>
+                    <div class="container-bordered comment-list social-feed">
+                        <div class="container-comments">                           
+                        </div>
+
+                        <div class="loading-wrapper" style="padding-left: 49%">
+                            <img style="padding-top: 5%; padding-bottom: 5%;" src="/areas/research-topics/Content/Images/frontiers/common/icon/loading.gif" alt="Loading.." />
+                        </div>                       
+                    </div>
+
+            </div>
+        </div>
+    </div>
+</main>
+
+            <div class="clearfix visible-sm"></div>
+
+            
+    <div class="c col-xs-12 col-sm-12 col-lg-2 col-md-3 pull-right side-article related right-container-articles" style="clear: right !important">
+        
+        <article class="widget-listing commentary-article hidden">
+            <h5 class="like-h4">COMMENTARY</h5>
+        </article>
+
+        <article class="widget-listing original-article hidden">
+            <h5 class="like-h4">ORIGINAL ARTICLE</h5>
+        </article>
+
+        <article class="widget-listing people-also-looked-at side-article-related hidden">
+            <h5 class="like-h4">People also looked at</h5>
+        </article>
+            <div class="side-article-mrk clearfix hidden-md hidden-lg">
+                <p style="text-align: center;"><a href="https://spotlight.frontiersin.org/submit?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=rtlg_2020_gen"><img src="https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/article-marketing-message-79982763-254d-4bb6-96b8-126758de1166.png" alt="" /><br /></a></p>
+<p style="text-align: center;"><a href="https://spotlight.frontiersin.org/submit?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=rtlg_2020_gen"><strong>Suggest a Research Topic &gt;</strong></a></p>
+            </div>
+
+
+    </div>
+
+
+        </div>
+    </div>
+</div>
+<div id="divTemplates">
+    <div class="modal fade modal-container impact-modal-container" data-backdrop="static" id="impactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+</div>
+
+
+
+
+
+    <div class="modal fade modal-container supplementary-modal-container"
+     data-backdrop="static"
+     data-keyboard="false"
+     id="supplementaryFilesModal"
+     tabindex="-1" role="dialog"
+     aria-labelledby="mySupplementaryModalLabel"
+     aria-hidden="true">
+</div>
+
+
+
+
+<script type="text/template" id="template-supplementary-files-modal">
+    <div class="supplementary-material-wrapper modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <a class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a>
+                <h4>Supplementary Material</h4><br>
+                <p class="supplementary-empty-message">There is no supplementary material currently available for this article</p>
+                <div class="loading-wrapper"
+                     id="loader"
+                     style="display:none">
+                    Loading supplemental data...
+                    <img style="" src="/Areas/Articles/Images/Icon/loading.gif" alt="Loading.." />
+                </div>
+                <br />
+                <div class="table-responsive" id="localFiles">
+                </div>
+                <div id="figshare-widget-container">
+
+                </div>
+            </div>
+            <br />
+            <div class="modal-footer bottom-links">
+                <a class="btn btn-default" data-dismiss="modal">Close</a>
+            </div>
+        </div>
+
+    </div>
+</script>
+
+
+
+
+
+<script type="text/template" id="template-local-files-modal">
+    <table class="table table-striped supplementary-content" id="localFilesTable">
+        <thead>
+            <tr>
+                <th>&nbsp;</th>
+                <th>File Name</th>
+                <th>&nbsp;</th>
+            </tr>
+        </thead>
+        <tbody class="file-content">
+            <% _.each(supplimentalFileDetails.FileDetails, function(fileViewModel){   %>
+            <tr>
+                <th scope="row"><a data-test-id="<%= fileViewModel.TestId %>" href="<%= fileViewModel.FileDownloadUrl %>"><img class="img-figure" src="<%= fileViewModel.ImageUrl %>"></a></th>
+                <td>
+                    <a  href="<%= fileViewModel.FileDownloadUrl %>">
+                        <%= fileViewModel.FileName %>
+                    </a>
+                </td>
+                <td><a  href="<%= fileViewModel.FileDownloadUrl %>" class="btn-link"><i class="fa fa-download" aria-hidden="true"></i></a></td>
+            </tr>
+            <% }); %>
+        </tbody>
+    </table>
+</script>
+
+
+
+
+
+
+
+    <div class="modal fade modal-container notifyme-modal-container" data-backdrop="static" id="notifyModal" tabindex="-1" role="dialog" aria-labelledby="Notify on publication" aria-hidden="true">
+</div>
+
+
+
+<script type="text/template" id="template-notify-me-modal">
+    <div class="modal-f page-container simple-modal" role="dialog" aria-labelledby="NotfifyMeModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <form onsubmit="return false" id="modalnotifyme">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                            <h3>Notify me on publication</h3>
+                        </div>
+                        <div class="modal-body">
+
+                            <div class="form-group">
+                                <label>Please enter your email address:</label>
+                            <input type="email" required class="form-control" id="txt_notification_email_id" placeholder="Email">
+                            </div>
+
+                        <div class="g-recaptcha" id="recaptcha"></div><br />
+
+                        <p class="small" style="color: #555;">If you already have an account, please <a href="<%=login.FrontiersLoginUrl%>?returnUrl=<%=currentPage%>" class="text-blue">login</a>.</p>
+                        <p class="small" style="color: #555;">You don't have a Frontiers account ? You can <a href="<%=login.FrontiersRegistrationUrl%>" class="text-blue">register here</a>.</p>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" id="article_notify_non_registered_user" class="btn btn-default btn-progress" style="width: 118px; visibility:hidden;">Notify me</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+</script>
+
+<script type="text/template" id="template-notifyme-mailselection-modal">
+    <div class="modal-f page-container simple-modal" tabindex="-1" role="dialog" aria-labelledby="NotfifyMeModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h3>Select one of your emails</h3>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label>You have multiple emails registered with Frontiers:</label>
+                        </div>
+                                           
+                        <% _.each(userEmailList, function(user){   %>
+                        <input type="radio" value="<%=user%>" name="notify_Emailcollection"> <%=user%><br>
+                        <% }); %>
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="article_notify_loggedin_user" class="btn btn-default btn-progress" style="width: 118px;">Notify me</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</script>
+
+<script type="text/template" id="template_notifyme_error_modal">
+    <div class="modal-f page-container simple-modal" tabindex="-1" role="dialog" aria-labelledby="NotfifyMeModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h3>Notify me on publication</h3>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <p class="text-red"><strong><%=message%></strong></p>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" data-dismiss="modal" class="btn btn-default btn-progress" style="width: 118px;">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+
+
+
+
+
+
+
+    
+
+<script type="text/template" id="template-article-comments">
+
+    <div class="w100pc float_left CommentsHolder" id="div_article_comment_holder">
+        <% if(journalComments.Count !=0) { %>
+        <div id="divActivityBox" class="commentBox bubbleInfo " style="z-index: 300;">
+            <div class="float_left w100pc divActivityBox">
+                <p id="pAllUsers" class="pb0 float_left w581 pAllUsers">
+                    <a id="aAllUsers" href="javascript:void(0);" class="fontnormal trigger">
+                        <%- journalComments.Count %> Comments
+                    </a> <%= journalComments.CommentedUsers %>
+                </p>
+            </div>
+        </div>
+        <% } %>
+
+        <% _.each( journalComments.Comments, function( comment ){ %>
+
+        <div class="commentBox">
+
+            <% if (comment.IsDeleted) {%>
+
+            <div class="wrapper pt4 pb4">
+                <div class="imgHolder mr10"> <!--<a  class="fontnormal">--><img width="32" src="/Areas/Articles/Design/Images/default_profile_32.jpg" onerror="if (!this.src.endsWith('/Areas/Articles/Design/Images/default_profile_32.jpg')) this.src='/Areas/Articles/Design/Images/default_profile_32.jpg';" alt=""><!--</a>--></div>
+                <div class="content w555">
+                    <!-- <p class="mtm3" style='word-wrap:break-word'><a  class="fontnormal">User</a> </p>-->
+                    <p class="mtm3">User</p><ul class="toolbar mt4 disblk w100pc">
+                        <li class="pl0">
+                            <p class="date">Comment deleted on <%- GetFormattedCommentDeletedDate(comment.CommentedDate) %></p>
+                        </li>
+                        <li class="float_right pr0"></li>
+                    </ul>
+                </div>
+            </div>
+
+            <% } else {%>
+
+            <div class="wrapper pt4 pb4">
+                <div class="imgHolder mr10"> <a class="fontnormal" data-test-id="article_commenteduser_profileimage_link" href="<%- comment.CommentedUser.ProfileUrl %>"><img src="<%- comment.CommentedUser.ThumbnailUrl %>" onerror="if (!this.src.endsWith('/Areas/Articles/Images/Frontiers/Common/Profile/default_profile_32.jpg')) this.src='/Areas/Articles/Images/Frontiers/Common/Profile/default_profile_32.jpg';" alt=""></a></div>
+                <div class="content w555 comment-body">
+                    <p class="mtm3" style="word-wrap:break-word">
+                        <a class="fontnormal" data-test-id="article_commenteduser_profile_link" href="<%- comment.CommentedUser.ProfileUrl %>">
+                            <%- comment.CommentedUser.FullName %>
+                        </a>
+                        <span class="comment-text"><%= comment.Comment %></span>
+                    </p>
+                    <ul class="toolbar mt4 disblk w100pc">
+                        <li class="pl0"><p class="date"><%- GetFormattedCommentDate(comment.CommentedDate) %></p></li>
+                        <% if (comment.IsEditVisible)
+                        { %>
+                        <li>|</li>
+                        <li><a href="javascript:void(0);" data-test-id="article_comment_edit_link" class="fontnormal btn-edit-comment" id="btnEditcom" data-comment-id="<%- comment.CommentId %>">Edit</a></li>
+                        <% } %>
+                        <% if (comment.IsDeleteVisible)
+                        { %>
+                        <li>|</li>
+                        <li><a href="javascript:void(0);" data-test-id="article_comment_delete_link" class="fontnormal btn-delete-comment" id="btnDeletecom" data-comment-id="<%- comment.CommentId %>">Delete</a></li>
+                        <% }%>
+                        <li class="float_right pr0"></li>
+                    </ul>
+                </div>
+            </div>
+            <% }%>
+        </div>
+
+        <%  }); %>
+    </div>
+
+    <div id="div_add_comment" class="commentBox">
+        <div class="imgTn32"
+             style="display: none;">
+            <% if(journalComments.LoginUserId !=0) { %>
+            <img src="<%- journalComments.LoggedInUserInfo.ThumbnailUrl %>" alt=""
+                 onerror="if (!this.src.endsWith('/Areas/Articles/Images/Frontiers/Common/Profile/default_profile_32.jpg')) this.src='/Areas/Articles/Images/Frontiers/Common/Profile/default_profile_32.jpg';">
+            <% } else {%>
+            <img src="/Areas/Articles/Design/Images/default_profile_32.jpg" alt=""
+                 onerror="if (!this.src.endsWith('/Areas/Articles/Images/Frontiers/Common/Profile/default_profile_32.jpg')) this.src='/Areas/Articles/Images/Frontiers/Common/Profile/default_profile_32.jpg';">
+            <% }%>
+
+        </div>
+        <div class="wrapper pt4 pb4 wAuto">
+            <textarea onfocus="showUserImageOnAdd(this)"
+                      onblur="hideUserImage(this)"
+                      id="txt_comment"
+                      cols=""
+                      rows="1"
+                      style="overflow: hidden; word-wrap: break-word; resize: horizontal;"
+                      data-test-id="article_comment_add_textarea"
+                      class="write setfocus autoext w535 frUIResizeTextArea comment-textarea is-ui animated-resize grey_90">Write a comment...</textarea>
+        </div>
+        <div class="commentAddWrap">
+            <div>
+                <a class="addBtnComment" data-test-id="article_comment_add_button"  onclick="javascript:AddComments(this);" href="javascript:void(0);" id="btnAddcom"><span>Add</span></a>
+            </div>
+        </div>
+    </div>
+
+
+</script>
+
+<script type="text/template" id="template-article-comments-warning">
+    <div class="commentBox">
+        <div class="wrapper">
+            <p class="comment-warning">The comment section has been closed.</p>
+        </div>
+    </div>
+</script>
+
+<script type="text/template" id="template-article-edit-comments">
+
+
+    <div id="edit-comment-form" class="wrapper pt4 pb4 wAuto edit-comments">
+        <textarea class="txt-comment"
+                  onfocus="showUserImageOnEdit(this)"
+                  onblur="hideUserImage(this)"
+                  data-test-id="article_comment_edit_textarea"
+                  rows="3"><%= commentText %> </textarea>
+        <div>
+            <a class="btn btn-add-comment addBtnComment" data-test-id="article_comment_edit_button" data-comment-id="<%- commentId %>">Add</a>
+        </div>
+    </div>
+
+</script>
+
+
+
+</div>
+
+    </div>
+
+        <div data-navigation-plugin="footer"></div>
+        <script src="https://static.frontiersin.org/navigation-plugins/footer/js"></script>
+
+    <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+
+    <script src="/areas/articles/scripts/frontiers/common/frontiers.banners-1.0.js"></script>
+
+<script src="https://code.jquery.com/ui/1.10.2/jquery-ui.min.js"></script>
+<script src="https://crossmark.crossref.org/javascripts/v1.5/crossmark.min.js"></script>
+        <script type="text/javascript">
+
+            var $ = jQuery.noConflict(); //==>>ToDo: Avoid this..!!
+        </script>
+
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+    <script src="https://static.frontiersin.org/areas/articles/js/vendors?v=ygjL-ZM7HLAoWWjVcHqPBLlSjGooDB3IHD1kVXFmvmI1"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+ 
+<script src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
+    <script src="https://static.frontiersin.org/areas/articles/js/frontiers?v=4c3spupE-VFg577OoPHsSr4WEf6T5hs_2nCv5fPKVdA1"></script>
+
+
+    <script type="text/javascript">
+
+        var FRArticle = (function() {
+            return {
+                ArticleId: '547001',
+                DOI:'10.3389/fgene.2020.00812',
+                LoginUserId: '0',
+                DomainId: '1',
+                FieldId: '30',
+                SpecialityId: '1964',
+                IsPreview: FRSafe.boolean('False'),
+                IsViewImpactFromLoop: FRSafe.boolean('False'),
+                IsPublished: 'True',
+                FigShareApiUrl: 'https://api.figshare.com/v2/collections/search',
+                FigShareTimeOut: '3000'
+            };
+        })();
+
+        var FRSocial = (function() {
+            return {
+                itemId: 14,
+                itemTypeId: 1,
+                entityId: '547001',
+                ownerId: '374792',
+                sanPath: 'https://www.frontiersin.org/files/',
+                subItemId: '8',
+                loginUserId: '0',
+                ownerNWDBId: '23',
+                pageType: 1,
+                loopUrl:'https://loop.frontiersin.org'
+            };
+        })();
+    </script>
+
+    <script>
+        var FRAjaxSettings = (function () {
+
+            function urlLowercase() {
+                $.ajaxSetup({
+                    beforeSend: function (jqXHR, settings) {
+                        settings.url = settings.url.toLowerCase();
+                    }
+                });
+            }
+
+            return { urlLowercase: urlLowercase };
+        })();
+
+        FRAjaxSettings.urlLowercase();
+    </script>
+
+    <script src="https://static.frontiersin.org/areas/articles/js/schema?v=13am1aL5JpCh_IIFOIFRdlFySxVv16JLaVykDEyHCu81"></script>
+
+
+
+    
+    <script src="/areas/articles/js/app?v=UqywkE0AkDO6E3V0irIiBz8giFUKKVUi57o1J1h1S2g1"></script>
+
+    <script src="https://widgets.figshare.com/static/figshare.js"></script>
+
+
+    <script>
+        (function () {
+            console.log("Script executed after FigShareWidget");
+        })();
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,1186 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html
+      xmlns="http://www.w3.org/1999/xhtml"
+      xml:lang="en"
+      lang="en">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>The genome of the pear (Pyrus bretschneideri Rehd.) </title>
+      <meta name="googlebot" content="NOODP" />
+      <meta name="description"
+            content="An international, peer-reviewed genome sciences journal featuring outstanding original research that offers novel insights into the biology of all organisms" />
+      <meta content="/genome/23/2/396.atom" name="HW.identifier" />
+      <meta name="DC.Format" content="text/html" />
+      <meta name="DC.Language" content="en" />
+      <meta content="The genome of the pear (Pyrus bretschneideri Rehd.)" name="DC.Title" />
+      <meta content="10.1101/gr.144311.112" name="DC.Identifier" />
+      <meta content="2013-02-01" name="DC.Date" />
+      <meta content="Cold Spring Harbor Laboratory Press" name="DC.Publisher" />
+      <meta content="Jun Wu" name="DC.Contributor" />
+      <meta content="Zhiwen Wang" name="DC.Contributor" />
+      <meta content="Zebin Shi" name="DC.Contributor" />
+      <meta content="Shu Zhang" name="DC.Contributor" />
+      <meta content="Ray Ming" name="DC.Contributor" />
+      <meta content="Shilin Zhu" name="DC.Contributor" />
+      <meta content="M. Awais Khan" name="DC.Contributor" />
+      <meta content="Shutian Tao" name="DC.Contributor" />
+      <meta content="Schuyler S. Korban" name="DC.Contributor" />
+      <meta content="Hao Wang" name="DC.Contributor" />
+      <meta content="Nancy J. Chen" name="DC.Contributor" />
+      <meta content="Takeshi Nishio" name="DC.Contributor" />
+      <meta content="Xun Xu" name="DC.Contributor" />
+      <meta content="Lin Cong" name="DC.Contributor" />
+      <meta content="Kaijie Qi" name="DC.Contributor" />
+      <meta content="Xiaosan Huang" name="DC.Contributor" />
+      <meta content="Yingtao Wang" name="DC.Contributor" />
+      <meta content="Xiang Zhao" name="DC.Contributor" />
+      <meta content="Juyou Wu" name="DC.Contributor" />
+      <meta content="Cao Deng" name="DC.Contributor" />
+      <meta content="Caiyun Gou" name="DC.Contributor" />
+      <meta content="Weili Zhou" name="DC.Contributor" />
+      <meta content="Hao Yin" name="DC.Contributor" />
+      <meta content="Gaihua Qin" name="DC.Contributor" />
+      <meta content="Yuhui Sha" name="DC.Contributor" />
+      <meta content="Ye Tao" name="DC.Contributor" />
+      <meta content="Hui Chen" name="DC.Contributor" />
+      <meta content="Yanan Yang" name="DC.Contributor" />
+      <meta content="Yue Song" name="DC.Contributor" />
+      <meta content="Dongliang Zhan" name="DC.Contributor" />
+      <meta content="Juan Wang" name="DC.Contributor" />
+      <meta content="Leiting Li" name="DC.Contributor" />
+      <meta content="Meisong Dai" name="DC.Contributor" />
+      <meta content="Chao Gu" name="DC.Contributor" />
+      <meta content="Yuezhi Wang" name="DC.Contributor" />
+      <meta content="Daihu Shi" name="DC.Contributor" />
+      <meta content="Xiaowei Wang" name="DC.Contributor" />
+      <meta content="Huping Zhang" name="DC.Contributor" />
+      <meta content="Liang Zeng" name="DC.Contributor" />
+      <meta content="Danman Zheng" name="DC.Contributor" />
+      <meta content="Chunlei Wang" name="DC.Contributor" />
+      <meta content="Maoshan Chen" name="DC.Contributor" />
+      <meta content="Guangbiao Wang" name="DC.Contributor" />
+      <meta content="Lin Xie" name="DC.Contributor" />
+      <meta content="Valpuri Sovero" name="DC.Contributor" />
+      <meta content="Shoufeng Sha" name="DC.Contributor" />
+      <meta content="Wenjiang Huang" name="DC.Contributor" />
+      <meta content="Shujun Zhang" name="DC.Contributor" />
+      <meta content="Mingyue Zhang" name="DC.Contributor" />
+      <meta content="Jiangmei Sun" name="DC.Contributor" />
+      <meta content="Linlin Xu" name="DC.Contributor" />
+      <meta content="Yuan Li" name="DC.Contributor" />
+      <meta content="Xing Liu" name="DC.Contributor" />
+      <meta content="Qingsong Li" name="DC.Contributor" />
+      <meta content="Jiahui Shen" name="DC.Contributor" />
+      <meta content="Junyi Wang" name="DC.Contributor" />
+      <meta content="Robert E. Paull" name="DC.Contributor" />
+      <meta content="Jeffrey L. Bennetzen" name="DC.Contributor" />
+      <meta content="Jun Wang" name="DC.Contributor" />
+      <meta content="Shaoling Zhang" name="DC.Contributor" />
+      <meta content="Genome Research" name="citation_journal_title" />
+      <meta content="Genome Res." name="citation_journal_abbrev" />
+      <meta content="Cold Spring Harbor Lab" name="citation_publisher" />
+      <meta content="1088-9051" name="citation_issn" />
+      <meta content="1549-5469" name="citation_issn" />
+      <meta name="citation_author" content="Jun Wu" />
+      <meta name="citation_author_institution"
+            content="1Centre of Pear Engineering Technology Research, State Key Laboratory of Crop Genetics and Germplasm Enhancement, Nanjing Agricultural University, Nanjing 210095, China;" />
+      <meta name="citation_author" content="Zhiwen Wang" />
+      <meta name="citation_author_institution"
+            content="2BGI-Shenzhen, Shenzhen 518083, China;" />
+      <meta name="citation_author" content="Zebin Shi" />
+      <meta name="citation_author_institution"
+            content="3Institute of Horticulture, Zhejiang Academy of Agricultural Sciences, Hangzhou 310021, China;" />
+      <meta name="citation_author" content="Shu Zhang" />
+      <meta name="citation_author_institution"
+            content="2BGI-Shenzhen, Shenzhen 518083, China;" />
+      <meta name="citation_author" content="Ray Ming" />
+      <meta name="citation_author_institution" content="4Department of Plant Biology," />
+      <meta name="citation_author" content="Shilin Zhu" />
+      <meta name="citation_author_institution"
+            content="2BGI-Shenzhen, Shenzhen 518083, China;" />
+      <meta name="citation_author" content="M. Awais Khan" />
+      <meta name="citation_author_institution"
+            content="5Department of Natural Resources and Environmental Sciences, University of Illinois, Urbana, Illinois 61801, USA;" />
+      <meta name="citation_author" content="Shutian Tao" />
+      <meta name="citation_author_institution"
+            content="1Centre of Pear Engineering Technology Research, State Key Laboratory of Crop Genetics and Germplasm Enhancement, Nanjing Agricultural University, Nanjing 210095, China;" />
+      <meta name="citation_author" content="Schuyler S. Korban" />
+      <meta name="citation_author_institution"
+            content="5Department of Natural Resources and Environmental Sciences, University of Illinois, Urbana, Illinois 61801, USA;" />
+      <meta name="citation_author" content="Hao Wang" />
+      <meta name="citation_author_institution"
+            content="6Department of Genetics, University of Georgia, Athens, Georgia 30602, USA;" />
+      <meta name="citation_author" content="Nancy J. Chen" />
+      <meta name="citation_author_institution"
+            content="7Department of Tropical Plant and Soil Sciences, University of Hawaii, Honolulu, Hawaii 96822, USA;" />
+      <meta name="citation_author" content="Takeshi Nishio" />
+      <meta name="citation_author_institution"
+            content="8Graduate School of Agricultural Science, Tohoku University, Aoba-ku, Sendai 981-8555, Japan;" />
+      <meta name="citation_author" content="Xun Xu" />
+      <meta name="citation_author_institution"
+            content="2BGI-Shenzhen, Shenzhen 518083, China;" />
+      <meta name="citation_author" content="Lin Cong" />
+      <meta name="citation_author_institution"
+            content="2BGI-Shenzhen, Shenzhen 518083, China;" />
+      <meta name="citation_author" content="Kaijie Qi" />
+      <meta name="citation_author_institution"
+            content="1Centre of Pear Engineering Technology Research, State Key Laboratory of Crop Genetics and Germplasm Enhancement, Nanjing Agricultural University, Nanjing 210095, China;" />
+      <meta name="citation_author" content="Xiaosan Huang" />
+      <meta name="citation_author_institution"
+            content="1Centre of Pear Engineering Technology Research, State Key Laboratory of Crop Genetics and Germplasm Enhancement, Nanjing Agricultural University, Nanjing 210095, China;" />
+      <meta name="citation_author" content="Yingtao Wang" />
+      <meta name="citation_author_institution"
+            content="1Centre of Pear Engineering Technology Research, State Key Laboratory of Crop Genetics and Germplasm Enhancement, Nanjing Agricultural University, Nanjing 210095, China;" />
+      <meta name="citation_author" content="Xiang Zhao" />
+      <meta name="citation_author_institution"
+            content="2BGI-Shenzhen, Shenzhen 518083, China;" />
+      <meta name="citation_author" content="Juyou Wu" />
+      <meta name="citation_author_institution"
+            content="1Centre of Pear Engineering Technology Research, State Key Laboratory of Crop Genetics and Germplasm Enhancement, Nanjing Agricultural University, Nanjing 210095, China;" />
+      <meta name="citation_author" content="Cao Deng" />
+      <meta name="citation_author_institution"
+            content="2BGI-Shenzhen, Shenzhen 518083, China;" />
+      <meta name="citation_author" content="Caiyun Gou" />
+      <meta name="citation_author_institution"
+            content="2BGI-Shenzhen, Shenzhen 518083, China;" />
+      <meta name="citation_author" content="Weili Zhou" />
+      <meta name="citation_author_institution"
+            content="2BGI-Shenzhen, Shenzhen 518083, China;" />
+      <meta name="citation_author" content="Hao Yin" />
+      <meta name="citation_author_institution"
+            content="1Centre of Pear Engineering Technology Research, State Key Laboratory of Crop Genetics and Germplasm Enhancement, Nanjing Agricultural University, Nanjing 210095, China;" />
+      <meta name="citation_author" content="Gaihua Qin" />
+      <meta name="citation_author_institution"
+            content="1Centre of Pear Engineering Technology Research, State Key Laboratory of Crop Genetics and Germplasm Enhancement, Nanjing Agricultural University, Nanjing 210095, China;" />
+      <meta name="citation_author" content="Yuhui Sha" />
+      <meta name="citation_author_institution"
+            content="2BGI-Shenzhen, Shenzhen 518083, China;" />
+      <meta name="citation_author" content="Ye Tao" />
+      <meta name="citation_author_institution"
+            content="2BGI-Shenzhen, Shenzhen 518083, China;" />
+      <meta name="citation_author" content="Hui Chen" />
+      <meta name="citation_author_institution"
+            content="1Centre of Pear Engineering Technology Research, State Key Laboratory of Crop Genetics and Germplasm Enhancement, Nanjing Agricultural University, Nanjing 210095, China;" />
+      <meta name="citation_author" content="Yanan Yang" />
+      <meta name="citation_author_institution"
+            content="1Centre of Pear Engineering Technology Research, State Key Laboratory of Crop Genetics and Germplasm Enhancement, Nanjing Agricultural University, Nanjing 210095, China;" />
+      <meta name="citation_author" content="Yue Song" />
+      <meta name="citation_author_institution"
+            content="1Centre of Pear Engineering Technology Research, State Key Laboratory of Crop Genetics and Germplasm Enhancement, Nanjing Agricultural University, Nanjing 210095, China;" />
+      <meta name="citation_author" content="Dongliang Zhan" />
+      <meta name="citation_author_institution"
+            content="2BGI-Shenzhen, Shenzhen 518083, China;" />
+      <meta name="citation_author" content="Juan Wang" />
+      <meta name="citation_author_institution"
+            content="2BGI-Shenzhen, Shenzhen 518083, China;" />
+      <meta name="citation_author" content="Leiting Li" />
+      <meta name="citation_author_institution"
+            content="1Centre of Pear Engineering Technology Research, State Key Laboratory of Crop Genetics and Germplasm Enhancement, Nanjing Agricultural University, Nanjing 210095, China;" />
+      <meta name="citation_author_institution" content="4Department of Plant Biology," />
+      <meta name="citation_author" content="Meisong Dai" />
+      <meta name="citation_author_institution"
+            content="3Institute of Horticulture, Zhejiang Academy of Agricultural Sciences, Hangzhou 310021, China;" />
+      <meta name="citation_author" content="Chao Gu" />
+      <meta name="citation_author_institution"
+            content="1Centre of Pear Engineering Technology Research, State Key Laboratory of Crop Genetics and Germplasm Enhancement, Nanjing Agricultural University, Nanjing 210095, China;" />
+      <meta name="citation_author" content="Yuezhi Wang" />
+      <meta name="citation_author_institution"
+            content="3Institute of Horticulture, Zhejiang Academy of Agricultural Sciences, Hangzhou 310021, China;" />
+      <meta name="citation_author" content="Daihu Shi" />
+      <meta name="citation_author_institution"
+            content="2BGI-Shenzhen, Shenzhen 518083, China;" />
+      <meta name="citation_author" content="Xiaowei Wang" />
+      <meta name="citation_author_institution"
+            content="2BGI-Shenzhen, Shenzhen 518083, China;" />
+      <meta name="citation_author" content="Huping Zhang" />
+      <meta name="citation_author_institution"
+            content="1Centre of Pear Engineering Technology Research, State Key Laboratory of Crop Genetics and Germplasm Enhancement, Nanjing Agricultural University, Nanjing 210095, China;" />
+      <meta name="citation_author" content="Liang Zeng" />
+      <meta name="citation_author_institution"
+            content="2BGI-Shenzhen, Shenzhen 518083, China;" />
+      <meta name="citation_author" content="Danman Zheng" />
+      <meta name="citation_author_institution"
+            content="5Department of Natural Resources and Environmental Sciences, University of Illinois, Urbana, Illinois 61801, USA;" />
+      <meta name="citation_author" content="Chunlei Wang" />
+      <meta name="citation_author_institution"
+            content="8Graduate School of Agricultural Science, Tohoku University, Aoba-ku, Sendai 981-8555, Japan;" />
+      <meta name="citation_author" content="Maoshan Chen" />
+      <meta name="citation_author_institution"
+            content="2BGI-Shenzhen, Shenzhen 518083, China;" />
+      <meta name="citation_author" content="Guangbiao Wang" />
+      <meta name="citation_author_institution"
+            content="2BGI-Shenzhen, Shenzhen 518083, China;" />
+      <meta name="citation_author" content="Lin Xie" />
+      <meta name="citation_author_institution"
+            content="2BGI-Shenzhen, Shenzhen 518083, China;" />
+      <meta name="citation_author" content="Valpuri Sovero" />
+      <meta name="citation_author_institution"
+            content="9Department of Crop Sciences, University of Illinois, Urbana, Illinois 61801, USA;" />
+      <meta name="citation_author" content="Shoufeng Sha" />
+      <meta name="citation_author_institution"
+            content="1Centre of Pear Engineering Technology Research, State Key Laboratory of Crop Genetics and Germplasm Enhancement, Nanjing Agricultural University, Nanjing 210095, China;" />
+      <meta name="citation_author" content="Wenjiang Huang" />
+      <meta name="citation_author_institution"
+            content="1Centre of Pear Engineering Technology Research, State Key Laboratory of Crop Genetics and Germplasm Enhancement, Nanjing Agricultural University, Nanjing 210095, China;" />
+      <meta name="citation_author" content="Shujun Zhang" />
+      <meta name="citation_author_institution"
+            content="3Institute of Horticulture, Zhejiang Academy of Agricultural Sciences, Hangzhou 310021, China;" />
+      <meta name="citation_author" content="Mingyue Zhang" />
+      <meta name="citation_author_institution"
+            content="1Centre of Pear Engineering Technology Research, State Key Laboratory of Crop Genetics and Germplasm Enhancement, Nanjing Agricultural University, Nanjing 210095, China;" />
+      <meta name="citation_author" content="Jiangmei Sun" />
+      <meta name="citation_author_institution"
+            content="1Centre of Pear Engineering Technology Research, State Key Laboratory of Crop Genetics and Germplasm Enhancement, Nanjing Agricultural University, Nanjing 210095, China;" />
+      <meta name="citation_author" content="Linlin Xu" />
+      <meta name="citation_author_institution"
+            content="1Centre of Pear Engineering Technology Research, State Key Laboratory of Crop Genetics and Germplasm Enhancement, Nanjing Agricultural University, Nanjing 210095, China;" />
+      <meta name="citation_author" content="Yuan Li" />
+      <meta name="citation_author_institution"
+            content="1Centre of Pear Engineering Technology Research, State Key Laboratory of Crop Genetics and Germplasm Enhancement, Nanjing Agricultural University, Nanjing 210095, China;" />
+      <meta name="citation_author" content="Xing Liu" />
+      <meta name="citation_author_institution"
+            content="1Centre of Pear Engineering Technology Research, State Key Laboratory of Crop Genetics and Germplasm Enhancement, Nanjing Agricultural University, Nanjing 210095, China;" />
+      <meta name="citation_author" content="Qingsong Li" />
+      <meta name="citation_author_institution"
+            content="1Centre of Pear Engineering Technology Research, State Key Laboratory of Crop Genetics and Germplasm Enhancement, Nanjing Agricultural University, Nanjing 210095, China;" />
+      <meta name="citation_author" content="Jiahui Shen" />
+      <meta name="citation_author_institution"
+            content="1Centre of Pear Engineering Technology Research, State Key Laboratory of Crop Genetics and Germplasm Enhancement, Nanjing Agricultural University, Nanjing 210095, China;" />
+      <meta name="citation_author" content="Junyi Wang" />
+      <meta name="citation_author_institution"
+            content="2BGI-Shenzhen, Shenzhen 518083, China;" />
+      <meta name="citation_author" content="Robert E. Paull" />
+      <meta name="citation_author_institution"
+            content="7Department of Tropical Plant and Soil Sciences, University of Hawaii, Honolulu, Hawaii 96822, USA;" />
+      <meta name="citation_author" content="Jeffrey L. Bennetzen" />
+      <meta name="citation_author_institution"
+            content="6Department of Genetics, University of Georgia, Athens, Georgia 30602, USA;" />
+      <meta name="citation_author" content="Jun Wang" />
+      <meta name="citation_author_institution"
+            content="2BGI-Shenzhen, Shenzhen 518083, China;" />
+      <meta name="citation_author_institution"
+            content="10Department of Biology, University of Copenhagen, Copenhagen 2200, Denmark" />
+      <meta name="citation_author" content="Shaoling Zhang" />
+      <meta name="citation_author_institution"
+            content="1Centre of Pear Engineering Technology Research, State Key Laboratory of Crop Genetics and Germplasm Enhancement, Nanjing Agricultural University, Nanjing 210095, China;" />
+      <meta content="The genome of the pear (Pyrus bretschneideri Rehd.)"
+            name="citation_title" />
+      <meta content="02/01/2013" name="citation_date" />
+      <meta content="23" name="citation_volume" />
+      <meta content="2" name="citation_issue" />
+      <meta content="396" name="citation_firstpage" />
+      <meta content="408" name="citation_lastpage" />
+      <meta content="23/2/396" name="citation_id" />
+      <meta content="23/2/396" name="citation_id_from_sass_path" />
+      <meta content="genome;23/2/396" name="citation_mjid" />
+      <meta content="10.1101/gr.144311.112" name="citation_doi" />
+      <meta content="http://genome.cshlp.org/content/23/2/396.abstract"
+            name="citation_abstract_html_url" />
+      <meta content="http://genome.cshlp.org/content/23/2/396.full"
+            name="citation_fulltext_html_url" />
+      <meta content="http://genome.cshlp.org/content/23/2/396.full.pdf"
+            name="citation_pdf_url" />
+      <meta content="/content/23/2.cover.gif" name="issue_cover_image" />
+      <meta content="http://genome.cshlp.org/content/23/2/396" name="citation_public_url" />
+      <meta content="23149293" name="citation_pmid" />
+      <meta name="citation_access" content="all" />
+      <meta name="citation_fulltext_world_readable" content="" />
+      <meta name="citation_section" content="Resource" />
+      <meta name="robots" content="noarchive" />
+      <link href="/content/23/2/388.short" rel="prev" />
+      <link href="/content/23/2/409.short" rel="next" />
+      <link rel="stylesheet" type="text/css" media="all" href="/shared/css/hw-global.css" />
+      <link rel="stylesheet" type="text/css" media="all"
+            href="/shared/css/standard-designs/design2/main.css" />
+      <link rel="stylesheet" type="text/css" media="all"
+            href="/publisher/css/hw-cshljnls-global.css" />
+      <link rel="stylesheet" type="text/css" media="all"
+            href="/local/css/hw-journal-global.css" />
+      <link rel="stylesheet" type="text/css" media="all"
+            href="/shared/css/hw-citation-2.0-hacks.css" />
+      <link rel="stylesheet" type="text/css" media="print" href="/shared/css/hw-print.css" />
+      <link rel="stylesheet" type="text/css" media="print"
+            href="/publisher/css/hw-cshljnls-print.css" />
+      <link rel="stylesheet" type="text/css" media="all"
+            href="/shared/css/hw-page-content.css" />
+      <link rel="stylesheet" type="text/css" media="all"
+            href="/publisher/css/hw-cshljnls-page-content.css" />
+      <link rel="stylesheet" type="text/css" media="all"
+            href="/local/css/hw-journal-page-content.css" />
+      <link rel="stylesheet" type="text/css" media="all"
+            href="/site/misc/custom-global.css" /><script type="text/javascript" id="session-d2142184e1">var callbackToken='463E4BFD813E781';</script><script type="text/javascript" id="session-d2142184e3">
+                      var subCode='genesdev_sub';
+                    </script><script type="text/javascript" src="/shared/js/jquery-min.js"></script><script type="text/javascript" src="/shared/js/fingerprint.js"></script><script type="text/javascript" src="/shared/js/hw-shared.js"></script><script type="text/javascript" src="/shared/js/design/hw-design1.js"></script><script type="text/javascript" src="/publisher/js/cshl-shared.js"></script><script type="text/javascript" src="/shared/js/pages/hw-content.js"></script><script type="text/javascript" src="/publisher/js/cshl-content.js"></script><script type="text/javascript" async="async"
+              src="https://scholar.google.com/scholar_js/casa.js"></script><script type="text/javascript" src="/site/misc/custom-global.js"></script></head>
+   <body>
+      <div class="hw-gen-page pagetype-content" id="pageid-content" itemscope="itemscope"
+           itemtype="http://schema.org/ScholarlyArticle">
+         <div id="header">
+            <a href="http://www.cshlpress.com" rel="external-nw"><img src="/local/img/society_logo.gif" width="74" height="83" alt="Publisher Logo"
+                    id="main-logo" /></a><a href="/"><img title="Genome Research" alt="Genome Research" width="313" height="83"
+                    src="/local/img/journal_logo_standalone.gif" /></a>
+            
+            <p id="skip-link">
+               <a href="#content-block">Skip to main page content</a>
+               
+            </p>
+            
+            <ul class="button-list header-buttons">
+               <li class="first"><a href="/" title="HOME"><span>HOME</span></a></li>
+               <li><a href="/site/misc/about.xhtml" title="ABOUT"><span>ABOUT</span></a></li>
+               <li><a href="/content/by/year" title="ARCHIVE"><span>ARCHIVE</span></a></li>
+               <li><a href="http://submit.genome.org/" title="SUBMIT"><span>SUBMIT</span></a></li>
+               <li><a href="/site/subscriptions/" title="SUBSCRIBE"><span>SUBSCRIBE</span></a></li>
+               <li><a href="/site/misc/adinfo.xhtml" title="ADVERTISE"><span>ADVERTISE</span></a></li>
+               <li><a href="/site/misc/ifora.xhtml" title="AUTHOR INFO"><span>AUTHOR INFO</span></a></li>
+               <li><a href="/feedback" title="CONTACT"><span>CONTACT</span></a></li>
+               <li class="last"><a href="/help/" title="HELP"><span>HELP</span></a></li>
+            </ul>
+            
+            
+            <div class="header-qs">
+               
+               <form class="searchbox" action="/search" method="get">
+                  <div>
+                     	<label for="header-qs-input" id="header-qs-search-label">Search for Keyword:</label>
+                     	<input value="" title="Search Genome Research" type="text" name="fulltext"
+                            id="header-qs-input" /><input type="hidden" name="submit" value="yes" /><label for="header-qs-search" id="header-qs-search-label">GO</label><input value="GO" alt="Link: Go" type="image" id="header-qs-search-go"
+                            src="/shared/img/standard-design/design2/go.gif" />
+                     
+                  </div>
+                  <div class="adv-search-link"><a href="/search">Advanced Search</a></div>
+               </form>
+               
+               
+            </div>
+            
+            <div class="header-ac-elements">
+               
+               <div class="inst-branding">
+                  
+               </div>
+               
+               <div id="authstring" class="suppress-header-login">
+                  
+                  <ul>
+                     <li class="subscr-ref">Institution: Inst Genetics and Developmental Biol, CAS</li>
+                     <li>
+                        <a href="/login?uri=https%3A%2F%2Fgenome.cshlp.org%2Fcontent%2F23%2F2%2F396">
+                           Sign In via User Name/Password
+                           </a>
+                        
+                     </li>
+                  </ul>           
+                  
+               </div> 
+               
+               
+               <div id="hdr-login" class="suppress-header-login"></div>
+               
+            </div>
+            
+            <div class="banner-ads">
+               
+               <ul>
+                  <li><a href="/cgi/adclick/?ad=55217&amp;adclick=true&amp;url=https%3A%2F%2Fdovetailgenomics.com%2Fintro-hichip-tech-cshl"
+                        target="_blank"><img title="Hi CHip Mnase"
+                             src="//genome.cshlp.org/adsystem/graphics/6159632409630957/genesdev/CSHL_Ad.png?ad=55217&amp;adview=true"
+                             alt="Hi CHip Mnase" /></a></li>
+               </ul>
+               
+            </div>
+            
+            <div class="bar">
+               
+               <div class="bar-inner"></div>
+               
+            </div>
+            
+         </div>
+         <div id="content-block">
+            <div class="article abstract-view" itemprop="articleBody"><span class="highwire-journal-article-marker-start"></span><h1 id="article-title-1" itemprop="headline">The genome of the pear (<em>Pyrus bretschneideri</em> Rehd.)
+               </h1>
+               <div class="contributors">
+                  <ol class="contributor-list" id="contrib-group-1">
+                     <li class="contributor" id="contrib-1" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search" href="/search?author1=Jun+Wu&amp;sortspec=date&amp;submit=Submit">Jun Wu</a></span><a id="xref-aff-1-1" class="xref-aff" href="#aff-1">1</a><span class="xref-sep">,</span><a id="xref-fn-1-1" class="xref-fn" href="#fn-1">11</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-2" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search"
+                              href="/search?author1=Zhiwen+Wang&amp;sortspec=date&amp;submit=Submit">Zhiwen Wang</a></span><a id="xref-aff-2-1" class="xref-aff" href="#aff-2">2</a><span class="xref-sep">,</span><a id="xref-fn-1-2" class="xref-fn" href="#fn-1">11</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-3" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search"
+                              href="/search?author1=Zebin+Shi&amp;sortspec=date&amp;submit=Submit">Zebin Shi</a></span><a id="xref-aff-3-1" class="xref-aff" href="#aff-3">3</a><span class="xref-sep">,</span><a id="xref-fn-1-3" class="xref-fn" href="#fn-1">11</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-4" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search"
+                              href="/search?author1=Shu+Zhang&amp;sortspec=date&amp;submit=Submit">Shu Zhang</a></span><a id="xref-aff-2-2" class="xref-aff" href="#aff-2">2</a><span class="xref-sep">,</span><a id="xref-fn-1-4" class="xref-fn" href="#fn-1">11</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-5" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search" href="/search?author1=Ray+Ming&amp;sortspec=date&amp;submit=Submit">Ray Ming</a></span><a id="xref-aff-4-1" class="xref-aff" href="#aff-4">4</a><span class="xref-sep">,</span><a id="xref-fn-1-5" class="xref-fn" href="#fn-1">11</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-6" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search"
+                              href="/search?author1=Shilin+Zhu&amp;sortspec=date&amp;submit=Submit">Shilin Zhu</a></span><a id="xref-aff-2-3" class="xref-aff" href="#aff-2">2</a><span class="xref-sep">,</span><a id="xref-fn-1-6" class="xref-fn" href="#fn-1">11</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-7" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search"
+                              href="/search?author1=M.+Awais+Khan&amp;sortspec=date&amp;submit=Submit">M. Awais Khan</a></span><a id="xref-aff-5-1" class="xref-aff" href="#aff-5">5</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-8" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search"
+                              href="/search?author1=Shutian+Tao&amp;sortspec=date&amp;submit=Submit">Shutian Tao</a></span><a id="xref-aff-1-2" class="xref-aff" href="#aff-1">1</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-9" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search"
+                              href="/search?author1=Schuyler+S.+Korban&amp;sortspec=date&amp;submit=Submit">Schuyler S. Korban</a></span><a id="xref-aff-5-2" class="xref-aff" href="#aff-5">5</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-10" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search" href="/search?author1=Hao+Wang&amp;sortspec=date&amp;submit=Submit">Hao Wang</a></span><a id="xref-aff-6-1" class="xref-aff" href="#aff-6">6</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-11" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search"
+                              href="/search?author1=Nancy+J.+Chen&amp;sortspec=date&amp;submit=Submit">Nancy J. Chen</a></span><a id="xref-aff-7-1" class="xref-aff" href="#aff-7">7</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-12" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search"
+                              href="/search?author1=Takeshi+Nishio&amp;sortspec=date&amp;submit=Submit">Takeshi Nishio</a></span><a id="xref-aff-8-1" class="xref-aff" href="#aff-8">8</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-13" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search" href="/search?author1=Xun+Xu&amp;sortspec=date&amp;submit=Submit">Xun Xu</a></span><a id="xref-aff-2-4" class="xref-aff" href="#aff-2">2</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-14" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search" href="/search?author1=Lin+Cong&amp;sortspec=date&amp;submit=Submit">Lin Cong</a></span><a id="xref-aff-2-5" class="xref-aff" href="#aff-2">2</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-15" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search"
+                              href="/search?author1=Kaijie+Qi&amp;sortspec=date&amp;submit=Submit">Kaijie Qi</a></span><a id="xref-aff-1-3" class="xref-aff" href="#aff-1">1</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-16" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search"
+                              href="/search?author1=Xiaosan+Huang&amp;sortspec=date&amp;submit=Submit">Xiaosan Huang</a></span><a id="xref-aff-1-4" class="xref-aff" href="#aff-1">1</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-17" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search"
+                              href="/search?author1=Yingtao+Wang&amp;sortspec=date&amp;submit=Submit">Yingtao Wang</a></span><a id="xref-aff-1-5" class="xref-aff" href="#aff-1">1</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-18" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search"
+                              href="/search?author1=Xiang+Zhao&amp;sortspec=date&amp;submit=Submit">Xiang Zhao</a></span><a id="xref-aff-2-6" class="xref-aff" href="#aff-2">2</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-19" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search" href="/search?author1=Juyou+Wu&amp;sortspec=date&amp;submit=Submit">Juyou Wu</a></span><a id="xref-aff-1-6" class="xref-aff" href="#aff-1">1</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-20" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search" href="/search?author1=Cao+Deng&amp;sortspec=date&amp;submit=Submit">Cao Deng</a></span><a id="xref-aff-2-7" class="xref-aff" href="#aff-2">2</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-21" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search"
+                              href="/search?author1=Caiyun+Gou&amp;sortspec=date&amp;submit=Submit">Caiyun Gou</a></span><a id="xref-aff-2-8" class="xref-aff" href="#aff-2">2</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-22" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search"
+                              href="/search?author1=Weili+Zhou&amp;sortspec=date&amp;submit=Submit">Weili Zhou</a></span><a id="xref-aff-2-9" class="xref-aff" href="#aff-2">2</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-23" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search" href="/search?author1=Hao+Yin&amp;sortspec=date&amp;submit=Submit">Hao Yin</a></span><a id="xref-aff-1-7" class="xref-aff" href="#aff-1">1</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-24" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search"
+                              href="/search?author1=Gaihua+Qin&amp;sortspec=date&amp;submit=Submit">Gaihua Qin</a></span><a id="xref-aff-1-8" class="xref-aff" href="#aff-1">1</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-25" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search"
+                              href="/search?author1=Yuhui+Sha&amp;sortspec=date&amp;submit=Submit">Yuhui Sha</a></span><a id="xref-aff-2-10" class="xref-aff" href="#aff-2">2</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-26" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search" href="/search?author1=Ye+Tao&amp;sortspec=date&amp;submit=Submit">Ye Tao</a></span><a id="xref-aff-2-11" class="xref-aff" href="#aff-2">2</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-27" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search" href="/search?author1=Hui+Chen&amp;sortspec=date&amp;submit=Submit">Hui Chen</a></span><a id="xref-aff-1-9" class="xref-aff" href="#aff-1">1</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-28" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search"
+                              href="/search?author1=Yanan+Yang&amp;sortspec=date&amp;submit=Submit">Yanan Yang</a></span><a id="xref-aff-1-10" class="xref-aff" href="#aff-1">1</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-29" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search" href="/search?author1=Yue+Song&amp;sortspec=date&amp;submit=Submit">Yue Song</a></span><a id="xref-aff-1-11" class="xref-aff" href="#aff-1">1</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-30" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search"
+                              href="/search?author1=Dongliang+Zhan&amp;sortspec=date&amp;submit=Submit">Dongliang Zhan</a></span><a id="xref-aff-2-12" class="xref-aff" href="#aff-2">2</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-31" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search"
+                              href="/search?author1=Juan+Wang&amp;sortspec=date&amp;submit=Submit">Juan Wang</a></span><a id="xref-aff-2-13" class="xref-aff" href="#aff-2">2</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-32" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search"
+                              href="/search?author1=Leiting+Li&amp;sortspec=date&amp;submit=Submit">Leiting Li</a></span><a id="xref-aff-1-12" class="xref-aff" href="#aff-1">1</a><span class="xref-sep">,</span><a id="xref-aff-4-2" class="xref-aff" href="#aff-4">4</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-33" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search"
+                              href="/search?author1=Meisong+Dai&amp;sortspec=date&amp;submit=Submit">Meisong Dai</a></span><a id="xref-aff-3-2" class="xref-aff" href="#aff-3">3</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-34" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search" href="/search?author1=Chao+Gu&amp;sortspec=date&amp;submit=Submit">Chao Gu</a></span><a id="xref-aff-1-13" class="xref-aff" href="#aff-1">1</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-35" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search"
+                              href="/search?author1=Yuezhi+Wang&amp;sortspec=date&amp;submit=Submit">Yuezhi Wang</a></span><a id="xref-aff-3-3" class="xref-aff" href="#aff-3">3</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-36" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search"
+                              href="/search?author1=Daihu+Shi&amp;sortspec=date&amp;submit=Submit">Daihu Shi</a></span><a id="xref-aff-2-14" class="xref-aff" href="#aff-2">2</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-37" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search"
+                              href="/search?author1=Xiaowei+Wang&amp;sortspec=date&amp;submit=Submit">Xiaowei Wang</a></span><a id="xref-aff-2-15" class="xref-aff" href="#aff-2">2</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-38" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search"
+                              href="/search?author1=Huping+Zhang&amp;sortspec=date&amp;submit=Submit">Huping Zhang</a></span><a id="xref-aff-1-14" class="xref-aff" href="#aff-1">1</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-39" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search"
+                              href="/search?author1=Liang+Zeng&amp;sortspec=date&amp;submit=Submit">Liang Zeng</a></span><a id="xref-aff-2-16" class="xref-aff" href="#aff-2">2</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-40" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search"
+                              href="/search?author1=Danman+Zheng&amp;sortspec=date&amp;submit=Submit">Danman Zheng</a></span><a id="xref-aff-5-3" class="xref-aff" href="#aff-5">5</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-41" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search"
+                              href="/search?author1=Chunlei+Wang&amp;sortspec=date&amp;submit=Submit">Chunlei Wang</a></span><a id="xref-aff-8-2" class="xref-aff" href="#aff-8">8</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-42" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search"
+                              href="/search?author1=Maoshan+Chen&amp;sortspec=date&amp;submit=Submit">Maoshan Chen</a></span><a id="xref-aff-2-17" class="xref-aff" href="#aff-2">2</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-43" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search"
+                              href="/search?author1=Guangbiao+Wang&amp;sortspec=date&amp;submit=Submit">Guangbiao Wang</a></span><a id="xref-aff-2-18" class="xref-aff" href="#aff-2">2</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-44" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search" href="/search?author1=Lin+Xie&amp;sortspec=date&amp;submit=Submit">Lin Xie</a></span><a id="xref-aff-2-19" class="xref-aff" href="#aff-2">2</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-45" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search"
+                              href="/search?author1=Valpuri+Sovero&amp;sortspec=date&amp;submit=Submit">Valpuri Sovero</a></span><a id="xref-aff-9-1" class="xref-aff" href="#aff-9">9</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-46" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search"
+                              href="/search?author1=Shoufeng+Sha&amp;sortspec=date&amp;submit=Submit">Shoufeng Sha</a></span><a id="xref-aff-1-15" class="xref-aff" href="#aff-1">1</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-47" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search"
+                              href="/search?author1=Wenjiang+Huang&amp;sortspec=date&amp;submit=Submit">Wenjiang Huang</a></span><a id="xref-aff-1-16" class="xref-aff" href="#aff-1">1</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-48" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search"
+                              href="/search?author1=Shujun+Zhang&amp;sortspec=date&amp;submit=Submit">Shujun Zhang</a></span><a id="xref-aff-3-4" class="xref-aff" href="#aff-3">3</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-49" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search"
+                              href="/search?author1=Mingyue+Zhang&amp;sortspec=date&amp;submit=Submit">Mingyue Zhang</a></span><a id="xref-aff-1-17" class="xref-aff" href="#aff-1">1</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-50" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search"
+                              href="/search?author1=Jiangmei+Sun&amp;sortspec=date&amp;submit=Submit">Jiangmei Sun</a></span><a id="xref-aff-1-18" class="xref-aff" href="#aff-1">1</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-51" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search"
+                              href="/search?author1=Linlin+Xu&amp;sortspec=date&amp;submit=Submit">Linlin Xu</a></span><a id="xref-aff-1-19" class="xref-aff" href="#aff-1">1</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-52" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search" href="/search?author1=Yuan+Li&amp;sortspec=date&amp;submit=Submit">Yuan Li</a></span><a id="xref-aff-1-20" class="xref-aff" href="#aff-1">1</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-53" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search" href="/search?author1=Xing+Liu&amp;sortspec=date&amp;submit=Submit">Xing Liu</a></span><a id="xref-aff-1-21" class="xref-aff" href="#aff-1">1</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-54" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search"
+                              href="/search?author1=Qingsong+Li&amp;sortspec=date&amp;submit=Submit">Qingsong Li</a></span><a id="xref-aff-1-22" class="xref-aff" href="#aff-1">1</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-55" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search"
+                              href="/search?author1=Jiahui+Shen&amp;sortspec=date&amp;submit=Submit">Jiahui Shen</a></span><a id="xref-aff-1-23" class="xref-aff" href="#aff-1">1</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-56" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search"
+                              href="/search?author1=Junyi+Wang&amp;sortspec=date&amp;submit=Submit">Junyi Wang</a></span><a id="xref-aff-2-20" class="xref-aff" href="#aff-2">2</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-57" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search"
+                              href="/search?author1=Robert+E.+Paull&amp;sortspec=date&amp;submit=Submit">Robert E. Paull</a></span><a id="xref-aff-7-2" class="xref-aff" href="#aff-7">7</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-58" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search"
+                              href="/search?author1=Jeffrey+L.+Bennetzen&amp;sortspec=date&amp;submit=Submit">Jeffrey L. Bennetzen</a></span><a id="xref-aff-6-2" class="xref-aff" href="#aff-6">6</a>, 
+                     </li>
+                     <li class="contributor" id="contrib-59" itemprop="author" itemscope="itemscope"
+                         itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search" href="/search?author1=Jun+Wang&amp;sortspec=date&amp;submit=Submit">Jun Wang</a></span><a id="xref-aff-2-21" class="xref-aff" href="#aff-2">2</a><span class="xref-sep">,</span><a id="xref-aff-10-1" class="xref-aff" href="#aff-10">10</a><span class="xref-sep">,</span><a id="xref-fn-2-1" class="xref-corresp" href="#fn-2">12</a> and 
+                     </li>
+                     <li class="last" id="contrib-60"><span class="name"><a class="name-search"
+                              href="/search?author1=Shaoling+Zhang&amp;sortspec=date&amp;submit=Submit">Shaoling Zhang</a></span><a id="xref-aff-1-24" class="xref-aff" href="#aff-1">1</a><span class="xref-sep">,</span><a id="xref-fn-2-2" class="xref-corresp" href="#fn-2">12</a></li>
+                  </ol>
+                  <ol class="affiliation-list">
+                     <li class="aff"><a id="aff-1" name="aff-1"></a><address><sup>1</sup>Centre of Pear Engineering Technology Research, State Key Laboratory of Crop Genetics and Germplasm Enhancement, Nanjing Agricultural
+                           University, Nanjing 210095, China;
+                        </address>
+                     </li>
+                     <li class="aff"><a id="aff-2" name="aff-2"></a><address><sup>2</sup>BGI-Shenzhen, Shenzhen 518083, China;
+                        </address>
+                     </li>
+                     <li class="aff"><a id="aff-3" name="aff-3"></a><address><sup>3</sup>Institute of Horticulture, Zhejiang Academy of Agricultural Sciences, Hangzhou 310021, China;
+                        </address>
+                     </li>
+                     <li class="aff"><a id="aff-4" name="aff-4"></a><address><sup>4</sup>Department of Plant Biology,
+                        </address>
+                     </li>
+                     <li class="aff"><a id="aff-5" name="aff-5"></a><address><sup>5</sup>Department of Natural Resources and Environmental Sciences, University of Illinois, Urbana, Illinois 61801, USA;
+                        </address>
+                     </li>
+                     <li class="aff"><a id="aff-6" name="aff-6"></a><address><sup>6</sup>Department of Genetics, University of Georgia, Athens, Georgia 30602, USA;
+                        </address>
+                     </li>
+                     <li class="aff"><a id="aff-7" name="aff-7"></a><address><sup>7</sup>Department of Tropical Plant and Soil Sciences, University of Hawaii, Honolulu, Hawaii 96822, USA;
+                        </address>
+                     </li>
+                     <li class="aff"><a id="aff-8" name="aff-8"></a><address><sup>8</sup>Graduate School of Agricultural Science, Tohoku University, Aoba-ku, Sendai 981-8555, Japan;
+                        </address>
+                     </li>
+                     <li class="aff"><a id="aff-9" name="aff-9"></a><address><sup>9</sup>Department of Crop Sciences, University of Illinois, Urbana, Illinois 61801, USA;
+                        </address>
+                     </li>
+                     <li class="aff"><a id="aff-10" name="aff-10"></a><address><sup>10</sup>Department of Biology, University of Copenhagen, Copenhagen 2200, Denmark
+                        </address>
+                     </li>
+                  </ol>
+                  <ol class="corresp-list"></ol>
+                  <ol class="fn-track">
+                     <li class="fn-equal" id="fn-1">
+                        <p id="p-1"><a class="rev-xref" href="#xref-fn-1-1">↵</a><span class="fn-label">11</span> These authors contributed equally to this work.
+                        </p>
+                     </li>
+                  </ol>
+               </div>
+               <div class="section abstract" id="abstract-1" itemprop="description">
+                  <h2>Abstract</h2>
+                  <p id="p-6">The draft genome of the pear (<em>Pyrus bretschneideri</em>) using a combination of BAC-by-BAC and next-generation sequencing is reported. A 512.0-Mb sequence corresponding to 97.1%
+                     of the estimated genome size of this highly heterozygous species is assembled with 194× coverage. High-density genetic maps
+                     comprising 2005 SNP markers anchored 75.5% of the sequence to all 17 chromosomes. The pear genome encodes 42,812 protein-coding
+                     genes, and of these, ∼28.5% encode multiple isoforms. Repetitive sequences of 271.9 Mb in length, accounting for 53.1% of
+                     the pear genome, are identified. Simulation of eudicots to the ancestor of Rosaceae has reconstructed nine ancestral chromosomes.
+                     Pear and apple diverged from each other ∼5.4–21.5 million years ago, and a recent whole-genome duplication (WGD) event must
+                     have occurred 30–45 MYA prior to their divergence, but following divergence from strawberry. When compared with the apple
+                     genome sequence, size differences between the apple and pear genomes are confirmed mainly due to the presence of repetitive
+                     sequences predominantly contributed by transposable elements (TEs), while genic regions are similar in both species. Genes
+                     critical for self-incompatibility, lignified stone cells (a unique feature of pear fruit), sorbitol metabolism, and volatile
+                     compounds of fruit have also been identified. Multiple candidate <em>SFB</em> genes appear as tandem repeats in the <em>S</em>-locus region of pear; while lignin synthesis-related gene family expansion and highly expressed gene families of <em>HCT</em>, <em>C3′H</em>, and <em>CCOMT</em> contribute to high accumulation of both G-lignin and S-lignin. Moreover, alpha-linolenic acid metabolism is a key pathway
+                     for aroma in pear fruit.
+                  </p>
+               </div>
+               <div class="section fn-group" id="fn-group-1">
+                  <h2>Footnotes</h2>
+                  <ul>
+                     <li class="fn-corresp" id="fn-2">
+                        <p id="p-2"><a class="rev-xref" href="#xref-fn-2-1">↵</a><span class="fn-label">12</span> Corresponding authors
+                        </p>
+                        <p id="p-3">E-mail <span class="em-link"><span class="em-addr">slzhang{at}njau.edu.cn</span></span></p>
+                        <p id="p-4">E-mail <span class="em-link"><span class="em-addr">wangj{at}genomics.org.cn</span></span></p>
+                     </li>
+                     <li class="fn-supplementary-material" id="fn-3">
+                        <p id="p-63">[Supplemental material is available for this article.]</p>
+                     </li>
+                     <li class="fn" id="fn-4">
+                        <p id="p-64">Article published online before print. Article, supplemental material, and publication date are at <a href="http://www.genome.org/cgi/doi/10.1101/gr.144311.112">http://www.genome.org/cgi/doi/10.1101/gr.144311.112</a>.
+                        </p>
+                        <p id="p-65">Freely available online through the <em>Genome Research</em> Open Access option.
+                        </p>
+                     </li>
+                  </ul>
+               </div>
+               <ul class="history-list">
+                  <li xmlns:hwp="http://schema.highwire.org/Journal" class="received"
+                      hwp:start="2012-06-15"><span class="received-label">Received </span>June 15, 2012.
+                  </li>
+                  <li xmlns:hwp="http://schema.highwire.org/Journal" class="accepted"
+                      hwp:start="2012-11-06"><span class="accepted-label">Accepted </span>November 6, 2012.
+                  </li>
+               </ul>
+               <ul class="copyright-statement">
+                  <li class="fn" id="copyright-statement-1"><a href="http://www.genome.org/site/misc/terms.xhtml">© 2013, Published by Cold Spring Harbor Laboratory Press</a></li>
+               </ul>
+               <div class="license" id="license-1">
+                  <p id="p-5">This article is distributed exclusively by Cold Spring Harbor Laboratory Press for the first six months after the full-issue
+                     publication date (see <a href="/site/misc/terms.xhtml">http://genome.cshlp.org/site/misc/terms.xhtml</a>). After six months, it is available under a Creative Commons License (Attribution-NonCommercial 3.0 Unported License), as
+                     described at <a href="http://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</a>.
+                  </p>
+               </div><span class="highwire-journal-article-marker-end"></span></div>
+            <div class="social-bookmarking">
+               
+               <ul class="social-bookmark-links">
+                  <li class="social-bookmarking-item social-bookmarking-item-citeulike"><a href="/external-ref?tag_url=http://genome.cshlp.org/cgi/content/long/23/2/396&amp;title=The%20genome%20of%20the%20pear%20%28Pyrus%20bretschneideri%20Rehd.%29+--+Wu%20et%20al.%2023%20%282%29%3A%20396+--+GENOME&amp;doi=10.1101/gr.144311.112&amp;link_type=CITEULIKE"><img src="/shared/img/common/social-bookmarking/citeulike.gif"
+                             alt="Add to CiteULike"
+                             title="CiteULike" /></a><span class="soc-bm-link-text">CiteULike</span></li>
+                  <li class="social-bookmarking-item social-bookmarking-item-delicious"><a href="/external-ref?tag_url=http://genome.cshlp.org/cgi/content/long/23/2/396&amp;title=The%20genome%20of%20the%20pear%20%28Pyrus%20bretschneideri%20Rehd.%29+--+Wu%20et%20al.%2023%20%282%29%3A%20396+--+GENOME&amp;doi=10.1101/gr.144311.112&amp;link_type=DEL_ICIO_US"><img src="/shared/img/common/social-bookmarking/delicious.gif"
+                             alt="Add to Delicious"
+                             title="Delicious" /></a><span class="soc-bm-link-text">Delicious</span></li>
+                  <li class="social-bookmarking-item social-bookmarking-item-digg"><a href="/external-ref?tag_url=http://genome.cshlp.org/cgi/content/long/23/2/396&amp;title=The%20genome%20of%20the%20pear%20%28Pyrus%20bretschneideri%20Rehd.%29+--+Wu%20et%20al.%2023%20%282%29%3A%20396+--+GENOME&amp;doi=10.1101/gr.144311.112&amp;link_type=DIGG"><img src="/shared/img/common/social-bookmarking/digg.gif" alt="Add to Digg"
+                             title="Digg" /></a><span class="soc-bm-link-text">Digg</span></li>
+                  <li class="social-bookmarking-item social-bookmarking-item-facebook"><a href="/external-ref?tag_url=http://genome.cshlp.org/cgi/content/short/23/2/396&amp;title=The%20genome%20of%20the%20pear%20%28Pyrus%20bretschneideri%20Rehd.%29+--+Wu%20et%20al.%2023%20%282%29%3A%20396+--+GENOME&amp;doi=10.1101/gr.144311.112&amp;link_type=FACEBOOK"
+                        class="sb-facebook"
+                        rel="external-nw"><img src="/shared/img/common/social-bookmarking/facebook.gif" alt="Add to Facebook"
+                             title="Facebook" /></a><span class="soc-bm-link-text">Facebook</span></li>
+                  <li class="social-bookmarking-item social-bookmarking-item-googleplus"><a href="/external-ref?tag_url=http://genome.cshlp.org/cgi/content/long/23/2/396&amp;title=The%20genome%20of%20the%20pear%20%28Pyrus%20bretschneideri%20Rehd.%29+--+Wu%20et%20al.%2023%20%282%29%3A%20396+--+GENOME&amp;doi=10.1101/gr.144311.112&amp;link_type=GOOGLEPLUS&amp;log_only=yes"><img src="/shared/img/common/social-bookmarking/googleplus.jpg" alt="Add to Google+"
+                             title="Google+" /></a><span class="soc-bm-link-text">Google+</span></li>
+                  <li class="social-bookmarking-item social-bookmarking-item-reddit"><a href="/external-ref?tag_url=http://genome.cshlp.org/cgi/content/long/23/2/396&amp;title=The%20genome%20of%20the%20pear%20%28Pyrus%20bretschneideri%20Rehd.%29+--+Wu%20et%20al.%2023%20%282%29%3A%20396+--+GENOME&amp;doi=10.1101/gr.144311.112&amp;link_type=REDDIT"><img src="/shared/img/common/social-bookmarking/reddit.gif" alt="Add to Reddit"
+                             title="Reddit" /></a><span class="soc-bm-link-text">Reddit</span></li>
+                  <li class="social-bookmarking-item social-bookmarking-item-twitter"><a href="/external-ref?tag_url=http://genome.cshlp.org/cgi/content/long/23/2/396&amp;title=The%20genome%20of%20the%20pear%20%28Pyrus%20bretschneideri%20Rehd.%29+--+Wu%20et%20al.%2023%20%282%29%3A%20396+--+GENOME&amp;doi=10.1101/gr.144311.112&amp;link_type=TWITTER"><img src="/shared/img/common/social-bookmarking/twitter.gif" alt="Add to Twitter"
+                             title="Twitter" /></a><span class="soc-bm-link-text">Twitter</span></li>
+               </ul>
+               
+               <p class="social-bookmarking-help"><a href="/help/social_bookmarks.dtl">What's this?</a></p>
+               
+            </div><span id="related-urls"></span><div id="content-end-sb" class="sb-div"></div>
+         </div>
+         <div id="col-2">
+            
+            <div class="article-nav sidebar-nav">
+               <a href="/content/23/2/388.short" title="Previous article" class="previous">« Previous</a><span class="article-nav-sep"> | </span><a href="/content/23/2/409.short" title="Next article" class="next">Next Article »</a>
+               
+               <span class="toc-link">
+                  				<a href="/content/23/2.toc" title="Table of Contents">Table of Contents</a>
+                  			</span>
+               
+               
+            </div>
+            <div class="open-access-note">
+               <span class="open-access-note">OPEN ACCESS ARTICLE</span>
+               
+            </div>
+            <div class="content-box" id="article-cb-main">
+               <div class="cb-contents">
+                  <h3 class="cb-contents-header"><span>This Article</span></h3>
+                  <div class="cb-section cb-slug">
+                     <ol>
+                        <li>
+                           <div id="slugline">
+                              
+                              
+                              	    <span class="slug-metadata-note ahead-of-print">
+                                 	
+                                 Published in Advance
+                                 
+                                 <span class="slug-ahead-of-print-date">November 13, 2012</span>,
+                                 doi:
+                                 <span title="10.1101/gr.144311.112" class="slug-doi">10.1101/gr.144311.112
+                                    </span>
+                                 </span>
+                              
+                              <cite>
+                                 	    <abbr title="Genome Research" class="slug-jnl-abbrev">
+                                    Genome Res.</abbr><span class="slug-pub-date" itemprop="datePublished">
+                                    2013.
+                                    </span>
+                                 	    <span class="slug-vol">
+                                    23: 
+                                    </span><span class="slug-pages">
+                                    396-408
+                                    </span>
+                                 </cite>
+                              
+                              	           
+                              
+                              <a href="/site/misc/terms.xhtml">
+                                 <nlm:copyright-statement xmlns:nlm="http://schema.highwire.org/NLM/Journal"
+                                                          xmlns:hwp="http://schema.highwire.org/Journal"
+                                                          hwp:id="copyright-statement-1">
+                                    <nlm:ext-link xmlns:l="http://schema.highwire.org/Linking"
+                                                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                  l:rel="related"
+                                                  l:ref-type="uri"
+                                                  l:ref="http://www.genome.org/site/misc/terms.xhtml"
+                                                  ext-link-type="uri"
+                                                  xlink:href="http://www.genome.org/site/misc/terms.xhtml"
+                                                  xlink:type="simple"
+                                                  hwp:id="ext-link-1">© 2013, Published by Cold Spring Harbor Laboratory Press</nlm:ext-link>
+                                 </nlm:copyright-statement></a>
+                              
+                           </div>
+                        </li>
+                     </ol>
+                  </div>
+                  <div class="cb-section" id="cb-art-links">
+                     <ol>
+                        <li><span class="variant-indicator">» <span>Abstract</span></span><span class="free">Free</span></li>
+                        <li class="notice"><a href="/content/23/2/396.full" rel="view-full-text">Full Text</a><span class="free">Free</span></li>
+                        <li class="notice"><a href="/content/23/2/396.full.pdf+html" rel="view-full-text.pdf">Full Text (PDF)</a><span class="free">Free</span></li>
+                        <li><a href="/content/23/2/396/suppl/DC1" rel="supplemental-data"
+                              class="dslink-supplemental-material">Supplemental Material</a></li>
+                        <li class="cb-versions">
+                           <div><span id="pap-all-versions-label">All Versions of this Article:</span><ol class="version-list">
+                                 <li><a href="/content/early/2012/11/13/gr.144311.112">gr.144311.112v1</a></li>
+                                 <li><a href="/content/early/2012/12/12/gr.144311.112">gr.144311.112v2</a></li>
+                                 <li class="current-li"><span>23/2/396</span> <span class="current-version">most recent</span></li>
+                              </ol>
+                           </div>
+                        </li>
+                     </ol>
+                  </div>
+                  <div class="cb-section collapsible" id="cb-art-cat">
+                     <h4 class="cb-section-header"><span>Article Category</span></h4>
+                     <ol>
+                        <li>
+                           <ul class="subject-headings last-child">
+                              <li><a class="tocsection-search"
+                                    href="/search?tocsectionid=Resource&amp;sortspec=date&amp;submit=Submit">Resource</a></li>
+                           </ul>
+                        </li>
+                     </ol>
+                  </div>
+                  <div class="cb-section collapsible default-closed" id="cb-art-svcs">
+                     <h4 class="cb-section-header"><span>Services</span></h4>
+                     <ol>
+                        <li><a href="/cgi/alerts/ctalert?alertType=citedby&amp;addAlert=cited_by&amp;cited_by_criteria_resid=genome%3B23%2F2%2F396&amp;saveAlert=no&amp;return-type=article&amp;return_url=http://genome.cshlp.org/content/23/2/396">Alert me when this article is cited</a></li>
+                        <li><a href="/cgi/alerts/ctalert?alertType=correction&amp;addAlert=correction&amp;correction_criteria_value=23/2/396&amp;saveAlert=no&amp;return-type=article&amp;return_url=http://genome.cshlp.org/content/23/2/396">Alert me if a correction is posted</a></li>
+                        <li><a href="/search?qbe=genome%3Bgr.144311.112&amp;citation=Wu%20et%20al.%2023%20%282%29:%20396&amp;submit=yes">Similar articles in this journal</a></li>
+                        <li><a href="/external-ref?access_num=genome%3B23%2F2%2F396&amp;link_type=ISI_RELATEDRECORDS"
+                              id="cb-isi-similar-articles">Similar articles in Web of Science</a></li>
+                        <li class="usage-stats-link icon-link"><a href="/articleusage?gca=genome;23/2/396" rel="nofollow">Article Metrics</a></li>
+                        <li><a href="/external-ref?access_num=23149293&amp;link_type=MED_NBRS">Similar articles in PubMed</a></li>
+                        <li><a href="/citmgr?gca=genome%3B23%2F2%2F396">Download to citation manager</a></li>
+                        <li><a href="/site/misc/permissions_landing.xhtml">
+                              		Permissions 
+                              	    </a></li>
+                     </ol>
+                  </div>
+                  <div class="cb-section collapsible default-closed" id="cb-art-cit">
+                     <h4 class="cb-section-header"><span>Citing Articles</span></h4>
+                     <ol>
+                        <li><a href="/content/23/2/396?cited-by=yes&amp;legid=genome;23/2/396#cited-by"
+                              id="cb-hw-citing-articles">Load citing article information</a></li>
+                        <li><a href="/external-ref?access_num=%2Fgenome%2F23%2F2%2F396&amp;link_type=ISI_CITING&amp;accnum_type=native"
+                              rel="external-nw"
+                              id="cb-isi-citing-articles">Citing articles via Web of Science</a></li>
+                        <li><a href="/external-ref?access_num=http://genome.cshlp.org/content/23/2/396.abstract&amp;link_type=GOOGLESCHOLAR">Citing articles via Google Scholar</a></li>
+                     </ol>
+                  </div>
+                  <div class="cb-section collapsible default-closed" id="cb-art-gs">
+                     <h4 class="cb-section-header"><span>Google Scholar</span></h4>
+                     <ol>
+                        <li><a href="http://scholar.google.com/scholar?q=%22author%3AWu%20author%3AJ.%22">Articles by  Wu, J.</a></li>
+                        <li><a href="http://scholar.google.com/scholar?q=%22author%3AZhang%20author%3AS.%22">Articles by  Zhang, S.</a></li>
+                        <li><a href="/external-ref?access_num=http://genome.cshlp.org/content/23/2/396.abstract&amp;link_type=GOOGLESCHOLARRELATED">Search for related content</a></li>
+                     </ol>
+                  </div>
+                  <div class="cb-section collapsible default-closed" id="cb-art-pm">
+                     <h4 class="cb-section-header"><span>PubMed/NCBI</span></h4>
+                     <ol>
+                        <li><a href="/external-ref?access_num=23149293&amp;link_type=PUBMED">PubMed citation</a></li>
+                        <li><a href="/external-ref?access_num=Wu%20J&amp;link_type=AUTHORSEARCH">Articles by  Wu, J.</a></li>
+                        <li><a href="/external-ref?access_num=Zhang%20S&amp;link_type=AUTHORSEARCH">Articles by  Zhang, S.</a></li>
+                        <li>
+                           <div id="cb-entrez-links-placeholder"><a href="/entrez-links/23149293"></a></div>
+                        </li>
+                     </ol>
+                  </div>
+                  <div class="cb-section collapsible default-closed" id="cb-art-soc">
+                     <h4 class="cb-section-header"><span>Share</span></h4>
+                     <ol>
+                        <li><a href="/email?gca=genome%3B23%2F2%2F396&amp;current-view-path=/content/23/2/396"></a></li>
+                        <li>
+                           <div class="social-bookmarking">
+                              
+                              <ul class="social-bookmark-links">
+                                 <li class="social-bookmarking-item social-bookmarking-item-citeulike"><a href="/external-ref?tag_url=http://genome.cshlp.org/cgi/content/long/23/2/396&amp;title=The%20genome%20of%20the%20pear%20%28Pyrus%20bretschneideri%20Rehd.%29+--+Wu%20et%20al.%2023%20%282%29%3A%20396+--+GENOME&amp;doi=10.1101/gr.144311.112&amp;link_type=CITEULIKE"><img src="/shared/img/common/social-bookmarking/citeulike.gif"
+                                            alt="Add to CiteULike"
+                                            title="CiteULike" /></a><span class="soc-bm-link-text">CiteULike</span></li>
+                                 <li class="social-bookmarking-item social-bookmarking-item-delicious"><a href="/external-ref?tag_url=http://genome.cshlp.org/cgi/content/long/23/2/396&amp;title=The%20genome%20of%20the%20pear%20%28Pyrus%20bretschneideri%20Rehd.%29+--+Wu%20et%20al.%2023%20%282%29%3A%20396+--+GENOME&amp;doi=10.1101/gr.144311.112&amp;link_type=DEL_ICIO_US"><img src="/shared/img/common/social-bookmarking/delicious.gif"
+                                            alt="Add to Delicious"
+                                            title="Delicious" /></a><span class="soc-bm-link-text">Delicious</span></li>
+                                 <li class="social-bookmarking-item social-bookmarking-item-digg"><a href="/external-ref?tag_url=http://genome.cshlp.org/cgi/content/long/23/2/396&amp;title=The%20genome%20of%20the%20pear%20%28Pyrus%20bretschneideri%20Rehd.%29+--+Wu%20et%20al.%2023%20%282%29%3A%20396+--+GENOME&amp;doi=10.1101/gr.144311.112&amp;link_type=DIGG"><img src="/shared/img/common/social-bookmarking/digg.gif" alt="Add to Digg"
+                                            title="Digg" /></a><span class="soc-bm-link-text">Digg</span></li>
+                                 <li class="social-bookmarking-item social-bookmarking-item-facebook"><a href="/external-ref?tag_url=http://genome.cshlp.org/cgi/content/short/23/2/396&amp;title=The%20genome%20of%20the%20pear%20%28Pyrus%20bretschneideri%20Rehd.%29+--+Wu%20et%20al.%2023%20%282%29%3A%20396+--+GENOME&amp;doi=10.1101/gr.144311.112&amp;link_type=FACEBOOK"
+                                       class="sb-facebook"
+                                       rel="external-nw"><img src="/shared/img/common/social-bookmarking/facebook.gif" alt="Add to Facebook"
+                                            title="Facebook" /></a><span class="soc-bm-link-text">Facebook</span></li>
+                                 <li class="social-bookmarking-item social-bookmarking-item-googleplus"><a href="/external-ref?tag_url=http://genome.cshlp.org/cgi/content/long/23/2/396&amp;title=The%20genome%20of%20the%20pear%20%28Pyrus%20bretschneideri%20Rehd.%29+--+Wu%20et%20al.%2023%20%282%29%3A%20396+--+GENOME&amp;doi=10.1101/gr.144311.112&amp;link_type=GOOGLEPLUS&amp;log_only=yes"><img src="/shared/img/common/social-bookmarking/googleplus.jpg" alt="Add to Google+"
+                                            title="Google+" /></a><span class="soc-bm-link-text">Google+</span></li>
+                                 <li class="social-bookmarking-item social-bookmarking-item-reddit"><a href="/external-ref?tag_url=http://genome.cshlp.org/cgi/content/long/23/2/396&amp;title=The%20genome%20of%20the%20pear%20%28Pyrus%20bretschneideri%20Rehd.%29+--+Wu%20et%20al.%2023%20%282%29%3A%20396+--+GENOME&amp;doi=10.1101/gr.144311.112&amp;link_type=REDDIT"><img src="/shared/img/common/social-bookmarking/reddit.gif" alt="Add to Reddit"
+                                            title="Reddit" /></a><span class="soc-bm-link-text">Reddit</span></li>
+                                 <li class="social-bookmarking-item social-bookmarking-item-twitter"><a href="/external-ref?tag_url=http://genome.cshlp.org/cgi/content/long/23/2/396&amp;title=The%20genome%20of%20the%20pear%20%28Pyrus%20bretschneideri%20Rehd.%29+--+Wu%20et%20al.%2023%20%282%29%3A%20396+--+GENOME&amp;doi=10.1101/gr.144311.112&amp;link_type=TWITTER"><img src="/shared/img/common/social-bookmarking/twitter.gif" alt="Add to Twitter"
+                                            title="Twitter" /></a><span class="soc-bm-link-text">Twitter</span></li>
+                              </ul>
+                              
+                              <p class="social-bookmarking-help"><a href="/help/social_bookmarks.dtl">What's this?</a></p>
+                              
+                           </div>
+                        </li>
+                     </ol>
+                  </div>
+               </div>
+            </div>
+            
+            
+            
+            <div class="content-box" id="art-history-pane">
+               
+               <div class="cb-contents">
+                  
+                  <div class="cb-section collapsible default-closed" id="cb-art-gs">
+                     
+                     <h4 class="cb-section-header">
+                        <span>Preprint Server</span>
+                        
+                     </h4>
+                     
+                     <div id="art-history"></div>
+                     
+                  </div>
+                  
+               </div>
+               
+            </div>
+            
+            <div class="content-box" id="article-cb-main">
+               
+               <div class="cb-contents">
+                  
+                  <div class="cb-section" id="cb-art-fbr">
+                      
+                  </div>
+                  
+                  <div class="cb-section" id="cb-art-gs">
+                     
+                     <h4 class="cb-section-header">
+                        <span>Recent Updates</span>
+                        
+                     </h4>
+                     <a href="http://twitter.com/genomeresearch" rel="external-nw"
+                        style="display:block;text-align:center;border-bottom:1px dotted #ffffff;">
+                        <img src="/site/misc/images/twitterus.gif" alt="follow us on twitter"
+                             title="Twitter" />
+                        </a>
+                     <a data-widget-id="364429657619189760" href="https://twitter.com/genomeresearch"
+                        class="twitter-timeline"
+                        style="font-size:10px;">Tweets by @genomeresearch</a>
+                     <script type="text/JavaScript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                     <div id="twitter-feed"></div>
+                     
+                  </div>
+                  
+               </div>
+               
+            </div>
+            
+            <div class="content-box" id="article-cb-main">
+               
+               <div class="cb-contents">
+                  
+                  <div class="cb-section collapsible default-closed" id="cb-art-gs">
+                     
+                     <h4 class="cb-section-header">
+                        <span>Most Read Articles</span>
+                        
+                     </h4>
+                     <script src="https://www.cshsymposium.org/rssreader/getmon2.php?prm=gr"
+                             type="text/javascript"></script>
+                     <p style="padding-top:0;margin-top:0;text-align:right;">
+                        <a href="/site/misc/top.xhtml">
+                           <strong>View all ...</strong>
+                           </a>
+                        
+                     </p>
+                     
+                  </div>
+                  
+               </div>
+               
+            </div>
+            
+            <div id="col-2-widget-placeholder">
+               <br />
+               <br />
+               
+            </div>
+            
+            <ul class="tower-ads">
+               <li class="no-ad tower_col_2"><span>  </span></li>
+            </ul>
+            
+         </div>
+         <div id="col-3">
+            
+            <div class="content-box" id="sidebar-current-issue">
+               <div class="cb-contents">
+                  <h3 class="cb-contents-header"><span>Current Issue</span></h3>
+                  <div class="cb-section">
+                     <ol>
+                        <li><span><a href="/content/current" rel="current-issue">January 2021, 31 (1)</a></span></li>
+                     </ol>
+                  </div>
+                  <div class="cb-section">
+                     <ol>
+                        <li>
+                           <div class="current-issue"><a href="/content/current" rel="current-issue"><img src="/content/31/1.cover.gif" width="67" height="89" alt="Current Issue" /></a></div>
+                        </li>
+                     </ol>
+                  </div>
+                  
+                  <cb:item xmlns:cb="http://schema.highwire.org/Site/Content-Box">
+                     <div class="cb-section collapsible default-closed" id="sidebar-cur-issue-coverlines">
+                        
+                        <h4 class="cb-section-header">
+                           <span>From the Cover</span>
+                           
+                        </h4>
+                        
+                        <ul>
+                           <li>
+                              <a href="/content/31/1/51">Transcription initiation evolution</a>
+                              
+                           </li>
+                           <li>
+                              <a href="/content/31/1/27">Neurodevelopmental regulation of RNA editing</a>
+                              
+                           </li>
+                           <li>
+                              <a href="/content/31/1/64">Metagenomics of tooth decay</a>
+                              
+                           </li>
+                           <li>
+                              <a href="/content/31/1/40">Thermal stress accelerates plant mutation rates</a>
+                              
+                           </li>
+                           <li>
+                              <a href="/content/31/1/159">NCBI Genome Data Viewer</a>
+                              
+                           </li>
+                        </ul>
+                        
+                     </div>
+                  </cb:item>
+                  
+                  <div class="cb-section sidebar-etoc-link">
+                     <ol>
+                        <li><a href="/cgi/alerts/etoc">Alert me to new issues of <span class="journal-name">
+                                 Genome Research
+                                 </span>
+                              </a></li>
+                     </ol>
+                  </div>
+               </div>
+            </div>
+            <div id="sidebar-global-nav">
+               
+               
+               <ul class="button-list pub-links">
+                  <li class="first"><a href="/content/early/recent" title="Advance Online Articles "><span>Advance Online Articles </span></a></li>
+                  <li><a href="http://submit.genome.org/" rel="external-nw" title="Submit a Manuscript"><span>Submit a Manuscript</span></a></li>
+                  <li><a href="/site/press/Announcements.xhtml" title="GR in the News "><span>GR in the News </span></a></li>
+                  <li><a href="/site/misc/about.xhtml" title="Editorial Board"><span>Editorial Board</span></a></li>
+                  <li><a href="/site/misc/permissions_landing.xhtml" title="Permissions"><span>Permissions</span></a></li>
+                  <li><a href="/site/misc/alertland.xhtml" title="E-mail Alerts &amp; RSS Feeds"><span>E-mail Alerts &amp; RSS Feeds</span></a></li>
+                  <li><a href="http://www.cshlpress.com/library/?hwinfo"
+                        title="Recommend to Your Library"><span>Recommend to Your Library</span></a></li>
+                  <li class="last"><a href="/site/misc/classifieds.xhtml" title="Job Opportunities"><span>Job Opportunities</span></a></li>
+               </ul>
+               
+            </div>
+            
+            
+            <ul class="tower-ads">
+               <li><a href="/cgi/adclick/?ad=55494&amp;adclick=true&amp;url=https%3A%2F%2Fwww.bio-rad.com%2Fen-us%2Fproduct%2Fsequoia-complete-stranded-rna-library-prep-kit%3FID%3DPZ1792E08O1Y%26WT.mc_id%3D201222029942"
+                     target="_blank"><img class="adborder0" title="Bio-Rad"
+                          src="//genome.cshlp.org/adsystem/graphics/716738678498601/genome/19-0795_GXB_SEQuoia_Banner_120x600.jpg?ad=55494&amp;adview=true"
+                          alt="Bio-Rad" /></a></li>
+            </ul>
+            
+            <div id="col-3-widget-placeholder" style="padding-top:12px;">
+               
+               <p style="text-align:center;font-weight:bold;font-size:12px;line-height:15px;margin-top:0;padding-top:0;margin-bottom:0px;color:black;">
+                  <a href="http://www.life-science-alliance.org/?v=genome_research">
+                     <img src="/site/misc/images/LSA120x600.jpg" alt="Life Science Alliance" />
+                     </a>
+                  
+               </p>
+               
+            </div>
+            <script type="text/javascript" src="https://www.cshsymposium.org/vxz2.js"></script>
+            
+            </div>
+         <div id="footer">
+            
+            <div class="bar">
+               	  
+               <div class="footer-group footer-col-left">
+                  	    
+                  <ul class="button-list footer-buttons">
+                     <li class="first"><a href="/" title="Home"><span>Home</span></a></li>
+                     <li><a href="/site/misc/about.xhtml" title="About"><span>About</span></a></li>
+                     <li><a href="/content/by/year" title="Archive"><span>Archive</span></a></li>
+                     <li><a href="http://submit.genome.org/" title="Submit"><span>Submit</span></a></li>
+                     <li><a href="/site/subscriptions/" title="Subscribe"><span>Subscribe</span></a></li>
+                     <li><a href="/site/misc/adinfo.xhtml" title="Advertise"><span>Advertise</span></a></li>
+                     <li><a href="/site/misc/ifora.xhtml" title="Author Info"><span>Author Info</span></a></li>
+                     <li><a href="/feedback" title="Contact"><span>Contact</span></a></li>
+                     <li class="last"><a href="/help/" title="Help"><span>Help</span></a></li>
+                  </ul>
+                  	    
+                  <p class="copyright"><a href="http://www.cshlpress.com/" rel="external-nw">Copyright © 2021 by Cold Spring Harbor Laboratory Press</a></p>
+                  	  
+               </div>
+               	  
+               <div class="footer-group footer-col-right">
+                  	    
+                  <ul class="issns">
+                     <li>
+                        <span>Print ISSN: </span>
+                        <span class="issn">1088-9051</span>
+                        
+                     </li>
+                     <li>
+                        <span>Online ISSN: </span>
+                        <span class="issn">1549-5469</span>
+                        
+                     </li>
+                  </ul>
+                  	  
+               </div>
+               	
+            </div>
+            
+            
+            
+            <div class="block-2 sb-div"></div>
+            <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script><script type="text/javascript">
+        try {
+
+        var pageTracker = _gat._getTracker("UA-743586-2");
+        _gat._anonymizeIp();
+        pageTracker._trackPageview();  
+
+        } catch(err) {}
+        </script>
+            </div><script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script><script type="text/javascript">
+        try {
+        var pageTracker = _gat._getTracker("UA-189672-38");
+        pageTracker._setDomainName(".cshlp.org");
+        _gat._anonymizeIp();
+        pageTracker._trackPageview();
+
+
+        } catch(err) {}
+        </script></div>
+   </body>
+</html>

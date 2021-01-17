@@ -1,0 +1,1715 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML">
+<head>
+
+
+
+<!-- 2.0.13 -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="description" content="Japan's largest platform for academic e-journals: J-STAGE is a full text database for reviewed academic papers published by Japanese societies">
+<meta name="citation_journal_title" content="Plant Biotechnology" />
+<meta name="citation_publisher" content="Japanese Society for Plant Biotechnology" />
+<meta name="citation_author" content="Hideki Hirakawa" />
+<meta name="citation_author_institution" content="Department of Plant Genome Research, Kazusa DNA Research Institute" />
+<meta name="citation_author" content="Yasukazu Nakamura" />
+<meta name="citation_author_institution" content="Department of Plant Genome Research, Kazusa DNA Research Institute" />
+<meta name="citation_author_institution" content="Center for Information Biology and DNA Data Bank of Japan, National Institute of Genetics, Research Organization for Information and Systems" />
+<meta name="citation_author" content="Takakazu Kaneko" />
+<meta name="citation_author_institution" content="Department of Plant Genome Research, Kazusa DNA Research Institute" />
+<meta name="citation_author_institution" content="Faculty of Life Sciences, Kyoto Sangyo University" />
+<meta name="citation_author" content="Sachiko Isobe" />
+<meta name="citation_author_institution" content="Department of Plant Genome Research, Kazusa DNA Research Institute" />
+<meta name="citation_author" content="Hiroe Sakai" />
+<meta name="citation_author_institution" content="Department of Plant Genome Research, Kazusa DNA Research Institute" />
+<meta name="citation_author" content="Tomohiko Kato" />
+<meta name="citation_author_institution" content="Forestry Research Institute, Oji Paper Co. Ltd." />
+<meta name="citation_author" content="Takashi Hibino" />
+<meta name="citation_author_institution" content="Forestry Research Institute, Oji Paper Co. Ltd." />
+<meta name="citation_author" content="Shigemi Sasamoto" />
+<meta name="citation_author_institution" content="Department of Plant Genome Research, Kazusa DNA Research Institute" />
+<meta name="citation_author" content="Akiko Watanabe" />
+<meta name="citation_author_institution" content="Department of Plant Genome Research, Kazusa DNA Research Institute" />
+<meta name="citation_author" content="Manabu Yamada" />
+<meta name="citation_author_institution" content="Department of Plant Genome Research, Kazusa DNA Research Institute" />
+<meta name="citation_author" content="Shinobu Nakayama" />
+<meta name="citation_author_institution" content="Department of Plant Genome Research, Kazusa DNA Research Institute" />
+<meta name="citation_author" content="Tsunakazu Fujishiro" />
+<meta name="citation_author_institution" content="Department of Plant Genome Research, Kazusa DNA Research Institute" />
+<meta name="citation_author" content="Yoshie Kishida" />
+<meta name="citation_author_institution" content="Department of Plant Genome Research, Kazusa DNA Research Institute" />
+<meta name="citation_author" content="Mitsuyo Kohara" />
+<meta name="citation_author_institution" content="Department of Plant Genome Research, Kazusa DNA Research Institute" />
+<meta name="citation_author" content="Satoshi Tabata" />
+<meta name="citation_author_institution" content="Department of Plant Genome Research, Kazusa DNA Research Institute" />
+<meta name="citation_author" content="Shusei Sato" />
+<meta name="citation_author_institution" content="Department of Plant Genome Research, Kazusa DNA Research Institute" />
+<meta name="citation_title" content="Survey of the genetic information carried in the genome of Eucalyptus camaldulensis" />
+<meta name="citation_publication_date" content="2011/12/25" />
+<meta name="citation_online_date" content="2012/02/20" />
+<meta name="citation_volume" content="28" />
+<meta name="citation_issue" content="5" />
+<meta name="citation_firstpage" content="471" />
+<meta name="citation_lastpage" content="480" />
+<meta name="citation_doi" content="10.5511/plantbiotechnology.11.1027b" />
+<meta name="citation_fulltext_world_readable" content="" />
+<meta name="citation_pdf_url" content="https://www.jstage.jst.go.jp/article/plantbiotechnology/28/5/28_11.1027b/_pdf" />
+<meta name="citation_issn" content="1342-4580" />
+<meta name="citation_issn" content="1347-6114" />
+<meta name="citation_language" content="en" />
+<meta name="citation_keywords" content="Eucalyptus camaldulensis" />
+<meta name="citation_keywords" content="cDNA sequencing" />
+<meta name="citation_keywords" content="genome sequencing" />
+<meta name="citation_keywords" content="microsatellite markers" />
+<meta name="citation_keywords" content="genetic diversity" />
+<meta name="citation_reference" content="Altschul SF, Madden TL, Sch&auml;ffer AA (1997) Gapped BLAST and PSI-BLAST: a new generation of protein database search programs.  Nucleic Acids Res 25: 3389&ndash;3402" />
+<meta name="citation_reference" content="Asamizu E, Nakamura Y, Sato S, Fukuzawa H, Tabata S (1999) A large scale structural analysis of cDNAs in a unicellular green alga, Chlamydomonas reinhardtii. I. Generation of 3433 non-redundant expressed sequence tags.  DNA Res 6: 369&ndash;373" />
+<meta name="citation_reference" content="Ashburner M, Ball CA, Blake JA, et al (2000) Gene ontology: tool for the unification of biology. The Gene Ontology Consortium.  Nat Genet 25: 25&ndash;29" />
+<meta name="citation_reference" content="Bairoch A, Apweiler R (1996) The SWISS-PROT protein sequence data bank and its new supplement TREMBL.  Nucleic Acids Res 24: 21&ndash;25" />
+<meta name="citation_reference" content="Bao Z, Eddy SR (2002) Automated de novo Identification of Repeat Sequence Families in Sequenced Genomes.  Genome Res 12: 1269&ndash;1276" />
+<meta name="citation_reference" content="Bocca SN, Magioli C, Mangeon A, Junqueira RM, Cardeal V, Margis R, Sachetto-Martins G (2005) Survey of glycine-rich proteins (GRPs) in the Eucalyptus expressed sequence tag database (ForEST).  Genet Mol Biol 28: 608&ndash;624" />
+<meta name="citation_reference" content="Brendel V, Kleffe J (1998) Prediction of locally optimal splice sites in plant pre-mRNA with applications to gene identification in Arabidopsis thaliana genomic DNA.  Nucleic Acids Res 26: 4748&ndash;4757" />
+<meta name="citation_reference" content="Brondani RP, Williams ER, Brondani C, Grattapaglia D (2006) A microsatellite-based consensus linkage map for species of Eucalyptus and a novel set of 230 microsatellite markers for the genus. BMC Plant Biol 6: 20" />
+<meta name="citation_reference" content="Brondani RPV, Brondani C, Grattapaglia D (2002) Towards a genus-wide reference linkage map for Eucalyptus based exclusively on highly informative microsatellite markers.  Mol Genet Genomics 267: 338&ndash;347" />
+<meta name="citation_reference" content="Brondani RPV, Brondani C, Tarchini R, Grattapaglia D (1998) Development, characterization and mapping of microsatellite markers in Eucalyptus grandis and E. urophylla.  Theor Appl Genet 97: 816&ndash;827" />
+<meta name="citation_reference" content="Brooker MIH (2000) A new classification of the genus Eucalyptus L'Her. (Myrtaceae).  Aust Syst Bot 13: 79&ndash;148" />
+<meta name="citation_reference" content="Burge C, Karlin S (1997) Prediction of complete gene structures in human genomic DNA.  J Mol Biol 268: 78&ndash;94" />
+<meta name="citation_reference" content="Butcher PA, Otero A, Mcdocald MW, Moran GF (2002) Nuclear RFLP variation in Eucalyptus camaldulensis Dehnh. from northern Australia.  Heredity 88: 402&ndash;412" />
+<meta name="citation_reference" content="Byrne M, Marquezgarcia MI, Uren T, Smith DS, Moran GF (1996) Conservation and Genetic Diversity of Microsatellite loci in the Genus Eucalyptus.  Aust J Bot 44: 331&ndash;341" />
+<meta name="citation_reference" content="Carbon S, Ireland A, Mungall CJ, Shu S, Marshall B, Lewis S (2009) AmiGO: online access to ontology and annotation data.  Bioinformatics 15: 288&ndash;289" />
+<meta name="citation_reference" content="Chaix G, Gerber S, Razafimaharo V, Vigneron P, Verhaegen D, Hamon S (2003) Gene flow estimation with microsatellites in a Malagasy seed orchard of Eucalyptus grandis.  Theor Appl Genet 107: 705&ndash;712" />
+<meta name="citation_reference" content="Chen F, Ro D, Petri J, Gershenzon J, Bohlmann J, Pichersky E, Tholl D (2004) Characterization of a Root-Specific Arabidopsis Terpene Synthase Responsible for the Formation of the Volatile Monoterpene 1,8-Cineole1.  Plant Physiol 135: 1956&ndash;1966" />
+<meta name="citation_reference" content="Chevreux B, Pfisterer T, Drescher B, Driesel AJ, M&uuml;ller WE, Wetter T, Suhai S (2004) Using the miraEST assembler for reliable and automated mRNA transcript assembly and SNP detection in sequenced ESTs.  Genome Res 14: 1147&ndash;1159" />
+<meta name="citation_reference" content="Ewing B, Hillier L, Wendl M, Green P (1998) Basecalling of automated sequencer traces using phred. I. Accuracy assessment.  Genome Res 8: 175-185" />
+<meta name="citation_reference" content="Ewing B, Green P (1998) Basecalling of automated sequencer traces using phred. II. Error probabilities.  Genome Res 8: 186&ndash;194" />
+<meta name="citation_reference" content="Garcia-Hernandez M, Berardini TZ, Chen G, Crist D, Doyle A, Huala E, Knee E, Lambrecht M, Miller N, Mueller LA, et al. (2002) TAIR: a resource for integrated Arabidopsis data.  Funct Integr Genomics 2: 239&ndash;253" />
+<meta name="citation_reference" content="Giamakis A, Kretsi O, Chinou I, Spyropoulos CG (2001) Eucalyptus camaldulensis: volatiles from immature flowers and high production of 1,8-cineole and beta-pinene by in vitro cultures.  Phytochemistry 58: 351&ndash;355" />
+<meta name="citation_reference" content="Glaubitz JC, Emebiri LC, Moran GF (2001) Dinucleotide microsatellites from Eucalyptus sieberi: inheritance, diversity, and improved scoring of single-base differences.  Genome 44:  1041&ndash;1045" />
+<meta name="citation_reference" content="Glaubitz JC, Murrell JC, Moran GF (2003) Effects of native forest regeneration practices on genetic diversity in Eucalyptus consideniana.  Theor Appl Genet 107: 422&ndash;431" />
+<meta name="citation_reference" content="Grattapaglia D and Bradshaw HD (1994) Nuclear DNA content of commercially important Eucalyptus species and hybrids.  Can J For Res 24: 1074&ndash;1078" />
+<meta name="citation_reference" content="Grattapaglia D, Silva-Junior OB, Kirst M, de Lima BM, Faria DA, Pappas GJ Jr (2011) High-throughput SNP genotyping in the highly heterozygous genome of Eucalyptus: assay success, polymorphism and transferability across species.  BMC Plant Biol 11: 65" />
+<meta name="citation_reference" content="Grattapaglia D, Ribeiro VJ, Rezende GD (2004) Retrospective selection of elite parent trees using paternity testing with microsatellite markers: an alternative short term breeding tactic for Eucalyptus.  Theor Appl Genet 109: 192&ndash;199" />
+<meta name="citation_reference" content="Hebsgaard SM, Korning PG, Tolstrup N, Engelbrecht J, Rouz&eacute; P, Brunak S (1996) Splice site prediction in Arabidopsis thaliana pre-mRNA by combining local and global sequence information.  Nucleic Acids Res 24: 3439&ndash;3452" />
+<meta name="citation_reference" content="Higgins HG (1984) Pulp and Paper. In: Hillis WE and Brown AG (eds) Eucalyptus for wood production. Academic Press Inc, London, pp 290&ndash;316" />
+<meta name="citation_reference" content="Huang X, Zhang J (1996) Methods for comparing a DNA sequence with a protein sequence. Comput Appli in the Biosci 12: 497&ndash;506" />
+<meta name="citation_reference" content="Huang X, Yang SP, Chinwalla AT, Hillier LW, Minx P, Mardis ER, Wilson RK (2006) Application of a superword array in genome assembly.  Nucleic Acids Res 34: 201&ndash;205" />
+<meta name="citation_reference" content="Hunter S, Apweiler R, Attwood TK, et al. (2009) InterPro: the integrative protein signature database.  Nucleic Acids Res 37: D211&ndash;215" />
+<meta name="citation_reference" content="Kampranis SC, Ioannidis D, Purvis A, Mahrez W, Ninga E, Katerelos NA, Anssour S, Dunwell JM, Degenhardt J, Makris AM, et al. (2007) Rational conversion of substrate and product specificity in a Salvia monoterpene synthase: structural insights into the evolution of terpene synthase function.  Plant Cell 19: 1994&ndash;2005" />
+<meta name="citation_reference" content="Kirst M, Cordeiro CM, Rezende GD, Grattapaglia D (2005) Power of microsatellite markers for fingerprinting and parentage analysis in Eucalyptus grandis breeding populations. Power of microsatellite markers for fingerprinting and parentage analysis in Eucalyptus grandis breeding populations.  J Hered 96: 161&ndash;166" />
+<meta name="citation_reference" content="Koren S, Miller JR, Walenz BP, Sutton G (2010) An algorithm for automated closure during assembly.  BMC Bioinform 11: 457" />
+<meta name="citation_reference" content="Lukashin A, Borodovsky M (1998) GeneMark.hmm: new solutions for gene finding.  Nucleic Acids Res 26: 1107&ndash;1115" />
+<meta name="citation_reference" content="Mullins KV, Llewellyn DJ, Hartney VJ, Strauss S, Dennis ES (1997) Regeneration and transformation of Eucalyptus camaldulensis.  Plant Cell Rep 16: 787&ndash;791" />
+<meta name="citation_reference" content="Ogata H, Goto S, Sato K, Fujibuchi W, Bono H, Kanehisa M (1999) KEGG: Kyoto Encyclopedia of Genes and Genomes.  Nucleic Acids Res 27: 29&ndash;34" />
+<meta name="citation_reference" content="Ottewell KM, Donnellan SC, Moran GF, Paton DC (2005) Multiplexed microsatellite markers for the genetic analysis of Eucalyptus leucoxylon (Myrtaceae) and their utility for ecological and breeding studies in other eucalyptus species.  J Hered 96: 445&ndash;451" />
+<meta name="citation_reference" content="Ranik M, Myburg AA (2006) Six new cellulose synthase genes from Eucalyptus are associated with primary and secondary cell wall biosynthesis.  Tree Physiol 26: 545&ndash;556" />
+<meta name="citation_reference" content="Sato S, Nakamura Y, Kaneko T, Asamizu E, Kato T, Nakao M, Sasamoto S, Watanabe A, Ono A, Kawashima K, et al. (2008) Genome structure of the legume, Lotus japonicus.  DNA Res 15: 227&ndash;239" />
+<meta name="citation_reference" content="Stanke M, Keller O, Gunduz I, Hayes A, Waack S, Morgenstern B (2006) AUGUSTUS: ab initio prediction of alternative transcripts.  Nucleic Acids Res 34(Web Server issue): W435&ndash;439" />
+<meta name="citation_reference" content="Steane DA, Nicolle D, McKinnon GE, Vaillancourt RE, Potts BM (2002) Higher-level relationships among the eucalypts are resolved by ITS-sequence data.  Aust Syst Bot 15: 49&ndash;62" />
+<meta name="citation_reference" content="Tamura K, Dudley J, Nei M, Kumar S (2007) MEGA4: Molecular Evolutionary Genetics Analysis (MEGA) software version 4.0.  Mol Biol Evol 24: 1596&ndash;1599" />
+<meta name="citation_reference" content="Tatusov RL, Fedorova ND, Jackson JD, Jacobs AR, Kiryutin B, Koonin EV, Krylov DM, Mazumder R, Mekhedov SL, Nikolskaya AN, et al. (2003) The COG database: an updated version includes eukaryotes.  BMC Bioinform 4: 41&ndash;54" />
+<meta name="citation_reference" content="Thamarus K, Groom K, Bradley A, Raymond CA, Schimleck LR, Williams ER, Moran GF (2004) Identification of quantitative trait loci for wood and fibre properties in two full-sib properties of Eucalyptus globulus.  Theor Appl Genet 109: 856&ndash;864" />
+<meta name="citation_reference" content="Tholl D, Chen F, Petri J, Gershenzon J, Pichersky E (2005)  Two sesquiterpene synthases are responsible for the complex mixture of sesquiterpenes emitted from Arabidopsis flowers.  Plant J 42: 757&ndash;771" />
+<meta name="citation_reference" content="Thompson JD, Higgins DG, Gibson TJ (1994) CLUSTALW: improving the sensitivity of progressive multiple sequence alignment through sequence weighting, position-specific gap penalties and weight matrix choice.  Nucleic Acids Res 122: 4673&ndash;4680" />
+<meta name="citation_reference" content="Turnbull JW, Pryor LD (1984) Choice of specific and seed sources. In: Hillis WE and Brown AG (eds) Eucalyptus for wood production.  Academic Press Inc, London, pp 6&ndash;65" />
+<meta name="citation_reference" content="Tuskan GA, Difazio S, Jansson S, Bohlmann J, Grigoriev I, et al. (2006) The Genome of Black Cottonwood, Populus trichocarpa (Torr &amp; Gray).  Science 15: 1596&ndash;1604" />
+<meta name="dc.identifier" content="10.5511/plantbiotechnology.11.1027b" />
+<meta name="journal_code" content="plantbiotechnology" />
+<meta name="journal_title" content="Plant Biotechnology" />
+<meta name="publisher" content="Japanese Society for Plant Biotechnology" />
+<meta name="authors" content="Hideki Hirakawa" />
+<meta name="authors_institutions" content="Department of Plant Genome Research, Kazusa DNA Research Institute" />
+<meta name="authors" content="Yasukazu Nakamura" />
+<meta name="authors_institutions" content="Department of Plant Genome Research, Kazusa DNA Research Institute" />
+<meta name="authors_institutions" content="Center for Information Biology and DNA Data Bank of Japan, National Institute of Genetics, Research Organization for Information and Systems" />
+<meta name="authors" content="Takakazu Kaneko" />
+<meta name="authors_institutions" content="Department of Plant Genome Research, Kazusa DNA Research Institute" />
+<meta name="authors_institutions" content="Faculty of Life Sciences, Kyoto Sangyo University" />
+<meta name="authors" content="Sachiko Isobe" />
+<meta name="authors_institutions" content="Department of Plant Genome Research, Kazusa DNA Research Institute" />
+<meta name="authors" content="Hiroe Sakai" />
+<meta name="authors_institutions" content="Department of Plant Genome Research, Kazusa DNA Research Institute" />
+<meta name="authors" content="Tomohiko Kato" />
+<meta name="authors_institutions" content="Forestry Research Institute, Oji Paper Co. Ltd." />
+<meta name="authors" content="Takashi Hibino" />
+<meta name="authors_institutions" content="Forestry Research Institute, Oji Paper Co. Ltd." />
+<meta name="authors" content="Shigemi Sasamoto" />
+<meta name="authors_institutions" content="Department of Plant Genome Research, Kazusa DNA Research Institute" />
+<meta name="authors" content="Akiko Watanabe" />
+<meta name="authors_institutions" content="Department of Plant Genome Research, Kazusa DNA Research Institute" />
+<meta name="authors" content="Manabu Yamada" />
+<meta name="authors_institutions" content="Department of Plant Genome Research, Kazusa DNA Research Institute" />
+<meta name="authors" content="Shinobu Nakayama" />
+<meta name="authors_institutions" content="Department of Plant Genome Research, Kazusa DNA Research Institute" />
+<meta name="authors" content="Tsunakazu Fujishiro" />
+<meta name="authors_institutions" content="Department of Plant Genome Research, Kazusa DNA Research Institute" />
+<meta name="authors" content="Yoshie Kishida" />
+<meta name="authors_institutions" content="Department of Plant Genome Research, Kazusa DNA Research Institute" />
+<meta name="authors" content="Mitsuyo Kohara" />
+<meta name="authors_institutions" content="Department of Plant Genome Research, Kazusa DNA Research Institute" />
+<meta name="authors" content="Satoshi Tabata" />
+<meta name="authors_institutions" content="Department of Plant Genome Research, Kazusa DNA Research Institute" />
+<meta name="authors" content="Shusei Sato" />
+<meta name="authors_institutions" content="Department of Plant Genome Research, Kazusa DNA Research Institute" />
+<meta name="title" content="Survey of the genetic information carried in the genome of Eucalyptus camaldulensis" />
+<meta name="publication_date" content="2011/12/25" />
+<meta name="online_date" content="2012/02/20" />
+<meta name="volume" content="28" />
+<meta name="issue" content="5" />
+<meta name="firstpage" content="471" />
+<meta name="lastpage" content="480" />
+<meta name="doi" content="10.5511/plantbiotechnology.11.1027b" />
+<meta name="fulltext_world_readable" content="" />
+<meta name="pdf_url" content="https://www.jstage.jst.go.jp/article/plantbiotechnology/28/5/28_11.1027b/_pdf" />
+<meta name="print_issn" content="1342-4580" />
+<meta name="online_issn" content="1347-6114" />
+<meta name="issn_l" content="1342-4580" />
+<meta name="language" content="en" />
+<meta name="keywords" content="Eucalyptus camaldulensis" />
+<meta name="keywords" content="cDNA sequencing" />
+<meta name="keywords" content="genome sequencing" />
+<meta name="keywords" content="microsatellite markers" />
+<meta name="keywords" content="genetic diversity" />
+<meta name="abstract" content="The genetic information in the genome of Eucalyptus camaldulensis was investigated by sequencing the genome and the cDNA using a combination of the conventional Sanger method and next-generation sequencing methods, followed by intensive bioinformatics analyses. The total length of the non-redundant genomic sequences thus obtained was 654,922,307 bp consisting of 81,246 scaffolds and 121,194 singlets. These sequences accounted for approximately 92% of the gene-containing regions with an average G+C content of 33.6%. A total of 77,121 complete and partial structures of protein-encoding genes have been deduced. Comparison of the genes mapped on the KEGG pathways or located in the KOG classification with those in other plant species revealed the characteristics of the E. camaldulensis genome, and it was found that 23 pathways contained enzymes present only in the E. camaldulensis genome. Polymorphism analysis using microsatellite markers developed from the genomic sequence data obtained was performed with six Eucalyptus species collected from various parts of the world to estimate their genetic diversity, and the usefulness of these markers was demonstrated. The genomic sequence and accompanying information presented here are expected to serve as valuable resources for the acceleration of fundamental and applied research with Eucalyptus, especially in the fields of paper production and industrial materials. Further information on the genomic and cDNA sequences and microsatellite markers is available at http://www.kazusa.or.jp/eucaly/." />
+<meta name="references" content="Altschul SF, Madden TL, Sch&auml;ffer AA (1997) Gapped BLAST and PSI-BLAST: a new generation of protein database search programs.  Nucleic Acids Res 25: 3389&ndash;3402" />
+<meta name="references" content="Asamizu E, Nakamura Y, Sato S, Fukuzawa H, Tabata S (1999) A large scale structural analysis of cDNAs in a unicellular green alga, Chlamydomonas reinhardtii. I. Generation of 3433 non-redundant expressed sequence tags.  DNA Res 6: 369&ndash;373" />
+<meta name="references" content="Ashburner M, Ball CA, Blake JA, et al (2000) Gene ontology: tool for the unification of biology. The Gene Ontology Consortium.  Nat Genet 25: 25&ndash;29" />
+<meta name="references" content="Bairoch A, Apweiler R (1996) The SWISS-PROT protein sequence data bank and its new supplement TREMBL.  Nucleic Acids Res 24: 21&ndash;25" />
+<meta name="references" content="Bao Z, Eddy SR (2002) Automated de novo Identification of Repeat Sequence Families in Sequenced Genomes.  Genome Res 12: 1269&ndash;1276" />
+<meta name="references" content="Bocca SN, Magioli C, Mangeon A, Junqueira RM, Cardeal V, Margis R, Sachetto-Martins G (2005) Survey of glycine-rich proteins (GRPs) in the Eucalyptus expressed sequence tag database (ForEST).  Genet Mol Biol 28: 608&ndash;624" />
+<meta name="references" content="Brendel V, Kleffe J (1998) Prediction of locally optimal splice sites in plant pre-mRNA with applications to gene identification in Arabidopsis thaliana genomic DNA.  Nucleic Acids Res 26: 4748&ndash;4757" />
+<meta name="references" content="Brondani RP, Williams ER, Brondani C, Grattapaglia D (2006) A microsatellite-based consensus linkage map for species of Eucalyptus and a novel set of 230 microsatellite markers for the genus. BMC Plant Biol 6: 20" />
+<meta name="references" content="Brondani RPV, Brondani C, Grattapaglia D (2002) Towards a genus-wide reference linkage map for Eucalyptus based exclusively on highly informative microsatellite markers.  Mol Genet Genomics 267: 338&ndash;347" />
+<meta name="references" content="Brondani RPV, Brondani C, Tarchini R, Grattapaglia D (1998) Development, characterization and mapping of microsatellite markers in Eucalyptus grandis and E. urophylla.  Theor Appl Genet 97: 816&ndash;827" />
+<meta name="references" content="Brooker MIH (2000) A new classification of the genus Eucalyptus L'Her. (Myrtaceae).  Aust Syst Bot 13: 79&ndash;148" />
+<meta name="references" content="Burge C, Karlin S (1997) Prediction of complete gene structures in human genomic DNA.  J Mol Biol 268: 78&ndash;94" />
+<meta name="references" content="Butcher PA, Otero A, Mcdocald MW, Moran GF (2002) Nuclear RFLP variation in Eucalyptus camaldulensis Dehnh. from northern Australia.  Heredity 88: 402&ndash;412" />
+<meta name="references" content="Byrne M, Marquezgarcia MI, Uren T, Smith DS, Moran GF (1996) Conservation and Genetic Diversity of Microsatellite loci in the Genus Eucalyptus.  Aust J Bot 44: 331&ndash;341" />
+<meta name="references" content="Carbon S, Ireland A, Mungall CJ, Shu S, Marshall B, Lewis S (2009) AmiGO: online access to ontology and annotation data.  Bioinformatics 15: 288&ndash;289" />
+<meta name="references" content="Chaix G, Gerber S, Razafimaharo V, Vigneron P, Verhaegen D, Hamon S (2003) Gene flow estimation with microsatellites in a Malagasy seed orchard of Eucalyptus grandis.  Theor Appl Genet 107: 705&ndash;712" />
+<meta name="references" content="Chen F, Ro D, Petri J, Gershenzon J, Bohlmann J, Pichersky E, Tholl D (2004) Characterization of a Root-Specific Arabidopsis Terpene Synthase Responsible for the Formation of the Volatile Monoterpene 1,8-Cineole1.  Plant Physiol 135: 1956&ndash;1966" />
+<meta name="references" content="Chevreux B, Pfisterer T, Drescher B, Driesel AJ, M&uuml;ller WE, Wetter T, Suhai S (2004) Using the miraEST assembler for reliable and automated mRNA transcript assembly and SNP detection in sequenced ESTs.  Genome Res 14: 1147&ndash;1159" />
+<meta name="references" content="Ewing B, Hillier L, Wendl M, Green P (1998) Basecalling of automated sequencer traces using phred. I. Accuracy assessment.  Genome Res 8: 175-185" />
+<meta name="references" content="Ewing B, Green P (1998) Basecalling of automated sequencer traces using phred. II. Error probabilities.  Genome Res 8: 186&ndash;194" />
+<meta name="references" content="Garcia-Hernandez M, Berardini TZ, Chen G, Crist D, Doyle A, Huala E, Knee E, Lambrecht M, Miller N, Mueller LA, et al. (2002) TAIR: a resource for integrated Arabidopsis data.  Funct Integr Genomics 2: 239&ndash;253" />
+<meta name="references" content="Giamakis A, Kretsi O, Chinou I, Spyropoulos CG (2001) Eucalyptus camaldulensis: volatiles from immature flowers and high production of 1,8-cineole and beta-pinene by in vitro cultures.  Phytochemistry 58: 351&ndash;355" />
+<meta name="references" content="Glaubitz JC, Emebiri LC, Moran GF (2001) Dinucleotide microsatellites from Eucalyptus sieberi: inheritance, diversity, and improved scoring of single-base differences.  Genome 44:  1041&ndash;1045" />
+<meta name="references" content="Glaubitz JC, Murrell JC, Moran GF (2003) Effects of native forest regeneration practices on genetic diversity in Eucalyptus consideniana.  Theor Appl Genet 107: 422&ndash;431" />
+<meta name="references" content="Grattapaglia D and Bradshaw HD (1994) Nuclear DNA content of commercially important Eucalyptus species and hybrids.  Can J For Res 24: 1074&ndash;1078" />
+<meta name="references" content="Grattapaglia D, Silva-Junior OB, Kirst M, de Lima BM, Faria DA, Pappas GJ Jr (2011) High-throughput SNP genotyping in the highly heterozygous genome of Eucalyptus: assay success, polymorphism and transferability across species.  BMC Plant Biol 11: 65" />
+<meta name="references" content="Grattapaglia D, Ribeiro VJ, Rezende GD (2004) Retrospective selection of elite parent trees using paternity testing with microsatellite markers: an alternative short term breeding tactic for Eucalyptus.  Theor Appl Genet 109: 192&ndash;199" />
+<meta name="references" content="Hebsgaard SM, Korning PG, Tolstrup N, Engelbrecht J, Rouz&eacute; P, Brunak S (1996) Splice site prediction in Arabidopsis thaliana pre-mRNA by combining local and global sequence information.  Nucleic Acids Res 24: 3439&ndash;3452" />
+<meta name="references" content="Higgins HG (1984) Pulp and Paper. In: Hillis WE and Brown AG (eds) Eucalyptus for wood production. Academic Press Inc, London, pp 290&ndash;316" />
+<meta name="references" content="Huang X, Zhang J (1996) Methods for comparing a DNA sequence with a protein sequence. Comput Appli in the Biosci 12: 497&ndash;506" />
+<meta name="references" content="Huang X, Yang SP, Chinwalla AT, Hillier LW, Minx P, Mardis ER, Wilson RK (2006) Application of a superword array in genome assembly.  Nucleic Acids Res 34: 201&ndash;205" />
+<meta name="references" content="Hunter S, Apweiler R, Attwood TK, et al. (2009) InterPro: the integrative protein signature database.  Nucleic Acids Res 37: D211&ndash;215" />
+<meta name="references" content="Kampranis SC, Ioannidis D, Purvis A, Mahrez W, Ninga E, Katerelos NA, Anssour S, Dunwell JM, Degenhardt J, Makris AM, et al. (2007) Rational conversion of substrate and product specificity in a Salvia monoterpene synthase: structural insights into the evolution of terpene synthase function.  Plant Cell 19: 1994&ndash;2005" />
+<meta name="references" content="Kirst M, Cordeiro CM, Rezende GD, Grattapaglia D (2005) Power of microsatellite markers for fingerprinting and parentage analysis in Eucalyptus grandis breeding populations. Power of microsatellite markers for fingerprinting and parentage analysis in Eucalyptus grandis breeding populations.  J Hered 96: 161&ndash;166" />
+<meta name="references" content="Koren S, Miller JR, Walenz BP, Sutton G (2010) An algorithm for automated closure during assembly.  BMC Bioinform 11: 457" />
+<meta name="references" content="Lukashin A, Borodovsky M (1998) GeneMark.hmm: new solutions for gene finding.  Nucleic Acids Res 26: 1107&ndash;1115" />
+<meta name="references" content="Mullins KV, Llewellyn DJ, Hartney VJ, Strauss S, Dennis ES (1997) Regeneration and transformation of Eucalyptus camaldulensis.  Plant Cell Rep 16: 787&ndash;791" />
+<meta name="references" content="Ogata H, Goto S, Sato K, Fujibuchi W, Bono H, Kanehisa M (1999) KEGG: Kyoto Encyclopedia of Genes and Genomes.  Nucleic Acids Res 27: 29&ndash;34" />
+<meta name="references" content="Ottewell KM, Donnellan SC, Moran GF, Paton DC (2005) Multiplexed microsatellite markers for the genetic analysis of Eucalyptus leucoxylon (Myrtaceae) and their utility for ecological and breeding studies in other eucalyptus species.  J Hered 96: 445&ndash;451" />
+<meta name="references" content="Ranik M, Myburg AA (2006) Six new cellulose synthase genes from Eucalyptus are associated with primary and secondary cell wall biosynthesis.  Tree Physiol 26: 545&ndash;556" />
+<meta name="references" content="Sato S, Nakamura Y, Kaneko T, Asamizu E, Kato T, Nakao M, Sasamoto S, Watanabe A, Ono A, Kawashima K, et al. (2008) Genome structure of the legume, Lotus japonicus.  DNA Res 15: 227&ndash;239" />
+<meta name="references" content="Stanke M, Keller O, Gunduz I, Hayes A, Waack S, Morgenstern B (2006) AUGUSTUS: ab initio prediction of alternative transcripts.  Nucleic Acids Res 34(Web Server issue): W435&ndash;439" />
+<meta name="references" content="Steane DA, Nicolle D, McKinnon GE, Vaillancourt RE, Potts BM (2002) Higher-level relationships among the eucalypts are resolved by ITS-sequence data.  Aust Syst Bot 15: 49&ndash;62" />
+<meta name="references" content="Tamura K, Dudley J, Nei M, Kumar S (2007) MEGA4: Molecular Evolutionary Genetics Analysis (MEGA) software version 4.0.  Mol Biol Evol 24: 1596&ndash;1599" />
+<meta name="references" content="Tatusov RL, Fedorova ND, Jackson JD, Jacobs AR, Kiryutin B, Koonin EV, Krylov DM, Mazumder R, Mekhedov SL, Nikolskaya AN, et al. (2003) The COG database: an updated version includes eukaryotes.  BMC Bioinform 4: 41&ndash;54" />
+<meta name="references" content="Thamarus K, Groom K, Bradley A, Raymond CA, Schimleck LR, Williams ER, Moran GF (2004) Identification of quantitative trait loci for wood and fibre properties in two full-sib properties of Eucalyptus globulus.  Theor Appl Genet 109: 856&ndash;864" />
+<meta name="references" content="Tholl D, Chen F, Petri J, Gershenzon J, Pichersky E (2005)  Two sesquiterpene synthases are responsible for the complex mixture of sesquiterpenes emitted from Arabidopsis flowers.  Plant J 42: 757&ndash;771" />
+<meta name="references" content="Thompson JD, Higgins DG, Gibson TJ (1994) CLUSTALW: improving the sensitivity of progressive multiple sequence alignment through sequence weighting, position-specific gap penalties and weight matrix choice.  Nucleic Acids Res 122: 4673&ndash;4680" />
+<meta name="references" content="Turnbull JW, Pryor LD (1984) Choice of specific and seed sources. In: Hillis WE and Brown AG (eds) Eucalyptus for wood production.  Academic Press Inc, London, pp 6&ndash;65" />
+<meta name="references" content="Tuskan GA, Difazio S, Jansson S, Bohlmann J, Grigoriev I, et al. (2006) The Genome of Black Cottonwood, Populus trichocarpa (Torr &amp; Gray).  Science 15: 1596&ndash;1604" />
+<meta name="access_control" content="FREE ACCESS" />
+<meta name="copyright" content="2011 by Japanese Society for Plant Biotechnology" />
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+<title>Survey of the genetic information carried in the genome of <i>Eucalyptus camaldulensis</i></title>
+<link rel="stylesheet" href="/web/css/bootstrap3-wysiwyg5-color.css" />
+<link rel="stylesheet" href="/web/css/bootstrap3-wysiwyg5.css" />
+<link rel="stylesheet" href="/web/css/ranking.css?rn=2.0.13" />
+
+<link rel="stylesheet" href="/web/css/bootstrap.min.css" />
+
+<link rel="stylesheet" href="/web/css/style.css?rn=2.0.13"/>
+<link rel="stylesheet" href="/web/css/common-elements-style.css?rn=2.0.13" />
+<link rel="stylesheet" href="/web/css/jquery.treefilter.css" />
+<link rel="stylesheet" href="/web/css/jplayer.blue.monday.css" />
+<link rel="stylesheet" href="/web/css/main.css?rn=2.0.13" />
+
+<link rel="stylesheet" media="print" href="/web/css/print.css" />
+
+<!--[if lt IE 9]>
+
+<script src="/web/js/html5shiv.min.js"></script>
+<script src="/web/js/respond.min.js"></script>
+<![endif]-->
+<style type="text/css">
+<!--
+b {
+	font-weight: bold;
+}
+i {
+	font-style: italic;
+}
+// -->
+</style>
+</head>
+	<body class="body-offcanvas addition-pages">
+
+		
+
+<!-- HEADER :: START -->
+<span class="noprint">
+<header class="clearfix">
+	<!-- NAVIGATION :: START -->
+	<nav class="navbar navbar-default navbar-fixed-top ep-nav-shadow" >
+		<div class="container">
+			<button type="button" class="navbar-toggle offcanvas-toggle" data-toggle="offcanvas" data-target="#js-bootstrap-offcanvas" style="float:left;"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar">&nbsp;</span> <span class="icon-bar">&nbsp;</span> <span class="icon-bar">&nbsp;</span> </button>
+			<!-- RIGHT NAV SEARCH :: BEGIN -->
+			<div class="search-nav-block dropdown">
+				<a href="javascript:;" class=""  data-toggle="collapse" data-target="#Search_nav"><i class="search-nav-icon"></i></a>
+			</div>
+			<!-- RIGHT NAV SEARCH :: END -->
+			<!-- LOGO :: START -->
+			<a class="navbar-brand ms-logowrap hm-logo-padding" href="https://www.jstage.jst.go.jp/browse/-char/en"><img src="/web/images/J-STAGE_logo_A3.png" alt="" style="margin-top:6px;"/></a>
+			<!-- LOGO :: END -->
+			<!-- HAMBURGER LEFT TO RIGHT SLIDE :: START -->
+			<div class="offcanvas-left-wrap register-offcanvas-left-wrap">
+								<div class="navbar-offcanvas navbar-offcanvas-touch navbar-offcanvas-fade" role="navigation" id="js-bootstrap-offcanvas">
+					<div class="offcanvas-left-wrap">
+						<div class="navbar-header">
+							<a class="navbar-brand jst-homelink" href="https://www.jstage.jst.go.jp/browse/-char/en">J-STAGE home</a>
+							<button type="button" class="navbar-toggle offcanvas-toggle pull-right" data-toggle="offcanvas" data-target="#js-bootstrap-offcanvas" style="float:left;"> <img src="/web/images/edit-profile/icon-close-menu.png" alt=""></button>
+						</div>
+						<div class="offcanvas-nav-wrap">
+							<ul class="nav navbar-nav">
+																<li class="dropdown reponsive-menu"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Browse<b class="caret"></b></a>
+									<ul class="dropdown-menu ep-dropdown-menu">
+										<li style="background:none !important;"><span class="topnav-dropdown-icon"><img src="/web/images/top-nav-dropdown-arrow.png" width="18" height="10" alt=""/></span></li>
+										<li><a href="/journal/list/-char/en">All titles</a></li>
+										<li><a href="/journal/fields/-char/en">All subject areas</a></li>
+										<li><a href="/journal/publisher/-char/en">All publishers</a></li>
+										<li><a href="/search/global/_search/-char/en">Search articles</a></li>
+									</ul>
+								</li>
+																<li class="dropdown reponsive-menu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">About J-STAGE <b class="caret"></b></a>
+									<ul class="dropdown-menu ep-dropdown-menu">
+										<li style="background:none !important;"><span class="topnav-dropdown-icon"><img src="/web/images/top-nav-dropdown-arrow.png" width="18" height="10" alt=""/></span></li>
+										<li><a href="https://www.jstage.jst.go.jp/static/pages/JstageOverview/-char/en">Overview</a></li>
+										<li><a href="https://www.jstage.jst.go.jp/static/pages/JstageServices/TAB1/-char/en">Services and features</a></li>
+										<li><a href="https://www.jstage.jst.go.jp/static/pages/PublicDataAboutJstage/-char/en">Public data</a></li>
+										<li><a href="https://www.jstage.jst.go.jp/static/pages/TermsAndPolicies/ForIndividuals/-char/en">Terms and Policy</a></li>
+																			</ul>
+								</li>
+
+																<li class="dropdown reponsive-menu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">News and PR  <b class="caret"></b></a>
+									<ul class="dropdown-menu ep-dropdown-menu">
+										<li style="background:none !important;"><span class="topnav-dropdown-icon"><img src="/web/images/top-nav-dropdown-arrow.png" width="18" height="10" alt=""/></span></li>
+										<li><a href="https://www.jstage.jst.go.jp/static/pages/News/TAB1/Current/Page1/-char/en">News</a></li>
+																				<li><a href="https://www.jstage.jst.go.jp/static/pages/News/TAB2/Page1/-char/en">Maintenance information</a></li>
+																														<li><a href="https://www.jstage.jst.go.jp/static/pages/News/TAB6/Page1/-char/en">Special contents </a></li>
+										<li><a href="https://www.jstage.jst.go.jp/static/pages/News/TAB7/Page1/-char/en">PR media </a></li>
+									</ul>
+								</li>
+																<li class="dropdown reponsive-menu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Support  <b class="caret"></b></a>
+									<ul class="dropdown-menu ep-dropdown-menu">
+										<li style="background:none !important;"><span class="topnav-dropdown-icon"><img src="/web/images/top-nav-dropdown-arrow.png" width="18" height="10" alt=""/></span></li>
+																														<li><a href="https://www.jstage.jst.go.jp/static/pages/ForReaders/-char/en">User's manual</a></li>
+										<li><a href="https://www.jstage.jst.go.jp/static/pages/RecommendedEnvironment/-char/en">Current confirmed browsers</a></li>
+																				 <li><a href="https://www.jstage.jst.go.jp/static/pages/FAQs/TAB3/-char/en">FAQ</a></li> 										<li><a href="https://www.jstage.jst.go.jp/static/pages/Contact/-char/en">Contact </a></li>
+										<li><a href="https://www.jstage.jst.go.jp/static/pages/Sitemap/-char/en">Sitemap </a></li>
+									</ul>
+								</li>
+																																														<li class="reponsive-menu"><a href="/mylogin/-char/en?sourceurl=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Fplantbiotechnology%2F28%2F5%2F28_11.1027b%2F_article%2F-char%2Fen">Sign in</a></li>
+																											<li class="reponsive-menu"><a href="/cart/list/-char/en?backurl=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Fplantbiotechnology%2F28%2F5%2F28_11.1027b%2F_article%2F-char%2Fen" class="" >Cart <img src="/web/images/edit-profile/icon-cart.png" alt=""></a>
+									</li>
+																<li class="dropdown reponsive-menu">
+																		<a href="#" class="dropdown-toggle" data-toggle="dropdown"> EN  <img src="/web/images/edit-profile/icon-lang.png" alt=""> <b class="caret"></b></a>
+									<ul class="dropdown-menu ep-dropdown-menu">
+									<li style="background:none !important;"><span class="topnav-dropdown-icon"><img src="/web/images/top-nav-dropdown-arrow.png" width="18" height="10" alt=""/></span></li>
+																				<li><a href="javascript:;" onclick="doChangeLang('en')">English</a></li>
+										<li><a href="javascript:;" onclick="doChangeLang('ja')">日本語</a></li>
+																			</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+								<ul class="nav navbar-nav offcanvas-left-display-none">
+										<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Browse<b class="caret"></b></a>
+						<ul class="dropdown-menu ep-dropdown-menu">
+							<li style="background:none !important;"><span class="topnav-dropdown-icon"><img src="/web/images/top-nav-dropdown-arrow.png" width="18" height="10" alt=""/></span></li>
+							<li><a href="/journal/list/-char/en">All titles</a></li>
+							<li><a href="/journal/fields/-char/en">All subject areas</a></li>
+							<li><a href="/journal/publisher/-char/en">All publishers</a></li>
+							<li><a href="/search/global/_search/-char/en">Search articles</a></li>
+						</ul>
+					</li>
+										<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">About J-STAGE <b class="caret"></b></a>
+						<ul class="dropdown-menu ep-dropdown-menu">
+							<li style="background:none !important;"><span class="topnav-dropdown-icon"><img src="/web/images/top-nav-dropdown-arrow.png" width="18" height="10" alt=""/></span></li>
+							<li><a href="https://www.jstage.jst.go.jp/static/pages/JstageOverview/-char/en">Overview</a></li>
+							<li><a href="https://www.jstage.jst.go.jp/static/pages/JstageServices/TAB1/-char/en">Services and features</a></li>
+							<li><a href="https://www.jstage.jst.go.jp/static/pages/PublicDataAboutJstage/-char/en">Public data</a></li>
+							<li><a href="https://www.jstage.jst.go.jp/static/pages/TermsAndPolicies/ForIndividuals/-char/en">Terms and Policy</a></li>
+													</ul>
+					</li>
+										<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">News and PR  <b class="caret"></b></a>
+						<ul class="dropdown-menu ep-dropdown-menu">
+							<li style="background:none !important;"><span class="topnav-dropdown-icon"><img src="/web/images/top-nav-dropdown-arrow.png" width="18" height="10" alt=""/></span></li>
+							<li><a href="https://www.jstage.jst.go.jp/static/pages/News/TAB1/Current/Page1/-char/en">News</a></li>
+														<li><a href="https://www.jstage.jst.go.jp/static/pages/News/TAB2/Page1/-char/en">Maintenance information</a></li>
+																					<li><a href="https://www.jstage.jst.go.jp/static/pages/News/TAB6/Page1/-char/en">Special contents </a></li>
+							<li><a href="https://www.jstage.jst.go.jp/static/pages/News/TAB7/Page1/-char/en">PR media </a></li>
+						</ul>
+					</li>
+										<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Support  <b class="caret"></b></a>
+						<ul class="dropdown-menu ep-dropdown-menu">
+							<li style="background:none !important;"><span class="topnav-dropdown-icon"><img src="/web/images/top-nav-dropdown-arrow.png" width="18" height="10" alt=""/></span></li>
+																					<li><a href="https://www.jstage.jst.go.jp/static/pages/ForReaders/-char/en">User's manual</a></li>
+							<li><a href="https://www.jstage.jst.go.jp/static/pages/RecommendedEnvironment/-char/en">Current confirmed browsers</a></li>
+														 <li><a href="https://www.jstage.jst.go.jp/static/pages/FAQs/TAB3/-char/en">FAQ</a></li> 							<li><a href="https://www.jstage.jst.go.jp/static/pages/Contact/-char/en">Contact </a></li>
+							<li><a href="https://www.jstage.jst.go.jp/static/pages/Sitemap/-char/en">Sitemap </a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<!-- HAMBURGER LEFT TO RIGHT SLIDE :: END -->
+			<div class="offcanvas-right-wrap register-offcanvas-right-wrap">
+				<ul class="nav navbar-nav">
+																					<li class=""> <a href="/mylogin/-char/en?sourceurl=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Fplantbiotechnology%2F28%2F5%2F28_11.1027b%2F_article%2F-char%2Fen" class="" >Sign in  </a></li>
+															<li class=""><a href="/cart/list/-char/en?backurl=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Fplantbiotechnology%2F28%2F5%2F28_11.1027b%2F_article%2F-char%2Fen" class="" >Cart </a>
+					</li>
+												<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					 EN 					<b class="caret"></b>
+					</a>
+					<ul class="dropdown-menu ep-dropdown-menu" style="min-width: 80px;">
+						<li style="background:none !important;"><span class="topnav-dropdown-icon"><img src="/web/images/top-nav-dropdown-arrow.png" width="18" height="10" alt=""></span></li>
+						<li><a href="javascript:;" onclick="doChangeLang('en')">English</a></li>
+						<li><a href="javascript:;" onclick="doChangeLang('ja')">日本語</a></li>
+					</ul>
+				</li>
+								</ul>
+			</div>
+			<!-- RIGHT NAV SEARCH DROPDOWN :: BEGIN -->
+			<ul class="dropdown-menu collapse ep-dropdown-menu search-dropdown-menu" id="Search_nav" style="max-width: 300px;">
+				<li style="background:none !important;"><span class="topnav-dropdown-icon"></span></li>
+				<li>
+					<div class="col-md-24 edit-profile-form-control">
+						<form action="/result/journal/-char/en" method="get">
+						<div class="input-group">
+							<input name="globalSearchKey" type="text" class="form-control search-nav-input" placeholder="Search within all titles on J-STAGE">
+							<span class="input-group-btn search-btn">
+							<button class="btn btn-default" type="submit"><i class="search-nav-icon"></i></button>
+							</span>
+						</div><!-- /input-group -->
+						<a href="https://www.jstage.jst.go.jp/search/global/_search/-char/en" class="advanced-search-link">Advanced search </a>
+						</form>
+					</div>
+				</li>
+			</ul>
+			<!-- RIGHT NAV SEARCH DROPDOWN :: END -->
+
+			<div class="clearfix"></div>
+		</div>
+	</nav>
+	<!-- NAVIGATION :: END -->
+</header>
+</span>
+<!-- HEADER :: END -->
+	
+
+
+
+
+
+<!-- JOURNAL INTRODUCTION :: START -->
+<div id="page-content">
+	<div id="journal-header-compact" class="secondlevel-tabnavigation-detail colorscheme02-normal">
+		<div class="container">
+			<div class="flt-left" style="width:100%; position:relative;">
+				<div class="journal-name">Plant Biotechnology</div>
+
+														<div id="journal-right-infosection" class="col-sm-6" style="padding-top:15px;">
+						<div class="fs-12">
+															Online ISSN : 1347-6114<br>
+																						Print ISSN : 1342-4580<br>
+																						ISSN-L : 1342-4580
+													</div>
+					</div>
+								<div class="journal-tags-clearfix"></div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!-- JOURNAL INTRODUCTION :: END -->
+
+<!-- SECOND LEVEL TAB NAVIGATION :: START -->
+<div class="colorscheme02-normal">
+	<div class="container">
+		<div id="second-level-nav-tabs">
+			<ul class="nav nav-tabs">
+				<li ><a href="https://www.jstage.jst.go.jp/browse/plantbiotechnology/-char/en">Journal home</a></li>
+									<li ><a href="https://www.jstage.jst.go.jp/browse/plantbiotechnology/advpub/0/_contents/-char/en">Advance online publication</a></li>
+								<li ><a href="https://www.jstage.jst.go.jp/browse/plantbiotechnology/list/-char/en">Journal issue</a></li>
+												<li ><a href="https://www.jstage.jst.go.jp/browse/plantbiotechnology/_pubinfo/-char/en">About the journal</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!-- SECOND LEVEL TAB NAVIGATION :: END --><div class="container">
+	<div class="row">
+		<div class="col-md-24">
+																						
+			<!-- BREDCRUMBS :: START -->
+		<ul class="global-breadcrumbs">
+			<li><a href="https://www.jstage.jst.go.jp/browse/-char/en">J-STAGE home</a></li>
+			<li>/</li>
+						<li><a href="https://www.jstage.jst.go.jp/browse/plantbiotechnology/-char/en">Plant Biotechnology</a></li>
+						<li> / </li>
+			<li><a href='https://www.jstage.jst.go.jp/browse/plantbiotechnology/28/5/_contents/-char/en'>Volume 28 (2011) Issue 5</a></li><li> / </li><li>Article overview</li>
+		</ul>
+		<div class="clearfix"></div>	<!-- BREDCRUMBS :: END -->		</div>
+	</div>
+	<div class="row">
+		<!-- LEFT SECTION :: START -->
+		<div class="col-md-18">
+									<div class="global-article-subtitle">Original Papers</div>
+															<div class="global-article-title">Survey of the genetic information carried in the genome of <i>Eucalyptus camaldulensis</i></div>
+			<div class="global-article-inner-title"></div>
+			<div class="global-authors-name-tags">	<!--
+	
+		
+				--><a href="https://www.jstage.jst.go.jp/search/global/_search/-char/en?item=8&word=Hideki+Hirakawa" class="customTooltip" title="Hideki Hirakawa, Department of Plant Genome Research, Kazusa DNA Research Institute"><span>Hideki Hirakawa</span></a><!--
+			
+				-->,&nbsp;<!--
+		
+				--><a href="https://www.jstage.jst.go.jp/search/global/_search/-char/en?item=8&word=Yasukazu+Nakamura" class="customTooltip" title="Yasukazu Nakamura, Department of Plant Genome Research, Kazusa DNA Research Institute</br> Center for Information Biology and DNA Data Bank of Japan, National Institute of Genetics, Research Organization for Information and Systems"><span>Yasukazu Nakamura</span></a><!--
+			
+				-->,&nbsp;<!--
+		
+				--><a href="https://www.jstage.jst.go.jp/search/global/_search/-char/en?item=8&word=Takakazu+Kaneko" class="customTooltip" title="Takakazu Kaneko, Department of Plant Genome Research, Kazusa DNA Research Institute</br> Faculty of Life Sciences, Kyoto Sangyo University"><span>Takakazu Kaneko</span></a><!--
+			
+				-->,&nbsp;<!--
+		
+				--><a href="https://www.jstage.jst.go.jp/search/global/_search/-char/en?item=8&word=Sachiko+Isobe" class="customTooltip" title="Sachiko Isobe, Department of Plant Genome Research, Kazusa DNA Research Institute"><span>Sachiko Isobe</span></a><!--
+			
+				-->,&nbsp;<!--
+		
+				--><a href="https://www.jstage.jst.go.jp/search/global/_search/-char/en?item=8&word=Hiroe+Sakai" class="customTooltip" title="Hiroe Sakai, Department of Plant Genome Research, Kazusa DNA Research Institute"><span>Hiroe Sakai</span></a><!--
+			
+				-->,&nbsp;<!--
+		
+				--><a href="https://www.jstage.jst.go.jp/search/global/_search/-char/en?item=8&word=Tomohiko+Kato" class="customTooltip" title="Tomohiko Kato, Forestry Research Institute, Oji Paper Co. Ltd."><span>Tomohiko Kato</span></a><!--
+			
+				-->,&nbsp;<!--
+		
+				--><a href="https://www.jstage.jst.go.jp/search/global/_search/-char/en?item=8&word=Takashi+Hibino" class="customTooltip" title="Takashi Hibino, Forestry Research Institute, Oji Paper Co. Ltd."><span>Takashi Hibino</span></a><!--
+			
+				-->,&nbsp;<!--
+		
+				--><a href="https://www.jstage.jst.go.jp/search/global/_search/-char/en?item=8&word=Shigemi+Sasamoto" class="customTooltip" title="Shigemi Sasamoto, Department of Plant Genome Research, Kazusa DNA Research Institute"><span>Shigemi Sasamoto</span></a><!--
+			
+				-->,&nbsp;<!--
+		
+				--><a href="https://www.jstage.jst.go.jp/search/global/_search/-char/en?item=8&word=Akiko+Watanabe" class="customTooltip" title="Akiko Watanabe, Department of Plant Genome Research, Kazusa DNA Research Institute"><span>Akiko Watanabe</span></a><!--
+			
+				-->,&nbsp;<!--
+		
+				--><a href="https://www.jstage.jst.go.jp/search/global/_search/-char/en?item=8&word=Manabu+Yamada" class="customTooltip" title="Manabu Yamada, Department of Plant Genome Research, Kazusa DNA Research Institute"><span>Manabu Yamada</span></a><!--
+			
+				-->,&nbsp;<!--
+		
+				--><a href="https://www.jstage.jst.go.jp/search/global/_search/-char/en?item=8&word=Shinobu+Nakayama" class="customTooltip" title="Shinobu Nakayama, Department of Plant Genome Research, Kazusa DNA Research Institute"><span>Shinobu Nakayama</span></a><!--
+			
+				-->,&nbsp;<!--
+		
+				--><a href="https://www.jstage.jst.go.jp/search/global/_search/-char/en?item=8&word=Tsunakazu+Fujishiro" class="customTooltip" title="Tsunakazu Fujishiro, Department of Plant Genome Research, Kazusa DNA Research Institute"><span>Tsunakazu Fujishiro</span></a><!--
+			
+				-->,&nbsp;<!--
+		
+				--><a href="https://www.jstage.jst.go.jp/search/global/_search/-char/en?item=8&word=Yoshie+Kishida" class="customTooltip" title="Yoshie Kishida, Department of Plant Genome Research, Kazusa DNA Research Institute"><span>Yoshie Kishida</span></a><!--
+			
+				-->,&nbsp;<!--
+		
+				--><a href="https://www.jstage.jst.go.jp/search/global/_search/-char/en?item=8&word=Mitsuyo+Kohara" class="customTooltip" title="Mitsuyo Kohara, Department of Plant Genome Research, Kazusa DNA Research Institute"><span>Mitsuyo Kohara</span></a><!--
+			
+				-->,&nbsp;<!--
+		
+				--><a href="https://www.jstage.jst.go.jp/search/global/_search/-char/en?item=8&word=Satoshi+Tabata" class="customTooltip" title="Satoshi Tabata, Department of Plant Genome Research, Kazusa DNA Research Institute"><span>Satoshi Tabata</span></a><!--
+			
+				-->,&nbsp;<!--
+		
+				--><a href="https://www.jstage.jst.go.jp/search/global/_search/-char/en?item=8&word=Shusei+Sato" class="customTooltip" title="Shusei Sato, Department of Plant Genome Research, Kazusa DNA Research Institute"><span>Shusei Sato</span></a><!--
+				-->
+	
+
+							<div class="accordion_container">
+				<div class="accordion_head plus-icn">Author information</div>
+				<div class="accordion_body new_accordion_body_style" style="display: none;">
+					<ul class="accodion_body_ul">
+								<li>
+							<span style="font-size:1.1em">Hideki Hirakawa</span>
+																																			<p>
+																																																								Department of Plant Genome Research, Kazusa DNA Research Institute
+																						</p>
+						</li>
+	
+
+										<li>
+							<span style="font-size:1.1em">Yasukazu Nakamura</span>
+																																			<p>
+																																																								Department of Plant Genome Research, Kazusa DNA Research Institute</br> Center for Information Biology and DNA Data Bank of Japan, National Institute of Genetics, Research Organization for Information and Systems
+																						</p>
+						</li>
+	
+
+										<li>
+							<span style="font-size:1.1em">Takakazu Kaneko</span>
+																																			<p>
+																																																								Department of Plant Genome Research, Kazusa DNA Research Institute</br> Faculty of Life Sciences, Kyoto Sangyo University
+																						</p>
+						</li>
+	
+
+										<li>
+							<span style="font-size:1.1em">Sachiko Isobe</span>
+																																			<p>
+																																																								Department of Plant Genome Research, Kazusa DNA Research Institute
+																						</p>
+						</li>
+	
+
+										<li>
+							<span style="font-size:1.1em">Hiroe Sakai</span>
+																																			<p>
+																																																								Department of Plant Genome Research, Kazusa DNA Research Institute
+																						</p>
+						</li>
+	
+
+										<li>
+							<span style="font-size:1.1em">Tomohiko Kato</span>
+																																			<p>
+																																																								Forestry Research Institute, Oji Paper Co. Ltd.
+																						</p>
+						</li>
+	
+
+										<li>
+							<span style="font-size:1.1em">Takashi Hibino</span>
+																																			<p>
+																																																								Forestry Research Institute, Oji Paper Co. Ltd.
+																						</p>
+						</li>
+	
+
+										<li>
+							<span style="font-size:1.1em">Shigemi Sasamoto</span>
+																																			<p>
+																																																								Department of Plant Genome Research, Kazusa DNA Research Institute
+																						</p>
+						</li>
+	
+
+										<li>
+							<span style="font-size:1.1em">Akiko Watanabe</span>
+																																			<p>
+																																																								Department of Plant Genome Research, Kazusa DNA Research Institute
+																						</p>
+						</li>
+	
+
+										<li>
+							<span style="font-size:1.1em">Manabu Yamada</span>
+																																			<p>
+																																																								Department of Plant Genome Research, Kazusa DNA Research Institute
+																						</p>
+						</li>
+	
+
+										<li>
+							<span style="font-size:1.1em">Shinobu Nakayama</span>
+																																			<p>
+																																																								Department of Plant Genome Research, Kazusa DNA Research Institute
+																						</p>
+						</li>
+	
+
+										<li>
+							<span style="font-size:1.1em">Tsunakazu Fujishiro</span>
+																																			<p>
+																																																								Department of Plant Genome Research, Kazusa DNA Research Institute
+																						</p>
+						</li>
+	
+
+										<li>
+							<span style="font-size:1.1em">Yoshie Kishida</span>
+																																			<p>
+																																																								Department of Plant Genome Research, Kazusa DNA Research Institute
+																						</p>
+						</li>
+	
+
+										<li>
+							<span style="font-size:1.1em">Mitsuyo Kohara</span>
+																																			<p>
+																																																								Department of Plant Genome Research, Kazusa DNA Research Institute
+																						</p>
+						</li>
+	
+
+										<li>
+							<span style="font-size:1.1em">Satoshi Tabata</span>
+																																			<p>
+																																																								Department of Plant Genome Research, Kazusa DNA Research Institute
+																						</p>
+						</li>
+	
+
+										<li>
+							<span style="font-size:1.1em">Shusei Sato</span>
+																																			<p>
+																																																								Department of Plant Genome Research, Kazusa DNA Research Institute
+																						</p>
+						</li>
+						</ul>
+				</div>
+			</div>
+</div>
+			<div class="global-para">	Keywords:
+		
+				<a href="/search/global/_search/-char/en?item=5&word=Eucalyptus+camaldulensis" class="bluelink-style"><i>Eucalyptus camaldulensis</i></a>,	
+				<a href="/search/global/_search/-char/en?item=5&word=cDNA+sequencing" class="bluelink-style">cDNA sequencing</a>,	
+				<a href="/search/global/_search/-char/en?item=5&word=genome+sequencing" class="bluelink-style">genome sequencing</a>,	
+				<a href="/search/global/_search/-char/en?item=5&word=microsatellite+markers" class="bluelink-style">microsatellite markers</a>,	
+				<a href="/search/global/_search/-char/en?item=5&word=genetic+diversity" class="bluelink-style">genetic diversity</a>	</div>
+			<div class="global-tags"><span class="tags-wrap original-tag-style" title="JOURNALS">JOURNALS</span>
+			<span class="tags-wrap freeaccess-tag-style" title="FREE ACCESS">FREE ACCESS</span>
+	
+
+<br>
+						<span class="tags-wrap" title="Supplementary material" style="color: #d7cf3a;">Supplementary material</span>
+			
+</div>
+			<p class="global-para">		2011
+	 Volume 28
+			Issue 5
+				Pages 471-480
+	</p>
+
+							<div class="articleoverview-doi-wrap" id="fig-doi">	<span class="doi-icn">DOI</span>
+	<a href="https://doi.org/10.5511/plantbiotechnology.11.1027b" class="bluelink-style" style="word-break:break-all">https://doi.org/10.5511/plantbiotechnology.11.1027b</a>
+</div>
+				<div class="articleoverview-doi-wrap"></div>
+									<div class="top-margin-2x bottom-margin-2x">	
+				<img alt="" class="articlelink-icn" src="/web/images/articlelink-other-icn.png" />
+		<a href="https://www.jstage.jst.go.jp/article/plantbiotechnology/advpub/0/advpub_11.1027b/_article/-char/en" class="bluelink-style">View "Advance Publication" version (December 10, 2011).</a><br>
+	</div>
+						<div class="accordion_container">
+	<div class="accordion_head plus-icn">Details</div>
+	<div class="accordion_body new_accordion_body_style" style="display: none;">
+		<ul class="accodion_body_ul accodion_detail">
+			<li>
+							<span class="accodion_lic">Published: December 25, 2011</span>
+							<span class="accodion_lic">received: October 07, 2011</span>
+				<span class="accodion_lic">Released: February 20, 2012</span>
+				<span class="accodion_lic">accepted: October 27, 2011</span>
+				<span class="accodion_lic">
+											[Advance Publication] Released: December 10, 2011
+									</span>
+				<span class="accodion_lic">corrected: -</span>
+			</li>
+														</ul>
+	</div>
+</div>
+		</div>
+		<!-- LEFT SECTION :: END -->
+		<!-- RIGHT SECTION :: START -->
+		<div class="col-md-6 print-non-disp">
+				
+					
+					
+					
+																										
+																										
+										
+					<div id="third-level-navigation">
+								<a href="https://www.jstage.jst.go.jp/article/plantbiotechnology/28/5/28_11.1027b/_pdf/-char/en" class="thirdlevel-pdf-btn">
+				Download PDF  <span class="download-file-size">(1545K)</span>
+			</a>
+			<span class="third-level-nav-divider"></span>
+				<div class="third-level-sublinks">
+		<span class="heading">Download Meta</span>
+					<span class="fa fa-file-o"></span><a href="https://www.jstage.jst.go.jp/AF06S010ShoshJkuDld?sryCd=plantbiotechnology&noVol=28&noIssue=5&kijiCd=28_11.1027b&kijiLangKrke=en&kijiToolIdHkwtsh=AT0072&request_locale=EN">RIS</a>
+			<p class="notice_mess">(compatible with EndNote, Reference Manager, ProCite, RefWorks)</p>
+			<div class="clearfix"> </div>
+							<span class="fa fa-file-o"></span><a href="https://www.jstage.jst.go.jp/AF06S010ShoshJkuDld?sryCd=plantbiotechnology&noVol=28&noIssue=5&kijiCd=28_11.1027b&kijiLangKrke=en&kijiToolIdHkwtsh=AT0073&request_locale=EN">BIB TEX</a>
+			<p class="notice_mess">(compatible with BibDesk, LaTeX)</p>
+			<div class="clearfix"> </div>
+				<span class="fa fa-file-o"></span> <a href="javascript:void(0);" onclick="downloadText('https://www.jstage.jst.go.jp/article/plantbiotechnology/28/5/28_11.1027b/_article/-char/en'.replace('&amp;amp;','&'))">Text</a>
+	<div class="clearfix"> </div>
+
+		<a href="https://www.jstage.jst.go.jp/static/pages/HowToDownload/-char/en" class="download-help-link bluelink-style">How to download Meta</a>
+	</div>
+
+		<a href="https://www.jstage.jst.go.jp/browse/plantbiotechnology/_pubinfo/-char/en#information" class="thirdlevel-links">Contact us</a>
+	<span class="third-level-nav-divider"></span>
+</div>
+		</div>
+		<!-- RIGHT SECTION :: END -->
+		<div class="clearfix"></div>
+	</div>
+	</div>
+<!-- ARTICLE OVERVIEW  INTRODUCTION :: END -->
+
+<!-- ARTICLE OVERVIEW :: START -->
+<div class="clearfix container">
+	<!-- LEFT STICKY SIDEBAR :: START -->
+	<div id="sticky-sidebar" class="print-non-disp">
+		<div class="section-title-14">Article overview</div>
+		<!-- ARTICLE OVERVIEW LINKS :: START -->
+		<nav id="article-overiew-section-links">
+			<nav id="article-overiew-section-links">
+	<ul id="article-overiew-section-list">
+							<li> <a href="#article-overiew-abstract-wrap" onClick="menueAnime('Abstract')" title="Abstract" class="customTooltip">Abstract</a></li>
+									<li><a href="#article-overiew-references-wrap" onClick="menueAnime('References')" title="References" class="customTooltip">References (50)</a></li>
+								<li id="author-info-navi"><a href="#author-information-wrap" onClick="menueAnime('information')" title="Information related to the author" class="customTooltip ">Information related to the author</a></li>
+					<li><a href="#supplimentary-materials-wrap" onClick="menueAnime('Supplementary')" title="Supplementary material" class="customTooltip ">Supplementary material (1)</a></li>
+													<li><a href="#citedby-wrap" onClick="menueAnime('Cited')" title="Cited by" class="customTooltip ">Cited by (16)</a></li>
+								</ul>
+</nav>
+		</nav>
+		<!-- ARTICLE OVERVIEW LINKS :: END -->
+		<!-- SHARING ICONS :: SMALL SET :: START -->
+		<div id="sticky-sidebar-shareicons">
+			<div class="section-title-noborder-14">Share</div>
+<ul class="global-share-x-icons-list">
+<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdoi.org%2F10.5511%2Fplantbiotechnology.11.1027b" target="_blank" rel="noopener noreferrer"><span class="fa fa-facebook facebook-share-icn"></span></a></li>
+<li><a href="http://twitter.com/share?url=https%3A%2F%2Fdoi.org%2F10.5511%2Fplantbiotechnology.11.1027b&text=J-STAGE+Articles+-+Survey+of+the+genetic+information+carried+in+the+genome+of+%3Ci%3EEucalyptus+camaldulensis%3C%2Fi%3E" target="_blank" rel="noopener noreferrer"><span class="fa fa-twitter twitter-share-icn"></span></a></li>
+<li><a href="mailto:?body=Plant%20Biotechnology%0A%0ASurvey%20of%20the%20genetic%20information%20carried%20in%20the%20genome%20of%20%3Ci%3EEucalyptus%20camaldulensis%3C%2Fi%3E%0A%0Ahttps%3A%2F%2Fdoi.org%2F10.5511%2Fplantbiotechnology.11.1027b%0A"> <span class="fa fa-envelope outlook-share-icn"></span></a></li>
+<li><a href="http://www.mendeley.com/import/?doi=10.5511/plantbiotechnology.11.1027b" target="_blank" rel="noopener noreferrer"><span class="mendeley-share-icn"><img src="/web/images/mendeley-share-icon.png" width="32" height="32" alt=""/>&nbsp;</span></a></li>
+</ul>
+		</div>
+		<!-- SHARING ICONS :: SMALL SET :: END -->
+	</div>
+	<!-- LEFT STICKY SIDEBAR :: END -->
+
+	<!-- RIGHT NON-STICKY SIDEBAR :: START -->
+	<div class="non-sticky-content">
+		<div id="non-sticky-content-leftsection">
+						<div id="article-overiew-abstract-wrap">
+			<!-- INNER SECTION :: START -->
+				<div class="section-title-18">Abstract</div>
+<p class="global-para-14">
+The genetic information in the genome of <i>Eucalyptus camaldulensis</i> was investigated by sequencing the genome and the cDNA using a combination of the conventional Sanger method and next-generation sequencing methods, followed by intensive bioinformatics analyses. The total length of the non-redundant genomic sequences thus obtained was 654,922,307 bp consisting of 81,246 scaffolds and 121,194 singlets. These sequences accounted for approximately 92% of the gene-containing regions with an average G+C content of 33.6%. A total of 77,121 complete and partial structures of protein-encoding genes have been deduced. Comparison of the genes mapped on the KEGG pathways or located in the KOG classification with those in other plant species revealed the characteristics of the <i>E. camaldulensis</i> genome, and it was found that 23 pathways contained enzymes present only in the <i>E. camaldulensis</i> genome. Polymorphism analysis using microsatellite markers developed from the genomic sequence data obtained was performed with six <i>Eucalyptus</i> species collected from various parts of the world to estimate their genetic diversity, and the usefulness of these markers was demonstrated. The genomic sequence and accompanying information presented here are expected to serve as valuable resources for the acceleration of fundamental and applied research with <i>Eucalyptus</i>, especially in the fields of paper production and industrial materials. Further information on the genomic and cDNA sequences and microsatellite markers is available at http://www.kazusa.or.jp/eucaly/.
+</p>
+<div style="text-align:center;">
+</div>
+			</div>
+			<!-- INNER SECTION :: END -->
+						
+			<!-- INNER SECTION :: START -->
+			<div id="datarepo-wrap"></div>
+			<input type="hidden" id="figshareArticleSearchUrl" value="https://api.figshare.com/v2/articles">
+			<!-- INNER SECTION :: END -->
+			
+			<!-- INNER SECTION :: START -->
+			<div id="article-overiew-references-wrap">
+				<div class="section-title-18" style="display:none;">References (50)</div>
+			</div>
+			<!-- INNER SECTION :: END -->
+			<!-- INNER SECTION :: START -->
+			<div id="article-overiew-related-wrap">
+				<div class="section-title-18" style="display:none;">Related articles (0)</div>
+			</div>
+			<!-- INNER SECTION :: END -->
+			<!-- INNER SECTION :: START -->
+			<div id="figures-tables-wrap">
+				<div class="section-title-noborder-18" style="display:none;">Figures (0)</div>
+			</div>
+			<!-- INNER SECTION :: END -->
+			<!-- INNER SECTION :: START -->
+			<div id="author-information-wrap" style="">
+				<div id="author_info_main">
+					<div id="author_info_title" class="section-title-18" onClick="getAuthorList(this)">
+					<img src="/web/images/data-services/J-GLOBAL.jpg" alt="" class="jglobal_img">
+					<span id="author_info_label">Information related to the author</span></div>
+					<div class="accordion_container">
+						<div id="author_info_status"></div>
+						<div id="author_info_contents"></div>
+					</div>
+				</div>
+			</div>
+			<!-- INNER SECTION :: END -->
+			<!-- INNER SECTION :: START -->
+			<div id="supplimentary-materials-wrap">
+				<div class="section-title-18" style="display:none;">Supplementary material (1)</div>
+			</div>
+			<!-- INNER SECTION :: END -->
+			<!-- INNER SECTION :: START -->
+			<div id="resultsanddiscussion-wrap">
+				<div class="section-title-18" style="display:none;">Result List ()</div>
+			</div>
+			<!-- INNER SECTION :: END -->
+			<!-- INNER SECTION :: START -->
+			<div id="citedby-wrap">
+							<div class="section-title-18" style="display:none;">Cited by (16)</div>
+						</div>
+			<!-- INNER SECTION :: END -->
+			<!-- INNER SECTION :: START -->
+			<div id="jstage-external-links">
+							</div>
+			<!-- INNER SECTION :: END -->
+			<!-- INNER SECTION :: START -->
+			<div class="section-divider">
+				<div class="grey-txt-color fontsize12">
+	 &copy; 	2011 by Japanese Society for Plant Biotechnology
+</div>
+							</div>
+			<!-- INNER SECTION :: END -->
+			<!-- INNER SECTION :: START -->
+			<div id="article-navigation-links" class="print-non-disp">
+				<a href="https://www.jstage.jst.go.jp/article/plantbiotechnology/28/5/28_11.1027a/_article/-char/en" class="next-icon colorscheme02-lighter">Previous article</a>
+<a href="https://www.jstage.jst.go.jp/article/plantbiotechnology/28/5/28_11.1020a/_article/-char/en" class="previous-icon colorscheme02-lighter">Next article</a>
+<div class="clearfix"> </div>			</div>
+			<!-- INNER SECTION :: END -->
+		</div>
+		<div id="non-sticky-content-rightsection" class="print-non-disp">
+			<!-- INNER SECTION :: START -->
+			<div class="section-divider">
+	<div class="section-title-14">Favorites & Alerts</div>
+	<ul class="star-list-style">
+					<li><a href = "javascript:;" class = "add-favorites-articles" value= "1">Add to favorites</a></li>
+			<li><a href = "javascript:;" class = "add-favorites-articles" value= "4">Additional info alert</a></li>
+			<li><a href =" javascript:;" class = "add-favorites-articles" value= "2">Citation alert</a></li>
+			<li><a href = "javascript:;" class = "add-favorites-articles" value= "3">Authentication alert</a></li>
+			</ul>
+</div>
+<form action = "/fav/articles/_insert/-char/en" method = "get" id = "favorites-articles" name = "favorites-articles"></form>
+<form action = "/fav/title/_insert/-char/en" method = "get" id = "favorites-titles" name = "favorites-titles"></form>
+<input type="hidden" name="sryCd" value="plantbiotechnology">
+<input type="hidden" name="noVol" value="28">
+<input type="hidden" name="noIssue" value="5">
+<input type="hidden" name="kijiCd" value="28_11.1027b">
+			<!-- INNER SECTION :: END -->
+			<!-- INNER SECTION :: START -->
+			<div id="related_articles_main">
+				<div id="related_articles_title" class="section-title-14">
+					<span onclick="getArticleJGID(this)" style="cursor: pointer;">
+						<img src="/web/images/data-services/J-GLOBAL.jpg" alt="" class="jglobal_img_side">
+						<div id="related_articles_label">
+							<span style="display:inline-block; vertical-align:middle;">Related articles</span>
+							<span id="glyphiconmenu" class="glyphicon glyphicon-menu-right"style="display:inline; vertical-align:middle;"></span>
+						</div>
+					</span>
+				</div>
+				<div class="accordion_container">
+					<div id="related_articles_status"></div>
+					<div id="related_articles_contents"></div>
+				</div>
+			</div>
+			<!-- INNER SECTION :: END -->
+			<div class="clearfix"></div>
+			<br>
+					<!-- ALTMETRIC WRAPPER :: END -->
+			<div class="clearfix"></div>
+			<!-- INNER SECTION :: START -->
+			<div class="section-title-14">Recently visited articles</div>
+<ul class="common-list-style">
+</ul>			<!-- INNER SECTION :: END -->
+			<div class="clearfix"></div>
+			<!-- INNER SECTION :: START -->
+				<!-- INNER SECTION :: START -->
+<div class='section-divider'>
+<div class='section-title-14'>Predecessor</div>
+<p class='right-section-para'><a href='https://www.jstage.jst.go.jp/browse/plantbiotechnology1984/-char/en'>Plant tissue culture letters</a></p>
+</div>
+<!-- INNER SECTION :: END -->
+
+			<!-- INNER SECTION :: END -->
+			<div class="clearfix"></div>
+			<!-- SHARING ICONS :: BIG SET :: START -->
+			
+<div class="sticky-sidebar-shareicons-rightsection top-margin-2x">
+	<div id="socialmedia-share-plugins" class="colorscheme02-lighter">
+		<div class="sectionheading">Share this page</div>
+		<ul class="share-icons-list">
+		<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdoi.org%2F10.5511%2Fplantbiotechnology.11.1027b" target="_blank" rel="noopener noreferrer"><span class="fa fa-facebook facebook-share-icn"></span></a></li>
+		<li><a href="http://twitter.com/share?url=https%3A%2F%2Fdoi.org%2F10.5511%2Fplantbiotechnology.11.1027b&text=J-STAGE+Articles+-+Survey+of+the+genetic+information+carried+in+the+genome+of+%3Ci%3EEucalyptus+camaldulensis%3C%2Fi%3E" target="_blank" rel="noopener noreferrer"><span class="fa fa-twitter twitter-share-icn"></span></a></li>
+		<li><a href="mailto:?body=Plant%20Biotechnology%0A%0ASurvey%20of%20the%20genetic%20information%20carried%20in%20the%20genome%20of%20%3Ci%3EEucalyptus%20camaldulensis%3C%2Fi%3E%0A%0Ahttps%3A%2F%2Fdoi.org%2F10.5511%2Fplantbiotechnology.11.1027b%0A"> <span class="fa fa-envelope outlook-share-icn"></span></a></li>
+				<li><a href="http://www.mendeley.com/import/?doi=10.5511/plantbiotechnology.11.1027b" target="_blank" rel="noopener noreferrer"><span class="mendeley-share-icn"><img src="/web/images/mendeley-share-icon.png" width="32" height="32" alt=""/>&nbsp;</span></a></li>
+				</ul>
+	</div>
+</div>
+			<!-- SHARING ICONS :: BIG SET :: END -->
+		</div>
+		<!-- RIGHT NON-STICKY SIDEBAR :: END -->
+	</div>
+</div>
+<!-- ARTICLE OVERVIEW :: END -->
+<div class="clearfix"></div>
+
+<!-- MODAL POPUP :: START -->
+<!-- MODAL POPUP :: END -->
+
+
+
+<!-- FOOTER :: START -->
+<span class="noprint">
+<footer class="footer-style2">
+<div id="footer-strip" class="colorscheme02-lighter">
+	<div class="container">
+				Edited and published by : Japanese Society for Plant Biotechnology
+		<br>
+				Produced and listed by : International Academic Printing Co., Ltd.  YOKENDO Ltd.(Vol.19 No.1-Vol.21 No.4)
+		</div>
+</div>
+<div class="footer-wrap print-non-disp">
+	<a href="#0" class="take-on-top1">Top</a>
+	<div class="container">
+		<div class="footer-link-section">
+						<div class="footer-link-heading">Browse</div>
+			<ul class="footer-link-list">
+				<li><a href="/journal/list/-char/en">All titles</a></li>
+				<li><a href="/journal/fields/-char/en">All subject areas</a></li>
+				<li><a href="/journal/publisher/-char/en">All publishers</a></li>
+				<li><a href="/search/global/_search/-char/en">Search articles</a></li>
+			</ul>
+		</div>
+
+		<div class="footer-link-section">
+						<div class="footer-link-heading">About J-STAGE</div>
+			<ul class="footer-link-list">
+				<li><a href="https://www.jstage.jst.go.jp/static/pages/JstageOverview/-char/en">Overview</a></li>
+				<li><a href="https://www.jstage.jst.go.jp/static/pages/JstageServices/TAB1/-char/en">Services and features</a></li>
+				<li><a href="https://www.jstage.jst.go.jp/static/pages/PublicDataAboutJstage/-char/en">Public data</a></li>
+				<li><a href="https://www.jstage.jst.go.jp/static/pages/TermsAndPolicies/ForIndividuals/-char/en">Terms and Policy</a></li>
+							</ul>
+		</div>
+		<div class="footer-link-section">
+						<div class="footer-link-heading">News and PR</div>
+			<ul class="footer-link-list">
+				<li><a href="https://www.jstage.jst.go.jp/static/pages/News/TAB1/Current/Page1/-char/en">News</a></li>
+								<li><a href="https://www.jstage.jst.go.jp/static/pages/News/TAB2/Page1/-char/en">Maintenance information</a></li>
+												<li><a href="https://www.jstage.jst.go.jp/static/pages/News/TAB6/Page1/-char/en">Special contents </a></li>
+				<li><a href="https://www.jstage.jst.go.jp/static/pages/News/TAB7/Page1/-char/en">PR media </a></li>
+			</ul>
+		</div>
+		<div class="footer-link-section">
+						<div class="footer-link-heading">Support</div>
+			<ul class="footer-link-list">
+												<li><a href="https://www.jstage.jst.go.jp/static/pages/ForReaders/-char/en">User's manual</a></li>
+				<li><a href="https://www.jstage.jst.go.jp/static/pages/RecommendedEnvironment/-char/en">Current confirmed browsers</a></li>
+								 <li><a href="https://www.jstage.jst.go.jp/static/pages/FAQs/TAB3/-char/en">FAQ</a></li> 				<li><a href="https://www.jstage.jst.go.jp/static/pages/Contact/-char/en">Contact </a></li>
+				<li><a href="https://www.jstage.jst.go.jp/static/pages/Sitemap/-char/en">Sitemap </a></li>
+			</ul>
+		</div>
+		
+		<div class="clearfix"></div>
+				<div class="clearfix"></div>
+	</div>
+	</div>
+</footer>
+</span>
+<!-- FOOTER :: END -->
+<!-- FEEDBACK BUTTON :: START -->
+<span class="noprint print-non-disp">
+<div id="right-feedback-btn"><a href="https://form.jst.go.jp/enquetes/jstage-feedback" target="_blank" rel="noopener noreferrer">feedback</a></div>
+</span>
+<!-- FEEDBACK BUTTON :: END -->
+<!-- TAKE ME TO TOP :: START -->
+<a href="#0" class="take-on-top" style="z-index:inherit">Top</a>
+<!-- TAKE ME TO TOP :: END -->
+
+<!-- STICKY REGISTER TO J-STAGE HERE :: START -->
+<div id="sticky-register-to-j-stage" class="sticky-register-to-j-stage print-non-disp" style="display:none;">
+<span class="noprint">
+<a href="javascript:;" class="sticky-register-to-j-stage-close" onclick="registerStickyClose();"><i class="fa fa-times-circle-o"></i></a>
+</span>
+<h3 class="register-for-free"><nobr>Register with J-STAGE for free!</nobr></h3>
+<a href="/myregister/-char/en" class="sticky-register-btn">Register</a>
+<p class="register-for-already">Already have an account? Login in <a href="/mylogin/-char/en?sourceurl=https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Fplantbiotechnology%2F28%2F5%2F28_11.1027b%2F_article%2F-char%2Fen">here</a></p>
+</div>
+<!-- STICKY REGISTER TO J-STAGE HERE :: END -->
+<script src="/web/js/jquery.min.js"></script>
+<!-- Include all compiled plugins (below) -->
+<script src="/web/js/bootstrap.js"></script>
+
+<script src="/web/js/bootstrap.offcanvas.min.js"></script>
+
+<script src="/web/js/bootstrap-tabdrop.min.js"></script>
+
+<script src="/web/js/modernizr.js"></script>
+
+
+<script src="/web/js/jquery.touchSwipe.min.js"></script>
+
+<script src="/web/js/jquery.advancedSlider.min.js"></script>
+
+<script src="/web/js/jquery-navtoselect.min.js?rn=2.0.13"></script>
+
+<script src="/web/js/jquery.treefilter.min.js"></script>
+
+<script src="/web/js/jquery.jplayer.min.js"></script>
+
+<script src="/web/js/jquery.coolfieldset.min.js"></script>
+
+<script src="/web/js/select2.full.min.js"></script>
+
+<script src="/web/js/prettify.min.js"></script>
+
+<script src="/web/js/common.js?rn=2.0.13"></script>
+
+<script src="/web/js/tableHeadFixe.min.js"></script>
+
+<script src="/web/js/validation.js?rn=2.0.13"></script>
+
+
+<script src="/web/js/jquery.hc-sticky.min.js"></script>
+<script src="/web/js/jglobal_related_article_api.js?rn=2.0.13"></script>
+<script src="/web/js/jglobal_author_info_api.js?rn=2.0.13"></script>
+
+<script type="text/javascript" src="https://widgets.figshare.com/static/figshare.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=MML_HTMLorMML"></script>
+
+
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+<script src="/web/js/new_plugin/slick/slick.js"></script>
+<script src="/web/js/new_plugin/slick/slick.min.js"></script>
+<script src="/web/js/favoriteAlerts.js"></script>
+<script src="/web/js/downloadText.js"></script>
+<script src="/web/js/articleHome_getArticleMenu.js?rn=2.0.13"></script>
+<link rel="stylesheet" href="/web/css/lity.css" />
+<script src="/web/js/lity.js"></script>
+
+<script>
+$(document).ready(function () {
+if(('localStorage' in window) && (window.localStorage !== null)) {
+	if(localStorage.getItem('C.regsticky') != 'off'){
+	$('#sticky-register-to-j-stage').show();
+	}
+}
+$('.dropdown-toggle').on('click', function(E) {
+	$(this).find('.glyphicon').toggleClass("glyphicon-chevron-up");
+	$(this).find('.glyphicon').toggleClass("glyphicon-chevron-down");
+});
+$('[data-toggle="tooltip"]').tooltip({});
+$('.warningtooltip').tooltip();
+
+
+	$('#sticky-sidebar').hcSticky({
+		responsive: true,
+		followScroll: false,
+		top:65 + pheader
+	});
+
+		$('#targetLink').click(function(){
+		var rrkskMlAdrs = $('#targetLink').attr('href');
+		rrkskMlAdrs = rrkskMlAdrs.replace('(at)','@');
+		$('#targetLink').attr('href', rrkskMlAdrs);
+	});
+
+		$('.licensedescription').find('a').each(function() {
+		$(this).attr('target', '_blank');
+		$(this).attr('rel', 'noopener noreferrer');
+	});
+
+	window.setTimeout( related_articles_invoke('','10.5511/plantbiotechnology.11.1027b','true','en'), 100 );
+	window.setTimeout( author_info_invoke('','10.5511/plantbiotechnology.11.1027b','true','true','true','false','en'), 100 );
+
+
+});
+$(".journal-volume-dd").select2( {width: 'resolve'});
+$(".journal-issue-dd").select2();
+$('#facetsearch-header').facetsearch();
+$('.facetsearch-subheader').facetsearch();
+$(window).load(function(){
+	$('.collapseall-icon').hide();
+	$('.vol-link').click(function(e){
+		e.stopPropagation();
+	});
+	$('.expandall-icon').click(function(){
+		$(this).addClass('expand-inactive');
+		$('.collapseall-icon').removeClass('collapse-inactive')
+		$('.inner-content').slideDown();
+		$('.content').each(function(index, element) {
+			$(this).find('.expand').removeClass('collapse1');
+		});
+		$('.collapseall-icon').show();
+		$('.expandall-icon').hide();
+		$('.show_abstract').hide();
+		$('.hide_abstract').show();
+	});
+	$('.collapseall-icon').addClass('collapse-inactive');
+	$('.collapseall-icon').click(function(){
+		$(this).addClass('collapse-inactive');
+		$('.expandall-icon').removeClass('expand-inactive');
+		$('.inner-content').slideUp();
+		$('.content').each(function(index, element) {
+			$(this).find('.expand').addClass('collapse1');
+		});
+		$('.expandall-icon').show();
+		$('.collapseall-icon').hide();
+		$('.show_abstract').show();
+		$('.hide_abstract').hide();
+	});
+	$('.inner-content').hide();
+	$(".expand a").click(function (e) {
+		e.preventDefault();
+		$(this).parent().toggleClass('collapse1');
+		$(this).closest('.content').find('.inner-content').slideToggle().toggleClass('datapanel_opend');
+		if(!$(this).closest('.content').find('.inner-content').hasClass("datapanel_opend")){
+			$('div.collapseall-icon').removeClass('collapse-inactive');
+		} else {
+			$('div.collapseall-icon').addClass('collapse-inactive');
+		}
+
+		$(this).find('.show_abstract').toggle();
+		$(this).find('.hide_abstract').toggle();
+
+	});
+});
+$(".journal-volume-dd").select2();
+$(".journal-issue-dd").select2();
+$(".searchresults-noofpages-dropdown").select2({
+	minimumResultsForSearch: Infinity
+});
+$(".search-browse-volissue-tabs a").click(function(event) {
+	event.preventDefault();
+	$(this).parent().addClass("current");
+	$(this).parent().siblings().removeClass("current");
+	var tab = $(this).attr("href");
+	$(".searchbrowse-volissue-tab-content").not(tab).css("display", "none");
+	$(tab).fadeIn();
+});
+$('.inner-content .abstract').each(function(){
+	if ($(this).height() < 120) {
+		$(this).find('.full-abstract').hide();
+	}
+});
+
+if ( document.getElementById("selectedVol") != null ) {
+	var pos = $("#selectedVol").position();
+	$(".faceted-search-scrollwrap").scrollTop((pos.top - 50));
+}
+var ddd = [
+];
+$("#selectVol").bind("change", function() {
+	var selectVol = $(":selected").val();
+	if (selectVol == "") {
+		$("#selectIssue").attr("disabled", "disabled");
+	} else {
+		var disabledAttr = $("#selectIssue").attr("disabled");
+		if (typeof disabledAttr !== "undefined") {
+			$("#selectIssue").removeAttr("disabled");
+		}
+	}
+	$("#selectIssue").children().remove();
+	$('#selectIssue').append($('<option>').html("").val(""));
+	if (selectVol != "") {
+		for (var idx in ddd) {
+			var noVol = ddd[idx].noVol;
+			if (noVol == selectVol) {
+				var noIssueArry = ddd[idx].noIssue;
+				for (i = 0; i < noIssueArry.length; i++) {
+											$('#selectIssue').append($('<option>').html("" + noIssueArry[i]).val(noIssueArry[i]));
+									}
+				break;
+			}
+		}
+	}
+	$("#selectIssue").select2();
+});
+$("#mobileSelectVol").bind("change", function() {
+	var selectVol = $("#mobileSelectVol option:selected").val();
+	if (selectVol == "") {
+		$("#mobileSelectIssue").attr("disabled", "disabled");
+	} else {
+		var disabledAttr = $("#mobileSelectIssue").attr("disabled");
+		if (typeof disabledAttr !== "undefined") {
+			$("#mobileSelectIssue").removeAttr("disabled");
+		}
+	}
+	$("#mobileSelectIssue").children().remove();
+	$('#mobileSelectIssue').append($('<option>').html("").val(""));
+	if (selectVol != "") {
+		for (var idx in ddd) {
+			var noVol = ddd[idx].noVol;
+			if (noVol == selectVol) {
+				var noIssueArry = ddd[idx].noIssue;
+				for (i = 0; i < noIssueArry.length; i++) {
+											$('#mobileSelectIssue').append($('<option>').html("" + noIssueArry[i]).val(noIssueArry[i]));
+									}
+				break;
+			}
+		}
+	}
+	$("#mobileSelectIssue").select2();
+});
+$("#goBtn").bind("click", function() {
+	var noVol = $("#selectVol").val();
+	var noIssue = $("#selectIssue").val();
+	var pageInput = $('#pageInput').val();
+	if (pageInput === undefined) {
+		pageInput = null;
+	}
+	return clickGoBtn("1", noVol, noIssue, pageInput);
+});
+$("#mobileGoBtn").bind("click", function() {
+	var noVol = $("#mobileSelectVol").val();
+	var noIssue = $("#mobileSelectIssue").val();
+	var pageInput = $('#mobilePageInput').val();
+	if (pageInput === undefined) {
+		pageInput = null;
+	}
+	return clickGoBtn("2", noVol, noIssue, pageInput);
+});
+$(window).load(function(){
+	try {
+		var issueList1 = '';
+		var issueOptions = jQuery('#selectIssue').children();
+		if (issueOptions.length > 1) {
+			for ( var i=1; i<issueOptions.length; i++ ){
+				issueList1 = issueList1 + issueOptions.eq(i).val();
+			}
+		}
+		var selectVol = $("#selectVol").val();
+		var selectIssue = $("#selectIssue").val();
+		if (selectVol != "") {
+			for (var idx in ddd) {
+				var noVol = ddd[idx].noVol;
+				if (noVol == selectVol) {
+					var issueList2 = '';
+					var noIssueArry = ddd[idx].noIssue;
+					for (i = 0; i < noIssueArry.length; i++) {
+						issueList2 = issueList2 + noIssueArry[i];
+					}
+					if (issueList1 != issueList2) {
+						$("#selectVol").trigger("change");
+						$("#mobileSelectVol").trigger("change");
+					}
+				}
+			}
+		}
+	} catch (e) {console.log("Exception : " + e);}
+});
+$(window).unload(function(){});
+function pressEnter4GoBtn() {
+	if (window.event.keyCode == 13) {
+		$('#goBtn').trigger("click");
+	}
+}
+function pressEnter4MobileGoBtn() {
+	if (window.event.keyCode == 13) {
+		$('#mobileGoBtn').trigger("click");
+	}
+}
+function clickGoBtn(mode, noVol, noIssue, pageInput) {
+	if (mode == "1") {
+		$("#pageMessage01").css("display", "none");
+		$("#pageMessage02").css("display", "none");
+		$("#pageMessage03").css("display", "none");
+	} else if (mode == "2") {
+		$("#mobilePageMessage01").css("display", "none");
+		$("#mobilePageMessage02").css("display", "none");
+		$("#mobilePageMessage03").css("display", "none");
+	}
+	try {
+
+		if ((noVol == null || noVol == "") && (noIssue == null || noIssue == "")){
+							noVol = "37";
+				noIssue = "4"
+					}
+
+		if (noIssue == null || noIssue == ""){
+			noIssue = "0"
+		}
+
+		if (pageInput == null || pageInput == "") {
+			var url = getUrl(noVol, noIssue);
+			url = url.replace('repXXX', noVol);
+			url = url.replace('repYYY', noIssue);
+			document.location.href = url;
+			return;
+		}
+		if (noVol == null) {
+			if (mode == "1") {
+				$("#pageMessage01").css("display", "block");
+			} else if (mode == "2") {
+				$("#mobilePageMessage01").css("display", "block");
+			}
+			return;
+		}
+		var jsonUrl = 'https://www.jstage.jst.go.jp/pageSearch/plantbiotechnology/repXXX/repYYY/repZZZ';
+		jsonUrl = jsonUrl.replace('repXXX', noVol);
+		jsonUrl = jsonUrl.replace('repYYY', noIssue);
+		jsonUrl = jsonUrl.replace('repZZZ', pageInput);
+		$.ajax({
+			cache: false,
+			type: 'GET',
+			url: jsonUrl,
+			dataType: 'json',
+			contentType:'application/json',
+			success: function(json) {
+				var errorCd = json.errorCd;
+				var redirectSryCd = json.redirectSryCd;
+				var redirectNoVol = json.redirectNoVol;
+				var redirectNoIssue = json.redirectNoIssue;
+				var redirectCdArticle = json.redirectCdArticle;
+				if (
+						"0" == errorCd
+						&& redirectSryCd != null && redirectSryCd != ''
+						&& redirectNoVol != null && redirectNoVol != ''
+						&& redirectNoIssue != null && redirectNoIssue != ''
+						&& redirectCdArticle != null && redirectCdArticle != ''
+				) {
+					var shosiUrl = 'https://www.jstage.jst.go.jp/article/plantbiotechnology/repXXX/repYYY/repZZZ/_article/-char/en';
+					var urls = shosiUrl.match('(http.+/article/)([0-9a-z]+)(/repXXX.+)');
+					if(urls.length == 4){
+						shosiUrl = urls[1];
+						shosiUrl += redirectSryCd;
+						shosiUrl += urls[3];
+					}
+					shosiUrl = shosiUrl.replace('repXXX', redirectNoVol);
+					shosiUrl = shosiUrl.replace('repYYY', redirectNoIssue);
+					shosiUrl = shosiUrl.replace('repZZZ', redirectCdArticle);
+					document.location.href = shosiUrl;
+					return true;
+				} else if ("1" == errorCd) {
+					if (mode == "1") {
+						$("#pageMessage02").css("display", "block");
+					} else if (mode == "2") {
+						$("#mobilePageMessage02").css("display", "block");
+					}
+				} else if ("2" == errorCd) {
+					if (mode == "1") {
+						$("#pageMessage03").css("display", "block");
+					} else if (mode == "2") {
+						$("#mobilePageMessage03").css("display", "block");
+					}
+				}
+			}
+		});
+	} catch (e) {
+	}
+	return false;
+}
+function getUrl(noVol, noIssue) {
+	return 'https://www.jstage.jst.go.jp/browse/plantbiotechnology/repXXX/repYYY/_contents/-char/en';
+}
+
+var pheader = 0;
+function menueAnime(title) {
+	var position = '';
+	switch (title){
+		case 'Abstract':
+			position = $('#article-overiew-abstract-wrap').offset().top - (50 + pheader);
+			break;
+		case 'Datarepo':
+			position = $('#datarepo-wrap').offset().top - (50 + pheader);
+			break;
+		case 'Manuscript':
+			position = $('#manuscript-wrap').offset().top - (50 + pheader);
+			break;
+		case 'References':
+			position = $('#article-overiew-references-wrap').offset().top - (50 + pheader);
+			break;
+		case 'Relations':
+			position = $('#article-overiew-related-wrap').offset().top - (50 + pheader);
+			break;
+		case 'Figures':
+			position = $('#figures-tables-wrap').offset().top - (50 + pheader);
+			break;
+		case 'Results':
+			position = $('#resultsanddiscussion-wrap').offset().top - (50 + pheader);
+			break;
+		case 'information':
+			position = $('#author-information-wrap').offset().top - (50 + pheader);
+			break;
+		case 'Supplementary':
+			position = $('#supplimentary-materials-wrap').offset().top - (50 + pheader);
+			break;
+		case 'Cited':
+			position = $('#citedby-wrap').offset().top - (50 + pheader);
+			break;
+		case 'External':
+			position = $('#jstage-external-links').offset().top - (50 + pheader);
+			break;
+	}
+	$('html, body').animate({scrollTop: position}, 1100);
+	return false;
+}
+
+function callAjax(tabId, callback, errorCallback, last) {
+	var jsonUrl = 'https://www.jstage.jst.go.jp/article/plantbiotechnology/28/5/28_11.1027b/_article/_tab/-char/en?cdstat=&amp;amp;nologrec=';
+	var revision = '';
+	jsonUrl += '&tabId=' + tabId;
+	if(revision != null){
+		jsonUrl += '&revision=' + revision;
+	}
+	jsonUrl = jsonUrl.replace('&amp;amp;','&');
+	if (!last) {
+		$.ajax({
+			cache: false,
+			type: 'GET',
+			url: jsonUrl,
+			dataType: 'html',
+			contentType:'text/html',
+			success: callback,
+			error: errorCallback,
+			complete : function() {
+				$('.loading-view').remove();
+			}
+		});
+	} else {
+		$.ajax({
+			cache: false,
+			type: 'GET',
+			url: jsonUrl,
+			dataType: 'html',
+			contentType:'text/html',
+			success: callback,
+			error: errorCallback,
+			complete : function() {
+				$('.loading-view').remove();
+			}
+		});
+	}
+}
+
+function createCallBack(idx) {
+	if (idx >= ajaxCall.length) {
+		return null;
+	}
+	var callback = function(data) {
+		if (ajaxCall[idx].outerDivId === '') {
+			$('#' + ajaxCall[idx].innerDivId).append(data);
+		} else {
+			var spritHtml = data.split('@@@');
+			var str = '#' + ajaxCall[idx].innerDivId
+			$('#' + ajaxCall[idx].innerDivId).append(spritHtml[0]);
+			if (ajaxCall[idx].outerDivId == 'supplimentary-materials-modal') {
+				$.getScript("/web/js/jquery.jplayer.min.js");
+				dnsFlkApply();
+			}
+		}
+		idx++;
+		if (idx < ajaxCall.length) {
+			if (idx == ajaxCall.length - 1) {
+				callAjax(ajaxCall[idx].tabId, createCallBack(idx), createErrorCallback(idx), true);
+			} else {
+				callAjax(ajaxCall[idx].tabId, createCallBack(idx), createErrorCallback(idx), false);
+			}
+		}
+	}
+	return callback;
+}
+
+function createErrorCallback(idx) {
+	var errorCallback = function(data) {
+		var errorMsg = '<div>Data could not be acquired.</div>';
+		if (ajaxCall[idx].outerDivId === '') {
+			$('#' + ajaxCall[idx].innerDivId).after(errorMsg);
+		} else {
+			$('#' + ajaxCall[idx].innerDivId).after(errorMsg);
+			if (ajaxCall[idx].outerDivId == 'supplimentary-materials-modal') {
+				$.getScript("/web/js/jquery.jplayer.min.js");
+				dnsFlkApply();
+			}
+		}
+		idx++;
+		if (idx < ajaxCall.length) {
+			if (idx == ajaxCall.length - 1) {
+				callAjax(ajaxCall[idx].tabId, createCallBack(idx), createErrorCallback(idx), true);
+			} else {
+				callAjax(ajaxCall[idx].tabId, createCallBack(idx), createErrorCallback(idx), false);
+			}
+		}
+	}
+	return errorCallback;
+}
+
+var ajaxFlg = true;
+var zhyoLbl = '0';
+var inYuBnknLbl = '50';
+var knrnkjLbl = '0';
+var hinYuBnknLbl = '16';
+var dnsFrkLbl = '1';
+var seikLstLbl = '';
+var datarepoLbl = '0';
+var searching = '<div class = "loading-view"style="text-align: center;"><img src="/web/images/new_update/ajax-loader.gif" alt=""></div>'
+var ajaxCall = [];
+if (zhyoLbl !== null && zhyoLbl !== '' && zhyoLbl !== '0') {
+	$('#figures-tables-wrap').find('.section-title-noborder-18').css('display', 'block');
+	$('#figures-tables-wrap').append(searching);
+	ajaxCall.push({
+		'tabId' : 'ZHYO',
+		'innerDivId' : 'figures-tables-wrap',
+		'outerDivId' : ''
+	});
+}
+if (inYuBnknLbl !== null && inYuBnknLbl !== '' && inYuBnknLbl !== '0') {
+	$('#article-overiew-references-wrap').find('.section-title-18').css('display', 'block');
+	$('#article-overiew-references-wrap').append(searching);
+	ajaxCall.push({
+		'tabId' : 'INYUBNKN',
+		'innerDivId' : 'article-overiew-references-wrap',
+		'outerDivId' : ''
+	});
+}
+
+if (knrnkjLbl !== null && knrnkjLbl !== '' && knrnkjLbl !== '0') {
+	$('#article-overiew-related-wrap').find('.section-title-18').css('display', 'block');
+	$('#article-overiew-related-wrap').append(searching);
+	ajaxCall.push({
+		'tabId' : 'KNRNKJ',
+		'innerDivId' : 'article-overiew-related-wrap',
+		'outerDivId' : ''
+	});
+}
+
+if (hinYuBnknLbl !== null && hinYuBnknLbl !== '' && hinYuBnknLbl !== '0') {
+	$('#citedby-wrap').find('.section-title-18').css('display', 'block');
+	if(hinYuBnknLbl !== 'n/a'){
+	$('#citedby-wrap').append(searching);
+	ajaxCall.push({
+		'tabId' : 'HINYUBNKN',
+		'innerDivId' : 'citedby-wrap',
+		'outerDivId' : ''
+	});
+	}
+}
+
+if (dnsFrkLbl !== null && dnsFrkLbl !== '' &&  dnsFrkLbl !== '0') {
+	$('#supplimentary-materials-wrap').find('.section-title-18').css('display', 'block');
+	$('#supplimentary-materials-wrap').append(searching);
+	ajaxCall.push({
+		'tabId' : 'DNSFRK',
+		'innerDivId' : 'supplimentary-materials-wrap',
+		'outerDivId' : 'supplimentary-materials-modal'
+	});
+}
+
+if (seikLstLbl !== null && seikLstLbl !== '' && seikLstLbl !== '0') {
+	$('#resultsanddiscussion-wrap').find('.section-title-18').css('display', 'block');
+	$('#resultsanddiscussion-wrap').append(searching);
+	ajaxCall.push({
+		'tabId' : 'SEIKLST',
+		'innerDivId' : 'resultsanddiscussion-wrap',
+		'outerDivId' : ''
+	});
+}
+
+if (datarepoLbl !== null && datarepoLbl !== '' && datarepoLbl != '0') {
+	$('#datarepo-wrap').find('.section-title-18').css('display', 'block');
+	$('#datarepo-wrap').append(searching);
+	ajaxCall.push({
+		'tabId' : 'DATAREPO',
+		'innerDivId' : 'datarepo-wrap',
+		'outerDivId' : ''
+	});
+}
+
+switch (ajaxCall.length) {
+	case 0:
+		break;
+	case 1:
+		callAjax(ajaxCall[0].tabId, createCallBack(0), createErrorCallback(0), true);
+		break;
+	default:
+		callAjax(ajaxCall[0].tabId, createCallBack(0), createErrorCallback(0), false);
+		break;
+}
+
+function dnsFlkApply(){
+	$('[id^=jp_container_]').each(function () {
+		var vid= this.id;
+		var result = vid.split( '_' );
+		var no = result[result.length-1];
+
+		var target_player = '#jquery_jplayer_' + no;
+		var container = '#jp_container_' + no;
+		var source = '#jp_source_' + no;
+		if ($(target_player)) {
+			var sourcename = $(source).val();
+			$(target_player).jPlayer({
+				ready: function () {
+					$(this).jPlayer('setMedia', {
+						m4v: sourcename
+					});
+				},
+				play: function() { // To avoid both jPlayers playing together.
+					$(this).jPlayer('pauseOthers');
+				},
+				errorAlerts: false,
+				cssSelectorAncestor: container,
+				swfPath: '/pub/lib/raspberry/jplayer/swf/',
+				supplied: 'm4a,m4v,mp4'
+			});
+		}
+	});
+}
+
+$(function () {
+    $('div.altmetric-embed').on('altmetric:show', function () {
+        $('#altmetric-widget').find('a').attr({
+        	'target': '_blank',
+        	'rel': 'noopener noreferrer'
+        })
+    });
+});
+
+
+	window.setTimeout( set_jglobalApikey_authorinformation('JDEkcmFzbXVzbGUkYmhyak4xSXJxbGVKbDN1YXNXZkdYMQ=='),100);
+	window.setTimeout( set_jglobalApikey_relatedarticle('JDEkcmFzbXVzbGUkYmhyak4xSXJxbGVKbDN1YXNXZkdYMQ=='),100);
+
+
+function registerStickyClose(){
+	$("#sticky-register-to-j-stage").hide();
+	if(('localStorage' in window) && (window.localStorage !== null)) {
+		localStorage.setItem('C.regsticky', 'off');
+	}
+}
+function doChangeLang(langKind){
+
+	if (typeof changeLang == "function")  {
+				changeLang(langKind);
+		return;
+
+	} else {
+						var encStr = "";
+		if(langKind == "ja") {
+			encStr = "https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Fplantbiotechnology%2F28%2F5%2F28_11.1027b%2F_article%2F-char%2Fja";
+		} else {
+			encStr = "https%3A%2F%2Fwww.jstage.jst.go.jp%2Farticle%2Fplantbiotechnology%2F28%2F5%2F28_11.1027b%2F_article%2F-char%2Fen";
+		}
+				location.href = decodeURIComponent(encStr);
+				return;
+	}
+}
+function hBack(){
+		var ans;
+		var ref = document.referrer;
+		re = new RegExp(location.hostname,"i");
+		if(ref.match(re)){
+				ans = false;
+		}else{
+				ans = true
+		}
+		if(!ans){
+			history.back();
+		} else {
+			location.href = "https://www.jstage.jst.go.jp/browse/-char/en";
+		}
+}
+</script>
+</body>
+</html>

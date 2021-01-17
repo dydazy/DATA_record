@@ -1,0 +1,1201 @@
+<!DOCTYPE html>
+<html lang="en" class="pb-page" data-request-id="c27f68d5-c5bd-40b3-8f64-20034468a004"><head data-pb-dropzone="head"><meta name="pbContext" content=";page:string:Article/Chapter View;ctype:string:Journal Content;subPage:string:Access Denial;journal:journal:tnzc20;issue:issue:10.1080/tnzc20.v047.i04;requestedJournal:journal:tnzc20;wgroup:string:Publication Websites;website:website:TFOPB;pageGroup:string:Publication Pages;article:article:10.1080/01140671.2019.1657911" />
+<link rel="schema.DC" href="http://purl.org/DC/elements/1.0/" /><meta name="citation_journal_title" content="New Zealand Journal of Crop and Horticultural Science" /><meta name="dc.Title" content="A whole genome assembly of Leptospermum scoparium (Myrtaceae) for mānuka research" /><meta name="dc.Creator" content="Amali H.  Thrimawithana" /><meta name="dc.Creator" content="Dan  Jones" /><meta name="dc.Creator" content="Elena  Hilario" /><meta name="dc.Creator" content="Ella  Grierson" /><meta name="dc.Creator" content="Hanh M.  Ngo" /><meta name="dc.Creator" content="Ivan  Liachko" /><meta name="dc.Creator" content="Shawn  Sullivan" /><meta name="dc.Creator" content="Timothy P.  Bilton" /><meta name="dc.Creator" content="Jeanne M. E.  Jacobs" /><meta name="dc.Creator" content="Ross  Bicknell" /><meta name="dc.Creator" content="Charles  David" /><meta name="dc.Creator" content="Cecilia  Deng" /><meta name="dc.Creator" content="Niels  Nieuwenhuizen" /><meta name="dc.Creator" content="Elena  Lopez-Girona" /><meta name="dc.Creator" content="Peri A.  Tobias" /><meta name="dc.Creator" content="Ed  Morgan" /><meta name="dc.Creator" content="Nigel B.  Perry" /><meta name="dc.Creator" content="David H.  Lewis" /><meta name="dc.Creator" content="Ross  Crowhurst" /><meta name="dc.Creator" content="Kevin M.  Davies" /><meta name="dc.Creator" content="David  Chagné" /><meta name="dc.Creator" content="Kathy E.  Schwinn" /><meta name="dc.Subject" content="Hi-C; metagenome; terpene; polyketide; triketone; Leptospermum scoparium; Eucalyptus; Myrtaceae; tea tree" /><meta name="dc.Description" content="We assembled the genome of Leptospermum scoparium ‘Crimson Glory’ using a combination of Illumina paired-end sequencing, high-throughput chromosome conformation capture (Hi-C) and high density gene..." /><meta name="Description" content="We assembled the genome of Leptospermum scoparium ‘Crimson Glory’ using a combination of Illumina paired-end sequencing, high-throughput chromosome conformation capture (Hi-C) and high density gene..." /><meta name="dc.Publisher" content="Taylor &amp; Francis" /><meta name="dc.Date" scheme="WTN8601" content="25 Nov 2019" /><meta name="dc.Type" content="research-article" /><meta name="dc.Format" content="text/HTML" /><meta name="dc.Identifier" scheme="publisher-id" content="1657911" /><meta name="dc.Identifier" scheme="doi" content="10.1080/01140671.2019.1657911" /><meta name="dc.Identifier" scheme="submission-id" content="NZJC-2019-0122.R1" /><meta name="dc.Source" content="https://doi.org/10.1080/01140671.2019.1657911" /><meta name="dc.Language" content="en" /><meta name="dc.Coverage" content="world" /><meta name="dc.Rights" content="© 2019 The Royal Society of New Zealand" /><meta name="keywords" content="Hi-C,metagenome,terpene,polyketide,triketone,Leptospermum scoparium,Eucalyptus,Myrtaceae,tea tree" />
+<link rel="meta" type="application/atom+xml" href="https://doi.org/10.1080%2F01140671.2019.1657911" />
+<link rel="meta" type="application/rdf+json" href="https://doi.org/10.1080%2F01140671.2019.1657911" />
+<link rel="meta" type="application/unixref+xml" href="https://doi.org/10.1080%2F01140671.2019.1657911" />
+<title>A whole genome assembly of Leptospermum scoparium (Myrtaceae) for mānuka research: New Zealand Journal of Crop and Horticultural Science: Vol 47, No 4</title>
+<meta charset="UTF-8">
+<meta name="robots" content="noarchive" />
+<meta name="pb-robots-disabled">
+
+<meta property="og:title" content="A whole genome assembly of Leptospermum scoparium (Myrtaceae) for mānuka research" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.tandfonline.com/doi/abs/10.1080/01140671.2019.1657911" />
+<meta property="og:image" content="https://www.tandfonline.com/doi/cover-img/10.1080/tnzc20.v047.i04" />
+<meta property="og:site_name" content="Taylor & Francis" />
+<meta property="og:description" content="(2019). A whole genome assembly of Leptospermum scoparium (Myrtaceae) for m&#x101;nuka research. New Zealand Journal of Crop and Horticultural Science: Vol. 47, Special issue: Recent advances in Leptopsermum scoparium (m&#x101;nuka) research. Guest Editors: Kathy Schwinn, Mike Clearwater and Kevin Davies, pp. 233-260." />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@tandfonline">
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<script>var tandfData={"search":{"cbRec":8},"seamlessAccess":{"apiUrl":"https://service.seamlessaccess.org/ps/","context":"seamlessaccess.org"},"identity":{"isSpv":false,"isAuthenticated":false},"pubCount":{"citedCount":4}};</script>
+<link href="//www.trendmd.com" rel="preconnect" />
+<link href="//connect.facebook.net" rel="preconnect" />
+<link href="//go.taylorandfrancis.com" rel="preconnect" />
+<link href="//pi.pardot.com" rel="preconnect" />
+<link href="//static.hotjar.com" rel="preconnect" />
+<link href="//cdn.pbgrd.com" rel="preconnect" />
+<link href="//f1-eu.readspeaker.com" rel="preconnect" />
+<link href="//www.googleadservices.com" rel="preconnect" />
+<link href="https://m.addthis.com" rel="preconnect" />
+<link href="https://wl.figshare.com" rel="preconnect" />
+<link href="https://pagead2.googlesyndication.com" rel="preconnect" />
+<link href="https://www.googletagmanager.com" rel="preconnect" />
+<link href="https://www.google-analytics.com" rel="preconnect" />
+<link href="https://fonts.google.com" rel="preconnect" />
+<link rel="preload" as="font" href="/templates/jsp/css/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" as="font" href="/templates/jsp/_style2/_tandf/pb2/fonts/icomoon/icomoon.woff?g276mb" type="font/woff" crossorigin="anonymous">
+<link type="text/css" rel="stylesheet" href="/wro/jq0u~product.css">
+<link rel="stylesheet" type="text/css" href="/pb/css/t1608291130947-v1607858938000/head_4_698_1485_2139_2180_7872_en.css" id="pb-css" data-pb-css-id="t1608291130947-v1607858938000/head_4_698_1485_2139_2180_7872_en.css" />
+<script type="text/javascript" src="//cdn.pbgrd.com/core-tandf.js" async></script>
+<script data-ad-client="ca-pub-5143040550582507" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async></script>
+
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:864760,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+<script>var _prum=[['id','54ff88bcabe53dc41d1004a5'],['mark','firstbyte',(new Date()).getTime()]];(function(){var s=document.getElementsByTagName('script')[0],p=document.createElement('script');p.async='async';p.src='//rum-static.pingdom.net/prum.min.js';s.parentNode.insertBefore(p,s);})();</script>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="canonical" href="https://www.tandfonline.com/doi/full/10.1080/01140671.2019.1657911" />
+<script src="//scholar.google.com/scholar_js/casa.js" async></script>
+</head>
+<body class="pb-ui">
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-W2RHRDH');</script>
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W2RHRDH" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
+<script type="text/javascript" src="/wro/jq0u~jquery-3.5.0.js"></script>
+<div class="skipContent off-screen"><a href="#top-content-scroll" class="skipToContent" title="Skip to Main Content" tabIndex="0">Skip to Main Content</a></div>
+<script type="text/javascript">(function(e){var t=e.getElementsByClassName("skipToContent");t.length>0&&(t[0].onclick=function(){var t=e.getElementById("top-content-scroll");null==t&&(t=e.getElementsByClassName("top-content-scroll").item(0)),t.setAttribute("tabindex","0"),t.focus()})})(document);</script>
+<div id="pb-page-content" data-ng-non-bindable>
+<div data-pb-dropzone="main" data-pb-dropzone-name="Main">
+<div class="widget pageHeader none  widget-none  widget-compact-all" id="a4d4fdd3-c594-4d68-9f06-b69b8b37ed56">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><header class="page-header">
+<div data-pb-dropzone="main">
+<div class="widget responsive-layout none header-top widget-none  widget-compact-all" id="036fa949-dc25-4ffe-9df0-d7daefee281b">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="container">
+<div class="row row-xs  ">
+<div class="col-xs-1-6 header-index">
+<div class="contents" data-pb-dropzone="contents0">
+<div class="widget general-image alignLeft header-logo hidden-xs widget-none  widget-compact-horizontal" id="e817489e-2520-418b-a731-b62e247e74df">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-horizontal"><a href="/" title="Taylor and Francis Online">
+<img src="/pb-assets/Global/tfo_logo-1444989687640.png" alt="Taylor and Francis Online" />
+</a></div>
+</div>
+</div>
+<div class="widget general-image none header-logo hidden-sm hidden-md hidden-lg widget-none  widget-compact-horizontal" id="b3fe8380-8b88-4558-b004-6485d3aea155">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-horizontal"><a href="/">
+<img src="/pb-assets/Global/tfo_logo_sm-1459688573210.png" />
+</a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-xs-5-6 ">
+<div class="contents" data-pb-dropzone="contents1">
+<div class="widget layout-inline-content alignRight  widget-none  widget-compact-all" id="a8a37801-55c7-4566-bdef-e4e738967e38">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="inline-dropzone" data-pb-dropzone="content">
+<div class="widget layout-inline-content none customLoginBar widget-none" id="fbe90803-b9c8-4bef-9365-cb53cc4bfa0e">
+<div class="wrapped ">
+<div class="widget-body body body-none "><div class="inline-dropzone" data-pb-dropzone="content">
+<div class="widget literatumInstitutionBanner none bannerWidth widget-none" id="3ff4d9f6-0fd0-44d0-89cd-6b16c5bb33ba">
+<div class="wrapped ">
+<div class="widget-body body body-none "><div class="institution-image hidden-xs logout-institution-image">
+</div></div>
+</div>
+</div>
+<div class="widget literatumNavigationLoginBar none  widget-none  widget-compact-all" id="1d69ec8f-0b13-42ca-bc6d-f5a385caf8c4">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="loginBar not-logged-in">
+<span class="icon-user"></span>
+<a href="/action/showLogin?uri=%2Fdoi%2Ffull%2F10.1080%2F01140671.2019.1657911" class="sign-in-link">
+Log in
+</a>
+<span class="loginSeprator">&nbsp;|&nbsp;</span>
+<a href="/action/registration?redirectUri=%2F" class="register-link">
+Register
+</a>
+</div></div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+<div class="widget eCommerceCartIndicatorWidget none literatumCartLink widget-none" id="9de10bb5-08af-48bc-b9f6-3f6433229f3e">
+<div class="wrapped ">
+<div class="widget-body body body-none "><a href="/action/showCart?FlowID=1" class="cartLabel">
+<span class="hidden-xs hidden-sm visible-tl-inline-block">Cart</span>
+<span class="cartItems" data-id="cart-size" role="status">
+</span>
+</a></div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+<div class="widget responsive-layout none breadcrumbs-container widget-none  widget-compact-all" id="64c16283-4b04-4d90-ac0f-4db85fcd0cf5">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="container">
+<div class="row row-md  ">
+<div class="col-md-1-1 ">
+<div class="contents" data-pb-dropzone="contents0">
+<div class="widget literatumBreadcrumbs none breadcrumbs-widget widget-none  widget-compact-all" id="b1c121c1-cbbd-4241-8774-7120f3a783e8">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all">
+<nav aria-label="Breadcrumb">
+<ol class="breadcrumbs">
+<li class="">
+<a href="/" class="bc-click">
+Home
+</a>
+</li>
+<li class="">
+<a href="/action/showPublications?pubType=journal" class="bc-click">
+All Journals
+</a>
+</li>
+<li class="">
+<a href="/toc/tnzc20/current" class="bc-click">
+New Zealand Journal of Crop and Horticultural Science
+</a>
+</li>
+<li class="">
+<a href="/loi/tnzc20" class="bc-click">
+List of Issues
+</a>
+</li>
+<li class="">
+<a href="/toc/tnzc20/47/4" class="bc-click">
+Volume 47, Issue 4
+</a>
+</li>
+<li class="">
+<a href="#" class="bc-click" aria-current="page">
+A whole genome assembly of Leptospermum ....
+</a>
+</li>
+</ol>
+</nav>
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+        
+            {
+                "@type": "ListItem",
+                "position": "1",
+                "name": "Home"
+                
+                     ,"item": "https://www.tandfonline.com/"
+                
+            }
+
+            ,
+        
+            {
+                "@type": "ListItem",
+                "position": "2",
+                "name": "All Journals"
+                
+                     ,"item": "https://www.tandfonline.com/action/showPublications?pubType=journal"
+                
+            }
+
+            ,
+        
+            {
+                "@type": "ListItem",
+                "position": "3",
+                "name": "New Zealand Journal of Crop and Horticultural Science"
+                
+                     ,"item": "https://www.tandfonline.com/toc/tnzc20/current"
+                
+            }
+
+            ,
+        
+            {
+                "@type": "ListItem",
+                "position": "4",
+                "name": "List of Issues"
+                
+                     ,"item": "https://www.tandfonline.com/loi/tnzc20"
+                
+            }
+
+            ,
+        
+            {
+                "@type": "ListItem",
+                "position": "5",
+                "name": "Volume 47, Issue 4"
+                
+                     ,"item": "https://www.tandfonline.com/toc/tnzc20/47/4"
+                
+            }
+
+            ,
+        
+            {
+                "@type": "ListItem",
+                "position": "6",
+                "name": "A whole genome assembly of Leptospermum  .... "
+                
+            }
+
+            
+        
+        ]
+    }
+</script></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</header></div>
+</div>
+</div>
+<div class="widget pageBody none  widget-none  widget-compact-all" id="35d9ca18-265e-4501-9038-4105e95a4b7d">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all">
+<div class="page-body pagefulltext">
+<div data-pb-dropzone="main">
+<div class="widget responsive-layout none publicationSerialHeader article-chapter-view widget-none  widget-compact-all" id="1728e801-36cd-4288-9f53-392bad29506a">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="container">
+<div class="row row-md gutterless ">
+<div class="col-md-5-12 search_container ">
+<div class="contents" data-pb-dropzone="contents0">
+<div class="widget quickSearchWidget none search-customize-width widget-none  widget-compact-all" id="d46e3260-1f5c-4802-821a-28a03a699c82">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="quickSearchFormContainer ">
+<form action="/action/doSearch" name="quickSearch" class="quickSearchForm " title="Quick Search" method="get" onsubmit="appendSearchFilters(this)" aria-label="Quick Search"><span class="simpleSearchBoxContainer">
+<input name="AllField" class="searchText main-search-field autocomplete" value="" type="search" id="searchText" title="Type search term here" aria-label="Search" placeholder="Enter keywords, authors, DOI, ORCID etc" autocomplete="off" data-history-items-conf="3" data-publication-titles-conf="3" data-publication-items-conf="3" data-topics-conf="3" data-contributors-conf="3" data-fuzzy-suggester="false" data-auto-complete-target="title-auto-complete" />
+</span>
+<span class="searchDropDownDivRight">
+<label for="searchInSelector" class="visuallyhidden">Search in:</label>
+<select id="searchInSelector" name="SeriesKey" class="js__searchInSelector">
+<option value="tnzc20" id="thisJournal" data-search-in="thisJournal">
+This Journal
+</option>
+<option value="" data-search-in="default">
+Anywhere
+</option>
+</select>
+</span>
+<span class="quick-search-btn">
+<input class="mainSearchButton searchButtons pointer" title="Search" role="button" type="submit" value="" aria-label="Search" />
+</span></form>
+</div>
+<div class="advancedSearchLinkDropZone" data-pb-dropzone="advancedSearchLinkDropZone">
+
+<div class="widget general-html alignRight  hidden-xs_sm widget-none  widget-compact-all" id="323e2a31-1c81-4995-bd17-8e149458c214">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><a href="/search/advanced" class="advSearchArticle">Advanced search</a></div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-7-12 serNav_container">
+<div class="contents" data-pb-dropzone="contents1">
+<div class="widget literatumSeriesNavigation none  widget-none" id="7730bfe1-9fca-4cf4-a6d6-2a0148105437">
+<div class="wrapped ">
+<div class="widget-body body body-none "><div class="issueSerialNavigation journal">
+<div class="cover">
+<img data-src='{"type":"image" , "src":"/action/showCoverImage?doi=10.1080/tnzc20.v047.i04"}' src="//:0" alt="Publication Cover" width="120" height="156" />
+</div>
+<div class="info trim-spaces">
+<div class="title-container">
+<span class="journal-heading">
+<a href="/toc/tnzc20/current">
+New Zealand Journal of Crop and Horticultural Science
+</a>
+</span>
+<span class="issue-heading">
+Volume 47, 2019 - <a href="/toc/tnzc20/47/4" class="nav-toc-list">Issue 4</a><span class="specialTitle"><a href="/toc/tnzc20/47/4">: Special issue: Recent advances in Leptopsermum scoparium (m&#x101;nuka) research. Guest Editors: Kathy Schwinn, Mike Clearwater and Kevin Davies</a>
+</span>
+</span>
+</div>
+<div class="seriesNavDropZone" data-pb-dropzone="seriesNavDropZone">
+
+<div class="widget general-html none serial-btns smooth-mv widget-none  widget-compact-horizontal" id="753455df-1eeb-47ca-bdc9-e19022075973">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-horizontal"><div class="serial-action">
+<a href="http://mc.manuscriptcentral.com/rsnz" class="green submitAnArticle"><span>Submit an article</span></a>
+<a href="/toc/tnzc20/current" class="jHomepage"><span>Journal homepage</span></a>
+</div></div>
+</div>
+</div>
+<div class="widget responsive-layout none  widget-none" id="e53deeb1-f863-4c5f-a070-4b93ec39fff5">
+<div class="wrapped ">
+<div class="widget-body body body-none "><div class="container-fluid">
+<div class="row row-md  ">
+<div class="col-md-1-1 ">
+<div class="contents" data-pb-dropzone="contents0">
+</div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+<div class="widget responsive-layout none publicationContentHeader widget-none  widget-compact-all" id="72f79d61-d352-4d72-a894-8779233d1576">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="container">
+<div class="row row-md  ">
+<div class="col-md-1-6 ">
+<div class="contents" data-pb-dropzone="contents0">
+<div class="widget literatumArticleMetricsWidget none  widget-none  widget-compact-vertical" id="5afd8b6d-7e09-43ff-8ad6-afa3764e543c">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-vertical"><div class="articleMetricsContainer">
+<div class="content compactView">
+<div class="section">
+<div class="value">
+744
+</div>
+<div class="title">
+Views
+</div>
+</div>
+<div class="section">
+<div class="value">
+4
+</div>
+<div class="title">
+CrossRef citations to date
+</div>
+</div>
+<div class="section score">
+<div class="altmetric-score true">
+<div class="value" data-doi="10.1080/01140671.2019.1657911"></div>
+<div class="title">
+Altmetric
+</div>
+</div>
+</div>
+<script>tandfData.altmetric={key:'be0ef6915d1b2200a248b7195d01ef22'}</script>
+<script src="/wro/jq0u~altmetric.js" async></script>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-2-3 ">
+<div class="contents" data-pb-dropzone="contents1">
+<div class="widget responsive-layout none  widget-none  widget-compact-all" id="5f562208-b1d5-4e5a-81c7-356431240f04">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="container-fluid">
+<div class="row row-md gutterless ">
+<div class="col-md-1-1 ">
+<div class="contents" data-pb-dropzone="contents0">
+<div class="widget literatumPublicationHeader none literatumPublicationTitle widget-none  widget-compact-all" id="fa57727f-b942-4eb8-9ed2-ecfe11ac03f5">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="toc-heading">
+<h3>
+Research articles
+</h3>
+</div>
+<h1><span class="NLM_article-title hlFld-title">A whole genome assembly of <i>Leptospermum scoparium</i> (Myrtaceae) for mānuka research</span></h1><div class="literatumAuthors"><div class="publicationContentAuthors"><div class="hlFld-ContribAuthor"><span class="NLM_contrib-group"><span class="contribDegrees "><a class="entryAuthor" href="/author/Thrimawithana%2C+Amali+H">Amali H. Thrimawithana<span class="overlay"> The New Zealand Institute for Plant and Food Research Limited (Plant &amp; Food Research), Auckland, New Zealand<span class="orcid-author" data="https://orcid.org/0000-0001-6325-2334"><img src="//:0" data-src='{"type":"image","src":"/templates/jsp/images/orcid.png"}' alt="ORCID Icon" title="ORCID Icon" />https://orcid.org/0000-0001-6325-2334</span><div class="author-extra-info" tabindex="0" data-authorsInfo="{&quot;id&quot; : &quot;Funding&quot;, &quot;hasFull&quot; : &quot;true&quot;}">View further author information</div></span></a><span class="orcid-icon orcid-margin"><a href="https://orcid.org/0000-0001-6325-2334" target="_blank"><img src="//:0" data-src='{"type":"image","src":"/templates/jsp/images/orcid.png"}' alt="ORCID Icon" title="ORCID Icon" /></a></span>, </span><span class="contribDegrees "><a class="entryAuthor" href="/author/Jones%2C+Dan">Dan Jones<span class="overlay"> The New Zealand Institute for Plant and Food Research Limited (Plant &amp; Food Research), Auckland, New Zealand<span class="orcid-author" data="https://orcid.org/0000-0002-2223-8672"><img src="//:0" data-src='{"type":"image","src":"/templates/jsp/images/orcid.png"}' alt="ORCID Icon" title="ORCID Icon" />https://orcid.org/0000-0002-2223-8672</span><div class="author-extra-info" tabindex="0" data-authorsInfo="{&quot;id&quot; : &quot;Funding&quot;, &quot;hasFull&quot; : &quot;true&quot;}">View further author information</div></span></a><span class="orcid-icon orcid-margin"><a href="https://orcid.org/0000-0002-2223-8672" target="_blank"><img src="//:0" data-src='{"type":"image","src":"/templates/jsp/images/orcid.png"}' alt="ORCID Icon" title="ORCID Icon" /></a></span>, </span><span class="contribDegrees "><a class="entryAuthor" href="/author/Hilario%2C+Elena">Elena Hilario<span class="overlay"> The New Zealand Institute for Plant and Food Research Limited (Plant &amp; Food Research), Auckland, New Zealand<span class="orcid-author" data="https://orcid.org/0000-0001-8124-8881"><img src="//:0" data-src='{"type":"image","src":"/templates/jsp/images/orcid.png"}' alt="ORCID Icon" title="ORCID Icon" />https://orcid.org/0000-0001-8124-8881</span><div class="author-extra-info" tabindex="0" data-authorsInfo="{&quot;id&quot; : &quot;Funding&quot;, &quot;hasFull&quot; : &quot;true&quot;}">View further author information</div></span></a><span class="orcid-icon orcid-margin"><a href="https://orcid.org/0000-0001-8124-8881" target="_blank"><img src="//:0" data-src='{"type":"image","src":"/templates/jsp/images/orcid.png"}' alt="ORCID Icon" title="ORCID Icon" /></a></span>, </span><span class="contribDegrees "><a class="entryAuthor" href="/author/Grierson%2C+Ella">Ella Grierson<span class="overlay"> Plant &amp; Food Research, Palmerston North, New Zealand<span class="orcid-author" data="https://orcid.org/0000-0003-2865-6506"><img src="//:0" data-src='{"type":"image","src":"/templates/jsp/images/orcid.png"}' alt="ORCID Icon" title="ORCID Icon" />https://orcid.org/0000-0003-2865-6506</span><div class="author-extra-info" tabindex="0" data-authorsInfo="{&quot;id&quot; : &quot;Funding&quot;, &quot;hasFull&quot; : &quot;true&quot;}">View further author information</div></span></a><span class="orcid-icon orcid-margin"><a href="https://orcid.org/0000-0003-2865-6506" target="_blank"><img src="//:0" data-src='{"type":"image","src":"/templates/jsp/images/orcid.png"}' alt="ORCID Icon" title="ORCID Icon" /></a></span>, </span><span class="contribDegrees "><a class="entryAuthor" href="/author/Ngo%2C+Hanh+M">Hanh M. Ngo<span class="overlay"> Plant &amp; Food Research, Palmerston North, New Zealand<div class="author-extra-info" tabindex="0" data-authorsInfo="{&quot;id&quot; : &quot;Funding&quot;, &quot;hasFull&quot; : &quot;true&quot;}">View further author information</div></span></a>, </span><span class="contribDegrees "><a class="entryAuthor" href="/author/Liachko%2C+Ivan">Ivan Liachko<span class="overlay"> Phase Genomics, Seattle, WA, USA<span class="orcid-author" data="https://orcid.org/0000-0001-6972-6705"><img src="//:0" data-src='{"type":"image","src":"/templates/jsp/images/orcid.png"}' alt="ORCID Icon" title="ORCID Icon" />https://orcid.org/0000-0001-6972-6705</span><div class="author-extra-info" tabindex="0" data-authorsInfo="{&quot;id&quot; : &quot;Funding&quot;, &quot;hasFull&quot; : &quot;true&quot;}">View further author information</div></span></a><span class="orcid-icon orcid-margin"><a href="https://orcid.org/0000-0001-6972-6705" target="_blank"><img src="//:0" data-src='{"type":"image","src":"/templates/jsp/images/orcid.png"}' alt="ORCID Icon" title="ORCID Icon" /></a></span>, </span><span class="contribDegrees MTN"><a class="entryAuthor" href="/author/Sullivan%2C+Shawn">Shawn Sullivan<span class="overlay"> Phase Genomics, Seattle, WA, USA<span class="orcid-author" data="https://orcid.org/0000-0001-9757-8842"><img src="//:0" data-src='{"type":"image","src":"/templates/jsp/images/orcid.png"}' alt="ORCID Icon" title="ORCID Icon" />https://orcid.org/0000-0001-9757-8842</span><div class="author-extra-info" tabindex="0" data-authorsInfo="{&quot;id&quot; : &quot;Funding&quot;, &quot;hasFull&quot; : &quot;true&quot;}">View further author information</div></span></a><span class="orcid-icon orcid-margin"><a href="https://orcid.org/0000-0001-9757-8842" target="_blank"><img src="//:0" data-src='{"type":"image","src":"/templates/jsp/images/orcid.png"}' alt="ORCID Icon" title="ORCID Icon" /></a></span>, </span><span class="contribDegrees MTN"><a class="entryAuthor" href="/author/Bilton%2C+Timothy+P">Timothy P. Bilton<span class="overlay"> AgResearch, Invermay Agricultural Centre, Mosgiel, New Zealand<span class="orcid-author" data="https://orcid.org/0000-0001-5945-3766"><img src="//:0" data-src='{"type":"image","src":"/templates/jsp/images/orcid.png"}' alt="ORCID Icon" title="ORCID Icon" />https://orcid.org/0000-0001-5945-3766</span><div class="author-extra-info" tabindex="0" data-authorsInfo="{&quot;id&quot; : &quot;Funding&quot;, &quot;hasFull&quot; : &quot;true&quot;}">View further author information</div></span></a><span class="orcid-icon orcid-margin"><a href="https://orcid.org/0000-0001-5945-3766" target="_blank"><img src="//:0" data-src='{"type":"image","src":"/templates/jsp/images/orcid.png"}' alt="ORCID Icon" title="ORCID Icon" /></a></span>, </span><span class="contribDegrees MTN"><a class="entryAuthor" href="/author/Jacobs%2C+Jeanne+M+E">Jeanne M. E. Jacobs<span class="overlay"> AgResearch, Lincoln Science Centre, Christchurch, New Zealand<span class="orcid-author" data="https://orcid.org/0000-0002-1047-1039"><img src="//:0" data-src='{"type":"image","src":"/templates/jsp/images/orcid.png"}' alt="ORCID Icon" title="ORCID Icon" />https://orcid.org/0000-0002-1047-1039</span><div class="author-extra-info" tabindex="0" data-authorsInfo="{&quot;id&quot; : &quot;Funding&quot;, &quot;hasFull&quot; : &quot;true&quot;}">View further author information</div></span></a><span class="orcid-icon orcid-margin"><a href="https://orcid.org/0000-0002-1047-1039" target="_blank"><img src="//:0" data-src='{"type":"image","src":"/templates/jsp/images/orcid.png"}' alt="ORCID Icon" title="ORCID Icon" /></a></span>, </span><span class="contribDegrees MTN"><a class="entryAuthor" href="/author/Bicknell%2C+Ross">Ross Bicknell<span class="overlay"> Plant &amp; Food Research, Christchurch, New Zealand<span class="orcid-author" data="https://orcid.org/0000-0001-5429-3142"><img src="//:0" data-src='{"type":"image","src":"/templates/jsp/images/orcid.png"}' alt="ORCID Icon" title="ORCID Icon" />https://orcid.org/0000-0001-5429-3142</span><div class="author-extra-info" tabindex="0" data-authorsInfo="{&quot;id&quot; : &quot;Funding&quot;, &quot;hasFull&quot; : &quot;true&quot;}">View further author information</div></span></a><span class="orcid-icon orcid-margin"><a href="https://orcid.org/0000-0001-5429-3142" target="_blank"><img src="//:0" data-src='{"type":"image","src":"/templates/jsp/images/orcid.png"}' alt="ORCID Icon" title="ORCID Icon" /></a></span>, </span><span class="contribDegrees MTN"><a class="entryAuthor" href="/author/David%2C+Charles">Charles David<span class="overlay"> Plant &amp; Food Research, Christchurch, New Zealand<span class="orcid-author" data="https://orcid.org/0000-0003-1206-3028"><img src="//:0" data-src='{"type":"image","src":"/templates/jsp/images/orcid.png"}' alt="ORCID Icon" title="ORCID Icon" />https://orcid.org/0000-0003-1206-3028</span><div class="author-extra-info" tabindex="0" data-authorsInfo="{&quot;id&quot; : &quot;Funding&quot;, &quot;hasFull&quot; : &quot;true&quot;}">View further author information</div></span></a><span class="orcid-icon orcid-margin"><a href="https://orcid.org/0000-0003-1206-3028" target="_blank"><img src="//:0" data-src='{"type":"image","src":"/templates/jsp/images/orcid.png"}' alt="ORCID Icon" title="ORCID Icon" /></a></span>, </span><span class="contribDegrees MTN"><a class="entryAuthor" href="/author/Deng%2C+Cecilia">Cecilia Deng<span class="overlay"> The New Zealand Institute for Plant and Food Research Limited (Plant &amp; Food Research), Auckland, New Zealand<span class="orcid-author" data="https://orcid.org/0000-0002-2954-762X"><img src="//:0" data-src='{"type":"image","src":"/templates/jsp/images/orcid.png"}' alt="ORCID Icon" title="ORCID Icon" />https://orcid.org/0000-0002-2954-762X</span><div class="author-extra-info" tabindex="0" data-authorsInfo="{&quot;id&quot; : &quot;Funding&quot;, &quot;hasFull&quot; : &quot;true&quot;}">View further author information</div></span></a><span class="orcid-icon orcid-margin"><a href="https://orcid.org/0000-0002-2954-762X" target="_blank"><img src="//:0" data-src='{"type":"image","src":"/templates/jsp/images/orcid.png"}' alt="ORCID Icon" title="ORCID Icon" /></a></span>, </span><span class="contribDegrees MTN"><a class="entryAuthor" href="/author/Nieuwenhuizen%2C+Niels">Niels Nieuwenhuizen<span class="overlay"> The New Zealand Institute for Plant and Food Research Limited (Plant &amp; Food Research), Auckland, New Zealand<span class="orcid-author" data="https://orcid.org/0000-0003-2514-7570"><img src="//:0" data-src='{"type":"image","src":"/templates/jsp/images/orcid.png"}' alt="ORCID Icon" title="ORCID Icon" />https://orcid.org/0000-0003-2514-7570</span><div class="author-extra-info" tabindex="0" data-authorsInfo="{&quot;id&quot; : &quot;Funding&quot;, &quot;hasFull&quot; : &quot;true&quot;}">View further author information</div></span></a><span class="orcid-icon orcid-margin"><a href="https://orcid.org/0000-0003-2514-7570" target="_blank"><img src="//:0" data-src='{"type":"image","src":"/templates/jsp/images/orcid.png"}' alt="ORCID Icon" title="ORCID Icon" /></a></span>, </span><span class="contribDegrees MTN"><a class="entryAuthor" href="/author/Lopez-Girona%2C+Elena">Elena Lopez-Girona<span class="overlay"> Plant &amp; Food Research, Palmerston North, New Zealand<span class="orcid-author" data="https://orcid.org/0000-0003-0376-6135"><img src="//:0" data-src='{"type":"image","src":"/templates/jsp/images/orcid.png"}' alt="ORCID Icon" title="ORCID Icon" />https://orcid.org/0000-0003-0376-6135</span><div class="author-extra-info" tabindex="0" data-authorsInfo="{&quot;id&quot; : &quot;Funding&quot;, &quot;hasFull&quot; : &quot;true&quot;}">View further author information</div></span></a><span class="orcid-icon orcid-margin"><a href="https://orcid.org/0000-0003-0376-6135" target="_blank"><img src="//:0" data-src='{"type":"image","src":"/templates/jsp/images/orcid.png"}' alt="ORCID Icon" title="ORCID Icon" /></a></span>, </span><span class="contribDegrees MTN"><a class="entryAuthor" href="/author/Tobias%2C+Peri+A">Peri A. Tobias<span class="overlay"> School of Life and Environmental Sciences, University of Sydney, Eveleigh, Australia; Plant &amp; Food Research Australia, Sydney, Australia<span class="orcid-author" data="https://orcid.org/0000-0002-5645-0161"><img src="//:0" data-src='{"type":"image","src":"/templates/jsp/images/orcid.png"}' alt="ORCID Icon" title="ORCID Icon" />https://orcid.org/0000-0002-5645-0161</span><div class="author-extra-info" tabindex="0" data-authorsInfo="{&quot;id&quot; : &quot;Funding&quot;, &quot;hasFull&quot; : &quot;true&quot;}">View further author information</div></span></a><span class="orcid-icon orcid-margin"><a href="https://orcid.org/0000-0002-5645-0161" target="_blank"><img src="//:0" data-src='{"type":"image","src":"/templates/jsp/images/orcid.png"}' alt="ORCID Icon" title="ORCID Icon" /></a></span>, </span><span class="contribDegrees MTN"><a class="entryAuthor" href="/author/Morgan%2C+Ed">Ed Morgan<span class="overlay"> Plant &amp; Food Research, Palmerston North, New Zealand<span class="orcid-author" data="https://orcid.org/0000-0002-5353-2639"><img src="//:0" data-src='{"type":"image","src":"/templates/jsp/images/orcid.png"}' alt="ORCID Icon" title="ORCID Icon" />https://orcid.org/0000-0002-5353-2639</span><div class="author-extra-info" tabindex="0" data-authorsInfo="{&quot;id&quot; : &quot;Funding&quot;, &quot;hasFull&quot; : &quot;true&quot;}">View further author information</div></span></a><span class="orcid-icon orcid-margin"><a href="https://orcid.org/0000-0002-5353-2639" target="_blank"><img src="//:0" data-src='{"type":"image","src":"/templates/jsp/images/orcid.png"}' alt="ORCID Icon" title="ORCID Icon" /></a></span>, </span><span class="contribDegrees MTN"><a class="entryAuthor" href="/author/Perry%2C+Nigel+B">Nigel B. Perry<span class="overlay"> Plant &amp; Food Research, Department of Chemistry, University of Otago, Dunedin, New Zealand<span class="orcid-author" data="https://orcid.org/0000-0003-3196-3945"><img src="//:0" data-src='{"type":"image","src":"/templates/jsp/images/orcid.png"}' alt="ORCID Icon" title="ORCID Icon" />https://orcid.org/0000-0003-3196-3945</span><div class="author-extra-info" tabindex="0" data-authorsInfo="{&quot;id&quot; : &quot;Funding&quot;, &quot;hasFull&quot; : &quot;true&quot;}">View further author information</div></span></a><span class="orcid-icon orcid-margin"><a href="https://orcid.org/0000-0003-3196-3945" target="_blank"><img src="//:0" data-src='{"type":"image","src":"/templates/jsp/images/orcid.png"}' alt="ORCID Icon" title="ORCID Icon" /></a></span>, </span><span class="contribDegrees MTN"><a class="entryAuthor" href="/author/Lewis%2C+David+H">David H. Lewis<span class="overlay"> Plant &amp; Food Research, Palmerston North, New Zealand<span class="orcid-author" data="https://orcid.org/0000-0003-4912-1674"><img src="//:0" data-src='{"type":"image","src":"/templates/jsp/images/orcid.png"}' alt="ORCID Icon" title="ORCID Icon" />https://orcid.org/0000-0003-4912-1674</span><div class="author-extra-info" tabindex="0" data-authorsInfo="{&quot;id&quot; : &quot;Funding&quot;, &quot;hasFull&quot; : &quot;true&quot;}">View further author information</div></span></a><span class="orcid-icon orcid-margin"><a href="https://orcid.org/0000-0003-4912-1674" target="_blank"><img src="//:0" data-src='{"type":"image","src":"/templates/jsp/images/orcid.png"}' alt="ORCID Icon" title="ORCID Icon" /></a></span>, </span><span class="contribDegrees MTN"><a class="entryAuthor" href="/author/Crowhurst%2C+Ross">Ross Crowhurst<span class="overlay"> The New Zealand Institute for Plant and Food Research Limited (Plant &amp; Food Research), Auckland, New Zealand<span class="orcid-author" data="https://orcid.org/0000-0003-0608-2134"><img src="//:0" data-src='{"type":"image","src":"/templates/jsp/images/orcid.png"}' alt="ORCID Icon" title="ORCID Icon" />https://orcid.org/0000-0003-0608-2134</span><div class="author-extra-info" tabindex="0" data-authorsInfo="{&quot;id&quot; : &quot;Funding&quot;, &quot;hasFull&quot; : &quot;true&quot;}">View further author information</div></span></a><span class="orcid-icon orcid-margin"><a href="https://orcid.org/0000-0003-0608-2134" target="_blank"><img src="//:0" data-src='{"type":"image","src":"/templates/jsp/images/orcid.png"}' alt="ORCID Icon" title="ORCID Icon" /></a></span>, </span><span class="contribDegrees MTN"><a class="entryAuthor" href="/author/Davies%2C+Kevin+M">Kevin M. Davies<span class="overlay"> Plant &amp; Food Research, Palmerston North, New Zealand<span class="orcid-author" data="https://orcid.org/0000-0001-5652-5015"><img src="//:0" data-src='{"type":"image","src":"/templates/jsp/images/orcid.png"}' alt="ORCID Icon" title="ORCID Icon" />https://orcid.org/0000-0001-5652-5015</span><div class="author-extra-info" tabindex="0" data-authorsInfo="{&quot;id&quot; : &quot;Funding&quot;, &quot;hasFull&quot; : &quot;true&quot;}">View further author information</div></span></a><span class="orcid-icon orcid-margin"><a href="https://orcid.org/0000-0001-5652-5015" target="_blank"><img src="//:0" data-src='{"type":"image","src":"/templates/jsp/images/orcid.png"}' alt="ORCID Icon" title="ORCID Icon" /></a></span>, </span><span class="contribDegrees MTN"><a class="entryAuthor" href="/author/Chagn%C3%A9%2C+David">David Chagné<span class="overlay"> Plant &amp; Food Research, Palmerston North, New Zealand<span class="orcid-author" data="https://orcid.org/0000-0003-4018-0694"><img src="//:0" data-src='{"type":"image","src":"/templates/jsp/images/orcid.png"}' alt="ORCID Icon" title="ORCID Icon" />https://orcid.org/0000-0003-4018-0694</span><div class="author-extra-info" tabindex="0" data-authorsInfo="{&quot;id&quot; : &quot;Funding&quot;, &quot;hasFull&quot; : &quot;true&quot;}">View further author information</div></span></a><span class="orcid-icon orcid-margin"><a href="https://orcid.org/0000-0003-4018-0694" target="_blank"><img src="//:0" data-src='{"type":"image","src":"/templates/jsp/images/orcid.png"}' alt="ORCID Icon" title="ORCID Icon" /></a></span> &amp; </span><span class="contribDegrees corresponding MTN"><a class="entryAuthor" href="/author/Schwinn%2C+Kathy+E">Kathy E. Schwinn<span class="overlay"> Plant &amp; Food Research, Palmerston North, New Zealand<span class="corr-sec"><span class="heading">Correspondence</span><span class="corr-email"><i class="fa fa-envelope" style="color: #10147E; padding-right: 7px" aria-hidden="true"></i><span data-mailto="mailto:kathy.schwinn@plantandfood.co.nz">kathy.schwinn@plantandfood.co.nz</span></span><br /></span><span class="orcid-author" data="https://orcid.org/0000-0002-6337-3627"><img src="//:0" data-src='{"type":"image","src":"/templates/jsp/images/orcid.png"}' alt="ORCID Icon" title="ORCID Icon" />https://orcid.org/0000-0002-6337-3627</span><div class="author-extra-info" tabindex="0" data-authorsInfo="{&quot;id&quot; : &quot;Funding&quot;, &quot;hasFull&quot; : &quot;true&quot;}">View further author information</div></span></a><span class="orcid-icon orcid-margin"><a href="https://orcid.org/0000-0002-6337-3627" target="_blank"><img src="//:0" data-src='{"type":"image","src":"/templates/jsp/images/orcid.png"}' alt="ORCID Icon" title="ORCID Icon" /></a></span></span><a class="show-all-link" href="#"> show all</a></span></div></div></div></div>
+</div>
+</div>
+<div class="widget layout-inline-content none  widget-none  widget-compact-all" id="87ac5840-18fa-4a14-8eca-065b90ede3d7">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="inline-dropzone" data-pb-dropzone="content">
+<div class="widget literatumContentItemPageRange none  widget-none  widget-compact-all" id="45057865-d60c-414c-bc81-646debb621b0">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><span class="contentItemPageRange">Pages 233-260
+</span></div>
+</div>
+</div>
+<div class="widget literatumContentItemHistory none  widget-none  widget-compact-all" id="32bf868e-52ce-411a-9dc3-717743aad997">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div>Received 24 May 2019</div><div>Accepted 15 Aug 2019</div><div>Published online: 25 Nov 2019</div></div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+
+<div class="widget literatumArticleToolsWidget none  widget-none  widget-compact-all" id="ed673666-7b5d-470e-bd33-c5c679d996cb">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="articleTools">
+<ul class="linkList">
+<li class="downloadCitations">
+<a href="/action/showCitFormats?doi=10.1080%2F01140671.2019.1657911"><i class="fa fa-quote-left" aria-hidden="true"></i>Download citation</a>
+</li>
+<li class="dx-doi">
+<a href="https://doi.org/10.1080/01140671.2019.1657911"><i class="fa fa-external-link-square" style="margin: 0 0.25rem 0 0" aria-hidden="true"></i>https://doi.org/10.1080/01140671.2019.1657911</a>
+</li>
+<script src="/wro/jq0u~crossmark.js" async></script>
+<li class="cross_mark">
+<a class="cross_mark--link" data-doi="10.1080/01140671.2019.1657911" data-target="crossmark" href="#">
+<img data-src='{"type":"image" , "src":"/templates/jsp/images/CROSSMARK_Color_horizontal.svg"}' src="//:0" alt="CrossMark Logo" width="100" />
+<span aria-describedby="crossMark-description"><span class="off-screen" id="crossMark-description">CrossMark</span></span>
+</a>
+</li>
+</ul>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-1-6 ">
+<div class="contents" data-pb-dropzone="contents2">
+<div class="widget literatumDisplayingAccessLogo none  widget-none  widget-compact-all" id="6aacf107-e82d-494d-a14c-0c00bba52560">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="accessLogo">
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+
+<div class="widget responsive-layout none publicationContentBody widget-none" id="63f402e4-3498-4709-8d7d-ee8e69f93467">
+<div class="wrapped ">
+<div class="widget-body body body-none "><div class="container">
+<div class="row row-md  ">
+<div class="col-md-1-6 ">
+<div class="contents" data-pb-dropzone="contents0">
+<div class="widget general-html none fit margin _2rem hidden-xs_sm widget-none" id="6ef0a120-c929-4472-a62c-2b12708dbc4a">
+<div class="wrapped ">
+<div class="widget-body body body-none ">&nbsp;</div>
+</div>
+</div>
+<div class="widget literatumAd none  widget-none  widget-compact-all" id="c107b99d-a3fe-42ab-b689-124d0e495859">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="pb-ad">
+<div id="google_translate_element"></div>
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-3062505-5'}, 'google_translate_element');
+}
+</script>
+<script async="" defer="" type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<a href="/action/clickThrough?id=3310&amp;url=%2Fpage%2Fterms-and-conditions%23googletranslate&amp;loc=%2Fdoi%2Ffull%2F10.1080%2F01140671.2019.1657911&amp;pubId=53389185&amp;placeholderId=1084&amp;productId=2797">Translator&nbsp;disclaimer</a>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-7-12 ">
+<div class="contents" data-pb-dropzone="contents1">
+<div class="widget newEcommAccessDenialWidget none accessDenialWidget widget-none  widget-compact-all" id="2cdec875-dbbb-46d0-95c1-98f16018f042">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    MathJax.Hub.Config({
+        "HTML-CSS": {scale: 70, linebreaks: {automatic: true, width: "container"}},
+        SVG: {linebreaks: {automatic: true, width: "25%"}},
+        menuSettings: {zoom: "Click"},
+
+        /* This is necessary to lazy loading. */
+        skipStartupTypeset: true
+    });
+</script>
+<script type="application/javascript" async src="/wro/jq0u~mathjax.js"></script>
+<div class="ecommAbs ja">
+<div class="tabs tabs-widget">
+<ul class="tab-nav" role="tablist">
+<li class="active" role="tab">
+<a href="/doi/full/10.1080/01140671.2019.1657911?scroll=top&amp;needAccess=true" class="show-full">
+<i class="fa fa-file-text" aria-hidden="true"></i>
+<span class="nav-data">
+Full Article
+</span>
+</a>
+</li>
+<li role="tab">
+<a href="/doi/figure/10.1080/01140671.2019.1657911?scroll=top&amp;needAccess=true" class="show-figure">
+<i class="fa fa-image" aria-hidden="true"></i>
+<span class="nav-data">Figures & data</span>
+</a>
+</li>
+<li role="tab">
+<a href="/doi/ref/10.1080/01140671.2019.1657911?scroll=top" class="show-references">
+<i class="fa fa-book" aria-hidden="true"></i>
+<span class="nav-data">References</span>
+</a>
+</li>
+<li class="" role="tab">
+<a href="/doi/suppl/10.1080/01140671.2019.1657911?scroll=top" class="show-supplement">
+<i class="fa fa-plus-square" aria-hidden="true"></i>
+<span class="nav-data">
+Supplemental
+</span>
+</a>
+</li>
+<li class="citedbyTab " role="tab">
+<a href="/doi/citedby/10.1080/01140671.2019.1657911?scroll=top&amp;needAccess=true">
+<i class="fa fa-quote-left" aria-hidden="true"></i>
+<span class="nav-data">
+Citations
+</span>
+</a>
+</li>
+<li class="off-screen"></li>
+<li role="tab" class="metrics-tab">
+<a href="#metrics-content" class="show-metrics">
+<i class="fa fa-bar-chart" aria-hidden="true"></i>
+<span class="nav-data">Metrics</span>
+</a>
+</li>
+<li role="tab" class="permissions-tab ">
+<a href="/doi/abs/10.1080/01140671.2019.1657911?tab=permissions&amp;scroll=top" class="show-permissions">
+<i class="fa fa-print" aria-hidden="true"></i>
+<span class="nav-data">
+Reprints & Permissions</span></a>
+</li>
+<li role="tab">
+<a class="grant-access" href="">Get access
+<span class="redirect-uri hide">/doi/full/10.1080/01140671.2019.1657911?needAccess=true</span>
+</a>
+</li>
+</ul>
+<div class="tab-content ">
+<a id="top-content-scroll"></a>
+<div class="tab tab-pane active">
+<article class="article">
+<div class="hlFld-Abstract test"><a name="abstract"></a><div class="sectionInfo abstractSectionHeading"><div class="sectionHeading">ABSTRACT</div></div><div class="abstractSection abstractInFull"><p class="summary-title"><b>ABSTRACT</b></p><p>We assembled the genome of <i>Leptospermum scoparium</i> ‘Crimson Glory’ using a combination of Illumina paired-end sequencing, high-throughput chromosome conformation capture (Hi-C) and high density genetic mapping. As ‘Crimson Glory’ is a variety of mānuka, this is the first genome assembly for a plant species culturally recognised as a treasure (taonga) by the indigenous Māori of Aotearoa New Zealand. The mānuka genome spans a total of 297 Mbp organised in 11 pseudo-chromosomes that are syntenic with the <i>Eucalyptus</i> genome. A large proportion of the genome assembly corresponds to fungal and bacterial sequences, indicating the presence of an associated microbiome. A total of 31,220 protein-coding gene models were detected throughout the genome, including genes involved in biosynthesis of biologically active phenylpropanoids, triketones and terpenes, as well as genes involved in biotic resistance. The mānuka genome sequence will help shed new light on the genetic control of unique characters such as nectar and foliage biochemical composition, flowering time and disease resistance.</p></div></div><div class="abstractKeywords"><div class="hlFld-KeywordText"><div><p class="kwd-title" aria-label="Keywords">KEYWORDS: </p><a href="/keyword/Hi-c" class="kwd-btn keyword-click" role="button">Hi-C</a><a href="/keyword/Metagenome" class="kwd-btn keyword-click" role="button">metagenome</a><a href="/keyword/Terpene" class="kwd-btn keyword-click" role="button">terpene</a><a href="/keyword/Polyketide" class="kwd-btn keyword-click" role="button">polyketide</a><a href="/keyword/Triketone" class="kwd-btn keyword-click" role="button">triketone</a><a href="/keyword/Leptospermum+Scoparium" class="kwd-btn keyword-click" role="button"><i>Leptospermum scoparium</i></a><a href="/keyword/Eucalyptus" class="kwd-btn keyword-click" role="button"><i>Eucalyptus</i></a><a href="/keyword/Myrtaceae" class="kwd-btn keyword-click" role="button">Myrtaceae</a><a href="/keyword/Tea+Tree" class="kwd-btn keyword-click" role="button">tea tree</a></div></div></div><div class="pb-dropzone no-border-top" data-pb-dropzone="contentNavigationDropZoneAbs"></div><div id="infos-holder"><div id="ack" class="NLM_sec"><h3 class="section-heading-3" id="_i53">Acknowledgements</h3><p>We would like to thank everyone involved with the mānuka genome project and who have contributed various forms of discussions. A special thank-you to Susan Thomson (PFR) and Isabel Moller (PFR) for reviewing our manuscript, Minna Pesonen (PFR) for helping with the graphics, Claire Hall (PFR) for legal advice, Julie Ryan and Ian King for taking care of the plants and Ben Te Aika from Genomics Aotearoa, Maui Hudson (University of Waikato), Stacey Whitiora (PFR) and Alby Marsh (PFR) for helping with Māori engagement.</p></div><div id="coi-statement" class="NLM_sec"><div id="S007" class="NLM_sec NLM_sec_level_1"><h2 id="_i54" class="section-heading-2">Disclosure statement</h2><p>Permission from stakeholders representing the indigenous appropriate Māori iwi was obtained for using the plant material used for this study. Further studies using this material will require consent from the Māori iwi. IL and STS are employees and shareholders of Phase Genomics Inc, a company commercialising proximity-ligation technology. The remaining authors declare that they have no conflict of interests.</p></div></div><div id="S009" class="NLM_sec NLM_sec_level_1"><h2 id="_i55" class="section-heading-2">ORCID</h2><p><i>Amali H. Thrimawithana</i> <a class="ext-link" href="http://orcid.org/0000-0001-6325-2334" target="_blank">http://orcid.org/0000-0001-6325-2334</a></p><p><i>Dan Jones</i> <a class="ext-link" href="http://orcid.org/0000-0002-2223-8672" target="_blank">http://orcid.org/0000-0002-2223-8672</a></p><p><i>Elena Hilario</i> <a class="ext-link" href="http://orcid.org/0000-0001-8124-8881" target="_blank">http://orcid.org/0000-0001-8124-8881</a></p><p><i>Ella Grierson</i> <a class="ext-link" href="http://orcid.org/0000-0003-2865-6506" target="_blank">http://orcid.org/0000-0003-2865-6506</a></p><p><i>Ivan Liachko</i> <a class="ext-link" href="http://orcid.org/0000-0001-6972-6705" target="_blank">http://orcid.org/0000-0001-6972-6705</a></p><p><i>Shawn Sullivan</i> <a class="ext-link" href="http://orcid.org/0000-0001-9757-8842" target="_blank">http://orcid.org/0000-0001-9757-8842</a></p><p><i>Timothy P. Bilton</i> <a class="ext-link" href="http://orcid.org/0000-0001-5945-3766" target="_blank">http://orcid.org/0000-0001-5945-3766</a></p><p><i>Jeanne M. E. Jacobs</i> <a class="ext-link" href="http://orcid.org/0000-0002-1047-1039" target="_blank">http://orcid.org/0000-0002-1047-1039</a></p><p><i>Ross Bicknell</i> <a class="ext-link" href="http://orcid.org/0000-0001-5429-3142" target="_blank">http://orcid.org/0000-0001-5429-3142</a></p><p><i>Charles David</i> <a class="ext-link" href="http://orcid.org/0000-0003-1206-3028" target="_blank">http://orcid.org/0000-0003-1206-3028</a></p><p><i>Cecilia Deng</i> <a class="ext-link" href="http://orcid.org/0000-0002-2954-762X" target="_blank">http://orcid.org/0000-0002-2954-762X</a></p><p><i>Niels Nieuwenhuizen</i> <a class="ext-link" href="http://orcid.org/0000-0003-2514-7570" target="_blank">http://orcid.org/0000-0003-2514-7570</a></p><p><i>Elena Lopez-Girona</i> <a class="ext-link" href="http://orcid.org/0000-0003-0376-6135" target="_blank">http://orcid.org/0000-0003-0376-6135</a></p><p><i>Peri A. Tobias</i> <a class="ext-link" href="http://orcid.org/0000-0002-5645-0161" target="_blank">http://orcid.org/0000-0002-5645-0161</a></p><p><i>Ed Morgan</i> <a class="ext-link" href="http://orcid.org/0000-0002-5353-2639" target="_blank">http://orcid.org/0000-0002-5353-2639</a></p><p><i>Nigel B. Perry</i> <a class="ext-link" href="http://orcid.org/0000-0003-3196-3945" target="_blank">http://orcid.org/0000-0003-3196-3945</a></p><p><i>David H. Lewis</i> <a class="ext-link" href="http://orcid.org/0000-0003-4912-1674" target="_blank">http://orcid.org/0000-0003-4912-1674</a></p><p><i>Ross Crowhurst</i> <a class="ext-link" href="http://orcid.org/0000-0003-0608-2134" target="_blank">http://orcid.org/0000-0003-0608-2134</a></p><p><i>Kevin M. Davies</i> <a class="ext-link" href="http://orcid.org/0000-0001-5652-5015" target="_blank">http://orcid.org/0000-0001-5652-5015</a></p><p><i>David Chagné</i> <a class="ext-link" href="http://orcid.org/0000-0003-4018-0694" target="_blank">http://orcid.org/0000-0003-4018-0694</a></p><p><i>Kathy E. Schwinn</i> <a class="ext-link" href="http://orcid.org/0000-0002-6337-3627" target="_blank">http://orcid.org/0000-0002-6337-3627</a></p></div><div id="S008" class="NLM_sec NLM_sec-type_data-availability NLM_sec_level_1"><h2 id="_i56" class="section-heading-2">Data availability statement</h2><p>The genome assembly is available at <a class="ext-link" href="https://www.genomics-aotearoa.org.nz/data" target="_blank">https://www.genomics-aotearoa.org.nz/data</a>.</p><p>The workflows are available at <a class="ext-link" href="https://github.com/PlantandFoodResearch/manuka-genome-ms-workflows" target="_blank">https://github.com/PlantandFoodResearch/manuka-genome-ms-workflows</a>.</p></div><div class="author-infos" id="author-infos"><h2>Additional information</h2><div id="Funding" class="NLM_sec"><h3 class="section-heading-3">Funding</h3><div class="funding-statement">This work was funded by The New Zealand Institute for Plant &amp; Food Research Limited’s Discovery Science project <i>A foundation for transformational change in mānuka based industries</i>. The mānuka GBS data generation and analyses was funded through the programme ‘Genomics for Production &amp; Security in a Biological Economy’ funded by the Ministry of Business, Innovation &amp; Employment, New Zealand.</div></div></div></div><div class="response"><div class="sub-article-title"></div></div>
+</article>
+</div>
+<div class="tab tab-pane" id="relatedContent">
+</div>
+<div class="tab tab-pane " id="metrics-content">
+<div class="articleMetaDrop publicationContentDropZone publicationContentDropZoneMetrics" data-pb-dropzone="publicationContentDropZoneMetrics">
+<div class="widget literatumArticleMetricsWidget none  widget-none" id="c61a4b55-bed4-4afd-9410-d7cb031dc52c">
+<div class="wrapped ">
+<div class="widget-body body body-none "><div class="ajaxWidget" data-ajax-widget="literatumArticleMetricsWidget" data-ajax-widget-id="c61a4b55-bed4-4afd-9410-d7cb031dc52c" data-ajax-spin="true" data-ajax-observe="true">
+</div></div>
+</div>
+</div>
+</div>
+</div>
+<div class="access__limit" data-pb-dropzone="accessLimitPage">
+</div>
+</div>
+</div>
+</div>
+<div class="pb-dropzone" data-pb-dropzone="contentNavigationDropZoneDenial">
+<div class="widget gql-content-navigation none  widget-none" id="114eeb58-fc18-4755-bc2b-736d220382ed">
+<div class="wrapped ">
+<div class="widget-body body body-none "><div class="ajaxWidget" data-ajax-widget="gql-content-navigation" data-ajax-widget-id="114eeb58-fc18-4755-bc2b-736d220382ed" data-ajax-spin="true" data-ajax-observe="true">
+</div></div>
+</div>
+</div>
+</div>
+<div id="accessDenialWidget">
+<div class="left-col">
+<h3 class="label">Log in via your institution</h3>
+<div class="seamlessAccess_wrapper">
+<div class="seamlessAccessDenial seamless-link">
+<div class="seamless-access-loading" style="text-align: center; color: #bdbdbd;">
+<span>Loading institutional login options...</span>
+<div><i class="fa fa-spinner fa-spin" style="font-size:30px; margin-top: 5px;" aria-hidden='true'>
+</i>
+</div>
+</div>
+</div>
+</div>
+<div class="sso-links hidden">
+<a href="/action/ssostart?federationSelect=All&amp;redirectUri=%2Fdoi%2Ffull%2F10.1080%2F01140671.2019.1657911">Shibboleth</a>
+<a href="/action/ssostart?idp=https%3A%2F%2Fidp.eduserv.org.uk%2Fopenathens&amp;redirectUri=%2Fdoi%2Ffull%2F10.1080%2F01140671.2019.1657911">OpenAthens</a>
+</div>
+<h3 class="label">Log in to Taylor & Francis Online</h3>
+<div class="login-link">
+<a>
+Log in
+</a>
+</div>
+<div class="login-form">
+<div class="login">
+<div>
+</div>
+<div class="options-links">
+<div id="openAthensSignIn">
+<a href="/action/ssostart?idp=https%3A%2F%2Fidp.eduserv.org.uk%2Fopenathens&amp;redirectUri=https%3A%2F%2Fwww.tandfonline.com%2Fdoi%2Ffull%2F10.1080%2F01140671.2019.1657911">
+OpenAthens
+</a>
+</div>
+<span id="institutionLogin">
+<a href="/action/ssostart?redirectUri=%2Fdoi%2Ffull%2F10.1080%2F01140671.2019.1657911">
+Shibboleth
+</a>
+</span>
+<div class="deepDyve">
+</div>
+</div>
+<h3>Log in to Taylor & Francis Online</h3>
+<div class="loginForm">
+<h4 class="accessDenialLoginHeader"></h4>
+<p class="note"></p>
+<form action="/action/doLogin" name="frmLogin" class="note denialLogin" method="post"><input type="hidden" name="loginUri" value="/doi/full/10.1080/01140671.2019.1657911" />
+<input type="hidden" name="redirectUri" value="/doi/full/10.1080/01140671.2019.1657911" />
+<label for="login">
+<span class="off-screen">Username</span>
+<input id="login" class="textInput" type="text" name="login" value="" size="15" placeholder="Enter your email" />
+</label>
+<label for="password">
+<span class="off-screen">Password</span>
+<input id="password" class="textInput" type="password" name="password" value="" autocomplete="off" placeholder="Enter your password" />
+</label>
+<div class="passwordReminder">
+<a href="/action/requestResetPassword?redirectUri=%2Fdoi%2Ffull%2F10.1080%2F01140671.2019.1657911">Forgot password?</a>
+</div>
+<label for="savePassword" class="save-password">
+<input id="savePassword" type="checkbox" name="savePassword" value="1" />
+<span>Remember Me</span>
+</label>
+<a href="#" class="submit-login">Log in</a>
+<noscript>
+    <style>.submit-login { display: none; }</style>
+    <input class="ecommLoginSigninButton" type="submit" name="submit" value="Log in" />
+</noscript></form>
+</div>
+<div class="options-links">
+</div>
+</div>
+</div>
+<div class="restoreAccess">
+<h3 class="label">Restore content access</h3>
+<a href="/action/showRestoreContentAccess">
+Restore content access for purchases made as guest
+</a>
+</div>
+</div>
+<div class="right-col">
+<div class="accessDenialDropZone" data-pb-dropzone="accessDenialDropZone">
+<div class="widget eCommercePurchaseAccessWidget none  widget-none" id="5794f259-355d-49be-b48a-b0d272c05530">
+<div class="wrapped ">
+<div class="widget-body body body-none "><div class="eCommercePurchaseAccessWidgetContainer ">
+<a data-bind="expandSection" class="purchaseAreaList_expand" href="#purchasePanel" id="purchaseLink">Purchase <abbr title='Local tax will be added as applicable'>*</abbr></a>
+<a data-bind="saveItem" data-doi="10.1080/01140671.2019.1657911" class="save-for-later-link" href="/action/saveItem?doi=10.1080/01140671.2019.1657911">
+Save for later
+</a>
+<a class="saved-go-cart hidden" href="/action/showCart"><span class="icon-cart-icon-material"></span>
+Item saved, go to cart </a>
+<div class="purchaseAreaList_expanded" id="#purchasePanel">
+<div class="purchase-options-container">
+<div class="savedItem-info hidden">
+<p></p>
+</div>
+<div class="add-journal-to-cart">
+<header class="delivery_format">
+<span class="add-article-to-cart__title title">
+Online
+</span>
+</header>
+<div class="journal-options-expanded">
+<div class="tabs tabs-widget">
+<div class="tab-content">
+<div class="tab-pane active" id="section-05fc429a-79c6-4f3d-a3fb-23b40b1c6437">
+<div class="tab-pane-content">
+<div class="purchase-items">
+<div class="purchaseMessage hidden" data-item="S&TAP_N_2014-S&T ARTICLE PURCHASE ROW 2021-ELECTRONIC-USD-10.1080/01140671.2019.1657911-548485">
+<p></p>
+</div>
+<header>
+<p class="offer-lst">
+<span class="titles">Article Purchase</span>
+<span class="offer-price">
+48 hours to view or download:
+USD 53.00
+</span>
+<a data-bind="addItem" data-key="S&TAP_N_2014-S&T ARTICLE PURCHASE ROW 2021-ELECTRONIC-USD-10.1080/01140671.2019.1657911-548485" data-entity="S&TAP_N_2014-S&T ARTICLE PURCHASE ROW 2021-ELECTRONIC-USD-10.1080/01140671.2019.1657911-548485" class="purchase-item add-article-to-cart" href="/action/addToCart?id=S&TAP_N_2014-S&T ARTICLE PURCHASE ROW 2021-ELECTRONIC-USD-10.1080/01140671.2019.1657911-548485">
+<span class="add-to-cart-msg">
+<span class="icon-cart-icon-material"></span>Add to cart
+</span>
+</a>
+</p>
+<div class="purchaseMessage hidden info" data-item="S&TAP_N_2014-S&T ARTICLE PURCHASE ROW 2021-ELECTRONIC-USD-10.1080/01140671.2019.1657911-548485">
+<p></p>
+</div>
+</header>
+<div class="addedMessage hidden" data-item="S&TAP_N_2014-S&T ARTICLE PURCHASE ROW 2021-ELECTRONIC-USD-10.1080/01140671.2019.1657911-548485">
+<span class="article-title">
+<span class="article-title-content">
+<span class="icon-check_circle"></span>
+<span class="text">
+Article Purchase - Online
+</span>
+</span>
+<a href="/action/showCart?FlowID=2" class="show-cart-link">
+<span class="text">
+Checkout
+</span>
+</a>
+</span>
+</div>
+</div>
+<div class="purchase-items">
+<div class="purchaseMessage hidden" data-item="TNZCPF_ISS_2021-TNZCPF_ISS_2021_ZF-ELECTRONIC-USD-10.1080/01140671.2019.1657911-546005">
+<p></p>
+</div>
+<header>
+<p class="offer-lst">
+<span class="titles">Issue Purchase</span>
+<span class="offer-price">
+30 days to view or download:
+USD 192.00
+</span>
+<a data-bind="addItem" data-key="TNZCPF_ISS_2021-TNZCPF_ISS_2021_ZF-ELECTRONIC-USD-10.1080/01140671.2019.1657911-546005" data-entity="TNZCPF_ISS_2021-TNZCPF_ISS_2021_ZF-ELECTRONIC-USD-10.1080/01140671.2019.1657911-546005" class="purchase-item add-article-to-cart" href="/action/addToCart?id=TNZCPF_ISS_2021-TNZCPF_ISS_2021_ZF-ELECTRONIC-USD-10.1080/01140671.2019.1657911-546005">
+<span class="add-to-cart-msg">
+<span class="icon-cart-icon-material"></span>Add to cart
+</span>
+</a>
+</p>
+<div class="purchaseMessage hidden info" data-item="TNZCPF_ISS_2021-TNZCPF_ISS_2021_ZF-ELECTRONIC-USD-10.1080/01140671.2019.1657911-546005">
+<p></p>
+</div>
+</header>
+<div class="addedMessage hidden" data-item="TNZCPF_ISS_2021-TNZCPF_ISS_2021_ZF-ELECTRONIC-USD-10.1080/01140671.2019.1657911-546005">
+<span class="article-title">
+<span class="article-title-content">
+<span class="icon-check_circle"></span>
+<span class="text">
+Issue Purchase - Online
+</span>
+</span>
+<a href="/action/showCart?FlowID=2" class="show-cart-link">
+<span class="text">
+Checkout
+</span>
+</a>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="tax-note"><abbr title='Local tax will be added as applicable'>*</abbr> Local tax will be added as applicable</div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-1-4 ">
+<div class="contents" data-pb-dropzone="contents2">
+<div class="widget general-bookmark-share none  widget-none  widget-compact-all" id="c8494935-e102-4ff5-9395-4ffa44a77f1c">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all">
+<ul>
+<li>
+<div class="addthis_toolbox addthis_20x20_style">
+<div class="custom_images">
+<a class="addthis_button_twitter">
+<span class="at-icon-twitter"></span>
+</a>
+<a class="addthis_button_facebook">
+<span class="at-icon-facebook"></span>
+</a>
+<a class="addthis_button_email">
+<span class="at-icon-email"></span>
+</a>
+<a class="addthis_button_none">
+<span class="at-icon-none"></span>
+</a>
+<a class="addthis_button_compact"><span class="at-icon-wrapper"></span>
+<span aria-describedby="shareOptions-description">
+<span class="off-screen" id="shareOptions-description">More Share Options</span>
+</span>
+</a>
+</div>
+</div>
+</li>
+</ul>
+<script type="text/javascript">
+    
+    var script = document.createElement('script');
+    script.type='text/javascript';
+    script.src='//s7.addthis.com/js/250/addthis_widget.js#pubid=xa-4faab26f2cff13a7';
+    script.async = true;
+    $('head').append(script)
+</script>
+</div>
+</div>
+</div>
+<div class="widget general-html none  widget-none" id="0ee28e27-37c2-4007-971a-7797f612a329">
+<div class="wrapped ">
+<div class="widget-body body body-none ">&nbsp;</div>
+</div>
+</div>
+<div class="widget literatumAd alignCenter  widget-none  widget-compact-all" id="0add5ac0-7b3b-437c-acaf-6959ded47aa2">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="pb-ad">
+<a href="/action/clickThrough?id=5934&amp;url=%2Fr%2Fsubjectsample-enviroagriculture&amp;loc=%2Fdoi%2Ffull%2F10.1080%2F01140671.2019.1657911&amp;pubId=53389185&amp;placeholderId=1074&amp;productId=1834"><img src="//:0" width="200" height="85" alt="Sample our Environment &amp; Agriculture journals, sign in here to start your access, latest two full volumes FREE to you for 14 days" data-src="{&quot;type&quot;:&quot;image&quot; , &quot;src&quot; : &quot;/sda/5934/JournalAd-Sample-Our-Journals-Environment-Agriculture-PB.gif&quot;}" /> </a>
+</div></div>
+</div>
+</div>
+<div class="widget literatumAd alignCenter  widget-none  widget-compact-all" id="afefea38-c034-44c6-a7f4-1d9e91164bda">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="pb-ad">
+<a href="/action/clickThrough?id=110304&amp;url=https%3A%2F%2Fauthorservices.taylorandfrancis.com%2Fpublishing-open-access%2Fopen-select%2F%3Futm_source%3Dbanner%26utm_medium%3Dbanner_ad%26utm_campaign%3DJPE14836&amp;loc=%2Fdoi%2Ffull%2F10.1080%2F01140671.2019.1657911&amp;pubId=53389185&amp;placeholderId=101373&amp;productId=2078"> <img src="//:0" width="200" height="185" alt="Your research. Your choice. How-to guide for authors." data-src="{&quot;type&quot;:&quot;image&quot; , &quot;src&quot; : &quot;/sda/110304/JournalAd-reach-more-readers-SW.gif&quot;}" /> </a>
+</div></div>
+</div>
+</div>
+<div class="widget literatumAd alignCenter  widget-none  widget-compact-all" id="422a2071-9eb6-4661-a7f5-f69688f0fff6">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="pb-ad">
+<a href="/action/clickThrough?id=110531&amp;url=https%3A%2F%2Fauthorservices.taylorandfrancis.com%2Fpublishing-your-research%2Fchoosing-a-journal%2Fjournal-suggester%2F&amp;loc=%2Fdoi%2Ffull%2F10.1080%2F01140671.2019.1657911&amp;pubId=53389185&amp;placeholderId=101374&amp;productId=2078"> <img src="//:0" width="200" height="185" alt="Banner ad for Taylor &amp; Francis journal suggester" data-src="{&quot;type&quot;:&quot;image&quot; , &quot;src&quot; : &quot;/sda/110531/JournalAd_Announce_Journal_Suggester_English.jpg&quot;}" /> </a>
+</div></div>
+</div>
+</div>
+<div class="widget layout-tabs none further-fonts collapsed-view further-tab-margin widget-none  widget-compact-vertical" id="2543de1e-a4b2-4753-a5c7-60ad3348142b">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-vertical"><div class="layout-tabs-dropzone" data-pb-dropzone="layoutTabsDropzone">
+<div class="widget general-html none furtherReadingTitle widget-none  widget-compact-all" id="0f986a3e-6465-4cf5-8dab-297405f81db8">
+<div class="wrapped ">
+<h2 class="widget-header header-none  header-compact-all">Further reading <span class="tooltip-collapse"></span></h2>
+<div class="widget-body body body-none  body-compact-all"><div class="info hide">
+<p><b>People also read</b> lists articles that other readers of this article have read.</p>
+<p><b>Recommended articles</b> lists articles that we recommend and is powered by our AI driven recommendation engine.</p>
+<p><b>Cited by</b> lists all citing articles based on Crossref citations.<br />Articles with the Crossref icon will open in a new tab.</p>
+</div></div>
+</div>
+</div>
+</div>
+<div class="tabs tabs-widget " aria-live="polite" aria-atomic="true" aria-relevant="additions">
+<ul class="tab-nav" role="tablist">
+<li class="active" role="tab">
+<a href="#2543de1e-a4b2-4753-a5c7-60ad3348142b-58132d06-cf2f-4e31-a696-f4f2aa0cdd9a" title="show People also read" class="">People also read</a>
+</li>
+<li class="" role="tab">
+<a href="#2543de1e-a4b2-4753-a5c7-60ad3348142b-b6de7b7c-de82-45a5-9538-313dd15c6659" title="show Recommended articles" class="">Recommended articles</a>
+</li>
+<li class="" role="tab">
+<a href="#2543de1e-a4b2-4753-a5c7-60ad3348142b-129eb601-372a-411c-826c-66fd3668dc36" title="show Cited by" class="frwidget-tabs--cby">Cited by</a>
+</li>
+</ul>
+<div class="tab-content">
+<div class="tab-pane active" id="2543de1e-a4b2-4753-a5c7-60ad3348142b-58132d06-cf2f-4e31-a696-f4f2aa0cdd9a">
+<div class="tab-pane-content" data-pb-dropzone="tab-58132d06-cf2f-4e31-a696-f4f2aa0cdd9a" data-pb-dropzone-name="People also read">
+<div class="widget ajaxCFCRWidget none  widget-none  widget-compact-all" id="d8a0480c-c66c-4000-89d1-46da8e566404">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="ajaxWidget" data-ajax-widget="ajaxCFCRWidget" data-ajax-widget-id="d8a0480c-c66c-4000-89d1-46da8e566404" data-ajax-spin="true" data-ajax-observe="true">
+</div></div>
+</div>
+</div>
+</div>
+</div>
+<div class="tab-pane " id="2543de1e-a4b2-4753-a5c7-60ad3348142b-b6de7b7c-de82-45a5-9538-313dd15c6659">
+<div class="tab-pane-content" data-pb-dropzone="tab-b6de7b7c-de82-45a5-9538-313dd15c6659" data-pb-dropzone-name="Recommended articles">
+<div class="widget ajaxAtmCRWidget none  widget-none  widget-compact-all" id="0dc4eb3b-fe7e-4fec-bc22-557620c8984e">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="ajaxWidget" data-ajax-widget="ajaxAtmCRWidget" data-ajax-widget-id="0dc4eb3b-fe7e-4fec-bc22-557620c8984e" data-ajax-spin="true" data-ajax-observe="true"></div></div>
+</div>
+</div>
+</div>
+</div>
+<div class="tab-pane " id="2543de1e-a4b2-4753-a5c7-60ad3348142b-129eb601-372a-411c-826c-66fd3668dc36">
+<div class="tab-pane-content" data-pb-dropzone="tab-129eb601-372a-411c-826c-66fd3668dc36" data-pb-dropzone-name="Cited by">
+<div class="widget ajaxCitedByWidget none  widget-none  widget-compact-all" id="c1fddef6-1b99-44ba-840e-adeb575f25c4">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="ajaxWidget" data-ajax-widget="ajaxCitedByWidget" data-ajax-widget-id="c1fddef6-1b99-44ba-840e-adeb575f25c4" data-ajax-spin="true" data-ajax-observe="true">
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+<div class="widget pageFooter none  widget-none  widget-compact-all" id="d97c173f-d838-4de1-bbd7-ed69f0d36a91">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><footer class="page-footer">
+<div data-pb-dropzone="main">
+<div class="widget responsive-layout none footer-subjects hidden-xs hidden-sm widget-none  widget-compact-all" id="1f15adc0-4a59-4d27-93fe-8cbb14a5108a">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="container">
+<div class="row row-md gutterless ">
+<div class="col-md-1-1 fit-padding">
+<div class="contents" data-pb-dropzone="contents0">
+<div class="widget pbOptimizerWidget none  widget-none  widget-compact-all" id="af788167-0054-4892-bd47-5de7cbd64256">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div data-optimizer data-widget-id="af788167-0054-4892-bd47-5de7cbd64256" id="widget-af788167-0054-4892-bd47-5de7cbd64256" data-observer>
+</div></div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+<div class="widget responsive-layout none footer-links widget-none  widget-compact-horizontal" id="64a44adf-45ed-4da3-be26-ef25beb9dbee">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-horizontal"><div class="container">
+<div class="row row-md  ">
+<div class="col-md-1-2 ">
+<div class="contents" data-pb-dropzone="contents0">
+<div class="widget responsive-layout none footer-responsive-container widget-none" id="6918e9df-910a-4206-9bd0-1a02bc17f740">
+<div class="wrapped ">
+<div class="widget-body body body-none "><div class="container-fluid">
+<div class="row row-sm  ">
+<div class="col-sm-1-2 footer_left_col">
+<div class="contents" data-pb-dropzone="contents0">
+<div class="widget general-html none  widget-none  widget-compact-all" id="aa9510dd-52ed-4b74-8211-fb510cd9468e">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="footer-info-list">
+<h3>Information for</h3>
+<ul>
+<li><a href="http://authorservices.taylorandfrancis.com/">Authors</a></li>
+<li><a href="http://editorresources.taylorandfrancisgroup.com/">Editors</a></li>
+<li><a href="/page/librarians">Librarians</a></li>
+<li><a href="/societies">Societies</a></li>
+</ul>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-1-2 footer_right_col">
+<div class="contents" data-pb-dropzone="contents1">
+<div class="widget general-html none  widget-none  widget-compact-all" id="ac8a1c0f-9427-44dd-96be-4f2a6ff4ffce">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="footer-info-list">
+<h3>Open access</h3>
+<ul>
+<li><a href="/openaccess">Overview</a></li>
+<li><a href="/openaccess/openjournals">Open journals</a></li>
+<li><a href="/openaccess/openselect">Open Select</a></li>
+<li><a href="/openaccess/cogentoa">Cogent OA</a></li>
+<li><a href="/openaccess/dove">Dove Medical Press</a></li>
+<li><a href="/openaccess/f1000">F1000Research</a></li>
+</ul>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-1-2 ">
+<div class="contents" data-pb-dropzone="contents1">
+<div class="widget responsive-layout none footer-responsive-container widget-none" id="fc564559-f496-499c-87c7-d851f371f061">
+<div class="wrapped ">
+<div class="widget-body body body-none "><div class="container-fluid">
+<div class="row row-sm  ">
+<div class="col-sm-1-2 footer_left_col">
+<div class="contents" data-pb-dropzone="contents0">
+<div class="widget general-html none  widget-none  widget-compact-all" id="f3fb3d36-db42-4373-9d0e-432958bf2fbc">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="footer-info-list">
+<h3>Help and info</h3>
+<ul>
+<li><a href="https://help.tandfonline.com">Help & contact</a></li>
+<li><a href="https://newsroom.taylorandfrancisgroup.com/">Newsroom</a></li>
+<li><a href="https://taylorandfrancis.com/partnership/commercial/">Commercial services</a></li>
+<li><a href="https://taylorandfrancis.com/partnership/commercial/advertising-solutions/" class="footer-ad-click">Advertising information</a></li>
+<li><a href="/action/showPublications?pubType=journal">All journals</a></li>
+<li><a href="https://www.routledge.com/?utm_source=website&amp;utm_medium=banner&amp;utm_campaign=B004808_em1_10p_5ec_d713_footeradspot">Books</a></li>
+</ul>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-1-2 footer_right_col">
+<div class="contents" data-pb-dropzone="contents1">
+<div class="widget general-html none  widget-none  widget-compact-all" id="914433f6-0ea6-4a47-9781-07564061be86">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="footer-social-label">
+<h3>Keep up to date</h3>
+</div>
+<div class="font-size-correction-sml">Register to receive personalised research and resources by email</div>
+<div class="bs">
+<div class="pull-left links font-size-correction">
+<a class="font-size-correction-link" href="https://taylorandfrancis.formstack.com/forms/tfoguest_signup"><i class="fa fa-envelope-square" title="Register to receive personalised research and resources by email"></i>Sign me up</a>
+</div></div></div>
+</div>
+</div>
+<div class="widget literatumSocialLinks none  widget-none  widget-compact-all" id="3b6a5e53-cd62-452f-adc1-92e187a0849d">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="bs">
+<div class="pull-left links">
+<a href="http://facebook.com/TaylorandFrancisGroup">
+<i class="icon-facebook" title="Taylor and Francis Group Facebook page" aria-hidden="true" role="button"></i>
+<span aria-describedby="fb-description">
+<span class="off-screen" id="fb-description">Taylor and Francis Group Facebook page</span>
+</span>
+</a>
+</div>
+<div class="pull-left links">
+ <a href="https://twitter.com/tandfonline">
+<i class="fa fa-twitter-square" title="Taylor and Francis Group Twitter page" aria-hidden="true" role="button"></i>
+<span aria-describedby="twitter-description">
+<span class="off-screen" id="twitter-description">Taylor and Francis Group Twitter page</span>
+</span>
+</a>
+</div>
+<div class="pull-left links">
+<a href="http://linkedin.com/company/taylor-&-francis-group">
+<i class="fa fa-linkedin-square" title="Taylor and Francis Group LinkedIn page" aria-hidden="true" role="button"></i>
+<span aria-describedby="linkedin-description">
+<span class="off-screen" id="linkedin-description">Taylor and Francis Group Linkedin page</span>
+</span>
+</a>
+</div>
+<div class="clearfix"></div>
+<div class="pull-left links">
+<a href="https://www.youtube.com/user/TaylorandFrancis">
+<i class="fa fa-youtube-square" title="Taylor and Francis Group YouTube page" aria-hidden="true" role="button"></i>
+<span aria-describedby="youtube-description">
+<span class="off-screen" id="youtube-description">Taylor and Francis Group Youtube page</span>
+</span>
+</a>
+</div>
+<div class="pull-left links">
+<a href="http://www.weibo.com/tandfchina">
+<i class="fa fa-weibo" title="Taylor and Francis Group Weibo page" aria-hidden="true" role="button"></i>
+<span aria-describedby="weibo-description">
+<span class="off-screen" id="weibo-description">Taylor and Francis Group Weibo page</span>
+</span>
+</a>
+</div>
+<div class="clearfix"></div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+<div class="widget responsive-layout none  widget-none  widget-compact-horizontal" id="8d803f96-081d-4768-ab7d-280a77af723b">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-horizontal"><div class="container">
+<div class="row row-sm  ">
+<div class="col-sm-3-4 ">
+<div class="contents" data-pb-dropzone="contents0">
+
+<div class="widget general-html none footer-info-container widget-none  widget-compact-vertical" id="b247ecb9-84c9-4762-b270-20f8be1f0ae4">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-vertical"><div class="informa-group-info">
+<span>Copyright © 2021 Informa UK Limited</span>
+<span><a href="https://informa.com/privacy-policy/">Privacy policy</a></span>
+<span><a href="/cookies">Cookies</a></span>
+<span><a href="/terms-and-conditions">Terms & conditions</a></span>
+<span><a href="/accessibility">Accessibility</a></span>
+<p>Registered in England & Wales No. 3099067<br />
+5 Howick Place | London | SW1P 1WG</p>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-1-4 footer_tandf_logo">
+<div class="contents" data-pb-dropzone="contents1">
+<div class="widget general-image none  widget-none  widget-compact-vertical" id="b6bde365-079b-454f-94f6-1841291656a1">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-vertical"><a href="http://taylorandfrancis.com/" title="Taylor and Francis Group">
+<img src="/pb-assets/Global/Group-logo-white-on-transparent-1468512845090.png" alt="Taylor and Francis Group" />
+</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+<div class="widget cookiePolicy none  widget-none  widget-compact-all" id="cea739ac-da2c-4d77-9cf1-cb3e0da7e31e">
+<div class="wrapped ">
+<div class="widget-body body body-none  body-compact-all"><div class="banner">
+<a href="#" class="btn">Accept</a>
+<p class="message">We use cookies to improve your website experience. To learn about our use of cookies and how you can manage your cookie settings, please see our <a href="/cookies">Cookie Policy.</a> By closing this message, you are consenting to our use of cookies.</p>
+</div></div>
+</div>
+</div>
+</div>
+</footer></div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="/wro/jq0u~loadinview.js"></script>
+<script type="text/javascript" src="/wro/jq0u~product.js"></script>
+<script>
+loadCSS("/wro/jq0u~lastInBody-css.css");
+loadCSS("https://fonts.googleapis.com/css?family=Droid%20Serif:bold,bolditalic,italic,regular|Open%20Sans:400,300,600,700&display=swap");
+window.scriptSettings=[{js: "/wro/jq0u~jwplayer.js",selector:'.mediaThumbnailContainer'},
+{js:'/wro/jq0u~ajax-widgets.js',css:"/wro/jq0u~ajax-widgets.css",selector:'.ajaxWidget'},
+{js: '/wro/jq0u~loi-api.js',selector:'.tocContent,.literatumListOfIssuesResponsiveWidget,.literatumListOfIssuesWidget'}
+,{js:"/wro/jq0u~seamless-access.js",selector: ".seamlessAccess_wrapper,.institutional-login"}];
+window.addEventListener('load',TandfUtils.scriptLoader);
+</script>
+<noscript>
+    <link rel="stylesheet" href="/wro/jq0u~lastInBody-css.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid%20Serif:bold,bolditalic,italic,regular|Open%20Sans:400,300,600,700&display=swap">
+</noscript>
+</body>
+</html>

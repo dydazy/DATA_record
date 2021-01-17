@@ -1,0 +1,1440 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+            var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl + '&gtm_auth=fCzlsmYQFAUQ_UXneGJNag&gtm_preview=env-2&gtm_cookies_win=x';
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TZGWTGG');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title>Frontiers | Improved de novo Assembly of the Achlorophyllous Orchid Gastrodia elata | Genetics</title>
+
+    <link rel="shortcut icon" href="https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/favicon_16x16.ico" type="image/x-icon" />
+
+    <meta property="og:type" content="article" />
+    <meta property="frontiers:type" content="Article" />
+    <meta property="og:site_name" name="site_name" content="Frontiers" />
+    <meta property="og:title" name="Title" content="Improved de novo Assembly of the Achlorophyllous Orchid Gastrodia elata" />
+    <meta property="og:description" name="Description" content="Achlorophyllous plants are full mycoheterotrophic plants with no chlorophyll and they obtain their nutrients from soil fungi. Gastrodia elata is a perennial, achlorophyllous orchid that displays distinctive evolutionary strategy of adaptation to the non-photosynthetic lifestyle. Here in this study, the genome of G. elata was assembled to 1.12 Gb with a contig N50 size of 110 kb and a scaffold N50 size of 1.64 Mb so that it helped unveil the genetic basics of those adaptive changes. Based on the genomic data, key genes related to photosynthesis, leaf development, and plastid division pathways were found to be lost or under relaxed selection during the course of evolution. Thus, the genome sequence of G. elata provides a good resource for future investigations of the evolution of orchids and other achlorophyllous plants." />
+    <meta property="og:url" name="url" content="https://www.frontiersin.org/article/10.3389/fgene.2020.580568/full" />
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"
+            integrity="sha256-h0cGsrExGgcZtSZ/fRz4AwV+Nn6Urh/3v3jFRQ0w9dQ=" crossorigin="anonymous"></script>
+        <link href="https://static.frontiersin.org/navigation-plugins/footer/css" rel="stylesheet" />
+            <link href="https://static.frontiersin.org/navigation-plugins/header/css" rel="stylesheet" />
+
+        <meta property="og:image" content="https://www.frontiersin.org/files/MyHome%20Article%20Library/580568/580568_Thumb_400.jpg" />
+            <meta name="citation_volume" content="11" />
+        <meta name="citation_journal_title" content="Frontiers in Genetics" />
+        <meta name="citation_publisher" content="Frontiers" />
+        <meta name="citation_journal_abbrev" content="Front. Genet." />
+        <meta name="citation_issn" content="1664-8021" />
+        <meta name="citation_doi" content="10.3389/fgene.2020.580568" />
+        <meta name="citation_pages" content="1411" />
+        <meta name="citation_language" content="English" />
+        <meta name="citation_title" content="Improved de novo Assembly of the Achlorophyllous Orchid Gastrodia elata" />
+        <meta name="citation_keywords" content="Gastrodia elata; Genome; achlorophyllous; Relaxed selection; Non-photosynthetic" />
+        <meta name="citation_abstract" content="Achlorophyllous plants are full mycoheterotrophic plants with no chlorophyll and they obtain their nutrients from soil fungi. Gastrodia elata is a perennial, achlorophyllous orchid that displays distinctive evolutionary strategy of adaptation to the non-photosynthetic lifestyle. Here in this study, the genome of G. elata was assembled to 1.12 Gb with a contig N50 size of 110 kb and a scaffold N50 size of 1.64 Mb so that it helped unveil the genetic basics of those adaptive changes. Based on the genomic data, key genes related to photosynthesis, leaf development, and plastid division pathways were found to be lost or under relaxed selection during the course of evolution. Thus, the genome sequence of G. elata provides a good resource for future investigations of the evolution of orchids and other achlorophyllous plants." />
+        <meta name="description" content="Achlorophyllous plants are full mycoheterotrophic plants with no chlorophyll and they obtain their nutrients from soil fungi. Gastrodia elata is a perennial, achlorophyllous orchid that displays distinctive evolutionary strategy of adaptation to the non-photosynthetic lifestyle. Here in this study, the genome of G. elata was assembled to 1.12 Gb with a contig N50 size of 110 kb and a scaffold N50 size of 1.64 Mb so that it helped unveil the genetic basics of those adaptive changes. Based on the genomic data, key genes related to photosynthesis, leaf development, and plastid division pathways were found to be lost or under relaxed selection during the course of evolution. Thus, the genome sequence of G. elata provides a good resource for future investigations of the evolution of orchids and other achlorophyllous plants." />
+        <meta name="citation_online_date" content="2020/10/19" />
+        <meta name="citation_date" content="2020" />
+        <meta name="citation_publication_date" content="2020/11/19" />
+        <meta name="citation_pdf_url" content="https://www.frontiersin.org/articles/10.3389/fgene.2020.580568/pdf" />
+        <meta name="citation_author" content="Chen, Shanshan" />
+        <meta name="citation_author_institution" content="School of Life Sciences, Zhengzhou University, China" />
+        <meta name="citation_author_institution" content="BGI College, Zhengzhou University, China" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Wang, Xiao" />
+        <meta name="citation_author_institution" content="State Key Laboratory of Genetic Resources and Evolution, Kunming Institute of Zoology, Chinese Academy of Sciences, China" />
+        <meta name="citation_author_institution" content="Jiaxing Synbiolab Biotechnology Co., Ltd., China" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Wang, Yangzi" />
+        <meta name="citation_author_institution" content="College of Biological Big Data, Yunnan Agricultural University, China" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Zhang, Guanghui" />
+        <meta name="citation_author_institution" content="The Key Laboratory of Medicinal Plant Biology of Yunnan Province, National and Local Joint Engineering Research Center on Germplasm Innovation and Utilization of Chinese Medicinal Materials in Southwest China, Yunnan Agricultural University, China" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Song, Wanling" />
+        <meta name="citation_author_institution" content="College of Biological Big Data, Yunnan Agricultural University, China" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Dong, Xiao" />
+        <meta name="citation_author_institution" content="College of Biological Big Data, Yunnan Agricultural University, China" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Arnold, Michael L." />
+        <meta name="citation_author_institution" content="Department of Genetics, University of Georgia, United States" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Wang, Wen" />
+        <meta name="citation_author_institution" content="State Key Laboratory of Genetic Resources and Evolution, Kunming Institute of Zoology, Chinese Academy of Sciences, China" />
+        <meta name="citation_author_institution" content="Center for Ecological and Environmental Sciences, Northwestern Polytechnical University, China" />
+        <meta name="citation_author_institution" content="Center for Excellence in Animal Evolution and Genetics, Chinese Academy of Sciences, China" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Miao, Jianhua" />
+        <meta name="citation_author_institution" content="Guangxi Key Laboratory of Medicinal Resources Protection and Genetic Improvement, Guangxi Botanical Garden of Medicinal Plants, China" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Chen, Wei" />
+        <meta name="citation_author_institution" content="State Key Laboratory of Conservation and Utilization of Bio-Resources in Yunnan, Yunnan Agricultural University, China" />
+        <meta name="citation_author_institution" content="College of Agronomy and Biotechnology, Yunnan Agricultural University, China" />
+        <meta name="citation_author_institution" content="Yunnan Research Institute for Local Plateau Agriculture and Industry, China" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Dong, Yang" />
+        <meta name="citation_author_institution" content="College of Biological Big Data, Yunnan Agricultural University, China" />
+        <meta name="citation_author_institution" content="Guangxi Key Laboratory of Medicinal Resources Protection and Genetic Improvement, Guangxi Botanical Garden of Medicinal Plants, China" />
+        <meta name="citation_author_institution" content="State Key Laboratory of Conservation and Utilization of Bio-Resources in Yunnan, Yunnan Agricultural University, China" />
+        <meta name="citation_author_institution" content="Yunnan Research Institute for Local Plateau Agriculture and Industry, China" />
+        <meta name="citation_author_email" content="" />
+    <meta name="Keywords" content="Gastrodia elata, Genome, achlorophyllous, Relaxed selection, Non-photosynthetic" />
+
+        <meta name="dc.identifier" content="doi:10.3389/fgene.2020.580568"> <!--CrossMark widget-->
+    
+    <script type="text/javascript">
+
+        var CurrentIBarMenu = 'bysubjects';
+        var CurrentPageCode = 'ARTICLE_PAGE_NEW';
+
+        var FRConfiguration = (function() {
+            return {
+                Environment: 'Live',
+                SANVirtualPath: 'https://www.frontiersin.org/files/',
+                SharepointWebsiteUrl: 'https://www.frontiersin.org',
+                FrontiersJournalUIUrl: 'https://www.frontiersin.org',
+                FrontiersJournalAPIUrl: 'https://api-journal.frontiersin.org',
+                FrontiersReviewUIUrl: '',
+                FrontiersReviewAPIUrl: '',
+                FrontiersCookie: 'frontiersN',
+                FrontiersCookieRememberMe: 'frontiersNt',
+                FrontiersLoginUrl: 'https://www.frontiersin.org/Login.aspx',
+                FrontiersRegistrationUrl: 'http://www.frontiersin.org/Registration/Register.aspx',
+                IsCommentVisible: 'True',
+                IsPreview:'False'
+            };
+        })();
+
+        var FRLanguage = (function() {
+            var languageSet = {"ART_FRONTIERS":"Frontiers ","Article_AcceptedDate":"Accepted: ","Article_AnalyticsToolTip":"The total view count is updated once a day, so not to worry if you don\u0027t see immediate results.","Article_AnalyticsTotalViews":"total views","Article_AnalyticsViewImpact":"View Article Impact","Article_ArchiveLinkText":"Articles","Article_BibTex":"BibTex","Article_Citation":"Citation: ","Article_Commentary":"COMMENTARY","Article_Copyright":"Copyright: ","Article_CopyrightText":"This is an open-access article distributed under the terms of the \u003ca href=\"http://creativecommons.org/licenses/by/4.0/\"\u003eCreative Commons Attribution License (CC BY)\u003c/a\u003e. The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.","Article_Correspondence":"* Correspondence: ","Article_DownloadArticle":"Download Article","Article_DownloadPDF":"Download PDF","Article_DownloadProvisionalArticle":"Download Provisional Article","Article_DownloadProvisionalPDF":"Download Provisional PDF","Article_EditedBy":"Edited by: ","Article_EndNote":"EndNote","Article_EPUB":"EPUB","Article_ExportCitation":"Export Citation","Article_JATS":"JATS","Article_Keywords":"Keywords: ","Article_NLM":"XML (NLM)","Article_OriginalArticle":"ORIGINAL ARTICLE","Article_PaperPendingPublishedDate":"Paper pending published: ","Article_PDF":"PDF","Article_ProvisionalPDF":"Provisional PDF","Article_PublishedDate":"Published online: ","Article_ReadFullText":"Read Full Text","Article_ReceivedDate":"Received: ","Article_ReferenceManager":"Reference Manager","Article_ReviewedBy":"Reviewed by: ","Article_RTInfoText":"This article is part of the Research Topic","Article_ShareOn":"SHARE ON","Article_SimpleTEXTfile":"Simple TEXT file","Article_SupplementalData":"SUPPLEMENTAL DATA","Article_TableOfContent":"TABLE OF CONTENTS","Article_ViewEnhancedPDF":"ReadCube","Article_XML":"XML","BrowserWarningText":"\u003ch2\u003eWarning!\u003c/h2\u003e\u003cp\u003eYou are using an \u003cstrong\u003eoutdated\u003c/strong\u003e browser. This page doesn\u0027t support Internet Explorer 6, 7 and 8.\u003cbr /\u003ePlease \u003ca class=\"blue\" href=\"http://browsehappy.com/\"\u003eupgrade your browser\u003c/a\u003e or \u003ca class=\"blue\" href=\"http://www.google.com/chromeframe/?redirect=true\"\u003eactivate Google Chrome Frame\u003c/a\u003e to improve your experience.\u003c/p\u003e","COMMENT_HEADERTEXT":"Comment text too long","COMMENT_WARNINGTEXT":"Comments must be less than 4,000 characters. You have entered ","Impact_BackToArticle":"Back to article","People_Also_LookedAt":"People also looked at"};
+
+            return {
+                value: function(key) {
+                    if (languageSet[key]) {
+                        return languageSet[key];
+                    } else {
+                        throw new Error('Unable to get the value status from the language set'); // Use Error, not FRError
+                    }
+                }
+            };
+
+        })();
+
+        var FRJournalDetails = (function() {
+            return {
+                JournalType: 'section',
+                JournalId: '240',
+                SectionId: '1520'
+            };
+        })();
+
+        var FRArticleDetails = (function() {
+            return {
+                ArticleId: '580568'
+            };
+        })();
+        var FRArticleRecaptchaSettings = (function() {
+            return {
+                RecaptchaSiteKey: '6LdG3i0UAAAAAOC4qUh35ubHgJotEHp_STXHgr_v'
+            };
+        })();
+
+    </script>
+
+    <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-535f7e222fc3ca72"></script>
+
+
+    <script language="javascript">
+        var addthis_config = addthis_config || {};
+        addthis_config.data_track_addressbar = false;
+        addthis_config.data_track_clickback = false;
+    </script>
+
+    
+    
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+
+    <![endif]-->
+
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+    <script src="/areas/research-topics/content/scripts/frontiers/frontiers.markerclusterer.js"></script>
+
+
+    <link href="https://209cd62b0febf2a55d40-715eb384bc6027b876e93ad33d5c5ec3.ssl.cf3.rackcdn.com/font-awesome-4.3.0/css/font-awesome.css" rel="stylesheet"/>
+
+    <link href="https://9d0dd7a648345f19af83-877d2ecaf11b88d5e17327c758e17ef6.ssl.cf2.rackcdn.com/museo-sans-1.0.1/css/museo-sans.css" rel="stylesheet"/>
+
+    <link href="https://9d0dd7a648345f19af83-877d2ecaf11b88d5e17327c758e17ef6.ssl.cf2.rackcdn.com/museo-slab-1.0.1/css/museo-slab.css" rel="stylesheet"/>
+
+    <link href="https://209cd62b0febf2a55d40-715eb384bc6027b876e93ad33d5c5ec3.ssl.cf3.rackcdn.com/open-sans-1.0.0/css/open-sans.css" rel="stylesheet"/>
+
+    <link href="https://static.frontiersin.org/areas/articles/css/app?v=d7xs6QXeE2UIxbm9TizlA3t08LzxgJlsJHBk24_OOR81" rel="stylesheet"/>
+
+    
+    <style type="text/css"> .journal-genetics {
+ background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-genetics.png') no-repeat 100% 10px;
+ background-size: 51%;
+}
+
+/* Displays/Screens (e.g. 19" WS @ 1440x900) --------------- */ @media only screen and (max-width: 1649px) {
+.journal-genetics {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-genetics.png') no-repeat 140% 70px;
+ background-size: 54%;
+ }}
+
+/* Displays/Screens (e.g. MacBook @ 1280x800) -------------- */
+@media only screen and (max-width: 1409px) {
+.journal-genetics {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-genetics.png') no-repeat 140% 70px;
+ background-size: 54%;
+ }}
+ 
+/* Large Devices, Wide Screens --------- */  @media only screen and (max-width : 1250px) {
+.journal-genetics {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-genetics.png') no-repeat 140% 70px;
+ background-size: 54%;
+ }}
+
+/* Medium Devices, Desktops ---------- */  @media only screen and (max-width : 992px) { 
+.journal-genetics {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-genetics.png') no-repeat 140% 70px;
+ background-size: 54%;
+ }}
+
+/* Small Devices, Tablets ------------ */  @media only screen and (max-width : 768px) {
+.journal-genetics {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-genetics.png') no-repeat 140% 70px;
+ background-size: 74%;
+ }}
+
+/* Small Devices, Tablets  --------- */ @media only screen and (max-width : 640px) {
+.journal-genetics {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-genetics.png') no-repeat 250px 0px;
+ }}
+
+/* Extra Small Devices, Phones-----------  */  @media only screen and (max-width : 480px) {
+.journal-genetics {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-genetics.png') no-repeat 225px 150px;
+  background-size: 51%; 
+ }}
+
+/* Custom, iPhone Retina  -------*/  @media only screen and (max-width : 320px) {
+.journal-genetics {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-genetics.png') no-repeat 165px 170px;
+  background-size: 51%; 
+ }} </style>
+    
+</head>
+<body class="journal-genetics section-plant-genomics">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZGWTGG&gtm_auth=fCzlsmYQFAUQ_UXneGJNag&gtm_preview=env-2&gtm_cookies_win=x"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+        <div data-navigation-plugin="header"></div>
+        <script src="https://static.frontiersin.org/navigation-plugins/header/js"></script>
+
+
+
+    
+
+    <!--[if lte IE 8]>
+        <div class="row">
+            <div class="col-md-16">
+                <div style="margin-bottom: 15px;"><h2>Warning!</h2><p>You are using an <strong>outdated</strong> browser. This page doesn't support Internet Explorer 6, 7 and 8.<br />Please <a class="blue" href="http://browsehappy.com/">upgrade your browser</a> or <a class="blue" href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p></div>
+            </div>
+        </div>
+    <![endif]-->
+
+    <div class="page-container">
+        
+
+<header>
+
+            <a href="https://www.frontiersin.org/about/impact?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=impact-2020-jour-hp-top" target="_blank">
+            <div class="marketing journal-marketing-message no-impact">
+                <span class="message">
+                    <p><strong>Impact Factor 3.258</strong>&nbsp;|<strong> CiteScore 2.7<br /></strong>More on impact &rsaquo;</p>
+                </span>
+
+            </div>
+        </a>
+<div id="journal-header" class="journal-home" style="position: relative;">
+    <div class="container-fluid main-container-xxl">
+        <table id="logo-table" style="width:100%">
+            <tr>
+                    <td width="50%" valign="bottom" align="right" class="left-cell">
+                        <h1>
+                            <a href="https://www.frontiersin.org/journals/240" data-test-id="journal-link">
+                                <span>Frontiers </span>in Genetics
+                            </a>
+                        </h1>
+                    </td>
+                        <td class="right-cell" width="50%" style="vertical-align: bottom">
+                            <h2>
+                                <a href="https://www.frontiersin.org/journals/240/sections/1520" data-test-id="section-link" class="btn btn-link">
+                                    Plant Genomics
+
+
+                                </a>
+                            </h2>
+                        </td>
+            </tr>
+        </table>
+
+
+        
+     </div>
+</div>
+
+
+    <div id="journal-nav">
+    <div class="container-fluid main-container-xxl">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="nav-wrapper">
+                    <nav class="navbar navbar-default">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#journal-navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="pull-left">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </span>
+                            <span class="pull-right hidden-xs">Section</span>
+                        </button>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse no-transition journal-nav-bar" id="journal-navbar-collapse">
+                            <ul class="nav navbar-nav">
+                                <li class="tab-overview icon icon-left">
+                                    <a id="journal_nav_home" href="https://www.frontiersin.org/journals/genetics/sections/plant-genomics#"><span class="sr-only">(current)</span><i class="fa fa-home"></i>Section</a>
+                                </li>
+                                <li class="tab-about">
+                                    <a id="journal_nav_about" href="https://www.frontiersin.org/journals/genetics/sections/plant-genomics#about">About</a>
+                                </li>
+                                <li class="tab-archive active">
+                                    <a id="journal_nav_articles" href="https://www.frontiersin.org/journals/genetics/sections/plant-genomics#articles">Articles</a>
+                                </li>
+                                <li class="tab-research-topics">
+                                    <a id="journal_nav_research_topics" href="https://www.frontiersin.org/journals/genetics/sections/plant-genomics#research-topics">Research topics</a>
+                                </li>
+                                <li class="dropdown">
+                                    <a id="journal_nav_for_authors" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">For authors <span class="caret"></span></a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a id="for_authors_why_submit" href="https://www.frontiersin.org/journals/genetics/sections/plant-genomics#why-submit">Why submit?</a></li>
+                                        <li><a id="for_authors_fees" href="https://www.frontiersin.org/about/publishing-fees" target="_blank">Fees</a></li>
+                                        <li><a id="for_authors_article_types" href="https://www.frontiersin.org/journals/genetics/sections/plant-genomics#article-types">Article types</a></li>
+                                        <li><a id="for_authors_authors_guidelines" href="https://www.frontiersin.org/journals/genetics/sections/plant-genomics#author-guidelines">Author guidelines</a></li>
+                                        <li><a id="for_authors_review_guidelines" href="https://www.frontiersin.org/journals/genetics/sections/plant-genomics#review-guidelines">Review guidelines</a></li>
+                                        <li><a id="for_authors_submission_checklist" href="https://www.frontiersin.org/journals/genetics/sections/plant-genomics#submission-checklist">Submission checklist</a></li>
+                                        <li><a id="for_authors_contact_editorial_office" href="https://www.frontiersin.org/journals/genetics/sections/plant-genomics#contact-editorial-office">Contact editorial office</a></li>
+                                            <li><a id="for_authors_submit_manuscript" href="https://www.frontiersin.org/submission/submissioninfo.aspx" class="action-link">Submit your manuscript</a></li>
+                                    </ul>
+                                </li>
+                                <li class="tab-editorial-board">
+                                    <a id="journal_nav_Editorial_Board" href="https://www.frontiersin.org/journals/genetics/sections/plant-genomics#editorial-board">Editorial board</a>
+                                </li>
+                            </ul>
+                        </div><!-- /.navbar-collapse -->
+                        <ul class="list-inline follow-us nav navbar-nav">
+                            <li class="twitter icon button">
+                                <a data-test-id="twitter-link" href="https://twitter.com/@FrontGenetics">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="rss icon button">
+                                <a data-test-id="rss-link" href="https://www.frontiersin.org/journals/genetics/sections/plant-genomics/rss">
+                                    <i class="fa fa-rss"></i>
+                                </a>
+                            </li>
+                            <li class="alerts icon button">
+                                <a data-test-id="alert-link" href="http://connect.frontiersin.org/subscriptions/subscribe?item=1&amp;field=30">
+                                    <i class="fa fa-bell" style="width: auto; padding-right: 7px; padding-left: 7px;"><span class="article-alert-text" style="font-family: MuseoSans, 'Helvetica Neue', Helvetica, Arial, sans-serif; margin-left: 6px; font-weight: 700; letter-spacing: 0px; font-size: 13px;">Article alerts</span></i>
+                                </a>
+                            </li>
+                                    
+                            
+                        </ul>
+
+                    </nav>
+                </div><!-- / .nav-wrapper -->
+            </div>
+        </div>
+    </div>
+</div>
+
+</header>
+
+<div class="journal-actions article-actions">
+    <div class="container-fluid main-container-xxl">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-lg-push-6 col-md-push-6 col-research-topic">
+                    <div class="research-topic-container">
+                        <a href="https://www.frontiersin.org/research-topics/13027#articles" data-test-id="relatedRT-link">
+                            <div class="research-topic-data">
+                                <h5 class="topic-title">
+                                    <span>This article is part of</span> the Research Topic
+                                </h5>
+                                <p style="margin-bottom:0;">
+                                   
+                                        Comparative Genomics and Functional Genomics Analyses in Plants
+                                        <span style="color:red;" class="topic-link-trim">
+                                            View all
+<span>
+                                                    34
+                                                </span>
+                                            Articles <span style="position: relative;top: 1px;" class="fa fa-angle-right"></span>
+                                        </span>
+
+                                   
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+            </div>
+            <section class="col-lg-4 col-lg-offset-2 col-md-6 col-md-offset-0 col-lg-pull-6 col-md-pull-6">
+                <a href="https://www.frontiersin.org/journals/240/sections/1520#articles" class="archive-link hidden-sm hidden-xs" data-test-id="archive-link">
+                    <i class="fa fa-angle-left"></i> Articles
+                </a>
+            </section>
+        </div>
+    </div>
+</div>
+
+
+<aside id="anchors" class="pull-left table-of-contents side-article">
+    <div class="side-people hidden-sm hidden-xs">
+                <section class="side-article-editors">
+                    <header><h5 class="like-h4">Edited by</h5></header>
+                    <a class="authors" href="https://loop.frontiersin.org/people/521254/overview">
+                        <img alt=" " class="pr5 pull-left" src="https://loop.frontiersin.org/images/profile/521254/24"></img>
+                        <h6 class="author-link-aside">Wei Chen</h6>
+                    </a>
+                    <div class="clearfix"></div>
+                    <p><span class="notes">North China University of Science and Technology, China</span></p>
+                </section>
+                <section class="side-article-editors">
+                    <header><h5 class="like-h4"> Reviewed by</h5></header>
+                            <a class="authors" href="https://loop.frontiersin.org/people/191083/overview">
+                                <img alt=" " class="pr5 pull-left" src="https://loop.frontiersin.org/images/profile/191083/24"></img>
+                                <h6 class="author-link-aside">Liangsheng Zhang</h6>
+                            </a>
+                            <div class="clearfix"></div>
+                        <p><span class="notes">Zhejiang University, China</span></p>
+                            <a class="authors" href="https://loop.frontiersin.org/people/416003/overview">
+                                <img alt=" " class="pr5 pull-left" src="https://loop.frontiersin.org/images/profile/416003/24"></img>
+                                <h6 class="author-link-aside">Xiaohua Jin</h6>
+                            </a>
+                            <div class="clearfix"></div>
+                        <p><span class="notes">Institute of Botany, Chinese Academy of Sciences</span></p>
+                    <p class="disclaimer">The editor and reviewers' affiliations are the latest provided on their Loop research profiles and may not reflect their situation at the time of review.</p>
+                </section>
+    </div>
+    <nav>
+            <header><h5 class="like-h4" style="padding-top: 14px; padding-left: 6px; margin-bottom: 6px;">TABLE OF CONTENTS</h5></header>
+            <ul class="nav nav-list list-unstyled contents">
+                <li>
+<ul class="flyoutJournal">
+<li><a href="#h1">Abstract</a></li>
+<li><a href="#h2">Introduction</a></li>
+<li><a href="#h3">Materials and Methods</a></li>
+<li><a href="#h4">Results</a></li>
+<li><a href="#h5">Conclusion</a></li>
+<li><a href="#h6">Data Availability Statement</a></li>
+<li><a href="#h7">Author Contributions</a></li>
+<li><a href="#fun1">Funding</a></li>
+<li><a href="#conf1">Conflict of Interest</a></li>
+<li><a href="#h9">Supplementary Material</a></li>
+<li><a href="#FNT1">Footnotes</a></li>
+<li><a href="#refer1">References</a></li>
+</ul>
+                </li>
+            </ul>
+    </nav>
+</aside>
+
+
+<div id="article" class="boxed white no-padding">
+    <div class="container-fluid main-container-xxl">
+            <div class="side-article-mrk hidden-md hidden-lg top clearfix">
+                <p style="text-align: center;"><a href="https://spotlight.frontiersin.org/submit?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=rtlg_2020_gen"><img src="https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/article-marketing-message-79982763-254d-4bb6-96b8-126758de1166.png" alt="" /><br /></a></p>
+<p style="text-align: center;"><a href="https://spotlight.frontiersin.org/submit?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=rtlg_2020_gen"><strong>Suggest a Research Topic &gt;</strong></a></p>
+            </div>
+        <div class="row">
+
+            
+<aside class="a col-xs-12 col-sm-12 col-lg-2 col-md-3 pull-right side-article right-container">
+        <button type="button" class="navbar-toggle navbar-download collapsed" data-toggle="collapse" data-target=".show" aria-expanded="false">
+            <span class="icon"><i class="fa fa-download"></i></span>
+        </button>
+    <button type="button" class="navbar-toggle navbar-share collapsed" data-toggle="collapse" data-target=".show" aria-expanded="false">
+        <span class="icon"><i class="fa fa-share-alt"></i></span>
+    </button>
+        <div class="side-article-download show collapse clearfix">
+            <ul class="list-unstyled list-inline clearfix">
+                    <li class="dropdown text-center paper">
+                        <a data-target="#" class="dropdown-toggle" data-test-id="download-button" data-toggle="dropdown" role="button" aria-expanded="false">
+                            <span class="icon icon-article"><i class="fa fa-file-pdf-o"></i></span>
+                            <span class="icon-label">Download Article</span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                                <li>
+                                    <a class="download-files-pdf action-link" href="/articles/10.3389/fgene.2020.580568/pdf" data-test-id="article-downloadpdf">
+                                        Download PDF
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="download-files-readcube" href="http://www.readcube.com/articles/10.3389/fgene.2020.580568" data-test-id="article-viewenhancedpdf">
+                                        ReadCube
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="download-files-epub" href="/articles/10.3389/fgene.2020.580568/epub" data-test-id="article-epub">
+                                        EPUB
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="download-files-nlm" href="/articles/10.3389/fgene.2020.580568/xml/nlm" data-test-id="article-nlm">
+                                        XML (NLM)
+                                    </a>
+                                </li>
+                                                            <li class="">
+
+<a data-test-id="supplementary-button"
+                                        id="supplementary_view">
+
+                                            Supplementary
+                                            <br>
+                                            Material
+                                        </a>
+
+                                </li>
+                        </ul>
+                    </li>
+                <li class="dropdown text-center citation">
+                    <a data-target="#" class="dropdown-toggle" data-test-id="citation-button" data-toggle="dropdown" role="button" aria-expanded="false">
+                        <span class="icon icon-citation"><i class="fa fa-quote-left"></i></span>
+                        <span class="icon-label">Export citation</span>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                            <li>
+                                <a data-test-id="article-endnote" href="https://www.frontiersin.org/articles/10.3389/fgene.2020.580568/endNote">
+                                    EndNote
+                                </a>
+                            </li>
+                            <li>
+                                <a data-test-id="article-referencemanager" href="https://www.frontiersin.org/articles/10.3389/fgene.2020.580568/reference">
+                                    Reference Manager
+                                </a>
+                            </li>
+                            <li>
+                                <a data-test-id="article-simpletextfile" href="https://www.frontiersin.org/articles/10.3389/fgene.2020.580568/text">
+                                    Simple TEXT file
+                                </a>
+                            </li>
+                            <li>
+                                <a data-test-id="article-bibtex" href="https://www.frontiersin.org/articles/10.3389/fgene.2020.580568/bibTex">
+                                    BibTex
+                                </a>
+                            </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+            <div class="side-article-impact">
+            <ul class="nav">
+                <li class="impact-data" title="The total view count is updated once a day, so not to worry if you don&#39;t see immediate results.">
+                    <span class="title-number"></span>
+                    <span class="title-text">total views</span>
+                </li>
+                <li class="hidden-sm hidden-xs">
+                    <div class="altmetric-icon">
+                        <div class='altmetric-embed' data-badge-type='1' data-doi='10.3389/fgene.2020.580568' data-link-target="new"></div>
+                    </div>
+                </li>
+            </ul>
+                <a type="button" class="btn btn-default hidden-sm hidden-xs btn-impact " data-test-id="view-article-impact" href="http://loop-impact.frontiersin.org/impact/article/580568#views" target="_blank">
+                    <span class="icon-impact"><i class="fa fa-line-chart"></i></span> View Article Impact
+                </a>
+        </div>
+            <div class="side-article-mrk hidden-sm hidden-xs clearfix">
+            <p style="text-align: center;"><a href="https://spotlight.frontiersin.org/submit?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=rtlg_2020_gen"><img src="https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/article-marketing-message-79982763-254d-4bb6-96b8-126758de1166.png" alt="" /><br /></a></p>
+<p style="text-align: center;"><a href="https://spotlight.frontiersin.org/submit?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=rtlg_2020_gen"><strong>Suggest a Research Topic &gt;</strong></a></p>
+        </div>
+    <div class="side-article-share show collapse">
+        <h5 class="like-h4">SHARE ON</h5>
+        <ul class="share-media clearfix" style="padding: 0;">
+            <li class="social_block">
+                <div class="atButton">
+                    <a class="addthis_button_facebook at300b" addthis:title="Improved de novo Assembly of the Achlorophyllous Orchid Gastrodia elata" addthis:description="Achlorophyllous plants are full mycoheterotrophic plants with no chlorophyll and they obtain their nutrients from soil fungi. Gastrodia elata is a perennial, achlorophyllous orchid that displays distinctive evolutionary strategy of adaptation to the non-photosynthetic lifestyle. Here in this study, the genome of G. elata was assembled to 1.12 Gb with a contig N50 size of 110 kb and a scaffold N50 size of 1.64 Mb so that it helped unveil the genetic basics of those adaptive changes. Based on the genomic data, key genes related to photosynthesis, leaf development, and plastid division pathways were found to be lost or under relaxed selection during the course of evolution. Thus, the genome sequence of G. elata provides a good resource for future investigations of the evolution of orchids and other achlorophyllous plants." addthis:url="https://www.frontiersin.org/article/10.3389/fgene.2020.580568" title="Facebook"></a>
+                </div>
+                <a><span class="facebook_count"></span></a>
+            </li>
+            <li class="social_block">
+                <div class="atButton">
+                    <a class="addthis_button_twitter at300b" addthis:title="Improved de novo Assembly of the Achlorophyllous Orchid Gastrodia elata" addthis:description="Achlorophyllous plants are full mycoheterotrophic plants with no chlorophyll and they obtain their nutrients from soil fungi. Gastrodia elata is a perennial, achlorophyllous orchid that displays distinctive evolutionary strategy of adaptation to the non-photosynthetic lifestyle. Here in this study, the genome of G. elata was assembled to 1.12 Gb with a contig N50 size of 110 kb and a scaffold N50 size of 1.64 Mb so that it helped unveil the genetic basics of those adaptive changes. Based on the genomic data, key genes related to photosynthesis, leaf development, and plastid division pathways were found to be lost or under relaxed selection during the course of evolution. Thus, the genome sequence of G. elata provides a good resource for future investigations of the evolution of orchids and other achlorophyllous plants." addthis:url="https://www.frontiersin.org/article/10.3389/fgene.2020.580568" title="Tweet"></a>
+                </div>
+                <a><span class="twitter_count"></span></a>
+            </li>
+            <li class="social_block">
+                <div class="atButton">
+                    <a class="addthis_button_linkedin at300b" addthis:title="Improved de novo Assembly of the Achlorophyllous Orchid Gastrodia elata" addthis:description="Achlorophyllous plants are full mycoheterotrophic plants with no chlorophyll and they obtain their nutrients from soil fungi. Gastrodia elata is a perennial, achlorophyllous orchid that displays distinctive evolutionary strategy of adaptation to the non-photosynthetic lifestyle. Here in this study, the genome of G. elata was assembled to 1.12 Gb with a contig N50 size of 110 kb and a scaffold N50 size of 1.64 Mb so that it helped unveil the genetic basics of those adaptive changes. Based on the genomic data, key genes related to photosynthesis, leaf development, and plastid division pathways were found to be lost or under relaxed selection during the course of evolution. Thus, the genome sequence of G. elata provides a good resource for future investigations of the evolution of orchids and other achlorophyllous plants." addthis:url="https://www.frontiersin.org/article/10.3389/fgene.2020.580568" title="LinkedIn"></a>
+                </div>
+                <a><span class="linkedin_count"></span></a>
+            </li>
+            <li class="social_block">
+                <div class="atButton">
+                    <a class="addthis_button_more at300b" addthis:title="Improved de novo Assembly of the Achlorophyllous Orchid Gastrodia elata" addthis:description="Achlorophyllous plants are full mycoheterotrophic plants with no chlorophyll and they obtain their nutrients from soil fungi. Gastrodia elata is a perennial, achlorophyllous orchid that displays distinctive evolutionary strategy of adaptation to the non-photosynthetic lifestyle. Here in this study, the genome of G. elata was assembled to 1.12 Gb with a contig N50 size of 110 kb and a scaffold N50 size of 1.64 Mb so that it helped unveil the genetic basics of those adaptive changes. Based on the genomic data, key genes related to photosynthesis, leaf development, and plastid division pathways were found to be lost or under relaxed selection during the course of evolution. Thus, the genome sequence of G. elata provides a good resource for future investigations of the evolution of orchids and other achlorophyllous plants." addthis:url="https://www.frontiersin.org/article/10.3389/fgene.2020.580568" title="View more services"></a>
+                </div>
+                <a><span class="total_count"></span></a>
+            </li>
+        </ul>
+    </div>
+        <a type="button"
+           class="open-supplemental-data btn btn-default hidden-sm hidden-xs"
+           id="supplementary_view">
+            <span class="supplemental-label">
+                <i class="supplemental-icon"></i>
+                <label>Open Supplemental Data</label>
+            </span>
+        </a>
+</aside>
+
+
+            
+<main class="b col-xs-12 col-sm-12 col-lg-8 col-lg-push-2 col-md-7 col-md-push-2 pull-left">
+    <div class="article-section">
+        <div class="article-container" data-html="True">
+            <div class="abstract-container">
+                
+                <div class="article-header-container">
+                    <!-- Start CrossMark Snippet v2.0 -->
+                        <!-- the external CrossMark script to load the crossmark logo responsive  JPB-5562 -->
+                        <script src="https://crossmark-cdn.crossref.org/widget/v2.0/widget.js"></script>
+                        <a data-target="crossmark" class="crossmark pull-right" style="padding: 3px 0 13px 0;"><img id="crossmark-icon" style="border: 0; width:64px; height:64px;" src="https://crossmark-cdn.crossref.org/widget/v2.0/logos/CROSSMARK_Color_square.svg" /></a>
+                        <div id="crossmark-dialog" style="display: none;" title="">
+                            <!-- the external CrossMark data is loaded inside this iframe -->
+                            <iframe id="crossmark-dialog-frame" frameborder="0"></iframe>
+                        </div>
+                    <!-- End CrossMark Snippet -->                   
+
+                    <div class="header-bar-one">
+                        <h2>
+                            Original Research ARTICLE
+
+                    </h2>
+                </div>
+                <div class="header-bar-three">
+                    Front. Genet., 19 November 2020
+                             | <a href="https://doi.org/10.3389/fgene.2020.580568">https://doi.org/10.3389/fgene.2020.580568</a>
+                </div>
+                </div>
+                
+<div class="JournalAbstract">
+<a id="h1" name="h1"></a><h1>Improved <i>de novo</i> Assembly of the Achlorophyllous Orchid <i>Gastrodia elata</i></h1>
+<div class="authors">
+<a href="https://www.frontiersin.org/people/u/696229" class="user-id-696229"><img class="pr5" src="https://loop.frontiersin.org/images/profile/696229/24" onerror="this.src='https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg'" alt=""/>Shanshan Chen</a><sup>1,2&#x2020;</sup>, <a href="https://www.frontiersin.org/people/u/1125117" class="user-id-1125117"><img class="pr5" src="https://loop.frontiersin.org/images/profile/1125117/24" onerror="this.src='https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg'" alt=""/>Xiao Wang</a><sup>3,4&#x2020;</sup>, <img class="pr5" src="https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg" alt=""/>Yangzi Wang<sup>5&#x2020;</sup>, <a href="https://www.frontiersin.org/people/u/347812" class="user-id-347812"><img class="pr5" src="https://loop.frontiersin.org/images/profile/347812/24" onerror="this.src='https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg'" alt=""/>Guanghui Zhang</a><sup>6</sup>, <img class="pr5" src="https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg" alt=""/>Wanling Song<sup>5</sup>, <a href="https://www.frontiersin.org/people/u/911435" class="user-id-911435"><img class="pr5" src="https://loop.frontiersin.org/images/profile/911435/24" onerror="this.src='https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg'" alt=""/>Xiao Dong</a><sup>5</sup>, <a href="https://www.frontiersin.org/people/u/228226" class="user-id-228226"><img class="pr5" src="https://loop.frontiersin.org/images/profile/228226/24" onerror="this.src='https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg'" alt=""/>Michael L. Arnold</a><sup>7</sup>, <img class="pr5" src="https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg" alt=""/>Wen Wang<sup>8,9,10</sup>, <img class="pr5" src="https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg" alt=""/>Jianhua Miao<sup>11*</sup>, <a href="https://www.frontiersin.org/people/u/1023205" class="user-id-1023205"><img class="pr5" src="https://loop.frontiersin.org/images/profile/1023205/24" onerror="this.src='https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg'" alt=""/>Wei Chen</a><sup>12,13,14*</sup> and <a href="https://www.frontiersin.org/people/u/694956" class="user-id-694956"><img class="pr5" src="https://loop.frontiersin.org/images/profile/694956/24" onerror="this.src='https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg'" alt=""/>Yang Dong</a><sup>5,11,12,14*</sup></div>
+<ul class="notes">
+<li><span><sup>1</sup></span>School of Life Sciences, Zhengzhou University, Zhengzhou, China</li>
+<li><span><sup>2</sup></span>BGI College, Zhengzhou University, Zhengzhou, China</li>
+<li><span><sup>3</sup></span>State Key Laboratory of Genetic Resources and Evolution, Kunming Institute of Zoology, Chinese Academy of Sciences, Kunming, China</li>
+<li><span><sup>4</sup></span>Jiaxing Synbiolab Biotechnology Co., Ltd., Jiaxing, China</li>
+<li><span><sup>5</sup></span>College of Biological Big Data, Yunnan Agricultural University, Kunming, China</li>
+<li><span><sup>6</sup></span>The Key Laboratory of Medicinal Plant Biology of Yunnan Province, National and Local Joint Engineering Research Center on Germplasm Innovation and Utilization of Chinese Medicinal Materials in Southwest China, Yunnan Agricultural University, Kunming, China</li>
+<li><span><sup>7</sup></span>Department of Genetics, University of Georgia, Athens, GA, United States</li>
+<li><span><sup>8</sup></span>State Key Laboratory of Genetic Resources and Evolution, Kunming Institute of Zoology, Chinese Academy of Sciences, Kunming, China</li>
+<li><span><sup>9</sup></span>Center for Ecological and Environmental Sciences, Northwestern Polytechnical University, Xi&#x2019;an, China</li>
+<li><span><sup>10</sup></span>Center for Excellence in Animal Evolution and Genetics, Chinese Academy of Sciences, Kunming, China</li>
+<li><span><sup>11</sup></span>Guangxi Key Laboratory of Medicinal Resources Protection and Genetic Improvement, Guangxi Botanical Garden of Medicinal Plants, Nanning, China</li>
+<li><span><sup>12</sup></span>State Key Laboratory of Conservation and Utilization of Bio-Resources in Yunnan, Yunnan Agricultural University, Kunming, China</li>
+<li><span><sup>13</sup></span>College of Agronomy and Biotechnology, Yunnan Agricultural University, Kunming, China</li>
+<li><span><sup>14</sup></span>Yunnan Research Institute for Local Plateau Agriculture and Industry, Kunming, China</li>
+</ul>
+<p class="mb0">Achlorophyllous plants are full mycoheterotrophic plants with no chlorophyll and they obtain their nutrients from soil fungi. <i>Gastrodia elata</i> is a perennial, achlorophyllous orchid that displays distinctive evolutionary strategy of adaptation to the non-photosynthetic lifestyle. Here in this study, the genome of <i>G. elata</i> was assembled to 1.12 Gb with a contig N50 size of 110 kb and a scaffold N50 size of 1.64 Mb so that it helped unveil the genetic basics of those adaptive changes. Based on the genomic data, key genes related to photosynthesis, leaf development, and plastid division pathways were found to be lost or under relaxed selection during the course of evolution. Thus, the genome sequence of <i>G. elata</i> provides a good resource for future investigations of the evolution of orchids and other achlorophyllous plants.</p>
+<div class="clear"></div>
+</div>
+<div class="JournalFullText">
+<a id="h2" name="h2"></a><h2>Introduction</h2>
+<p class="mb15">In the autotroph-dominant plant world, the symbiotic relationship between plants and fungi plays an indispensable role in the maintenance of ecosystem (<a href="#B31">Read, 1991</a>). In an extreme situation, some plants (at least 50 independent origins) have become solely dependent upon their fungal associates for energy source and other nutrients during the course of evolution (<a href="#B28">Merckx and Freudenstein, 2010</a>). These fully mycoheterotrophic plants often lack a functional photosynthetic mechanism, so they are termed as &#x201C;non-photosynthetic plants (<a href="#B27">Merckx et al., 2009</a>).&#x201D;</p>
+<p class="mb15">The loss of photosynthesis was independently evolved over 40 times in a diverse range of plant families and genera (<a href="#B2">Bidartondo, 2005</a>). As an evolutionary adaptation to a low-light undergrowth environment, this extreme phenotype was also associated with some quite remarkable parallel evolutionary traits in plant, such as smaller biomass, specialized leaves without stomata, lack of root hair, reduced vascular tissues, and miniatured seeds (<a href="#B21">Leake, 1994</a>). Even though multiple studies of plastomes from heterotrophic plants have showed reduction in plastome sizes and housekeeping gene numbers (<a href="#B16">Krause, 2008</a>; <a href="#B1">Barrett and Davis, 2012</a>; <a href="#B38">Wicke et al., 2013</a>, <a href="#B39">2014</a>), the nuclear genomic basis of the other parallel traits in non-photosynthetic plants remains elusive.</p>
+<p class="mb15">All members of the Orchidaceae family (up to 26,567 species in 880 genera) rely on fungal associates in some or all stages of their life cycle (<a href="#B21">Leake, 1994</a>; <a href="#B3">Cai et al., 2015</a>). In particular, more than 200 orchid species from a myriad genera are fully mycoheterotrophic and non-photosynthetic (<a href="#B21">Leake, 1994</a>; <a href="#B27">Merckx et al., 2009</a>; <a href="#B28">Merckx and Freudenstein, 2010</a>). Since <i>Gastrodia</i> is one of the largest genera consisting of fully mycoheterotrophic species from a wide geographic area (<a href="#B4">Cribb and Killmann, 2010</a>), members in this genus are excellent models to investigate the reconfigured traits in non-photosynthetic plants.</p>
+<p class="mb0">In China, <i>Gastrodia elata</i> is cultivated for medicinal uses. It is a perennial, non-photosynthetic orchid with an enlarged rhizome and vestigial leaves on an upright flower-bearing stem (<a href="#F1">Figure 1A</a>). The completion of its life cycle requires at least two types of fungi: <i>Armillaria</i> and <i>Mycena</i> (<a href="#B19">Lan et al., 1994</a>; <a href="#B29">Ning et al., 2010</a>) (<a href="#S8">Supplementary Figure 1</a>). In this study, we presented a high quality <i>de novo</i> assembly of the <i>G. elata</i> nuclear genome, which had a higher coverage, contig N50 size, and Benchmarking Universal Single-Copy Ortholog (BUSCO) completeness than that of a previous report (<a href="#B44">Yuan et al., 2018</a>). Compared with the genomes of photosynthetic orchid species, such as <i>Phalaenopsis equestris</i> (<a href="#B3">Cai et al., 2015</a>), <i>Apostasia Shenzhenica</i> (<a href="#B45">Zhang et al., 2017</a>), and <i>Dendrobium officinale</i> (<a href="#B41">Yan et al., 2015</a>), the new <i>G. elata</i> nuclear genome and plastome assemblies showed key gene loss and relaxed selection related to its non-functional photosystem and retarded leaf development. These data demonstrated that the improved <i>G. elata</i> genome provides more insights into the genomic and evolutionary mechanisms underlying the morphological and physiological adaptations associated with a non-photosynthetic lifestyle.</p>
+<div class="DottedLine"></div>
+<div class="Imageheaders">FIGURE 1</div>
+<div class="FigureDesc">
+<a href="https://www.frontiersin.org/files/Articles/580568/fgene-11-580568-HTML/image_m/fgene-11-580568-g001.jpg" name="figure1" target="_blank">
+<img src="https://www.frontiersin.org/files/Articles/580568/fgene-11-580568-HTML/image_t/fgene-11-580568-g001.gif" id="F1" alt="www.frontiersin.org" /></a>
+<p><strong>Figure 1.</strong> Divergence time and morphology of <i>G. elata</i>. <b>(A)</b> Morphology of <i>G. elata</i>: photos showing a whole plant, flower, stem with degraded blade and tuber. <b>(B)</b> Divergence times are indicated by pink bars, expanded gene family numbers by dark blue letters and contracted gene families by orange letters.</p>
+</div>
+<div class="clear"></div>
+<div class="DottedLine"></div>
+<a id="h3" name="h3"></a><h2>Materials and Methods</h2>
+<h3 class="pt0">Plant Material, Genomic DNA Extraction, and Library Construction</h3>
+<p class="mb0">A flowering <i>G. elata</i> Bl. f. glauca S. Chow plant was collected from Zhaotong, Yunnan Province, China (103&#x00B0;43&#x2032;E, 27&#x00B0;20&#x2032;N). Genomic DNA was extracted from fresh stems by the Qiagen DNeasy Plant Mini Kit (Cat. No. 69104). After genomic DNA purification and quality validation, 10 paired-end and mate-pair DNA libraries with insert sizes of 169 bp (&#x00D7;2), 300 bp (&#x00D7;2), 374 bp, 545 bp, 753 kb, 2 kb, 5 kb, and 10 kb were constructed using library construction kits (Illumina) as previously described (<a href="#B23">Liang et al., 2015</a>; <a href="#S8">Supplementary Table 1</a>).</p>
+<h3>Genome Sequencing and Assembly</h3>
+<p class="mb15">A whole-genome shotgun strategy was adopted to sequence and assemble the genome of <i>G. elata</i>. All ten DNA libraries were sequenced on an Illumina HiSeq 2000 platform and 483.07 Gb of data was obtained. The genome size of <i>G. elata</i> was estimated according to the 17-mer frequency distribution with the formula: Genome size = <i>K</i>-mer_num/Peak_depth. Total of 84.67 Gb data was retained for 17-mer analysis. The 17-mer frequency distribution plot shows the peak at 66 (<a href="#S8">Supplementary Figure 2</a>), and the total <i>K</i>-mer count is 90,917,019,718, then the genome size is estimated as 1.378 Gb.</p>
+<p class="mb15">The assembly of <i>G. elata</i> genome was carried out using the SOAPdenovo. A <i>de Bruijn</i> graph was constructed using the parameter &#x201C;&#x2212;K 83 &#x2212;d 3&#x201D;, then the graph was simplified using &#x201C;&#x2212;M 3&#x201D; parameters to clip tips, remove low coverage links, merge bubbles, and solve tiny repeats. Those repeats on the simplified graph were broken at the boundaries and unambiguous DNA fragments were produced as contigs. Filtered sequencing data was then realigned to contigs with the parameters &#x201C;&#x2212;k 83&#x201D;. Parameter &#x201C;&#x2212;F&#x201D; was used to deal with the paired-end information, and unique contigs were joined to construct scaffolds. Gapcloser (v1.12) was used to fill the gaps between scaffolds with the default parameters.<sup id="footnotesuper1"><a id="footnote1a"></a><a class="footnoteanchor" href="#footnote1">1</a></sup> Contigs short than 100 bp were excluded within the whole assembly process.</p>
+<p class="mb0">The completeness and accuracy of the gap closed assembly was assessed using short insert-sized sequencing reads, conserved genes, and RNA-seq data. Filtered reads from three small-insert libraries (169, 374, and 753 bp) were mapped to the assembled genome using the bowtie2 (version 2.2.9<sup id="footnotesuper2"><a id="footnote2a"></a><a class="footnoteanchor" href="#footnote2">2</a></sup>) (<a href="#B20">Langmead and Salzberg, 2012</a>) with default parameters to estimate the quality of the assembly. The overall mapping rates of these small-insert size reads is higher than 92%, suggesting that most of the <i>G. elata</i> genome has been assembled. BUSCOs approach (<a href="#B37">Waterhouse et al., 2017</a>) was also used to evaluate the completeness of the <i>G. elata</i> genome. Three hundred and three (303) conserved single-copy orthologs has been used as reference, of which 248 (81.85%) were identified in our genome assembly (<a href="#T1">Table 1</a>). Over 74.59 millions of cleaned RNA-seq reads from three different <i>G. elata</i> tissues (flower, stem, and tuber) were mapped to the assembled genome with the default settings using the TopHat2 (version 2.0.14<sup id="footnotesuper3"><a id="footnote3a"></a><a class="footnoteanchor" href="#footnote3">3</a></sup>) (<a href="#B35">Trapnell et al., 2009</a>; <a href="#S8">Supplementary Table 2</a>), and we observed the average mapping ratio of 83%, further validate the high completeness of <i>G. elata</i> genome assembly.</p>
+<div class="DottedLine"></div>
+<div class="Imageheaders">TABLE 1</div>
+<div class="FigureDesc">
+<a href="https://www.frontiersin.org/files/Articles/580568/fgene-11-580568-HTML/image_m/fgene-11-580568-t001.jpg" name="table1" target="_blank">
+<img src="https://www.frontiersin.org/files/Articles/580568/fgene-11-580568-HTML/image_t/fgene-11-580568-t001.gif" id="T1" alt="www.frontiersin.org" /></a>
+<p><strong>Table 1.</strong> Various assembly parameters of the <i>G. elata</i> genome.</p>
+</div>
+<div class="clear"></div>
+<div class="DottedLine"></div>
+<h3>RNA-Sequencing Data Analysis</h3>
+<p class="mb0">Overall, 82.37 million transcriptome raw reads were obtained from <i>G. elata</i> leaf, stem, and tuber tissues (<a href="#S8">Supplementary Table 2</a>). First, all RNA-sequencing (RNA-seq) data were filtered by the strict quality control process, then about 74.59 millions cleaned reads were <i>de novo</i> assembled using trinity<sup id="footnotesuper4"><a id="footnote4a"></a><a class="footnoteanchor" href="#footnote4">4</a></sup> (<a href="#B9">Grabherr et al., 2011</a>) with default settings to yield transcripts that prepared for the genome annotation. Next, all RNA-seq reads were mapped to the <i>G. elata</i> genome assembly using the TopHat2 (version 2.0.14; see text footnote 3) (<a href="#B35">Trapnell et al., 2009</a>) with default settings. The fragments per kilobase of exon model per million reads mapped (FPKM) of each predicted protein-coding gene was calculated by the Cufflinks<sup id="footnotesuper5"><a id="footnote5a"></a><a class="footnoteanchor" href="#footnote5">5</a></sup> using default parameters. FPKM &#x003E; = 0.05 was set as the threshold to identify expressed genes.</p>
+<h3>Repeat Sequence Annotation</h3>
+<p class="mb0">RepeatMasker (version 3.2.6) with the Repbase TE library was used to identify known transposable elements (TEs) with the default parameters. The library was constructed by generating the consensus sequence of each TE family, which was used for the RepeatMasker to identify additional high and medium copy repeats in the <i>G. elata</i> genome assembly. TRF with parameters set to &#x201C;Match = 2, Mismatch = 7, Delta = 7, PM = 80, PI = 10, Minscore = 50, and MaxPeriod = 2000&#x201D; was used to predict tandem repeats.</p>
+<h3>Protein-Coding Gene Annotation</h3>
+<p class="mb0">A combination of <i>de novo</i>-, transcriptome-based prediction, and homology aligning were used to process gene annotation. Gene sets from ten species (<i>Arabidopsis thaliana</i>, <i>Brachypodium distachyon</i>, <i>Oryza sativa</i>, <i>Sorghum bicolor</i>, <i>Solanum tuberosum</i>, <i>Triticum aestivum</i>, <i>Hordeum vulgare</i>, <i>P. equestris</i>, <i>Dendrobium catenatum</i>, and <i>A. shenzhenica</i>) were used for homology-based predictions, one species at a time. We used the TBLASTN to search the non-redundant protein sequences of each gene set with an E-value &#x003C; 1e-2. Only regions with homologous blocks longer than 80% of the query protein were retained. The best hits were selected. Then, the EVM was used to construct the gene structures. After repeat sequences were masked using the homology-based approach, three softwares, AUGUSTUS (<a href="#B34">Stanke et al., 2006</a>), SNAP (<a href="#B15">Korf, 2004</a>), and GlimmerHMM (<a href="#B26">Majoros et al., 2004</a>), were used for the genes <i>de novo</i> prediction. Information obtained from the homology-based predictions and <i>de novo</i> predictions were then integrated in the GLEAN to generate a consensus gene set. Finally, RNA-seq data from a single <i>G. elata</i> plant&#x2019;s flower, stem, and tuber tissues were obtained and assembled for the facilitating of the protein-coding gene annotation.</p>
+<h3>Functional Annotation</h3>
+<p class="mb0">Best hits were selected from alignments to the SwissProt and TrEMBL databases to assign gene function information. Gene motifs and domains were identified using the InterProScan5<sup id="footnotesuper6"><a id="footnote6a"></a><a class="footnoteanchor" href="#footnote6">6</a></sup> (<a href="#B14">Jones et al., 2014</a>) by alignment to databases including the ProDom, PRINTS, Pfam, SMART, PANTHER, and PROSITE. According to the corresponding SwissProt and TrEMBL entries information, Gene Ontology (GO) terms and ID for each gene was obtained. Kyoto Encyclopedia of Genes and Genomes (KEGG) protein database was used as reference for gene alignments to obtain KEGG IDs as well as the corresponding pathways information.</p>
+<h3>Gene Family Clustering</h3>
+<p class="mb0">All proteins from selected 13 species (<i>Gastodia elata</i>, <i>P. equestris</i>, <i>D. officinale</i>, <i>D. catenatum</i>, <i>A. shenzhenica</i>, <i>B. distachyon</i>, <i>O. sativa</i>, <i>S. bicolor</i>, <i>Spirodela polyrhiza</i>, <i>Musa acuminata, A. thaliana</i>, <i>Populus trichocarpa</i>, and <i>Vitis vinifera</i>) were aligned using the BLASTP, then, the gene families were defined using the OrthoMCL (<a href="#B22">Li et al., 2003</a>). CAF&#x00C9; (<a href="#B6">De Bie et al., 2006</a>) was then used to identify gene family expansions and contractions in <i>G. elata.</i> To identify gene family clusters in these species and <i>G. elata</i>, we performed all-versus-all protein alignments using the BLASTP with the E-value threshold set to &#x201C;1e-5.&#x201D; We used the OrthoMCL to process high scoring segment pairs. The MCL module from OrthoMCL was then used to define final paralogous and orthologous genes with the parameter set as &#x201C;&#x2212;abc &#x2013;I = 1.5&#x201D;.</p>
+<h3>Phylogenetic Tree Construction and Divergence Time Estimation</h3>
+<p class="mb0">Those single-copy orthologs identified from gene family cluster analysis of the aforementioned species were used to construct a phylogenetic tree. MUSCLE version 3.6<sup id="footnotesuper7"><a id="footnote7a"></a><a class="footnoteanchor" href="#footnote7">7</a></sup> (<a href="#B8">Edgar, 2004</a>) was used with default settings to perform multiple sequence alignments. Fourfold degenerate sites of genes were collected and concatenated into a &#x201C;super sequence&#x201D; for each species. We used the MrBayes<sup id="footnotesuper8"><a id="footnote8a"></a><a class="footnoteanchor" href="#footnote8">8</a></sup> (<a href="#B12">Huelsenbeck and Ronquist, 2001</a>) to reconstruct phylogenetic trees between species. The &#x201C;MCMCTREE&#x201D; module from the PAML package<sup id="footnotesuper9"><a id="footnote9a"></a><a class="footnoteanchor" href="#footnote9">9</a></sup> (<a href="#B43">Yang, 2007</a>) was used to estimate the divergence time among species.</p>
+<h3>Chloroplast Genome (Plastome) Assembly and Annotation</h3>
+<p class="mb0">The clean reads were aligned to the plastomes of <i>P. equestris</i> and <i>D. officinale</i> (<a href="#B13">Jheng et al., 2012</a>; <a href="#B42">Yang et al., 2016</a>) using the bowtie2 with default settings, respectively. Reads extracted from the &#x201C;paired-aligned&#x201D; alignments were merged and assembled using the SOAPdenovo with default parameters. Contigs shorter than 100 bp were excluded. Filtered contigs were joined to scaffolds based on the paired-end information and gaps between scaffolds were closured. DOGMA<sup id="footnotesuper10"><a id="footnote10a"></a><a class="footnoteanchor" href="#footnote10">10</a></sup> (<a href="#B40">Wyman et al., 2004</a>) was used to annotate the protein-coding genes and tRNA genes with the cut-off set to 80%. The boundaries of protein-coding genes and plastome structures were manually checked by comparison to the plastomes of <i>P. equestris</i> and <i>D. officinale</i>. The linear plot of <i>G. elata</i> plastome was yielded by the OGDRAW<sup id="footnotesuper11"><a id="footnote11a"></a><a class="footnoteanchor" href="#footnote11">11</a></sup> (<a href="#B25">Lohse et al., 2013</a>), followed with some manual adjustments.</p>
+<h3>Relaxation Selection Analyses and Symbiotic Gene Analysis</h3>
+<p class="mb15">These nuclear-encoded photosynthesis-related proteins were identified based on the National Center for Biotechnology Information (NCBI) database. Genome sequences of seven species (<i>G. elata, A. shenzhenica, P. equestris, D. catenatum, D. officinale, O. sativa</i>, and <i>A. thaliana</i>) were searched for all of the known plant nuclear-encoded photosynthesis-related genes. Only genes that were in a one-to-one orthologs for every pair of genomes of the seven species were used in our analyses. For genes that have more than one transcript, we aligned all of the possible transcript pairs to all seven species and retained those that provided the highest alignment scores. Alignments and consensus trees were used for posterior molecular evolutionary analysis. We used a gene-level approach based on the ratio of non-synonymous (<i>K</i><sub><i>a</i></sub>) to synonymous (<i>K</i><sub><i>s</i></sub>) substitutions rate (&#x03C9; = <i>K</i><sub><i>a</i></sub>/<i>K</i><sub><i>s</i></sub>) to identify potential relaxation of selective constraints, using the CODEML likelihood ratio tests (LRTs) algorithm from the PAML package. First, we tested branch models M0, the simplest model, which has a single &#x03C9; ratio for the entire tree. Subsequently, we used two-ratio models that allow a background &#x03C9; ratio and a different &#x03C9; on the branch of interest. For null hypotheses, we used the one-ratio model, two-ratio model, and more models with a fixed &#x03C9; = 1 on the branch under analysis. The level of significance for these LRTs was calculated using a &#x03C7;<sup>2</sup> approximation, where twice the difference of log likelihood between the models (2&#x0394;lnL) would be asymptotic to a &#x03C7;<sup>2</sup> distribution, with the number of degrees of freedom corresponding to the difference in the number of parameters between the nested models.</p>
+<p class="mb0">These Gastrodia antifungal protein (GAFP) were downloaded from the NCBI database. Genome sequences of seven species (<i>G. elata, A. shenzhenica, P. equestris, D. catenatum, D. officinale, O. sativa</i>, and <i>A. thaliana</i>) were searched for all of the known GAFP genes with blast software. Finally, the genes with E-value &#x2264; 1e-6 in the comparison result were selected as a candidate GAFP gene. And the protein domain of carotenoid cleavage dioxygenases (CCDs) was downloaded from the pfam website. The hmmersearch software were used for sequence alignment to identify CCDs genes in other species. The identified genes are calculated by <i>K</i><sub><i>a</i></sub>/<i>K</i><sub><i>s</i></sub> to verify whether positive selection occurred in <i>G. elata</i>.</p>
+<h3>High Performance Liquid Chromatography Analysis of Photosynthetic Pigments</h3>
+<p class="mb0">From each sample of <i>G. elata</i>&#x2019;s vestigial scalelike leaves and <i>P. equestris</i>&#x2019;s and <i>D. Officinale</i>&#x2019;s normal leaves, about 1 g of leave tissue was collected and dried as powder. Then, the dried powder was dealt with 100% 40 mL of methanol for half an hour and sonicated for an hour, and then, methanol diluted to 50 mL. The methanol extract was then filtered by the 0.45 &#x03BC;m membrane filter. Ten microliters of filtrate was prepared for high performance liquid chromatography (HPLC). Quantitative analysis of the photosynthetic pigments of three species was performed using the chromatographic column Inertsil ODS-3 (250 mm &#x00D7; 4.6 mm, 5 &#x03BC;m) and the column temperature was maintained at 25&#x00B0;C with the flow rate set as 1 mL &#x00D7; min<sup>&#x2013;1</sup>. The mobile phase was consisted of A: acetonitrile and 0.05 mol/L of Tris&#x2013;HC1 buffer (70:3); and B: methanol and n-hexane (5:1). Gradient elution was then used with the following system: 100% A at initiation, 100% A at 18 min, 100% B at 20.5 min, and 100% B at 46 min. 445 nm was used to detect photosynthetic pigments.</p>
+<a id="h4" name="h4"></a><h2>Results</h2>
+<h3 class="pt0">De novo Assembly of the <i>G. elata</i> Genome</h3>
+<p class="mb15">The genome size of <i>G. elata</i> was estimated to be 1.378 Gb using the <i>K</i>-mer distribution analysis (<a href="#S8">Supplementary Figure 2</a>). All 483.07 Gb clean data (350.56 &#x00D7; genome coverage) were <i>de novo</i> assembled into 69,353 contigs (1.11 Gb in total length) with a contig N50 size of 110.03 kb, and 45,884 scaffolds (1.12 Gb in total length) with a scaffold N50 size of 1.64 Mb (<a href="#S8">Supplementary Table 3</a>). As a result of high genome coverage, our <i>G. elata</i> assembly had a much longer contig N50 size (110.03 kb) than that from a previous study (68.9 kb, <a href="#T1">Table 1</a>; <a href="#B44">Yuan et al., 2018</a>). Preliminary evaluation of the quality of our assembly showed that at least 92% of the clean reads from different insert-sizes of paired-end libraries could be mapped back to the assembled genome (<a href="#S8">Supplementary Table 4</a>). In addition, over 82.37 million RNA sequencing reads from each of the flower, stem, and tuber tissues were generated to further verify the quality of the assembly. The overall mapping ratios of these reads to the genome assembly were 90.7% for the flower, 93.8% for the stem, and 67.1% for the tuber (<a href="#S8">Supplementary Table 2</a>), indicating the high quality of the <i>G. elata</i> genome.</p>
+<p class="mb0">The completeness of the genic regions and other genomic elements in our <i>G. elata</i> genome was evaluated by the BUSCOs approach (<a href="#B37">Waterhouse et al., 2017</a>). The result showed that 248 out of 303 (81.85%) near-universal single-copy orthologs were identified in our <i>G. elata</i> genome. This number was much higher than that reported in the previous study (67.15% BUSCO completeness, <a href="#T1">Table 1</a>; <a href="#B44">Yuan et al., 2018</a>). Additionally, 12 BUSCO genes (3.96%) had fragmented matches, and 43 BUSCO genes (14.19%) were missing in our assembly. Both parameters were lower than that reported in the previous study (4.39 and 28.45%, respectively, <a href="#T1">Table 1</a>; <a href="#B44">Yuan et al., 2018</a>). These data demonstrated that our <i>G. elata</i> genome had a much higher completeness for subsequent functional analysis.</p>
+<h3><i>Gastrodia elata</i> Genome Repeat Analysis</h3>
+<p class="mb0">Repetitive DNA elements constituted approximately 68.34% of the acquired genome (<a href="#S8">Supplementary Table 5</a>). This proportion was higher than those of the other orchids genomes, including <i>P. equestris</i> (62%) (<a href="#B3">Cai et al., 2015</a>), <i>D. officinale</i> (63.33%) (<a href="#B23">Liang et al., 2015</a>), and <i>A. shenzhenica</i> (42.05%) (<a href="#B45">Zhang et al., 2017</a>). Long interspersed nuclear elements (LINEs) and DNA transposons constituted 6.20 and 7.49% of the total genome assembly, respectively (<a href="#S8">Supplementary Table 5</a>). The long terminal repeats (LTRs) were the most abundant TEs, which constituted 59.95% of the genome (<a href="#S8">Supplementary Table 5</a>). Notably, Gypsy-type (37.41%) and Copia-type (8.07%) TEs accounted for most of the LTRs (<a href="#S8">Supplementary Table 6</a>). Sequence divergence line plot of Copia and Gypsy types of TEs shows that both of the two types experienced two recently expansion events during the same periods (<a href="#S8">Supplementary Figure 3a</a>). Compared to the conserved single copy genes, those duplicated genes (&#x201C;accessory genes&#x201D;) in <i>G. elata</i> are located closer to the TEs (Fisher&#x2019;s exact test, <i>P</i> &#x003C; 0.005), suggesting their contribution in gene copy number variation and the important role in <i>G. elata</i> evolution (<a href="#S8">Supplementary Figure 3b</a>).</p>
+<h3>Orthologous Gene Analysis in the <i>G. elata</i> Genome</h3>
+<p class="mb15">Overall, we identified 24,484 protein-coding genes (<a href="#S8">Supplementary Table 7</a>) with about 10.05 kb average length in the <i>G. elata</i> genome that belonged to 11,065 unique gene families (<a href="#S8">Supplementary Table 8</a>). Besides, we also identified a myriad of microRNAs (1,125), transfer RNAs (1,123), ribosomal RNAs (1,596), and small nuclear RNAs (868; <a href="#S8">Supplementary Table 9</a>) in the <i>G. elata</i> genome.</p>
+<p class="mb0">Phylogenetic analysis with divergence time estimation showed that the <i>G. elata</i> diverged from other orchids somewhere between 72.3 and 55.8 million years ago (Mya) (<a href="#F1">Figure 1B</a>). During the course of evolution, it is apparent that 19 gene families were significantly expanded (<i>P</i> &#x003C; 0.001; <a href="#S8">Supplementary Table 10</a>), whereas six gene families were significantly contracted in the <i>G. elata</i> genome (<i>P</i> &#x003C; 0.001; <a href="#S8">Supplementary Table 11</a>). KEGG enrichment analyses showed that gene families involved in flavonoid biosynthesis, plant-pathogen interaction, and circadian rhythm were significantly contracted in the <i>G. elata</i> genome (<a href="#S8">Supplementary Table 12</a>). In comparison, the expanded gene families are mainly involved in the glycan, sphingolipid, and galactose metabolisms, and intriguingly, also plant-pathogen interaction (<a href="#S8">Supplementary Table 13</a>). Since some members of the plant-pathogen interaction gene families were contracted and other members were expanded, it is possible that <i>G. elata</i> may have rewired its pathogen resistance pathway when adapting to the low-light environment. Indeed, <i>G. elata</i> as a fully mycoheterotrophic plant not only needs to obtain nutrients from the fungi associates, but also have to prevent the fungi from invading into the inner most section of the tuber (<a href="#B46">Zhang, 1980</a>).</p>
+<h3><i>Gastrodia elata</i> Plastome Assembly and Relaxed Selection of Plastid Genes</h3>
+<p class="mb0">The conserved plastome structure of most land plants generally is a quadripartite single circular molecule of 100&#x2013;220 kb. It consists of a small and a large single-copy regions (SSC and LSC) which are separated by a pair of inverted repeats (IRs) (<a href="#B33">Sandelius and Aronsson, 2009</a>). The plastome of the photosynthetic plant harbors around 100 essential genes that primarily encode RNAs and proteins involved in photosynthesis, transcription, and translation (<a href="#B5">Daniell et al., 2016</a>). <i>P. equestris</i> and <i>D. officinale</i> are two photosynthetic orchids with fully functional plastomes as other land plants (<a href="#B13">Jheng et al., 2012</a>; <a href="#B42">Yang et al., 2016</a>). The plastomes of these two orchids (with sizes of 148,959 and 152,018 bp, respectively) both have the typical quadripartite single circular molecule structure with relatively complete photosynthesis-related gene sets (<a href="#F2">Figure 2</a>). In comparison, the plastome of <i>G. elata</i> was assembled with the size of 40,037 bp, meaning that more than two thirds of the plastome sequence was lost after the transition to a low-light heterotrophic lifestyle (<a href="#F2">Figure 2</a>). IRs are considered to play roles in plastome stabilization (<a href="#B30">Palmer and Thompson, 1982</a>). In the <i>G. elata</i> plastome, one copy of IR was completely lost, and the remaining IR sequence was less than half the size of its counterparts in the other two orchids. The <i>G. elata</i> LSC retained less than a quarter of the sequence size compared to the two orchid plastomes, and the <i>G. elata</i> SSC also lost half of its size.</p>
+<div class="DottedLine"></div>
+<div class="Imageheaders">FIGURE 2</div>
+<div class="FigureDesc">
+<a href="https://www.frontiersin.org/files/Articles/580568/fgene-11-580568-HTML/image_m/fgene-11-580568-g002.jpg" name="figure2" target="_blank">
+<img src="https://www.frontiersin.org/files/Articles/580568/fgene-11-580568-HTML/image_t/fgene-11-580568-g002.gif" id="F2" alt="www.frontiersin.org" /></a>
+<p><strong>Figure 2.</strong> Plastid map of three orchid plants. The plastid of <i>G. elata</i> shows significant degradation comparing with <i>P. equestris</i> and <i>D. officinale</i>. &#x03A8; indicates the pseudogenes.</p>
+</div>
+<div class="clear"></div>
+<div class="DottedLine"></div>
+<p class="mb15 w100pc float_left mt15">Only 50 genes were identified in the <i>G. elata</i> plastome, among which 10 genes were manually checked to be pseudogenes (with frameshifts or premature stop codons) (<a href="#S8">Supplementary Table 14</a>). The photosynthesis-related genes in the <i>G. elata</i> plastome were carefully checked. The result showed that the paralogs of <i>psa</i> and <i>psb</i> (photosystem I and II genes), <i>pet</i> (cytochrome b/f complex genes), <i>rbc</i> (rubisco subunit genes), and <i>atp</i> (ATP synthase genes) were completely lost or were found to have incomplete gene structures due to a reduced LSC. Two of the six remaining <i>ndh</i> (NADH dehydrogenase) genes were found to be non-functional. All these changes concluded that the genomic basis of photosynthesis in the <i>G. elata</i> plastome was highly degenerated. These observations are in accordance with a previous report (<a href="#B44">Yuan et al., 2018</a>), which includes small assembled plastome sizes (40,026 vs. 35,326 bp), extensively loss of DNA fragments, missing of one copy of IR structure, and loss or non-functional of photosynthesis-related genes.</p>
+<p class="mb0">Natural selection is essential in the maintenance of trait for the plant population. The weakening or disappear of selection strength that leads to trait variations is referred to as &#x201C;relaxed selection&#x201D; (<a href="#B18">Lahti et al., 2009</a>). In its evolutionary history, <i>G. elata</i> experienced the transition to a low-light, undergrowth environment (<a href="#B2">Bidartondo, 2005</a>) and a fully heterotrophic lifestyle. This transition made photosynthesis dispensable for <i>G. elata</i> to survive. We therefore hypothesized that the remaining photosynthesis-related plastome genes might be under relaxed selection. Indeed, the <i>K</i><sub><i>a</i></sub>/<i>K</i><sub><i>s</i></sub> values of these genes (includes <i>psa</i>, <i>psb</i>, <i>atp</i>, <i>pet</i> genes, and so on) in <i>G. elata</i> were higher than <i>D. officinale</i> and <i>P. equestris</i>, and non-orchid plant species (<a href="#S8">Supplementary Table 15</a>). This indicates the reduction of functional constraints, and, thus, these genes were under a significantly different selective regime in <i>G. elata</i> than in those photosynthetically active species.</p>
+<h3>Relaxation of Selective Constraints of Nuclear-Coded Photosynthesis-Related Genes in <i>G. elata</i></h3>
+<p class="mb0">We define &#x201C;photosynthesis-related genes&#x201D; as all known genes that are involved in the structure, development, and normal function of the plastid and leaf in land plants. The plastome only contains a small part of these photosynthesis-related genes, and the rest are within the plant nuclear genome. Based on the aforementioned hypothesis, we also checked the molecular evolution of the photosynthesis-related nuclear genes in the <i>G. elata</i> genome. In brief, they consisted of 4,818 plastid-related genes, 203 leaf development-related genes, and 1,408 genes that were directly involved in the photosynthesis. The <i>K</i><sub><i>a</i></sub>/<i>K</i><sub><i>s</i></sub> values of these genes in <i>G. elata</i> were significantly higher than those in other orchids and non-orchid plant species, indicating relaxation of selective constraints on the leaf development and the photosynthesis process (<i>t</i>-test and two-way ANOVA test, <i>p</i> &#x003C; 0.05, <a href="#F3">Figure 3</a> and <a href="#S8">Supplementary Figure 4</a>). We also found that the <i>K</i><sub><i>a</i></sub>/<i>K</i><sub><i>s</i></sub> values of these searched genes in orchids were higher than those in non-orchid species. It suggested that there might be a partial relaxation of selection on plastid and leave functions in the photosynthetic orchids due to their symbiotic relationships with fungi. These findings also suggested a positive correlation between the degree of heterotrophy in plants and the non-synonymous mutation rates in genes that were involved in the photosynthetic process, plastid and leave functions.</p>
+<div class="DottedLine"></div>
+<div class="Imageheaders">FIGURE 3</div>
+<div class="FigureDesc">
+<a href="https://www.frontiersin.org/files/Articles/580568/fgene-11-580568-HTML/image_m/fgene-11-580568-g003.jpg" name="figure3" target="_blank">
+<img src="https://www.frontiersin.org/files/Articles/580568/fgene-11-580568-HTML/image_t/fgene-11-580568-g003.gif" id="F3" alt="www.frontiersin.org" /></a>
+<p><strong>Figure 3.</strong> Relaxation of selective constraints on nuclear-encoded genes. <i>K</i><sub><i>a</i></sub>/<i>K</i><sub><i>s</i></sub> ratios of nuclear-encoded plastid genes and genes involved in leaf development in <i>G. elata</i>, other orchids (including <i>D. officinale</i>, <i>P. equestris</i>, <i>D. catenatum</i>, and <i>A. shenzhenica</i>) and other green plants (including <i>A. thaliana</i> and <i>O. sativa</i>). &#x002A;<i>P</i> &#x003C; 0.05.</p>
+</div>
+<div class="clear"></div>
+<div class="DottedLine"></div>
+<h3>Analysis of Symbiotic Genes in <i>G. elata</i> Genome</h3>
+<p class="mb0">Since <i>G. elata</i> cannot perform photosynthesis, it relies on symbiotic genes for nutrition, so symbiotic genes are also attracting attention in the <i>Analysis of Symbiotic Genes in Gastrodia Genome</i>. <i>G. elata</i> exists underground without leaves and chloroplasts, with the nutrients necessary for growth being supplied by the symbiotic fungus <i>Armillaria mellea</i> (<a href="#B32">Sa et al., 2003</a>) fungus. Gastrodia antifungal protein (GAFP, also known as gastrodianin) was first purified from the cortex of the terminal corm of <i>G. elata</i> (<a href="#B11">Hu et al., 1988</a>). It is mainly distributed throughout the epidermis and cortex layer of <i>G. elata</i> (<a href="#B24">Liu et al., 1993</a>; <a href="#B10">Hu and Huang, 1994</a>) and shows a strong fungistatic activity against a broad spectrum of fungi, including <i>A. mellea</i> (<a href="#B10">Hu and Huang, 1994</a>), <i>Rhizoctonia solani</i>, <i>Valsa ambiens</i>, <i>Gibberella zeae</i>, <i>Ganoderma lucidum</i>, and <i>Botrytis cinerea in vitro</i> to reach plants symbiosis with microorganisms (<a href="#B36">Wang et al., 2001</a>). In the <i>G. elata</i> genome, we identified 20 GAFP genes, 10 GAFP genes in <i>A. shenzhenica</i>, and 0 in <i>A. thaliana</i>, which indicates that GAFP has expanded in <i>G. elata</i> (<a href="#S8">Supplementary Table 16</a>). It is known that strigolactone can stimulate hyphal branching and development of arbuscular mycorrhizal fungi, which increases the chances of an encounter with a host plant (<a href="#B17">Kretzschmar et al., 2012</a>). Strigolactone is an important signal for the establishment of the symbiosis relationship between <i>G. elata</i> and <i>A. mellea</i>. Its mechanism of action is similar to that of promoting symbiosis between plants and mycorrhiza. In this article, we have identified the key genes for the biosynthesis of strigolactone CCDs (<a href="#B7">Delaux et al., 2012</a>). In the <i>G. elata</i> genome, 12 CCDs genes were identified, whereas ten and nine CCDs genes were identified in <i>A. shenzhenica</i> and <i>A. thaliana</i>, respectively. In order to verify whether the CCDs gene has positive selection in <i>G. elata</i>, we further performed the <i>K</i><sub><i>a</i></sub>/<i>K</i><sub><i>s</i></sub> analysis. The <i>K</i><sub><i>a</i></sub>/<i>K</i><sub><i>s</i></sub> values of these genes in <i>G. elata</i> were significantly higher than those in <i>D. catenatum</i> and <i>P. equestris</i>. It showed that, compared with some orchid and non-orchid plant species, CCDs have expanded in the <i>G. elata</i> genome.</p>
+<h3>Genomic Basis for the Achlorophyllous Phenotype in <i>G. elata</i></h3>
+<p class="mb0">We next investigated nuclear-encoded genes involved in the plant pigment synthesis in the <i>G. elata</i> genome. We detected no copies of four core genes in the chlorophyll biosynthetic pathway (<i>UROS</i>, <i>CAO</i>, <i>LPOR</i>, and <i>VDE</i>; <a href="#S8">Supplementary Figure 5a</a>). This is in line with the result that no signals of major photosynthetic pigments could be detected via the HPLC in the <i>G. elata</i> plant tissue (compared to the other two orchids <i>D. officinale</i> and <i>P. equestris</i>) (<a href="#S8">Supplementary Figure 5b</a>). Moreover, three essential genes (<i>PDV1</i>, <i>PDV2</i>, and <i>ARC3</i>) involved in the chloroplast division were also not detected (<a href="#S8">Supplementary Figure 6</a>). These results clearly showed the genomic basis for the achlorophyllous phenotype in <i>G. elata</i>.</p>
+<a id="h5" name="h5"></a><h2>Conclusion</h2>
+<p class="mb0">The <i>G. elata</i> genome provides an illuminating model for probing evolutionary molecular changes associated with leaf loss, plastid degeneration, and plant-fungal symbioses. Both plastid-encoded and nuclear-encoded photosynthesis-related genes in <i>G. elata</i> showed evidence of the relaxation of selective constraints. Besides the profound changes in the photosynthetic system, it is possible that future research could identify the underlying mechanisms for the rewiring of basic metabolic pathways, the evolution of TEs, gene death, and generation of new genes, since an improved <i>G. elata</i> genome is now available. Thus, the genome sequence of <i>G. elata</i> would be a valuable resource for future investigations of the evolution of orchids and non-photosynthetic plants at both the genomic and the whole-organism levels.</p>
+<a id="h6" name="h6"></a><h2>Data Availability Statement</h2>
+<p class="mb0">The datasets presented in this study can be found in online repositories. The names of the repository/repositories and accession number(s) can be found below: NCBI database under BioProject PRJNA394702.</p>
+<a id="h7" name="h7"></a><h2>Author Contributions</h2>
+<p class="mb0">SSC, GHZ, and WLS collected the samples and performed the experiments. XW, YZW, and XD completed the data analysis. YD, WC, WW, MA, and JHM edited and modified the manuscript. All authors read and approved the manuscript.</p>
+<a id="fun1" name="fun1"></a><h2>Funding</h2>
+<p class="mb0">This study was supported by &#x201C;The Thousand Talents Program&#x201D; (Class B) of the government of China, National Key R&#x0026;D Program of China (2019YFC1711100), Yunnan Provincial Key Programs of Yunnan Eco-friendly Food International Cooperation Research Center Project (2019ZG00908), and the Guangxi Innovation-Driven Development Project (GuiKe AA18242040).</p>
+<a id="conf1" name="conf1"></a><h2>Conflict of Interest</h2>
+<p class="mb15">XW was employed by the company Jiaxing Synbiolab Biotechnology Co., Ltd. and she declared that Jiaxing Synbiolab Biotechnology Co., Ltd. plays no role in the funding, design, analysis, and publication of this manuscript.</p>
+<p class="mb0">The remaining authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p>
+<a id="h9" name="h9"></a><h2>Supplementary Material</h2>
+<p class="mb0">The Supplementary Material for this article can be found online at: <a href="https://www.frontiersin.org/articles/10.3389/fgene.2020.580568/full#supplementary-material">https://www.frontiersin.org/articles/10.3389/fgene.2020.580568/full#supplementary-material</a></p>
+<a id="FNT1" name="FNT1"></a><h2>Footnotes</h2>
+<ol>
+<li id="footnote1"><strong><a style="color:gray;" class="footnotetextanchor" href="#footnote1a" title="">^</a></strong> <a style="color:gray;" href="http://sourceforge.net/projects/soapdenovo2/files/GapCloser/">http://sourceforge.net/projects/soapdenovo2/files/GapCloser/</a></li>
+<li id="footnote2"><strong><a style="color:gray;" class="footnotetextanchor" href="#footnote2a" title="">^</a></strong> <a style="color:gray;" href="https://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.3.4.3">https://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.3.4.3</a></li>
+<li id="footnote3"><strong><a style="color:gray;" class="footnotetextanchor" href="#footnote3a" title="">^</a></strong> <a style="color:gray;" href="http://ccb.jhu.edu/software/tophat/index.shtml">http://ccb.jhu.edu/software/tophat/index.shtml</a></li>
+<li id="footnote4"><strong><a style="color:gray;" class="footnotetextanchor" href="#footnote4a" title="">^</a></strong> <a style="color:gray;" href="https://github.com/trinityrnaseq/trinityrnaseq/releases">https://github.com/trinityrnaseq/trinityrnaseq/releases</a></li>
+<li id="footnote5"><strong><a style="color:gray;" class="footnotetextanchor" href="#footnote5a" title="">^</a></strong> <a style="color:gray;" href="http://cole-trapnell-lab.github.io/cufflinks/cuffdiff/index.html">http://cole-trapnell-lab.github.io/cufflinks/cuffdiff/index.html</a></li>
+<li id="footnote6"><strong><a style="color:gray;" class="footnotetextanchor" href="#footnote6a" title="">^</a></strong> <a style="color:gray;" href="ftp://ftp.ebi.ac.uk/pub/software/unix/iprscan/5/5.32-71.0/interproscan-5.32-71.0-64-bit.tar.gz">ftp://ftp.ebi.ac.uk/pub/software/unix/iprscan/5/5.32-71.0/interproscan-5.32-71.0-64-bit.tar.gz</a></li>
+<li id="footnote7"><strong><a style="color:gray;" class="footnotetextanchor" href="#footnote7a" title="">^</a></strong> <a style="color:gray;" href="http://www.drive5.com/muscle/downloads.htm">http://www.drive5.com/muscle/downloads.htm</a></li>
+<li id="footnote8"><strong><a style="color:gray;" class="footnotetextanchor" href="#footnote8a" title="">^</a></strong> <a style="color:gray;" href="http://nbisweden.github.io/MrBayes/download.html">http://nbisweden.github.io/MrBayes/download.html</a></li>
+<li id="footnote9"><strong><a style="color:gray;" class="footnotetextanchor" href="#footnote9a" title="">^</a></strong> <a style="color:gray;" href="http://evomics.org/resources/software/molecular-evolution-software/paml/">http://evomics.org/resources/software/molecular-evolution-software/paml/</a></li>
+<li id="footnote10"><strong><a style="color:gray;" class="footnotetextanchor" href="#footnote10a" title="">^</a></strong> <a style="color:gray;" href="http://dogma.ccbb.utexas.edu">http://dogma.ccbb.utexas.edu</a></li>
+<li id="footnote11"><strong><a style="color:gray;" class="footnotetextanchor" href="#footnote11a" title="">^</a></strong> <a style="color:gray;" href="https://chlorobox.mpimp-golm.mpg.de/OGDraw-Downloads.html">https://chlorobox.mpimp-golm.mpg.de/OGDraw-Downloads.html</a></li>
+</ol>
+<a id="refer1" name="refer1"></a><h2>References</h2>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B1" id="B1"></a>Barrett, C. F., and Davis, J. I. (2012). The plastid genome of the mycoheterotrophic <i>Corallorhiza striata</i> (Orchidaceae) is in the relatively early stages of degradation. <i>Am. J. Bot.</i> 99, 1513&#x2013;1523. doi: 10.3732/ajb.1200256</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/22935364" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.3732/ajb.1200256" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=The+plastid+genome+of+the+mycoheterotrophic+Corallorhiza+striata+%28Orchidaceae%29+is+in+the+relatively+early+stages+of+degradation%2E&#x0026;journal=Am%2E+J%2E+Bot%2E&#x0026;author=Barrett+C.+F.&#x0026;author=Davis+J.+I.&#x0026;publication_year=2012&#x0026;volume=99&#x0026;pages=1513&#x2013;1523" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B2" id="B2"></a>Bidartondo, M. I. (2005). The evolutionary ecology of myco-heterotrophy. <i>New Phytol.</i> 167, 335&#x2013;352. doi: 10.1111/j.1469-8137.2005.01429.x</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/15998389" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1111/j.1469-8137.2005.01429.x" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=The+evolutionary+ecology+of+myco-heterotrophy%2E&#x0026;journal=New+Phytol%2E&#x0026;author=Bidartondo+M.+I.&#x0026;publication_year=2005&#x0026;volume=167&#x0026;pages=335&#x2013;352" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B3" id="B3"></a>Cai, J., Liu, X., Vanneste, K., Proost, S., Tsai, W. C., Liu, K. W., et al. (2015). The genome sequence of the orchid <i>Phalaenopsis equestris</i>. <i>Nat. Genet.</i> 47, 65&#x2013;72. doi: 10.1038/ng.3149</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/25420146" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1038/ng.3149" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=The+genome+sequence+of+the+orchid+Phalaenopsis+equestris%2E&#x0026;journal=Nat%2E+Genet%2E&#x0026;author=Cai+J.&#x0026;author=Liu+X.&#x0026;author=Vanneste+K.&#x0026;author=Proost+S.&#x0026;author=Tsai+W.+C.&#x0026;author=Liu+K.+W.&#x0026;publication_year=2015&#x0026;volume=47&#x0026;pages=65&#x2013;72" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B4" id="B4"></a>Cribb, P., and Killmann, E. F. A. D. (2010). A revision of Gastrodia (Orchidaceae: Epidendroideae, Gastrodieae) in tropical Africa. <i>Kew Bull.</i> 65, 315&#x2013;321. doi: 10.1007/s12225-010-9193-4</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1007/s12225-010-9193-4" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=A+revision+of+Gastrodia+%28Orchidaceae%3A+Epidendroideae%2C+Gastrodieae%29+in+tropical+Africa%2E&#x0026;journal=Kew+Bull%2E&#x0026;author=Cribb+P.&#x0026;author=Killmann+E.+F.+A.+D.&#x0026;publication_year=2010&#x0026;volume=65&#x0026;pages=315&#x2013;321" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B5" id="B5"></a>Daniell, H., Lin, C. S., Yu, M., and Chang, W. J. (2016). Chloroplast genomes: diversity, evolution, and applications in genetic engineering. <i>Genome Biol.</i> 17:134. doi: 10.1186/s13059-016-1004-2</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/27339192" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1186/s13059-016-1004-2" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Chloroplast+genomes%3A+diversity%2C+evolution%2C+and+applications+in+genetic+engineering%2E&#x0026;journal=Genome+Biol%2E&#x0026;author=Daniell+H.&#x0026;author=Lin+C.+S.&#x0026;author=Yu+M.&#x0026;author=Chang+W.+J.&#x0026;publication_year=2016&#x0026;volume=17&#x0026;issue=134" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B6" id="B6"></a>De Bie, T., Cristianini, N., Demuth, J. P., and Hahn, M. W. (2006). CAFE: a computational tool for the study of gene family evolution. <i>Bioinformatics</i> 22, 1269&#x2013;1271. doi: 10.1093/bioinformatics/btl097</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/16543274" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/bioinformatics/btl097" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=CAFE%3A+a+computational+tool+for+the+study+of+gene+family+evolution%2E&#x0026;journal=Bioinformatics&#x0026;author=De+Bie+T.&#x0026;author=Cristianini+N.&#x0026;author=Demuth+J.+P.&#x0026;author=Hahn+M.+W.&#x0026;publication_year=2006&#x0026;volume=22&#x0026;pages=1269&#x2013;1271" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B7" id="B7"></a>Delaux, P. M., Xie, X., Timme, R. E., Puech-Pages, V., Dunand, C., Lecompte, E., et al. (2012). Origin of strigolactones in the green lineage. <i>New Phytol.</i> 195, 857&#x2013;871. doi: 10.1111/j.1469-8137.2012.04209.x</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/22738134" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1111/j.1469-8137.2012.04209.x" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Origin+of+strigolactones+in+the+green+lineage%2E&#x0026;journal=New+Phytol%2E&#x0026;author=Delaux+P.+M.&#x0026;author=Xie+X.&#x0026;author=Timme+R.+E.&#x0026;author=Puech-Pages+V.&#x0026;author=Dunand+C.&#x0026;author=Lecompte+E.&#x0026;publication_year=2012&#x0026;volume=195&#x0026;pages=857&#x2013;871" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B8" id="B8"></a>Edgar, R. C. (2004). MUSCLE: multiple sequence alignment with high accuracy and high throughput. <i>Nucleic Acids Res.</i> 32, 1792&#x2013;1797. doi: 10.1093/nar/gkh340</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/15034147" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/nar/gkh340" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=MUSCLE%3A+multiple+sequence+alignment+with+high+accuracy+and+high+throughput%2E&#x0026;journal=Nucleic+Acids+Res%2E&#x0026;author=Edgar+R.+C.&#x0026;publication_year=2004&#x0026;volume=32&#x0026;pages=1792&#x2013;1797" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B9" id="B9"></a>Grabherr, M. G., Haas, B. J., Yassour, M., Levin, J. Z., Thompson, D. A., Amit, I., et al. (2011). Full-length transcriptome assembly from RNA-Seq data without a reference genome. <i>Nat. Biotechnol.</i> 29, 644&#x2013;652. doi: 10.1038/nbt.1883</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/21572440" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1038/nbt.1883" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Full-length+transcriptome+assembly+from+RNA-Seq+data+without+a+reference+genome%2E&#x0026;journal=Nat%2E+Biotechnol%2E&#x0026;author=Grabherr+M.+G.&#x0026;author=Haas+B.+J.&#x0026;author=Yassour+M.&#x0026;author=Levin+J.+Z.&#x0026;author=Thompson+D.+A.&#x0026;author=Amit+I.&#x0026;publication_year=2011&#x0026;volume=29&#x0026;pages=644&#x2013;652" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B10" id="B10"></a>Hu, Z., and Huang, Q. Z. (1994). Induction and accumulation of the antifungal protein in <i>Gastrodia elata</i>. <i>Acta Bot. Yunnan</i> 16, 169&#x2013;177.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Induction+and+accumulation+of+the+antifungal+protein+in+Gastrodia+elata%2E&#x0026;journal=Acta+Bot%2E+Yunnan&#x0026;author=Hu+Z.&#x0026;author=Huang+Q.+Z.&#x0026;publication_year=1994&#x0026;volume=16&#x0026;pages=169&#x2013;177" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B11" id="B11"></a>Hu, Z., Yang, Z., and Wang, J. (1988). Isolation and partial characterization of an antifungal protein from Gastrodia elata corm. <i>Acta Bot. Yunnanica</i> 10, 373&#x2013;380.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Isolation+and+partial+characterization+of+an+antifungal+protein+from+Gastrodia+elata+corm%2E&#x0026;journal=Acta+Bot%2E+Yunnanica&#x0026;author=Hu+Z.&#x0026;author=Yang+Z.&#x0026;author=Wang+J.&#x0026;publication_year=1988&#x0026;volume=10&#x0026;pages=373&#x2013;380" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B12" id="B12"></a>Huelsenbeck, J. P., and Ronquist, F. (2001). MRBAYES: bayesian inference of phylogenetic trees. <i>Bioinformatics</i> 17, 754&#x2013;755. doi: 10.1093/bioinformatics/17.8.754</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/11524383" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/bioinformatics/17.8.754" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=MRBAYES%3A+bayesian+inference+of+phylogenetic+trees%2E&#x0026;journal=Bioinformatics&#x0026;author=Huelsenbeck+J.+P.&#x0026;author=Ronquist+F.&#x0026;publication_year=2001&#x0026;volume=17&#x0026;pages=754&#x2013;755" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B13" id="B13"></a>Jheng, C. F., Chen, T. C., Lin, J. Y., Chen, T. C., Wu, W. L., and Chang, C. C. (2012). The comparative chloroplast genomic analysis of photosynthetic orchids and developing DNA markers to distinguish <i>Phalaenopsis orchids</i>. <i>Plant Sci.</i> 190, 62&#x2013;73. doi: 10.1016/j.plantsci.2012.04.001</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/22608520" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/j.plantsci.2012.04.001" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=The+comparative+chloroplast+genomic+analysis+of+photosynthetic+orchids+and+developing+DNA+markers+to+distinguish+Phalaenopsis+orchids%2E&#x0026;journal=Plant+Sci%2E&#x0026;author=Jheng+C.+F.&#x0026;author=Chen+T.+C.&#x0026;author=Lin+J.+Y.&#x0026;author=Chen+T.+C.&#x0026;author=Wu+W.+L.&#x0026;author=Chang+C.+C.&#x0026;publication_year=2012&#x0026;volume=190&#x0026;pages=62&#x2013;73" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B14" id="B14"></a>Jones, P., Binns, D., Chang, H. Y., Fraser, M., Li, W., McAnulla, C., et al. (2014). InterProScan 5: genome-scale protein function classification. <i>Bioinformatics</i> 30, 1236&#x2013;1240. doi: 10.1093/bioinformatics/btu031</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/24451626" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/bioinformatics/btu031" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=InterProScan+5%3A+genome-scale+protein+function+classification%2E&#x0026;journal=Bioinformatics&#x0026;author=Jones+P.&#x0026;author=Binns+D.&#x0026;author=Chang+H.+Y.&#x0026;author=Fraser+M.&#x0026;author=Li+W.&#x0026;author=McAnulla+C.&#x0026;publication_year=2014&#x0026;volume=30&#x0026;pages=1236&#x2013;1240" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B15" id="B15"></a>Korf, I. (2004). Gene finding in novel genomes. <i>BMC Bioinformatics</i> 5:59. doi: 10.1186/1471-2105-5-59</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/15144565" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1186/1471-2105-5-59" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Gene+finding+in+novel+genomes%2E&#x0026;journal=BMC+Bioinformatics&#x0026;author=Korf+I.&#x0026;publication_year=2004&#x0026;volume=5&#x0026;issue=59" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B16" id="B16"></a>Krause, K. (2008). From chloroplasts to &#x201C;cryptic&#x201D; plastids: evolution of plastid genomes in parasitic plants. <i>Curr. Genet.</i> 54, 111&#x2013;121. doi: 10.1007/s00294-008-0208-8</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/18696071" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1007/s00294-008-0208-8" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=From+chloroplasts+to+&#x201C;cryptic&#x201D;+plastids%3A+evolution+of+plastid+genomes+in+parasitic+plants%2E&#x0026;journal=Curr%2E+Genet%2E&#x0026;author=Krause+K.&#x0026;publication_year=2008&#x0026;volume=54&#x0026;pages=111&#x2013;121" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B17" id="B17"></a>Kretzschmar, T., Kohlen, W., Sasse, J., Borghi, L., Schlegel, M., Bachelier, J. B., et al. (2012). A petunia ABC protein controls strigolactone-dependent symbiotic signalling and branching. <i>Nature</i> 483, 341&#x2013;344. doi: 10.1038/nature10873</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/22398443" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1038/nature10873" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=A+petunia+ABC+protein+controls+strigolactone-dependent+symbiotic+signalling+and+branching%2E&#x0026;journal=Nature&#x0026;author=Kretzschmar+T.&#x0026;author=Kohlen+W.&#x0026;author=Sasse+J.&#x0026;author=Borghi+L.&#x0026;author=Schlegel+M.&#x0026;author=Bachelier+J.+B.&#x0026;publication_year=2012&#x0026;volume=483&#x0026;pages=341&#x2013;344" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B18" id="B18"></a>Lahti, D. C., Johnson, N. A., Ajie, B. C., Otto, S. P., Hendry, A. P., Blumstein, D. T., et al. (2009). Relaxed selection in the wild. <i>Trends Ecol. Evol.</i> 24, 487&#x2013;496. doi: 10.1016/j.tree.2009.03.010</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/19500875" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/j.tree.2009.03.010" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Relaxed+selection+in+the+wild%2E&#x0026;journal=Trends+Ecol%2E+Evol%2E&#x0026;author=Lahti+D.+C.&#x0026;author=Johnson+N.+A.&#x0026;author=Ajie+B.+C.&#x0026;author=Otto+S.+P.&#x0026;author=Hendry+A.+P.&#x0026;author=Blumstein+D.+T.&#x0026;publication_year=2009&#x0026;volume=24&#x0026;pages=487&#x2013;496" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B19" id="B19"></a>Lan, J., Xu, J. T., and Li, J. S. (1994). Study on symbiotic relation between Gastrodia elata and Armillariella mellea by autoradiography. <i>Mycosystema</i> 13, 219&#x2013;222.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Study+on+symbiotic+relation+between+Gastrodia+elata+and+Armillariella+mellea+by+autoradiography%2E&#x0026;journal=Mycosystema&#x0026;author=Lan+J.&#x0026;author=Xu+J.+T.&#x0026;author=Li+J.+S.&#x0026;publication_year=1994&#x0026;volume=13&#x0026;pages=219&#x2013;222" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B20" id="B20"></a>Langmead, B., and Salzberg, S. L. (2012). Fast gapped-read alignment with Bowtie 2. <i>Nat. Methods</i> 9, 357&#x2013;359. doi: 10.1038/nmeth.1923</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/22388286" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1038/nmeth.1923" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Fast+gapped-read+alignment+with+Bowtie+2%2E&#x0026;journal=Nat%2E+Methods&#x0026;author=Langmead+B.&#x0026;author=Salzberg+S.+L.&#x0026;publication_year=2012&#x0026;volume=9&#x0026;pages=357&#x2013;359" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B21" id="B21"></a>Leake, J. R. (1994). The biology of myco-heterotrophic (&#x2018;saprophytic&#x2019;) plants. <i>New Phytol.</i> 127, 171&#x2013;216. doi: 10.1111/j.1469-8137.1994.tb04272.x</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1111/j.1469-8137.1994.tb04272.x" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=The+biology+of+myco-heterotrophic+%28&#x2018;saprophytic&#x2019;%29+plants%2E&#x0026;journal=New+Phytol%2E&#x0026;author=Leake+J.+R.&#x0026;publication_year=1994&#x0026;volume=127&#x0026;pages=171&#x2013;216" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B22" id="B22"></a>Li, L., Stoeckert, C. J., and Roos, D. S. (2003). OrthoMCL: identification of ortholog groups for eukaryotic genomes. <i>Genome Res.</i> 13, 2178&#x2013;2189. doi: 10.1101/gr.1224503</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/12952885" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1101/gr.1224503" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=OrthoMCL%3A+identification+of+ortholog+groups+for+eukaryotic+genomes%2E&#x0026;journal=Genome+Res%2E&#x0026;author=Li+L.&#x0026;author=Stoeckert+C.+J.&#x0026;author=Roos+D.+S.&#x0026;publication_year=2003&#x0026;volume=13&#x0026;pages=2178&#x2013;2189" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B23" id="B23"></a>Liang, Y., Xiao, W., Hui, L., Yang, T., Lian, J., Yang, R., et al. (2015). The genome of dendrobium officinale illuminates the biology of the important traditional chinese orchid herb. <i>Mol. Plant</i> 008, 922&#x2013;934. doi: 10.1016/j.molp.2014.12.011</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/25825286" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/j.molp.2014.12.011" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=The+genome+of+dendrobium+officinale+illuminates+the+biology+of+the+important+traditional+chinese+orchid+herb%2E&#x0026;journal=Mol%2E+Plant&#x0026;author=Liang+Y.&#x0026;author=Xiao+W.&#x0026;author=Hui+L.&#x0026;author=Yang+T.&#x0026;author=Lian+J.&#x0026;author=Yang+R.&#x0026;publication_year=2015&#x0026;volume=008&#x0026;pages=922&#x2013;934" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B24" id="B24"></a>Liu, J., Jin-tang, X., He, W., Hong-xiang, L., and Yong-ru, S. (1993). Detection and immunofiuorescence localization of antifungal protein of gastrodiaelata. <i>J. Integr. Plant Biol.</i> 35, 593&#x2013;599.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Detection+and+immunofiuorescence+localization+of+antifungal+protein+of+gastrodiaelata%2E&#x0026;journal=J%2E+Integr%2E+Plant+Biol%2E&#x0026;author=Liu+J.&#x0026;author=Jin-tang+X.&#x0026;author=He+W.&#x0026;author=Hong-xiang+L.&#x0026;author=Yong-ru+S.&#x0026;publication_year=1993&#x0026;volume=35&#x0026;pages=593&#x2013;599" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B25" id="B25"></a>Lohse, M., Drechsel, O., Kahlau, S., and Bock, R. (2013). OrganellarGenomeDRAW&#x2013;a suite of tools for generating physical maps of plastid and mitochondrial genomes and visualizing expression data sets. <i>Nucleic Acids Res.</i> 41, W575&#x2013;W581. doi: 10.1093/nar/gkt289</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/23609545" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/nar/gkt289" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=OrganellarGenomeDRAW&#x2013;a+suite+of+tools+for+generating+physical+maps+of+plastid+and+mitochondrial+genomes+and+visualizing+expression+data+sets%2E&#x0026;journal=Nucleic+Acids+Res%2E&#x0026;author=Lohse+M.&#x0026;author=Drechsel+O.&#x0026;author=Kahlau+S.&#x0026;author=Bock+R.&#x0026;publication_year=2013&#x0026;volume=41&#x0026;pages=W575&#x2013;W581" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B26" id="B26"></a>Majoros, W. H., Pertea, M., and Salzberg, S. L. (2004). TigrScan and GlimmerHMM: two open source ab initio eukaryotic gene-finders. <i>Bioinformatics</i> 20, 2878&#x2013;2879. doi: 10.1093/bioinformatics/bth315</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/15145805" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/bioinformatics/bth315" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=TigrScan+and+GlimmerHMM%3A+two+open+source+ab+initio+eukaryotic+gene-finders%2E&#x0026;journal=Bioinformatics&#x0026;author=Majoros+W.+H.&#x0026;author=Pertea+M.&#x0026;author=Salzberg+S.+L.&#x0026;publication_year=2004&#x0026;volume=20&#x0026;pages=2878&#x2013;2879" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B27" id="B27"></a>Merckx, V., Bidartondo, M. I., and Hynson, N. A. (2009). Myco-heterotrophy: when fungi host plants. <i>Ann. Bot.</i> 104, 1255&#x2013;1261. doi: 10.1093/aob/mcp235</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/19767309" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/aob/mcp235" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Myco-heterotrophy%3A+when+fungi+host+plants%2E&#x0026;journal=Ann%2E+Bot%2E&#x0026;author=Merckx+V.&#x0026;author=Bidartondo+M.+I.&#x0026;author=Hynson+N.+A.&#x0026;publication_year=2009&#x0026;volume=104&#x0026;pages=1255&#x2013;1261" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B28" id="B28"></a>Merckx, V., and Freudenstein, J. V. (2010). Evolution of mycoheterotrophy in plants: a phylogenetic perspective. <i>New Phytol.</i> 185, 605&#x2013;609. doi: 10.1111/j.1469-8137.2009.03155.x</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/20356335" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1111/j.1469-8137.2009.03155.x" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Evolution+of+mycoheterotrophy+in+plants%3A+a+phylogenetic+perspective%2E&#x0026;journal=New+Phytol%2E&#x0026;author=Merckx+V.&#x0026;author=Freudenstein+J.+V.&#x0026;publication_year=2010&#x0026;volume=185&#x0026;pages=605&#x2013;609" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B29" id="B29"></a>Ning, Z., Bai, X. F., Jian-Tao, L. V., Yang, J. F., and Gui-Ping, X. U. (2010). Study on symbiotic mechanism between gastrodia elata blume and armillaria mellea in tissue culture system. <i>Med. Plant</i> 34, 95&#x2013;96.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Study+on+symbiotic+mechanism+between+gastrodia+elata+blume+and+armillaria+mellea+in+tissue+culture+system%2E&#x0026;journal=Med%2E+Plant&#x0026;author=Ning+Z.&#x0026;author=Bai+X.+F.&#x0026;author=Jian-Tao+L.+V.&#x0026;author=Yang+J.+F.&#x0026;author=Gui-Ping+X.+U.&#x0026;publication_year=2010&#x0026;volume=34&#x0026;pages=95&#x2013;96" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B30" id="B30"></a>Palmer, J. D., and Thompson, W. F. (1982). Chloroplast DNA rearrangements are more frequent when a large inverted repeat sequence is lost. <i>Cell</i> 29, 537&#x2013;550. doi: 10.1016/0092-8674(82)90170-2</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1016/0092-8674(82)90170-2" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Chloroplast+DNA+rearrangements+are+more+frequent+when+a+large+inverted+repeat+sequence+is+lost%2E&#x0026;journal=Cell&#x0026;author=Palmer+J.+D.&#x0026;author=Thompson+W.+F.&#x0026;publication_year=1982&#x0026;volume=29&#x0026;pages=537&#x2013;550" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B31" id="B31"></a>Read, D. J. (1991). Mycorrhizas in ecosystems. <i>Cell. Mol. Life Sci.</i> 47, 376&#x2013;391. doi: 10.1007/BF01972080</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1007/BF01972080" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Mycorrhizas+in+ecosystems%2E&#x0026;journal=Cell%2E+Mol%2E+Life+Sci%2E&#x0026;author=Read+D.+J.&#x0026;publication_year=1991&#x0026;volume=47&#x0026;pages=376&#x2013;391" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B32" id="B32"></a>Sa, Q., Wang, Y., Li, W., Zhang, L., and Sun, Y. (2003). The promoter of an antifungal protein gene from <i>Gastrodia elata</i> confers tissue -specific and fungus-inducible expression patterns and responds to both salicylic acid and jasmonic acid. <i>Plant Cell Rep.</i> 22, 79&#x2013;84. doi: 10.1007/s00299-003-0664-z</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/12838365" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1007/s00299-003-0664-z" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=The+promoter+of+an+antifungal+protein+gene+from+Gastrodia+elata+confers+tissue+-specific+and+fungus-inducible+expression+patterns+and+responds+to+both+salicylic+acid+and+jasmonic+acid%2E&#x0026;journal=Plant+Cell+Rep%2E&#x0026;author=Sa+Q.&#x0026;author=Wang+Y.&#x0026;author=Li+W.&#x0026;author=Zhang+L.&#x0026;author=Sun+Y.&#x0026;publication_year=2003&#x0026;volume=22&#x0026;pages=79&#x2013;84" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B33" id="B33"></a>Sandelius, A. S., and Aronsson, H. (2009). &#x201C;The chloroplast: interactions with the environment,&#x201D; in <i>Plant Cell Monographs</i>, ed. P. Nick (Cham: Springer).</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?&#x0026;title=The+chloroplast%3A+interactions+with+the+environment&#x0026;journal=Plant+Cell+Monographs&#x0026;author=Sandelius+A.+S.&#x0026;author=Aronsson+H.+(2009).+&#x201C;The+chloroplast:+interactions+with+the+environment&#x201D;+in+Plant+Cell+Monographs+ed.+Nick+P.&#x0026;publication_year=2009" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B34" id="B34"></a>Stanke, M., Keller, O., Gunduz, I., Hayes, A., Waack, S., and Morgenstern, B. (2006). AUGUSTUS: Ab initio prediction of alternative transcripts. <i>Nucleic Acids Res.</i> 34, W435&#x2013;W439. doi: 10.1093/nar/gkl200</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/16845043" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/nar/gkl200" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=AUGUSTUS%3A+Ab+initio+prediction+of+alternative+transcripts%2E&#x0026;journal=Nucleic+Acids+Res%2E&#x0026;author=Stanke+M.&#x0026;author=Keller+O.&#x0026;author=Gunduz+I.&#x0026;author=Hayes+A.&#x0026;author=Waack+S.&#x0026;author=Morgenstern+B.&#x0026;publication_year=2006&#x0026;volume=34&#x0026;pages=W435&#x2013;W439" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B35" id="B35"></a>Trapnell, C., Pachter, L., and Salzberg, S. L. (2009). TopHat: discovering splice junctions with RNA-Seq. <i>Bioinformatics</i> 25, 1105&#x2013;1111. doi: 10.1093/bioinformatics/btp120</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/19289445" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/bioinformatics/btp120" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=TopHat%3A+discovering+splice+junctions+with+RNA-Seq%2E&#x0026;journal=Bioinformatics&#x0026;author=Trapnell+C.&#x0026;author=Pachter+L.&#x0026;author=Salzberg+S.+L.&#x0026;publication_year=2009&#x0026;volume=25&#x0026;pages=1105&#x2013;1111" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B36" id="B36"></a>Wang, X., Bauw, G., Van Damme, E. J., Peumans, W. J., Chen, Z. L., Van Montagu, M., et al. (2001). Gastrodianin-like mannose-binding proteins: a novel class of plant proteins with antifungal properties. <i>Plant J.</i> 25, 651&#x2013;661. doi: 10.1046/j.1365-313x.2001.00999.x</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/11319032" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1046/j.1365-313x.2001.00999.x" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Gastrodianin-like+mannose-binding+proteins%3A+a+novel+class+of+plant+proteins+with+antifungal+properties%2E&#x0026;journal=Plant+J%2E&#x0026;author=Wang+X.&#x0026;author=Bauw+G.&#x0026;author=Van+Damme+E.+J.&#x0026;author=Peumans+W.+J.&#x0026;author=Chen+Z.+L.&#x0026;author=Van+Montagu+M.&#x0026;publication_year=2001&#x0026;volume=25&#x0026;pages=651&#x2013;661" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B37" id="B37"></a>Waterhouse, R. M., Seppey, M., Sim&#x00E3;o, F. A., Manni, M., Ioannidis, P., Klioutchnikov, G., et al. (2017). BUSCO applications from quality assessments to gene prediction and phylogenomics. <i>Mol. Biol. Evol.</i> 35, 543&#x2013;548. doi: 10.1093/molbev/msx319</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/29220515" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/molbev/msx319" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=BUSCO+applications+from+quality+assessments+to+gene+prediction+and+phylogenomics%2E&#x0026;journal=Mol%2E+Biol%2E+Evol%2E&#x0026;author=Waterhouse+R.+M.&#x0026;author=Seppey+M.&#x0026;author=Sim&#x00E3;o+F.+A.&#x0026;author=Manni+M.&#x0026;author=Ioannidis+P.&#x0026;author=Klioutchnikov+G.&#x0026;publication_year=2017&#x0026;volume=35&#x0026;pages=543&#x2013;548" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B38" id="B38"></a>Wicke, S., Muller, K. F., De Pamphilis, C. W., Quandt, D., Wickett, N. J., Zhang, Y., et al. (2013). Mechanisms of functional and physical genome reduction in photosynthetic and nonphotosynthetic parasitic plants of the broomrape family. <i>Plant Cell</i> 25, 3711&#x2013;3725. doi: 10.1105/tpc.113.113373</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/24143802" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1105/tpc.113.113373" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Mechanisms+of+functional+and+physical+genome+reduction+in+photosynthetic+and+nonphotosynthetic+parasitic+plants+of+the+broomrape+family%2E&#x0026;journal=Plant+Cell&#x0026;author=Wicke+S.&#x0026;author=Muller+K.+F.&#x0026;author=De+Pamphilis+C.+W.&#x0026;author=Quandt+D.&#x0026;author=Wickett+N.+J.&#x0026;author=Zhang+Y.&#x0026;publication_year=2013&#x0026;volume=25&#x0026;pages=3711&#x2013;3725" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B39" id="B39"></a>Wicke, S., Schaferhoff, B., DePamphilis, C. W., and Muller, K. F. (2014). Disproportional plastome-wide increase of substitution rates and relaxed purifying selection in genes of carnivorous Lentibulariaceae. <i>Mol. Biol. Evol.</i> 31, 529&#x2013;545. doi: 10.1093/molbev/mst261</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/24344209" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/molbev/mst261" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Disproportional+plastome-wide+increase+of+substitution+rates+and+relaxed+purifying+selection+in+genes+of+carnivorous+Lentibulariaceae%2E&#x0026;journal=Mol%2E+Biol%2E+Evol%2E&#x0026;author=Wicke+S.&#x0026;author=Schaferhoff+B.&#x0026;author=DePamphilis+C.+W.&#x0026;author=Muller+K.+F.&#x0026;publication_year=2014&#x0026;volume=31&#x0026;pages=529&#x2013;545" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B40" id="B40"></a>Wyman, S. K., Jansen, R. K., and Boore, J. L. (2004). Automatic annotation of organellar genomes with DOGMA. <i>Bioinformatics</i> 20, 3252&#x2013;3255. doi: 10.1093/bioinformatics/bth352</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/15180927" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/bioinformatics/bth352" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=Automatic+annotation+of+organellar+genomes+with+DOGMA%2E&#x0026;journal=Bioinformatics&#x0026;author=Wyman+S.+K.&#x0026;author=Jansen+R.+K.&#x0026;author=Boore+J.+L.&#x0026;publication_year=2004&#x0026;volume=20&#x0026;pages=3252&#x2013;3255" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B41" id="B41"></a>Yan, L., Wang, X., Liu, H., Tian, Y., Lian, J., Yang, R., et al. (2015). The genome of dendrobium officinale illuminates the biology of the important traditional chinese orchid herb. <i>Mol. Plant</i> 8, 922&#x2013;934. doi: 10.1016/j.molp.2014.12.011</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/25825286" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/j.molp.2014.12.011" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=The+genome+of+dendrobium+officinale+illuminates+the+biology+of+the+important+traditional+chinese+orchid+herb%2E&#x0026;journal=Mol%2E+Plant&#x0026;author=Yan+L.&#x0026;author=Wang+X.&#x0026;author=Liu+H.&#x0026;author=Tian+Y.&#x0026;author=Lian+J.&#x0026;author=Yang+R.&#x0026;publication_year=2015&#x0026;volume=8&#x0026;pages=922&#x2013;934" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B42" id="B42"></a>Yang, P., Zhou, H., Qian, J., Xu, H., Shao, Q., Li, Y., et al. (2016). The complete chloroplast genome sequence of <i>Dendrobium officinale</i>. <i>Mitochondrial DNA DNA Mapp. Seq. Anal.</i> 27, 1262&#x2013;1264. doi: 10.3109/19401736.2014.945547</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/25103425" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.3109/19401736.2014.945547" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=The+complete+chloroplast+genome+sequence+of+Dendrobium+officinale%2E&#x0026;journal=Mitochondrial+DNA+DNA+Mapp%2E+Seq%2E+Anal%2E&#x0026;author=Yang+P.&#x0026;author=Zhou+H.&#x0026;author=Qian+J.&#x0026;author=Xu+H.&#x0026;author=Shao+Q.&#x0026;author=Li+Y.&#x0026;publication_year=2016&#x0026;volume=27&#x0026;pages=1262&#x2013;1264" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B43" id="B43"></a>Yang, Z. (2007). PAML 4: phylogenetic analysis by maximum likelihood. <i>Mol. Biol. Evol.</i> 24, 1586&#x2013;1591. doi: 10.1093/molbev/msm088</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/17483113" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/molbev/msm088" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=PAML+4%3A+phylogenetic+analysis+by+maximum+likelihood%2E&#x0026;journal=Mol%2E+Biol%2E+Evol%2E&#x0026;author=Yang+Z.&#x0026;publication_year=2007&#x0026;volume=24&#x0026;pages=1586&#x2013;1591" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B44" id="B44"></a>Yuan, Y., Jin, X., Liu, J., Zhao, X., Zhou, J., Wang, X., et al. (2018). The Gastrodia elata genome provides insights into plant adaptation to heterotrophy. <i>Nat. Commun.</i> 9:1615. doi: 10.1038/s41467-018-03423-5</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/29691383" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1038/s41467-018-03423-5" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=The+Gastrodia+elata+genome+provides+insights+into+plant+adaptation+to+heterotrophy%2E&#x0026;journal=Nat%2E+Commun%2E&#x0026;author=Yuan+Y.&#x0026;author=Jin+X.&#x0026;author=Liu+J.&#x0026;author=Zhao+X.&#x0026;author=Zhou+J.&#x0026;author=Wang+X.&#x0026;publication_year=2018&#x0026;volume=9&#x0026;issue=1615" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B45" id="B45"></a>Zhang, G. Q., Liu, K. W., Li, Z., Lohaus, R., Hsiao, Y. Y., Niu, S. C., et al. (2017). The Apostasia genome and the evolution of orchids. <i>Nature</i> 549, 379&#x2013;383. doi: 10.1038/nature23897</p>
+<p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/28902843" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1038/nature23897" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?&#x0026;title=The+Apostasia+genome+and+the+evolution+of+orchids%2E&#x0026;journal=Nature&#x0026;author=Zhang+G.+Q.&#x0026;author=Liu+K.+W.&#x0026;author=Li+Z.&#x0026;author=Lohaus+R.&#x0026;author=Hsiao+Y.+Y.&#x0026;author=Niu+S.+C.&#x0026;publication_year=2017&#x0026;volume=549&#x0026;pages=379&#x2013;383" target="_blank">Google Scholar</a></p>
+</div>
+<div class="References" style="margin-bottom:0.5em;">
+<p class="ReferencesCopy1"><a name="B46" id="B46"></a>Zhang, W. J. (1980). The biological relationship of gastrodia elata and armillaria mellea. <i>Bull. Bot.</i> 22, 57&#x2013;62.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?&#x0026;title=The+biological+relationship+of+gastrodia+elata+and+armillaria+mellea%2E&#x0026;journal=Bull%2E+Bot%2E&#x0026;author=Zhang+W.+J.&#x0026;publication_year=1980&#x0026;volume=22&#x0026;pages=57&#x2013;62" target="_blank">Google Scholar</a></p>
+</div>
+</div>
+<div class="thinLineM20"></div>
+<div class="AbstractSummary">
+<p><span>Keywords</span>: <i>Gastrodia elata</i>, genome, achlorophyllous, relaxed selection, non-photosynthetic</p>
+<p><span>Citation:</span> Chen S, Wang X, Wang Y, Zhang G, Song W, Dong X, Arnold ML, Wang W, Miao J, Chen W and Dong Y (2020) Improved <i>de novo</i> Assembly of the Achlorophyllous Orchid <i>Gastrodia elata</i>. <i>Front. Genet.</i> 11:580568. doi: 10.3389/fgene.2020.580568</p>
+<p id="timestamps">
+<span>Received:</span> 06 July 2020; <span>Accepted:</span> 19 October 2020;<br/><span>Published:</span> 19 November 2020.</p>
+<div>
+<p>Edited by:</p>
+<a href="https://loop.frontiersin.org/people/521254/overview">Wei Chen</a>, North China University of Science and Technology, China</div>
+<div>
+<p>Reviewed by:</p>
+<a href="https://loop.frontiersin.org/people/191083/overview">Liangsheng Zhang</a>, Zhejiang University, China<br/>
+<a href="https://loop.frontiersin.org/people/416003/overview">Xiaohua Jin</a>, Institute of Botany (CAS), China</div>
+<p><span>Copyright</span> &#x00A9; 2020 Chen, Wang, Wang, Zhang, Song, Dong, Arnold, Wang, Miao, Chen and Dong. This is an open-access article distributed under the terms of the <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution License (CC BY)</a>. The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.</p>
+<p><span>*Correspondence:</span> Jianhua Miao, <a href="mailto:mjh1962@vip.163.com">mjh1962@vip.163.com</a>; Wei Chen, <a href="mailto:wchenntr@gmail.com">wchenntr@gmail.com</a>; Yang Dong, <a href="mailto:loyalyang@163.com">loyalyang@163.com</a></p>
+<p><sup>&#x2020;</sup>These authors have contributed equally to this work</p>
+<div class="clear"></div>
+</div>                
+                <div class="thin-line-dark"></div>
+                    <div class="social-feed"></div>
+                    <div class="container-bordered comment-list social-feed">
+                        <div class="container-comments">                           
+                        </div>
+
+                        <div class="loading-wrapper" style="padding-left: 49%">
+                            <img style="padding-top: 5%; padding-bottom: 5%;" src="/areas/research-topics/Content/Images/frontiers/common/icon/loading.gif" alt="Loading.." />
+                        </div>                       
+                    </div>
+
+            </div>
+        </div>
+    </div>
+</main>
+
+            <div class="clearfix visible-sm"></div>
+
+            
+    <div class="c col-xs-12 col-sm-12 col-lg-2 col-md-3 pull-right side-article related right-container-articles" style="clear: right !important">
+        
+        <article class="widget-listing commentary-article hidden">
+            <h5 class="like-h4">COMMENTARY</h5>
+        </article>
+
+        <article class="widget-listing original-article hidden">
+            <h5 class="like-h4">ORIGINAL ARTICLE</h5>
+        </article>
+
+        <article class="widget-listing people-also-looked-at side-article-related hidden">
+            <h5 class="like-h4">People also looked at</h5>
+        </article>
+            <div class="side-article-mrk clearfix hidden-md hidden-lg">
+                <p style="text-align: center;"><a href="https://spotlight.frontiersin.org/submit?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=rtlg_2020_gen"><img src="https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/article-marketing-message-79982763-254d-4bb6-96b8-126758de1166.png" alt="" /><br /></a></p>
+<p style="text-align: center;"><a href="https://spotlight.frontiersin.org/submit?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=rtlg_2020_gen"><strong>Suggest a Research Topic &gt;</strong></a></p>
+            </div>
+
+
+    </div>
+
+
+        </div>
+    </div>
+</div>
+<div id="divTemplates">
+    <div class="modal fade modal-container impact-modal-container" data-backdrop="static" id="impactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+</div>
+
+
+
+
+
+    <div class="modal fade modal-container supplementary-modal-container"
+     data-backdrop="static"
+     data-keyboard="false"
+     id="supplementaryFilesModal"
+     tabindex="-1" role="dialog"
+     aria-labelledby="mySupplementaryModalLabel"
+     aria-hidden="true">
+</div>
+
+
+
+
+<script type="text/template" id="template-supplementary-files-modal">
+    <div class="supplementary-material-wrapper modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <a class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a>
+                <h4>Supplementary Material</h4><br>
+                <p class="supplementary-empty-message">There is no supplementary material currently available for this article</p>
+                <div class="loading-wrapper"
+                     id="loader"
+                     style="display:none">
+                    Loading supplemental data...
+                    <img style="" src="/Areas/Articles/Images/Icon/loading.gif" alt="Loading.." />
+                </div>
+                <br />
+                <div class="table-responsive" id="localFiles">
+                </div>
+                <div id="figshare-widget-container">
+
+                </div>
+            </div>
+            <br />
+            <div class="modal-footer bottom-links">
+                <a class="btn btn-default" data-dismiss="modal">Close</a>
+            </div>
+        </div>
+
+    </div>
+</script>
+
+
+
+
+
+<script type="text/template" id="template-local-files-modal">
+    <table class="table table-striped supplementary-content" id="localFilesTable">
+        <thead>
+            <tr>
+                <th>&nbsp;</th>
+                <th>File Name</th>
+                <th>&nbsp;</th>
+            </tr>
+        </thead>
+        <tbody class="file-content">
+            <% _.each(supplimentalFileDetails.FileDetails, function(fileViewModel){   %>
+            <tr>
+                <th scope="row"><a data-test-id="<%= fileViewModel.TestId %>" href="<%= fileViewModel.FileDownloadUrl %>"><img class="img-figure" src="<%= fileViewModel.ImageUrl %>"></a></th>
+                <td>
+                    <a  href="<%= fileViewModel.FileDownloadUrl %>">
+                        <%= fileViewModel.FileName %>
+                    </a>
+                </td>
+                <td><a  href="<%= fileViewModel.FileDownloadUrl %>" class="btn-link"><i class="fa fa-download" aria-hidden="true"></i></a></td>
+            </tr>
+            <% }); %>
+        </tbody>
+    </table>
+</script>
+
+
+
+
+
+
+
+    <div class="modal fade modal-container notifyme-modal-container" data-backdrop="static" id="notifyModal" tabindex="-1" role="dialog" aria-labelledby="Notify on publication" aria-hidden="true">
+</div>
+
+
+
+<script type="text/template" id="template-notify-me-modal">
+    <div class="modal-f page-container simple-modal" role="dialog" aria-labelledby="NotfifyMeModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <form onsubmit="return false" id="modalnotifyme">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                            <h3>Notify me on publication</h3>
+                        </div>
+                        <div class="modal-body">
+
+                            <div class="form-group">
+                                <label>Please enter your email address:</label>
+                            <input type="email" required class="form-control" id="txt_notification_email_id" placeholder="Email">
+                            </div>
+
+                        <div class="g-recaptcha" id="recaptcha"></div><br />
+
+                        <p class="small" style="color: #555;">If you already have an account, please <a href="<%=login.FrontiersLoginUrl%>?returnUrl=<%=currentPage%>" class="text-blue">login</a>.</p>
+                        <p class="small" style="color: #555;">You don't have a Frontiers account ? You can <a href="<%=login.FrontiersRegistrationUrl%>" class="text-blue">register here</a>.</p>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" id="article_notify_non_registered_user" class="btn btn-default btn-progress" style="width: 118px; visibility:hidden;">Notify me</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+</script>
+
+<script type="text/template" id="template-notifyme-mailselection-modal">
+    <div class="modal-f page-container simple-modal" tabindex="-1" role="dialog" aria-labelledby="NotfifyMeModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h3>Select one of your emails</h3>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label>You have multiple emails registered with Frontiers:</label>
+                        </div>
+                                           
+                        <% _.each(userEmailList, function(user){   %>
+                        <input type="radio" value="<%=user%>" name="notify_Emailcollection"> <%=user%><br>
+                        <% }); %>
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="article_notify_loggedin_user" class="btn btn-default btn-progress" style="width: 118px;">Notify me</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</script>
+
+<script type="text/template" id="template_notifyme_error_modal">
+    <div class="modal-f page-container simple-modal" tabindex="-1" role="dialog" aria-labelledby="NotfifyMeModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h3>Notify me on publication</h3>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <p class="text-red"><strong><%=message%></strong></p>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" data-dismiss="modal" class="btn btn-default btn-progress" style="width: 118px;">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+
+
+
+
+
+
+
+    
+
+<script type="text/template" id="template-article-comments">
+
+    <div class="w100pc float_left CommentsHolder" id="div_article_comment_holder">
+        <% if(journalComments.Count !=0) { %>
+        <div id="divActivityBox" class="commentBox bubbleInfo " style="z-index: 300;">
+            <div class="float_left w100pc divActivityBox">
+                <p id="pAllUsers" class="pb0 float_left w581 pAllUsers">
+                    <a id="aAllUsers" href="javascript:void(0);" class="fontnormal trigger">
+                        <%- journalComments.Count %> Comments
+                    </a> <%= journalComments.CommentedUsers %>
+                </p>
+            </div>
+        </div>
+        <% } %>
+
+        <% _.each( journalComments.Comments, function( comment ){ %>
+
+        <div class="commentBox">
+
+            <% if (comment.IsDeleted) {%>
+
+            <div class="wrapper pt4 pb4">
+                <div class="imgHolder mr10"> <!--<a  class="fontnormal">--><img width="32" src="/Areas/Articles/Design/Images/default_profile_32.jpg" onerror="if (!this.src.endsWith('/Areas/Articles/Design/Images/default_profile_32.jpg')) this.src='/Areas/Articles/Design/Images/default_profile_32.jpg';" alt=""><!--</a>--></div>
+                <div class="content w555">
+                    <!-- <p class="mtm3" style='word-wrap:break-word'><a  class="fontnormal">User</a> </p>-->
+                    <p class="mtm3">User</p><ul class="toolbar mt4 disblk w100pc">
+                        <li class="pl0">
+                            <p class="date">Comment deleted on <%- GetFormattedCommentDeletedDate(comment.CommentedDate) %></p>
+                        </li>
+                        <li class="float_right pr0"></li>
+                    </ul>
+                </div>
+            </div>
+
+            <% } else {%>
+
+            <div class="wrapper pt4 pb4">
+                <div class="imgHolder mr10"> <a class="fontnormal" data-test-id="article_commenteduser_profileimage_link" href="<%- comment.CommentedUser.ProfileUrl %>"><img src="<%- comment.CommentedUser.ThumbnailUrl %>" onerror="if (!this.src.endsWith('/Areas/Articles/Images/Frontiers/Common/Profile/default_profile_32.jpg')) this.src='/Areas/Articles/Images/Frontiers/Common/Profile/default_profile_32.jpg';" alt=""></a></div>
+                <div class="content w555 comment-body">
+                    <p class="mtm3" style="word-wrap:break-word">
+                        <a class="fontnormal" data-test-id="article_commenteduser_profile_link" href="<%- comment.CommentedUser.ProfileUrl %>">
+                            <%- comment.CommentedUser.FullName %>
+                        </a>
+                        <span class="comment-text"><%= comment.Comment %></span>
+                    </p>
+                    <ul class="toolbar mt4 disblk w100pc">
+                        <li class="pl0"><p class="date"><%- GetFormattedCommentDate(comment.CommentedDate) %></p></li>
+                        <% if (comment.IsEditVisible)
+                        { %>
+                        <li>|</li>
+                        <li><a href="javascript:void(0);" data-test-id="article_comment_edit_link" class="fontnormal btn-edit-comment" id="btnEditcom" data-comment-id="<%- comment.CommentId %>">Edit</a></li>
+                        <% } %>
+                        <% if (comment.IsDeleteVisible)
+                        { %>
+                        <li>|</li>
+                        <li><a href="javascript:void(0);" data-test-id="article_comment_delete_link" class="fontnormal btn-delete-comment" id="btnDeletecom" data-comment-id="<%- comment.CommentId %>">Delete</a></li>
+                        <% }%>
+                        <li class="float_right pr0"></li>
+                    </ul>
+                </div>
+            </div>
+            <% }%>
+        </div>
+
+        <%  }); %>
+    </div>
+
+    <div id="div_add_comment" class="commentBox">
+        <div class="imgTn32"
+             style="display: none;">
+            <% if(journalComments.LoginUserId !=0) { %>
+            <img src="<%- journalComments.LoggedInUserInfo.ThumbnailUrl %>" alt=""
+                 onerror="if (!this.src.endsWith('/Areas/Articles/Images/Frontiers/Common/Profile/default_profile_32.jpg')) this.src='/Areas/Articles/Images/Frontiers/Common/Profile/default_profile_32.jpg';">
+            <% } else {%>
+            <img src="/Areas/Articles/Design/Images/default_profile_32.jpg" alt=""
+                 onerror="if (!this.src.endsWith('/Areas/Articles/Images/Frontiers/Common/Profile/default_profile_32.jpg')) this.src='/Areas/Articles/Images/Frontiers/Common/Profile/default_profile_32.jpg';">
+            <% }%>
+
+        </div>
+        <div class="wrapper pt4 pb4 wAuto">
+            <textarea onfocus="showUserImageOnAdd(this)"
+                      onblur="hideUserImage(this)"
+                      id="txt_comment"
+                      cols=""
+                      rows="1"
+                      style="overflow: hidden; word-wrap: break-word; resize: horizontal;"
+                      data-test-id="article_comment_add_textarea"
+                      class="write setfocus autoext w535 frUIResizeTextArea comment-textarea is-ui animated-resize grey_90">Write a comment...</textarea>
+        </div>
+        <div class="commentAddWrap">
+            <div>
+                <a class="addBtnComment" data-test-id="article_comment_add_button"  onclick="javascript:AddComments(this);" href="javascript:void(0);" id="btnAddcom"><span>Add</span></a>
+            </div>
+        </div>
+    </div>
+
+
+</script>
+
+<script type="text/template" id="template-article-comments-warning">
+    <div class="commentBox">
+        <div class="wrapper">
+            <p class="comment-warning">The comment section has been closed.</p>
+        </div>
+    </div>
+</script>
+
+<script type="text/template" id="template-article-edit-comments">
+
+
+    <div id="edit-comment-form" class="wrapper pt4 pb4 wAuto edit-comments">
+        <textarea class="txt-comment"
+                  onfocus="showUserImageOnEdit(this)"
+                  onblur="hideUserImage(this)"
+                  data-test-id="article_comment_edit_textarea"
+                  rows="3"><%= commentText %> </textarea>
+        <div>
+            <a class="btn btn-add-comment addBtnComment" data-test-id="article_comment_edit_button" data-comment-id="<%- commentId %>">Add</a>
+        </div>
+    </div>
+
+</script>
+
+
+
+</div>
+
+    </div>
+
+        <div data-navigation-plugin="footer"></div>
+        <script src="https://static.frontiersin.org/navigation-plugins/footer/js"></script>
+
+    <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+
+    <script src="/areas/articles/scripts/frontiers/common/frontiers.banners-1.0.js"></script>
+
+<script src="https://code.jquery.com/ui/1.10.2/jquery-ui.min.js"></script>
+<script src="https://crossmark.crossref.org/javascripts/v1.5/crossmark.min.js"></script>
+        <script type="text/javascript">
+
+            var $ = jQuery.noConflict(); //==>>ToDo: Avoid this..!!
+        </script>
+
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+    <script src="https://static.frontiersin.org/areas/articles/js/vendors?v=ygjL-ZM7HLAoWWjVcHqPBLlSjGooDB3IHD1kVXFmvmI1"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+ 
+<script src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
+    <script src="https://static.frontiersin.org/areas/articles/js/frontiers?v=4c3spupE-VFg577OoPHsSr4WEf6T5hs_2nCv5fPKVdA1"></script>
+
+
+    <script type="text/javascript">
+
+        var FRArticle = (function() {
+            return {
+                ArticleId: '580568',
+                DOI:'10.3389/fgene.2020.580568',
+                LoginUserId: '0',
+                DomainId: '1',
+                FieldId: '30',
+                SpecialityId: '1964',
+                IsPreview: FRSafe.boolean('False'),
+                IsViewImpactFromLoop: FRSafe.boolean('False'),
+                IsPublished: 'True',
+                FigShareApiUrl: 'https://api.figshare.com/v2/collections/search',
+                FigShareTimeOut: '3000'
+            };
+        })();
+
+        var FRSocial = (function() {
+            return {
+                itemId: 14,
+                itemTypeId: 1,
+                entityId: '580568',
+                ownerId: '696229',
+                sanPath: 'https://www.frontiersin.org/files/',
+                subItemId: '8',
+                loginUserId: '0',
+                ownerNWDBId: '30',
+                pageType: 1,
+                loopUrl:'https://loop.frontiersin.org'
+            };
+        })();
+    </script>
+
+    <script>
+        var FRAjaxSettings = (function () {
+
+            function urlLowercase() {
+                $.ajaxSetup({
+                    beforeSend: function (jqXHR, settings) {
+                        settings.url = settings.url.toLowerCase();
+                    }
+                });
+            }
+
+            return { urlLowercase: urlLowercase };
+        })();
+
+        FRAjaxSettings.urlLowercase();
+    </script>
+
+    <script src="https://static.frontiersin.org/areas/articles/js/schema?v=13am1aL5JpCh_IIFOIFRdlFySxVv16JLaVykDEyHCu81"></script>
+
+
+
+    
+    <script src="/areas/articles/js/app?v=UqywkE0AkDO6E3V0irIiBz8giFUKKVUi57o1J1h1S2g1"></script>
+
+    <script src="https://widgets.figshare.com/static/figshare.js"></script>
+
+
+    <script>
+        (function () {
+            console.log("Script executed after FigShareWidget");
+        })();
+    </script>
+
+</body>
+</html>

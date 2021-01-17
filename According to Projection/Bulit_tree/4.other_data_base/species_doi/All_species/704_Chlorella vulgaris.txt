@@ -1,0 +1,1132 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+            var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl + '&gtm_auth=fCzlsmYQFAUQ_UXneGJNag&gtm_preview=env-2&gtm_cookies_win=x';
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TZGWTGG');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title>Frontiers | Genome Sequence of the Oleaginous Green Alga, Chlorella vulgaris UTEX 395 | Bioengineering and Biotechnology</title>
+
+    <link rel="shortcut icon" href="https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/favicon_16x16.ico" type="image/x-icon" />
+
+    <meta property="og:type" content="article" />
+    <meta property="frontiers:type" content="Article" />
+    <meta property="og:site_name" name="site_name" content="Frontiers" />
+    <meta property="og:title" name="Title" content="Genome Sequence of the Oleaginous Green Alga, Chlorella vulgaris UTEX 395" />
+    <meta property="og:description" name="Description" content="IntroductionMicroalgae have garnered extensive interest as renewable fuel feedstocks due to their high production potential relative to terrestrial crops, and unique cultivation capacity on non-arable lands (Wijffels et al., 2010, Davis et al., 2011). The oleaginous chlorophyte Chlorella vulgaris represents a promising model microalgal system and production host, due to its ability to synthesize and accumulate large quantities of fuel intermediates in the form of storage lipids (Guarnieri et al., 2011, Guarnieri et al., 2012, Gerken et al., 2013, Griffiths et al., 2014, Zuniga et al., 2016). Recent omic analyses have identified transcriptional, post-transcriptional and -translational mechanisms governing lipid accumulation in this alga (Guarnieri et al. 2011, Guarnieri et al., 2013) , including active protein nitrosylation (Henard et al., 2017) . Here we report the draft nuclear genome and annotation of C. vulgaris UTEX 395. Materials and MethodsCultivation and genomic DNA isolation: For genomic DNA isolation C. vulgaris UTEX 395 was grown photoautotrophically to exponential phase in Bold’s Basal Media, under constant illumination (200 µE m−2 s−1 white fluorescent light), and supplemented with 2% CO2/air, as described previously (Guarnieri et al. 2011, Guarnieri et al. 2013). Genomic DNA was extracted following the protocol adapted from Alvarez, et al (Varela-Alvarez et al., 2006). Genome sequencing and assembly: Sequencing was performed using Illumina HiSeq 2000 technolog..." />
+    <meta property="og:url" name="url" content="https://www.frontiersin.org/article/10.3389/fbioe.2018.00037/full" />
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"
+            integrity="sha256-h0cGsrExGgcZtSZ/fRz4AwV+Nn6Urh/3v3jFRQ0w9dQ=" crossorigin="anonymous"></script>
+        <link href="https://static.frontiersin.org/navigation-plugins/footer/css" rel="stylesheet" />
+            <link href="https://static.frontiersin.org/navigation-plugins/header/css" rel="stylesheet" />
+
+        <meta property="og:image" content="https://www.frontiersin.org/files/MyHome%20Article%20Library/317384/317384_Thumb_400.jpg" />
+            <meta name="citation_volume" content="6" />
+        <meta name="citation_journal_title" content="Frontiers in Bioengineering and Biotechnology" />
+        <meta name="citation_publisher" content="Frontiers" />
+        <meta name="citation_journal_abbrev" content="Front. Bioeng. Biotechnol." />
+        <meta name="citation_issn" content="2296-4185" />
+        <meta name="citation_doi" content="10.3389/fbioe.2018.00037" />
+        <meta name="citation_pages" content="37" />
+        <meta name="citation_language" content="English" />
+        <meta name="citation_title" content="Genome Sequence of the Oleaginous Green Alga, Chlorella vulgaris UTEX 395" />
+        <meta name="citation_keywords" content="Microalgae; Biofuels; Lipids; Genome; Chlorella vulgaris" />
+        <meta name="description" content="Genome Sequence of the Oleaginous Green Alga, Chlorella vulgaris UTEX 395" />
+        <meta name="citation_online_date" content="2018/03/19" />
+        <meta name="citation_date" content="2018" />
+        <meta name="citation_publication_date" content="2018/04/05" />
+        <meta name="citation_pdf_url" content="https://www.frontiersin.org/articles/10.3389/fbioe.2018.00037/pdf" />
+        <meta name="citation_author" content="Guarnieri, Michael T." />
+        <meta name="citation_author_institution" content="National Bioenergy Center, National Renewable Energy Laboratory, United States" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Levering, Jennifer" />
+        <meta name="citation_author_institution" content="Division of Host-Microbe Systems and Therapeutics, Department of Pediatrics, University of California, United States" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Henard, Calvin A." />
+        <meta name="citation_author_institution" content="National Bioenergy Center, National Renewable Energy Laboratory, United States" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Boore, Jeffrey L." />
+        <meta name="citation_author_institution" content="Genome Project Solutions, Inc., United States" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Betenbaugh, Michael J." />
+        <meta name="citation_author_institution" content="Department of Chemical and Biomolecular Engineering, Johns Hopkins University, United States" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Zengler, Karsten" />
+        <meta name="citation_author_institution" content="Division of Host-Microbe Systems and Therapeutics, Department of Pediatrics, University of California, United States" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Knoshaug, Eric P." />
+        <meta name="citation_author_institution" content="National Bioenergy Center, National Renewable Energy Laboratory, United States" />
+        <meta name="citation_author_email" content="" />
+    <meta name="Keywords" content="Microalgae, Biofuels, Lipids, Genome, Chlorella vulgaris" />
+
+        <meta name="dc.identifier" content="doi:10.3389/fbioe.2018.00037"> <!--CrossMark widget-->
+    
+    <script type="text/javascript">
+
+        var CurrentIBarMenu = 'bysubjects';
+        var CurrentPageCode = 'ARTICLE_PAGE_NEW';
+
+        var FRConfiguration = (function() {
+            return {
+                Environment: 'Live',
+                SANVirtualPath: 'https://www.frontiersin.org/files/',
+                SharepointWebsiteUrl: 'https://www.frontiersin.org',
+                FrontiersJournalUIUrl: 'https://www.frontiersin.org',
+                FrontiersJournalAPIUrl: 'https://api-journal.frontiersin.org',
+                FrontiersReviewUIUrl: '',
+                FrontiersReviewAPIUrl: '',
+                FrontiersCookie: 'frontiersN',
+                FrontiersCookieRememberMe: 'frontiersNt',
+                FrontiersLoginUrl: 'https://www.frontiersin.org/Login.aspx',
+                FrontiersRegistrationUrl: 'http://www.frontiersin.org/Registration/Register.aspx',
+                IsCommentVisible: 'True',
+                IsPreview:'False'
+            };
+        })();
+
+        var FRLanguage = (function() {
+            var languageSet = {"ART_FRONTIERS":"Frontiers ","Article_AcceptedDate":"Accepted: ","Article_AnalyticsToolTip":"The total view count is updated once a day, so not to worry if you don\u0027t see immediate results.","Article_AnalyticsTotalViews":"total views","Article_AnalyticsViewImpact":"View Article Impact","Article_ArchiveLinkText":"Articles","Article_BibTex":"BibTex","Article_Citation":"Citation: ","Article_Commentary":"COMMENTARY","Article_Copyright":"Copyright: ","Article_CopyrightText":"This is an open-access article distributed under the terms of the \u003ca href=\"http://creativecommons.org/licenses/by/4.0/\"\u003eCreative Commons Attribution License (CC BY)\u003c/a\u003e. The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.","Article_Correspondence":"* Correspondence: ","Article_DownloadArticle":"Download Article","Article_DownloadPDF":"Download PDF","Article_DownloadProvisionalArticle":"Download Provisional Article","Article_DownloadProvisionalPDF":"Download Provisional PDF","Article_EditedBy":"Edited by: ","Article_EndNote":"EndNote","Article_EPUB":"EPUB","Article_ExportCitation":"Export Citation","Article_JATS":"JATS","Article_Keywords":"Keywords: ","Article_NLM":"XML (NLM)","Article_OriginalArticle":"ORIGINAL ARTICLE","Article_PaperPendingPublishedDate":"Paper pending published: ","Article_PDF":"PDF","Article_ProvisionalPDF":"Provisional PDF","Article_PublishedDate":"Published online: ","Article_ReadFullText":"Read Full Text","Article_ReceivedDate":"Received: ","Article_ReferenceManager":"Reference Manager","Article_ReviewedBy":"Reviewed by: ","Article_RTInfoText":"This article is part of the Research Topic","Article_ShareOn":"SHARE ON","Article_SimpleTEXTfile":"Simple TEXT file","Article_SupplementalData":"SUPPLEMENTAL DATA","Article_TableOfContent":"TABLE OF CONTENTS","Article_ViewEnhancedPDF":"ReadCube","Article_XML":"XML","BrowserWarningText":"\u003ch2\u003eWarning!\u003c/h2\u003e\u003cp\u003eYou are using an \u003cstrong\u003eoutdated\u003c/strong\u003e browser. This page doesn\u0027t support Internet Explorer 6, 7 and 8.\u003cbr /\u003ePlease \u003ca class=\"blue\" href=\"http://browsehappy.com/\"\u003eupgrade your browser\u003c/a\u003e or \u003ca class=\"blue\" href=\"http://www.google.com/chromeframe/?redirect=true\"\u003eactivate Google Chrome Frame\u003c/a\u003e to improve your experience.\u003c/p\u003e","COMMENT_HEADERTEXT":"Comment text too long","COMMENT_WARNINGTEXT":"Comments must be less than 4,000 characters. You have entered ","Impact_BackToArticle":"Back to article","People_Also_LookedAt":"People also looked at"};
+
+            return {
+                value: function(key) {
+                    if (languageSet[key]) {
+                        return languageSet[key];
+                    } else {
+                        throw new Error('Unable to get the value status from the language set'); // Use Error, not FRError
+                    }
+                }
+            };
+
+        })();
+
+        var FRJournalDetails = (function() {
+            return {
+                JournalType: 'section',
+                JournalId: '452',
+                SectionId: '688'
+            };
+        })();
+
+        var FRArticleDetails = (function() {
+            return {
+                ArticleId: '317384'
+            };
+        })();
+        var FRArticleRecaptchaSettings = (function() {
+            return {
+                RecaptchaSiteKey: '6LdG3i0UAAAAAOC4qUh35ubHgJotEHp_STXHgr_v'
+            };
+        })();
+
+    </script>
+
+    <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-535f7e222fc3ca72"></script>
+
+
+    <script language="javascript">
+        var addthis_config = addthis_config || {};
+        addthis_config.data_track_addressbar = false;
+        addthis_config.data_track_clickback = false;
+    </script>
+
+    
+    
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+
+    <![endif]-->
+
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+    <script src="/areas/research-topics/content/scripts/frontiers/frontiers.markerclusterer.js"></script>
+
+
+    <link href="https://209cd62b0febf2a55d40-715eb384bc6027b876e93ad33d5c5ec3.ssl.cf3.rackcdn.com/font-awesome-4.3.0/css/font-awesome.css" rel="stylesheet"/>
+
+    <link href="https://9d0dd7a648345f19af83-877d2ecaf11b88d5e17327c758e17ef6.ssl.cf2.rackcdn.com/museo-sans-1.0.1/css/museo-sans.css" rel="stylesheet"/>
+
+    <link href="https://9d0dd7a648345f19af83-877d2ecaf11b88d5e17327c758e17ef6.ssl.cf2.rackcdn.com/museo-slab-1.0.1/css/museo-slab.css" rel="stylesheet"/>
+
+    <link href="https://209cd62b0febf2a55d40-715eb384bc6027b876e93ad33d5c5ec3.ssl.cf3.rackcdn.com/open-sans-1.0.0/css/open-sans.css" rel="stylesheet"/>
+
+    <link href="https://static.frontiersin.org/areas/articles/css/app?v=d7xs6QXeE2UIxbm9TizlA3t08LzxgJlsJHBk24_OOR81" rel="stylesheet"/>
+
+    
+    <style type="text/css"> .journal-bioengineering-and-biotechnology {
+ background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-bioengineering-and-biotechnology.png') no-repeat 100% -10px;
+	background-size: 48%;
+}
+/* Displays/Screens (e.g. 19" WS @ 1440x900) --------------- */ @media only screen and (max-width: 1649px) {
+ .journal-bioengineering-and-biotechnology {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-bioengineering-and-biotechnology.png') no-repeat 102% 38px;
+	background-size: 65%;
+ }}
+/* Displays/Screens (e.g. MacBook @ 1280x800) -------------- */
+@media only screen and (max-width: 1409px) {
+ .journal-bioengineering-and-biotechnology {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-bioengineering-and-biotechnology.png') no-repeat 102% 33px;
+	background-size: 74%;
+ }}
+/* Large Devices, Wide Screens --------- */  @media only screen and (max-width : 1250px) {
+.journal-bioengineering-and-biotechnology {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-bioengineering-and-biotechnology.png') no-repeat 102% 38px;
+	background-size: 75%;
+ }}
+
+/* Medium Devices, Desktops ---------- */  @media only screen and (max-width : 992px) { {
+.journal-bioengineering-and-biotechnology {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-bioengineering-and-biotechnology.png') no-repeat -600px 60px;
+ }}
+/* Small Devices, Tablets ------------ */  @media only screen and (max-width : 768px) {
+.journal-bioengineering-and-biotechnology {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-bioengineering-and-biotechnology.png') no-repeat -900px 60px;
+ }} 
+
+/* Small Devices, Tablets  --------- */ @media only screen and (max-width : 640px) {
+.journal-bioengineering-and-biotechnology {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-bioengineering-and-biotechnology.png') no-repeat -900px 60px;
+ }}
+
+/* Extra Small Devices, Phones-----------  */  @media only screen and (max-width : 480px) { 
+.journal-bioengineering-and-biotechnology {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-bioengineering-and-biotechnology.png') no-repeat -1000px 60px;
+ }} </style>
+    
+</head>
+<body class="journal-bioengineering-and-biotechnology section-bioenergy-and-biofuels">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZGWTGG&gtm_auth=fCzlsmYQFAUQ_UXneGJNag&gtm_preview=env-2&gtm_cookies_win=x"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+        <div data-navigation-plugin="header"></div>
+        <script src="https://static.frontiersin.org/navigation-plugins/header/js"></script>
+
+
+
+    
+
+    <!--[if lte IE 8]>
+        <div class="row">
+            <div class="col-md-16">
+                <div style="margin-bottom: 15px;"><h2>Warning!</h2><p>You are using an <strong>outdated</strong> browser. This page doesn't support Internet Explorer 6, 7 and 8.<br />Please <a class="blue" href="http://browsehappy.com/">upgrade your browser</a> or <a class="blue" href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p></div>
+            </div>
+        </div>
+    <![endif]-->
+
+    <div class="page-container">
+        
+
+<header>
+
+            <a href="https://www.frontiersin.org/about/impact?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=impact-2020-jour-hp-top" target="_blank">
+            <div class="marketing journal-marketing-message no-impact">
+                <span class="message">
+                    <p><strong>Impact Factor 3.644</strong> |<strong> CiteScore 3.2<br /></strong>More on impact &rsaquo;</p>
+                </span>
+
+            </div>
+        </a>
+<div id="journal-header" class="journal-home" style="position: relative;">
+    <div class="container-fluid main-container-xxl">
+        <table id="logo-table" style="width:100%">
+            <tr>
+                    <td width="50%" valign="bottom" align="right" class="left-cell">
+                        <h1>
+                            <a href="https://www.frontiersin.org/journals/452" data-test-id="journal-link">
+                                <span>Frontiers </span>in Bioengineering<br/>and Biotechnology
+                            </a>
+                        </h1>
+                    </td>
+                        <td class="right-cell" width="50%" style="vertical-align: bottom">
+                            <h2>
+
+                                <span>Bioenergy and Biofuels</span>
+
+                            </h2>
+                        </td>
+            </tr>
+        </table>
+
+
+        
+     </div>
+</div>
+
+
+    <div id="journal-nav">
+    <div class="container-fluid main-container-xxl">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="nav-wrapper">
+                    <nav class="navbar navbar-default">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#journal-navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="pull-left">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </span>
+                            <span class="pull-right hidden-xs">Section</span>
+                        </button>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse no-transition journal-nav-bar" id="journal-navbar-collapse">
+                            <ul class="nav navbar-nav">
+                                <li class="tab-overview icon icon-left">
+                                    <a id="journal_nav_home" href="https://www.frontiersin.org/journals/bioengineering-and-biotechnology/sections/bioenergy-and-biofuels#"><span class="sr-only">(current)</span><i class="fa fa-home"></i>Section</a>
+                                </li>
+                                <li class="tab-about">
+                                    <a id="journal_nav_about" href="https://www.frontiersin.org/journals/bioengineering-and-biotechnology/sections/bioenergy-and-biofuels#about">About</a>
+                                </li>
+                                <li class="tab-archive active">
+                                    <a id="journal_nav_articles" href="https://www.frontiersin.org/journals/bioengineering-and-biotechnology/sections/bioenergy-and-biofuels#articles">Articles</a>
+                                </li>
+                                <li class="tab-research-topics">
+                                    <a id="journal_nav_research_topics" href="https://www.frontiersin.org/journals/bioengineering-and-biotechnology/sections/bioenergy-and-biofuels#research-topics">Research topics</a>
+                                </li>
+                                <li class="dropdown">
+                                    <a id="journal_nav_for_authors" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">For authors <span class="caret"></span></a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a id="for_authors_why_submit" href="https://www.frontiersin.org/journals/bioengineering-and-biotechnology/sections/bioenergy-and-biofuels#why-submit">Why submit?</a></li>
+                                        <li><a id="for_authors_fees" href="https://www.frontiersin.org/about/publishing-fees" target="_blank">Fees</a></li>
+                                        <li><a id="for_authors_article_types" href="https://www.frontiersin.org/journals/bioengineering-and-biotechnology/sections/bioenergy-and-biofuels#article-types">Article types</a></li>
+                                        <li><a id="for_authors_authors_guidelines" href="https://www.frontiersin.org/journals/bioengineering-and-biotechnology/sections/bioenergy-and-biofuels#author-guidelines">Author guidelines</a></li>
+                                        <li><a id="for_authors_review_guidelines" href="https://www.frontiersin.org/journals/bioengineering-and-biotechnology/sections/bioenergy-and-biofuels#review-guidelines">Review guidelines</a></li>
+                                        <li><a id="for_authors_submission_checklist" href="https://www.frontiersin.org/journals/bioengineering-and-biotechnology/sections/bioenergy-and-biofuels#submission-checklist">Submission checklist</a></li>
+                                        <li><a id="for_authors_contact_editorial_office" href="https://www.frontiersin.org/journals/bioengineering-and-biotechnology/sections/bioenergy-and-biofuels#contact-editorial-office">Contact editorial office</a></li>
+                                    </ul>
+                                </li>
+                                <li class="tab-editorial-board">
+                                    <a id="journal_nav_Editorial_Board" href="https://www.frontiersin.org/journals/bioengineering-and-biotechnology/sections/bioenergy-and-biofuels#editorial-board">Editorial board</a>
+                                </li>
+                            </ul>
+                        </div><!-- /.navbar-collapse -->
+                        <ul class="list-inline follow-us nav navbar-nav">
+                            <li class="twitter icon button">
+                                <a data-test-id="twitter-link" href="https://twitter.com/@FrontBioeng">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="rss icon button">
+                                <a data-test-id="rss-link" href="https://www.frontiersin.org/journals/bioengineering-and-biotechnology/sections/bioenergy-and-biofuels/rss">
+                                    <i class="fa fa-rss"></i>
+                                </a>
+                            </li>
+                            <li class="alerts icon button">
+                                <a data-test-id="alert-link" href="http://connect.frontiersin.org/subscriptions/subscribe?item=1&amp;field=7">
+                                    <i class="fa fa-bell" style="width: auto; padding-right: 7px; padding-left: 7px;"><span class="article-alert-text" style="font-family: MuseoSans, 'Helvetica Neue', Helvetica, Arial, sans-serif; margin-left: 6px; font-weight: 700; letter-spacing: 0px; font-size: 13px;">Article alerts</span></i>
+                                </a>
+                            </li>
+                                    
+                            
+                        </ul>
+
+                    </nav>
+                </div><!-- / .nav-wrapper -->
+            </div>
+        </div>
+    </div>
+</div>
+
+</header>
+
+<div class="journal-actions article-actions">
+    <div class="container-fluid main-container-xxl">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-lg-push-6 col-md-push-6 col-research-topic">
+            </div>
+            <section class="col-lg-4 col-lg-offset-2 col-md-6 col-md-offset-0 col-lg-pull-6 col-md-pull-6">
+                <a href="https://www.frontiersin.org/journals/452#articles" class="archive-link hidden-sm hidden-xs" data-test-id="archive-link">
+                    <i class="fa fa-angle-left"></i> Articles
+                </a>
+            </section>
+        </div>
+    </div>
+</div>
+
+
+<aside id="anchors" class="pull-left table-of-contents side-article">
+    <div class="side-people hidden-sm hidden-xs">
+                <section class="side-article-editors">
+                    <header><h5 class="like-h4">Edited by</h5></header>
+                    <a class="authors" href="https://loop.frontiersin.org/people/94337/overview">
+                        <img alt=" " class="pr5 pull-left" src="https://loop.frontiersin.org/images/profile/94337/24"></img>
+                        <h6 class="author-link-aside">Qiang Wang</h6>
+                    </a>
+                    <div class="clearfix"></div>
+                    <p><span class="notes">Institute of Hydrobiology, Chinese Academy of Sciences, China</span></p>
+                </section>
+                <section class="side-article-editors">
+                    <header><h5 class="like-h4"> Reviewed by</h5></header>
+                            <a class="authors" href="https://loop.frontiersin.org/people/398980/overview">
+                                <img alt=" " class="pr5 pull-left" src="https://loop.frontiersin.org/images/profile/398980/24"></img>
+                                <h6 class="author-link-aside">Jianhua Fan</h6>
+                            </a>
+                            <div class="clearfix"></div>
+                        <p><span class="notes">East China University of Science and Technology, China</span></p>
+                            <a class="authors" href="https://loop.frontiersin.org/people/492044/overview">
+                                <img alt=" " class="pr5 pull-left" src="https://loop.frontiersin.org/images/profile/492044/24"></img>
+                                <h6 class="author-link-aside">Yingchun Wang</h6>
+                            </a>
+                            <div class="clearfix"></div>
+                        <p><span class="notes">Chinese Academy of Sciences (CAS), China</span></p>
+                    <p class="disclaimer">The editor and reviewers' affiliations are the latest provided on their Loop research profiles and may not reflect their situation at the time of review.</p>
+                </section>
+    </div>
+    <nav>
+            <header><h5 class="like-h4" style="padding-top: 14px; padding-left: 6px; margin-bottom: 6px;">TABLE OF CONTENTS</h5></header>
+            <ul class="nav nav-list list-unstyled contents">
+                <li>
+<ul class="flyoutJournal">
+<li><a href="#h1">Data Report</a></li>
+<li><a href="#h2">Introduction</a></li>
+<li><a href="#h3">Materials and Methods</a></li>
+<li><a href="#h4">Direct Link to Deposited Data and Information to Users</a></li>
+<li><a href="#h5">Author Contributions</a></li>
+<li><a href="#h6">Conflict of Interest Statement</a></li>
+<li><a href="#h7">Acknowledgments</a></li>
+<li><a href="#h8">Supplementary Material</a></li>
+<li><a href="#h9">References</a></li>
+</ul>
+                </li>
+            </ul>
+    </nav>
+</aside>
+
+
+<div id="article" class="boxed white no-padding">
+    <div class="container-fluid main-container-xxl">
+            <div class="side-article-mrk hidden-md hidden-lg top clearfix">
+                <p style="text-align: center;"><a href="https://spotlight.frontiersin.org/submit?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=rtlg_2020_gen"><img src="https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/article-marketing-message-79982763-254d-4bb6-96b8-126758de1166.png" alt="" /><br /></a></p>
+<p style="text-align: center;"><a href="https://spotlight.frontiersin.org/submit?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=rtlg_2020_gen"><strong>Suggest a Research Topic &gt;</strong></a></p>
+            </div>
+        <div class="row">
+
+            
+<aside class="a col-xs-12 col-sm-12 col-lg-2 col-md-3 pull-right side-article right-container">
+        <button type="button" class="navbar-toggle navbar-download collapsed" data-toggle="collapse" data-target=".show" aria-expanded="false">
+            <span class="icon"><i class="fa fa-download"></i></span>
+        </button>
+    <button type="button" class="navbar-toggle navbar-share collapsed" data-toggle="collapse" data-target=".show" aria-expanded="false">
+        <span class="icon"><i class="fa fa-share-alt"></i></span>
+    </button>
+        <div class="side-article-download show collapse clearfix">
+            <ul class="list-unstyled list-inline clearfix">
+                    <li class="dropdown text-center paper">
+                        <a data-target="#" class="dropdown-toggle" data-test-id="download-button" data-toggle="dropdown" role="button" aria-expanded="false">
+                            <span class="icon icon-article"><i class="fa fa-file-pdf-o"></i></span>
+                            <span class="icon-label">Download Article</span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                                <li>
+                                    <a class="download-files-pdf action-link" href="/articles/10.3389/fbioe.2018.00037/pdf" data-test-id="article-downloadpdf">
+                                        Download PDF
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="download-files-readcube" href="http://www.readcube.com/articles/10.3389/fbioe.2018.00037" data-test-id="article-viewenhancedpdf">
+                                        ReadCube
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="download-files-epub" href="/articles/10.3389/fbioe.2018.00037/epub" data-test-id="article-epub">
+                                        EPUB
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="download-files-nlm" href="/articles/10.3389/fbioe.2018.00037/xml/nlm" data-test-id="article-nlm">
+                                        XML (NLM)
+                                    </a>
+                                </li>
+                                                            <li class="">
+
+<a data-test-id="supplementary-button"
+                                        id="supplementary_view">
+
+                                            Supplementary
+                                            <br>
+                                            Material
+                                        </a>
+
+                                </li>
+                        </ul>
+                    </li>
+                <li class="dropdown text-center citation">
+                    <a data-target="#" class="dropdown-toggle" data-test-id="citation-button" data-toggle="dropdown" role="button" aria-expanded="false">
+                        <span class="icon icon-citation"><i class="fa fa-quote-left"></i></span>
+                        <span class="icon-label">Export citation</span>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                            <li>
+                                <a data-test-id="article-endnote" href="https://www.frontiersin.org/articles/10.3389/fbioe.2018.00037/endNote">
+                                    EndNote
+                                </a>
+                            </li>
+                            <li>
+                                <a data-test-id="article-referencemanager" href="https://www.frontiersin.org/articles/10.3389/fbioe.2018.00037/reference">
+                                    Reference Manager
+                                </a>
+                            </li>
+                            <li>
+                                <a data-test-id="article-simpletextfile" href="https://www.frontiersin.org/articles/10.3389/fbioe.2018.00037/text">
+                                    Simple TEXT file
+                                </a>
+                            </li>
+                            <li>
+                                <a data-test-id="article-bibtex" href="https://www.frontiersin.org/articles/10.3389/fbioe.2018.00037/bibTex">
+                                    BibTex
+                                </a>
+                            </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+            <div class="side-article-impact">
+            <ul class="nav">
+                <li class="impact-data" title="The total view count is updated once a day, so not to worry if you don&#39;t see immediate results.">
+                    <span class="title-number"></span>
+                    <span class="title-text">total views</span>
+                </li>
+                <li class="hidden-sm hidden-xs">
+                    <div class="altmetric-icon">
+                        <div class='altmetric-embed' data-badge-type='1' data-doi='10.3389/fbioe.2018.00037' data-link-target="new"></div>
+                    </div>
+                </li>
+            </ul>
+                <a type="button" class="btn btn-default hidden-sm hidden-xs btn-impact " data-test-id="view-article-impact" href="http://loop-impact.frontiersin.org/impact/article/317384#views" target="_blank">
+                    <span class="icon-impact"><i class="fa fa-line-chart"></i></span> View Article Impact
+                </a>
+        </div>
+            <div class="side-article-mrk hidden-sm hidden-xs clearfix">
+            <p style="text-align: center;"><a href="https://spotlight.frontiersin.org/submit?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=rtlg_2020_gen"><img src="https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/article-marketing-message-79982763-254d-4bb6-96b8-126758de1166.png" alt="" /><br /></a></p>
+<p style="text-align: center;"><a href="https://spotlight.frontiersin.org/submit?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=rtlg_2020_gen"><strong>Suggest a Research Topic &gt;</strong></a></p>
+        </div>
+    <div class="side-article-share show collapse">
+        <h5 class="like-h4">SHARE ON</h5>
+        <ul class="share-media clearfix" style="padding: 0;">
+            <li class="social_block">
+                <div class="atButton">
+                    <a class="addthis_button_facebook at300b" addthis:title="Genome Sequence of the Oleaginous Green Alga, Chlorella vulgaris UTEX 395" addthis:description="IntroductionMicroalgae have garnered extensive interest as renewable fuel feedstocks due to their high production potential relative to terrestrial crops, and unique cultivation capacity on non-arable lands (Wijffels et al., 2010, Davis et al., 2011). The oleaginous chlorophyte Chlorella vulgaris represents a promising model microalgal system and production host, due to its ability to synthesize and accumulate large quantities of fuel intermediates in the form of storage lipids (Guarnieri et al., 2011, Guarnieri et al., 2012, Gerken et al., 2013, Griffiths et al., 2014, Zuniga et al., 2016). Recent omic analyses have identified transcriptional, post-transcriptional and -translational mechanisms governing lipid accumulation in this alga (Guarnieri et al. 2011, Guarnieri et al., 2013) , including active protein nitrosylation (Henard et al., 2017) . Here we report the draft nuclear genome and annotation of C. vulgaris UTEX 395. Materials and MethodsCultivation and genomic DNA isolation: For genomic DNA isolation C. vulgaris UTEX 395 was grown photoautotrophically to exponential phase in Bold’s Basal Media, under constant illumination (200 µE m−2 s−1 white fluorescent light), and supplemented with 2% CO2/air, as described previously (Guarnieri et al. 2011, Guarnieri et al. 2013). Genomic DNA was extracted following the protocol adapted from Alvarez, et al (Varela-Alvarez et al., 2006). Genome sequencing and assembly: Sequencing was performed using Illumina HiSeq 2000 technolog..." addthis:url="https://www.frontiersin.org/article/10.3389/fbioe.2018.00037" title="Facebook"></a>
+                </div>
+                <a><span class="facebook_count"></span></a>
+            </li>
+            <li class="social_block">
+                <div class="atButton">
+                    <a class="addthis_button_twitter at300b" addthis:title="Genome Sequence of the Oleaginous Green Alga, Chlorella vulgaris UTEX 395" addthis:description="IntroductionMicroalgae have garnered extensive interest as renewable fuel feedstocks due to their high production potential relative to terrestrial crops, and unique cultivation capacity on non-arable lands (Wijffels et al., 2010, Davis et al., 2011). The oleaginous chlorophyte Chlorella vulgaris represents a promising model microalgal system and production host, due to its ability to synthesize and accumulate large quantities of fuel intermediates in the form of storage lipids (Guarnieri et al., 2011, Guarnieri et al., 2012, Gerken et al., 2013, Griffiths et al., 2014, Zuniga et al., 2016). Recent omic analyses have identified transcriptional, post-transcriptional and -translational mechanisms governing lipid accumulation in this alga (Guarnieri et al. 2011, Guarnieri et al., 2013) , including active protein nitrosylation (Henard et al., 2017) . Here we report the draft nuclear genome and annotation of C. vulgaris UTEX 395. Materials and MethodsCultivation and genomic DNA isolation: For genomic DNA isolation C. vulgaris UTEX 395 was grown photoautotrophically to exponential phase in Bold’s Basal Media, under constant illumination (200 µE m−2 s−1 white fluorescent light), and supplemented with 2% CO2/air, as described previously (Guarnieri et al. 2011, Guarnieri et al. 2013). Genomic DNA was extracted following the protocol adapted from Alvarez, et al (Varela-Alvarez et al., 2006). Genome sequencing and assembly: Sequencing was performed using Illumina HiSeq 2000 technolog..." addthis:url="https://www.frontiersin.org/article/10.3389/fbioe.2018.00037" title="Tweet"></a>
+                </div>
+                <a><span class="twitter_count"></span></a>
+            </li>
+            <li class="social_block">
+                <div class="atButton">
+                    <a class="addthis_button_linkedin at300b" addthis:title="Genome Sequence of the Oleaginous Green Alga, Chlorella vulgaris UTEX 395" addthis:description="IntroductionMicroalgae have garnered extensive interest as renewable fuel feedstocks due to their high production potential relative to terrestrial crops, and unique cultivation capacity on non-arable lands (Wijffels et al., 2010, Davis et al., 2011). The oleaginous chlorophyte Chlorella vulgaris represents a promising model microalgal system and production host, due to its ability to synthesize and accumulate large quantities of fuel intermediates in the form of storage lipids (Guarnieri et al., 2011, Guarnieri et al., 2012, Gerken et al., 2013, Griffiths et al., 2014, Zuniga et al., 2016). Recent omic analyses have identified transcriptional, post-transcriptional and -translational mechanisms governing lipid accumulation in this alga (Guarnieri et al. 2011, Guarnieri et al., 2013) , including active protein nitrosylation (Henard et al., 2017) . Here we report the draft nuclear genome and annotation of C. vulgaris UTEX 395. Materials and MethodsCultivation and genomic DNA isolation: For genomic DNA isolation C. vulgaris UTEX 395 was grown photoautotrophically to exponential phase in Bold’s Basal Media, under constant illumination (200 µE m−2 s−1 white fluorescent light), and supplemented with 2% CO2/air, as described previously (Guarnieri et al. 2011, Guarnieri et al. 2013). Genomic DNA was extracted following the protocol adapted from Alvarez, et al (Varela-Alvarez et al., 2006). Genome sequencing and assembly: Sequencing was performed using Illumina HiSeq 2000 technolog..." addthis:url="https://www.frontiersin.org/article/10.3389/fbioe.2018.00037" title="LinkedIn"></a>
+                </div>
+                <a><span class="linkedin_count"></span></a>
+            </li>
+            <li class="social_block">
+                <div class="atButton">
+                    <a class="addthis_button_more at300b" addthis:title="Genome Sequence of the Oleaginous Green Alga, Chlorella vulgaris UTEX 395" addthis:description="IntroductionMicroalgae have garnered extensive interest as renewable fuel feedstocks due to their high production potential relative to terrestrial crops, and unique cultivation capacity on non-arable lands (Wijffels et al., 2010, Davis et al., 2011). The oleaginous chlorophyte Chlorella vulgaris represents a promising model microalgal system and production host, due to its ability to synthesize and accumulate large quantities of fuel intermediates in the form of storage lipids (Guarnieri et al., 2011, Guarnieri et al., 2012, Gerken et al., 2013, Griffiths et al., 2014, Zuniga et al., 2016). Recent omic analyses have identified transcriptional, post-transcriptional and -translational mechanisms governing lipid accumulation in this alga (Guarnieri et al. 2011, Guarnieri et al., 2013) , including active protein nitrosylation (Henard et al., 2017) . Here we report the draft nuclear genome and annotation of C. vulgaris UTEX 395. Materials and MethodsCultivation and genomic DNA isolation: For genomic DNA isolation C. vulgaris UTEX 395 was grown photoautotrophically to exponential phase in Bold’s Basal Media, under constant illumination (200 µE m−2 s−1 white fluorescent light), and supplemented with 2% CO2/air, as described previously (Guarnieri et al. 2011, Guarnieri et al. 2013). Genomic DNA was extracted following the protocol adapted from Alvarez, et al (Varela-Alvarez et al., 2006). Genome sequencing and assembly: Sequencing was performed using Illumina HiSeq 2000 technolog..." addthis:url="https://www.frontiersin.org/article/10.3389/fbioe.2018.00037" title="View more services"></a>
+                </div>
+                <a><span class="total_count"></span></a>
+            </li>
+        </ul>
+    </div>
+        <a type="button"
+           class="open-supplemental-data btn btn-default hidden-sm hidden-xs"
+           id="supplementary_view">
+            <span class="supplemental-label">
+                <i class="supplemental-icon"></i>
+                <label>Open Supplemental Data</label>
+            </span>
+        </a>
+</aside>
+
+
+            
+<main class="b col-xs-12 col-sm-12 col-lg-8 col-lg-push-2 col-md-7 col-md-push-2 pull-left">
+    <div class="article-section">
+        <div class="article-container" data-html="True">
+            <div class="abstract-container">
+                
+                <div class="article-header-container">
+                    <!-- Start CrossMark Snippet v2.0 -->
+                        <!-- the external CrossMark script to load the crossmark logo responsive  JPB-5562 -->
+                        <script src="https://crossmark-cdn.crossref.org/widget/v2.0/widget.js"></script>
+                        <a data-target="crossmark" class="crossmark pull-right" style="padding: 3px 0 13px 0;"><img id="crossmark-icon" style="border: 0; width:64px; height:64px;" src="https://crossmark-cdn.crossref.org/widget/v2.0/logos/CROSSMARK_Color_square.svg" /></a>
+                        <div id="crossmark-dialog" style="display: none;" title="">
+                            <!-- the external CrossMark data is loaded inside this iframe -->
+                            <iframe id="crossmark-dialog-frame" frameborder="0"></iframe>
+                        </div>
+                    <!-- End CrossMark Snippet -->                   
+
+                    <div class="header-bar-one">
+                        <h2>
+                            Data Report ARTICLE
+
+                    </h2>
+                </div>
+                <div class="header-bar-three">
+                    Front. Bioeng. Biotechnol., 05 April 2018
+                             | <a href="https://doi.org/10.3389/fbioe.2018.00037">https://doi.org/10.3389/fbioe.2018.00037</a>
+                </div>
+                </div>
+                
+<div class="JournalAbstract">
+<a id="h1" name="h1"></a><h1>Genome Sequence of the Oleaginous Green Alga, <i>Chlorella vulgaris</i> UTEX 395</h1>
+<div class="authors">
+<a href="http://www.frontiersin.org/people/u/368816" class="user-id-368816"><img class="pr5" src="https://loop.frontiersin.org/images/profile/368816/24" onerror="this.src='https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg'" />Michael T. Guarnieri</a><sup>1</sup><sup>*</sup>, <img class="pr5" src="https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg" />Jennifer Levering<sup>2</sup>, <a href="http://www.frontiersin.org/people/u/29175" class="user-id-29175"><img class="pr5" src="https://loop.frontiersin.org/images/profile/29175/24" onerror="this.src='https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg'" />Calvin A. Henard</a><sup>1</sup>, <a href="http://www.frontiersin.org/people/u/518977" class="user-id-518977"><img class="pr5" src="https://loop.frontiersin.org/images/profile/518977/24" onerror="this.src='https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg'" />Jeffrey L. Boore</a><sup>3</sup>, <img class="pr5" src="https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg" />Michael J. Betenbaugh<sup>4</sup>, <img class="pr5" src="https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg" />Karsten Zengler<sup>2</sup> and <a href="http://www.frontiersin.org/people/u/399595" class="user-id-399595"><img class="pr5" src="https://loop.frontiersin.org/images/profile/399595/24" onerror="this.src='https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg'" />Eric P. Knoshaug</a><sup>1</sup></div>
+<ul class="notes">
+<li><span><sup>1</sup></span>National Bioenergy Center, National Renewable Energy Laboratory, Golden, CO, United States</li>
+<li><span><sup>2</sup></span>Division of Host-Microbe Systems and Therapeutics, Department of Pediatrics, University of California, San Diego, La Jolla, CA, United States</li>
+<li><span><sup>3</sup></span>Genome Project Solutions, Inc., Hercules, CA, United States</li>
+<li><span><sup>4</sup></span>Department of Chemical and Biomolecular Engineering, Johns Hopkins University, Baltimore, MD, United States</li>
+</ul>
+<div class="clear"></div>
+</div>
+<div class="JournalFullText">
+<a id="h2" name="h2"></a><h2>Introduction</h2>
+<p class="mb0">Microalgae have garnered extensive interest as renewable fuel feedstocks due to their high production potential relative to terrestrial crops, and unique cultivation capacity on non-arable lands (<a href="#B15">Wijffels and Barbosa, 2010</a>; <a href="#B4">Davis et al., 2011</a>). The oleaginous chlorophyte <i>Chlorella vulgaris</i> represents a promising model microalgal system and production host, due to its ability to synthesize and accumulate large quantities of fuel intermediates in the form of storage lipids (<a href="#B9">Guarnieri et al., 2011</a>, <a href="#B8">2012</a>; <a href="#B6">Gerken et al., 2013</a>; <a href="#B7">Griffiths et al., 2014</a>; <a href="#B16">Zu&#x000F1;iga et al., 2016</a>). Recent omic analyses have identified transcriptional, post-transcriptional and -translational mechanisms governing lipid accumulation in this alga (<a href="#B9">Guarnieri et al., 2011</a>, <a href="#B10">2013</a>), including active protein nitrosylation (<a href="#B11">Henard et al., 2017</a>). Here we report the draft nuclear genome and annotation of <i>C. vulgaris</i> UTEX 395.</p>
+<a id="h3" name="h3"></a><h2>Materials and Methods</h2>
+<h3 class="pt0">Cultivation and Genomic DNA Isolation</h3>
+<p class="mb0">For genomic DNA isolation <i>C. vulgaris</i> UTEX 395 was grown photoautotrophically to exponential phase in Bold&#x00027;s Basal Media, under constant illumination (200 &#x003BC;E m<sup>&#x02212;2</sup> s<sup>&#x02212;1</sup> white fluorescent light), and supplemented with 2% CO<sub>2</sub>/air, as described previously (<a href="#B9">Guarnieri et al., 2011</a>, <a href="#B10">2013</a>). Genomic DNA was extracted following the protocol adapted from <a href="#B14">Varela-Alvarez et al. (2006)</a>.</p>
+<h3>Genome Sequencing and Assembly</h3>
+<p class="mb0">Sequencing was performed using Illumina HiSeq 2000 technology with 108 cycles. 171,758,456 paired-end (SIPES) reads were trimmed to an error rate of &#x0003C;1:100, then trimmed until no ambiguous nucleotides remain; reads shorter than 20 nucleotides were discarded, retaining 168,611,711 reads, of which 165,874,962 remained as pairs. Resultant reads were assembled using a DeBruijn method; 113 scaffolds were generated at &#x02265;1,000x depth of coverage, 24 of which were longer than 100 kb and 566 of which were 20&#x02013;100 kb, ultimately generating a total assembly size of 37.34 Mb, with a 61.5% GC content. This represents the smallest nuclear genome size and lowest GC content reported to date for a sequenced <i>Chlorella</i> species (Supplemental Table 1).</p>
+<h3>Genome Annotation</h3>
+<p class="mb15">Transcript prediction was conducted using Maker (<a href="#B3">Cantarel et al., 2008</a>; <a href="#B2">Campbell et al., 2014</a>). Transcripts were six-frame translated into protein sequences and functionally annotated with EC, GO and InterProScan identifiers using two approaches. First, a bidirectional BLASTp against SwissProt sequences was carried out and paralogs were identified using BLASTclust. Secondly, InterProScan and PRIAM analyses with gene and genome-specific profiles were conducted.</p>
+<p class="mb0">To facilitate refined annotation and comprehensive pathway mapping of <i>C. vulgaris</i>, a draft nuclear genome sequence was generated and integrated with previously acquired <i>de novo</i> transcriptomic datasets (<a href="#B9">Guarnieri et al., 2011</a>). 7,100 transcripts were predicted from the <i>C. vulgaris</i> genome, resulting in 6,056 annotated gene models. Genomic queries identified complete gene sets encoding fatty acid and triacylglyceride biosynthetic pathways. The nitrogen assimilation inventory includes genes for nitrate/nitrite transporters and reductases. The genome also encodes meiosis-associated DMC1 and Rad51 DNA recombinase homologs (<a href="#B5">Fanning et al., 2006</a>; <a href="#B1">Broderick et al., 2010</a>), offering a possibility that sexual mating may occur in this microalga. Genes for the synthesis of the global stress response alarmone, guanine tetraphosphate (ppGpp) (<a href="#B12">Takahashi et al., 2004</a>; <a href="#B13">Tozawa and Nomura, 2011</a>), were also identified. Combined, these genetic pathways will enable potential markerless strain-engineering strategies targeting lipid accumulation in the absence of stress induction, ultimately facilitating the development of robust, deployment-viable microalgae for cost-competitive biofuel production.</p>
+<a id="h4" name="h4"></a><h2>Direct Link to Deposited Data and Information to Users</h2>
+<p class="mb0">This whole-genome project has been deposited at DDBJ/EMBL/GenBank under the accession LDKB00000000. The version described in this paper is version LDKB01000000. Additional details can be found at <a href="http://www.nrel.gov/biomass/proj_microalgal_biofuels.html">http://www.nrel.gov/biomass/proj_microalgal_biofuels.html</a> and <a href="http://chlorella.genomeprojectsolutions-databases.com">http://chlorella.genomeprojectsolutions-databases.com</a>.</p>
+<a id="h5" name="h5"></a><h2>Author Contributions</h2>
+<p class="mb0">The work was designed by EK, MB, KZ, and MG. MG directed wet lab analyses. JB directed genome assembly. JL and CH directed genome annotation and pathway mapping.</p>
+<a id="h6" name="h6"></a><h2>Conflict of Interest Statement</h2>
+<p class="mb0">The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p>
+<a id="h7" name="h7"></a><h2>Acknowledgments</h2>
+<p class="mb0">This work was supported by National Renewable Energy Laboratory, Laboratory-Directed Research and Development (LDRD) grants 06511103 and 06511301 and by the U.S. Department of Energy, Office of Science, Office of Biological &#x00026; Environmental Research under Award Number DE-SC-0012658 and Office of Energy Efficiency and Renewable Energy (EERE) under Agreement No. 22000. The views and opinions of the authors expressed herein do not necessarily state or reflect those of the United States Government or any agency thereof. Neither the United States Government nor any agency thereof, nor any of their employees, makes any warranty, expressed or implied, or assumes any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed, or represents that its use would not infringe privately owned rights. We kindly thank Robert Stiles for assistance in genome assembly.</p>
+<a id="h8" name="h8"></a><h2>Supplementary Material</h2>
+<p class="mb0">The Supplementary Material for this article can be found online at: <a href="https://www.frontiersin.org/articles/10.3389/fbioe.2018.00037/full#supplementary-material">https://www.frontiersin.org/articles/10.3389/fbioe.2018.00037/full#supplementary-material</a></p>
+<a id="h9" name="h9"></a><h2>References</h2>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B1" id="B1"></a> Broderick, S., Rehmet, K., Concannon, C., and Nasheuer, H. P. (2010). Eukaryotic single-stranded DNA binding proteins: central factors in genome stability. <i>Subcell. Biochem.</i> 50, 143&#x02013;163. doi: 10.1007/978-90-481-3471-7_8</p>
+<p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=20012581" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1007/978-90-481-3471-7_8" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=S.+Broderick&#x00026;author=K.+Rehmet&#x00026;author=C.+Concannon&#x00026;author=H.+P.+Nasheuer+&#x00026;publication_year=2010&#x00026;title=Eukaryotic+single-stranded+DNA+binding+proteins%3A+central+factors+in+genome+stability&#x00026;journal=Subcell.+Biochem.&#x00026;volume=50&#x00026;pages=143-163" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B2" id="B2"></a> Campbell, M. S., Holt, C., Moore, B., and Yandell, M. (2014). Genome annotation and curation using MAKER and MAKER-P. <i>Curr. Protoc. Bioinformat.</i> 48, 4.11.11&#x02013;14.11.39. doi: 10.1002/0471250953.bi0411s48</p>
+<p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=25501943" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1002/0471250953.bi0411s48" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=M.+S.+Campbell&#x00026;author=C.+Holt&#x00026;author=B.+Moore&#x00026;author=M.+Yandell+&#x00026;publication_year=2014&#x00026;title=Genome+annotation+and+curation+using+MAKER+and+MAKER-P&#x00026;journal=Curr.+Protoc.+Bioinformat.&#x00026;volume=48&#x00026;pages=4" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B3" id="B3"></a> Cantarel, B. L., Krof, I., Robb, S. M., Parra, G., Ross, E., Moore, B., et al. (2008). MAKER: An easy-to-use annotation pipeline designed for emerging model organism genomes. <i>Genome Res.</i> 18, 188&#x02013;196. doi: 10.1101/gr.6743907</p>
+<p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=18025269" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1101/gr.6743907" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=B.+L.+Cantarel&#x00026;author=I.+Krof&#x00026;author=S.+M.+Robb&#x00026;author=G.+Parra&#x00026;author=E.+Ross&#x00026;author=B.+Moore+&#x00026;publication_year=2008&#x00026;title=MAKER%3A+An+easy-to-use+annotation+pipeline+designed+for+emerging+model+organism+genomes&#x00026;journal=Genome+Res.&#x00026;volume=18&#x00026;pages=188-196" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B4" id="B4"></a> Davis, R., Aden, A., and Pienkos, P. T. (2011). Techno-economic analysis of autotrophic microalgae for fuel production. <i>Appl. Energy</i> 88, 3524&#x02013;3531. doi: 10.1016/j.apenergy.2011.04.018</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1016/j.apenergy.2011.04.018" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=R.+Davis&#x00026;author=A.+Aden&#x00026;author=P.+T.+Pienkos+&#x00026;publication_year=2011&#x00026;title=Techno-economic+analysis+of+autotrophic+microalgae+for+fuel+production&#x00026;journal=Appl.+Energy&#x00026;volume=88&#x00026;pages=3524-3531" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B5" id="B5"></a> Fanning, E., Klimovich, V., and Nager, A. R. (2006). A dynamic model for replication protein A (RPA) function in DNA processing pathways. <i>Nucleid. Acids Res.</i> 34, 4126&#x02013;4137. doi: 10.1093/nar/gkl550</p>
+<p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=16935876" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/nar/gkl550" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=E.+Fanning&#x00026;author=V.+Klimovich&#x00026;author=A.+R.+Nager+&#x00026;publication_year=2006&#x00026;title=A+dynamic+model+for+replication+protein+A+(RPA)+function+in+DNA+processing+pathways&#x00026;journal=Nucleid.+Acids+Res.&#x00026;volume=34&#x00026;pages=4126-4137" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B6" id="B6"></a> Gerken, H. G., Donohoe, B., and Knoshaug, E. P. (2013). Enzymatic cell wall degradation of <i>Chlorella vulgaris</i> and other microalgae for biofuels production. <i>Planta</i> 237, 239&#x02013;253. doi: 10.1007/s00425-012-1765-0</p>
+<p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=23011569" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1007/s00425-012-1765-0" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=H.+G.+Gerken&#x00026;author=B.+Donohoe&#x00026;author=E.+P.+Knoshaug+&#x00026;publication_year=2013&#x00026;title=Enzymatic+cell+wall+degradation+of+Chlorella+vulgaris+and+other+microalgae+for+biofuels+production&#x00026;journal=Planta&#x00026;volume=237&#x00026;pages=239-253" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B7" id="B7"></a> Griffiths, M. J., van Hille, R. P., and Harrison, S. T. (2014). The effect of nitrogen limitation on lipid productivity and cell composition in <i>Chlorella vulgaris</i>. <i>Appl. Microbiol. Biotechnol.</i> 98, 2345&#x02013;2356. doi: 10.1007/s00253-013-5442-4</p>
+<p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=24413971" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1007/s00253-013-5442-4" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=M.+J.+Griffiths&#x00026;author=R.+P.+van+Hille&#x00026;author=S.+T.+Harrison+&#x00026;publication_year=2014&#x00026;title=The+effect+of+nitrogen+limitation+on+lipid+productivity+and+cell+composition+in+Chlorella+vulgaris&#x00026;journal=Appl.+Microbiol.+Biotechnol.&#x00026;volume=98&#x00026;pages=2345-2356" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B8" id="B8"></a> Guarnieri, M. T., Laruens, L. M. L., Knoshaug, E. P., Chou, Y. C., Donohoe, B. S., and Pienkos, P. T. (2012). <i>Complex Systems Engineering: A Case Study for an Unsequenced Microalga.</i> Hoboken, NJ: John Wiley &#x00026; Sons, Inc.</p>
+<p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=M.+T.+Guarnieri&#x00026;author=L.+M.+L.+Laruens&#x00026;author=E.+P.+Knoshaug&#x00026;author=Y.+C.+Chou&#x00026;author=B.+S.+Donohoe&#x00026;author=P.+T.+Pienkos+&#x00026;publication_year=2012&#x00026;title=Complex+Systems+Engineering%3A+A+Case+Study+for+an+Unsequenced+Microalga." target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B9" id="B9"></a> Guarnieri, M. T., Nag, A., Smolinski, S. L., Darzins, A., Seibert, M., and Pienkos, P. T. (2011). Examination of triacylglycerol biosynthetic pathways via de novo transcriptomic and proteomic analyses in an unsequenced microalga. <i>PLoS ONE</i> 6:e25851. doi: 10.1371/journal.pone.0025851</p>
+<p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=22043295" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1371/journal.pone.0025851" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=M.+T.+Guarnieri&#x00026;author=A.+Nag&#x00026;author=S.+L.+Smolinski&#x00026;author=A.+Darzins&#x00026;author=M.+Seibert&#x00026;author=P.+T.+Pienkos+&#x00026;publication_year=2011&#x00026;title=Examination+of+triacylglycerol+biosynthetic+pathways+via+de+novo+transcriptomic+and+proteomic+analyses+in+an+unsequenced+microalga&#x00026;journal=PLoS+ONE&#x00026;volume=6&#x00026;pages=e25851" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B10" id="B10"></a> Guarnieri, M. T., Nag, A., Yang, S., and Pienkos, P. T. (2013). Proteomic analysis of <i>Chlorella vulgaris</i>: potential targets for enhanced lipid accumulation. <i>J. Proteomics</i> 93, 245&#x02013;253. doi: 10.1016/j.jprot.2013.05.025</p>
+<p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=23748020" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/j.jprot.2013.05.025" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=M.+T.+Guarnieri&#x00026;author=A.+Nag&#x00026;author=S.+Yang&#x00026;author=P.+T.+Pienkos+&#x00026;publication_year=2013&#x00026;title=Proteomic+analysis+of+Chlorella+vulgaris%3A+potential+targets+for+enhanced+lipid+accumulation&#x00026;journal=J.+Proteomics&#x00026;volume=93&#x00026;pages=245-253" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B11" id="B11"></a> Henard, C. A., Guarnieri, M. T., and Knoshaug, E. P. (2017). The <i>Chlorella vulgaris</i> S-Nitrosoproteome under nitrogen-replete and -deplete conditions. <i>Front. Bioeng. Biotechnol.</i> 4:100. doi: 10.3389/fbioe.2016.00100</p>
+<p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=28144611" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.3389/fbioe.2016.00100" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=C.+A.+Henard&#x00026;author=M.+T.+Guarnieri&#x00026;author=E.+P.+Knoshaug+&#x00026;publication_year=2017&#x00026;title=The+Chlorella+vulgaris+S-Nitrosoproteome+under+nitrogen-replete+and+-deplete+conditions&#x00026;journal=Front.+Bioeng.+Biotechnol.&#x00026;volume=4&#x00026;pages=100" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B12" id="B12"></a> Takahashi, K., Kasai, K., and Ochi, K. (2004). Identification of the bacterial alarmone guanosine 5&#x02032;-diphosphate 3&#x02032;-diphosphate (ppGpp) in plants. <i>Proc. Natl. Acad. Sci. U.S.A.</i> 101, 4320&#x02013;4324. doi: 10.1073/pnas.0308555101</p>
+<p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=15010537" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1073/pnas.0308555101" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=K.+Takahashi&#x00026;author=K.+Kasai&#x00026;author=K.+Ochi+&#x00026;publication_year=2004&#x00026;title=Identification+of+the+bacterial+alarmone+guanosine+5&#x02032;-diphosphate+3&#x02032;-diphosphate+(ppGpp)+in+plants&#x00026;journal=Proc.+Natl.+Acad.+Sci.+U.S.A.&#x00026;volume=101&#x00026;pages=4320-4324" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B13" id="B13"></a> Tozawa, Y., and Nomura, Y. (2011). Signalling by the global regulatory molecule ppGpp in bacteria and choloplasts of land plants. <i>Plant Biol.</i> 13, 699&#x02013;709. doi: 10.1111/j.1438-8677.2011.00484.x</p>
+<p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=21815973" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1111/j.1438-8677.2011.00484.x" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=Y.+Tozawa&#x00026;author=Y.+Nomura+&#x00026;publication_year=2011&#x00026;title=Signalling+by+the+global+regulatory+molecule+ppGpp+in+bacteria+and+choloplasts+of+land+plants&#x00026;journal=Plant+Biol.&#x00026;volume=13&#x00026;pages=699-709" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B14" id="B14"></a> Varela-Alvarez, E., Andreakis, N., Lago-Leston, A., Pearson, G. A., Serrao, E. A., Procaccini, G., et al. (2006). Genomic DNA isolation from green and brown algae (Caulerpales and Fucales) for microsatellite library construction. <i>J. Phycol.</i> 42, 741&#x02013;745. doi: 10.1111/j.1529-8817.2006.00218.x</p>
+<p class="ReferencesCopy2"><a href="https://doi.org/10.1111/j.1529-8817.2006.00218.x" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=E.+Varela-Alvarez&#x00026;author=N.+Andreakis&#x00026;author=A.+Lago-Leston&#x00026;author=G.+A.+Pearson&#x00026;author=E.+A.+Serrao&#x00026;author=G.+Procaccini+&#x00026;publication_year=2006&#x00026;title=Genomic+DNA+isolation+from+green+and+brown+algae+(Caulerpales+and+Fucales)+for+microsatellite+library+construction&#x00026;volume=42&#x00026;pages=741-745" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B15" id="B15"></a> Wijffels, R. H., and Barbosa, M. J. (2010). An outlook on microalgal biofuels. <i>Science</i> 329, 796&#x02013;799. doi: 10.1126/science.1189003</p>
+<p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=20705853" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1126/science.1189003" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=R.+H.+Wijffels&#x00026;author=M.+J.+Barbosa+&#x00026;publication_year=2010&#x00026;title=An+outlook+on+microalgal+biofuels&#x00026;journal=Science&#x00026;volume=329&#x00026;pages=796-799" target="_blank">Google Scholar</a></p></div>
+<div class="References">
+<p class="ReferencesCopy1"><a name="B16" id="B16"></a> Zu&#x000F1;iga, C., Li, C. T., Huelsman, T., Levering, J., Zielinski, D. C., McConnell, B. O., et al. (2016). Genome-scale metabolic model for the green alga <i>Chlorella vulgaris</i> UTEX395 accurately predicts phenotypes under autotrophic, heterotrophic, and mixotrophic growth conditions. <i>Plant Phys</i>. 172, 589&#x02013;602. doi: 10.1104/pp.16.00593</p>
+<p class="ReferencesCopy2"><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=pubmed&#x00026;Cmd=ShowDetailView&#x00026;TermToSearch=27372244" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1104/pp.16.00593" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=C.+Zu&#x000F1;iga&#x00026;author=C.+T.+Li&#x00026;author=T.+Huelsman&#x00026;author=J.+Levering&#x00026;author=D.+C.+Zielinski&#x00026;author=B.+O.+McConnell+&#x00026;publication_year=2016&#x00026;title=Genome-scale+metabolic+model+for+the+green+alga+Chlorella+vulgaris+UTEX395+accurately+predicts+phenotypes+under+autotrophic,+heterotrophic,+and+mixotrophic+growth+conditions&#x00026;journal=Plant+Phys&#x00026;volume=172&#x00026;pages=589-602" target="_blank">Google Scholar</a></p></div>
+</div>
+<div class="thinLineM20"></div>
+<div class="AbstractSummary">
+<p><span>Keywords:</span> microalgae, biofuels, lipids, genome, <i>Chlorella vulgaris</i></p>
+<p><span>Citation:</span> Guarnieri MT, Levering J, Henard CA, Boore JL, Betenbaugh MJ, Zengler K and Knoshaug EP (2018) Genome Sequence of the Oleaginous Green Alga, <i>Chlorella vulgaris</i> UTEX 395. <i>Front. Bioeng. Biotechnol</i>. 6:37. doi: 10.3389/fbioe.2018.00037</p>
+<p id="timestamps"><span>Received:</span> 04 October 2017; <span>Accepted:</span> 19 March 2018;<br/> <span>Published:</span> 05 April 2018.</p>
+<div><p>Edited by:</p> <a href="https://loop.frontiersin.org/people/94337/overview">Qiang Wang</a>, Institute of Hydrobiology (Chinese Academy of Sciences), China</div>
+<div><p>Reviewed by:</p> <a href="https://loop.frontiersin.org/people/398980/overview">Jianhua Fan</a>, East China University of Science and Technology, China<br/> <a href="https://loop.frontiersin.org/people/492044/overview">Yingchun Wang</a>, Chinese Academy of Sciences, China</div>
+<p><span>Copyright</span> &#x000A9; 2018 Guarnieri, Levering, Henard, Boore, Betenbaugh, Zengler and Knoshaug. This is an open-access article distributed under the terms of the <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution License (CC BY)</a>. The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.</p>
+<p><span>*Correspondence:</span> Michael T. Guarnieri, <a href="mailto:michael.guarnieri@nrel.gov">michael.guarnieri@nrel.gov</a></p>
+<div class="clear"></div></div>
+
+
+                
+                <div class="thin-line-dark"></div>
+                    <div class="social-feed"></div>
+                    <div class="container-bordered comment-list social-feed">
+                        <div class="container-comments">                           
+                        </div>
+
+                        <div class="loading-wrapper" style="padding-left: 49%">
+                            <img style="padding-top: 5%; padding-bottom: 5%;" src="/areas/research-topics/Content/Images/frontiers/common/icon/loading.gif" alt="Loading.." />
+                        </div>                       
+                    </div>
+
+            </div>
+        </div>
+    </div>
+</main>
+
+            <div class="clearfix visible-sm"></div>
+
+            
+    <div class="c col-xs-12 col-sm-12 col-lg-2 col-md-3 pull-right side-article related right-container-articles" style="clear: right !important">
+        
+        <article class="widget-listing commentary-article hidden">
+            <h5 class="like-h4">COMMENTARY</h5>
+        </article>
+
+        <article class="widget-listing original-article hidden">
+            <h5 class="like-h4">ORIGINAL ARTICLE</h5>
+        </article>
+
+        <article class="widget-listing people-also-looked-at side-article-related hidden">
+            <h5 class="like-h4">People also looked at</h5>
+        </article>
+            <div class="side-article-mrk clearfix hidden-md hidden-lg">
+                <p style="text-align: center;"><a href="https://spotlight.frontiersin.org/submit?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=rtlg_2020_gen"><img src="https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/article-marketing-message-79982763-254d-4bb6-96b8-126758de1166.png" alt="" /><br /></a></p>
+<p style="text-align: center;"><a href="https://spotlight.frontiersin.org/submit?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=rtlg_2020_gen"><strong>Suggest a Research Topic &gt;</strong></a></p>
+            </div>
+
+
+    </div>
+
+
+        </div>
+    </div>
+</div>
+<div id="divTemplates">
+    <div class="modal fade modal-container impact-modal-container" data-backdrop="static" id="impactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+</div>
+
+
+
+
+
+    <div class="modal fade modal-container supplementary-modal-container"
+     data-backdrop="static"
+     data-keyboard="false"
+     id="supplementaryFilesModal"
+     tabindex="-1" role="dialog"
+     aria-labelledby="mySupplementaryModalLabel"
+     aria-hidden="true">
+</div>
+
+
+
+
+<script type="text/template" id="template-supplementary-files-modal">
+    <div class="supplementary-material-wrapper modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <a class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a>
+                <h4>Supplementary Material</h4><br>
+                <p class="supplementary-empty-message">There is no supplementary material currently available for this article</p>
+                <div class="loading-wrapper"
+                     id="loader"
+                     style="display:none">
+                    Loading supplemental data...
+                    <img style="" src="/Areas/Articles/Images/Icon/loading.gif" alt="Loading.." />
+                </div>
+                <br />
+                <div class="table-responsive" id="localFiles">
+                </div>
+                <div id="figshare-widget-container">
+
+                </div>
+            </div>
+            <br />
+            <div class="modal-footer bottom-links">
+                <a class="btn btn-default" data-dismiss="modal">Close</a>
+            </div>
+        </div>
+
+    </div>
+</script>
+
+
+
+
+
+<script type="text/template" id="template-local-files-modal">
+    <table class="table table-striped supplementary-content" id="localFilesTable">
+        <thead>
+            <tr>
+                <th>&nbsp;</th>
+                <th>File Name</th>
+                <th>&nbsp;</th>
+            </tr>
+        </thead>
+        <tbody class="file-content">
+            <% _.each(supplimentalFileDetails.FileDetails, function(fileViewModel){   %>
+            <tr>
+                <th scope="row"><a data-test-id="<%= fileViewModel.TestId %>" href="<%= fileViewModel.FileDownloadUrl %>"><img class="img-figure" src="<%= fileViewModel.ImageUrl %>"></a></th>
+                <td>
+                    <a  href="<%= fileViewModel.FileDownloadUrl %>">
+                        <%= fileViewModel.FileName %>
+                    </a>
+                </td>
+                <td><a  href="<%= fileViewModel.FileDownloadUrl %>" class="btn-link"><i class="fa fa-download" aria-hidden="true"></i></a></td>
+            </tr>
+            <% }); %>
+        </tbody>
+    </table>
+</script>
+
+
+
+
+
+
+
+    <div class="modal fade modal-container notifyme-modal-container" data-backdrop="static" id="notifyModal" tabindex="-1" role="dialog" aria-labelledby="Notify on publication" aria-hidden="true">
+</div>
+
+
+
+<script type="text/template" id="template-notify-me-modal">
+    <div class="modal-f page-container simple-modal" role="dialog" aria-labelledby="NotfifyMeModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <form onsubmit="return false" id="modalnotifyme">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                            <h3>Notify me on publication</h3>
+                        </div>
+                        <div class="modal-body">
+
+                            <div class="form-group">
+                                <label>Please enter your email address:</label>
+                            <input type="email" required class="form-control" id="txt_notification_email_id" placeholder="Email">
+                            </div>
+
+                        <div class="g-recaptcha" id="recaptcha"></div><br />
+
+                        <p class="small" style="color: #555;">If you already have an account, please <a href="<%=login.FrontiersLoginUrl%>?returnUrl=<%=currentPage%>" class="text-blue">login</a>.</p>
+                        <p class="small" style="color: #555;">You don't have a Frontiers account ? You can <a href="<%=login.FrontiersRegistrationUrl%>" class="text-blue">register here</a>.</p>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" id="article_notify_non_registered_user" class="btn btn-default btn-progress" style="width: 118px; visibility:hidden;">Notify me</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+</script>
+
+<script type="text/template" id="template-notifyme-mailselection-modal">
+    <div class="modal-f page-container simple-modal" tabindex="-1" role="dialog" aria-labelledby="NotfifyMeModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h3>Select one of your emails</h3>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label>You have multiple emails registered with Frontiers:</label>
+                        </div>
+                                           
+                        <% _.each(userEmailList, function(user){   %>
+                        <input type="radio" value="<%=user%>" name="notify_Emailcollection"> <%=user%><br>
+                        <% }); %>
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="article_notify_loggedin_user" class="btn btn-default btn-progress" style="width: 118px;">Notify me</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</script>
+
+<script type="text/template" id="template_notifyme_error_modal">
+    <div class="modal-f page-container simple-modal" tabindex="-1" role="dialog" aria-labelledby="NotfifyMeModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h3>Notify me on publication</h3>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <p class="text-red"><strong><%=message%></strong></p>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" data-dismiss="modal" class="btn btn-default btn-progress" style="width: 118px;">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+
+
+
+
+
+
+
+    
+
+<script type="text/template" id="template-article-comments">
+
+    <div class="w100pc float_left CommentsHolder" id="div_article_comment_holder">
+        <% if(journalComments.Count !=0) { %>
+        <div id="divActivityBox" class="commentBox bubbleInfo " style="z-index: 300;">
+            <div class="float_left w100pc divActivityBox">
+                <p id="pAllUsers" class="pb0 float_left w581 pAllUsers">
+                    <a id="aAllUsers" href="javascript:void(0);" class="fontnormal trigger">
+                        <%- journalComments.Count %> Comments
+                    </a> <%= journalComments.CommentedUsers %>
+                </p>
+            </div>
+        </div>
+        <% } %>
+
+        <% _.each( journalComments.Comments, function( comment ){ %>
+
+        <div class="commentBox">
+
+            <% if (comment.IsDeleted) {%>
+
+            <div class="wrapper pt4 pb4">
+                <div class="imgHolder mr10"> <!--<a  class="fontnormal">--><img width="32" src="/Areas/Articles/Design/Images/default_profile_32.jpg" onerror="if (!this.src.endsWith('/Areas/Articles/Design/Images/default_profile_32.jpg')) this.src='/Areas/Articles/Design/Images/default_profile_32.jpg';" alt=""><!--</a>--></div>
+                <div class="content w555">
+                    <!-- <p class="mtm3" style='word-wrap:break-word'><a  class="fontnormal">User</a> </p>-->
+                    <p class="mtm3">User</p><ul class="toolbar mt4 disblk w100pc">
+                        <li class="pl0">
+                            <p class="date">Comment deleted on <%- GetFormattedCommentDeletedDate(comment.CommentedDate) %></p>
+                        </li>
+                        <li class="float_right pr0"></li>
+                    </ul>
+                </div>
+            </div>
+
+            <% } else {%>
+
+            <div class="wrapper pt4 pb4">
+                <div class="imgHolder mr10"> <a class="fontnormal" data-test-id="article_commenteduser_profileimage_link" href="<%- comment.CommentedUser.ProfileUrl %>"><img src="<%- comment.CommentedUser.ThumbnailUrl %>" onerror="if (!this.src.endsWith('/Areas/Articles/Images/Frontiers/Common/Profile/default_profile_32.jpg')) this.src='/Areas/Articles/Images/Frontiers/Common/Profile/default_profile_32.jpg';" alt=""></a></div>
+                <div class="content w555 comment-body">
+                    <p class="mtm3" style="word-wrap:break-word">
+                        <a class="fontnormal" data-test-id="article_commenteduser_profile_link" href="<%- comment.CommentedUser.ProfileUrl %>">
+                            <%- comment.CommentedUser.FullName %>
+                        </a>
+                        <span class="comment-text"><%= comment.Comment %></span>
+                    </p>
+                    <ul class="toolbar mt4 disblk w100pc">
+                        <li class="pl0"><p class="date"><%- GetFormattedCommentDate(comment.CommentedDate) %></p></li>
+                        <% if (comment.IsEditVisible)
+                        { %>
+                        <li>|</li>
+                        <li><a href="javascript:void(0);" data-test-id="article_comment_edit_link" class="fontnormal btn-edit-comment" id="btnEditcom" data-comment-id="<%- comment.CommentId %>">Edit</a></li>
+                        <% } %>
+                        <% if (comment.IsDeleteVisible)
+                        { %>
+                        <li>|</li>
+                        <li><a href="javascript:void(0);" data-test-id="article_comment_delete_link" class="fontnormal btn-delete-comment" id="btnDeletecom" data-comment-id="<%- comment.CommentId %>">Delete</a></li>
+                        <% }%>
+                        <li class="float_right pr0"></li>
+                    </ul>
+                </div>
+            </div>
+            <% }%>
+        </div>
+
+        <%  }); %>
+    </div>
+
+    <div id="div_add_comment" class="commentBox">
+        <div class="imgTn32"
+             style="display: none;">
+            <% if(journalComments.LoginUserId !=0) { %>
+            <img src="<%- journalComments.LoggedInUserInfo.ThumbnailUrl %>" alt=""
+                 onerror="if (!this.src.endsWith('/Areas/Articles/Images/Frontiers/Common/Profile/default_profile_32.jpg')) this.src='/Areas/Articles/Images/Frontiers/Common/Profile/default_profile_32.jpg';">
+            <% } else {%>
+            <img src="/Areas/Articles/Design/Images/default_profile_32.jpg" alt=""
+                 onerror="if (!this.src.endsWith('/Areas/Articles/Images/Frontiers/Common/Profile/default_profile_32.jpg')) this.src='/Areas/Articles/Images/Frontiers/Common/Profile/default_profile_32.jpg';">
+            <% }%>
+
+        </div>
+        <div class="wrapper pt4 pb4 wAuto">
+            <textarea onfocus="showUserImageOnAdd(this)"
+                      onblur="hideUserImage(this)"
+                      id="txt_comment"
+                      cols=""
+                      rows="1"
+                      style="overflow: hidden; word-wrap: break-word; resize: horizontal;"
+                      data-test-id="article_comment_add_textarea"
+                      class="write setfocus autoext w535 frUIResizeTextArea comment-textarea is-ui animated-resize grey_90">Write a comment...</textarea>
+        </div>
+        <div class="commentAddWrap">
+            <div>
+                <a class="addBtnComment" data-test-id="article_comment_add_button"  onclick="javascript:AddComments(this);" href="javascript:void(0);" id="btnAddcom"><span>Add</span></a>
+            </div>
+        </div>
+    </div>
+
+
+</script>
+
+<script type="text/template" id="template-article-comments-warning">
+    <div class="commentBox">
+        <div class="wrapper">
+            <p class="comment-warning">The comment section has been closed.</p>
+        </div>
+    </div>
+</script>
+
+<script type="text/template" id="template-article-edit-comments">
+
+
+    <div id="edit-comment-form" class="wrapper pt4 pb4 wAuto edit-comments">
+        <textarea class="txt-comment"
+                  onfocus="showUserImageOnEdit(this)"
+                  onblur="hideUserImage(this)"
+                  data-test-id="article_comment_edit_textarea"
+                  rows="3"><%= commentText %> </textarea>
+        <div>
+            <a class="btn btn-add-comment addBtnComment" data-test-id="article_comment_edit_button" data-comment-id="<%- commentId %>">Add</a>
+        </div>
+    </div>
+
+</script>
+
+
+
+</div>
+
+    </div>
+
+        <div data-navigation-plugin="footer"></div>
+        <script src="https://static.frontiersin.org/navigation-plugins/footer/js"></script>
+
+    <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+
+    <script src="/areas/articles/scripts/frontiers/common/frontiers.banners-1.0.js"></script>
+
+<script src="https://code.jquery.com/ui/1.10.2/jquery-ui.min.js"></script>
+<script src="https://crossmark.crossref.org/javascripts/v1.5/crossmark.min.js"></script>
+        <script type="text/javascript">
+
+            var $ = jQuery.noConflict(); //==>>ToDo: Avoid this..!!
+        </script>
+
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+    <script src="https://static.frontiersin.org/areas/articles/js/vendors?v=ygjL-ZM7HLAoWWjVcHqPBLlSjGooDB3IHD1kVXFmvmI1"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+ 
+<script src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
+    <script src="https://static.frontiersin.org/areas/articles/js/frontiers?v=4c3spupE-VFg577OoPHsSr4WEf6T5hs_2nCv5fPKVdA1"></script>
+
+
+    <script type="text/javascript">
+
+        var FRArticle = (function() {
+            return {
+                ArticleId: '317384',
+                DOI:'10.3389/fbioe.2018.00037',
+                LoginUserId: '0',
+                DomainId: '1',
+                FieldId: '7',
+                SpecialityId: '1456',
+                IsPreview: FRSafe.boolean('False'),
+                IsViewImpactFromLoop: FRSafe.boolean('False'),
+                IsPublished: 'True',
+                FigShareApiUrl: 'https://api.figshare.com/v2/collections/search',
+                FigShareTimeOut: '3000'
+            };
+        })();
+
+        var FRSocial = (function() {
+            return {
+                itemId: 14,
+                itemTypeId: 1,
+                entityId: '317384',
+                ownerId: '368816',
+                sanPath: 'https://www.frontiersin.org/files/',
+                subItemId: '8',
+                loginUserId: '0',
+                ownerNWDBId: '27',
+                pageType: 1,
+                loopUrl:'https://loop.frontiersin.org'
+            };
+        })();
+    </script>
+
+    <script>
+        var FRAjaxSettings = (function () {
+
+            function urlLowercase() {
+                $.ajaxSetup({
+                    beforeSend: function (jqXHR, settings) {
+                        settings.url = settings.url.toLowerCase();
+                    }
+                });
+            }
+
+            return { urlLowercase: urlLowercase };
+        })();
+
+        FRAjaxSettings.urlLowercase();
+    </script>
+
+    <script src="https://static.frontiersin.org/areas/articles/js/schema?v=13am1aL5JpCh_IIFOIFRdlFySxVv16JLaVykDEyHCu81"></script>
+
+
+
+    
+    <script src="/areas/articles/js/app?v=UqywkE0AkDO6E3V0irIiBz8giFUKKVUi57o1J1h1S2g1"></script>
+
+    <script src="https://widgets.figshare.com/static/figshare.js"></script>
+
+
+    <script>
+        (function () {
+            console.log("Script executed after FigShareWidget");
+        })();
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,1018 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+            var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl + '&gtm_auth=fCzlsmYQFAUQ_UXneGJNag&gtm_preview=env-2&gtm_cookies_win=x';
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TZGWTGG');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title>Frontiers | The Genome of Microthlaspi erraticum (Brassicaceae) Provides Insights Into the Adaptation to Highly Calcareous Soils | Plant Science</title>
+
+    <link rel="shortcut icon" href="https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/favicon_16x16.ico" type="image/x-icon" />
+
+    <meta property="og:type" content="article" />
+    <meta property="frontiers:type" content="Article" />
+    <meta property="og:site_name" name="site_name" content="Frontiers" />
+    <meta property="og:title" name="Title" content="The Genome of Microthlaspi erraticum (Brassicaceae) Provides Insights Into the Adaptation to Highly Calcareous Soils" />
+    <meta property="og:description" name="Description" content="Microthlaspi erraticum is widely distributed in temperate Eurasia, but restricted to Ca2+-rich habitats, predominantly on white Jurassic limestone, which is made up by calcium carbonate, with little other minerals. Thus, naturally occurring Microthlaspi erraticum individuals are confronted with a high concentration of Ca2+ ions while Mg2+ ion concentration is relatively low. As there is a competitive uptake between these two ions, adaptation to the soil condition can be expected. In this study, it was the aim to explore the genomic consequences of this adaptation by sequencing and analysing the genome of Microthlaspi erraticum. Its genome size is comparable with other diploid Brassicaceae, while more genes were predicted. Two Mg2+ transporters known to be expressed in roots were duplicated and one showed a significant degree of positive selection. It is speculated that this evolved due to the pressure to take up Mg2+ ions efficiently in the presence of an overwhelming amount of Ca2+ ions. Future studies on plants specialized on similar soils and affinity tests of the transporters are needed to provide unequivocal evidence for this hypothesis. If verified, the transporters found in this study might be useful for breeding Brassicaceae crops for higher yield on Ca2+-rich and Mg2+ -poor soils." />
+    <meta property="og:url" name="url" content="https://www.frontiersin.org/article/10.3389/fpls.2020.00943/full" />
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"
+            integrity="sha256-h0cGsrExGgcZtSZ/fRz4AwV+Nn6Urh/3v3jFRQ0w9dQ=" crossorigin="anonymous"></script>
+        <link href="https://static.frontiersin.org/navigation-plugins/footer/css" rel="stylesheet" />
+            <link href="https://static.frontiersin.org/navigation-plugins/header/css" rel="stylesheet" />
+
+        <meta property="og:image" content="https://www.frontiersin.org/files/MyHome%20Article%20Library/542602/542602_Thumb_400.jpg" />
+            <meta name="citation_volume" content="11" />
+        <meta name="citation_journal_title" content="Frontiers in Plant Science" />
+        <meta name="citation_publisher" content="Frontiers" />
+        <meta name="citation_journal_abbrev" content="Front. Plant Sci." />
+        <meta name="citation_issn" content="1664-462X" />
+        <meta name="citation_doi" content="10.3389/fpls.2020.00943" />
+        <meta name="citation_pages" content="943" />
+        <meta name="citation_language" content="English" />
+        <meta name="citation_title" content="The Genome of Microthlaspi erraticum (Brassicaceae) Provides Insights Into the Adaptation to Highly Calcareous Soils" />
+        <meta name="citation_keywords" content="Brassicales; evolution; Genomics; Magnesium transporters; Microthlaspi erraticum" />
+        <meta name="citation_abstract" content="Microthlaspi erraticum is widely distributed in temperate Eurasia, but restricted to Ca2+-rich habitats, predominantly on white Jurassic limestone, which is made up by calcium carbonate, with little other minerals. Thus, naturally occurring Microthlaspi erraticum individuals are confronted with a high concentration of Ca2+ ions while Mg2+ ion concentration is relatively low. As there is a competitive uptake between these two ions, adaptation to the soil condition can be expected. In this study, it was the aim to explore the genomic consequences of this adaptation by sequencing and exploring the genome of Microthlaspi erraticum. Its genome size is comparable with other diploid Brassicaceae, while more genes were predicted. Two Mg2+ transporters known to be expressed in roots were duplicated and one showed significant degrees of positive selection. It is speculated, that this evolved due to the pressure to take up Mg2+ ions efficiently in the presence of an overwhelming amount of Ca2+ ions. Future studies on plants specialised on similar soils and affinity tests of the transporters are needed to provide unequivocal evidence for this assumption. If verified, the transporters found in this study might be useful for breeding Brassicaceae crops for higher yield on Ca2+-rich and Mg2+ -poor soils." />
+        <meta name="description" content="Microthlaspi erraticum is widely distributed in temperate Eurasia, but restricted to Ca2+-rich habitats, predominantly on white Jurassic limestone, which is made up by calcium carbonate, with little other minerals. Thus, naturally occurring Microthlaspi erraticum individuals are confronted with a high concentration of Ca2+ ions while Mg2+ ion concentration is relatively low. As there is a competitive uptake between these two ions, adaptation to the soil condition can be expected. In this study, it was the aim to explore the genomic consequences of this adaptation by sequencing and exploring the genome of Microthlaspi erraticum. Its genome size is comparable with other diploid Brassicaceae, while more genes were predicted. Two Mg2+ transporters known to be expressed in roots were duplicated and one showed significant degrees of positive selection. It is speculated, that this evolved due to the pressure to take up Mg2+ ions efficiently in the presence of an overwhelming amount of Ca2+ ions. Future studies on plants specialised on similar soils and affinity tests of the transporters are needed to provide unequivocal evidence for this assumption. If verified, the transporters found in this study might be useful for breeding Brassicaceae crops for higher yield on Ca2+-rich and Mg2+ -poor soils." />
+        <meta name="citation_online_date" content="2020/06/10" />
+        <meta name="citation_date" content="2020" />
+        <meta name="citation_publication_date" content="2020/07/03" />
+        <meta name="citation_pdf_url" content="https://www.frontiersin.org/articles/10.3389/fpls.2020.00943/pdf" />
+        <meta name="citation_author" content="Mishra, Bagdevi" />
+        <meta name="citation_author_institution" content="Senckenberg Biodiversity and Climate Research Centre (BiK-F), Senckenberg Gesellschaft f&#252;r Naturforschung, Germany" />
+        <meta name="citation_author_institution" content="Goethe University, Department for Biological Sciences, Institute of Ecology, Evolution and Diversity, Germany" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Ploch, Sebastian" />
+        <meta name="citation_author_institution" content="Senckenberg Biodiversity and Climate Research Centre (BiK-F), Senckenberg Gesellschaft f&#252;r Naturforschung, Germany" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Runge, Fabian" />
+        <meta name="citation_author_institution" content="Senckenberg Biodiversity and Climate Research Centre (BiK-F), Senckenberg Gesellschaft f&#252;r Naturforschung, Germany" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Schmuker, Angelika" />
+        <meta name="citation_author_institution" content="Institute of Botany, University of Hohenheim, Germany" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Xia, Xiaojuan" />
+        <meta name="citation_author_institution" content="Senckenberg Biodiversity and Climate Research Centre (BiK-F), Senckenberg Gesellschaft f&#252;r Naturforschung, Germany" />
+        <meta name="citation_author_institution" content="Goethe University, Department for Biological Sciences, Institute of Ecology, Evolution and Diversity, Germany" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Gupta, Deepak K." />
+        <meta name="citation_author_institution" content="Senckenberg Biodiversity and Climate Research Centre (BiK-F), Senckenberg Gesellschaft f&#252;r Naturforschung, Germany" />
+        <meta name="citation_author_institution" content="Goethe University, Department for Biological Sciences, Institute of Ecology, Evolution and Diversity, Germany" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Sharma, Rahul" />
+        <meta name="citation_author_institution" content="Senckenberg Biodiversity and Climate Research Centre (BiK-F), Senckenberg Gesellschaft f&#252;r Naturforschung, Germany" />
+        <meta name="citation_author_email" content="" />
+        <meta name="citation_author" content="Thines, Marco" />
+        <meta name="citation_author_institution" content="Senckenberg Biodiversity and Climate Research Centre (BiK-F), Senckenberg Gesellschaft f&#252;r Naturforschung, Germany" />
+        <meta name="citation_author_institution" content="Goethe University, Department for Biological Sciences, Institute of Ecology, Evolution and Diversity, Germany" />
+        <meta name="citation_author_email" content="m.thines@thines-lab.eu" />
+    <meta name="Keywords" content="Brassicales, evolution, Genomics, Magnesium transporters, Microthlaspi erraticum" />
+
+        <meta name="dc.identifier" content="doi:10.3389/fpls.2020.00943"> <!--CrossMark widget-->
+    
+    <script type="text/javascript">
+
+        var CurrentIBarMenu = 'bysubjects';
+        var CurrentPageCode = 'ARTICLE_PAGE_NEW';
+
+        var FRConfiguration = (function() {
+            return {
+                Environment: 'Live',
+                SANVirtualPath: 'https://www.frontiersin.org/files/',
+                SharepointWebsiteUrl: 'https://www.frontiersin.org',
+                FrontiersJournalUIUrl: 'https://www.frontiersin.org',
+                FrontiersJournalAPIUrl: 'https://api-journal.frontiersin.org',
+                FrontiersReviewUIUrl: '',
+                FrontiersReviewAPIUrl: '',
+                FrontiersCookie: 'frontiersN',
+                FrontiersCookieRememberMe: 'frontiersNt',
+                FrontiersLoginUrl: 'https://www.frontiersin.org/Login.aspx',
+                FrontiersRegistrationUrl: 'http://www.frontiersin.org/Registration/Register.aspx',
+                IsCommentVisible: 'True',
+                IsPreview:'False'
+            };
+        })();
+
+        var FRLanguage = (function() {
+            var languageSet = {"ART_FRONTIERS":"Frontiers ","Article_AcceptedDate":"Accepted: ","Article_AnalyticsToolTip":"The total view count is updated once a day, so not to worry if you don\u0027t see immediate results.","Article_AnalyticsTotalViews":"total views","Article_AnalyticsViewImpact":"View Article Impact","Article_ArchiveLinkText":"Articles","Article_BibTex":"BibTex","Article_Citation":"Citation: ","Article_Commentary":"COMMENTARY","Article_Copyright":"Copyright: ","Article_CopyrightText":"This is an open-access article distributed under the terms of the \u003ca href=\"http://creativecommons.org/licenses/by/4.0/\"\u003eCreative Commons Attribution License (CC BY)\u003c/a\u003e. The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.","Article_Correspondence":"* Correspondence: ","Article_DownloadArticle":"Download Article","Article_DownloadPDF":"Download PDF","Article_DownloadProvisionalArticle":"Download Provisional Article","Article_DownloadProvisionalPDF":"Download Provisional PDF","Article_EditedBy":"Edited by: ","Article_EndNote":"EndNote","Article_EPUB":"EPUB","Article_ExportCitation":"Export Citation","Article_JATS":"JATS","Article_Keywords":"Keywords: ","Article_NLM":"XML (NLM)","Article_OriginalArticle":"ORIGINAL ARTICLE","Article_PaperPendingPublishedDate":"Paper pending published: ","Article_PDF":"PDF","Article_ProvisionalPDF":"Provisional PDF","Article_PublishedDate":"Published online: ","Article_ReadFullText":"Read Full Text","Article_ReceivedDate":"Received: ","Article_ReferenceManager":"Reference Manager","Article_ReviewedBy":"Reviewed by: ","Article_RTInfoText":"This article is part of the Research Topic","Article_ShareOn":"SHARE ON","Article_SimpleTEXTfile":"Simple TEXT file","Article_SupplementalData":"SUPPLEMENTAL DATA","Article_TableOfContent":"TABLE OF CONTENTS","Article_ViewEnhancedPDF":"ReadCube","Article_XML":"XML","BrowserWarningText":"\u003ch2\u003eWarning!\u003c/h2\u003e\u003cp\u003eYou are using an \u003cstrong\u003eoutdated\u003c/strong\u003e browser. This page doesn\u0027t support Internet Explorer 6, 7 and 8.\u003cbr /\u003ePlease \u003ca class=\"blue\" href=\"http://browsehappy.com/\"\u003eupgrade your browser\u003c/a\u003e or \u003ca class=\"blue\" href=\"http://www.google.com/chromeframe/?redirect=true\"\u003eactivate Google Chrome Frame\u003c/a\u003e to improve your experience.\u003c/p\u003e","COMMENT_HEADERTEXT":"Comment text too long","COMMENT_WARNINGTEXT":"Comments must be less than 4,000 characters. You have entered ","Impact_BackToArticle":"Back to article","People_Also_LookedAt":"People also looked at"};
+
+            return {
+                value: function(key) {
+                    if (languageSet[key]) {
+                        return languageSet[key];
+                    } else {
+                        throw new Error('Unable to get the value status from the language set'); // Use Error, not FRError
+                    }
+                }
+            };
+
+        })();
+
+        var FRJournalDetails = (function() {
+            return {
+                JournalType: 'section',
+                JournalId: '373',
+                SectionId: '551'
+            };
+        })();
+
+        var FRArticleDetails = (function() {
+            return {
+                ArticleId: '542602'
+            };
+        })();
+        var FRArticleRecaptchaSettings = (function() {
+            return {
+                RecaptchaSiteKey: '6LdG3i0UAAAAAOC4qUh35ubHgJotEHp_STXHgr_v'
+            };
+        })();
+
+    </script>
+
+    <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-535f7e222fc3ca72"></script>
+
+
+    <script language="javascript">
+        var addthis_config = addthis_config || {};
+        addthis_config.data_track_addressbar = false;
+        addthis_config.data_track_clickback = false;
+    </script>
+
+    
+    
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+
+    <![endif]-->
+
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+    <script src="/areas/research-topics/content/scripts/frontiers/frontiers.markerclusterer.js"></script>
+
+
+    <link href="https://209cd62b0febf2a55d40-715eb384bc6027b876e93ad33d5c5ec3.ssl.cf3.rackcdn.com/font-awesome-4.3.0/css/font-awesome.css" rel="stylesheet"/>
+
+    <link href="https://9d0dd7a648345f19af83-877d2ecaf11b88d5e17327c758e17ef6.ssl.cf2.rackcdn.com/museo-sans-1.0.1/css/museo-sans.css" rel="stylesheet"/>
+
+    <link href="https://9d0dd7a648345f19af83-877d2ecaf11b88d5e17327c758e17ef6.ssl.cf2.rackcdn.com/museo-slab-1.0.1/css/museo-slab.css" rel="stylesheet"/>
+
+    <link href="https://209cd62b0febf2a55d40-715eb384bc6027b876e93ad33d5c5ec3.ssl.cf3.rackcdn.com/open-sans-1.0.0/css/open-sans.css" rel="stylesheet"/>
+
+    <link href="https://static.frontiersin.org/areas/articles/css/app?v=d7xs6QXeE2UIxbm9TizlA3t08LzxgJlsJHBk24_OOR81" rel="stylesheet"/>
+
+    
+    <style type="text/css"> .journal-plant-science {
+ background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-plant-science.gif') no-repeat 110% 0px;
+}
+
+/* Medium Devices, Desktops ---------- */  @media only screen and (max-width : 992px) { {
+ .journal-plant-science {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-plant-science.gif') no-repeat -50px 0px;
+ }}
+
+/* Small Devices, Tablets ------------ */  @media only screen and (max-width : 768px) {
+.journal-plant-science {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-plant-science.gif') no-repeat -150px 0px;
+ }}
+
+/* Small Devices, Tablets  --------- */ @media only screen and (max-width : 640px) {
+.journal-plant-science {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-plant-science.gif') no-repeat -250px 0px;
+ }}
+/* Extra Small Devices, Phones-----------  */  @media only screen and (max-width : 480px) {
+.journal-plant-science {
+  background: #fff url('https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/journal-plant-science.gif') no-repeat -330px 0px;
+ }}
+ </style>
+    
+</head>
+<body class="journal-plant-science section-computational-genomics">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZGWTGG&gtm_auth=fCzlsmYQFAUQ_UXneGJNag&gtm_preview=env-2&gtm_cookies_win=x"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+        <div data-navigation-plugin="header"></div>
+        <script src="https://static.frontiersin.org/navigation-plugins/header/js"></script>
+
+
+
+    
+
+    <!--[if lte IE 8]>
+        <div class="row">
+            <div class="col-md-16">
+                <div style="margin-bottom: 15px;"><h2>Warning!</h2><p>You are using an <strong>outdated</strong> browser. This page doesn't support Internet Explorer 6, 7 and 8.<br />Please <a class="blue" href="http://browsehappy.com/">upgrade your browser</a> or <a class="blue" href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p></div>
+            </div>
+        </div>
+    <![endif]-->
+
+    <div class="page-container">
+        
+
+<header>
+
+            <a href="https://www.frontiersin.org/about/impact?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=impact-2020-jour-hp-top" target="_blank">
+            <div class="marketing journal-marketing-message no-impact">
+                <span class="message">
+                    <p><strong>Impact Factor 4.402</strong> |<strong> CiteScore 7.8<br /></strong>More on impact &rsaquo;</p>
+                </span>
+
+            </div>
+        </a>
+<div id="journal-header" class="journal-home" style="position: relative;">
+    <div class="container-fluid main-container-xxl">
+        <table id="logo-table" style="width:100%">
+            <tr>
+                    <td width="50%" valign="bottom" align="right" class="left-cell">
+                        <h1>
+                            <a href="https://www.frontiersin.org/journals/373" data-test-id="journal-link">
+                                <span>Frontiers </span>in Plant Science
+                            </a>
+                        </h1>
+                    </td>
+                        <td class="right-cell" width="50%" style="vertical-align: bottom">
+                            <h2>
+
+                                <span>Computational Genomics</span>
+
+                            </h2>
+                        </td>
+            </tr>
+        </table>
+
+
+        
+     </div>
+</div>
+
+
+    <div id="journal-nav">
+    <div class="container-fluid main-container-xxl">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="nav-wrapper">
+                    <nav class="navbar navbar-default">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#journal-navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="pull-left">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </span>
+                            <span class="pull-right hidden-xs">Section</span>
+                        </button>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse no-transition journal-nav-bar" id="journal-navbar-collapse">
+                            <ul class="nav navbar-nav">
+                                <li class="tab-overview icon icon-left">
+                                    <a id="journal_nav_home" href="https://www.frontiersin.org/journals/plant-science/sections/computational-genomics#"><span class="sr-only">(current)</span><i class="fa fa-home"></i>Section</a>
+                                </li>
+                                <li class="tab-about">
+                                    <a id="journal_nav_about" href="https://www.frontiersin.org/journals/plant-science/sections/computational-genomics#about">About</a>
+                                </li>
+                                <li class="tab-archive active">
+                                    <a id="journal_nav_articles" href="https://www.frontiersin.org/journals/plant-science/sections/computational-genomics#articles">Articles</a>
+                                </li>
+                                <li class="tab-research-topics">
+                                    <a id="journal_nav_research_topics" href="https://www.frontiersin.org/journals/plant-science/sections/computational-genomics#research-topics">Research topics</a>
+                                </li>
+                                <li class="dropdown">
+                                    <a id="journal_nav_for_authors" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">For authors <span class="caret"></span></a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a id="for_authors_why_submit" href="https://www.frontiersin.org/journals/plant-science/sections/computational-genomics#why-submit">Why submit?</a></li>
+                                        <li><a id="for_authors_fees" href="https://www.frontiersin.org/about/publishing-fees" target="_blank">Fees</a></li>
+                                        <li><a id="for_authors_article_types" href="https://www.frontiersin.org/journals/plant-science/sections/computational-genomics#article-types">Article types</a></li>
+                                        <li><a id="for_authors_authors_guidelines" href="https://www.frontiersin.org/journals/plant-science/sections/computational-genomics#author-guidelines">Author guidelines</a></li>
+                                        <li><a id="for_authors_review_guidelines" href="https://www.frontiersin.org/journals/plant-science/sections/computational-genomics#review-guidelines">Review guidelines</a></li>
+                                        <li><a id="for_authors_submission_checklist" href="https://www.frontiersin.org/journals/plant-science/sections/computational-genomics#submission-checklist">Submission checklist</a></li>
+                                        <li><a id="for_authors_contact_editorial_office" href="https://www.frontiersin.org/journals/plant-science/sections/computational-genomics#contact-editorial-office">Contact editorial office</a></li>
+                                    </ul>
+                                </li>
+                                <li class="tab-editorial-board">
+                                    <a id="journal_nav_Editorial_Board" href="https://www.frontiersin.org/journals/plant-science/sections/computational-genomics#editorial-board">Editorial board</a>
+                                </li>
+                            </ul>
+                        </div><!-- /.navbar-collapse -->
+                        <ul class="list-inline follow-us nav navbar-nav">
+                            <li class="twitter icon button">
+                                <a data-test-id="twitter-link" href="https://twitter.com/@FrontPlantSci">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="rss icon button">
+                                <a data-test-id="rss-link" href="https://www.frontiersin.org/journals/plant-science/sections/computational-genomics/rss">
+                                    <i class="fa fa-rss"></i>
+                                </a>
+                            </li>
+                            <li class="alerts icon button">
+                                <a data-test-id="alert-link" href="http://connect.frontiersin.org/subscriptions/subscribe?item=1&amp;field=66">
+                                    <i class="fa fa-bell" style="width: auto; padding-right: 7px; padding-left: 7px;"><span class="article-alert-text" style="font-family: MuseoSans, 'Helvetica Neue', Helvetica, Arial, sans-serif; margin-left: 6px; font-weight: 700; letter-spacing: 0px; font-size: 13px;">Article alerts</span></i>
+                                </a>
+                            </li>
+                                    
+                            
+                        </ul>
+
+                    </nav>
+                </div><!-- / .nav-wrapper -->
+            </div>
+        </div>
+    </div>
+</div>
+
+</header>
+
+<div class="journal-actions article-actions">
+    <div class="container-fluid main-container-xxl">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-lg-push-6 col-md-push-6 col-research-topic">
+            </div>
+            <section class="col-lg-4 col-lg-offset-2 col-md-6 col-md-offset-0 col-lg-pull-6 col-md-pull-6">
+                <a href="https://www.frontiersin.org/journals/373#articles" class="archive-link hidden-sm hidden-xs" data-test-id="archive-link">
+                    <i class="fa fa-angle-left"></i> Articles
+                </a>
+            </section>
+        </div>
+    </div>
+</div>
+
+
+<aside id="anchors" class="pull-left table-of-contents side-article">
+    <div class="side-people hidden-sm hidden-xs">
+                <section class="side-article-editors">
+                    <header><h5 class="like-h4">Edited by</h5></header>
+                    <a class="authors" href="https://loop.frontiersin.org/people/392035/overview">
+                        <img alt=" " class="pr5 pull-left" src="https://loop.frontiersin.org/images/profile/392035/24"></img>
+                        <h6 class="author-link-aside">Nunzio D&#39;Agostino</h6>
+                    </a>
+                    <div class="clearfix"></div>
+                    <p><span class="notes">Department of Agricultural Sciences, University of Naples Federico II, Italy</span></p>
+                </section>
+                <section class="side-article-editors">
+                    <header><h5 class="like-h4"> Reviewed by</h5></header>
+                            <a class="authors" href="https://loop.frontiersin.org/people/44547/overview">
+                                <img alt=" " class="pr5 pull-left" src="https://loop.frontiersin.org/images/profile/44547/24"></img>
+                                <h6 class="author-link-aside">Neil Graham</h6>
+                            </a>
+                            <div class="clearfix"></div>
+                        <p><span class="notes">University of Nottingham, United Kingdom</span></p>
+                            <a class="authors" href="https://loop.frontiersin.org/people/470710/overview">
+                                <img alt=" " class="pr5 pull-left" src="https://loop.frontiersin.org/images/profile/470710/24"></img>
+                                <h6 class="author-link-aside">Thomas D. Alcock</h6>
+                            </a>
+                            <div class="clearfix"></div>
+                        <p><span class="notes">University of Nottingham, United Kingdom</span></p>
+                    <p class="disclaimer">The editor and reviewers' affiliations are the latest provided on their Loop research profiles and may not reflect their situation at the time of review.</p>
+                </section>
+    </div>
+    <nav>
+            <header><h5 class="like-h4" style="padding-top: 14px; padding-left: 6px; margin-bottom: 6px;">TABLE OF CONTENTS</h5></header>
+            <ul class="nav nav-list list-unstyled contents">
+                <li>
+<ul class="flyoutJournal"><li><a href="#h1">Abstract</a></li><li><a href="#h2">Introduction</a></li><li><a href="#h3">Material and Methods</a></li><li><a href="#h4">Results</a></li><li><a href="#h5">Discussion</a></li><li><a href="#h6">Conclusion</a></li><li><a href="#h7">Data Availability Statement</a></li><li><a href="#h8">Author Contributions</a></li><li><a href="#h9">Funding</a></li><li><a href="#h10">Conflict of Interest</a></li><li><a href="#h11">Acknowledgments</a></li><li><a href="#h12">Supplementary Material</a></li><li><a href="#h13">References</a></li></ul>                </li>
+            </ul>
+    </nav>
+</aside>
+
+
+<div id="article" class="boxed white no-padding">
+    <div class="container-fluid main-container-xxl">
+            <div class="side-article-mrk hidden-md hidden-lg top clearfix">
+                <p style="text-align: center;"><a href="https://spotlight.frontiersin.org/submit?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=rtlg_2020_gen"><img src="https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/article-marketing-message-79982763-254d-4bb6-96b8-126758de1166.png" alt="" /><br /></a></p>
+<p style="text-align: center;"><a href="https://spotlight.frontiersin.org/submit?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=rtlg_2020_gen"><strong>Suggest a Research Topic &gt;</strong></a></p>
+            </div>
+        <div class="row">
+
+            
+<aside class="a col-xs-12 col-sm-12 col-lg-2 col-md-3 pull-right side-article right-container">
+        <button type="button" class="navbar-toggle navbar-download collapsed" data-toggle="collapse" data-target=".show" aria-expanded="false">
+            <span class="icon"><i class="fa fa-download"></i></span>
+        </button>
+    <button type="button" class="navbar-toggle navbar-share collapsed" data-toggle="collapse" data-target=".show" aria-expanded="false">
+        <span class="icon"><i class="fa fa-share-alt"></i></span>
+    </button>
+        <div class="side-article-download show collapse clearfix">
+            <ul class="list-unstyled list-inline clearfix">
+                    <li class="dropdown text-center paper">
+                        <a data-target="#" class="dropdown-toggle" data-test-id="download-button" data-toggle="dropdown" role="button" aria-expanded="false">
+                            <span class="icon icon-article"><i class="fa fa-file-pdf-o"></i></span>
+                            <span class="icon-label">Download Article</span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                                <li>
+                                    <a class="download-files-pdf action-link" href="/articles/10.3389/fpls.2020.00943/pdf" data-test-id="article-downloadpdf">
+                                        Download PDF
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="download-files-readcube" href="http://www.readcube.com/articles/10.3389/fpls.2020.00943" data-test-id="article-viewenhancedpdf">
+                                        ReadCube
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="download-files-epub" href="/articles/10.3389/fpls.2020.00943/epub" data-test-id="article-epub">
+                                        EPUB
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="download-files-nlm" href="/articles/10.3389/fpls.2020.00943/xml/nlm" data-test-id="article-nlm">
+                                        XML (NLM)
+                                    </a>
+                                </li>
+                                                            <li class="">
+
+<a data-test-id="supplementary-button"
+                                        id="supplementary_view">
+
+                                            Supplementary
+                                            <br>
+                                            Material
+                                        </a>
+
+                                </li>
+                        </ul>
+                    </li>
+                <li class="dropdown text-center citation">
+                    <a data-target="#" class="dropdown-toggle" data-test-id="citation-button" data-toggle="dropdown" role="button" aria-expanded="false">
+                        <span class="icon icon-citation"><i class="fa fa-quote-left"></i></span>
+                        <span class="icon-label">Export citation</span>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                            <li>
+                                <a data-test-id="article-endnote" href="https://www.frontiersin.org/articles/10.3389/fpls.2020.00943/endNote">
+                                    EndNote
+                                </a>
+                            </li>
+                            <li>
+                                <a data-test-id="article-referencemanager" href="https://www.frontiersin.org/articles/10.3389/fpls.2020.00943/reference">
+                                    Reference Manager
+                                </a>
+                            </li>
+                            <li>
+                                <a data-test-id="article-simpletextfile" href="https://www.frontiersin.org/articles/10.3389/fpls.2020.00943/text">
+                                    Simple TEXT file
+                                </a>
+                            </li>
+                            <li>
+                                <a data-test-id="article-bibtex" href="https://www.frontiersin.org/articles/10.3389/fpls.2020.00943/bibTex">
+                                    BibTex
+                                </a>
+                            </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+            <div class="side-article-impact">
+            <ul class="nav">
+                <li class="impact-data" title="The total view count is updated once a day, so not to worry if you don&#39;t see immediate results.">
+                    <span class="title-number"></span>
+                    <span class="title-text">total views</span>
+                </li>
+                <li class="hidden-sm hidden-xs">
+                    <div class="altmetric-icon">
+                        <div class='altmetric-embed' data-badge-type='1' data-doi='10.3389/fpls.2020.00943' data-link-target="new"></div>
+                    </div>
+                </li>
+            </ul>
+                <a type="button" class="btn btn-default hidden-sm hidden-xs btn-impact " data-test-id="view-article-impact" href="http://loop-impact.frontiersin.org/impact/article/542602#views" target="_blank">
+                    <span class="icon-impact"><i class="fa fa-line-chart"></i></span> View Article Impact
+                </a>
+        </div>
+            <div class="side-article-mrk hidden-sm hidden-xs clearfix">
+            <p style="text-align: center;"><a href="https://spotlight.frontiersin.org/submit?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=rtlg_2020_gen"><img src="https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/article-marketing-message-79982763-254d-4bb6-96b8-126758de1166.png" alt="" /><br /></a></p>
+<p style="text-align: center;"><a href="https://spotlight.frontiersin.org/submit?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=rtlg_2020_gen"><strong>Suggest a Research Topic &gt;</strong></a></p>
+        </div>
+    <div class="side-article-share show collapse">
+        <h5 class="like-h4">SHARE ON</h5>
+        <ul class="share-media clearfix" style="padding: 0;">
+            <li class="social_block">
+                <div class="atButton">
+                    <a class="addthis_button_facebook at300b" addthis:title="The Genome of Microthlaspi erraticum (Brassicaceae) Provides Insights Into the Adaptation to Highly Calcareous Soils" addthis:description="Microthlaspi erraticum is widely distributed in temperate Eurasia, but restricted to Ca2+-rich habitats, predominantly on white Jurassic limestone, which is made up by calcium carbonate, with little other minerals. Thus, naturally occurring Microthlaspi erraticum individuals are confronted with a high concentration of Ca2+ ions while Mg2+ ion concentration is relatively low. As there is a competitive uptake between these two ions, adaptation to the soil condition can be expected. In this study, it was the aim to explore the genomic consequences of this adaptation by sequencing and analysing the genome of Microthlaspi erraticum. Its genome size is comparable with other diploid Brassicaceae, while more genes were predicted. Two Mg2+ transporters known to be expressed in roots were duplicated and one showed a significant degree of positive selection. It is speculated that this evolved due to the pressure to take up Mg2+ ions efficiently in the presence of an overwhelming amount of Ca2+ ions. Future studies on plants specialized on similar soils and affinity tests of the transporters are needed to provide unequivocal evidence for this hypothesis. If verified, the transporters found in this study might be useful for breeding Brassicaceae crops for higher yield on Ca2+-rich and Mg2+ -poor soils." addthis:url="https://www.frontiersin.org/article/10.3389/fpls.2020.00943" title="Facebook"></a>
+                </div>
+                <a><span class="facebook_count"></span></a>
+            </li>
+            <li class="social_block">
+                <div class="atButton">
+                    <a class="addthis_button_twitter at300b" addthis:title="The Genome of Microthlaspi erraticum (Brassicaceae) Provides Insights Into the Adaptation to Highly Calcareous Soils" addthis:description="Microthlaspi erraticum is widely distributed in temperate Eurasia, but restricted to Ca2+-rich habitats, predominantly on white Jurassic limestone, which is made up by calcium carbonate, with little other minerals. Thus, naturally occurring Microthlaspi erraticum individuals are confronted with a high concentration of Ca2+ ions while Mg2+ ion concentration is relatively low. As there is a competitive uptake between these two ions, adaptation to the soil condition can be expected. In this study, it was the aim to explore the genomic consequences of this adaptation by sequencing and analysing the genome of Microthlaspi erraticum. Its genome size is comparable with other diploid Brassicaceae, while more genes were predicted. Two Mg2+ transporters known to be expressed in roots were duplicated and one showed a significant degree of positive selection. It is speculated that this evolved due to the pressure to take up Mg2+ ions efficiently in the presence of an overwhelming amount of Ca2+ ions. Future studies on plants specialized on similar soils and affinity tests of the transporters are needed to provide unequivocal evidence for this hypothesis. If verified, the transporters found in this study might be useful for breeding Brassicaceae crops for higher yield on Ca2+-rich and Mg2+ -poor soils." addthis:url="https://www.frontiersin.org/article/10.3389/fpls.2020.00943" title="Tweet"></a>
+                </div>
+                <a><span class="twitter_count"></span></a>
+            </li>
+            <li class="social_block">
+                <div class="atButton">
+                    <a class="addthis_button_linkedin at300b" addthis:title="The Genome of Microthlaspi erraticum (Brassicaceae) Provides Insights Into the Adaptation to Highly Calcareous Soils" addthis:description="Microthlaspi erraticum is widely distributed in temperate Eurasia, but restricted to Ca2+-rich habitats, predominantly on white Jurassic limestone, which is made up by calcium carbonate, with little other minerals. Thus, naturally occurring Microthlaspi erraticum individuals are confronted with a high concentration of Ca2+ ions while Mg2+ ion concentration is relatively low. As there is a competitive uptake between these two ions, adaptation to the soil condition can be expected. In this study, it was the aim to explore the genomic consequences of this adaptation by sequencing and analysing the genome of Microthlaspi erraticum. Its genome size is comparable with other diploid Brassicaceae, while more genes were predicted. Two Mg2+ transporters known to be expressed in roots were duplicated and one showed a significant degree of positive selection. It is speculated that this evolved due to the pressure to take up Mg2+ ions efficiently in the presence of an overwhelming amount of Ca2+ ions. Future studies on plants specialized on similar soils and affinity tests of the transporters are needed to provide unequivocal evidence for this hypothesis. If verified, the transporters found in this study might be useful for breeding Brassicaceae crops for higher yield on Ca2+-rich and Mg2+ -poor soils." addthis:url="https://www.frontiersin.org/article/10.3389/fpls.2020.00943" title="LinkedIn"></a>
+                </div>
+                <a><span class="linkedin_count"></span></a>
+            </li>
+            <li class="social_block">
+                <div class="atButton">
+                    <a class="addthis_button_more at300b" addthis:title="The Genome of Microthlaspi erraticum (Brassicaceae) Provides Insights Into the Adaptation to Highly Calcareous Soils" addthis:description="Microthlaspi erraticum is widely distributed in temperate Eurasia, but restricted to Ca2+-rich habitats, predominantly on white Jurassic limestone, which is made up by calcium carbonate, with little other minerals. Thus, naturally occurring Microthlaspi erraticum individuals are confronted with a high concentration of Ca2+ ions while Mg2+ ion concentration is relatively low. As there is a competitive uptake between these two ions, adaptation to the soil condition can be expected. In this study, it was the aim to explore the genomic consequences of this adaptation by sequencing and analysing the genome of Microthlaspi erraticum. Its genome size is comparable with other diploid Brassicaceae, while more genes were predicted. Two Mg2+ transporters known to be expressed in roots were duplicated and one showed a significant degree of positive selection. It is speculated that this evolved due to the pressure to take up Mg2+ ions efficiently in the presence of an overwhelming amount of Ca2+ ions. Future studies on plants specialized on similar soils and affinity tests of the transporters are needed to provide unequivocal evidence for this hypothesis. If verified, the transporters found in this study might be useful for breeding Brassicaceae crops for higher yield on Ca2+-rich and Mg2+ -poor soils." addthis:url="https://www.frontiersin.org/article/10.3389/fpls.2020.00943" title="View more services"></a>
+                </div>
+                <a><span class="total_count"></span></a>
+            </li>
+        </ul>
+    </div>
+        <a type="button"
+           class="open-supplemental-data btn btn-default hidden-sm hidden-xs"
+           id="supplementary_view">
+            <span class="supplemental-label">
+                <i class="supplemental-icon"></i>
+                <label>Open Supplemental Data</label>
+            </span>
+        </a>
+</aside>
+
+
+            
+<main class="b col-xs-12 col-sm-12 col-lg-8 col-lg-push-2 col-md-7 col-md-push-2 pull-left">
+    <div class="article-section">
+        <div class="article-container" data-html="True">
+            <div class="abstract-container">
+                
+                <div class="article-header-container">
+                    <!-- Start CrossMark Snippet v2.0 -->
+                        <!-- the external CrossMark script to load the crossmark logo responsive  JPB-5562 -->
+                        <script src="https://crossmark-cdn.crossref.org/widget/v2.0/widget.js"></script>
+                        <a data-target="crossmark" class="crossmark pull-right" style="padding: 3px 0 13px 0;"><img id="crossmark-icon" style="border: 0; width:64px; height:64px;" src="https://crossmark-cdn.crossref.org/widget/v2.0/logos/CROSSMARK_Color_square.svg" /></a>
+                        <div id="crossmark-dialog" style="display: none;" title="">
+                            <!-- the external CrossMark data is loaded inside this iframe -->
+                            <iframe id="crossmark-dialog-frame" frameborder="0"></iframe>
+                        </div>
+                    <!-- End CrossMark Snippet -->                   
+
+                    <div class="header-bar-one">
+                        <h2>
+                            Original Research ARTICLE
+
+                    </h2>
+                </div>
+                <div class="header-bar-three">
+                    Front. Plant Sci., 03 July 2020
+                             | <a href="https://doi.org/10.3389/fpls.2020.00943">https://doi.org/10.3389/fpls.2020.00943</a>
+                </div>
+                </div>
+                
+<div class="JournalAbstract"><h1>The Genome of <i>Microthlaspi erraticum</i> (Brassicaceae) Provides Insights Into the Adaptation to Highly Calcareous Soils</h1><a id="h1" name="h1"></a><div class="authors"><a href="https://www.frontiersin.org/people/u/964409" class="user-id-964409"><img class="pr5" src="https://loop.frontiersin.org/images/profile/964409/24" onerror="this.src='https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg'"></img>Bagdevi Mishra</a><sup>1,2</sup>, <img class="pr5" src="https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg"></img>Sebastian Ploch<sup>1</sup>, <img class="pr5" src="https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg"></img>Fabian Runge<sup>1</sup>, <img class="pr5" src="https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg"></img>Angelika Schmuker<sup>3</sup>, <img class="pr5" src="https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg"></img>Xiaojuan Xia<sup>1,2</sup>, <a href="https://www.frontiersin.org/people/u/949874" class="user-id-949874"><img class="pr5" src="https://loop.frontiersin.org/images/profile/949874/24" onerror="this.src='https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg'"></img>Deepak K. Gupta</a><sup>1,2</sup>, <a href="https://www.frontiersin.org/people/u/383474" class="user-id-383474"><img class="pr5" src="https://loop.frontiersin.org/images/profile/383474/24" onerror="this.src='https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg'"></img>Rahul Sharma</a><sup>1</sup> and <a href="https://www.frontiersin.org/people/u/795561" class="user-id-795561"><img class="pr5" src="https://loop.frontiersin.org/images/profile/795561/24" onerror="this.src='https://f96a1a95aaa960e01625-a34624e694c43cdf8b40aa048a644ca4.ssl.cf2.rackcdn.com/Design/Images/newprofile_default_profileimage_new.jpg'"></img>Marco Thines</a><sup>1,2*</sup></div><ul class="notes"><li><span><sup>1</sup></span>Senckenberg Biodiversity and Climate Research Centre (BiK-F), Senckenberg Gesellschaft f&#xfc;r Naturforschung, Frankfurt am Main, Germany</li><li><span><sup>2</sup></span>Goethe University, Department for Biological Sciences, Institute of Ecology, Evolution and Diversity, Frankfurt am Main, Germany</li><li><span><sup>3</sup></span>Institute of Botany, University of Hohenheim, Stuttgart, Germany</li></ul><p><i>Microthlaspi erraticum</i> is widely distributed in temperate Eurasia, but restricted to Ca<sup>2+</sup>-rich habitats, predominantly on white Jurassic limestone, which is made up by calcium carbonate, with little other minerals. Thus, naturally occurring <i>Microthlaspi erraticum</i> individuals are confronted with a high concentration of Ca<sup>2+</sup> ions while Mg<sup>2+</sup> ion concentration is relatively low. As there is a competitive uptake between these two ions, adaptation to the soil condition can be expected. In this study, it was the aim to explore the genomic consequences of this adaptation by sequencing and analysing the genome of <i>Microthlaspi erraticum</i>. Its genome size is comparable with other diploid Brassicaceae, while more genes were predicted. Two Mg<sup>2+</sup> transporters known to be expressed in roots were duplicated and one showed a significant degree of positive selection. It is speculated that this evolved due to the pressure to take up Mg<sup>2+</sup> ions efficiently in the presence of an overwhelming amount of Ca<sup>2+</sup> ions. Future studies on plants specialized on similar soils and affinity tests of the transporters are needed to provide unequivocal evidence for this hypothesis. If verified, the transporters found in this study might be useful for breeding Brassicaceae crops for higher yield on Ca<sup>2+</sup>-rich and Mg<sup>2+</sup> -poor soils.</p><div class="clear"></div></div><div class="JournalFullText"><a id="h2" name="h2"></a><h2>Introduction</h2><p class="mb15">The plant family Brassicaceae includes many economically important ornamental and crop species. Members of the family are mostly herbaceous, and many can be easily grown in the laboratory, such as <i>Arabidopsis thaliana</i>, the first plant to have its genome sequenced, as it is widely used as a model organism for flowering plants. In addition, several other Brassicaceae genomes have been sequenced, facilitating comparative studies (<a href="#B56">Slotte et&#xa0;al., 2011</a>; <a href="#B67">Yang et&#xa0;al., 2016</a>; <a href="#B39">Mand&#xe1;kov&#xe1; et&#xa0;al., 2017</a>). In this study, <i>Microthlaspi erraticum</i> of the tribe Coluteocarpeae was targeted for genome sequencing.</p><p class="mb15">Many members of the Coluteocarpeae are able to grow on highly Ca<sup>2+</sup>-rich carbonate soils, and several are heavy metal accumulators, such as <i>Noccaea caerulescens</i> (<a href="#B38">Mand&#xe1;kov&#xe1; et&#xa0;al., 2015</a>). Here, the genome assembly of <i>M. erraticum</i> is reported. <i>M. erraticum</i> is an interesting plant on which to study environmental adaptation, as it has a wide distribution range throughout warm temperate Europe and Central Asia (<a href="#B1">Ali et&#xa0;al., 2016a</a>; <a href="#B2">Ali et&#xa0;al., 2016b</a>; <a href="#B3">Ali et&#xa0;al., 2017</a>). The species occurs almost exclusively in soil derived from calcium carbonate-rich bedrock und usually grows on well-drained loamy, somewhat open areas (<a href="#B3">Ali et&#xa0;al., 2017</a>). Similar to <i>A. thaliana</i>, <i>M. erraticum</i> usually is a winter annual, but has longer seed dormancy, requires vernalisation, and so does not produce a second flowering generation in autumn (<a href="#B4">Baskin and Baskin, 1979</a>). In nature, the plant hibernates in the rosette stage, but at the southern limits of the distribution, seeds may directly germinate in winter or early spring to produce a flowering plant without going through the rosette stage (unpublished observations). In the laboratory, the time from seed germination to seed maturation is 4&#x2013;5 months.</p><p class="mb15">Growing on Ca<sup>2+</sup>-rich soil can be challenging for plants, if the soil is at the same time Mg<sup>2+</sup>-deficient, due to the low specificity of channels for bivalent cations. This would lead to an imbalance of Ca<sup>2+</sup> and Mg<sup>2+</sup> ions, if the more specific transporters of the <i>MRS2</i>/<i>MGT</i> family cannot provide enough selectivity to counter this (<a href="#B51">Schock et&#xa0;al., 2000</a>; <a href="#B34">Li et&#xa0;al., 2001</a>). There is strong evidence that the <i>MRS2</i>/<i>MGT</i> family members, and in particular the root-expressed genes, are vital for the fitness of plants in conditions where there is an overwhelming amount of Ca<sup>2+</sup> in comparison to Mg<sup>2+</sup> ions (<a href="#B17">Gebert et&#xa0;al., 2009</a>). As <i>M. erraticum</i> is almost completely restricted to such soils derived from very pure Calcium Carbonate rocks, such as the upper Jurassic limestone deposited in the Tethys Ocean (<a href="#B27">Kimmig et al., 2001</a>), we hypothesized that this could be mirrored in its <i>MRS2</i>/<i>MGT</i> genes.</p><p class="mb0"><i>Microthlaspi erraticum</i> is easy to grow, as it is a rather small plant with a short life cycle, but neither a genome nor molecular tools are available for the species, yet. As the edaphic niche of <i>M. erraticum</i> is very well defined, the species provides a good model to investigate environmental adaptation apart from soil effects. Therefore, it was the general aim of this study to provide a well-assembled genome of the species and a specific aim to unravel potential genomic and genetic adaptations to Ca<sup>2+</sup>-rich but Mg<sup>2+</sup>-poor soil, with specific reference to the limiting Mg<sup>2+</sup> ion uptake.</p><a id="h3" name="h3"></a><h2>Material and Methods</h2><h3>Plant Material, DNA and RNA Extraction, and Sequencing</h3><p class="mb15">For genome sequencing, a six times inbred line of the <i>Microthlaspi erraticum</i> was used. This line was named LIMBURG, after the original collection site beneath the ruins of the stronghold Limburg of Berthold mit dem Barte. He was the founder of the house of Z&#xe4;hringen, an influential medieval house in what are now South-Western Germany, Eastern France, Switzerland, Austria, and Northern Italy. The original mother plant was collected in spring 2007 from beneath the Limburg ruins (near Kirchheim unter Teck, Swabian Alb, Germany) in the flowering stage and kept in a climate chamber at 16&#xb0;C, 60% humidity and a 14 h light 10 h darkness cycle, taking care that the soil remained always moist. After seed maturation, seeds were collected and air-dried for three months at room temperature. Subsequently, seeds were sown into standard gardening soil and placed into a climate chamber with the same conditions as reported before. Six weeks after germination, when the seedlings had produced a small rosette, plants were transferred to a refrigerator for two weeks. Subsequently, they were brought back to the climate chamber, where they flowered to produce seeds within about two months. From the plants one was separated from the others and used as new mother plant. This way, six generations of selfing were done to create the inbred line LIMBURG.</p><p class="mb0">For genome sequencing, plants were grown from seeds of the 7<sup>th</sup> generation as described above, but for two months without vernalisation. Then leaves were collected, surface-sterilized for 1 min in 3% sodium hypochlorite solution with 0.1% Tween, and rinsed in sterile water to remove the disinfectant. Subsequently, DNA and RNA were extracted from this material as described previously (<a href="#B41">Mishra et&#xa0;al., 2018</a>). As the RNA sequencing was done to guide and improve genepredictions rather than quantifying expression, only a single extraction was done. After checking the integrity and purity of the extracted nucleic acids using agarose gels, DNA and RNA extracts were sent to Eurofins Genomics (Erlangen, Germany) for library preparation (Illumina shotgun libraries with 300 and 800 bp inserts, 3, 8, and 20 kbp LDJ libraries, as well as PacBio shotgun libraries for the RSII instrument) and sequencing.</p><h3>Read Trimming and Correction</h3><p class="mb15">Genomic paired-end Illumina reads were trimmed for adaptors and bad quality ends using Trimmomatic (v 0.32) (<a href="#B8">Bolger et&#xa0;al., 2014</a>) with the following parameters: TruSeq3-PE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:60. Afterwards, read pairs containing ambiguous bases were removed from the dataset using a perl script. The remaining reads were evaluated for their quality using FastQFS (<a href="#B53">Sharma and Thines, 2015</a>) and only paired sequences with an average quality score of 30 and a of length greater than 70 were considered for further analyses. Preliminary contigs were constructed using velvet, version 1.2.10 (<a href="#B70">Zerbino and Birney, 2008</a>) and subsequently aligned using BLAST against a local NT database (downloaded from NCBI: 3/10/2014). Possible contaminations were found to be <i>Lachancea thermotolerans</i>, Cloning vector pUC19 and Synthetic construct clone G1 from <i>Pseudomonas</i> species, all probably derived from artefacts during sequencing, as none of these contaminants are present in our laboratory. The reads that were matching to the contamination were removed from the dataset. The cleaned Illumina reads were used to correct the PacBio reads using proovread (<a href="#B19">Hackl et&#xa0;al., 2014</a>).</p><p class="mb0">Quality control of the transcriptomic single-end Illumina reads were also performed as for the genomic reads but using the &#x201c;TruSeq3-SE.fa&#x201d; file for the adapter trimming in trimmomatic.</p><h3>Assembly</h3><p class="mb0">A hybrid assembly was built on the basis the Illumina-corrected PacBio reads using Canu (<a href="#B28">Koren et&#xa0;al., 2017</a>). Contigs made up by only 2 to 5 PacBio reads were discarded, but the reads were further used for scaffolding the assembly using SSpace-Long (<a href="#B6">Boetzer &amp; Pirovano, 2014</a>). SSpace standard (<a href="#B7">Boetzer et&#xa0;al., 2011</a>) was used afterwards to scaffold the assembly using SG Illumina reads and LJD reads. KGBassebmler (<a href="#B37">Ma et&#xa0;al., 2012</a>) was used to build a final pseudo-chromosome level assembly, using the karyotype of the related species, <i>Eutrema salsugineum</i>, as a template. The genomic data for <i>M. erraticum</i> can be found under the following accession numbers &#x2013; Bioproject ID PRJEB35998, BioSample: SAMEA6449025, SRA: ERS4214584, GenBank assembly: GCA_902728155.2.</p><h3>Assembly Assessment, Gene Prediction, and Annotation</h3><p class="mb0">The final assembly was subjected to both CEGMA (<a href="#B46">Parra et&#xa0;al., 2009</a>) and BUSCO (<a href="#B55">Sim&#xe3;o et&#xa0;al., 2015</a>) genome completeness assessments. Transcriptomic reads were mapped onto the assembled genome using tophat2 (<a href="#B26">Kim et&#xa0;al., 2013</a>). The mapping results were used in the BRAKER1 pipeline (<a href="#B20">Hoff et&#xa0;al., 2016</a>) which uses GenMark-ET and Augustus to predict the gene space. Homology search for the predicted genes was performed using Blastp against a locally stored NR (non-redundant protein sequences) database (downloaded from NCBI 25/03/2017). Interpro ids of all predicted genes were fetched by running InterPro <i>via</i> the webservice option in Blast2GO (<a href="#B13">Conesa et&#xa0;al., 2005</a>). Inside the Blast2GO framework, blast results and InterPro annotations were merged and GO ids were assigned to the sequences. The most generic GO ids (top level) were removed from the annotation and sequences were further annotated according to their predicted localization. Repeatscout (<a href="#B48">Price et&#xa0;al., 2005</a>) was used for de-novo identification of repeat elements and for creating a repeat element database. This database was used in repeatmasker (<a href="#B58">Smit et&#xa0;al., 1996-2010</a>) to predict repeat elements in the genome. Putative repeats were further filtered on the basis of their copy numbers and only those repeats present with more than 10 copies in the genome were annotated as repeats. This way, repeat domain families were identified in <i>M. erraticum</i> and four other Brassicaceae genomes (<a href="#h12">Table S1</a>) downloaded from the JGI genome portal (<a href="https://phytozome.jgi.doe.gov/pz/portal.html">https://phytozome.jgi.doe.gov/pz/portal.html</a>). Interproscan was run over the gene-set from these species and the number of sequences from each species matching to specific repeat domain families were obtained.</p><h3>Positive Selection Analysis</h3><p class="mb15">The protein and the nucleotide sequences of the one-to-one orthologs were fetched from five Brassicaceae species (<i>A. thaliana</i>, <i>A. lyrata</i>, <i>Capsella rubella</i>, <i>Eutrema salsugineum</i>, and <i>M. erraticum</i>) for a list of 1:1 orthologs generated using OrthoMCL, v2.0.9 (<a href="#B35">Li et&#xa0;al., 2003</a>). The protein sequences were aligned using mafft, v7 (<a href="#B25">Katoh and Standley, 2013</a>) with default parameters. The protein alignment and the nucleotide sequences were used in the program transalign from EMBOSS (version: 6.4.0.0) (<a href="#B50">Rice et&#xa0;al., 2000</a>) to produce codon alignments. For phylogenetic analyses raxmlHPC-PTHREADS-SSE3 of RAxML v8.1.17 (<a href="#B59">Stamatakis, 2014</a>) was used with the algorithm parameter -f a, which runs rapid Bootstrap analysis and the search for the best-scoring ML tree in one program run. The substitution model was selected as -m GTRGAMMAI which uses GTR, plus an optimization of substitution rates, plus a GAMMA model of rate heterogeneity, plus an estimation of the proportion of invariable sites. The program was run with 1,000 bootstrap replicates (<a href="#B16">Felsenstein, 1985</a>). Codon alignments of the coding sequences and newick-formatted phylogenetic trees were used to run positive selection analyses with the codeML module of PAML, v4.8 (<a href="#B68">Yang, 2007</a>). The site model was run to identify positively selected genes, and the branch-site model was run to identify species-specific positive selection of the genes. As multiple hypotheses were tested in the branch-site model of codeML, <i>q</i> values were calculated for false discovery rate (FDR) testing using <i>q</i> values (<a href="#B5">Bass et&#xa0;al., 2015</a>) calculated with Bioconductor in an R environment, v3.4.1.</p><p class="mb0">The same approach as followed for the one-to-one orthologs in the five species, was also used for their <i>MRS2</i>/<i>MGT</i> genes to analyse the selection pressure on the Mg<sup>2+</sup> transporters.</p><h3>Annotations of <i>MRS2</i>/<i>MGT</i> Mg<sup>2+</sup> Transporter Genes</h3><p class="mb0">Functional <i>MRS2</i>/<i>MGT</i> Mg<sup>2+</sup> transport genes from <i>A. thaliana</i> were used for the identification of the potential Mg<sup>2+</sup> transporters in <i>M. erraticum</i> by homology search. The criteria for the homology search were as follows: evalue &lt; 10e-5; percentage identity &gt; 50%; length of match &gt; 50%. A phylogenetic tree was constructed using <i>A. thaliana</i> Mg<sup>2+</sup> transporters and their <i>M. erraticum</i> orthologs by using mafft v7 (<a href="#B25">Katoh and Standley, 2013</a>) for multiple alignment and raxmlHPC-PTHREADS-SSE3 of RAxML v8.1.17 (<a href="#B59">Stamatakis, 2014</a>) with 1,000 bootstraps for the tree construction. All genes were inspected for <i>MRS2</i>/<i>MGT</i> specific domains and re-annotated according to the results. The <i>MRS2</i>/<i>MGT</i> genes from <i>M. erraticum</i> were blasted against genes from the three additional Brassicaceae genomes considered in this study, i.e. <i>Arabidopsis lyrata</i>, <i>Eutrema salsugineum</i>, and <i>Capsella rubella</i>, and blast hits with an e-value lower than 10e-5 and an at least 50% length match with more than 50% identity were taken as putative <i>MRS2</i>/<i>MGT</i> genes. Further, the presence of two transmembrane domains was checked using the TMpred at <a href="https://embnet.vital-it.ch/software/TMPRED_form.html">https://embnet.vital-it.ch/software/TMPRED_form.html</a>. The presence of a GMN domain at the end of the first transmembrane domain was checked manually. The <i>MRS2</i>/<i>MGT</i> genes from the five Brassicaceae genomes were further aligned using mafft v7 (<a href="#B25">Katoh and Standley, 2013</a>) and a phylogenetic tree was built using the method reported above.</p><a id="h4" name="h4"></a><h2>Results</h2><h3>Assembly</h3><p class="mb0">The 2C value and genome size for <i>M. erraticum</i> LIMBURG had been estimated using flow cytometry with <i>Glycine max</i> as size standard (<a href="#B2">Ali et&#xa0;al., 2016b</a>). The 2C value was 0.44 pg, corresponding to a diploid genome size of 422 Mbp, implying a haploid genome size of 211 Mbp. The hybrid assembly generated using the Illumina and PacBio data was of 170 Mbp in length, out of which 156 Mbp were assembled into 7 pseudo-chromosomes. The rest of the contigs were built into two pseudo-molecules, one with predominantly genic regions and the other with predominantly non-genic regions. The placement of 1,940 scaffolds within the 9 units and the sizes of the pseudo-chromosomes are listed in <a href="#h12">Table S2</a>. Only one gene was not identified when using CEGMA, implying more than 99% completeness of the genic space. The assembled genome had 0.61% of N and the GC content was 37.87%. In the BUSCO analysis out of a total of 1,375 genes that were considered to check the completeness of the gene space, and 98.5% of the genes were present in the genome, out of which 8.2% were duplicated. A total of 0.4% of the genes were present as fragments and a total of 1.1% of the genes were missing. The shotgun Illumina reads were mapped onto the final genome using Bowtie2 (<a href="#B31">Langmead and Salzberg, 2012</a>) and the reads mapped to 169 Mb of the assembled genome. The PacBio reads were also mapped back to the genome using Blasr (<a href="#B10">Chaisson and Tesler, 2012</a>) and the reads mapped back to 160 Mb of the assembled genome. Out of 170 Mb, 159 Mb of the total genome were mapped by both Illumina short reads and PacBio reads.</p><h3>Genomic Features</h3><p class="mb0">The number of genes predicted in <i>M. erraticum</i> was 51,309 (with coding space of 55.19Mb), which is higher than in other Brassicaceae, but the proportion of coding space to non-coding space in the genome is similar to that of <i>A. thaliana</i> (<a href="#T1">Table 1</a>). The 51,309 genes included 1,372 splice variants, resulting in 49,937 unique genic locations out of which 49,060 were complete genes with both start and stop codons and without in-frame stop codons. A total of 34,370 genes were found to have transcript support when transcriptomic reads were mapped to the genes. In the blast2go annotation process, 1,521 genes were not annotated. The number of genes annotated with GO terms of molecular functions, cellular components and biological processes is given in <a href="#h12">Figure S1</a>, with top functions under each category. A total of 35,042 genes was provided with a GO term.</p><div class="DottedLine"></div><div class="Imageheaders">TABLE 1</div><div class="FigureDesc"><a href="https://www.frontiersin.org/files/Articles/542602/fpls-11-00943-HTML/image_m/fpls-11-00943-t001.jpg" name="table1" target="_blank"><img src="https://www.frontiersin.org/files/Articles/542602/fpls-11-00943-HTML/image_t/fpls-11-00943-t001.gif" id="T1" alt="www.frontiersin.org"></img></a><p><strong>Table 1</strong> Details of genome features in respect to size, genes, coding regions, and repeat regions for <i>M. erraticum</i> and four other Brassicaceae species.</p></div><div class="DottedLine"></div><p class="mb15 w100pc float_left mt15">The genome of <i>M. erraticum</i> contains 34% of Interspersed repeats, a percentage comparable to <i>A. lyrata</i> which has 36% of interspersed repeats in its genome. <i>A. thaliana</i> and <i>C. rubella</i> have a substantially lower percentage of interspersed repeats with 16 and 17%, respectively. The outcrosser <i>E. salsugineum</i> has the highest percentage of interspersed repeats with 52% (<a href="#T1">Table 1</a>). All five genomes have a similar percentage of simple repeats with around 2% (<a href="#T1">Table 1</a>) of the genome. Thus, the proportion of the coding space to the genome size in <i>M. erraticum</i> is similar to that of selfing plants but the interspersed repeat regions are higher in proportion.</p><p class="mb15">Repeat domain family associated genes known to have role in biotic and abiotic stress (see discussion) were analyzed in the five species used for comparisons. <i>M. erraticum</i> has substantially more members of Pentatricopeptide (PPR), Leucine-rich repeat (LRR and LRR-2) and Kelch repeat domain families in comparison to all other species in this study while having similar number of genes in the Armadillo, HEAT, Ankyrin, Tetratricopeptide (TPR), RCC1, WD40 repeat domain families (<a href="#h12">Figure S2</a>).</p><p class="mb0">Of the 819 LRR and LRR-2 genes of <i>M. erraticum</i>, the majority are F-box proteins (342 proteins) and receptors (314 proteins). Out of the latter, 110 are classified as probable serine threonine-kinase receptors and several as involved in plant defence, acting as disease resistance genes (61 proteins), out of which 25 are annotated as nucleotide-binding site (NBS)-leucine-rich repeat (LRR) domain containing R genes. Apart from the functional annotation of Blast2Go, a separate domain search revealed that a total of 49 genes have both NBS and LRR domains. A similar search in <i>A. thaliana</i> indicated the presence of 40 NBS and LRR domain containing genes. The detailed numbers of genes containing NBS and LRR domains in five species are presented in the <a href="#T2">Table 2</a>.</p><div class="DottedLine"></div><div class="Imageheaders">TABLE 2</div><div class="FigureDesc"><a href="https://www.frontiersin.org/files/Articles/542602/fpls-11-00943-HTML/image_m/fpls-11-00943-t002.jpg" name="table2" target="_blank"><img src="https://www.frontiersin.org/files/Articles/542602/fpls-11-00943-HTML/image_t/fpls-11-00943-t002.gif" id="T2" alt="www.frontiersin.org"></img></a><p><strong>Table 2</strong> Numbers of genes in five Brassicaceae genomes that contain nuclear binding site (NBS) and/or leucine-rich repeat (LRR) domains.</p></div><div class="DottedLine"></div><p class="mb0">In <i>M. erraticum</i>, out of 259 proteins containing the Kelch repeat domain, 206 are F-box proteins (FBK). The majority of the non-F-box Kelch repeat domain proteins belonged to Galactose oxidase Kelch repeat superfamily and few are receptors to different chemicals and viral substrates. FBK proteins in <i>M. erraticum</i> are around twice in number when compared to the other species in this study.</p><h3>Positive Selection Analyses of the One-to-One Orthologs</h3><p class="mb0">In the test of positive selection using the site model from codeML, out of 6,725 one-to-one core orthologs, 92 were inferred as positively selected, with at least one amino acid being positively selected according to Bayes Empirical Bayes (BEB) analysis (<a href="#B65">Yang et&#xa0;al., 2005</a>) with <i>p</i> &gt; 95%. An additional 305 genes had omega values &gt; 1, but no amino acid position in those genes had a significant BEB value. In the test of positive selection using the branch-site model, positively selected genes in individual species were identified. <a href="#h12">Figure S3</a> shows a bar plot showing the numbers of positively selected genes in the individual species. Though the number of positively selected genes in <i>M. erraticum</i> is slightly higher than the other species, the difference is not pronounced.</p><h3><i>MRS2</i>/<i>MGT</i> Gene Family (Mg<sup>2+</sup> Ion Transporters)</h3><p class="mb0">In the Blast2GO pipeline, 13 genes were assigned to the <i>MRS2</i>/<i>MGT</i> gene family out of which two were discarded, one being an isoform giving rise to the same gene product and the other lacking a functional GMN domain, resulting in a total of 11 <i>MRS2</i>/<i>MGT</i> genes in <i>M. erraticum</i> (<a href="#h12">Table S3</a>). All of these 11 genes had two transmembrane domains and one GMN domain; and all were homologous to the <i>MRS2</i>/<i>MGT</i> genes in <i>A. thaliana</i>. The genes in <i>MRS2</i>/<i>MGT</i> gene family in plants are grouped into 5 clades, named from A to E. In <i>M. erraticum</i> Clade-A and Clade-C have 1 gene each and Clade-B, Clade-D, and Clade-C have 4, 2 and 3 genes in each, respectively. Details on these genes are presented in <a href="#T3">Table 3</a>. The <i>MRS2</i>/<i>MGT</i> genes were also mined from the other Brassicaceae genomes used in this study and details of these genes are given in <a href="#h12">Table S2</a>. <i>Microthlaspi erraticum</i> had the highest number of <i>MRS2</i>/<i>MGT</i> genes in comparison to the other Brassicaceae species. A phylogenetic tree using all the mined <i>MRS2</i>/<i>MGT</i> genes from <i>M. erraticum</i> and related species is presented in the <a href="#h12">Figure S4</a>. Interestingly, duplications in two clusters of <i>MRS2</i>/<i>MGT</i> genes were observed for <i>M. erraticum</i> and one of these genes was positively selected (<a href="#f1">Figure 1</a>). </p><div class="DottedLine"></div><div class="Imageheaders">TABLE 3</div><div class="FigureDesc"><a href="https://www.frontiersin.org/files/Articles/542602/fpls-11-00943-HTML/image_m/fpls-11-00943-t003.jpg" name="table3" target="_blank"><img src="https://www.frontiersin.org/files/Articles/542602/fpls-11-00943-HTML/image_t/fpls-11-00943-t003.gif" id="T3" alt="www.frontiersin.org"></img></a><p><strong>Table 3</strong> Details of the <i>MRS2</i>/<i>MGT</i> genes identified in <i>Microthlaspi erraticum</i> genome.</p></div><div class="DottedLine"></div><div class="Imageheaders">FIGURE 1</div><div class="FigureDesc"><a href="https://www.frontiersin.org/files/Articles/542602/fpls-11-00943-HTML/image_m/fpls-11-00943-g001.jpg" name="" target="_blank"><img src="https://www.frontiersin.org/files/Articles/542602/fpls-11-00943-HTML/image_t/fpls-11-00943-g001.gif" id="f1" alt="www.frontiersin.org"></img></a><p><strong>Figure 1</strong> Phylogenetic tree of 20 <i>MRS2</i>/<i>MGT</i> genes (11 from <i>M. erraticum</i> and 9 from <i>A. thaliana</i>) with the main monophyletic groups highlighted as A&#x2013;E, showing duplication of <i>MRS2-7</i>/<i>MGT7</i> and <i>MRS2-10</i>/<i>MGT1</i> genes in <i>M. erraticum.</i> An inset of the <i>MRS2-7</i>/<i>MGT7</i> clade with five Brassicaceae species is shown, which was used for a positive selection analysis. One of the two <i>MRS2-7</i>/<i>MGT7</i> genes in <i>M. erraticum</i> was positively selected and is highlighted in the figure.</p></div><div class="DottedLine"></div><a id="h5" name="h5"></a><h2>Discussion</h2><h3>Genome Size and Gene Space</h3><p class="mb0">The assembled genome size of <i>Microthlaspi erraticum</i> is 170.42 Mb, which is larger than the genomes of other selfing plants included in this study, <i>A. thaliana</i> (119.66 Mb) and <i>Capsella rubella</i> (134.83 Mb), but is smaller than the genomes of outcrossers, <i>Arabidopsis lyrata</i> (206.66 Mb) and <i>Eutrema salsugineum</i> (243.11 Mb). Generally, selfing plants have less transposable elements in comparison to outcrossing plants, causing genome size differences between them (<a href="#B24">Johnston et&#xa0;al., 2005</a>; <a href="#B63">Wright et&#xa0;al., 2008</a>). There is evidences that many repeat domain proteins have roles in coping with abiotic stress conditions such as the Armadillo gene family in rice (<a href="#B54">Sharma et&#xa0;al., 2014</a>), the mitochondrial PPR-PGN protein (PPR repeat protein for germination on NaCl) in <i>A. thaliana</i> (<a href="#B29">Laluk et&#xa0;al., 2011</a>), and proteins of the LRR repeat family in <i>A. thaliana</i> (<a href="#B43">Osakabe et&#xa0;al., 2005</a>; <a href="#B45">Park et&#xa0;al., 2014</a>). The presence of excess of interspersed repeats in the genome of <i>M. erraticum</i> might indicate possible genomic and genic rearrangements in <i>M. erraticum</i> that might have emerged to cope with the stress resulting from the harsh abiotic factors the plant is experiencing in its habitat. In line with this assumption, compared to other species, the proportion of genic repeats in <i>M. erraticum</i> was found to be substantially higher (<a href="#h12">Figure S5</a>).</p><h3>Genes</h3><p class="mb15">Positive selection analyses of one-to-one orthologous genes does not suggest any drastic difference in level of positive selection in <i>M. erraticum</i> in comparison to the other species in this study. A comparison of the number of members in the 10 repeat domain family genes that have a known role in biotic and abiotic stress conditions, indicates similar number of genes for the six species in all families except PPR, LRR, LRR-2, and Kelch, for which <i>M. erraticum</i> has a substantially higher number of genes.</p><p class="mb15">In <i>M. erraticum,</i> 672 genes are found to have PPR repeats. Proteins from the PPR repeat family have a role in growth and development of plants, but many PPR proteins are also known to be biotic and abiotic stress regulators. They have roles in high salinity, drought, and cold stress tolerance (<a href="#B29">Laluk et&#xa0;al., 2011</a>; <a href="#B69">Yuan and Liu, 2012</a>; <a href="#B72">Zhu et&#xa0;al., 2014</a>; <a href="#B23">Jiang et&#xa0;al., 2015</a>). As <i>M. erraticum</i> grows in environments that face both frost in winter and drought during seed maturation, it could be possible that this is reflected by the high PRR gene content.</p><p class="mb15">In <i>M. erraticum,</i> 819 genes are classified to belong to the Leucine-rich repeat family proteins (LRR and LRR-2), which is far more than in the other species analysed (<a href="#h12">Figure S5</a>). LRR and LRR-2 family genes are signalling molecules in plants and also have a role in plant development (<a href="#B21">Hsu et&#xa0;al., 2000</a>) and pathogen defence (<a href="#B33">Li and Chory, 1997</a>; <a href="#B15">Deyoung and Clark, 2008</a>). Expression level studies of LRR repeat domain proteins in rice (<a href="#B45">Park et&#xa0;al., 2014</a>) and <i>Arabidopsis</i> (<a href="#B44">Osakabe et&#xa0;al., 2010</a>) have shown that LRR repeat proteins also positively regulate genes involved in coping with various abiotic stress conditions. This is further supported by <a href="#B61">Van der Does et&#xa0;al. (2017)</a>, who found that MIK2/LRR-KISS is involved in sensing cell-wall integrity changes in response to both biotic and abiotic stress in line with LRR-receptors acting to recognise both pathogen associated molecular patterns and danger signals (<a href="#B9">Boller and Felix, 2009</a>). It is tempting to speculate that the very rich LRR complement of <i>M. erraticum</i> is not only due to the frequent presence of downy mildew in its populations, but also due to the often open slopes on which <i>M. erraticum</i> occurs with frequent soil movements, which might need an enhanced and precise danger recognition that responds to root injury. However, more detailed analyses and functional tests will be needed to provide a solid ground to investigate this interesting pattern further.</p><p class="mb0">Kelch repeat domains are found mostly in the C-terminus of F-box proteins. F-Box coupled Kelch (FBK) proteins are abundant in plants, with very few non-plant representatives (<a href="#B52">Schumann et&#xa0;al., 2011</a>), and are associated with several vital plant molecular mechanisms. Many are associated with growth and development (<a href="#B71">Zhang et&#xa0;al., 2013</a>), secondary metabolism, Circadian clock and photoperiodic flowering (<a href="#B42">Nelson et&#xa0;al., 2000</a>) by taking part in signal transduction in various pathways. They also play a role in coping with abiotic stress conditions (<a href="#B22">Jia et&#xa0;al., 2012</a>; <a href="#B12">Chen et&#xa0;al., 2014</a>). The finding that <i>M. erraticum</i> contains about twice as many FBK genes (206) as the other plants investigated in this study might again indicate an adaptation to stressful environmental conditions. This is also reflected by the fact that <i>M. erraticum</i> is often among the few or even the only plant that is present in some open slopes it colonises (unpublished observations).</p><h3>Uptake and Transport of Cations in <i>M. erraticum</i> in Calcium-Rich Soil</h3><h4>Uptake and Transport of Ca<sup>2+</sup> Ions</h4><p class="mb0">Two&#x2010;pore channel 1 (TPC1) is responsible for transport of Ca<sup>2+</sup> from vacuoles to the cytoplasm and expression of TPC1 regulates the storage capacity of Ca<sup>2+</sup> in the vacuoles (<a href="#B47">Pottosin et&#xa0;al., 2009</a>; <a href="#B18">Gilliham et&#xa0;al., 2011</a>). Each of the species that we included in this study have one gene each that codes for TPC1. The more specific Cyclic Nucleotide-Gated Ion Channel, AtCNGC2 has been reported to have crucial role in adaptation to Ca<sup>2+</sup> Stress in plants (<a href="#B11">Chan et&#xa0;al., 2003</a> &amp; <a href="#B62">Wang et&#xa0;al., 2016</a>). AtCNGC2 is coded by a single gene in <i>A. thaliana</i> and has one homolog in each <i>M. erraticum</i> and other Brassicaceae species included in this study. Also for other Ca2+ channels, no unusual variation was found. This probably reflects the high Ca<sup>2+</sup> supply that has also been described to be advantageous (<a href="#B64">Yamazaki et&#xa0;al., 2000</a>; <a href="#B60">Sugimoto et&#xa0;al., 2010</a>) and thus does not necessitate enhanced channel specificity, duplication or other forms of adaptation.</p><h4>Uptake and Transport of Mg <sup>2+</sup> ions</h4><p class="mb15">As <i>Microthlaspi erraticum</i> is found almost exclusively in soil derived from Ca<sup>2+</sup>-rich but Mg<sup>2+</sup> -poor bedrock (<a href="#B27">Kimmig et al., 2001</a>; <a href="#B3">Ali et al., 2017</a>), we speculated that an adaptation regarding the targeted uptake of Mg<sup>2+</sup> might have evolved that gives the species an evolutionary advantage over other Brassicaceae species. Mg<sup>2+</sup> is an essential bivalent ion with vital functions as a co-factor with ATP in various enzymatic reactions and as central ion in the porphyrine ring of chlorophyll molecules.</p><p class="mb15">Different types of Mg<sup>2+</sup> transporters interactively transport the ion across membranes in plant tissues to maintain homeostasis. In the presence of excessive Ca<sup>2+</sup> ions in soil solution, specialized Mg<sup>2+</sup> transporters might be playing a major adaptive role. The <i>MRS2</i>/<i>MGT</i> (<a href="#B51">Schock et&#xa0;al., 2000</a>; <a href="#B34">Li et&#xa0;al., 2001</a>) gene family is known to harbour various proteins that transport Mg<sup>2+</sup> across membranes. <i>MRS2</i>/<i>MGT</i> Mg<sup>2+</sup> transporters have two trans-membrane domains at the C-terminus with a characteristic GMN domain at the end of the first trans-membrane domain. In <i>M. erraticum</i> 11 potential <i>MRS2</i>/<i>MGT</i> genes were identified with two transmembrane domains and a GMN motif. In comparison <i>A. thaliana</i> and rice code for 10 such genes, while 9 are reported from maize (<a href="#B36">Li et&#xa0;al., 2016</a>). The <i>MRS2</i>/<i>MGT</i> gene <i>AtMRS2-10</i>, has been shown to be expressed in the root in the plasma membrane (<a href="#B17">Gebert et&#xa0;al., 2009</a>). For this gene, two homologs are found in <i>M. erraticum</i>, meaning that this gene has been duplicated. All other species have only one homolog except <i>C. rubella</i> in which no homolog for <i>MRS2-10</i>/<i>MGT1</i> was found (<a href="#h12">Figure S4</a>). Single knock-out experiments and a double knock-out of <i>MRS2-1</i>/<i>MGT2</i> and <i>MRS2-5</i>/<i>MGT3</i>, as well as <i>MRS2-5</i>/<i>MGT3</i> and <i>MRS2-10</i>/<i>MGT1</i> (<a href="#B17">Gebert et&#xa0;al., 2009</a>), had no visible effect under normal growth conditions, pointing at functional redundancy of the <i>MRS2</i> gene family members. In a phylogenetic analysis, it was shown that <i>MRS2-1</i>/<i>MGT2</i> and <i>MRS2-10</i>/<i>MGT1</i> form a sub-clade of the family and plants with double knock-out of <i>MRS2-1</i>/<i>MGT2</i> and <i>MRS2-10</i>/<i>MGT1</i> have a high demand of Mg<sup>2+</sup> for normal growth (<a href="#B32">Lenz et&#xa0;al., 2013</a>). Thus, the presence of a third member in this sub-clade might indicate a genomic adaptation to the high Ca<sup>2+</sup>/low Mg<sup>2+</sup> soil condition.</p><p class="mb15"><i>MRS2-4</i>/<i>MGT6</i> and <i>MRS2-6</i>/<i>MGT5</i> form a subclade in <i>A. thaliana</i>. All species investigated in this study have two genes in this subclade except <i>E. salsugineum</i> which has only one. Considering the phylogenetic distance of this gene from the two <i>A. thaliana</i> members of this group, it can be assumed that <i>E. salsugineum</i> is missing <i>MRS2-6</i>/<i>MGT5</i>. <i>MRS2-4</i>/<i>MGT6</i> had previously been identified to localize on either chloroplast or mitochondria in shoots (<a href="#B17">Gebert et&#xa0;al., 2009</a>; <a href="#B14">Conn et&#xa0;al., 2011</a>), but a later study has identified this gene to be localised in root plasma membrane under lowered Mg<sup>2+</sup> conditions and that in Mg<sup>2+</sup>-deficient experimental conditions the transcript levels of this gene in the root increased eight-fold (<a href="#B40">Mao et&#xa0;al., 2014</a>). Thus, it seems possible that the retaining of the duplication of <i>MRS2-4</i>/<i>MGT6</i> in <i>M. erraticum</i> is adventageous in Mg<sup>2+</sup>-poor conditions.</p><p class="mb0">Another subclade in <i>A. thaliana</i> comprise of <i>MRS2-2</i>/<i>MGT9</i>, <i>MRS2-7</i>/<i>MGT7</i> and <i>MRS2-8</i>/<i>MGT8</i>. In some ecotypes in <i>A. thaliana MRS2-8</i>/<i>MGT8</i> has been found to be a pseudogene (<a href="#B17">Gebert et&#xa0;al., 2009</a>). <i>MRS2-7</i>/<i>MGT7</i> from this clade, an ER-localized transporter, is known to be expressed in roots and to promote growth in plants growing in Mg<sup>2+</sup> deficient soil (<a href="#B17">Gebert et&#xa0;al., 2009</a>). Its expression was found to be essential for germination in a solution culture system and for normal growth in low Mg<sup>2+</sup> conditions (<a href="#B17">Gebert et&#xa0;al., 2009</a>; <a href="#B14">Conn et&#xa0;al., 2011</a>). In our analyses, we found a duplication of <i>MRS2-7</i>/<i>MGT7</i> in <i>M. erraticum</i> in this clade (<a href="#f1">Figure 1</a>). One of these genes in <i>M. erraticum</i> was found to be positively selected with significant <i>p</i>- and <i>q</i>-values in the branch site model of codeml (<a href="#f1">Figure 1</a>). As <i>MRS2-7</i>/<i>MGT7</i> has shown to be important in Mg<sup>2+</sup>-deficient conditions, we speculate that its duplication might again be an adaptation of <i>M. erraticum</i> to Ca<sup>2+</sup>-rich but Mg<sup>2+</sup> -poor soils.</p><a id="h6" name="h6"></a><h2>Conclusion</h2><p class="mb0">In conclusion, the genome sequence of <i>M. erraticum</i> provided several indications of adaptation to stressful abiotic conditions, which is in line with its ephemeral growth in habitats with shallow soil and little vegetation cover, exposing it to a variety of adverse environmental conditions. Probably the most striking characteristic of the preferred habitat of <i>M. erraticum</i> is that its soil is derived usually from white Upper Jurassic limestone, a bedrock that is extremely rich in Ca<sup>2+</sup> but rather poor in Mg<sup>2+</sup> (<a href="#B27">Kimmig et al., 2001</a>), creating an environment in which vital Mg<sup>2+</sup> ion uptake is difficult to achieve. The duplication of two Mg<sup>2+</sup> transporters that have been shown to be important for Mg<sup>2+</sup> uptake in Mg<sup>2+</sup>-deficient conditions is indicate an adaptive response to this. Further experiments are necessary to carry out transgenic and affinity assays to underpin this assumption. Should heterologous expression and affinity experiments support this hypothesis, the <i>MRS2</i>/<i>MGT</i> family of <i>M. erraticum</i> could be an interesting target for improving crop yield on highly calcareous soils.</p><a id="h7" name="h7"></a><h2>Data Availability Statement</h2><p class="mb0">The datasets generated for this study can be found under the  accession number NCBI PRJEB35998 (<a href="https://www.ncbi.nlm.nih.gov/bioproject/PRJEB35998">https://www.ncbi.nlm.nih.gov/bioproject/PRJEB35998</a>).</p><a id="h8" name="h8"></a><h2>Author Contributions</h2><p class="mb0">MT conceived the study. MT, AS, and FR created the Limburg inbred line. SP and XX performed laboratory experiments. BM, RS, and DG analyzed the genome. BM and MT interpreted the data and wrote the manuscript, with contributions from the other authors.</p><a id="h9" name="h9"></a><h2>Funding</h2><p class="mb0">This study has been supported by LOEWE in the framework of the Centre of Translational Biodiversity Genomics and by the Max Planck Society through a fellowship awarded to MT.</p><a id="h10" name="h10"></a><h2>Conflict of Interest</h2><p class="mb15">The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p><a id="h11" name="h11"></a><h2>Acknowledgments</h2><p class="mb0">Tahir Ali is gratefully acknowledged for critical discussions and editing.</p><a id="h12" name="h12"></a><h2>Supplementary Material</h2><p class="mb15">The Supplementary Material for this article can be found online at: <a href="https://www.frontiersin.org/articles/10.3389/fpls.2020.00943/full#supplementary-material">https://www.frontiersin.org/articles/10.3389/fpls.2020.00943/full#supplementary-material</a></p><a id="h13" name="h13"></a><h2>References</h2><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B1" id="B1"></a> Ali, T., Runge, F., Dutbayev, A., Schmuker, A., Solovyeva, I., Nigrelli, L., et al. (2016a). <i>Microthlaspi erraticum (Jord.) T. Ali et Thines</i> has a wide distribution, ranging from the Alps to the Tien Shan. <i>Flora</i> 225, 76&#x2013;81. doi: 10.1016/j.flora.2016.09.008</p><p class="ReferencesCopy2"><a href="https://doi.org/10.1016/j.flora.2016.09.008" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=T.+Ali&amp;author=F.+Runge&amp;author=A.+Dutbayev&amp;author=A.+Schmuker&amp;author=I.+Solovyeva&amp;author=L.+Nigrelli&amp;publication_year=2016&amp;title=Microthlaspi%20erraticum%20%28Jord.%29%20T.%20Ali%20et%20Thines%20has%20a%20wide%20distribution%2C%20ranging%20from%20the%20Alps%20to%20the%20Tien%20Shan&amp;journal=Flora&amp;volume=225&amp;pages=76" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B2" id="B2"></a> Ali, T., Schmuker, A., Runge, F., Solovyeva, I., Nigrelli, L., Paule, J., et al. (2016b). Morphology, phylogeny, and taxonomy of Microthlaspi (Brassicaceae: Coluteocarpeae) and related genera. <i>Taxon</i> 65, 79&#x2013;98. doi: 10.12705/651.6</p><p class="ReferencesCopy2"><a href="https://doi.org/10.12705/651.6" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=T.+Ali&amp;author=A.+Schmuker&amp;author=F.+Runge&amp;author=I.+Solovyeva&amp;author=L.+Nigrelli&amp;author=J.+Paule&amp;publication_year=2016&amp;title=Morphology%2C%20phylogeny%2C%20and%20taxonomy%20of%20Microthlaspi%20%28Brassicaceae%3A%20Coluteocarpeae%29%20and%20related%20genera&amp;journal=Taxon&amp;volume=65&amp;pages=79" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B3" id="B3"></a> Ali, T., Mu&#xf1;oz-Fuentes, V., Buch, A. K., &#xc7;elik, A., Dutbayev, A., Gabrielyan, I., et al. (2017). Genetic patterns reflecting Pleistocene range dynamics in the annual calcicole plant <i>Microthlaspi erraticum</i> across its Eurasian range. <i>Flora</i> 236&#x2013;237, 132&#x2013;142. doi: 10.1016/j.flora.2017.09.014</p><p class="ReferencesCopy2"><a href="https://doi.org/10.1016/j.flora.2017.09.014" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=T.+Ali&amp;author=V.+Mu%C3%B1oz-Fuentes&amp;author=A.%20K.+Buch&amp;author=A.+%C3%87elik&amp;author=A.+Dutbayev&amp;author=I.+Gabrielyan&amp;publication_year=2017&amp;title=Genetic%20patterns%20reflecting%20Pleistocene%20range%20dynamics%20in%20the%20annual%20calcicole%20plant%20Microthlaspi%20erraticum%20across%20its%20Eurasian%20range&amp;journal=Flora&amp;volume=236&#x2013;237&amp;pages=132" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B4" id="B4"></a> Baskin, J. M., Baskin, C. C. (1979). The ecological life cycle of <i>Thlaspi perfoliatum</i> and a comparison with published studies on <i>Thlaspi arvense</i>. <i>Weed Res.</i> 19 (5), 285&#x2013;292. doi: 10.1111/j.1365-3180.1979.tb01540.x</p><p class="ReferencesCopy2"><a href="https://doi.org/10.1111/j.1365-3180.1979.tb01540.x" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=J.%20M.+Baskin&amp;author=C.%20C.+Baskin&amp;publication_year=1979&amp;title=The%20ecological%20life%20cycle%20of%20Thlaspi%20perfoliatum%20and%20a%20comparison%20with%20published%20studies%20on%20Thlaspi%20arvense&amp;journal=Weed+Res.&amp;volume=19&amp;pages=285" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B5" id="B5"></a> Bass, J. D., Swcf, A. J., Dabney, A., Robinson, D. (2015). qvalue: Q-value estimation for false discovery rate control. R package version 2.10.0. github.com. <a href="http://github.com/jdstorey/qvalue">http://github.com/jdstorey/qvalue</a> (accessed September 1, 2016).</p><p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=J.%20D.+Bass&amp;author=A.%20J.+Swcf&amp;author=A.+Dabney&amp;author=D.+Robinson&amp;publication_year=2015&amp;title=qvalue%3A%20Q-value%20estimation%20for%20false%20discovery%20rate%20control.%20R%20package%20version%202.10.0&amp;" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B6" id="B6"></a> Boetzer, M., Pirovano, W. (2014). SSPACE-LongRead: scaffolding bacterial draft genomes using long read sequence information. <i>BMC Bioinf.</i> 15, 211. doi:&#xa0;10.1186/1471-2105-15-211</p><p class="ReferencesCopy2"><a href="https://doi.org/10.1186/1471-2105-15-211" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=M.+Boetzer&amp;author=W.+Pirovano&amp;publication_year=2014&amp;title=SSPACE-LongRead%3A%20scaffolding%20bacterial%20draft%20genomes%20using%20long%20read%20sequence%20information&amp;journal=BMC+Bioinf.&amp;volume=15&amp;pages=211" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B7" id="B7"></a> Boetzer, M., Henkel, C. V., Jansen, H. J., Butler, D., Pirovano, W. (2011). Scaffolding pre-assembled contigs using SSPACE. <i>Bioinformatics</i> 27, 578&#x2013;589. doi: 10.1093/bioinformatics/btq683</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/21149342/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/bioinformatics/btq683" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=M.+Boetzer&amp;author=C.%20V.+Henkel&amp;author=H.%20J.+Jansen&amp;author=D.+Butler&amp;author=W.+Pirovano&amp;publication_year=2011&amp;title=Scaffolding%20pre-assembled%20contigs%20using%20SSPACE&amp;journal=Bioinformatics&amp;volume=27&amp;pages=578" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B8" id="B8"></a> Bolger, A. M., Lohse, M., Usadel, B. (2014). Trimmomatic: A flexible trimmer for Illumina Sequence Data. <i>Bioinformatics</i> 30, 2114&#x2013;2120. doi: 10.1093/bioinformatics/btu170</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/24695404/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/bioinformatics/btu170" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=A.%20M.+Bolger&amp;author=M.+Lohse&amp;author=B.+Usadel&amp;publication_year=2014&amp;title=Trimmomatic%3A%20A%20flexible%20trimmer%20for%20Illumina%20Sequence%20Data&amp;journal=Bioinformatics&amp;volume=30&amp;pages=2114" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B9" id="B9"></a> Boller, T., Felix, G. (2009). A renaissance of elicitors: perception of microbe-associated molecular patterns and danger signals by pattern-recognition receptors. <i>Ann. Rev. Pl. Biol.</i> 60, 379&#x2013;406. doi: 10.1146/annurev.arplant.57.032905.105346</p><p class="ReferencesCopy2"><a href="https://doi.org/10.1146/annurev.arplant.57.032905.105346" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=T.+Boller&amp;author=G.+Felix&amp;publication_year=2009&amp;title=A%20renaissance%20of%20elicitors%3A%20perception%20of%20microbe-associated%20molecular%20patterns%20and%20danger%20signals%20by%20pattern-recognition%20receptors&amp;journal=Ann.+Rev.+Pl.+Biol.&amp;volume=60&amp;pages=379" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B10" id="B10"></a> Chaisson, M. J., Tesler, G. (2012). Mapping single molecule sequencing reads using Basic Local Alignment with Successive Refinement (BLASR): Theory and Application. <i>BMC Bioinf.</i> 13, 238. doi:&#xa0;10.1186/1471-2105-13-238 </p><p class="ReferencesCopy2"><a href="https://doi.org/10.1186/1471-2105-13-238 " target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=M.%20J.+Chaisson&amp;author=G.+Tesler&amp;publication_year=2012&amp;title=Mapping%20single%20molecule%20sequencing%20reads%20using%20Basic%20Local%20Alignment%20with%20Successive%20Refinement%20%28BLASR%29%3A%20Theory%20and%20Application&amp;journal=BMC+Bioinf.&amp;volume=13&amp;pages=238" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B11" id="B11"></a> Chan, C., Schorrak, L., Smith, R., Bent, A., Sussman, M. (2003). A Cyclic Nucleotide-Gated Ion Channel, CNGC2, Is Crucial for Plant Development and Adaptation to Calcium Stress. <i>Plant Physiol.</i> 132, 728&#x2013;731. doi: 10.1104/pp.102.019216</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/12805601/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1104/pp.102.019216" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=C.+Chan&amp;author=L.+Schorrak&amp;author=R.+Smith&amp;author=A.+Bent&amp;author=M.+Sussman&amp;publication_year=2003&amp;title=A%20Cyclic%20Nucleotide-Gated%20Ion%20Channel%2C%20CNGC2%2C%20Is%20Crucial%20for%20Plant%20Development%20and%20Adaptation%20to%20Calcium%20Stress&amp;journal=Plant+Physiol.&amp;volume=132&amp;pages=728" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B12" id="B12"></a> Chen, R., Guo, W., Yin, Y., Gong, Z.-H. (2014). A Novel F-Box Protein CaF-Box Is Involved in Responses to Plant Hormones and Abiotic Stress in Pepper (<i>Capsicum annuum L.</i>). <i>Int. J. Mol. Sci.</i> 15, 2413&#x2013;2430. doi: 10.3390/ijms15022413</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/24518684/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.3390/ijms15022413" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=R.+Chen&amp;author=W.+Guo&amp;author=Y.+Yin&amp;author=Z.-H.+Gong&amp;publication_year=2014&amp;title=A%20Novel%20F-Box%20Protein%20CaF-Box%20Is%20Involved%20in%20Responses%20to%20Plant%20Hormones%20and%20Abiotic%20Stress%20in%20Pepper%20%28Capsicum%20annuum%20L.%29&amp;journal=Int.+J.+Mol.+Sci.&amp;volume=15&amp;pages=2413" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B13" id="B13"></a> Conesa, A., G&#xf6;tz, S., Garc&#xed;a-G&#xf3;mez, J. M., Terol, J., Tal&#xf3;n, M., Robles, M. (2005). Blast2GO: a universal tool for annotation, visualization and analysis in functional genomics research. <i>Bioinformatics</i> 21, 3674&#x2013;3676. doi: 10.1093/bioinformatics/bti610</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/16081474/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/bioinformatics/bti610" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=A.+Conesa&amp;author=S.+G%C3%B6tz&amp;author=J.%20M.+Garc%C3%ADa-G%C3%B3mez&amp;author=J.+Terol&amp;author=M.+Tal%C3%B3n&amp;author=M.+Robles&amp;publication_year=2005&amp;title=Blast2GO%3A%20a%20universal%20tool%20for%20annotation%2C%20visualization%20and%20analysis%20in%20functional%20genomics%20research&amp;journal=Bioinformatics&amp;volume=21&amp;pages=3674" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B14" id="B14"></a> Conn, S. J., Conn, V., Tyerman, S. D., Kaiser, B. N., Leigh, R. A., Gilliham, M. (2011). Magnesium transporters, <i>MGT</i>2/MRS2-1 and <i>MGT</i>3/MRS2-5, are important for magnesium partitioning within <i>Arabidopsis thaliana</i> mesophyll vacuoles. <i>New Phytol.</i> 190, 583&#x2013;594. doi: 10.1111/j.1469-8137.2010.03619.x</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/21261624/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1111/j.1469-8137.2010.03619.x" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=S.%20J.+Conn&amp;author=V.+Conn&amp;author=S.%20D.+Tyerman&amp;author=B.%20N.+Kaiser&amp;author=R.%20A.+Leigh&amp;author=M.+Gilliham&amp;publication_year=2011&amp;title=Magnesium%20transporters%2C%20MGT2%2FMRS2-1%20and%20MGT3%2FMRS2-5%2C%20are%20important%20for%20magnesium%20partitioning%20within%20Arabidopsis%20thaliana%20mesophyll%20vacuoles&amp;journal=New+Phytol.&amp;volume=190&amp;pages=583" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B15" id="B15"></a> Deyoung, B. J., Clark, S. E. (2008). BAM receptors regulate stem cell specification and organ development through complex interactions with CLAVATA signalling. <i>Genetics</i> 180, 895&#x2013;904. doi: 10.1534/genetics.108.091108</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/18780746/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1534/genetics.108.091108" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=B.%20J.+Deyoung&amp;author=S.%20E.+Clark&amp;publication_year=2008&amp;title=BAM%20receptors%20regulate%20stem%20cell%20specification%20and%20organ%20development%20through%20complex%20interactions%20with%20CLAVATA%20signalling&amp;journal=Genetics&amp;volume=180&amp;pages=895" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B16" id="B16"></a> Felsenstein, J. (1985). Confidence limits on phylogenies: an approach using the bootstrap. <i>Evolution</i> 39, 783&#x2013;791.</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/28561359/" target="_blank">PubMed Abstract</a> | <a href="http://scholar.google.com/scholar_lookup?author=J.+Felsenstein&amp;publication_year=1985&amp;title=Confidence%20limits%20on%20phylogenies%3A%20an%20approach%20using%20the%20bootstrap&amp;journal=Evolution&amp;volume=39&amp;pages=783" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B17" id="B17"></a> Gebert, M., Meschenmoser, K., Svidov&#xe1;, S., Weghuber, J., Schweyen, R., Eifler, K., et al. (2009). A root-expressed magnesium transporter of the MRS2 gene family in <i>Arabidopsis thaliana</i> allows for growth in low-Mg2+ environments. <i>Plant Cell.</i> 21, 4018&#x2013;4030. doi: 10.1105/tpc.109.070557</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/19966073/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1105/tpc.109.070557" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=M.+Gebert&amp;author=K.+Meschenmoser&amp;author=S.+Svidov%C3%A1&amp;author=J.+Weghuber&amp;author=R.+Schweyen&amp;author=K.+Eifler&amp;publication_year=2009&amp;title=A%20root-expressed%20magnesium%20transporter%20of%20the%20MRS2%20gene%20family%20in%20Arabidopsis%20thaliana%20allows%20for%20growth%20in%20low-Mg2%2B%20environments&amp;journal=Plant+Cell.&amp;volume=21&amp;pages=4018" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B18" id="B18"></a> Gilliham, M., Athman, A., Tyerman, S. D., Conn, S. J. (2011). Cell-specific compartmentation of mineral nutrients is an essential mechanism for optimal plant productivity&#x2013;another role for TPC1? <i>Plant Signaling Behav.</i> 6, 1656&#x2013;1661. doi: 10.4161/psb.6.11.17797</p><p class="ReferencesCopy2"><a href="https://doi.org/10.4161/psb.6.11.17797" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=M.+Gilliham&amp;author=A.+Athman&amp;author=S.%20D.+Tyerman&amp;author=S.%20J.+Conn&amp;publication_year=2011&amp;title=Cell-specific%20compartmentation%20of%20mineral%20nutrients%20is%20an%20essential%20mechanism%20for%20optimal%20plant%20productivity%E2%80%93another%20role%20for%20TPC1&amp;journal=Plant+Signaling+Behav.&amp;volume=6&amp;pages=1656" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B19" id="B19"></a> Hackl, T., Hedrich, R., Schultz, J., F&#xf6;rster, F. (2014). proovread: large-scale high-accuracy PacBio correction through iterative short read consensus. <i>Bioinformatics</i> 30, 3004&#x2013;3011. doi: 10.1093/bioinformatics/btu392</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/25015988/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/bioinformatics/btu392" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=T.+Hackl&amp;author=R.+Hedrich&amp;author=J.+Schultz&amp;author=F.+F%C3%B6rster&amp;publication_year=2014&amp;title=proovread%3A%20large-scale%20high-accuracy%20PacBio%20correction%20through%20iterative%20short%20read%20consensus&amp;journal=Bioinformatics&amp;volume=30&amp;pages=3004" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B20" id="B20"></a> Hoff, K. J., Lange, S., Lomsadze, A., Borodovsky, M., Stanke, M. (2016). BRAKER1: Unsupervised RNA-Seq-Based Genome Annotation with GeneMark-ET and AUGUSTUS. <i>Bioinformatics</i> 32, 767&#x2013;769. doi: 10.1093/bioinformatics/btv661</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/26559507/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/bioinformatics/btv661" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=K.%20J.+Hoff&amp;author=S.+Lange&amp;author=A.+Lomsadze&amp;author=M.+Borodovsky&amp;author=M.+Stanke&amp;publication_year=2016&amp;title=BRAKER1%3A%20Unsupervised%20RNA-Seq-Based%20Genome%20Annotation%20with%20GeneMark-ET%20and%20AUGUSTUS&amp;journal=Bioinformatics&amp;volume=32&amp;pages=767" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B21" id="B21"></a> Hsu, S. Y., Kudo, M., Chen, T., Nakabayashi, K., Bhalla, A., van der Spek, P. J., et al. (2000). The three subfamilies of leucine-rich repeat-containing G protein-coupled receptors (LGR): identification of LGR6 and LGR7 and the signalling mechanism for LGR7. <i>Mol. Endocri.</i> 14, 1257&#x2013;1271. doi: 10.1210/mend.14.8.0510</p><p class="ReferencesCopy2"><a href="https://doi.org/10.1210/mend.14.8.0510" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=S.%20Y.+Hsu&amp;author=M.+Kudo&amp;author=T.+Chen&amp;author=K.+Nakabayashi&amp;author=A.+Bhalla&amp;author=P.%20J.+van%20der%20Spek&amp;publication_year=2000&amp;title=The%20three%20subfamilies%20of%20leucine-rich%20repeat-containing%20G%20protein-coupled%20receptors%20%28LGR%29%3A%20identification%20of%20LGR6%20and%20LGR7%20and%20the%20signalling%20mechanism%20for%20LGR7&amp;journal=Mol.+Endocri.&amp;volume=14&amp;pages=1257" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B22" id="B22"></a> Jia, Y., Gu, H., Wang, X., Chen, Q., Shi, S., Zhang, J., et al. (2012). Molecular cloning and characterization of an F-box family gene CarF-box1 from chickpea (<i>Cicer arietinum L.</i>). <i>Mol. Biol. Rep.</i> 39, 2337&#x2013;2345. doi: 10.1007/s11033-011-0984-y</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/21667242/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1007/s11033-011-0984-y" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=Y.+Jia&amp;author=H.+Gu&amp;author=X.+Wang&amp;author=Q.+Chen&amp;author=S.+Shi&amp;author=J.+Zhang&amp;publication_year=2012&amp;title=Molecular%20cloning%20and%20characterization%20of%20an%20F-box%20family%20gene%20CarF-box1%20from%20chickpea%20%28Cicer%20arietinum%20L.%29&amp;journal=Mol.+Biol.+Rep.&amp;volume=39&amp;pages=2337" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B23" id="B23"></a> Jiang, S. C., Mei, C., Liang, S., Yu, Y. T., Lu, K., Wu, Z., et al. (2015). Crucial roles of the pentatricopeptide repeat protein SOAR1 in Arabidopsis response to drought, salt and cold stresses. <i>Plant Mol. Biol.</i> 88, 369&#x2013;385. doi: 10.1007/s11103-015-0327-9</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/26093896/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1007/s11103-015-0327-9" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=S.%20C.+Jiang&amp;author=C.+Mei&amp;author=S.+Liang&amp;author=Y.%20T.+Yu&amp;author=K.+Lu&amp;author=Z.+Wu&amp;publication_year=2015&amp;title=Crucial%20roles%20of%20the%20pentatricopeptide%20repeat%20protein%20SOAR1%20in%20Arabidopsis%20response%20to%20drought%2C%20salt%20and%20cold%20stresses&amp;journal=Plant+Mol.+Biol.&amp;volume=88&amp;pages=369" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B24" id="B24"></a> Johnston, J. S., Pepper, A. E., Hall, A. E., Chen, Z. J., Hodnett, G., Drabek, J., et al. (2005). Evolution of genome size in Brassicaceae. <i>Ann. Bot.</i> 95, 229&#x2013;235. doi: 10.1093/aob/mci016</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/15596470/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/aob/mci016" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=J.%20S.+Johnston&amp;author=A.%20E.+Pepper&amp;author=A.%20E.+Hall&amp;author=Z.%20J.+Chen&amp;author=G.+Hodnett&amp;author=J.+Drabek&amp;publication_year=2005&amp;title=Evolution%20of%20genome%20size%20in%20Brassicaceae&amp;journal=Ann.+Bot.&amp;volume=95&amp;pages=229" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B25" id="B25"></a> Katoh, K., Standley, D. M. (2013). MAFFT multiple sequence alignment software version 7: improvements in performance and usability. <i>Mol. Biol. Evol.</i> 30, 772&#x2013;780. doi: 10.1093/molbev/mst010</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/23329690/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/molbev/mst010" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=K.+Katoh&amp;author=D.%20M.+Standley&amp;publication_year=2013&amp;title=MAFFT%20multiple%20sequence%20alignment%20software%20version%207%3A%20improvements%20in%20performance%20and%20usability&amp;journal=Mol.+Biol.+Evol.&amp;volume=30&amp;pages=772" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B26" id="B26"></a> Kim, D., Pertea, G., Trapnell, C., Pimentel, H., Kelley, R., Salzberg, S. L. (2013). TopHat2: accurate alignment of transcriptomes in the presence of insertions, deletions and gene fusions. <i>Genome Biol.</i> 14, R36. doi:&#xa0;10.1186/gb-2013-14-4-r36</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/23618408/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1186/gb-2013-14-4-r36" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=D.+Kim&amp;author=G.+Pertea&amp;author=C.+Trapnell&amp;author=H.+Pimentel&amp;author=R.+Kelley&amp;author=S.%20L.+Salzberg&amp;publication_year=2013&amp;title=TopHat2%3A%20accurate%20alignment%20of%20transcriptomes%20in%20the%20presence%20of%20insertions%2C%20deletions%20and%20gene%20fusions&amp;journal=Genome+Biol.&amp;volume=14&amp;pages=R36" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B27" id="B27"></a> Kimmig, B., Werner, W., Aigner, T. (2001). Highly pure limestone in the Upper Jurassic of the Swabian Jura: composition, distribution, applications. <i>Z. Angew. Geol</i> 47 (2), 101&#x2013;108.</p><p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=B.+Kimmig&amp;author=W.+Werner&amp;author=T.+Aigner&amp;publication_year=2001&amp;title=Highly%20pure%20limestone%20in%20the%20Upper%20Jurassic%20of%20the%20Swabian%20Jura%3A%20composition%2C%20distribution%2C%20applications&amp;journal=Z.+Angew.+Geol&amp;volume=47&amp;pages=101" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B28" id="B28"></a> Koren, S., Walenz, B. P., Berlin, K., Miller, J. R., Bergman, N. H., Phillippy, A. M. (2017). Canu: scalable and accurate long-read assembly via adaptive k-mer weighting and repeat separation. <i>Genome Res.</i> 27, 722&#x2013;736. doi: 10.1101/gr.215087.116</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/28298431/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1101/gr.215087.116" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=S.+Koren&amp;author=B.%20P.+Walenz&amp;author=K.+Berlin&amp;author=J.%20R.+Miller&amp;author=N.%20H.+Bergman&amp;author=A.%20M.+Phillippy&amp;publication_year=2017&amp;title=Canu%3A%20scalable%20and%20accurate%20long-read%20assembly%20via%20adaptive%20k-mer%20weighting%20and%20repeat%20separation&amp;journal=Genome+Res.&amp;volume=27&amp;pages=722" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B29" id="B29"></a> Laluk, K., Abuqamar, S., Mengiste, T. (2011). The Arabidopsis mitochondria-localized pentatricopeptide repeat protein PGN functions in defence against necrotrophic fungi and abiotic stress tolerance. <i>Plant Physiol.</i> 156, 2053&#x2013;2068. doi: 10.1104/pp.111.177501</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/21653783/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1104/pp.111.177501" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=K.+Laluk&amp;author=S.+Abuqamar&amp;author=T.+Mengiste&amp;publication_year=2011&amp;title=The%20Arabidopsis%20mitochondria-localized%20pentatricopeptide%20repeat%20protein%20PGN%20functions%20in%20defence%20against%20necrotrophic%20fungi%20and%20abiotic%20stress%20tolerance&amp;journal=Plant+Physiol.&amp;volume=156&amp;pages=2053" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B30" id="B30"></a> Lamesch, P., Berardini, T. Z., Li, D., Swarbreck, D., Wilks, C., Sasidharan, R., et al. (2012). The Arabidopsis Information Resource (TAIR): improved gene annotation and new tools. <i>Nucleic Acids Res.</i> 40, D1202&#x2013;D1210. doi: 10.1093/nar/gkr1090</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/22140109/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/nar/gkr1090" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=P.+Lamesch&amp;author=T.%20Z.+Berardini&amp;author=D.+Li&amp;author=D.+Swarbreck&amp;author=C.+Wilks&amp;author=R.+Sasidharan&amp;publication_year=2012&amp;title=The%20Arabidopsis%20Information%20Resource%20%28TAIR%29%3A%20improved%20gene%20annotation%20and%20new%20tools&amp;journal=Nucleic+Acids+Res.&amp;volume=40&amp;pages=D1202" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B31" id="B31"></a> Langmead, B., Salzberg, S. (2012). Fast gapped-read alignment with Bowtie 2. <i>Nat. Methods</i> 9, 357&#x2013;359. doi: 10.1038/nmeth.1923</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/22388286/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1038/nmeth.1923" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=B.+Langmead&amp;author=S.+Salzberg&amp;publication_year=2012&amp;title=Fast%20gapped-read%20alignment%20with%20Bowtie%202&amp;journal=Nat.+Methods&amp;volume=9&amp;pages=357" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B32" id="B32"></a> Lenz, H., Dombinov, V., Dreistein, J., Reinhard, M. R., Gebert, M., Knoop, V. (2013). Magnesium deficiency phenotypes upon multiple knockout of <i>Arabidopsis thaliana</i> MRS2 clade B genes can be ameliorated by concomitantly reduced calcium supply. <i>Plant Cell Physiol.</i> 54, 1118&#x2013;1131. doi: 10.1093/pcp/pct062</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/23628997/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/pcp/pct062" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=H.+Lenz&amp;author=V.+Dombinov&amp;author=J.+Dreistein&amp;author=M.%20R.+Reinhard&amp;author=M.+Gebert&amp;author=V.+Knoop&amp;publication_year=2013&amp;title=Magnesium%20deficiency%20phenotypes%20upon%20multiple%20knockout%20of%20Arabidopsis%20thaliana%20MRS2%20clade%20B%20genes%20can%20be%20ameliorated%20by%20concomitantly%20reduced%20calcium%20supply&amp;journal=Plant+Cell+Physiol.&amp;volume=54&amp;pages=1118" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B33" id="B33"></a> Li, J., Chory, J. (1997). A putative leucine-rich repeat receptor kinase involved in brassinosteroid signal transduction. <i>Cell</i> 90, 929&#x2013;938. doi: 10.1016/S0092-8674(00)80357-8</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/9298904/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/S0092-8674(00)80357-8" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=J.+Li&amp;author=J.+Chory&amp;publication_year=1997&amp;title=A%20putative%20leucine-rich%20repeat%20receptor%20kinase%20involved%20in%20brassinosteroid%20signal%20transduction&amp;journal=Cell&amp;volume=90&amp;pages=929" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B34" id="B34"></a> Li, L., Tutone, A. F., Drummond, R. S., Gardner, R. C., Luan, S. (2001). A novel family of magnesium transport genes in Arabidopsis. <i>Plant Cell.</i> 13, 2761&#x2013;2775. doi: 10.1105/tpc.010352</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/11752386/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1105/tpc.010352" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=L.+Li&amp;author=A.%20F.+Tutone&amp;author=R.%20S.+Drummond&amp;author=R.%20C.+Gardner&amp;author=S.+Luan&amp;publication_year=2001&amp;title=A%20novel%20family%20of%20magnesium%20transport%20genes%20in%20Arabidopsis&amp;journal=Plant+Cell.&amp;volume=13&amp;pages=2761" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B35" id="B35"></a> Li, L., Stoeckert, C. J., Jr., Roos, D. S. (2003). OrthoMCL: Identification of Ortholog Groups for Eukaryotic Genomes. <i>Genome Res.</i> 13, 2178&#x2013;2189. doi: 10.1101/gr.1224503</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/12952885/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1101/gr.1224503" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=L.+Li&amp;author=C.%20J.+Stoeckert+Jr.&amp;author=D.%20S.+Roos&amp;publication_year=2003&amp;title=OrthoMCL%3A%20Identification%20of%20Ortholog%20Groups%20for%20Eukaryotic%20Genomes&amp;journal=Genome+Res.&amp;volume=13&amp;pages=2178" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B36" id="B36"></a> Li, H., Du, H., Huang, K., Chen, X., Liu, T., Gao, S. (2016). Identification, and functional and expression analyses of the CORA/M<i>RS2</i>/<i>MGT</i>-type magnesium transporter family in maize. <i>Plant Cell Physiol.</i> 57, 1153&#x2013;1168. doi: 10.1093/pcp/pcw064</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/27084594/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/pcp/pcw064" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=H.+Li&amp;author=H.+Du&amp;author=K.+Huang&amp;author=X.+Chen&amp;author=T.+Liu&amp;author=S.+Gao&amp;publication_year=2016&amp;title=Identification%2C%20and%20functional%20and%20expression%20analyses%20of%20the%20CORA%2FMRS2%2FMGT-type%20magnesium%20transporter%20family%20in%20maize&amp;journal=Plant+Cell+Physiol.&amp;volume=57&amp;pages=1153" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B37" id="B37"></a> Ma, C., Chen, H., Xin, M., Yang, R., Wang, X. (2012). KGBassembler: a karyotype-based genome assembler for Brassicaceae species. <i>Bioinformatics</i> 28, 3141&#x2013;3143. doi: 10.1093/bioinformatics/bts586</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/23044544/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/bioinformatics/bts586" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=C.+Ma&amp;author=H.+Chen&amp;author=M.+Xin&amp;author=R.+Yang&amp;author=X.+Wang&amp;publication_year=2012&amp;title=KGBassembler%3A%20a%20karyotype-based%20genome%20assembler%20for%20Brassicaceae%20species&amp;journal=Bioinformatics&amp;volume=28&amp;pages=3141" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B38" id="B38"></a> Mand&#xe1;kov&#xe1;, T., Singh, V., Kr&#xe4;mer, U., Lysak, M. A. (2015). Genome Structure of the Heavy Metal Hyperaccumulator <i>Noccaea caerulescens</i> and Its Stability on Metalliferous and Nonmetalliferous Soils. <i>Plant Physiol.</i> 169, 674&#x2013;689. doi: 10.1104/pp.15.00619</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/26195571/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1104/pp.15.00619" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=T.+Mand%C3%A1kov%C3%A1&amp;author=V.+Singh&amp;author=U.+Kr%C3%A4mer&amp;author=M.%20A.+Lysak&amp;publication_year=2015&amp;title=Genome%20Structure%20of%20the%20Heavy%20Metal%20Hyperaccumulator%20Noccaea%20caerulescens%20and%20Its%20Stability%20on%20Metalliferous%20and%20Nonmetalliferous%20Soils&amp;journal=Plant+Physiol.&amp;volume=169&amp;pages=674" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B39" id="B39"></a> Mand&#xe1;kov&#xe1;, T., Li, Z., Barker, M. S., Lysak, M. A. (2017). Diverse genome organization following 13 independent mesopolyploid events in Brassicaceae contrasts with convergent patterns of gene retention. <i>Plant J.</i> 91, 3&#x2013;21. doi: 10.1111/tpj.13553</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/28370611/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1111/tpj.13553" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=T.+Mand%C3%A1kov%C3%A1&amp;author=Z.+Li&amp;author=M.%20S.+Barker&amp;author=M.%20A.+Lysak&amp;publication_year=2017&amp;title=Diverse%20genome%20organization%20following%2013%20independent%20mesopolyploid%20events%20in%20Brassicaceae%20contrasts%20with%20convergent%20patterns%20of%20gene%20retention&amp;journal=Plant+J.&amp;volume=91&amp;pages=3" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B40" id="B40"></a> Mao, D., Chen, J., Tian, L., Liu, Z., Yang, L., Tang, R., et al. (2014). Arabidopsis transporter <i>MGT</i>6 mediates magnesium uptake and is required for growth under magnesium limitation. <i>Plant Cell.</i> 26, 2234&#x2013;2248. doi: 10.1105/tpc.114.124628</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/24794135/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1105/tpc.114.124628" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=D.+Mao&amp;author=J.+Chen&amp;author=L.+Tian&amp;author=Z.+Liu&amp;author=L.+Yang&amp;author=R.+Tang&amp;publication_year=2014&amp;title=Arabidopsis%20transporter%20MGT6%20mediates%20magnesium%20uptake%20and%20is%20required%20for%20growth%20under%20magnesium%20limitation&amp;journal=Plant+Cell.&amp;volume=26&amp;pages=2234" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B41" id="B41"></a> Mishra, B., Gupta, D. K., Pfenninger, M., Hickler, T., Langer, E., Nam, B., et al. (2018). A reference genome of the European beech (<i>Fagus sylvatica L.</i>). <i>GigaScience</i> 7, giy063. doi:&#xa0;10.1093/gigascience/giy063</p><p class="ReferencesCopy2"><a href="https://doi.org/10.1093/gigascience/giy063" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=B.+Mishra&amp;author=D.%20K.+Gupta&amp;author=M.+Pfenninger&amp;author=T.+Hickler&amp;author=E.+Langer&amp;author=B.+Nam&amp;publication_year=2018&amp;title=A%20reference%20genome%20of%20the%20European%20beech%20%28Fagus%20sylvatica%20L.%29&amp;journal=GigaScience&amp;volume=7&amp;pages=giy063" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B42" id="B42"></a> Nelson, D. C., Lasswell, J., Rogg, L. E., Cohen, M. A., Bartel, B. (2000). FKF1, a Clock-Controlled Gene that Regulates the Transition to Flowering in Arabidopsis. <i>Cell</i> 101, 331&#x2013;340. doi: 10.1016/S0092-8674(00)80842-9</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/10847687/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/S0092-8674(00)80842-9" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=D.%20C.+Nelson&amp;author=J.+Lasswell&amp;author=L.%20E.+Rogg&amp;author=M.%20A.+Cohen&amp;author=B.+Bartel&amp;publication_year=2000&amp;title=FKF1%2C%20a%20Clock-Controlled%20Gene%20that%20Regulates%20the%20Transition%20to%20Flowering%20in%20Arabidopsis&amp;journal=Cell&amp;volume=101&amp;pages=331" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B43" id="B43"></a> Osakabe, Y., Maruyama, K., Seki, M., Satou, M., Shinozaki, K., Yamaguchi-Shinozaki, K. (2005). Leucine-rich repeat receptor-like kinase1 is a key membrane-bound regulator of abscisic acid early signalling in Arabidopsis. <i>Plant Cell.</i> 17, 1105&#x2013;1119. doi: 10.1105/tpc.104.027474</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/15772289/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1105/tpc.104.027474" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=Y.+Osakabe&amp;author=K.+Maruyama&amp;author=M.+Seki&amp;author=M.+Satou&amp;author=K.+Shinozaki&amp;author=K.+Yamaguchi-Shinozaki&amp;publication_year=2005&amp;title=Leucine-rich%20repeat%20receptor-like%20kinase1%20is%20a%20key%20membrane-bound%20regulator%20of%20abscisic%20acid%20early%20signalling%20in%20Arabidopsis&amp;journal=Plant+Cell.&amp;volume=17&amp;pages=1105" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B44" id="B44"></a> Osakabe, K., Osakabe, Y., Toki, S. (2010). Site-directed mutagenesis in Arabidopsis using custom-designed zinc finger nucleases. <i>PNAS U. S. A.</i> 107, 12034&#x2013;12039. doi: 10.1073/pnas.1000234107</p><p class="ReferencesCopy2"><a href="https://doi.org/10.1073/pnas.1000234107" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=K.+Osakabe&amp;author=Y.+Osakabe&amp;author=S.+Toki&amp;publication_year=2010&amp;title=Site-directed%20mutagenesis%20in%20Arabidopsis%20using%20custom-designed%20zinc%20finger%20nucleases&amp;journal=PNAS+U.+S.+A.&amp;volume=107&amp;pages=12034" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B45" id="B45"></a> Park, S., Moon, J. C., Park, Y. C., Kim, J. H., Kim, D. S., Jang, C. S. (2014). Molecular dissection of the response of a rice leucine-rich repeat receptor-like kinase (LRR-RLK) gene to abiotic stresses. <i>J. Plant Physiol.</i> 171, 1645&#x2013;1653. doi: 10.1016/j.jplph.2014.08.002</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/25173451/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/j.jplph.2014.08.002" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=S.+Park&amp;author=J.%20C.+Moon&amp;author=Y.%20C.+Park&amp;author=J.%20H.+Kim&amp;author=D.%20S.+Kim&amp;author=C.%20S.+Jang&amp;publication_year=2014&amp;title=Molecular%20dissection%20of%20the%20response%20of%20a%20rice%20leucine-rich%20repeat%20receptor-like%20kinase%20%28LRR-RLK%29%20gene%20to%20abiotic%20stresses&amp;journal=J.+Plant+Physiol.&amp;volume=171&amp;pages=1645" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B46" id="B46"></a> Parra, G., Bradnam, K., Ning, Z., Keane, T., Korf, I. (2009). Assessing the gene space in draft genomes. <i>Nucleic Acids Res.</i> 37, 289&#x2013;297. doi: 10.1093/nar/gkn916</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/19042974/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/nar/gkn916" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=G.+Parra&amp;author=K.+Bradnam&amp;author=Z.+Ning&amp;author=T.+Keane&amp;author=I.+Korf&amp;publication_year=2009&amp;title=Assessing%20the%20gene%20space%20in%20draft%20genomes&amp;journal=Nucleic+Acids+Res.&amp;volume=37&amp;pages=289" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B47" id="B47"></a> Pottosin, I., Wherrett, T., Shabala, S. (2009). SV channels dominate the vacuolar Ca2+ release during intracellular signaling. <i>FEBS Lett.</i> 583, 921&#x2013;926. doi: 10.1016/j.febslet.2009.02.009</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/19302793/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/j.febslet.2009.02.009" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=I.+Pottosin&amp;author=T.+Wherrett&amp;author=S.+Shabala&amp;publication_year=2009&amp;title=SV%20channels%20dominate%20the%20vacuolar%20Ca2%2B%20release%20during%20intracellular%20signaling&amp;journal=FEBS+Lett.&amp;volume=583&amp;pages=921" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B48" id="B48"></a> Price, A. L., Jones, N. C., Pevzner, P. A. (2005). De novo identification of repeat families in large genomes. <i>Bioinformatics</i> 21, i351&#x2013;i358. doi: 10.1093/bioinformatics/bti1018</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/15961478/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/bioinformatics/bti1018" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=A.%20L.+Price&amp;author=N.%20C.+Jones&amp;author=P.%20A.+Pevzner&amp;publication_year=2005&amp;title=De%20novo%20identification%20of%20repeat%20families%20in%20large%20genomes&amp;journal=Bioinformatics&amp;volume=21&amp;pages=i351" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B49" id="B49"></a> Rawat, V., Abdelsamad, A., Pietzenuk, B., Seymour, D. K., Koenig, D., Weigel, D., et al. (2015). Improving the Annotation of <i>Arabidopsis lyrata</i> Using RNA-Seq Data. <i>PloS One</i> 10, e0137391. doi:&#xa0;10.1371/journal.pone.0137391 </p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/26382944/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1371/journal.pone.0137391 " target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=V.+Rawat&amp;author=A.+Abdelsamad&amp;author=B.+Pietzenuk&amp;author=D.%20K.+Seymour&amp;author=D.+Koenig&amp;author=D.+Weigel&amp;publication_year=2015&amp;title=Improving%20the%20Annotation%20of%20Arabidopsis%20lyrata%20Using%20RNA-Seq%20Data&amp;journal=PloS+One&amp;volume=10&amp;pages=e0137391" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B50" id="B50"></a> Rice, P., Longden, I., Bleasby, A. (2000). EMBOSS: the European Molecular Biology Open Software Suite. <i>Trends Genet.</i> 16, 276&#x2013;277. doi: 10.1016/S0168-9525(00)02024-2</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/10827456/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1016/S0168-9525(00)02024-2" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=P.+Rice&amp;author=I.+Longden&amp;author=A.+Bleasby&amp;publication_year=2000&amp;title=EMBOSS%3A%20the%20European%20Molecular%20Biology%20Open%20Software%20Suite&amp;journal=Trends+Genet.&amp;volume=16&amp;pages=276" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B51" id="B51"></a> Schock, I., Gregan, J., Steinhauser, S., Schweyen, R., Brennicke, A., Knoop, V. (2000). A member of a novel <i>Arabidopsis thaliana</i> gene family of candidate Mg2+ ion transporters complement a yeast mitochondrial group II intron-splicing mutant. <i>Plant J.</i> 24, 489&#x2013;501. doi: 10.1046/j.1365-313x.2000.00895.x</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/11115130/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1046/j.1365-313x.2000.00895.x" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=I.+Schock&amp;author=J.+Gregan&amp;author=S.+Steinhauser&amp;author=R.+Schweyen&amp;author=A.+Brennicke&amp;author=V.+Knoop&amp;publication_year=2000&amp;title=A%20member%20of%20a%20novel%20Arabidopsis%20thaliana%20gene%20family%20of%20candidate%20Mg2%2B%20ion%20transporters%20complement%20a%20yeast%20mitochondrial%20group%20II%20intron-splicing%20mutant&amp;journal=Plant+J.&amp;volume=24&amp;pages=489" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B52" id="B52"></a> Schumann, N., Navarro-quezada, A., Ullrich, K., Kuhl, C., Quint, M. (2011). Molecular evolution and selection patterns of plant F-box proteins with C-terminal kelch repeats. <i>Plant Physiol.</i> 155, 835&#x2013;850. doi: 10.1104/pp.110.166579</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/21119043/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1104/pp.110.166579" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=N.+Schumann&amp;author=A.+Navarro-quezada&amp;author=K.+Ullrich&amp;author=C.+Kuhl&amp;author=M.+Quint&amp;publication_year=2011&amp;title=Molecular%20evolution%20and%20selection%20patterns%20of%20plant%20F-box%20proteins%20with%20C-terminal%20kelch%20repeats&amp;journal=Plant+Physiol.&amp;volume=155&amp;pages=835" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B53" id="B53"></a> Sharma, R., Thines, M. (2015). FastQFS - A Tool for evaluating and filtering paired-end sequencing data generated from high throughput sequencing. <i>Mycol. Prog.</i> 14, 60. doi:&#xa0;10.1007/s11557-015-1077-4</p><p class="ReferencesCopy2"><a href="https://doi.org/10.1007/s11557-015-1077-4" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=R.+Sharma&amp;author=M.+Thines&amp;publication_year=2015&amp;title=FastQFS%20-%20A%20Tool%20for%20evaluating%20and%20filtering%20paired-end%20sequencing%20data%20generated%20from%20high%20throughput%20sequencing&amp;journal=Mycol.+Prog.&amp;volume=14&amp;pages=60" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B54" id="B54"></a> Sharma, M., Singh, A., Shankar, A., Pandey, A., Baranwal, V., Kapoor, S., et al. (2014). Comprehensive expression analysis of rice Armadillo gene family during abiotic stress and development. <i>DNA Res.</i> 21, 267&#x2013;283. doi: 10.1093/dnares/dst056</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/24398598/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/dnares/dst056" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=M.+Sharma&amp;author=A.+Singh&amp;author=A.+Shankar&amp;author=A.+Pandey&amp;author=V.+Baranwal&amp;author=S.+Kapoor&amp;publication_year=2014&amp;title=Comprehensive%20expression%20analysis%20of%20rice%20Armadillo%20gene%20family%20during%20abiotic%20stress%20and%20development&amp;journal=DNA+Res.&amp;volume=21&amp;pages=267" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B55" id="B55"></a> Sim&#xe3;o, F. A., Waterhouse, R. M., Ioannidis, P., Kriventseva, E. V., Zdobnov, E. M. (2015). BUSCO: assessing genome assembly and annotation completeness with single-copy orthologs. <i>Bioinformatics</i> 31, 3210&#x2013;3212. doi: 10.1093/bioinformatics/btv351</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/26059717/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/bioinformatics/btv351" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=F.%20A.+Sim%C3%A3o&amp;author=R.%20M.+Waterhouse&amp;author=P.+Ioannidis&amp;author=E.%20V.+Kriventseva&amp;author=E.%20M.+Zdobnov&amp;publication_year=2015&amp;title=BUSCO%3A%20assessing%20genome%20assembly%20and%20annotation%20completeness%20with%20single-copy%20orthologs&amp;journal=Bioinformatics&amp;volume=31&amp;pages=3210" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B56" id="B56"></a> Slotte, T., Bataillon, T., Hansen, T. T., St Onge, K., Wright, S. I., Schierup, M. H. (2011). Genomic determinants of protein evolution and polymorphism in Arabidopsis. <i>Genome Biol. Evol.</i> 3, 1210&#x2013;1219. doi: 10.1093/gbe/evr094</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/21926095/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/gbe/evr094" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=T.+Slotte&amp;author=T.+Bataillon&amp;author=T.%20T.+Hansen&amp;author=K.+St%20Onge&amp;author=S.%20I.+Wright&amp;author=M.%20H.+Schierup&amp;publication_year=2011&amp;title=Genomic%20determinants%20of%20protein%20evolution%20and%20polymorphism%20in%20Arabidopsis&amp;journal=Genome+Biol.+Evol.&amp;volume=3&amp;pages=1210" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B57" id="B57"></a> Slotte, T., Hazzouri, K. M., &#xc5;gren, J. A., Koenig, D., Maumus, F., Guo, Y. L., et al. (2013). The <i>Capsella rubella</i> genome and the genomic consequences of rapid mating system evolution. <i>Nat. Genet.</i> 45, 831&#x2013;835. doi: 10.1038/ng.2669</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/23749190/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1038/ng.2669" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=T.+Slotte&amp;author=K.%20M.+Hazzouri&amp;author=J.%20A.+%C3%85gren&amp;author=D.+Koenig&amp;author=F.+Maumus&amp;author=Y.%20L.+Guo&amp;publication_year=2013&amp;title=The%20Capsella%20rubella%20genome%20and%20the%20genomic%20consequences%20of%20rapid%20mating%20system%20evolution&amp;journal=Nat.+Genet.&amp;volume=45&amp;pages=831" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B58" id="B58"></a> Smit, A. F. A., Hubley, R., Green, P. &#x201c;RepeatMasker Open-3.0.&#x201d; repeatmasker.org. <a href="http://www.repeatmasker.org">http://www.repeatmasker.org</a> (accessed December 1, 2017).</p><p class="ReferencesCopy2"><a href="http://scholar.google.com/scholar_lookup?author=A.%20F.%20A.+Smit&amp;author=R.+Hubley&amp;author=P.+Green&amp;title=%E2%80%9CRepeatMasker%20Open-3.0.%E2%80%9D%20repeatmasker.org&amp;" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B59" id="B59"></a> Stamatakis, A. (2014). RAxML version 8: a tool for phylogenetic analysis and post-analysis of large phylogenies. <i>Bioinformatics</i> 30, 1312&#x2013;1313. doi: 10.1093/bioinformatics/btu033</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/24451623/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/bioinformatics/btu033" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=A.+Stamatakis&amp;publication_year=2014&amp;title=RAxML%20version%208%3A%20a%20tool%20for%20phylogenetic%20analysis%20and%20post-analysis%20of%20large%20phylogenies&amp;journal=Bioinformatics&amp;volume=30&amp;pages=1312" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B60" id="B60"></a> Sugimoto, T., Watanabe, K., Yoshida, S., Aino, M., Furiki, M., Shiono, M., et al. (2010). Field application of calcium to reduce phytophthora stem rot of soybean, and calcium distribution in plants. <i>Plant Dis.</i> 94, 812&#x2013;819. doi: 10.1094/PDIS-94-7-0812</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/30743551/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1094/PDIS-94-7-0812" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=T.+Sugimoto&amp;author=K.+Watanabe&amp;author=S.+Yoshida&amp;author=M.+Aino&amp;author=M.+Furiki&amp;author=M.+Shiono&amp;publication_year=2010&amp;title=Field%20application%20of%20calcium%20to%20reduce%20phytophthora%20stem%20rot%20of%20soybean%2C%20and%20calcium%20distribution%20in%20plants&amp;journal=Plant+Dis.&amp;volume=94&amp;pages=812" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B61" id="B61"></a> Van der Does, D., Boutrot, F., Engelsdorf, T., Rhodes, J., McKenna, J. F., Vernhettes, S., et al. (2017). The <i>Arabidopsis</i> leucine-rich repeat receptor kinase MIK2/LRR-KISS connects cell wall integrity sensing, root growth and response to abiotic and biotic stresses. <i>PloS Genet.</i> 13, e1006832. doi: 10.1371/journal.pgen.1006832</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/28604776/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1371/journal.pgen.1006832" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=D.+Van%20der%20Does&amp;author=F.+Boutrot&amp;author=T.+Engelsdorf&amp;author=J.+Rhodes&amp;author=J.%20F.+McKenna&amp;author=S.+Vernhettes&amp;publication_year=2017&amp;title=The%20Arabidopsis%20leucine-rich%20repeat%20receptor%20kinase%20MIK2%2FLRR-KISS%20connects%20cell%20wall%20integrity%20sensing%2C%20root%20growth%20and%20response%20to%20abiotic%20and%20biotic%20stresses&amp;journal=PloS+Genet.&amp;volume=13&amp;pages=e1006832" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B62" id="B62"></a> Wang, Y., Kang, Y., Ma, C., Miao, R., Wu, C., Long, Y., et al (2016). CNGC2 is a Ca2+ influx channel that prevents accumulation of apoplastic Ca2+ in the leaf. <i>Plant Physiol.</i> 173, 1342&#x2013;1354. doi: 10.1104/pp.16.01222.</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/27999084/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1104/pp.16.01222" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=Y.+Wang&amp;author=Y.+Kang&amp;author=C.+Ma&amp;author=R.+Miao&amp;author=C.+Wu&amp;author=Y.+Long&amp;publication_year=2016&amp;title=CNGC2%20is%20a%20Ca2%2B%20influx%20channel%20that%20prevents%20accumulation%20of%20apoplastic%20Ca2%2B%20in%20the%20leaf&amp;journal=Plant+Physiol.&amp;volume=173&amp;pages=1342" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B63" id="B63"></a> Wright, S., Ness, R., Foxe, J., Barrett, S. (2008). Genomic Consequences of Outcrossing and Selfing in Plants. <i>Int. J. Plant Sci.</i> 169, 105&#x2013;118. doi: 10.1086/523366</p><p class="ReferencesCopy2"><a href="https://doi.org/10.1086/523366" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=S.+Wright&amp;author=R.+Ness&amp;author=J.+Foxe&amp;author=S.+Barrett&amp;publication_year=2008&amp;title=Genomic%20Consequences%20of%20Outcrossing%20and%20Selfing%20in%20Plants&amp;journal=Int.+J.+Plant+Sci.&amp;volume=169&amp;pages=105" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B64" id="B64"></a> Yamazaki, H., Kikuchi, S., Hoshina, T., Kimura, T. (2000). Effect of calcium concentration in nutrient solution on development of bacterial wilt and population of its pathogen Ralstonia solanacearum in grafted tomato seedlings. <i>Soil Sci. Plant Nutr.</i> 46, 535&#x2013;539. doi: 10.1080/00380768.2000.10408807</p><p class="ReferencesCopy2"><a href="https://doi.org/10.1080/00380768.2000.10408807" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=H.+Yamazaki&amp;author=S.+Kikuchi&amp;author=T.+Hoshina&amp;author=T.+Kimura&amp;publication_year=2000&amp;title=Effect%20of%20calcium%20concentration%20in%20nutrient%20solution%20on%20development%20of%20bacterial%20wilt%20and%20population%20of%20its%20pathogen%20Ralstonia%20solanacearum%20in%20grafted%20tomato%20seedlings&amp;journal=Soil+Sci.+Plant+Nutr.&amp;volume=46&amp;pages=535" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B65" id="B65"></a> Yang, Z., Wong, W. S., Nielsen, R. (2005). Bayes empirical bayes inference of amino acid sites under positive selection. <i>Mol. Biol. Evol.</i> 22, 1107&#x2013;1118. doi: 10.1093/molbev/msi097</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/15689528/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/molbev/msi097" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=Z.+Yang&amp;author=W.%20S.+Wong&amp;author=R.+Nielsen&amp;publication_year=2005&amp;title=Bayes%20empirical%20bayes%20inference%20of%20amino%20acid%20sites%20under%20positive%20selection&amp;journal=Mol.+Biol.+Evol.&amp;volume=22&amp;pages=1107" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B66" id="B66"></a> Yang, R., Jarvis, D. E., Chen, H., Beilstein, M. A., Grimwood, J., Jenkins, J., et al. (2013). The Reference Genome of the Halophytic Plant <i>Eutrema salsugineum.</i> Front. <i>Plant Sci.</i> 4, 46. doi:&#xa0;10.3389/fpls.2013.00046</p><p class="ReferencesCopy2"><a href="https://doi.org/10.3389/fpls.2013.00046" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=R.+Yang&amp;author=D.%20E.+Jarvis&amp;author=H.+Chen&amp;author=M.%20A.+Beilstein&amp;author=J.+Grimwood&amp;author=J.+Jenkins&amp;publication_year=2013&amp;title=The%20Reference%20Genome%20of%20the%20Halophytic%20Plant%20Eutrema%20salsugineum.%20Front&amp;journal=Plant+Sci.&amp;volume=4&amp;pages=46" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B67" id="B67"></a> Yang, J., Liu, D., Wang, X., Ji, C., Cheng, F., Liu, B., et al. (2016). The genome sequence of allopolyploid <i>Brassica juncea</i> and analysis of differential homoeolog gene expression influencing selection. <i>Nat. Genet.</i> 48, 1225&#x2013;1232. doi: 10.1038/ng.3657</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/27595476/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1038/ng.3657" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=J.+Yang&amp;author=D.+Liu&amp;author=X.+Wang&amp;author=C.+Ji&amp;author=F.+Cheng&amp;author=B.+Liu&amp;publication_year=2016&amp;title=The%20genome%20sequence%20of%20allopolyploid%20Brassica%20juncea%20and%20analysis%20of%20differential%20homoeolog%20gene%20expression%20influencing%20selection&amp;journal=Nat.+Genet.&amp;volume=48&amp;pages=1225" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B68" id="B68"></a> Yang, Z. (2007). PAML 4: Phylogenetic Analysis by Maximum Likelihood. <i>Mol. Biol. Evol.</i> 24, 1586&#x2013;1591. doi: 10.1093/molbev/msm088</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/17483113/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/molbev/msm088" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=Z.+Yang&amp;publication_year=2007&amp;title=PAML%204%3A%20Phylogenetic%20Analysis%20by%20Maximum%20Likelihood&amp;journal=Mol.+Biol.+Evol.&amp;volume=24&amp;pages=1586" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B69" id="B69"></a> Yuan, H., Liu, D. (2012). Functional disruption of the pentatricopeptide protein SLG1 affects mitochondrial RNA editing, plant development, and responses to abiotic stresses in Arabidopsis. <i>Plant J.</i> 70, 432&#x2013;444. doi: 10.1111/j.1365-313X.2011.04883.x</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/22248025/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1111/j.1365-313X.2011.04883.x" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=H.+Yuan&amp;author=D.+Liu&amp;publication_year=2012&amp;title=Functional%20disruption%20of%20the%20pentatricopeptide%20protein%20SLG1%20affects%20mitochondrial%20RNA%20editing%2C%20plant%20development%2C%20and%20responses%20to%20abiotic%20stresses%20in%20Arabidopsis&amp;journal=Plant+J.&amp;volume=70&amp;pages=432" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B70" id="B70"></a> Zerbino, D. R., Birney, E. (2008). Velvet: algorithms for de novo short read assembly using de Bruijn graphs. <i>Genome Res.</i> 18, 821&#x2013;829. doi: 10.1101/gr.074492.107</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/18349386/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1101/gr.074492.107" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=D.%20R.+Zerbino&amp;author=E.+Birney&amp;publication_year=2008&amp;title=Velvet%3A%20algorithms%20for%20de%20novo%20short%20read%20assembly%20using%20de%20Bruijn%20graphs&amp;journal=Genome+Res.&amp;volume=18&amp;pages=821" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B71" id="B71"></a> Zhang, X., Gou, M., Liu, C. J. (2013). Arabidopsis Kelch Repeat F-Box Proteins Regulate Phenylpropanoid Biosynthesis via Controlling the Turnover of Phenylalanine Ammonia-Lyase. <i>Plant Cell.</i> 25, 4994&#x2013;5010. doi: 10.1105/tpc.113.119644</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/24363316/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1105/tpc.113.119644" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=X.+Zhang&amp;author=M.+Gou&amp;author=C.%20J.+Liu&amp;publication_year=2013&amp;title=Arabidopsis%20Kelch%20Repeat%20F-Box%20Proteins%20Regulate%20Phenylpropanoid%20Biosynthesis%20via%20Controlling%20the%20Turnover%20of%20Phenylalanine%20Ammonia-Lyase&amp;journal=Plant+Cell.&amp;volume=25&amp;pages=4994" target="_blank">Google Scholar</a></p></div><div class="References" style="margin-bottom:0.5em;"><p class="ReferencesCopy1"><a name="B72" id="B72"></a> Zhu, Q., Dugardeyn, J., Zhang, C., M&#xfc;hlenbock, P., Eastmond, P. J., Valcke, R., et al. (2014). The <i>Arabidopsis thaliana</i> RNA editing factor SLO2, which affects the mitochondrial electron transport chain, participates in multiple stress and hormone responses. <i>Mol. Plant</i> 7, 290&#x2013;310. doi: 10.1093/mp/sst102</p><p class="ReferencesCopy2"><a href="https://pubmed.ncbi.nlm.nih.gov/23990142/" target="_blank">PubMed Abstract</a> | <a href="https://doi.org/10.1093/mp/sst102" target="_blank">CrossRef Full Text</a> | <a href="http://scholar.google.com/scholar_lookup?author=Q.+Zhu&amp;author=J.+Dugardeyn&amp;author=C.+Zhang&amp;author=P.+M%C3%BChlenbock&amp;author=P.%20J.+Eastmond&amp;author=R.+Valcke&amp;publication_year=2014&amp;title=The%20Arabidopsis%20thaliana%20RNA%20editing%20factor%20SLO2%2C%20which%20affects%20the%20mitochondrial%20electron%20transport%20chain%2C%20participates%20in%20multiple%20stress%20and%20hormone%20responses&amp;journal=Mol.+Plant&amp;volume=7&amp;pages=290" target="_blank">Google Scholar</a></p></div></div><div class="thinLineM20"></div><div class="AbstractSummary"><p><span>Keywords:</span> Brassicales, evolution, genomics, magnesium transporters, <i>Microthlaspi erraticu</i>m</p><p><span>Citation:</span> Mishra B, Ploch S, Runge F, Schmuker A, Xia X, Gupta DK, Sharma R and Thines M (2020) The Genome of <i>Microthlaspi erraticum</i> (Brassicaceae) Provides Insights Into the Adaptation to Highly Calcareous Soils. <i>Front. Plant Sci.</i> 11:943. doi: 10.3389/fpls.2020.00943</p><p id="timestamps"><span>Received:</span> 13 March 2020; <span>Accepted:</span> 10 June 2020;<br/><span>Published:</span> 03 July 2020.</p><div><p>Edited by:</p><a href="https://loop.frontiersin.org/people/392035">Nunzio D&#x2019;Agostino</a>, University of Naples Federico II, Italy</div><div><p>Reviewed by:</p><a href="https://loop.frontiersin.org/people/44547">Neil Graham</a>, University of Nottingham, United Kingdom<br/><a href="https://loop.frontiersin.org/people/470710">Thomas D. Alcock</a>, University of Nottingham, United Kingdom</div><p><span>Copyright</span> &#xa9; 2020 Mishra, Ploch, Runge, Schmuker, Xia, Gupta, Sharma and Thines. This is an open-access article distributed under the terms of the <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution License (CC BY)</a>. The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.</p><p><span>*Correspondence:</span> Marco Thines, <a href="mailto:m.thines@thines-lab.eu">m.thines@thines-lab.eu</a></p><div class="clear"></div></div>                
+                <div class="thin-line-dark"></div>
+                    <div class="social-feed"></div>
+                    <div class="container-bordered comment-list social-feed">
+                        <div class="container-comments">                           
+                        </div>
+
+                        <div class="loading-wrapper" style="padding-left: 49%">
+                            <img style="padding-top: 5%; padding-bottom: 5%;" src="/areas/research-topics/Content/Images/frontiers/common/icon/loading.gif" alt="Loading.." />
+                        </div>                       
+                    </div>
+
+            </div>
+        </div>
+    </div>
+</main>
+
+            <div class="clearfix visible-sm"></div>
+
+            
+    <div class="c col-xs-12 col-sm-12 col-lg-2 col-md-3 pull-right side-article related right-container-articles" style="clear: right !important">
+        
+        <article class="widget-listing commentary-article hidden">
+            <h5 class="like-h4">COMMENTARY</h5>
+        </article>
+
+        <article class="widget-listing original-article hidden">
+            <h5 class="like-h4">ORIGINAL ARTICLE</h5>
+        </article>
+
+        <article class="widget-listing people-also-looked-at side-article-related hidden">
+            <h5 class="like-h4">People also looked at</h5>
+        </article>
+            <div class="side-article-mrk clearfix hidden-md hidden-lg">
+                <p style="text-align: center;"><a href="https://spotlight.frontiersin.org/submit?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=rtlg_2020_gen"><img src="https://3718aeafc638f96f5bd6-d4a9ca15fc46ba40e71f94dec0aad28c.ssl.cf1.rackcdn.com/article-marketing-message-79982763-254d-4bb6-96b8-126758de1166.png" alt="" /><br /></a></p>
+<p style="text-align: center;"><a href="https://spotlight.frontiersin.org/submit?utm_source=fweb&amp;utm_medium=fjour&amp;utm_campaign=rtlg_2020_gen"><strong>Suggest a Research Topic &gt;</strong></a></p>
+            </div>
+
+
+    </div>
+
+
+        </div>
+    </div>
+</div>
+<div id="divTemplates">
+    <div class="modal fade modal-container impact-modal-container" data-backdrop="static" id="impactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+</div>
+
+
+
+
+
+    <div class="modal fade modal-container supplementary-modal-container"
+     data-backdrop="static"
+     data-keyboard="false"
+     id="supplementaryFilesModal"
+     tabindex="-1" role="dialog"
+     aria-labelledby="mySupplementaryModalLabel"
+     aria-hidden="true">
+</div>
+
+
+
+
+<script type="text/template" id="template-supplementary-files-modal">
+    <div class="supplementary-material-wrapper modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <a class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a>
+                <h4>Supplementary Material</h4><br>
+                <p class="supplementary-empty-message">There is no supplementary material currently available for this article</p>
+                <div class="loading-wrapper"
+                     id="loader"
+                     style="display:none">
+                    Loading supplemental data...
+                    <img style="" src="/Areas/Articles/Images/Icon/loading.gif" alt="Loading.." />
+                </div>
+                <br />
+                <div class="table-responsive" id="localFiles">
+                </div>
+                <div id="figshare-widget-container">
+
+                </div>
+            </div>
+            <br />
+            <div class="modal-footer bottom-links">
+                <a class="btn btn-default" data-dismiss="modal">Close</a>
+            </div>
+        </div>
+
+    </div>
+</script>
+
+
+
+
+
+<script type="text/template" id="template-local-files-modal">
+    <table class="table table-striped supplementary-content" id="localFilesTable">
+        <thead>
+            <tr>
+                <th>&nbsp;</th>
+                <th>File Name</th>
+                <th>&nbsp;</th>
+            </tr>
+        </thead>
+        <tbody class="file-content">
+            <% _.each(supplimentalFileDetails.FileDetails, function(fileViewModel){   %>
+            <tr>
+                <th scope="row"><a data-test-id="<%= fileViewModel.TestId %>" href="<%= fileViewModel.FileDownloadUrl %>"><img class="img-figure" src="<%= fileViewModel.ImageUrl %>"></a></th>
+                <td>
+                    <a  href="<%= fileViewModel.FileDownloadUrl %>">
+                        <%= fileViewModel.FileName %>
+                    </a>
+                </td>
+                <td><a  href="<%= fileViewModel.FileDownloadUrl %>" class="btn-link"><i class="fa fa-download" aria-hidden="true"></i></a></td>
+            </tr>
+            <% }); %>
+        </tbody>
+    </table>
+</script>
+
+
+
+
+
+
+
+    <div class="modal fade modal-container notifyme-modal-container" data-backdrop="static" id="notifyModal" tabindex="-1" role="dialog" aria-labelledby="Notify on publication" aria-hidden="true">
+</div>
+
+
+
+<script type="text/template" id="template-notify-me-modal">
+    <div class="modal-f page-container simple-modal" role="dialog" aria-labelledby="NotfifyMeModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <form onsubmit="return false" id="modalnotifyme">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                            <h3>Notify me on publication</h3>
+                        </div>
+                        <div class="modal-body">
+
+                            <div class="form-group">
+                                <label>Please enter your email address:</label>
+                            <input type="email" required class="form-control" id="txt_notification_email_id" placeholder="Email">
+                            </div>
+
+                        <div class="g-recaptcha" id="recaptcha"></div><br />
+
+                        <p class="small" style="color: #555;">If you already have an account, please <a href="<%=login.FrontiersLoginUrl%>?returnUrl=<%=currentPage%>" class="text-blue">login</a>.</p>
+                        <p class="small" style="color: #555;">You don't have a Frontiers account ? You can <a href="<%=login.FrontiersRegistrationUrl%>" class="text-blue">register here</a>.</p>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" id="article_notify_non_registered_user" class="btn btn-default btn-progress" style="width: 118px; visibility:hidden;">Notify me</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+</script>
+
+<script type="text/template" id="template-notifyme-mailselection-modal">
+    <div class="modal-f page-container simple-modal" tabindex="-1" role="dialog" aria-labelledby="NotfifyMeModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h3>Select one of your emails</h3>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label>You have multiple emails registered with Frontiers:</label>
+                        </div>
+                                           
+                        <% _.each(userEmailList, function(user){   %>
+                        <input type="radio" value="<%=user%>" name="notify_Emailcollection"> <%=user%><br>
+                        <% }); %>
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="article_notify_loggedin_user" class="btn btn-default btn-progress" style="width: 118px;">Notify me</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</script>
+
+<script type="text/template" id="template_notifyme_error_modal">
+    <div class="modal-f page-container simple-modal" tabindex="-1" role="dialog" aria-labelledby="NotfifyMeModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h3>Notify me on publication</h3>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <p class="text-red"><strong><%=message%></strong></p>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" data-dismiss="modal" class="btn btn-default btn-progress" style="width: 118px;">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+
+
+
+
+
+
+
+    
+
+<script type="text/template" id="template-article-comments">
+
+    <div class="w100pc float_left CommentsHolder" id="div_article_comment_holder">
+        <% if(journalComments.Count !=0) { %>
+        <div id="divActivityBox" class="commentBox bubbleInfo " style="z-index: 300;">
+            <div class="float_left w100pc divActivityBox">
+                <p id="pAllUsers" class="pb0 float_left w581 pAllUsers">
+                    <a id="aAllUsers" href="javascript:void(0);" class="fontnormal trigger">
+                        <%- journalComments.Count %> Comments
+                    </a> <%= journalComments.CommentedUsers %>
+                </p>
+            </div>
+        </div>
+        <% } %>
+
+        <% _.each( journalComments.Comments, function( comment ){ %>
+
+        <div class="commentBox">
+
+            <% if (comment.IsDeleted) {%>
+
+            <div class="wrapper pt4 pb4">
+                <div class="imgHolder mr10"> <!--<a  class="fontnormal">--><img width="32" src="/Areas/Articles/Design/Images/default_profile_32.jpg" onerror="if (!this.src.endsWith('/Areas/Articles/Design/Images/default_profile_32.jpg')) this.src='/Areas/Articles/Design/Images/default_profile_32.jpg';" alt=""><!--</a>--></div>
+                <div class="content w555">
+                    <!-- <p class="mtm3" style='word-wrap:break-word'><a  class="fontnormal">User</a> </p>-->
+                    <p class="mtm3">User</p><ul class="toolbar mt4 disblk w100pc">
+                        <li class="pl0">
+                            <p class="date">Comment deleted on <%- GetFormattedCommentDeletedDate(comment.CommentedDate) %></p>
+                        </li>
+                        <li class="float_right pr0"></li>
+                    </ul>
+                </div>
+            </div>
+
+            <% } else {%>
+
+            <div class="wrapper pt4 pb4">
+                <div class="imgHolder mr10"> <a class="fontnormal" data-test-id="article_commenteduser_profileimage_link" href="<%- comment.CommentedUser.ProfileUrl %>"><img src="<%- comment.CommentedUser.ThumbnailUrl %>" onerror="if (!this.src.endsWith('/Areas/Articles/Images/Frontiers/Common/Profile/default_profile_32.jpg')) this.src='/Areas/Articles/Images/Frontiers/Common/Profile/default_profile_32.jpg';" alt=""></a></div>
+                <div class="content w555 comment-body">
+                    <p class="mtm3" style="word-wrap:break-word">
+                        <a class="fontnormal" data-test-id="article_commenteduser_profile_link" href="<%- comment.CommentedUser.ProfileUrl %>">
+                            <%- comment.CommentedUser.FullName %>
+                        </a>
+                        <span class="comment-text"><%= comment.Comment %></span>
+                    </p>
+                    <ul class="toolbar mt4 disblk w100pc">
+                        <li class="pl0"><p class="date"><%- GetFormattedCommentDate(comment.CommentedDate) %></p></li>
+                        <% if (comment.IsEditVisible)
+                        { %>
+                        <li>|</li>
+                        <li><a href="javascript:void(0);" data-test-id="article_comment_edit_link" class="fontnormal btn-edit-comment" id="btnEditcom" data-comment-id="<%- comment.CommentId %>">Edit</a></li>
+                        <% } %>
+                        <% if (comment.IsDeleteVisible)
+                        { %>
+                        <li>|</li>
+                        <li><a href="javascript:void(0);" data-test-id="article_comment_delete_link" class="fontnormal btn-delete-comment" id="btnDeletecom" data-comment-id="<%- comment.CommentId %>">Delete</a></li>
+                        <% }%>
+                        <li class="float_right pr0"></li>
+                    </ul>
+                </div>
+            </div>
+            <% }%>
+        </div>
+
+        <%  }); %>
+    </div>
+
+    <div id="div_add_comment" class="commentBox">
+        <div class="imgTn32"
+             style="display: none;">
+            <% if(journalComments.LoginUserId !=0) { %>
+            <img src="<%- journalComments.LoggedInUserInfo.ThumbnailUrl %>" alt=""
+                 onerror="if (!this.src.endsWith('/Areas/Articles/Images/Frontiers/Common/Profile/default_profile_32.jpg')) this.src='/Areas/Articles/Images/Frontiers/Common/Profile/default_profile_32.jpg';">
+            <% } else {%>
+            <img src="/Areas/Articles/Design/Images/default_profile_32.jpg" alt=""
+                 onerror="if (!this.src.endsWith('/Areas/Articles/Images/Frontiers/Common/Profile/default_profile_32.jpg')) this.src='/Areas/Articles/Images/Frontiers/Common/Profile/default_profile_32.jpg';">
+            <% }%>
+
+        </div>
+        <div class="wrapper pt4 pb4 wAuto">
+            <textarea onfocus="showUserImageOnAdd(this)"
+                      onblur="hideUserImage(this)"
+                      id="txt_comment"
+                      cols=""
+                      rows="1"
+                      style="overflow: hidden; word-wrap: break-word; resize: horizontal;"
+                      data-test-id="article_comment_add_textarea"
+                      class="write setfocus autoext w535 frUIResizeTextArea comment-textarea is-ui animated-resize grey_90">Write a comment...</textarea>
+        </div>
+        <div class="commentAddWrap">
+            <div>
+                <a class="addBtnComment" data-test-id="article_comment_add_button"  onclick="javascript:AddComments(this);" href="javascript:void(0);" id="btnAddcom"><span>Add</span></a>
+            </div>
+        </div>
+    </div>
+
+
+</script>
+
+<script type="text/template" id="template-article-comments-warning">
+    <div class="commentBox">
+        <div class="wrapper">
+            <p class="comment-warning">The comment section has been closed.</p>
+        </div>
+    </div>
+</script>
+
+<script type="text/template" id="template-article-edit-comments">
+
+
+    <div id="edit-comment-form" class="wrapper pt4 pb4 wAuto edit-comments">
+        <textarea class="txt-comment"
+                  onfocus="showUserImageOnEdit(this)"
+                  onblur="hideUserImage(this)"
+                  data-test-id="article_comment_edit_textarea"
+                  rows="3"><%= commentText %> </textarea>
+        <div>
+            <a class="btn btn-add-comment addBtnComment" data-test-id="article_comment_edit_button" data-comment-id="<%- commentId %>">Add</a>
+        </div>
+    </div>
+
+</script>
+
+
+
+</div>
+
+    </div>
+
+        <div data-navigation-plugin="footer"></div>
+        <script src="https://static.frontiersin.org/navigation-plugins/footer/js"></script>
+
+    <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+
+    <script src="/areas/articles/scripts/frontiers/common/frontiers.banners-1.0.js"></script>
+
+<script src="https://code.jquery.com/ui/1.10.2/jquery-ui.min.js"></script>
+<script src="https://crossmark.crossref.org/javascripts/v1.5/crossmark.min.js"></script>
+        <script type="text/javascript">
+
+            var $ = jQuery.noConflict(); //==>>ToDo: Avoid this..!!
+        </script>
+
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+    <script src="https://static.frontiersin.org/areas/articles/js/vendors?v=ygjL-ZM7HLAoWWjVcHqPBLlSjGooDB3IHD1kVXFmvmI1"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+ 
+<script src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
+    <script src="https://static.frontiersin.org/areas/articles/js/frontiers?v=4c3spupE-VFg577OoPHsSr4WEf6T5hs_2nCv5fPKVdA1"></script>
+
+
+    <script type="text/javascript">
+
+        var FRArticle = (function() {
+            return {
+                ArticleId: '542602',
+                DOI:'10.3389/fpls.2020.00943',
+                LoginUserId: '0',
+                DomainId: '1',
+                FieldId: '66',
+                SpecialityId: '1267',
+                IsPreview: FRSafe.boolean('False'),
+                IsViewImpactFromLoop: FRSafe.boolean('False'),
+                IsPublished: 'True',
+                FigShareApiUrl: 'https://api.figshare.com/v2/collections/search',
+                FigShareTimeOut: '3000'
+            };
+        })();
+
+        var FRSocial = (function() {
+            return {
+                itemId: 14,
+                itemTypeId: 1,
+                entityId: '542602',
+                ownerId: '795561',
+                sanPath: 'https://www.frontiersin.org/files/',
+                subItemId: '8',
+                loginUserId: '0',
+                ownerNWDBId: '22',
+                pageType: 1,
+                loopUrl:'https://loop.frontiersin.org'
+            };
+        })();
+    </script>
+
+    <script>
+        var FRAjaxSettings = (function () {
+
+            function urlLowercase() {
+                $.ajaxSetup({
+                    beforeSend: function (jqXHR, settings) {
+                        settings.url = settings.url.toLowerCase();
+                    }
+                });
+            }
+
+            return { urlLowercase: urlLowercase };
+        })();
+
+        FRAjaxSettings.urlLowercase();
+    </script>
+
+    <script src="https://static.frontiersin.org/areas/articles/js/schema?v=13am1aL5JpCh_IIFOIFRdlFySxVv16JLaVykDEyHCu81"></script>
+
+
+
+    
+    <script src="/areas/articles/js/app?v=UqywkE0AkDO6E3V0irIiBz8giFUKKVUi57o1J1h1S2g1"></script>
+
+    <script src="https://widgets.figshare.com/static/figshare.js"></script>
+
+
+    <script>
+        (function () {
+            console.log("Script executed after FigShareWidget");
+        })();
+    </script>
+
+</body>
+</html>
